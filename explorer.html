@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Explorateur — Forbin Dataset</title>
+  <style>
+    /* --- STYLE GLOBAL --- */
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f5ecdf;
+      color: #3e2f1c;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background-image: 
+        radial-gradient(rgba(255,255,255,0.5) 1px, transparent 1px),
+        linear-gradient(to bottom, #f7eee2, #efe3d0);
+      background-size: 6px 6px, 100% 100%;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Times New Roman', serif;
+      color: #3b2a16;
+    }
+
+    /* h1 {
+      text-align: center;
+      margin-top: 1.2em;
+      margin-bottom: 0.5em;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 2.6em;
+      text-shadow: 1px 1px 0 #fff, 2px 2px 0 #c9b39a;
+    } */
+
+    h2 {
+      color: #5c4630;
+      font-weight: normal;
+      margin-bottom: 0.6em;
+    }
+
+    .container {
+      max-width: 80%;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* --- LAYOUT PRINCIPAL --- */
+    .main-layout {
+      display: flex;
+      gap: 25px;
+      height: calc(100vh - 150px);
+      padding-bottom: 20px;
+    }
+
+    /* --- SIDEBAR --- */
+    .sidebar {
+      width: 360px;
+      min-width: 300px;
+      height: 100%;
+      background: #f0e4d2;
+      border: 1px solid #c9b39a;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      overflow-y: auto;
+    }
+
+    .sidebar p {
+      line-height: 1.5;
+    }
+
+    #search {
+      padding: 10px;
+      width: 100%;
+      margin: 10px 0 15px 0;
+      box-sizing: border-box;
+      border: 1px solid #c5b39b;
+      border-radius: 8px;
+      background-color: #fffaf5;
+      font-size: 0.95em;
+      color: #3e2f1c;
+      transition: border 0.3s;
+    }
+
+    #search:focus {
+      outline: none;
+      border-color: #a67c52;
+    }
+
+    .carton-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 15px;
+    }
+
+    .carton-item {
+      background: #d9c4a6;
+      color: #3e2f1c;
+      padding: 8px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.25s;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .carton-item:hover, .carton-item.active {
+      background: #a67c52;
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    /* --- GALLERY --- */
+    .gallery-item {
+      display: flex;
+      align-items: center;
+      background: #fffaf5;
+      border: 1px solid #e4d4bf;
+      border-radius: 10px;
+      margin-bottom: 8px;
+      padding: 8px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .gallery-item:hover, .gallery-item.active {
+      background: #f3e1c5;
+      border-color: #a67c52;
+    }
+
+    .gallery-item img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-right: 10px;
+      border: 1px solid #ccb89d;
+    }
+
+    .item-info {
+      font-size: 0.85em;
+      line-height: 1.3;
+    }
+
+    .item-info b {
+      display: block;
+      color: #5a422b;
+    }
+
+    .placeholder-text {
+      text-align: center;
+      color: #7b6b56;
+      margin-top: 40px;
+      font-style: italic;
+    }
+
+    .face-btn { 
+        border: none; 
+        padding: 5px 10px; 
+        border-radius: 4px; 
+        font-weight: bold; 
+        transition: background 0.2s, color 0.2s; 
+        cursor: pointer; 
+        background-color: #d9c4a6; /* beige clair par défaut */ 
+        color: black; 
+    } 
+        
+    .face-btn.active { 
+        background-color: #a67c52; /* sépia foncé si actif */ 
+        color: white; 
+    } 
+    
+    .face-btn:hover { 
+        background-color: #b8936a; /* marron clair au survol */ 
+    }
+
+    /* --- VISUALISEUR --- */
+    .visualizer {
+      flex-grow: 1;
+      background: #fefbf7;
+      border: 1px solid #c9b39a;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .image-viewer {
+      flex-grow: 1;
+      background: #f5f0ea;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      margin-bottom: 15px;
+      position: relative;
+      box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    }
+
+    #main-img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    #main-svg {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      cursor: grab;
+    }
+
+    #main-svg polygon {
+      fill: rgba(166, 124, 82, 0.18);
+      stroke: rgba(166, 124, 82, 0.9);
+      stroke-width: 2px;
+      transition: fill 0.15s ease, stroke 0.15s ease;
+    }
+
+    #main-svg polygon:hover {
+      fill: rgba(255, 210, 120, 0.35);
+      stroke: rgba(140, 90, 30, 0.95);
+      cursor: pointer;
+    }
+
+    .meta-panel {
+      background: #f9f4ec;
+      border-radius: 10px;
+      padding: 12px 15px;
+      border: 1px solid #d2c2ad;
+      font-size: 0.95em;
+      max-height: 150px;
+      overflow-y: auto;
+      box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .meta-panel h3 {
+      margin-top: 0;
+      color: #5c4630;
+      font-size: 1.1em;
+      border-bottom: 1px solid #d8c8b3;
+      padding-bottom: 5px;
+    }
+
+    /* --- TOOLTIP --- */
+    #tooltip {
+      position: fixed;
+      display: none;
+      background: rgba(60, 40, 20, 0.9);
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 0.9em;
+      z-index: 10003;
+      pointer-events: none;
+      max-width: 250px;
+    }
+
+    /* --- MEDIA QUERY --- */
+    @media (max-width: 900px) {
+      .main-layout {
+        flex-direction: column;
+        height: auto;
+      }
+      .sidebar {
+        width: 100%;
+        max-height: 45vh;
+      }
+      .visualizer {
+        width: 100%;
+      }
+      .image-viewer {
+        min-height: 300px;
+      }
+    }
+
+    /* --- FOOTER --- */
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #6e5a3f;
+      opacity: 0.8;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="main-layout">
+      <div class="sidebar">
+        <p>
+          List of boxes containing <strong id="total-count">0</strong> images.
+        </p>
+
+        <div id="carton-list" class="carton-list"></div>
+        <input id="search" placeholder="🔍 Research in metadata" />
+
+        <div id="gallery">
+          <p class="placeholder-text">Please select a box or serach </p>
+        </div>
+        <div id="pagination"></div>
+      </div>
+
+      <div class="visualizer" id="visualizer">
+        <div class="visualizer-header">
+          <h2 id="visualizer-title">Please select and image to display</h2>
+          <p id="visualizer-details"></p>
+        </div>
+
+        <div class="image-viewer">
+          <div id="img-wrapper">
+            <img id="main-img" alt="Image en cours d'affichage" />
+            <svg id="main-svg">
+              <g id="svg-g-group"></g>
+            </svg>
+          </div>
+        </div>
+
+        <div id="meta-data" class="meta-panel">
+          <h3>🔖 Métadonnées and Transcriptions</h3>
+          <div id="meta-content"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="tooltip"></div>
+  <footer>
+    © 2025 — Forbin Project | Archives & Vision Initiative<br>
+    Licensed under 
+    <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">
+        Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+    </a>
+</footer>
+    <script>
+        let data = [];
+        let grouped = {};
+        let currentCarton = null;
+        let currentImageId = null;
+        let currentPage = 1;
+        const perPage = 10;
+        
+        // Éléments DOM
+        const visualizer = document.getElementById("visualizer");
+        const imgEl = document.getElementById("main-img");
+        const svgEl = document.getElementById("main-svg");
+        const gGroup = document.getElementById('svg-g-group');
+        const tooltip = document.getElementById("tooltip");
+
+        // --- Variables globales pour le Zoom/Panoramique ---
+        let zoomScale = 1;
+        let panX = 0;
+        let panY = 0;
+        let isPanning = false;
+        let startPanX = 0;
+        let startPanY = 0;
+
+        async function loadData() {
+            // Chemin vers le fichier d'annotations
+            const response = await fetch("samples/subset.json");
+            const coco = await response.json();
+            data = coco["images"];
+            const anns = coco["annotations"];
+
+            // Logique d'association et de groupement (inchangée)
+            const annsByImage = {};
+            anns.forEach(a => {
+                if (!annsByImage[a.image_id]) annsByImage[a.image_id] = [];
+                annsByImage[a.image_id].push(a);
+            });
+            data.forEach(d => {
+                d.annotations = annsByImage[d.id] || [];
+            });
+
+            grouped = {};
+            data.forEach(d => {
+                const carton = d.metadata?.Carton || "Inconnu";
+                if (!grouped[carton]) grouped[carton] = [];
+                grouped[carton].push(d);
+            });
+
+            document.getElementById("total-count").textContent = data.length;
+            renderCartonList();
+        }
+
+        // --- Logique de Zoom/Panoramique ---
+        function zoomPanImage() {
+            if (gGroup) {
+                gGroup.setAttribute('transform', `translate(${panX}, ${panY}) scale(${zoomScale})`);
+                const polygons = gGroup.querySelectorAll('polygon');
+                const baseStroke = 2;
+                polygons.forEach(poly => {
+                    poly.style.strokeWidth = (baseStroke / zoomScale) + "px";
+                });
+            }
+        }
+
+        
+        function zoomPanWrapper() {
+            const wrapper = document.getElementById('img-wrapper');
+            wrapper.style.transform = `translate(${panX}px, ${panY}px) scale(${zoomScale})`;
+        }
+
+        function handleWheel(e) {
+    e.preventDefault();
+    const delta = e.deltaY * -0.001; // ✅ réduit un peu la sensibilité pour plus de douceur
+    const newZoom = Math.max(minZoom, Math.min(maxZoom, zoomScale + delta * zoomScale));
+    zoomScale = newZoom;
+    updateZoomPan();
+}
+
+        function handleMouseDown(e) {
+            if (e.button === 0) {
+                isPanning = true;
+                svgEl.style.cursor = 'grabbing';
+                startPanX = e.clientX - panX;
+                startPanY = e.clientY - panY;
+            }
+        }
+
+        function handleMouseMove(e) {
+            if (!isPanning) return;
+            panX = e.clientX - startPanX;
+            panY = e.clientY - startPanY;
+            updateZoomPan();
+        }
+
+        function handleMouseUp() {
+            isPanning = false;
+            svgEl.style.cursor = 'grab';
+        }
+
+        /* ✅ Fonction unifiée */
+        function updateZoomPan() {
+            // Appliquer la même transformation à l'image et aux polygones
+            const wrapper = document.getElementById('img-wrapper');
+            wrapper.style.transformOrigin = 'center center';
+            wrapper.style.transform = `translate(${panX}px, ${panY}px) scale(${zoomScale})`;
+            
+            // Ajuster les largeurs de trait selon le zoom
+            const polygons = gGroup.querySelectorAll('polygon');
+            const baseStroke = 2;
+            polygons.forEach(poly => {
+                poly.style.strokeWidth = (baseStroke / zoomScale) + "px";
+            });
+        }
+        // --- Logique de la Galerie et Rendu ---
+        
+        function renderCartonList() {
+            const list = document.getElementById("carton-list");
+            list.innerHTML = "";
+            Object.keys(grouped).sort().forEach(carton => {
+                const item = document.createElement("div");
+                item.className = "carton-item";
+                item.textContent = `${carton} (${grouped[carton].length})`;
+                if (carton === currentCarton) item.classList.add('active');
+                item.onclick = () => {
+                    document.querySelectorAll('.carton-item').forEach(el => el.classList.remove('active'));
+                    item.classList.add('active');
+                    document.getElementById("search").value = "";
+                    currentCarton = carton;
+                    currentPage = 1;
+                    renderGallery();
+                };
+                list.appendChild(item);
+            });
+        }
+
+        function renderGallery() {
+            const gallery = document.getElementById("gallery");
+            const pagination = document.getElementById("pagination");
+            gallery.innerHTML = "";
+            pagination.innerHTML = "";
+
+            if (!currentCarton && document.getElementById("search").value.trim() === "") {
+                gallery.innerHTML = `<p class="placeholder-text">Sélectionnez un carton ou recherchez une image.</p>`;
+                return;
+            }
+            
+            const searchTerm = document.getElementById("search").value.toLowerCase().trim();
+            let filtered = [];
+
+            if (searchTerm === "") {
+                if (currentCarton) {
+                    filtered = grouped[currentCarton];
+                } else {
+                    return;
+                }
+            } else {
+                filtered = data.filter(d =>
+                    JSON.stringify(d.metadata).toLowerCase().includes(searchTerm) ||
+                    d.annotations.some(a => (a.text || "").toLowerCase().includes(searchTerm))
+                );
+            }
+
+            if (filtered.length === 0) {
+                gallery.innerHTML = `<p class="placeholder-text">Aucun résultat trouvé pour votre recherche.</p>`;
+                return;
+            }
+
+            const totalPages = Math.ceil(filtered.length / perPage);
+            const start = (currentPage - 1) * perPage;
+            const end = start + perPage;
+            const pageItems = filtered.slice(start, end);
+
+            pageItems.forEach(d => {
+                const item = document.createElement("div");
+                item.className = `gallery-item ${d.id === currentImageId ? 'active' : ''}`;
+                
+                // Chemin d'image pour la vignette
+                const imgSrc = d.file_names.recto ? `samples/images/${d.file_names.recto}` : '';
+                
+                item.innerHTML = `
+                    <img src="${imgSrc}" alt="Vignette"/>
+                    <div class="item-info">
+                        <b>ID: ${d.id}</b>
+                        <span>Pays: ${d.metadata.Pays || 'N/A'}</span>
+                        <span>Annots: ${d.annotations.length}</span>
+                    </div>
+                `;
+                
+                item.onclick = () => { 
+                    document.querySelectorAll('.gallery-item').forEach(el => el.classList.remove('active'));
+                    item.classList.add('active');
+                    currentImageId = d.id;
+                    
+                    // Afficher le recto par défaut
+                    displayImageInVisualizer(d, "recto"); 
+                };
+                gallery.appendChild(item);
+            });
+
+            for (let i = 1; i <= totalPages; i++) {
+                const btn = document.createElement("button");
+                btn.textContent = i;
+                if (i === currentPage) btn.classList.add("active");
+                btn.onclick = () => { currentPage = i; renderGallery(); };
+                pagination.appendChild(btn);
+            }
+        }
+
+        // --- Fonction d'Affichage dans le Visualisateur ---
+function displayImageInVisualizer(imageData, face) {
+    // Nettoyage et reset du Zoom/Pan
+    svgEl.removeEventListener('wheel', handleWheel);
+    svgEl.removeEventListener('mousedown', handleMouseDown);
+    svgEl.removeEventListener('mousemove', handleMouseMove);
+    svgEl.removeEventListener('mouseup', handleMouseUp);
+    svgEl.style.cursor = 'default';
+
+    zoomScale = 1;
+    panX = 0;
+    panY = 0;
+    gGroup.innerHTML = '';
+    imgEl.onload = null;
+
+    // 1. Mettre à jour la source de l'image
+    imgEl.src = `samples/images/${imageData.file_names[face]}`;
+    document.getElementById("visualizer-title").textContent = `Affichage de l'Image ID: ${imageData.id}`;
+
+    // Boutons recto/verso
+    const currentItem = data.find(d => d.id === imageData.id);
+    const versoBtn = currentItem.file_names.verso ? `
+      <button 
+        class="face-btn ${face === 'verso' ? 'active' : ''}" 
+        onclick="displayImageInVisualizer(data.find(d => d.id === ${currentItem.id}), 'verso')"
+      >Verso</button>` : '';
+
+    const rectoBtn = currentItem.file_names.recto ? `
+      <button 
+        class="face-btn ${face === 'recto' ? 'active' : ''}" 
+        onclick="displayImageInVisualizer(data.find(d => d.id === ${currentItem.id}), 'recto')"
+      >Recto</button>` : '';
+
+    document.getElementById("visualizer-details").innerHTML = `Face: <b>${face.toUpperCase()}</b>. ${rectoBtn} ${versoBtn}`;
+
+    // 2. Logique d'affichage et d'annotation
+    const setupSVG = () => {
+        const natW = imgEl.naturalWidth;
+        const natH = imgEl.naturalHeight;
+        const visualizer = document.getElementById("main-img");
+        const wrapper = document.getElementById('img-wrapper');
+
+        const containerW = visualizer.clientWidth;
+        const containerH = visualizer.clientHeight;
+
+        // 🔹 Calcul du zoom initial pour que l'image tienne dans le conteneur
+        const scaleX = containerW / natW;
+        const scaleY = containerH / natH;
+        zoomScale = Math.min(scaleX, scaleY, 1);
+        minZoom = 0.1;
+        maxZoom = 5;
+
+        // 🔹 Centrer l’image
+        panX = (containerW - natW * zoomScale) / 2;
+        panY = (containerH - natH * zoomScale) / 2;
+
+        // Applique le zoom initial de manière fluide
+wrapper.style.transition = "transform 0.3s ease";
+updateZoomPan();
+
+// Supprime la transition après la première application (pour que le zoom reste fluide ensuite)
+setTimeout(() => {
+    wrapper.style.transition = "none";
+}, 300);
+
+        // Taille SVG = taille de l’image native (coordonnées polygones)
+        svgEl.setAttribute('viewBox', `0 0 ${natW} ${natH}`);
+        svgEl.style.width = containerW + "px";
+        svgEl.style.height = containerH + "px";
+
+        // Rattacher les événements de zoom/pan
+        svgEl.addEventListener('wheel', handleWheel);
+        svgEl.addEventListener('mousedown', handleMouseDown);
+        svgEl.addEventListener('mousemove', handleMouseMove);
+        svgEl.addEventListener('mouseup', handleMouseUp);
+        svgEl.style.cursor = 'grab';
+
+        // 🔹 Dessiner les annotations
+        const anns = (imageData.annotations || []).filter(a => (a.source_face || "").toLowerCase() === face.toLowerCase());
+        anns.forEach(ann => {
+            const segs = Array.isArray(ann.segmentation) ? ann.segmentation : [];
+            segs.forEach(seg => {
+                if (!seg || seg.length < 4) return;
+                const pointsString = seg.reduce((acc, val, i, arr) => {
+                    if (i % 2 === 0) acc += `${val},${arr[i + 1]} `;
+                    return acc;
+                }, '').trim();
+
+                const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+                polygon.setAttribute('points', pointsString);
+                polygon.style.stroke = "#d1a25c";
+                polygon.style.strokeWidth = "2px";
+                polygon.style.fill = "rgba(209, 162, 92, 0.25)";
+                polygon.dataset.text = ann.text || "(sans transcription)";
+
+                polygon.onmouseenter = (e) => {
+                    tooltip.style.display = "block";
+                    tooltip.textContent = polygon.dataset.text;
+
+                    const pad = 12;
+                    let left = e.pageX + pad;
+                    let top = e.pageY + pad;
+
+                    const rectTooltip = tooltip.getBoundingClientRect();
+                    if (left + rectTooltip.width > window.innerWidth - pad) {
+                        left = e.pageX - rectTooltip.width - pad;
+                    }
+                    if (top + rectTooltip.height > window.innerHeight - pad) {
+                        top = e.pageY - rectTooltip.height - pad;
+                    }
+
+                    tooltip.style.left = Math.max(pad, left) + "px";
+                    tooltip.style.top = Math.max(pad, top) + "px";
+                };
+
+                polygon.onmouseleave = () => {
+                    tooltip.style.display = "none";
+                };
+
+                gGroup.appendChild(polygon);
+            });
+        });
+
+        updateZoomPan();
+    };
+
+    // Gestion du chargement
+    imgEl.onload = () => {
+        requestAnimationFrame(setupSVG);
+    };
+    if (imgEl.complete && imgEl.naturalWidth !== 0) {
+        requestAnimationFrame(setupSVG);
+    }
+
+    // 3. Metadonnées
+    let metaContent = `<b>Nom de Fichier (${face})</b>: ${imageData.file_names[face] || "N/A"}<br>`;
+    metaContent += Object.entries(imageData.metadata)
+        .map(([k, v]) => `<b>${k}</b>: ${v}`)
+        .join("<br>");
+
+    const allTexts = imageData.annotations.map(a => a.text).filter(t => t && t.trim() !== "");
+    if (allTexts.length > 0) {
+        metaContent += `<br><br><b>Toutes Transcriptions Annotations:</b><br>${allTexts.join(' / ')}`;
+    }
+
+    document.getElementById("meta-content").innerHTML = metaContent;
+}
+
+
+        document.getElementById("search").addEventListener("input", () => {
+            currentPage = 1;
+            renderGallery();
+        });
+
+        loadData();
+    </script>
+</body>
+</html>

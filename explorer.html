@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Explorateur — Forbin Dataset</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <style>
     /* --- STYLE GLOBAL --- */
     body {
@@ -312,13 +313,13 @@
 
       <div class="visualizer" id="visualizer">
         <div class="visualizer-header">
-          <h2 id="visualizer-title">Please select and image to display</h2>
+          <h2 id="visualizer-title">Please select an image to display</h2>
           <p id="visualizer-details"></p>
         </div>
 
         <div class="image-viewer">
           <div id="img-wrapper">
-            <img id="main-img" alt="Image en cours d'affichage" />
+            <img id="main-img" alt="Please select an image to display" />
             <svg id="main-svg">
               <g id="svg-g-group"></g>
             </svg>
@@ -326,7 +327,7 @@
         </div>
 
         <div id="meta-data" class="meta-panel">
-          <h3>🔖 Métadonnées and Transcriptions</h3>
+          <h3>🔖 Metadata and Transcriptions</h3>
           <div id="meta-content"></div>
         </div>
       </div>
@@ -566,7 +567,7 @@ function displayImageInVisualizer(imageData, face) {
 
     // 1. Mettre à jour la source de l'image
     imgEl.src = `samples/images/${imageData.file_names[face]}`;
-    document.getElementById("visualizer-title").textContent = `Affichage de l'Image ID: ${imageData.id}`;
+    document.getElementById("visualizer-title").textContent = `Image ID: ${imageData.id}`;
 
     // Boutons recto/verso
     const currentItem = data.find(d => d.id === imageData.id);
@@ -684,14 +685,14 @@ setTimeout(() => {
     }
 
     // 3. Metadonnées
-    let metaContent = `<b>Nom de Fichier (${face})</b>: ${imageData.file_names[face] || "N/A"}<br>`;
+    let metaContent = `<b>Filename (${face})</b>: ${imageData.file_names[face] || "N/A"}<br>`;
     metaContent += Object.entries(imageData.metadata)
         .map(([k, v]) => `<b>${k}</b>: ${v}`)
         .join("<br>");
 
     const allTexts = imageData.annotations.map(a => a.text).filter(t => t && t.trim() !== "");
     if (allTexts.length > 0) {
-        metaContent += `<br><br><b>Toutes Transcriptions Annotations:</b><br>${allTexts.join(' / ')}`;
+        metaContent += `<br><br><b>All Annotated Transcriptions:</b><br>${allTexts.join(' / ')}`;
     }
 
     document.getElementById("meta-content").innerHTML = metaContent;

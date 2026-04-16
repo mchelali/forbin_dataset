@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Cartographie historique – Voyageurs du Monde</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
+    <!-- <script src="https://unpkg.com/@mapbox/mapbox-gl-rtl-text@0.2.3/mapbox-gl-rtl-text.js"></script> -->
+    <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+    <script src="https://unpkg.com/@openhistoricalmap/maplibre-gl-dates@1.3.0/index.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="map-page">
+
+  <div class="container">
+    <!-- <header class="page-heading">
+      <h1>Cartographie historique</h1>
+      <p>Visualisez l’Open Historical Map et explorez les trajets des voyageurs.</p>
+    </header> -->
+
+    <div class="main-layout">
+      <aside class="sidebar">
+        <div id="leftPanel" class="left-panel hidden">
+          <div class="left-header">
+            <span id="leftTitle">Voyageur</span>
+            <div class="ornament">✦ ✦ ✦</div>
+            <button id="closeLeftPanel">✕</button>
+          </div>
+
+          <div id="leftContent">
+            <p>Sélectionnez un voyageur pour afficher les détails.</p>
+          </div>
+        </div>
+      </aside>
+
+      <main class="visualizer map-panel">
+        <!-- <div class="visualizer-header map-header">
+          <h2>Carte Open Historical Map</h2>
+          <p>Style historique ouvert avec les trajets des voyageurs.</p>
+        </div> -->
+
+        <div id="map" class="map-canvas">
+          <svg id="compass" width="120" height="120" viewBox="0 0 70 70">
+
+            <!-- Flèches PLUS COURTES -->
+            <polygon points="36,10 39,28 36,25 33,28" fill="#3d2010"/>
+            <polygon points="36,62 39,44 36,47 33,44" fill="#3d2010" opacity="0.45"/>
+            <polygon points="10,36 28,39 25,36 28,33" fill="#3d2010" opacity="0.45"/>
+            <polygon points="62,36 44,39 47,36 44,33" fill="#3d2010" opacity="0.45"/>
+
+            <!-- Axes ajustés -->
+            <line x1="36" y1="10" x2="36" y2="62" stroke="#3d2010" stroke-width="0.5" opacity="0.3"/>
+            <line x1="10" y1="36" x2="62" y2="36" stroke="#3d2010" stroke-width="0.5" opacity="0.3"/>
+
+            <!-- Centre -->
+            <circle cx="36" cy="36" r="7" fill="none" stroke="#3d2010" stroke-width="1.5"/>
+            <circle cx="36" cy="36" r="2.5" fill="#3d2010"/>
+
+            <!-- Lettres mieux placées -->
+            <text x="36" y="6" text-anchor="middle" font-size="10" fill="#3d2010" font-family="serif" font-weight="bold">N</text>
+            <text x="36" y="70" text-anchor="middle" font-size="9" fill="#3d2010" font-family="serif" opacity="0.7">S</text>
+            <text x="6"  y="39" text-anchor="middle" font-size="9" fill="#3d2010" font-family="serif" opacity="0.7">O</text>
+            <text x="66" y="39" text-anchor="middle" font-size="9" fill="#3d2010" font-family="serif" opacity="0.7">E</text>
+
+          </svg>
+        </div>
+        <div id="map-loading"><span>Chargement du style…</span></div>
+
+        <div id="timeline" class="timeline">
+          <span id="dateLabel"></span>
+          <input type="range" id="dateSlider" min="-500" max="2026" step="5" value="1900">
+        </div>
+      </main>
+    </div>
+  </div>
+
+
+
+  <footer>
+    © 2025 — Forbin Project | Archives & Vision Initiative | ANR HIGH VISION (ANR-23-CE38-0001)<br>
+    Licensed under 
+    <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">
+        Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+    </a>
+</footer>
+  <script src="map.js"></script>
+  <script src="stamps.js"></script> 
+</body>
+</html>

@@ -35,26 +35,10 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 
 
-
-
-
-
-
     closeLeftPanelBtn.addEventListener("click", () => {
         leftPanel.classList.remove("active");
         map.easeTo({ padding: { left: 0 } });
     });
-
-
-    function hideBaseLabels() {
-        const layers = map.getStyle().layers || [];
-        layers.forEach(layer => {
-            const id = layer.id || "";
-            if (id.includes("boundary") || id.includes("admin") || id.includes("label") || id.includes("place") || id.includes("name")) {
-                map.setLayoutProperty(id, "visibility", "none");
-            }
-        });
-    }
 
     function applyDateFilter(year) {
         try {

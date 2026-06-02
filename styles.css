@@ -167,6 +167,22 @@ code {
     transform: translateY(-2px);
 }
 
+.small-action {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 8px;
+    background: #d9c4a6;
+    border: 1px solid #b69979;
+    color: #3e2f1c;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.small-action:hover {
+    background: #a67c52;
+    color: #fff;
+}
+
 footer {
     /* margin-top: auto; */
     padding: 10px;
@@ -217,6 +233,83 @@ body.explorer-page #main-svg {
 
 body.explorer-page #main-img {
     object-fit: contain;
+}
+
+body.explorer-page .explorer-tools {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+body.explorer-page .mode-switcher {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+body.explorer-page .mode-switcher a {
+    padding: 8px 10px;
+    border: 1px solid #c9b39a;
+    border-radius: 8px;
+    background: #fff7ef;
+    font-weight: bold;
+}
+
+body.explorer-page .mode-switcher a.active {
+    background: #a67c52;
+    color: #fff;
+}
+
+body.explorer-page .mode-note {
+    margin: 8px 0 12px;
+    color: #6b5439;
+    font-size: 0.92em;
+    line-height: 1.4;
+}
+
+body.explorer-page .prediction-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    color: #5a422b;
+}
+
+body.explorer-page .prediction-title {
+    font-weight: bold;
+}
+
+body.explorer-page .prediction-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border: 1px solid #d9c4a6;
+    border-radius: 999px;
+    background: #fff7ef;
+    cursor: pointer;
+}
+
+body.explorer-page .prediction-toggle input {
+    accent-color: var(--layer-color, #a67c52);
+}
+
+body.explorer-page .prediction-toggle span::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+    border-radius: 50%;
+    background: var(--layer-color, #a67c52);
+}
+
+body.explorer-page .remote-thumb {
+    background: linear-gradient(135deg, #eee2cf, #d9c4a6);
+    min-height: 80px;
 }
 
 body.map-page .container {

@@ -9,6 +9,55 @@ This GitHub version provides:
 - Archival metadata (Box ID, description, notes, dates when available)  
 - A lightweight **explorer interface** (HTML/JS) to preview images and annotations
 
+## Human-facing portal strategy
+
+The repository is designed as a lightweight public portal. Large files should stay
+on Hugging Face, while GitHub Pages provides a simple interface for browsing,
+searching, visualizing annotations, and showing model predictions.
+
+- Keep only representative samples in `samples/images`.
+- Keep heavy image archives on Hugging Face.
+- Configure remote image and download URLs in `config.js`.
+- Use `build_portal_manifests.py` to split a COCO file into carton-level JSON
+  manifests for faster browsing.
+- Expose predictions as optional visual layers, so non-technical users can turn
+  model outputs on and off from the explorer.
+- Match model predictions by `file_name` when prediction files and subset files
+  use different COCO `image_id` values.
+- Prototype remote cartons can be listed in `config.js` and loaded from Hugging
+  Face `.tar` archives through HTTP byte ranges.
+
+Note: loading images directly from `.tar` files is useful as a prototype, but it
+is slower than exposing individual images or thumbnails. For a production portal,
+prefer publishing web-ready images/thumbnails alongside the downloadable `.tar`
+archives.
+
+Example:
+
+```bash
+python3 build_portal_manifests.py --source samples/subset.json --output-dir data/portal
+```
+
+Build the full streaming manifests from the Hugging Face inference image index:
+
+```bash
+python3 build_stream_manifests.py \
+  --source data/forbin_infer_all.json \
+  --metadata-source forbin_all.json \
+  --detections-source data/forbin_detections.json \
+  --output-dir data/stream
+```
+
+The explorer supports two user-facing modes:
+
+- `explorer.html?mode=sample`: fast local subset hosted in GitHub.
+- `explorer.html?mode=stream`: full dataset, loaded carton by carton from
+  Hugging Face `.tar` archives.
+
+In stream mode, carton manifests include metadata from `forbin_all.json`, and
+model predictions are split into carton-level files under `data/stream/predictions`
+so the browser only loads predictions for the selected carton.
+
 
 ## 📜 Dataset Description
 
@@ -59,4 +108,3 @@ Once published, the explorer will be available at: [https://mchelali.github.io/f
 
 This dataset originates from the personal archives of **Victor Forbin**, digitized and curated by the *High Vision Project – Archives & Vision Initiative*.  
 All annotation and data processing work was performed by the project contributors.
-

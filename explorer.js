@@ -3,10 +3,22 @@
 let data = [];
 let grouped = {};
 let annsByImage = {};
+let predictionSources = {};
+let predictionsBySource = {};
+let predictionImageMapsBySource = {};
+let loadedPredictionCartonsBySource = {};
+let tarIndexCache = {};
+let objectUrls = [];
+let streamCartons = [];
+let streamCartonEntries = {};
+let loadedStreamCartons = {};
 let currentCarton = null;
 let currentImageId = null;
+let currentImageData = null;
+let currentFace = "recto";
 let currentPage = 1;
 const PER_PAGE = 10;
+const CONFIG = window.FORBIN_CONFIG ?? {};
 
 // ─── DOM refs (resolved once) ─────────────────────────────────────────────────
 
@@ -19,6 +31,11 @@ const paginationEl = document.getElementById("pagination");
 const cartonListEl = document.getElementById("carton-list");
 const searchEl = document.getElementById("search");
 const wrapperEl = document.getElementById("img-wrapper");
+const predictionControlsEl = document.getElementById("prediction-controls");
+const downloadCartonEl = document.getElementById("download-carton");
+const modeNoteEl = document.getElementById("mode-note");
+const sampleModeLinkEl = document.getElementById("sample-mode-link");
+const streamModeLinkEl = document.getElementById("stream-mode-link");
 
 // ─── Zoom / Pan state ─────────────────────────────────────────────────────────
 
@@ -32,10 +49,59 @@ const MAX_ZOOM = 5;
 // ─── Data loading ─────────────────────────────────────────────────────────────
 
 async function loadData() {
-    const response = await fetch("samples/subset.json");
+    setModeUI();
+    if (getDatasetMode() === "stream") {
+        await loadStreamIndex();
+    } else {
+        await loadSampleDataset();
+    }
+    setupPredictionControls();
+    renderCartonList();
+}
+
+function getDatasetMode() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get("mode") ?? CONFIG.mode ?? "sample";
+}
+
+function setModeUI() {
+    const mode = getDatasetMode();
+    sampleModeLinkEl?.classList.toggle("active", mode !== "stream");
+    streamModeLinkEl?.classList.toggle("active", mode === "stream");
+    if (!modeNoteEl) return;
+    modeNoteEl.textContent = mode === "stream"
+        ? "Mode complet : les images sont extraites à la demande depuis les archives tar Hugging Face."
+        : "Mode subset : navigation rapide sur les images incluses dans GitHub.";
+}
+
+async function loadSampleDataset() {
+    const response = await fetch(CONFIG.datasetUrl ?? "samples/subset.json");
     const coco = await response.json();
-    data = coco.images;
-    const anns = coco.annotations;
+    prepareCocoDataset(coco);
+    document.getElementById("total-count").textContent = data.length;
+}
+
+async function loadStreamIndex() {
+    const response = await fetch(CONFIG.streamIndexUrl);
+    const index = await response.json();
+    streamCartons = index.cartons ?? [];
+    streamCartonEntries = {};
+    loadedStreamCartons = {};
+    data = [];
+    grouped = {};
+    annsByImage = {};
+
+    for (const entry of streamCartons) {
+        streamCartonEntries[entry.carton] = entry;
+    }
+
+    const totalImages = streamCartons.reduce((total, entry) => total + (entry.images ?? 0), 0);
+    document.getElementById("total-count").textContent = totalImages;
+}
+
+function prepareCocoDataset(coco) {
+    data = coco.images ?? [];
+    const anns = coco.annotations ?? [];
 
     // Index annotations by image_id once
     annsByImage = {};
@@ -55,9 +121,6 @@ async function loadData() {
         const carton = d.metadata?.Carton ?? "Inconnu";
         (grouped[carton] ??= []).push(d);
     }
-
-    document.getElementById("total-count").textContent = data.length;
-    renderCartonList();
 }
 
 /** Pre-compute a lower-case searchable string per image (called once on load). */
@@ -143,18 +206,27 @@ svgEl.addEventListener("mouseup", () => interactionEnabled && handleMouseUp());
 function renderCartonList() {
     cartonListEl.innerHTML = "";
     const fragment = document.createDocumentFragment();
+    const cartons = getDatasetMode() === "stream"
+        ? streamCartons.map(entry => ({ name: entry.carton, count: entry.images }))
+        : Object.keys(grouped).sort().map(carton => ({ name: carton, count: grouped[carton].length }));
 
-    for (const carton of Object.keys(grouped).sort()) {
+    for (const { name: carton, count } of cartons) {
         const item = document.createElement("div");
         item.className = "carton-item" + (carton === currentCarton ? " active" : "");
-        item.textContent = `${carton} (${grouped[carton].length})`;
+        item.textContent = `${carton} (${count})`;
 
-        item.addEventListener("click", () => {
+        item.addEventListener("click", async () => {
             cartonListEl.querySelector(".active")?.classList.remove("active");
             item.classList.add("active");
             searchEl.value = "";
             currentCarton = carton;
             currentPage = 1;
+            updateDownloadLink();
+            if (getDatasetMode() === "stream") {
+                item.textContent = `${carton} — chargement…`;
+                await loadStreamCarton(carton);
+                item.textContent = `${carton} (${count})`;
+            }
             renderGallery();
         });
 
@@ -163,12 +235,188 @@ function renderCartonList() {
     cartonListEl.appendChild(fragment);
 }
 
+async function loadStreamCarton(carton) {
+    if (loadedStreamCartons[carton]) return;
+    const entry = streamCartonEntries[carton];
+    if (!entry) return;
+
+    const manifestUrl = `${CONFIG.streamManifestBaseUrl ?? ""}${entry.manifest}`;
+    const response = await fetch(manifestUrl);
+    const coco = await response.json();
+    const images = coco.images ?? [];
+    const annotations = coco.annotations ?? [];
+
+    const annotationsByImage = {};
+    for (const annotation of annotations) {
+        (annotationsByImage[annotation.image_id] ??= []).push(annotation);
+    }
+
+    for (const image of images) {
+        image.annotations = annotationsByImage[image.id] ?? [];
+        image._searchCache = buildSearchCache(image);
+    }
+
+    grouped[carton] = images;
+    loadedStreamCartons[carton] = true;
+}
+
+async function loadActiveStreamPredictions(imageData = currentImageData) {
+    if (getDatasetMode() !== "stream" || !imageData) return;
+    const activeSources = Object.values(predictionSources).filter(source => source.active);
+    for (const source of activeSources) {
+        if (!source.streamByCarton) continue;
+        await loadPredictionCarton(source, getCartonFromImage(imageData));
+    }
+}
+
+function getActiveImageBaseUrl() {
+    const mode = getDatasetMode();
+    return mode === "full" ? CONFIG.fullDataset?.imageBaseUrl : CONFIG.imageBaseUrl;
+}
+
+function getImageUrl(fileName) {
+    if (!fileName) return "";
+    if (/^https?:\/\//i.test(fileName)) return fileName;
+    return `${getActiveImageBaseUrl() ?? "samples/images/"}${fileName}`;
+}
+
+function getDefaultFace(imageData) {
+    if (imageData?.file_names?.recto) return "recto";
+    if (imageData?.file_names?.verso) return "verso";
+    return Object.keys(imageData?.file_names ?? {})[0] ?? "recto";
+}
+
+function getTarNameForFile(fileName, imageData) {
+    if (imageData?.remote_tar) return imageData.remote_tar;
+    const carton = fileName?.split("/")?.[0];
+    return carton ? `${carton}.tar` : null;
+}
+
+async function resolveImageSrc(fileName, imageData) {
+    const directUrl = getImageUrl(fileName);
+    if (!imageData?.remote_tar || !CONFIG.tarImageFallback?.enabled) return directUrl;
+
+    const tarName = getTarNameForFile(fileName, imageData);
+    if (!tarName) return directUrl;
+
+    const blob = await extractFileFromTar(tarName, fileName);
+    const objectUrl = URL.createObjectURL(blob);
+    objectUrls.push(objectUrl);
+    return objectUrl;
+}
+
+async function extractFileFromTar(tarName, fileName) {
+    const entry = await findTarEntry(tarName, fileName);
+    const bytes = await fetchTarRange(tarName, entry.start, entry.start + entry.size - 1);
+    return new Blob([bytes], { type: getMimeType(fileName) });
+}
+
+async function findTarEntry(tarName, fileName) {
+    const index = tarIndexCache[tarName] ??= {
+        entries: {},
+        scannedOffset: 0,
+        done: false,
+        lock: Promise.resolve()
+    };
+
+    const cachedEntry = findCachedTarEntry(index, fileName);
+    if (cachedEntry) return cachedEntry;
+
+    index.lock = index.lock.then(() => scanTarUntil(tarName, fileName, index));
+    return index.lock;
+}
+
+function findCachedTarEntry(index, fileName) {
+    return index.entries[fileName] ?? Object.entries(index.entries)
+        .find(([entryName]) => entryName.endsWith(`/${fileName}`))?.[1];
+}
+
+async function scanTarUntil(tarName, fileName, index) {
+    const alreadyCached = findCachedTarEntry(index, fileName);
+    if (alreadyCached) return alreadyCached;
+
+    while (!index.done) {
+        const header = await fetchTarRange(tarName, index.scannedOffset, index.scannedOffset + 511);
+        const name = readTarString(header, 0, 100);
+        const prefix = readTarString(header, 345, 155);
+        const fullName = prefix ? `${prefix}/${name}` : name;
+        if (!name) {
+            index.done = true;
+            break;
+        }
+
+        const sizeOctal = readTarString(header, 124, 12).trim();
+        const size = parseInt(sizeOctal || "0", 8);
+        const entry = {
+            name: fullName,
+            start: index.scannedOffset + 512,
+            size
+        };
+        index.entries[fullName] = entry;
+
+        if (fullName === fileName || fullName.endsWith(`/${fileName}`)) {
+            return entry;
+        }
+
+        index.scannedOffset = entry.start + Math.ceil(size / 512) * 512;
+    }
+
+    throw new Error(`Image introuvable dans ${tarName}: ${fileName}`);
+}
+
+async function fetchTarRange(tarName, start, end) {
+    const tarUrl = `${CONFIG.tarImageFallback.baseUrl}${tarName}?download=true`;
+    const response = await fetch(tarUrl, {
+        headers: {
+            Range: `bytes=${start}-${end}`
+        }
+    });
+
+    if (response.status !== 206) {
+        throw new Error(`Le serveur ne renvoie pas de plage byte-range pour ${tarName}`);
+    }
+
+    return new Uint8Array(await response.arrayBuffer());
+}
+
+function readTarString(header, start, length) {
+    let end = start;
+    while (end < start + length && header[end] !== 0) end++;
+    return new TextDecoder().decode(header.subarray(start, end));
+}
+
+function getMimeType(fileName) {
+    if (fileName.toLowerCase().endsWith(".png")) return "image/png";
+    if (fileName.toLowerCase().endsWith(".webp")) return "image/webp";
+    return "image/jpeg";
+}
+
+function getCartonFromImage(imageData) {
+    return imageData?.metadata?.Carton ?? imageData?.carton ?? "Inconnu";
+}
+
+function updateDownloadLink(imageData = currentImageData) {
+    const carton = currentCarton ?? getCartonFromImage(imageData);
+    if (!downloadCartonEl || !carton) return;
+    const baseUrl = CONFIG.downloadBaseUrl;
+    if (!baseUrl || carton === "Inconnu") {
+        downloadCartonEl.hidden = true;
+        return;
+    }
+    downloadCartonEl.hidden = false;
+    downloadCartonEl.href = `${baseUrl}${carton}.tar?download=true`;
+    downloadCartonEl.textContent = `Télécharger ${carton}`;
+}
+
 // ─── Gallery ──────────────────────────────────────────────────────────────────
 
 function getFilteredImages() {
     const term = searchEl.value.toLowerCase().trim();
     if (term === "") {
         return currentCarton ? grouped[currentCarton] : null;
+    }
+    if (getDatasetMode() === "stream") {
+        return currentCarton ? (grouped[currentCarton] ?? []).filter(d => d._searchCache.includes(term)) : null;
     }
     return data.filter(d => d._searchCache.includes(term));
 }
@@ -195,7 +443,9 @@ function renderGallery() {
 
     const galleryFrag = document.createDocumentFragment();
     for (const d of pageItems) {
-        const imgSrc = d.file_names.recto ? `samples/images/${d.file_names.recto}` : "";
+        const defaultFace = getDefaultFace(d);
+        const defaultFileName = d.file_names[defaultFace];
+        const imgSrc = d.remote_tar ? "" : getImageUrl(defaultFileName);
 
         const item = document.createElement("div");
         item.className = "gallery-item" + (d.id === currentImageId ? " active" : "");
@@ -211,8 +461,17 @@ function renderGallery() {
             galleryEl.querySelector(".gallery-item.active")?.classList.remove("active");
             item.classList.add("active");
             currentImageId = d.id;
-            displayImageInVisualizer(d, "recto");
+            displayImageInVisualizer(d, defaultFace);
         });
+
+        if (d.remote_tar && defaultFileName) {
+            const thumb = item.querySelector("img");
+            thumb.alt = "Chargement depuis le tar Hugging Face…";
+            thumb.classList.add("remote-thumb");
+            resolveImageSrc(defaultFileName, d)
+                .then(src => { thumb.src = src; })
+                .catch(() => { thumb.alt = "Aperçu indisponible"; });
+        }
 
         galleryFrag.appendChild(item);
     }
@@ -232,7 +491,10 @@ function renderGallery() {
 
 // ─── Visualizer ───────────────────────────────────────────────────────────────
 
-function displayImageInVisualizer(imageData, face) {
+async function displayImageInVisualizer(imageData, face) {
+    currentImageData = imageData;
+    currentFace = face;
+    updateDownloadLink(imageData);
     // Disable interaction while loading
     interactionEnabled = false;
     svgEl.style.cursor = "default";
@@ -246,7 +508,15 @@ function displayImageInVisualizer(imageData, face) {
     gGroup.innerHTML = "";
     imgEl.onload = null;
 
-    imgEl.src = `samples/images/${imageData.file_names[face]}`;
+    imgEl.alt = imageData.remote_tar ? "Chargement depuis le tar Hugging Face…" : "Image Forbin";
+    try {
+        imgEl.src = await resolveImageSrc(imageData.file_names[face], imageData);
+        await loadActiveStreamPredictions(imageData);
+    } catch (error) {
+        document.getElementById("visualizer-details").innerHTML =
+            `<b>Erreur de chargement</b> : ${error.message}`;
+        return;
+    }
     document.getElementById("visualizer-title").textContent = `Image ID: ${imageData.id}`;
 
     // Build face-switcher buttons without inline onclick / global lookups
@@ -296,6 +566,8 @@ function rebindFaceButtons(imageData, currentFace) {
 }
 
 function setupSVG(imageData, face) {
+    gGroup.innerHTML = "";
+
     const natW = imgEl.naturalWidth;
     const natH = imgEl.naturalHeight;
     const containerW = wrapperEl.clientWidth;
@@ -314,7 +586,7 @@ function setupSVG(imageData, face) {
 
     applyTransform();
 
-    // Draw annotations for this face
+    // Draw annotations and selected model predictions for this face
     const faceLower = face.toLowerCase();
     const anns = (imageData.annotations ?? []).filter(
         a => (a.source_face ?? "").toLowerCase() === faceLower
@@ -322,24 +594,25 @@ function setupSVG(imageData, face) {
 
     const frag = document.createDocumentFragment();
     for (const ann of anns) {
-        const segs = Array.isArray(ann.segmentation) ? ann.segmentation : [];
-        for (const seg of segs) {
-            if (!seg || seg.length < 4) continue;
+        appendAnnotationPolygons(frag, ann, {
+            stroke: "#d1a25c",
+            fill: "rgba(209,162,92,0.25)",
+            label: ann.text || "(sans transcription)"
+        });
+    }
 
-            const pts = [];
-            for (let i = 0; i < seg.length - 1; i += 2) {
-                pts.push(`${seg[i]},${seg[i + 1]}`);
-            }
-
-            const poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-            poly.setAttribute("points", pts.join(" "));
-            poly.style.cssText = "stroke:#d1a25c;stroke-width:2px;fill:rgba(209,162,92,0.25);";
-            poly.dataset.text = ann.text || "(sans transcription)";
-
-            poly.addEventListener("mouseenter", onPolygonEnter);
-            poly.addEventListener("mouseleave", onPolygonLeave);
-
-            frag.appendChild(poly);
+    for (const source of Object.values(predictionSources)) {
+        if (!source.active) continue;
+        const predictions = predictionsBySource[source.id]?.[imageData.id] ?? [];
+        const faceFileName = imageData.file_names?.[face];
+        const filePredictions = faceFileName ? predictionsBySource[source.id]?.[faceFileName] ?? [] : [];
+        const allPredictions = predictions.concat(filePredictions);
+        for (const prediction of allPredictions) {
+            appendAnnotationPolygons(frag, prediction, {
+                stroke: source.color,
+                fill: hexToRgba(source.color, 0.18),
+                label: `${source.label} — score ${(prediction.score ?? 0).toFixed(2)}`
+            });
         }
     }
     gGroup.appendChild(frag);
@@ -349,6 +622,131 @@ function setupSVG(imageData, face) {
     svgEl.style.cursor = "grab";
     wrapperEl.style.visibility = "visible";
     imgEl.style.visibility = "visible";
+}
+
+function appendAnnotationPolygons(fragment, annotation, style) {
+    const segmentations = normalizeSegmentations(annotation.segmentation);
+    for (const seg of segmentations) {
+        if (!seg || seg.length < 4) continue;
+
+        const pts = [];
+        for (let i = 0; i < seg.length - 1; i += 2) {
+            pts.push(`${seg[i]},${seg[i + 1]}`);
+        }
+
+        const poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+        poly.setAttribute("points", pts.join(" "));
+        poly.style.cssText = `stroke:${style.stroke};stroke-width:2px;fill:${style.fill};`;
+        poly.dataset.text = style.label;
+        poly.addEventListener("mouseenter", onPolygonEnter);
+        poly.addEventListener("mouseleave", onPolygonLeave);
+        fragment.appendChild(poly);
+    }
+}
+
+function normalizeSegmentations(segmentation) {
+    if (!Array.isArray(segmentation)) return [];
+    if (typeof segmentation[0] === "number") return [segmentation];
+    return segmentation;
+}
+
+function hexToRgba(hex, alpha) {
+    const value = hex.replace("#", "");
+    const bigint = parseInt(value.length === 3 ? value.split("").map(c => c + c).join("") : value, 16);
+    const r = (bigint >> 16) & 255;
+    const g = (bigint >> 8) & 255;
+    const b = bigint & 255;
+    return `rgba(${r},${g},${b},${alpha})`;
+}
+
+function setupPredictionControls() {
+    if (!predictionControlsEl) return;
+    predictionControlsEl.innerHTML = "";
+    predictionSources = {};
+
+    const sources = CONFIG.predictionSources ?? [];
+    if (!sources.length) {
+        predictionControlsEl.hidden = true;
+        return;
+    }
+
+    predictionControlsEl.hidden = false;
+    const title = document.createElement("span");
+    title.className = "prediction-title";
+    title.textContent = "Calques modèles";
+    predictionControlsEl.appendChild(title);
+
+    for (const source of sources) {
+        predictionSources[source.id] = { ...source, active: Boolean(source.enabledByDefault) };
+        const label = document.createElement("label");
+        label.className = "prediction-toggle";
+        label.innerHTML = `
+            <input type="checkbox" ${source.enabledByDefault ? "checked" : ""}>
+            <span style="--layer-color:${source.color}">${source.label}</span>
+        `;
+        const checkbox = label.querySelector("input");
+        checkbox.addEventListener("change", async () => {
+            predictionSources[source.id].active = checkbox.checked;
+            if (checkbox.checked) {
+                await loadPredictionSource(source);
+                await loadActiveStreamPredictions();
+            }
+            if (currentImageData) setupSVG(currentImageData, currentFace);
+        });
+        predictionControlsEl.appendChild(label);
+    }
+}
+
+async function loadPredictionSource(source) {
+    if (predictionsBySource[source.id]) return;
+    predictionsBySource[source.id] = {};
+    predictionImageMapsBySource[source.id] = {};
+    loadedPredictionCartonsBySource[source.id] = {};
+    if (!source.url) return;
+
+    if (source.streamByCarton && getDatasetMode() === "stream") return;
+
+    if (source.imagesUrl) {
+        const imagesResponse = await fetch(source.imagesUrl);
+        const imagesPayload = await imagesResponse.json();
+        const images = imagesPayload.images ?? [];
+        for (const image of images) {
+            if (image.id == null || !image.file_name) continue;
+            predictionImageMapsBySource[source.id][image.id] = image.file_name;
+        }
+    }
+
+    const response = await fetch(source.url);
+    const predictions = await response.json();
+    const items = Array.isArray(predictions) ? predictions : predictions.annotations ?? predictions.predictions ?? [];
+    for (const item of items) {
+        if (item.image_id == null) continue;
+        const fileName = item.file_name ?? predictionImageMapsBySource[source.id][item.image_id];
+        const key = source.matchBy === "file_name" && fileName ? fileName : item.image_id;
+        (predictionsBySource[source.id][key] ??= []).push(item);
+    }
+}
+
+async function loadPredictionCarton(source, carton) {
+    if (!carton) return;
+    predictionsBySource[source.id] ??= {};
+    loadedPredictionCartonsBySource[source.id] ??= {};
+    if (loadedPredictionCartonsBySource[source.id][carton]) return;
+
+    const entry = streamCartonEntries[carton];
+    const manifest = entry?.predictions_manifest;
+    if (!manifest) {
+        loadedPredictionCartonsBySource[source.id][carton] = true;
+        return;
+    }
+
+    const response = await fetch(`${CONFIG.streamManifestBaseUrl ?? ""}${manifest}`);
+    const payload = await response.json();
+    for (const item of payload.predictions ?? []) {
+        const key = item.file_name ?? item.image_id;
+        (predictionsBySource[source.id][key] ??= []).push(item);
+    }
+    loadedPredictionCartonsBySource[source.id][carton] = true;
 }
 
 // ─── Tooltip handlers (defined once, reused by all polygons) ─────────────────

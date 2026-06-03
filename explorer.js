@@ -70,8 +70,8 @@ function setModeUI() {
     streamModeLinkEl?.classList.toggle("active", mode === "stream");
     if (!modeNoteEl) return;
     modeNoteEl.textContent = mode === "stream"
-        ? "Mode complet : les images sont extraites à la demande depuis les archives tar Hugging Face."
-        : "Mode subset : navigation rapide sur les images incluses dans GitHub.";
+        ? "Full mode: images are extracted on demand from Hugging Face tar archives."
+        : "Subset mode: fast browsing of the images included in GitHub.";
 }
 
 async function loadSampleDataset() {
@@ -118,7 +118,7 @@ function prepareCocoDataset(coco) {
     // Group by carton
     grouped = {};
     for (const d of data) {
-        const carton = d.metadata?.Carton ?? "Inconnu";
+        const carton = d.metadata?.Carton ?? "Unknown";
         (grouped[carton] ??= []).push(d);
     }
 }
@@ -223,7 +223,7 @@ function renderCartonList() {
             currentPage = 1;
             updateDownloadLink();
             if (getDatasetMode() === "stream") {
-                item.textContent = `${carton} — chargement…`;
+                item.textContent = `${carton} - loading...`;
                 await loadStreamCarton(carton);
                 item.textContent = `${carton} (${count})`;
             }
@@ -361,7 +361,7 @@ async function scanTarUntil(tarName, fileName, index) {
         index.scannedOffset = entry.start + Math.ceil(size / 512) * 512;
     }
 
-    throw new Error(`Image introuvable dans ${tarName}: ${fileName}`);
+    throw new Error(`Image not found in ${tarName}: ${fileName}`);
 }
 
 async function fetchTarRange(tarName, start, end) {
@@ -373,7 +373,7 @@ async function fetchTarRange(tarName, start, end) {
     });
 
     if (response.status !== 206) {
-        throw new Error(`Le serveur ne renvoie pas de plage byte-range pour ${tarName}`);
+        throw new Error(`The server does not return a byte range for ${tarName}`);
     }
 
     return new Uint8Array(await response.arrayBuffer());
@@ -392,20 +392,49 @@ function getMimeType(fileName) {
 }
 
 function getCartonFromImage(imageData) {
-    return imageData?.metadata?.Carton ?? imageData?.carton ?? "Inconnu";
+    return imageData?.metadata?.Carton ?? imageData?.carton ?? "Unknown";
+}
+
+function translateMetadataKey(key) {
+    const labels = {
+        Carton: "Box",
+        Conditionnement: "Side",
+        Pays: "Country",
+        Classe: "Class",
+        Continent: "Continent",
+        Type: "Type",
+        Cluster: "Cluster",
+        ClusterLabel: "Cluster Label"
+    };
+    return labels[key] ?? key;
+}
+
+function translateMetadataValue(value) {
+    const labels = {
+        recto: "front",
+        verso: "back",
+        Asie: "Asia",
+        Europe: "Europe",
+        Afrique: "Africa",
+        Amerique: "America",
+        "Amérique": "America",
+        Geographique: "Geographic",
+        "Géographique": "Geographic"
+    };
+    return labels[value] ?? value;
 }
 
 function updateDownloadLink(imageData = currentImageData) {
     const carton = currentCarton ?? getCartonFromImage(imageData);
     if (!downloadCartonEl || !carton) return;
     const baseUrl = CONFIG.downloadBaseUrl;
-    if (!baseUrl || carton === "Inconnu") {
+    if (!baseUrl || carton === "Unknown") {
         downloadCartonEl.hidden = true;
         return;
     }
     downloadCartonEl.hidden = false;
     downloadCartonEl.href = `${baseUrl}${carton}.tar?download=true`;
-    downloadCartonEl.textContent = `Télécharger ${carton}`;
+    downloadCartonEl.textContent = `Download ${carton}`;
 }
 
 // ─── Gallery ──────────────────────────────────────────────────────────────────
@@ -428,11 +457,11 @@ function renderGallery() {
     const filtered = getFilteredImages();
 
     if (!filtered) {
-        galleryEl.innerHTML = `<p class="placeholder-text">Sélectionnez un carton ou recherchez une image.</p>`;
+        galleryEl.innerHTML = `<p class="placeholder-text">Select a box or search for an image.</p>`;
         return;
     }
     if (filtered.length === 0) {
-        galleryEl.innerHTML = `<p class="placeholder-text">Aucun résultat trouvé pour votre recherche.</p>`;
+        galleryEl.innerHTML = `<p class="placeholder-text">No results found for your search.</p>`;
         return;
     }
 
@@ -450,11 +479,11 @@ function renderGallery() {
         const item = document.createElement("div");
         item.className = "gallery-item" + (d.id === currentImageId ? " active" : "");
         item.innerHTML = `
-            <img src="${imgSrc}" alt="Vignette" loading="lazy"/>
+            <img src="${imgSrc}" alt="Thumbnail" loading="lazy"/>
             <div class="item-info">
                 <b>ID: ${d.id}</b>
-                <span>Pays: ${d.metadata.Pays ?? "N/A"}</span>
-                <span>Annots: ${d.annotations.length}</span>
+                <span>Country: ${translateMetadataValue(d.metadata.Pays) ?? "N/A"}</span>
+                <span>Annotations: ${d.annotations.length}</span>
             </div>`;
 
         item.addEventListener("click", () => {
@@ -466,11 +495,11 @@ function renderGallery() {
 
         if (d.remote_tar && defaultFileName) {
             const thumb = item.querySelector("img");
-            thumb.alt = "Chargement depuis le tar Hugging Face…";
+            thumb.alt = "Loading from the Hugging Face tar archive...";
             thumb.classList.add("remote-thumb");
             resolveImageSrc(defaultFileName, d)
                 .then(src => { thumb.src = src; })
-                .catch(() => { thumb.alt = "Aperçu indisponible"; });
+                .catch(() => { thumb.alt = "Preview unavailable"; });
         }
 
         galleryFrag.appendChild(item);
@@ -508,7 +537,7 @@ async function displayImageInVisualizer(imageData, face) {
     gGroup.innerHTML = "";
     imgEl.onload = null;
 
-    imgEl.alt = imageData.remote_tar ? "Chargement depuis le tar Hugging Face…" : "Image Forbin";
+    imgEl.alt = imageData.remote_tar ? "Loading from the Hugging Face tar archive..." : "Forbin image";
     try {
         imgEl.src = await resolveImageSrc(imageData.file_names[face], imageData);
         await loadActiveStreamPredictions(imageData);
@@ -540,7 +569,7 @@ async function displayImageInVisualizer(imageData, face) {
     // Metadata panel
     const metaParts = [`<b>Filename (${face})</b>: ${imageData.file_names[face] ?? "N/A"}`];
     for (const [k, v] of Object.entries(imageData.metadata ?? {})) {
-        metaParts.push(`<b>${k}</b>: ${v}`);
+        metaParts.push(`<b>${translateMetadataKey(k)}</b>: ${translateMetadataValue(v)}`);
     }
     const allTexts = imageData.annotations
         .map(a => a.text)
@@ -597,7 +626,7 @@ function setupSVG(imageData, face) {
         appendAnnotationPolygons(frag, ann, {
             stroke: "#d1a25c",
             fill: "rgba(209,162,92,0.25)",
-            label: ann.text || "(sans transcription)"
+            label: ann.text || "(no transcription)"
         });
     }
 
@@ -673,7 +702,7 @@ function setupPredictionControls() {
     predictionControlsEl.hidden = false;
     const title = document.createElement("span");
     title.className = "prediction-title";
-    title.textContent = "Calques modèles";
+    title.textContent = "Model Layers";
     predictionControlsEl.appendChild(title);
 
     for (const source of sources) {

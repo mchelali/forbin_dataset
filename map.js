@@ -26,8 +26,8 @@ window.addEventListener("DOMContentLoaded", () => {
     let debounceTimer = null;
 
     function getYearLabel(year) {
-        if (year < 0) return `${Math.abs(year)} av. J.-C.`;
-        return `${year} ap. J.-C.`;
+        if (year < 0) return `${Math.abs(year)} BCE`;
+        return `${year} CE`;
     }
 
     function setLoading(visible) {
@@ -47,7 +47,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 : `${String(year).padStart(4, '0')}-01-01`;
             map.filterByDate(iso);
         } catch (error) {
-            console.warn("filterByDate indisponible :", error.message);
+            console.warn("filterByDate unavailable:", error.message);
         }
     }
 

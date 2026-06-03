@@ -1,7 +1,7 @@
 /**
- * stamps.js — Agences postales du 19e siècle
- * Affiche des tampons SVG par région/pays sur la carte MapLibre.
- * À inclure APRÈS map.js dans index.html : <script src="stamps.js"></script>
+ * stamps.js - 19th-century postal agencies
+ * Displays SVG stamps by region/country on the MapLibre map.
+ * Include AFTER map.js in index.html: <script src="stamps.js"></script>
  */
 
 const AGENCIES_DATA_URL = "samples/agencies_data.json";
@@ -252,8 +252,8 @@ class StampLayer {
                 enabled ? this._show(id) : this._hide(id);
             });
         } catch (err) {
-            console.error("Impossible de charger agencies_data.json :", err);
-            this.container.innerHTML = "<p style='padding:8px;font-size:12px;'>Données d'agences introuvables.</p>";
+            console.error("Unable to load agencies_data.json:", err);
+            this.container.innerHTML = "<p style='padding:8px;font-size:12px;'>Agency data not found.</p>";
         }
     }
 

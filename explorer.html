@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Explorer — Forbin Dataset</title>
@@ -14,17 +14,17 @@
         <p>
           List of boxes containing <strong id="total-count">0</strong> images.
         </p>
-        <div class="mode-switcher" aria-label="Choix du mode de consultation">
-          <a id="sample-mode-link" href="explorer.html?mode=sample">Subset local</a>
-          <a id="stream-mode-link" href="explorer.html?mode=stream">Tout le dataset</a>
+        <div class="mode-switcher" aria-label="Browsing mode selection">
+          <a id="sample-mode-link" href="explorer.html?mode=sample">Local Subset</a>
+          <a id="stream-mode-link" href="explorer.html?mode=stream">Full Dataset</a>
         </div>
         <p id="mode-note" class="mode-note"></p>
 
         <div id="carton-list" class="carton-list"></div>
-        <input id="search" placeholder="🔍 Research in metadata" />
+        <input id="search" placeholder="🔍 Search metadata" />
 
         <div id="gallery">
-          <p class="placeholder-text">Please select a box or serach </p>
+          <p class="placeholder-text">Please select a box or search.</p>
         </div>
         <div id="pagination"></div>
       </div>
@@ -34,8 +34,8 @@
           <h2 id="visualizer-title">Please select an image to display</h2>
           <p id="visualizer-details"></p>
           <div class="explorer-tools">
-            <a id="download-carton" class="small-action" href="#" target="_blank" rel="noopener">Télécharger ce carton</a>
-            <div id="prediction-controls" class="prediction-controls" aria-label="Calques de prédictions"></div>
+            <a id="download-carton" class="small-action" href="#" target="_blank" rel="noopener">Download this box</a>
+            <div id="prediction-controls" class="prediction-controls" aria-label="Prediction layers"></div>
           </div>
         </div>
 

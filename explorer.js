@@ -7,8 +7,6 @@ let predictionSources = {};
 let predictionsBySource = {};
 let predictionImageMapsBySource = {};
 let loadedPredictionCartonsBySource = {};
-let tarIndexCache = {};
-let objectUrls = [];
 let streamCartons = [];
 let streamCartonEntries = {};
 let loadedStreamCartons = {};
@@ -70,7 +68,7 @@ function setModeUI() {
     streamModeLinkEl?.classList.toggle("active", mode === "stream");
     if (!modeNoteEl) return;
     modeNoteEl.textContent = mode === "stream"
-        ? "Full mode: images are extracted on demand from Hugging Face tar archives."
+        ? "Full mode: images are loaded directly from Huma-Num Sharedocs."
         : "Subset mode: fast browsing of the images included in GitHub.";
 }
 
@@ -223,7 +221,7 @@ function renderCartonList() {
             currentPage = 1;
             updateDownloadLink();
             if (getDatasetMode() === "stream") {
-                item.textContent = `${carton} - loading...`;
+                item.textContent = `${carton} — chargement…`;
                 await loadStreamCarton(carton);
                 item.textContent = `${carton} (${count})`;
             }
@@ -274,10 +272,36 @@ function getActiveImageBaseUrl() {
     return mode === "full" ? CONFIG.fullDataset?.imageBaseUrl : CONFIG.imageBaseUrl;
 }
 
-function getImageUrl(fileName) {
+function shouldUseSharedocs(imageData = null) {
+    return Boolean(CONFIG.sharedocs?.enabled)
+        && (getDatasetMode() === "stream" || imageData?.remote_source === "sharedocs");
+}
+
+function getImageUrl(fileName, imageData = null) {
     if (!fileName) return "";
     if (/^https?:\/\//i.test(fileName)) return fileName;
+    if (shouldUseSharedocs(imageData)) {
+        return getSharedocsUrl(fileName, "download");
+    }
     return `${getActiveImageBaseUrl() ?? "samples/images/"}${fileName}`;
+}
+
+function getThumbnailUrl(fileName, imageData = null) {
+    if (!fileName) return "";
+    if (shouldUseSharedocs(imageData)) {
+        return getSharedocsUrl(fileName, "thumbnail");
+    }
+    return getImageUrl(fileName, imageData);
+}
+
+function getSharedocsUrl(fileName, variant = "download") {
+    const params = new URLSearchParams({
+        id: CONFIG.sharedocs.publicId,
+        path: fileName,
+        mode: "grid"
+    });
+    params.set(variant === "thumbnail" ? "thumbnail" : "download", "1");
+    return `${CONFIG.sharedocs.baseUrl}?${params.toString()}`;
 }
 
 function getDefaultFace(imageData) {
@@ -286,155 +310,30 @@ function getDefaultFace(imageData) {
     return Object.keys(imageData?.file_names ?? {})[0] ?? "recto";
 }
 
-function getTarNameForFile(fileName, imageData) {
-    if (imageData?.remote_tar) return imageData.remote_tar;
-    const carton = fileName?.split("/")?.[0];
-    return carton ? `${carton}.tar` : null;
-}
-
-async function resolveImageSrc(fileName, imageData) {
-    const directUrl = getImageUrl(fileName);
-    if (!imageData?.remote_tar || !CONFIG.tarImageFallback?.enabled) return directUrl;
-
-    const tarName = getTarNameForFile(fileName, imageData);
-    if (!tarName) return directUrl;
-
-    const blob = await extractFileFromTar(tarName, fileName);
-    const objectUrl = URL.createObjectURL(blob);
-    objectUrls.push(objectUrl);
-    return objectUrl;
-}
-
-async function extractFileFromTar(tarName, fileName) {
-    const entry = await findTarEntry(tarName, fileName);
-    const bytes = await fetchTarRange(tarName, entry.start, entry.start + entry.size - 1);
-    return new Blob([bytes], { type: getMimeType(fileName) });
-}
-
-async function findTarEntry(tarName, fileName) {
-    const index = tarIndexCache[tarName] ??= {
-        entries: {},
-        scannedOffset: 0,
-        done: false,
-        lock: Promise.resolve()
-    };
-
-    const cachedEntry = findCachedTarEntry(index, fileName);
-    if (cachedEntry) return cachedEntry;
-
-    index.lock = index.lock.then(() => scanTarUntil(tarName, fileName, index));
-    return index.lock;
-}
-
-function findCachedTarEntry(index, fileName) {
-    return index.entries[fileName] ?? Object.entries(index.entries)
-        .find(([entryName]) => entryName.endsWith(`/${fileName}`))?.[1];
-}
-
-async function scanTarUntil(tarName, fileName, index) {
-    const alreadyCached = findCachedTarEntry(index, fileName);
-    if (alreadyCached) return alreadyCached;
-
-    while (!index.done) {
-        const header = await fetchTarRange(tarName, index.scannedOffset, index.scannedOffset + 511);
-        const name = readTarString(header, 0, 100);
-        const prefix = readTarString(header, 345, 155);
-        const fullName = prefix ? `${prefix}/${name}` : name;
-        if (!name) {
-            index.done = true;
-            break;
-        }
-
-        const sizeOctal = readTarString(header, 124, 12).trim();
-        const size = parseInt(sizeOctal || "0", 8);
-        const entry = {
-            name: fullName,
-            start: index.scannedOffset + 512,
-            size
-        };
-        index.entries[fullName] = entry;
-
-        if (fullName === fileName || fullName.endsWith(`/${fileName}`)) {
-            return entry;
-        }
-
-        index.scannedOffset = entry.start + Math.ceil(size / 512) * 512;
-    }
-
-    throw new Error(`Image not found in ${tarName}: ${fileName}`);
-}
-
-async function fetchTarRange(tarName, start, end) {
-    const tarUrl = `${CONFIG.tarImageFallback.baseUrl}${tarName}?download=true`;
-    const response = await fetch(tarUrl, {
-        headers: {
-            Range: `bytes=${start}-${end}`
-        }
-    });
-
-    if (response.status !== 206) {
-        throw new Error(`The server does not return a byte range for ${tarName}`);
-    }
-
-    return new Uint8Array(await response.arrayBuffer());
-}
-
-function readTarString(header, start, length) {
-    let end = start;
-    while (end < start + length && header[end] !== 0) end++;
-    return new TextDecoder().decode(header.subarray(start, end));
-}
-
-function getMimeType(fileName) {
-    if (fileName.toLowerCase().endsWith(".png")) return "image/png";
-    if (fileName.toLowerCase().endsWith(".webp")) return "image/webp";
-    return "image/jpeg";
-}
-
 function getCartonFromImage(imageData) {
     return imageData?.metadata?.Carton ?? imageData?.carton ?? "Unknown";
-}
-
-function translateMetadataKey(key) {
-    const labels = {
-        Carton: "Box",
-        Conditionnement: "Side",
-        Pays: "Country",
-        Classe: "Class",
-        Continent: "Continent",
-        Type: "Type",
-        Cluster: "Cluster",
-        ClusterLabel: "Cluster Label"
-    };
-    return labels[key] ?? key;
-}
-
-function translateMetadataValue(value) {
-    const labels = {
-        recto: "front",
-        verso: "back",
-        Asie: "Asia",
-        Europe: "Europe",
-        Afrique: "Africa",
-        Amerique: "America",
-        "Amérique": "America",
-        Geographique: "Geographic",
-        "Géographique": "Geographic"
-    };
-    return labels[value] ?? value;
 }
 
 function updateDownloadLink(imageData = currentImageData) {
     const carton = currentCarton ?? getCartonFromImage(imageData);
     if (!downloadCartonEl || !carton) return;
-    const baseUrl = CONFIG.downloadBaseUrl;
-    if (!baseUrl || carton === "Unknown") {
+    if (carton === "Unknown") {
         downloadCartonEl.hidden = true;
         return;
     }
     downloadCartonEl.hidden = false;
-    downloadCartonEl.href = `${baseUrl}${carton}.tar?download=true`;
-    downloadCartonEl.textContent = `Download ${carton}`;
+    if (getDatasetMode() === "stream" && CONFIG.sharedocs?.enabled) {
+        const params = new URLSearchParams({
+            id: CONFIG.sharedocs.publicId,
+            path: carton,
+            mode: "grid"
+        });
+        downloadCartonEl.href = `${CONFIG.sharedocs.baseUrl}?${params.toString()}`;
+        downloadCartonEl.textContent = `Open ${carton} on Sharedocs`;
+    } else {
+        downloadCartonEl.href = "#";
+        downloadCartonEl.textContent = carton;
+    }
 }
 
 // ─── Gallery ──────────────────────────────────────────────────────────────────
@@ -461,7 +360,7 @@ function renderGallery() {
         return;
     }
     if (filtered.length === 0) {
-        galleryEl.innerHTML = `<p class="placeholder-text">No results found for your search.</p>`;
+        galleryEl.innerHTML = `<p class="placeholder-text">No result found for your search.</p>`;
         return;
     }
 
@@ -474,7 +373,7 @@ function renderGallery() {
     for (const d of pageItems) {
         const defaultFace = getDefaultFace(d);
         const defaultFileName = d.file_names[defaultFace];
-        const imgSrc = d.remote_tar ? "" : getImageUrl(defaultFileName);
+        const imgSrc = getThumbnailUrl(defaultFileName, d);
 
         const item = document.createElement("div");
         item.className = "gallery-item" + (d.id === currentImageId ? " active" : "");
@@ -482,7 +381,7 @@ function renderGallery() {
             <img src="${imgSrc}" alt="Thumbnail" loading="lazy"/>
             <div class="item-info">
                 <b>ID: ${d.id}</b>
-                <span>Country: ${translateMetadataValue(d.metadata.Pays) ?? "N/A"}</span>
+                <span>Country: ${d.metadata.Pays ?? "N/A"}</span>
                 <span>Annotations: ${d.annotations.length}</span>
             </div>`;
 
@@ -492,15 +391,6 @@ function renderGallery() {
             currentImageId = d.id;
             displayImageInVisualizer(d, defaultFace);
         });
-
-        if (d.remote_tar && defaultFileName) {
-            const thumb = item.querySelector("img");
-            thumb.alt = "Loading from the Hugging Face tar archive...";
-            thumb.classList.add("remote-thumb");
-            resolveImageSrc(defaultFileName, d)
-                .then(src => { thumb.src = src; })
-                .catch(() => { thumb.alt = "Preview unavailable"; });
-        }
 
         galleryFrag.appendChild(item);
     }
@@ -537,13 +427,13 @@ async function displayImageInVisualizer(imageData, face) {
     gGroup.innerHTML = "";
     imgEl.onload = null;
 
-    imgEl.alt = imageData.remote_tar ? "Loading from the Hugging Face tar archive..." : "Forbin image";
+    imgEl.alt = getDatasetMode() === "stream" ? "Image loaded from Huma-Num Sharedocs" : "Forbin image";
     try {
-        imgEl.src = await resolveImageSrc(imageData.file_names[face], imageData);
+        imgEl.src = getImageUrl(imageData.file_names[face], imageData);
         await loadActiveStreamPredictions(imageData);
     } catch (error) {
         document.getElementById("visualizer-details").innerHTML =
-            `<b>Erreur de chargement</b> : ${error.message}`;
+            `<b>Loading error</b>: ${error.message}`;
         return;
     }
     document.getElementById("visualizer-title").textContent = `Image ID: ${imageData.id}`;
@@ -569,7 +459,7 @@ async function displayImageInVisualizer(imageData, face) {
     // Metadata panel
     const metaParts = [`<b>Filename (${face})</b>: ${imageData.file_names[face] ?? "N/A"}`];
     for (const [k, v] of Object.entries(imageData.metadata ?? {})) {
-        metaParts.push(`<b>${translateMetadataKey(k)}</b>: ${translateMetadataValue(v)}`);
+        metaParts.push(`<b>${k}</b>: ${v}`);
     }
     const allTexts = imageData.annotations
         .map(a => a.text)
@@ -626,7 +516,7 @@ function setupSVG(imageData, face) {
         appendAnnotationPolygons(frag, ann, {
             stroke: "#d1a25c",
             fill: "rgba(209,162,92,0.25)",
-            label: ann.text || "(no transcription)"
+            label: ann.text || "(sans transcription)"
         });
     }
 
@@ -702,7 +592,7 @@ function setupPredictionControls() {
     predictionControlsEl.hidden = false;
     const title = document.createElement("span");
     title.className = "prediction-title";
-    title.textContent = "Model Layers";
+    title.textContent = "Calques modèles";
     predictionControlsEl.appendChild(title);
 
     for (const source of sources) {

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build static manifests for streaming images from Hugging Face tar archives."""
+"""Build static manifests for streaming images from Huma-Num Sharedocs."""
 
 from __future__ import annotations
 
@@ -37,13 +37,13 @@ def make_stream_image_record(image: dict, metadata_lookup: dict) -> dict:
         },
         "width": image.get("width"),
         "height": image.get("height"),
-        "remote_tar": f"{carton}.tar",
+        "remote_source": "sharedocs",
         "metadata": {
             **metadata,
             "Carton": carton,
             "Pays": metadata.get("Pays", "Non renseigné"),
             "Classe": metadata.get("Classe", "Streaming Hugging Face"),
-            "Source": "Hugging Face tar",
+            "Source": "Huma-Num Sharedocs",
         },
     }
 
@@ -142,7 +142,7 @@ def build_stream_manifests(
                 "classes": classes.most_common(),
                 "manifest": f"cartons/{manifest_name}",
                 "predictions_manifest": prediction_index.get(carton, {}).get("manifest"),
-                "download": f"{carton}.tar",
+                "download": carton,
                 "preview": images[:5],
             }
         )

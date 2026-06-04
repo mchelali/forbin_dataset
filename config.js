@@ -2,12 +2,12 @@ window.FORBIN_CONFIG = {
     mode: "sample",
     datasetUrl: "samples/subset.json",
     imageBaseUrl: "samples/images/",
-    downloadBaseUrl: "https://huggingface.co/datasets/mchelali/forbin_dataset/resolve/main/images/",
     streamIndexUrl: "data/stream/cartons_index.json",
     streamManifestBaseUrl: "data/stream/",
-    tarImageFallback: {
+    sharedocs: {
         enabled: true,
-        baseUrl: "https://huggingface.co/datasets/mchelali/forbin_dataset/resolve/main/images/"
+        baseUrl: "https://sharedocs.huma-num.fr/wl/",
+        publicId: "XOJp1buzC6FcbIL2K2qeIbj52WtPEaq4"
     },
     fullDataset: {
         datasetUrl: "https://huggingface.co/datasets/mchelali/forbin_dataset/resolve/main/annotations/forbin_annotations.json",

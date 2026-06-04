@@ -11,12 +11,12 @@ This GitHub version provides:
 
 ## Human-facing portal strategy
 
-The repository is designed as a lightweight public portal. Large files should stay
-on Hugging Face, while GitHub Pages provides a simple interface for browsing,
+The repository is designed as a lightweight public portal. Large image files stay
+on Huma-Num Sharedocs, while GitHub Pages provides a simple interface for browsing,
 searching, visualizing annotations, and showing model predictions.
 
 - Keep only representative samples in `samples/images`.
-- Keep heavy image archives on Hugging Face.
+- Keep heavy images on Huma-Num Sharedocs.
 - Configure remote image and download URLs in `config.js`.
 - Use `build_portal_manifests.py` to split a COCO file into carton-level JSON
   manifests for faster browsing.
@@ -24,13 +24,8 @@ searching, visualizing annotations, and showing model predictions.
   model outputs on and off from the explorer.
 - Match model predictions by `file_name` when prediction files and subset files
   use different COCO `image_id` values.
-- Prototype remote cartons can be listed in `config.js` and loaded from Hugging
-  Face `.tar` archives through HTTP byte ranges.
-
-Note: loading images directly from `.tar` files is useful as a prototype, but it
-is slower than exposing individual images or thumbnails. For a production portal,
-prefer publishing web-ready images/thumbnails alongside the downloadable `.tar`
-archives.
+- Stream mode uses direct Sharedocs image URLs and Sharedocs thumbnails instead
+  of downloading archives.
 
 Example:
 
@@ -38,7 +33,7 @@ Example:
 python3 build_portal_manifests.py --source samples/subset.json --output-dir data/portal
 ```
 
-Build the full streaming manifests from the Hugging Face inference image index:
+Build the full streaming manifests from the inference image index:
 
 ```bash
 python3 build_stream_manifests.py \
@@ -52,7 +47,7 @@ The explorer supports two user-facing modes:
 
 - `explorer.html?mode=sample`: fast local subset hosted in GitHub.
 - `explorer.html?mode=stream`: full dataset, loaded carton by carton from
-  Hugging Face `.tar` archives.
+  Huma-Num Sharedocs direct image URLs.
 
 In stream mode, carton manifests include metadata from `forbin_all.json`, and
 model predictions are split into carton-level files under `data/stream/predictions`

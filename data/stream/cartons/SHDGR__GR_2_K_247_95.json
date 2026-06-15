@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_95",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,6 +2903,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2544,6 +2932,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2570,6 +2961,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2596,6 +2990,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2622,6 +3019,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2648,6 +3048,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2674,6 +3077,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2700,6 +3106,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2726,6 +3135,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2752,6 +3164,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2778,6 +3193,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2804,6 +3222,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2830,6 +3251,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2856,6 +3280,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2882,6 +3309,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2908,6 +3338,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2934,6 +3367,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2960,6 +3396,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2986,6 +3425,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3012,6 +3454,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3038,6 +3483,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3064,6 +3512,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3090,6 +3541,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3116,6 +3570,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3142,9 +3599,541 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Front d'Orient",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_95_004_0002-verso-27950",
+      "image_id": 21026,
+      "category_id": 1014,
+      "bbox": [
+        350.0000088756017,
+        829.1666771576114,
+        470.8333452731308,
+        108.33333470400953
+      ],
+      "segmentation": [
+        [
+          350.0000088756017,
+          829.1666771576114,
+          820.8333541487325,
+          829.1666771576114,
+          820.8333541487325,
+          937.5000118616209,
+          350.0000088756017,
+          937.5000118616209
+        ]
+      ],
+      "area": 51006.946383282564,
+      "iscrowd": 0,
+      "text": "( V a i r e n v a r g e d e l c h e )",
+      "orientation": "",
+      "text_type": "monkeyocr_interline_equation",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_95_004_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          336.9599914550781,
+          241.1999969482422
+        ],
+        "monkeyocr_raw_type": "interline_equation",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 17,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.8947,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8868
+        }
+      },
+      "source_annotation_id": 27950,
+      "source_file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_004__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 14,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_95_029_0002-verso-27951",
+      "image_id": 21051,
+      "category_id": 1012,
+      "bbox": [
+        295.8333426215197,
+        320.8333482360073,
+        1170.8333700936203,
+        300.0000139349678
+      ],
+      "segmentation": [
+        [
+          295.8333426215197,
+          320.8333482360073,
+          1466.66671271514,
+          320.8333482360073,
+          1466.66671271514,
+          620.8333621709751,
+          295.8333426215197,
+          620.8333621709751
+        ]
+      ],
+      "area": 351250.0273436114,
+      "iscrowd": 0,
+      "text": "a Custom wildin (eozone)\nshowing the photograph when he\ncalls his pocket knife! (Salonique)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_95_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          388.79998779296875,
+          525.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 73,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9359,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9087
+        }
+      },
+      "source_annotation_id": 27951,
+      "source_file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_95_030_0002-verso-27952",
+      "image_id": 21052,
+      "category_id": 1012,
+      "bbox": [
+        1133.3333689162444,
+        54.166665664371415,
+        291.6666758240335,
+        170.8333301722483
+      ],
+      "segmentation": [
+        [
+          1133.3333689162444,
+          54.166665664371415,
+          1425.0000447402779,
+          54.166665664371415,
+          1425.0000447402779,
+          224.99999583661972,
+          1133.3333689162444,
+          224.99999583661972
+        ]
+      ],
+      "area": 49826.389531289235,
+      "iscrowd": 0,
+      "text": "徐华",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_95_030_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          388.79998779296875,
+          527.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "cjk",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 2,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 27952,
+      "source_file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_030__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_030__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_95_038_0002-verso-27953",
+      "image_id": 21060,
+      "category_id": 1012,
+      "bbox": [
+        908.333356367633,
+        274.99998454450554,
+        466.6666785008023,
+        508.33330476408594
+      ],
+      "segmentation": [
+        [
+          908.333356367633,
+          274.99998454450554,
+          1375.0000348684353,
+          274.99998454450554,
+          1375.0000348684353,
+          783.3332893085915,
+          908.333356367633,
+          783.3332893085915
+        ]
+      ],
+      "area": 237222.21490559203,
+      "iscrowd": 0,
+      "text": "The French sailings, taking possession of Kana-Burun Fire resistance of Sarbanes Bay.-N used to shelter (and replenish the oil tanks of) German submarines.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_95_038_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          336.9599914550781,
+          260.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 126,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9474,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9434
+        }
+      },
+      "source_annotation_id": 27953,
+      "source_file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_038__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_038__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_95_056_0002-verso-27954",
+      "image_id": 21078,
+      "category_id": 1012,
+      "bbox": [
+        708.3333304290451,
+        183.33333383145384,
+        1274.999994772281,
+        58.333333491826224
+      ],
+      "segmentation": [
+        [
+          708.3333304290451,
+          183.33333383145384,
+          1983.3333252013263,
+          183.33333383145384,
+          1983.3333252013263,
+          241.66666732328008,
+          708.3333304290451,
+          241.66666732328008
+        ]
+      ],
+      "area": 74374.99989712816,
+      "iscrowd": 0,
+      "text": "BRITISH OFFICIAL PHOTOGRAPHS FROM SALONICA.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_95_056_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          595.4400024414062,
+          449.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 38,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9744,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8968
+        }
+      },
+      "source_annotation_id": 27954,
+      "source_file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_056__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_056__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_95_056_0002-verso-27955",
+      "image_id": 21078,
+      "category_id": 1012,
+      "bbox": [
+        204.1666658295483,
+        279.1666674251683,
+        2024.9999916971524,
+        116.66666698365245
+      ],
+      "segmentation": [
+        [
+          204.1666658295483,
+          279.1666674251683,
+          2229.166657526701,
+          279.1666674251683,
+          2229.166657526701,
+          395.83333440882075,
+          204.1666658295483,
+          395.83333440882075
+        ]
+      ],
+      "area": 236249.99967323066,
+      "iscrowd": 0,
+      "text": "G.H.Q. 81. The \"Goeben\" in her funk holes hole at Stema well up the Bosphorus.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_95_056_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          595.4400024414062,
+          449.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 55,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 7
+          },
+          "alpha_ratio": 0.8594,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9074
+        }
+      },
+      "source_annotation_id": 27955,
+      "source_file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_056__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_056__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_95_056_0002-verso-27956",
+      "image_id": 21078,
+      "category_id": 1012,
+      "bbox": [
+        933.3333295065065,
+        508.33333471448566,
+        1316.6666612681074,
+        225.0000006113297
+      ],
+      "segmentation": [
+        [
+          933.3333295065065,
+          508.33333471448566,
+          2249.999990774614,
+          508.33333471448566,
+          2249.999990774614,
+          733.3333353258154,
+          933.3333295065065,
+          733.3333353258154
+        ]
+      ],
+      "area": 296249.99959024164,
+      "iscrowd": 0,
+      "text": "Le Soeben dans son annuities, a Stenra, Borophine.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_95_056_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          595.4400024414062,
+          449.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 40,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9302,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9199
+        }
+      },
+      "source_annotation_id": 27956,
+      "source_file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_056__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_056__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_95_066_0002-verso-27958",
+      "image_id": 21088,
+      "category_id": 1014,
+      "bbox": [
+        537.5000050556938,
+        391.6666566998393,
+        1337.5000125804472,
+        220.83332771373915
+      ],
+      "segmentation": [
+        [
+          537.5000050556938,
+          391.6666566998393,
+          1875.000017636141,
+          391.6666566998393,
+          1875.000017636141,
+          612.4999844135784,
+          537.5000050556938,
+          612.4999844135784
+        ]
+      ],
+      "area": 295364.5785953081,
+      "iscrowd": 0,
+      "text": "M o l e n e m ~ l a d i e s ~ c a n m e i n i n g o v e r t h e i r d e o d o u n t h e ~ M o l e n e m ~ c e m e n t r y",
+      "orientation": "",
+      "text_type": "monkeyocr_interline_equation",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_95_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          519.1199951171875,
+          383.760009765625
+        ],
+        "monkeyocr_raw_type": "interline_equation",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 57,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9344,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8918
+        }
+      },
+      "source_annotation_id": 27958,
+      "source_file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 14,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_95/SHDGR__GR_2_K_247_95_066__0002.jpg"
+    }
+  ]
 }

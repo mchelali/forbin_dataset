@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_133",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 19,
         "ClusterLabel": "Enfants",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 19,
         "ClusterLabel": "Enfants",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 19,
         "ClusterLabel": "Enfants",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 19,
         "ClusterLabel": "Enfants",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,9 +2439,1927 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Hongrie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_006_0002-verso-44769",
+      "image_id": 36572,
+      "category_id": 1012,
+      "bbox": [
+        245.8333366945511,
+        620.8333318494416,
+        2183.333363185505,
+        712.4999982970102
+      ],
+      "segmentation": [
+        [
+          245.8333366945511,
+          620.8333318494416,
+          2429.166699880056,
+          620.8333318494416,
+          2429.166699880056,
+          1333.3333301464518,
+          245.8333366945511,
+          1333.3333301464518
+        ]
+      ],
+      "area": 1555625.0175514778,
+      "iscrowd": 0,
+      "text": "Europa-Schwarz-Holsthorst-Scott inoda: In Eriebd von Bundestern für den Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vorschriften in Moden im Europäisches Vors",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          714.239990234375,
+          510.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 11251,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9996,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 1.0
+        }
+      },
+      "source_annotation_id": 44769,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_006_0002-verso-44770",
+      "image_id": 36572,
+      "category_id": 1012,
+      "bbox": [
+        333.33333789091677,
+        1433.3333299074357,
+        2308.3333648945986,
+        424.9999989841815
+      ],
+      "segmentation": [
+        [
+          333.33333789091677,
+          1433.3333299074357,
+          2641.6667027855156,
+          1433.3333299074357,
+          2641.6667027855156,
+          1858.3333288916172,
+          333.33333789091677,
+          1858.3333288916172
+        ]
+      ],
+      "area": 981041.6777353567,
+      "iscrowd": 0,
+      "text": "Europe swim championships in Budapest: O.P. s. the Hungarian administrator of state, Northy, chAMPionships of budept. The best European crew European and European swimmers to place at these cheaplionships.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          714.239990234375,
+          510.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 169,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9548,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9444
+        }
+      },
+      "source_annotation_id": 44770,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_007_0002-verso-44771",
+      "image_id": 36573,
+      "category_id": 1012,
+      "bbox": [
+        150.00000625360235,
+        283.33334125150856,
+        1695.8334040337822,
+        212.50000593863143
+      ],
+      "segmentation": [
+        [
+          150.00000625360235,
+          283.33334125150856,
+          1845.8334102873846,
+          283.33334125150856,
+          1845.8334102873846,
+          495.83334719014,
+          150.00000625360235,
+          495.83334719014
+        ]
+      ],
+      "area": 360364.6084281083,
+      "iscrowd": 0,
+      "text": "Un documento storico\nA Budapest Karoly fa la Proclamazione della\nRepublica Unghesrose",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          585.5999755859375,
+          436.79998779296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.1818,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 74,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9182
+        }
+      },
+      "source_annotation_id": 44771,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_009_0002-verso-44775",
+      "image_id": 36575,
+      "category_id": 1012,
+      "bbox": [
+        291.66666060334234,
+        920.8333681556434,
+        2349.9999511469296,
+        487.5000184353406
+      ],
+      "segmentation": [
+        [
+          291.66666060334234,
+          920.8333681556434,
+          2641.666611750272,
+          920.8333681556434,
+          2641.666611750272,
+          1408.333386590984,
+          291.66666060334234,
+          1408.333386590984
+        ]
+      ],
+      "area": 1145625.0195071776,
+      "iscrowd": 0,
+      "text": "Hungarian National Day: 0.1% of the Hungarian administrator of stage with many officers in historical cultures at the procession through the streets of Budapest at the National day on 20th August",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          704.6400146484375,
+          516.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 158,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 3
+          },
+          "alpha_ratio": 0.9576,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.978
+        }
+      },
+      "source_annotation_id": 44775,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_010_0002-verso-44776",
+      "image_id": 36576,
+      "category_id": 1012,
+      "bbox": [
+        141.66666288423144,
+        479.166648512718,
+        2416.666602142772,
+        287.4999891076308
+      ],
+      "segmentation": [
+        [
+          141.66666288423144,
+          479.166648512718,
+          2558.333265027003,
+          479.166648512718,
+          2558.333265027003,
+          766.6666376203489,
+          141.66666288423144,
+          766.6666376203489
+        ]
+      ],
+      "area": 694791.6217928221,
+      "iscrowd": 0,
+      "text": "Last week Northly opened Hungarian Parliament by an speech, 0.3,8. Northly and (behind his) Arehduke Josef leaving Parliament after celebration.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          731.52001953125,
+          515.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 115,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 7
+          },
+          "alpha_ratio": 0.92,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9067
+        }
+      },
+      "source_annotation_id": 44776,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_021_0002-verso-44779",
+      "image_id": 36587,
+      "category_id": 1012,
+      "bbox": [
+        79.1666642698662,
+        212.49999416217898,
+        1554.1666196136891,
+        987.4999728713022
+      ],
+      "segmentation": [
+        [
+          79.1666642698662,
+          212.49999416217898,
+          1633.3332838835554,
+          212.49999416217898,
+          1633.3332838835554,
+          1199.9999670334812,
+          79.1666642698662,
+          1199.9999670334812
+        ]
+      ],
+      "area": 1534739.4947060016,
+      "iscrowd": 0,
+      "text": "Sulle rive del Damuboio nel cuore alla cillà i boltoecvichi hanno postato dei cannouni per unpedire un ritorno officuato dei monitori ribelli",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_021_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          403.20001220703125,
+          311.0400085449219
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 120,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9083
+        }
+      },
+      "source_annotation_id": 44779,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_021__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_021__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_038_0001-recto-44786",
+      "image_id": 36604,
+      "category_id": 1012,
+      "bbox": [
+        1037.5000277471215,
+        3495.833499508368,
+        1533.3333743411274,
+        154.16667399500548
+      ],
+      "segmentation": [
+        [
+          1037.5000277471215,
+          3495.833499508368,
+          2570.833402088249,
+          3495.833499508368,
+          2570.833402088249,
+          3650.0001735033734,
+          1037.5000277471215,
+          3650.0001735033734
+        ]
+      ],
+      "area": 236388.9064477103,
+      "iscrowd": 0,
+      "text": "128488 PC Photograph from Underwood & Underwood.N.Y.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_133_038_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1004.1599731445312,
+          1027.199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 36,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 4
+          },
+          "alpha_ratio": 0.7826,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8928
+        }
+      },
+      "source_annotation_id": 44786,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_038__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_038__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_038_0001-recto-44787",
+      "image_id": 36604,
+      "category_id": 1012,
+      "bbox": [
+        1045.8333613033233,
+        3704.1668427448617,
+        1120.8333633091393,
+        70.83333670040793
+      ],
+      "segmentation": [
+        [
+          1045.8333613033233,
+          3704.1668427448617,
+          2166.6667246124625,
+          3704.1668427448617,
+          2166.6667246124625,
+          3775.0001794452696,
+          1045.8333613033233,
+          3775.0001794452696
+        ]
+      ],
+      "area": 79392.36700832691,
+      "iscrowd": 0,
+      "text": "THE IRON GATE OF THE DANUBE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_133_038_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1004.1599731445312,
+          1027.199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 22,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9565,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9446
+        }
+      },
+      "source_annotation_id": 44787,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_038__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_038__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_038_0001-recto-44788",
+      "image_id": 36604,
+      "category_id": 1012,
+      "bbox": [
+        1033.3333609690208,
+        3837.5001824162177,
+        1616.6667099031451,
+        279.16667993690186
+      ],
+      "segmentation": [
+        [
+          1033.3333609690208,
+          3837.5001824162177,
+          2650.000070872166,
+          3837.5001824162177,
+          2650.000070872166,
+          4116.6668623531195,
+          1033.3333609690208,
+          4116.6668623531195
+        ]
+      ],
+      "area": 451319.4779681755,
+      "iscrowd": 0,
+      "text": "In the present direct connection between Berlin and Constantin, the Iron Sets of the Danube in Hungary is a most important gateway.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_133_038_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          1004.1599731445312,
+          1027.199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 108,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9818,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9561
+        }
+      },
+      "source_annotation_id": 44788,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_038__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_038__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_050_0002-verso-44791",
+      "image_id": 36616,
+      "category_id": 1012,
+      "bbox": [
+        329.1666676114907,
+        825.0000280159527,
+        2866.6666748950074,
+        500.0000169793652
+      ],
+      "segmentation": [
+        [
+          329.1666676114907,
+          825.0000280159527,
+          3195.833342506498,
+          825.0000280159527,
+          3195.833342506498,
+          1325.000044995318,
+          329.1666676114907,
+          1325.000044995318
+        ]
+      ],
+      "area": 1433333.3861216842,
+      "iscrowd": 0,
+      "text": "FLOD IN CENTRAL EUROPE.\n\nLast week's flood has caused considerable damage to property and loss of life and over Central Europe where the principal rivers were flooded. Life also over Central Europe where the principal rivers were flooded. The Dawa in Budapest which overflowed its banks, emergency O.P.S. The Dawa in Budapest which overflowed its banks, BLN.\n\nLanding stages had to be installed in mid-stream.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_050_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          850.5599975585938,
+          647.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 331,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 12
+          },
+          "alpha_ratio": 0.965,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9873
+        }
+      },
+      "source_annotation_id": 44791,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_050__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_050__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_052_0001-recto-44792",
+      "image_id": 36618,
+      "category_id": 1013,
+      "bbox": [
+        458.33334290987534,
+        312.4999931945222,
+        2529.1667195117666,
+        158.33332988522457
+      ],
+      "segmentation": [
+        [
+          458.33334290987534,
+          312.4999931945222,
+          2987.500062421642,
+          312.4999931945222,
+          2987.500062421642,
+          470.8333230797467,
+          458.33334290987534,
+          470.8333230797467
+        ]
+      ],
+      "area": 400451.3885351878,
+      "iscrowd": 0,
+      "text": "EAST NEWSREEL AGENCY",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_133_052_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          817.9199829101562,
+          1008.9600219726562
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 18,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9333
+        }
+      },
+      "source_annotation_id": 44792,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_052_0001-recto-44793",
+      "image_id": 36618,
+      "category_id": 1012,
+      "bbox": [
+        320.8333400369127,
+        512.4999888390164,
+        695.8333478722653,
+        104.16666439817406
+      ],
+      "segmentation": [
+        [
+          320.8333400369127,
+          512.4999888390164,
+          1016.6666879091781,
+          512.4999888390164,
+          1016.6666879091781,
+          616.6666532371904,
+          320.8333400369127,
+          616.6666532371904
+        ]
+      ],
+      "area": 72482.63882486818,
+      "iscrowd": 0,
+      "text": "Cables and wireless telegramms: \"NEWSREEL BUDAPEST.\"",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_133_052_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          817.9199829101562,
+          1008.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 43,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9149,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.906
+        }
+      },
+      "source_annotation_id": 44793,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_052_0001-recto-44794",
+      "image_id": 36618,
+      "category_id": 1012,
+      "bbox": [
+        2333.3333820866383,
+        508.3333222630894,
+        800.0000167154187,
+        116.66666412595495
+      ],
+      "segmentation": [
+        [
+          2333.3333820866383,
+          508.3333222630894,
+          3133.3333988020568,
+          508.3333222630894,
+          3133.3333988020568,
+          624.9999863890444,
+          2333.3333820866383,
+          624.9999863890444
+        ]
+      ],
+      "area": 93333.3332508961,
+      "iscrowd": 0,
+      "text": "Budapest, IV., Magyar-utca 1. szám.\n(HUNGARY.)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_133_052_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          817.9199829101562,
+          1008.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 31,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 9
+          },
+          "alpha_ratio": 0.7561,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8695
+        }
+      },
+      "source_annotation_id": 44794,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_052_0001-recto-44795",
+      "image_id": 36618,
+      "category_id": 1012,
+      "bbox": [
+        658.3333470887301,
+        699.9999847557297,
+        1683.3333685053603,
+        95.83333124632013
+      ],
+      "segmentation": [
+        [
+          658.3333470887301,
+          699.9999847557297,
+          2341.6667155940904,
+          699.9999847557297,
+          2341.6667155940904,
+          795.8333160020497,
+          658.3333470887301,
+          795.8333160020497
+        ]
+      ],
+      "area": 161319.44430195805,
+      "iscrowd": 0,
+      "text": "Les mystéres de la Passion á Mikófalva,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_133_052_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          817.9199829101562,
+          1008.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 32,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9697,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9462
+        }
+      },
+      "source_annotation_id": 44795,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_052_0001-recto-44796",
+      "image_id": 36618,
+      "category_id": 1012,
+      "bbox": [
+        270.83333899219906,
+        883.333314096516,
+        2983.3333956679157,
+        1779.166627920813
+      ],
+      "segmentation": [
+        [
+          270.83333899219906,
+          883.333314096516,
+          3254.166734660115,
+          883.333314096516,
+          3254.166734660115,
+          2662.499942017329,
+          270.83333899219906,
+          2662.499942017329
+        ]
+      ],
+      "area": 5307847.2175340345,
+      "iscrowd": 0,
+      "text": "Mikófalva se trouve non loin de la résidence archiépisopale Eger-Erlau dans une magnifieque Vallée entr des collines boisées et des champs verdoyants. Le \"mét des oliviers\" avec le petit village à ses piéd ressemble étrangement au mont de Golgothe à Jerusalem. Les habitants laboureux et pieux est reconnu cela,et ils est transformé le village en un merceau de Jérusalem dans le style oriental,xx avec une scène amphithéatrale pour 4000 personnes,dont la construction correspond avec la forme de la montagne.\n\nL'idée du plan previent du netaire de la commune de Pierre D.Ehrenberg.Au commencement il a seulement projet pour son village.Mars désis qu'il commence les travaux préparatoires,il remarqua le grand enthusiasm de la population,qui lui effort les moyens financuels et matériels;il étargit donc son plan.\n\nIl gagne pour son idés les Ingenieurs Széchy,Kasztelli,Merandini et Balla de manière qu,ils investirent toute leur fortune dans cette entreprise.\n\nLe notaire D.Ehrenberg est 1,auteur du toute texte. Quoiqu,il suivit le texte des mystères de Oberammergau,son texte n en est pas une traduction servile,il est plain de tournures originales prepres prèpérée au coupleung.\n\nLa prenière représentation en lieu à la Pentecote.Dos milliers de personnes a, y sont tendues, mais avec des sentiments unpeu pessi-ristes,car ils dépréciaient la performance artistique du potent village. Il s'agit dans 1,erreur! Les habitants de la capitable avec leur critique distinguée et sévere sont restés muets et ils n'avaient que des lieanges pour la représentation.Meme les journalsaux liberaux-nodernes sont pleiés de la description des nystères,extils leout 1,originalité et la grandiesité.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_133_052_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          817.9199829101562,
+          1008.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 1384,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 44
+          },
+          "alpha_ratio": 0.9645,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9956
+        }
+      },
+      "source_annotation_id": 44796,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_052_0001-recto-44797",
+      "image_id": 36618,
+      "category_id": 1013,
+      "bbox": [
+        1108.3333564911532,
+        2749.9999401117952,
+        612.5000127977426,
+        95.83333124632013
+      ],
+      "segmentation": [
+        [
+          1108.3333564911532,
+          2749.9999401117952,
+          1720.8333692888957,
+          2749.9999401117952,
+          1720.8333692888957,
+          2845.8332713581153,
+          1108.3333564911532,
+          2845.8332713581153
+        ]
+      ],
+      "area": 58697.91661482138,
+      "iscrowd": 0,
+      "text": "Illustrations,",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_133_052_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          817.9199829101562,
+          1008.9600219726562
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 13,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9286,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8911
+        }
+      },
+      "source_annotation_id": 44797,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_052_0001-recto-44798",
+      "image_id": 36618,
+      "category_id": 1012,
+      "bbox": [
+        450.0000094024231,
+        2933.3332694525816,
+        2554.1667200341235,
+        208.33332879634813
+      ],
+      "segmentation": [
+        [
+          450.0000094024231,
+          2933.3332694525816,
+          3004.1667294365466,
+          2933.3332694525816,
+          3004.1667294365466,
+          3141.66659824893,
+          450.0000094024231,
+          3141.66659824893
+        ]
+      ],
+      "area": 532118.0550855591,
+      "iscrowd": 0,
+      "text": "2.Entrée à Jérusalem,7,Pilat remet Jesus entre les mains du people,8 SUR le chemin vers le Golgotha,9.Golgotha,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_133_052_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          817.9199829101562,
+          1008.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 85,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 7
+          },
+          "alpha_ratio": 0.8854,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9273
+        }
+      },
+      "source_annotation_id": 44798,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_052_0002-verso-44799",
+      "image_id": 36618,
+      "category_id": 1012,
+      "bbox": [
+        1054.1666508034452,
+        699.9999881094045,
+        1687.4999746063056,
+        95.83333170545419
+      ],
+      "segmentation": [
+        [
+          1054.1666508034452,
+          699.9999881094045,
+          2741.666625409751,
+          699.9999881094045,
+          2741.666625409751,
+          795.8333198148587,
+          1054.1666508034452,
+          795.8333198148587
+        ]
+      ],
+      "area": 161718.7448193916,
+      "iscrowd": 0,
+      "text": "Témémetres de je-Pierreau & Mipfystais'",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_052_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          811.2000122070312,
+          1006.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 32,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9143,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9093
+        }
+      },
+      "source_annotation_id": 44799,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_052_0002-verso-44800",
+      "image_id": 36618,
+      "category_id": 1012,
+      "bbox": [
+        162.49999755468127,
+        883.3333183285342,
+        2958.3332888159925,
+        1779.1666364447365
+      ],
+      "segmentation": [
+        [
+          162.49999755468127,
+          883.3333183285342,
+          3120.8332863706737,
+          883.3333183285342,
+          3120.8332863706737,
+          2662.4999547732705,
+          162.49999755468127,
+          2662.4999547732705
+        ]
+      ],
+      "area": 5263367.886945245,
+      "iscrowd": 0,
+      "text": "The loan is recognised as an interest rate of 10% over the loan's outstanding principal amount by the loan to the loan's interest rate, or the interest rate of the loan is recognised in the principal amount of the principal amount of the principal amount of the principal amount of the principal amount of the principal amount of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of the loan's interest rate, or the interest rate of the principal amount of",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_052_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          811.2000122070312,
+          1006.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 16138,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 540
+          },
+          "alpha_ratio": 0.9675,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9959
+        }
+      },
+      "source_annotation_id": 44800,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_052_0002-verso-44801",
+      "image_id": 36618,
+      "category_id": 1013,
+      "bbox": [
+        1658.3333083785424,
+        2749.999953286946,
+        612.4999907830294,
+        95.83333170545419
+      ],
+      "segmentation": [
+        [
+          1658.3333083785424,
+          2749.999953286946,
+          2270.8332991615716,
+          2749.999953286946,
+          2270.8332991615716,
+          2845.8332849924004,
+          1658.3333083785424,
+          2845.8332849924004
+        ]
+      ],
+      "area": 58697.91478629768,
+      "iscrowd": 0,
+      "text": "\"Transfer from\"",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_052_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          811.2000122070312,
+          1006.0800170898438
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.8571,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8821
+        }
+      },
+      "source_annotation_id": 44801,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_052_0002-verso-44802",
+      "image_id": 36618,
+      "category_id": 1012,
+      "bbox": [
+        383.33332756488915,
+        2933.333283506076,
+        2545.83329502334,
+        204.16666319857632
+      ],
+      "segmentation": [
+        [
+          383.33332756488915,
+          2933.333283506076,
+          2929.166622588229,
+          2933.333283506076,
+          2929.166622588229,
+          3137.4999467046523,
+          383.33332756488915,
+          3137.4999467046523
+        ]
+      ],
+      "area": 519774.288904752,
+      "iscrowd": 0,
+      "text": "\" benefits 8\" Six Joe company were 10 California's 9' California company in 5' California 8\" 80% of the company's 7' California joint venture in 10% was more than 5% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% was 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10% of the company's 7' California joint venture in 10",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_052_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          811.2000122070312,
+          1006.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 8532,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 988,
+            "other": 819
+          },
+          "alpha_ratio": 0.8252,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9782
+        }
+      },
+      "source_annotation_id": 44802,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_052__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_057_0002-verso-44805",
+      "image_id": 36623,
+      "category_id": 1012,
+      "bbox": [
+        158.33333120284402,
+        104.16666809091149,
+        774.9999895718155,
+        195.8333360109136
+      ],
+      "segmentation": [
+        [
+          158.33333120284402,
+          104.16666809091149,
+          933.3333207746596,
+          104.16666809091149,
+          933.3333207746596,
+          300.0000041018251,
+          158.33333120284402,
+          300.0000041018251
+        ]
+      ],
+      "area": 151770.83336627187,
+      "iscrowd": 0,
+      "text": "Ungarn, Hongrie, Hungary.\nPestmegyei rózsalánýok.\nRosenmädchen aus der Umgebung Budapests.\nRosières des environs de Budapest.\nMaria maidens of the neighbourhood of Budapest.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_057_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          544.3200073242188,
+          357.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 145,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9539,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9359
+        }
+      },
+      "source_annotation_id": 44805,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_057__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_057__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_057_0002-verso-44806",
+      "image_id": 36623,
+      "category_id": 1012,
+      "bbox": [
+        1074.9999855350989,
+        437.5000059818282,
+        41.66666610601158,
+        558.3333409672856
+      ],
+      "segmentation": [
+        [
+          1074.9999855350989,
+          437.5000059818282,
+          1116.6666516411105,
+          437.5000059818282,
+          1116.6666516411105,
+          995.8333469491138,
+          1074.9999855350989,
+          995.8333469491138
+        ]
+      ],
+      "area": 23263.88889393781,
+      "iscrowd": 0,
+      "text": "Magyar Rotophot r. t. Budapest VI.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_057_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          544.3200073242188,
+          357.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.8966,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8871
+        }
+      },
+      "source_annotation_id": 44806,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_057__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_057__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_060_0002-verso-44808",
+      "image_id": 36626,
+      "category_id": 1012,
+      "bbox": [
+        137.5000009686443,
+        454.1666713145765,
+        2425.0000170833628,
+        300.00000307017893
+      ],
+      "segmentation": [
+        [
+          137.5000009686443,
+          454.1666713145765,
+          2562.500018052007,
+          454.1666713145765,
+          2562.500018052007,
+          754.1666743847554,
+          137.5000009686443,
+          754.1666743847554
+        ]
+      ],
+      "area": 727500.0125701928,
+      "iscrowd": 0,
+      "text": "Hungarian pensuit wedding:\n\n0. P. S. the bride with her wonderful dress and crowd leaving\n\nwith a lot of bridoms the church after the ceremony.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_060_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          693.1199951171875,
+          477.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 111,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 5
+          },
+          "alpha_ratio": 0.9487,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9519
+        }
+      },
+      "source_annotation_id": 44808,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_060__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_060__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_060_0002-verso-44810",
+      "image_id": 36626,
+      "category_id": 1012,
+      "bbox": [
+        587.5000041387528,
+        1483.3333485136625,
+        2154.166681842094,
+        375.0000038377237
+      ],
+      "segmentation": [
+        [
+          587.5000041387528,
+          1483.3333485136625,
+          2741.666685980847,
+          1483.3333485136625,
+          2741.666685980847,
+          1858.333352351386,
+          587.5000041387528,
+          1858.333352351386
+        ]
+      ],
+      "area": 807812.5139578817,
+      "iscrowd": 0,
+      "text": "Ungert 1800 Baulerhão Glazelet:\n\nIt, I, S. de Itto Reut In Ma 1st Street, 2007-01-01 de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz de la Cruz",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_060_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          693.1199951171875,
+          477.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10849,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 13,
+            "other": 7
+          },
+          "alpha_ratio": 0.9982,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9998
+        }
+      },
+      "source_annotation_id": 44810,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_060__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_060__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_062_0002-verso-44811",
+      "image_id": 36628,
+      "category_id": 1012,
+      "bbox": [
+        266.6666620637138,
+        658.3333110433131,
+        1579.166639408555,
+        129.16666229330826
+      ],
+      "segmentation": [
+        [
+          266.6666620637138,
+          658.3333110433131,
+          1845.8333014722689,
+          658.3333110433131,
+          1845.8333014722689,
+          787.4999733366213,
+          266.6666620637138,
+          787.4999733366213
+        ]
+      ],
+      "area": 203975.68401734333,
+      "iscrowd": 0,
+      "text": "BATHING SEASON IN FULL SWING IN HUNGARY,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_062_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          848.6400146484375,
+          648.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 33,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9706,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9249
+        }
+      },
+      "source_annotation_id": 44811,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_062__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_062__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_062_0002-verso-44812",
+      "image_id": 36628,
+      "category_id": 1012,
+      "bbox": [
+        266.6666620637138,
+        741.6666415551249,
+        2920.8332829166147,
+        466.66665086614597
+      ],
+      "segmentation": [
+        [
+          266.6666620637138,
+          741.6666415551249,
+          3187.4999449803286,
+          741.6666415551249,
+          3187.4999449803286,
+          1208.333292421271,
+          266.6666620637138,
+          1208.333292421271
+        ]
+      ],
+      "area": 1363055.4858770669,
+      "iscrowd": 0,
+      "text": "The Bathing Season is now in full swing at the small bathing resort on the coast of Hungary. Although there isn't any real estate in Budapest, they coast of Hungary. Although there isn't any real estate in an artificial sandy strip of have a very good imitation in the form of an artificial sandy strip of have a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a very good imitation in the form of an artificial sandy strip of having a",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_062_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          848.6400146484375,
+          648.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 17242,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9997,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 1.0
+        }
+      },
+      "source_annotation_id": 44812,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_062__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_062__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_062_0002-verso-44813",
+      "image_id": 36628,
+      "category_id": 1012,
+      "bbox": [
+        224.9999961162585,
+        1587.4999462500143,
+        708.3333211067397,
+        429.16665213583065
+      ],
+      "segmentation": [
+        [
+          224.9999961162585,
+          1587.4999462500143,
+          933.3333172229982,
+          1587.4999462500143,
+          933.3333172229982,
+          2016.666598385845,
+          224.9999961162585,
+          2016.666598385845
+        ]
+      ],
+      "area": 303993.0400156338,
+      "iscrowd": 0,
+      "text": "COPYRIGKEYSTONE VIEI, WINE OFFICE COUPLEET & TR STREET, LONI",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_062_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          848.6400146484375,
+          648.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 49,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9423,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8928
+        }
+      },
+      "source_annotation_id": 44813,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_062__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_062__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_133_080_0002-verso-44814",
+      "image_id": 36646,
+      "category_id": 1012,
+      "bbox": [
+        187.49999510098823,
+        524.9999960615221,
+        2920.8332570176162,
+        245.8333314891254
+      ],
+      "segmentation": [
+        [
+          187.49999510098823,
+          524.9999960615221,
+          3108.3332521186044,
+          524.9999960615221,
+          3108.3332521186044,
+          770.8333275506475,
+          187.49999510098823,
+          770.8333275506475
+        ]
+      ],
+      "area": 718038.1702968735,
+      "iscrowd": 0,
+      "text": "COUNTRY SCIENCE FROM UNGALY\nPamming in Hungary is $ only by OX- teams.\nBGT",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_133_080_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          840.9600219726562,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 58,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9508,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9105
+        }
+      },
+      "source_annotation_id": 44814,
+      "source_file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_080__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_133/SHDGR__GR_2_K_247_133_080__0002.jpg"
+    }
+  ]
 }

@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_210",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,9 +525,1531 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_001_0002-verso-57537",
+      "image_id": 52376,
+      "category_id": 1012,
+      "bbox": [
+        149.99999786888424,
+        712.5000053928012,
+        949.9999865029336,
+        87.50000066227383
+      ],
+      "segmentation": [
+        [
+          149.99999786888424,
+          712.5000053928012,
+          1099.9999843718178,
+          712.5000053928012,
+          1099.9999843718178,
+          800.000006055075,
+          149.99999786888424,
+          800.000006055075
+        ]
+      ],
+      "area": 83124.99944816683,
+      "iscrowd": 0,
+      "text": "THE HONEYMOON GLASS EYE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_001_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          859.2000122070312,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.919
+        }
+      },
+      "source_annotation_id": 57537,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_001__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_001__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_001_0002-verso-57538",
+      "image_id": 52376,
+      "category_id": 1012,
+      "bbox": [
+        137.49999804647723,
+        808.3333394514821,
+        3083.333289527065,
+        1083.3333415329141
+      ],
+      "segmentation": [
+        [
+          137.49999804647723,
+          808.3333394514821,
+          3220.8332875735423,
+          808.3333394514821,
+          3220.8332875735423,
+          1891.6666809843962,
+          137.49999804647723,
+          1891.6666809843962
+        ]
+      ],
+      "area": 3340277.7556030275,
+      "iscrowd": 0,
+      "text": "It is almost impossible today for experts to detect the real eye from the false. The new artificial eye, invented by Mr. Gustav Taylor after 10 years hard work, may only corresponds exactly in colour to its counterpart, but dilates and changes colour with each turn of the head in sunlight or shadow. The pupilrecords natural expression. The eye, in fact, does everything except see. The workshop of Mr. G. Tayler near Holborn, might be described as the house of 10,000 eyes. Cases of them line the walls and for four generations the family has ractised eye-making. \"We make a special honeymoon eye\" said \"r. Taylor\" for brides who did not wish their husbands to discover that they have lost an eye. One of the greatest living film actresses has a glass eye, yet she can appear under the glare of arc lamps of the studie without disclosing the fact. One world famous batsman, now retired from first-class cricket, has worn an artificial eye for many years though none but his most intimate friends knew it. SSS",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_001_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          859.2000122070312,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 798,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 29
+          },
+          "alpha_ratio": 0.9568,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9946
+        }
+      },
+      "source_annotation_id": 57538,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_001__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_001__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_002_0002-verso-57540",
+      "image_id": 52377,
+      "category_id": 1013,
+      "bbox": [
+        237.49999515698048,
+        287.50000437160134,
+        962.4999803730261,
+        66.66666768037132
+      ],
+      "segmentation": [
+        [
+          237.49999515698048,
+          287.50000437160134,
+          1199.9999755300066,
+          287.50000437160134,
+          1199.9999755300066,
+          354.1666720519727,
+          237.49999515698048,
+          354.1666720519727
+        ]
+      ],
+      "area": 64166.66633389245,
+      "iscrowd": 0,
+      "text": "THE HONEYMOON GLASS EYE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_002_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          838.0800170898438,
+          642.239990234375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.919
+        }
+      },
+      "source_annotation_id": 57540,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_002__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_002__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_002_0002-verso-57541",
+      "image_id": 52377,
+      "category_id": 1012,
+      "bbox": [
+        224.99999541187623,
+        412.5000062722975,
+        3083.333270459045,
+        745.8333446741541
+      ],
+      "segmentation": [
+        [
+          224.99999541187623,
+          412.5000062722975,
+          3308.333265870921,
+          412.5000062722975,
+          3308.333265870921,
+          1158.3333509464517,
+          224.99999541187623,
+          1158.3333509464517
+        ]
+      ],
+      "area": 2299652.7658515675,
+      "iscrowd": 0,
+      "text": "After 10 years' hard work Mr. Gustav Taylor, has perfected a new artificis eye which not only corresponds exactly in colour to its counterpart, but dilates, and changes colour with each turn of the head in sunlight or shadow. The pupil records natural expression and the eye in fact, does everything except see: \"We make a special honeymoon\" wey said Mr. Taylor for brides who do not wish their husbands to discover that they have a glass eye\". One of the world's most famous batsmen, now retired from first-class cricket has worn a glass eye for years and likewise one of the greatest living actresses yet no one but their most intimate friends knew this.\nP.S. Mr. Gustav Taylor photographed in his workshop at Holborn, shaping the artificial eyes.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_002_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          838.0800170898438,
+          642.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 597,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 22
+          },
+          "alpha_ratio": 0.9614,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9952
+        }
+      },
+      "source_annotation_id": 57541,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_002__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_002__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_003_0002-verso-57543",
+      "image_id": 52378,
+      "category_id": 1012,
+      "bbox": [
+        374.9999935270975,
+        433.3333349397818,
+        2979.166615243052,
+        1125.0000041705875
+      ],
+      "segmentation": [
+        [
+          374.9999935270975,
+          433.3333349397818,
+          3354.1666087701497,
+          433.3333349397818,
+          3354.1666087701497,
+          1558.3333391103693,
+          374.9999935270975,
+          1558.3333391103693
+        ]
+      ],
+      "area": 3351562.4545733086,
+      "iscrowd": 0,
+      "text": "THE HONEYMOON GLASS EYES.\n\nIt is almost impossible today for experts to detect the real $\\alpha_{\\mathrm{g}}$ from the false. The new artificial eye, invented by Mr. Gustav Taylor, no only corresponds exactly in colour to its counterpart, but dilates and changes colour with each turn of the head in sunlight or shadow. The pupil records natural express. The eye, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The worst of the case, in fact, does everything except see. The",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          848.6400146484375,
+          658.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 13474,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 878
+          },
+          "alpha_ratio": 0.9388,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9924
+        }
+      },
+      "source_annotation_id": 57543,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_004_0002-verso-57544",
+      "image_id": 52379,
+      "category_id": 1012,
+      "bbox": [
+        99.9999968174692,
+        458.3333488977515,
+        3029.1665702625046,
+        787.5000267425003
+      ],
+      "segmentation": [
+        [
+          99.9999968174692,
+          458.3333488977515,
+          3129.166567079974,
+          458.3333488977515,
+          3129.166567079974,
+          1245.8333756402517,
+          99.9999968174692,
+          1245.8333756402517
+        ]
+      ],
+      "area": 2385468.7550892103,
+      "iscrowd": 0,
+      "text": "THE HONYMOON GLASS EYE.\n\nAfter 10 years' hard work Mr. Gustav Taylor has perfect d a new artificial eye which not only corresponds exactly with in favour to its counterpart, but eye which not only corresponds exactly with in favour to the head in sunlight or shadow. The pupil records natural expression and the eye in fact does everything x-dilates and changes colour with each turn of the head in sunlight or shadow. The pupil records natural expression and the eye in fact does everything x-dilates. The pupil records natural expression and the eye in fact does everything x-dilates. The pupil also does not with their husbands to discover that they have a glass eye\". Do not with their husbands to discover that they have a glass eye. O.P.S. Mr. Gustav Taylor photographed at work in his \"erksshop near Holborn O.P.S. Mr. Gustav Taylor photographed at work in his \"erksshop near Holborn SSS making the eyes.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_004_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          843.8400268554688,
+          647.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 728,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 25
+          },
+          "alpha_ratio": 0.9642,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9955
+        }
+      },
+      "source_annotation_id": 57544,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_004__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_005_0002-verso-57546",
+      "image_id": 52380,
+      "category_id": 1013,
+      "bbox": [
+        133.33333061444517,
+        504.1666570982927,
+        1699.999965334176,
+        95.83333151455152
+      ],
+      "segmentation": [
+        [
+          133.33333061444517,
+          504.1666570982927,
+          1833.3332959486213,
+          504.1666570982927,
+          1833.3332959486213,
+          599.9999886128443,
+          133.33333061444517,
+          599.9999886128443
+        ]
+      ],
+      "area": 162916.6602525962,
+      "iscrowd": 0,
+      "text": "SECRET OF THE MAN WHO MAKES EYES ALL DAY!",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          838.0800170898438,
+          643.2000122070312
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 32,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9697,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9184
+        }
+      },
+      "source_annotation_id": 57546,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_005_0002-verso-57547",
+      "image_id": 52380,
+      "category_id": 1012,
+      "bbox": [
+        99.99999796083388,
+        649.9999876639146,
+        3074.9999372956418,
+        879.1666499813203
+      ],
+      "segmentation": [
+        [
+          99.99999796083388,
+          649.9999876639146,
+          3174.9999352564755,
+          649.9999876639146,
+          3174.9999352564755,
+          1529.166637645235,
+          99.99999796083388,
+          1529.166637645235
+        ]
+      ],
+      "area": 2703437.3935649795,
+      "iscrowd": 0,
+      "text": "There is a man in London who has been matching people's eyes in glass for 2 years. His grandfather and his father did the same mask and he received the ordinary training of an artist $x_{1}$ and $x_{2}$ $x_{3}$ $x_{4}$ $x_{5}$ $x_{6}$ $x_{7}$ $x_{8}$ $x_{9}$ $x_{10}$ $x_{11}$ $x_{12}$ $x_{13}$ $x_{14}$ $x_{15}$ $x_{16}$ $x_{17}$ $x_{18}$ $x_{19}$ $x_{20}$ $x_{21}$ $x_{22}$ $x_{23}$ $x_{24}$ $x_{25}$ $x_{26}$ $x_{27}$ $x_{28}$ $x_{29}$ $x_{30}$ $x_{31}$ $x_{32}$ $x_{33}$ $x_{34}$ $x_{35}$ $x_{36}$ $x_{37}$ $x_{38}$ $x_{39}$ $x_{40}$ $x_{41}$ $x_{42}$ $x_{43}$ $x_{44}$ $x_{45}$ $x_{46}$ $x_{47}$ $x_{48}$ $x_{49}$ $x_{50}$ $x_{51}$ $x_{52}$ $x_{53}$ $x_{54}$ $x_{56}$ $x_{57}$ $x_{58}$ $x_{59}$ $x_{60}$ $x_{61}$ $x_{62}$ $x_{63}$ $x_{64}$ $x_{65}$ $x_{66}$ $x_{67}$ $x_{68}$ $x_{69}$ $x_{70}$ $x_{71}$ $x_{72}$ $x_{73}$ $x_{74}$ $x_{75}$ $x_{76}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{80}$ $x_{81}$ $x_{82}$ $x_{83}$ $x_{84}$ $x_{85}$ $x_{86}$ $x_{87}$ $x_{88}$ $x_{89}$ $x_{90}$ $x_{91}$ $x_{92}$ $x_{93}$ $x_{94}$ $x_{95}$ $x_{96}$ $x_{97}$ $x_{98}$ $x_{99}$ $x_{10}$ $x_{11}$ $x_{12}$ $x_{13}$ $x_{14}$ $x_{15}$ $x_{16}$ $x_{17}$ $x_{18}$ $x_{19}$ $x_{20}$ $x_{21}$ $x_{22}$ $x_{23}$ $x_{24}$ $x_{25}$ $x_{26}$ $x_{27}$ $x_{28}$ $x_{29}$ $x_{30}$ $x_{31}$ $x_{32}$ $x_{33}$ $x_{34}$ $x_{35}$ $x_{36}$ $x_{37}$ $x_{38}$ $x_{39}$ $x_{40}$ $x_{41}$ $x_{42}$ $x_{43}$ $x_{44}$ $x_{45}$ $x_{46}$ $x_{47}$ $x_{48}$ $x_{49}$ $x_{50}$ $x_{51}$ $x_{52}$ $x_{53}$ $x_{54}$ $x_{56}$ $x_{57}$ $x_{58}$ $x_{59}$ $x_{60}$ $x_{61}$ $x_{62}$ $x_{63}$ $x_{64}$ $x_{65}$ $x_{66}$ $x_{67}$ $x_{68}$ $x_{69}$ $x_{70}$ $x_{71}$ $x_{72}$ $x_{73}$ $x_{74}$ $x_{75}$ $x_{76}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{70}$ $x_{71}$ $x_{72}$ $x_{73}$ $x_{74}$ $x_{75}$ $x_{76}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{70}$ $x_{71}$ $x_{72}$ $x_{73}$ $x_{74}$ $x_{75}$ $x_{76}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{75}$ $x_{76}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{77}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{79}$ $x_{78}$ $x_{7",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          838.0800170898438,
+          643.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "suspicious",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "non_latin",
+          "language_confidence": 0.8,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 826,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1347,
+            "other": 3390
+          },
+          "alpha_ratio": 0.1485,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8736
+        }
+      },
+      "source_annotation_id": 57547,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_006_0002-verso-57549",
+      "image_id": 52381,
+      "category_id": 1012,
+      "bbox": [
+        254.16666666666669,
+        433.3333447279652,
+        3012.5,
+        1991.666719038148
+      ],
+      "segmentation": [
+        [
+          254.16666666666669,
+          433.3333447279652,
+          3266.6666666666665,
+          433.3333447279652,
+          3266.6666666666665,
+          2425.0000637661133,
+          254.16666666666669,
+          2425.0000637661133
+        ]
+      ],
+      "area": 5999895.991102421,
+      "iscrowd": 0,
+      "text": "There is a man in London who has been matching people's eyes in glass for 27 years. His father made glass eyes - his grandfather and he received the ordinary training of an artist in order to be able to blend and mix colours as by second nature. He made eyes for famous actresses and well known princess among others. He made an eye for the late Gen. Booth when he was 81. These glass eyes can hardly be distinguished from the true eye. He puts a small bulge on the back of the glass eyes in such a position that the muscles of the eyesocket move the artificial thing in unison with the movements of the good eye. Then he makes eyes with dilating pupils (the pupil is the dark circle right in the centre of the eye). That is the say in daylight the pupil is small; in artificial light it enlarges as do the pupils of all our eyes. He canmatch your eye in glass in half an hour while you sit beside him for pattern. He sits at a bench in his workshop in the centre of London with an array of glass tubes and glass rods of varying colours and thicknesses and a glass blower's burner before him - the flame of which can be varied according to the degree of heat he needs. He blows a bubble of opal glass the size of an eyeball first; then while the tip is still red he puts on the ground colour of the iris (the ring round the pupil) by heating am joining to the red tip tiny streams of molten blue glass or brown glass. Now he heats the end of a rod of black or nearly black glass and joint the spot of that on to the centre of the iris. This is the pupil. At the time the bubble - still on the tube from which it was drawn and blown - is turning deftly in his fingers so that the eye seems to grow of itself. The lens comes next a coating of crystal glass from a thick rod which gradually spreads over the face of crystal glass from a thick rod which gradually spreads over the face of the opal bulb and becomes part of it. Finally the red veins on the eyeball are superimposed on the surface softened by heat according to the eyeball are discernible on the natural eye that is being copied. Rem veins discernible on the natural eye that is being copied.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          840.0,
+          649.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 1695,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 30
+          },
+          "alpha_ratio": 0.9803,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9975
+        }
+      },
+      "source_annotation_id": 57549,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_007_0002-verso-57550",
+      "image_id": 52382,
+      "category_id": 1012,
+      "bbox": [
+        233.33333883412004,
+        504.1666570982927,
+        1695.8333733122654,
+        66.66666540142714
+      ],
+      "segmentation": [
+        [
+          233.33333883412004,
+          504.1666570982927,
+          1929.1667121463854,
+          504.1666570982927,
+          1929.1667121463854,
+          570.8333224997199,
+          233.33333883412004,
+          570.8333224997199
+        ]
+      ],
+      "area": 113055.55607518228,
+      "iscrowd": 0,
+      "text": "SECRET OF THE MAN WHO MAKES EYES ALL DAY!",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          828.47998046875,
+          643.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 32,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9697,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9184
+        }
+      },
+      "source_annotation_id": 57550,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_007_0002-verso-57551",
+      "image_id": 52382,
+      "category_id": 1012,
+      "bbox": [
+        208.33333824475005,
+        641.6666544887362,
+        3095.8334063169855,
+        849.9999838681961
+      ],
+      "segmentation": [
+        [
+          208.33333824475005,
+          641.6666544887362,
+          3304.1667445617354,
+          641.6666544887362,
+          3304.1667445617354,
+          1491.6666383569323,
+          208.33333824475005,
+          1491.6666383569323
+        ]
+      ],
+      "area": 2631458.3454280603,
+      "iscrowd": 0,
+      "text": "There is a man in London who has been matching people's eyes in glass for 7 years. His grandfather and his father did the same mask and he received the ordinary training of an artist $x_{max}$ and he received the ordinary training of an artist $x_{max}$ and mix colours as by second nature. He $x_{max}$ made eyes for well known actresses and Prince's among others and also made an eyes for the late Gen. Booth when he was 81. These glass eyes can hardly be distinguished from the true eyes. He puts a bulge on the back of the glass eye in such a position that the muscles of the eye socket move the artificial thing in position that the movements of the good eye. Then he makes eyes with dilating pupils that is to say in daylight the pupil is small - in artificial light it enlarges as do the pupils of all our eyes.\n0.P.3. Making the artificial glass eyes.\nRam",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          828.47998046875,
+          643.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 667,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 29
+          },
+          "alpha_ratio": 0.9515,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9939
+        }
+      },
+      "source_annotation_id": 57551,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_008_0002-verso-57552",
+      "image_id": 52383,
+      "category_id": 1013,
+      "bbox": [
+        354.1666676832495,
+        404.16666972574103,
+        962.5000027627133,
+        100.00000075688438
+      ],
+      "segmentation": [
+        [
+          354.1666676832495,
+          404.16666972574103,
+          1316.6666704459628,
+          404.16666972574103,
+          1316.6666704459628,
+          504.1666704826254,
+          354.1666676832495,
+          504.1666704826254
+        ]
+      ],
+      "area": 96250.00100477254,
+      "iscrowd": 0,
+      "text": "THE HONEYMOON GLASS EYE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          850.5599975585938,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.919
+        }
+      },
+      "source_annotation_id": 57552,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_008_0002-verso-57553",
+      "image_id": 52383,
+      "category_id": 1012,
+      "bbox": [
+        366.6666677191289,
+        445.8333367077762,
+        3058.333342111825,
+        850.0000064335172
+      ],
+      "segmentation": [
+        [
+          366.6666677191289,
+          445.8333367077762,
+          3425.000009830954,
+          445.8333367077762,
+          3425.000009830954,
+          1295.8333431412934,
+          366.6666677191289,
+          1295.8333431412934
+        ]
+      ],
+      "area": 2599583.3604708915,
+      "iscrowd": 0,
+      "text": "THE HONEYMOON GLASS BEING\n\nAfter 10 years' hard work Mr. Gustav Taylor has perfected a new artificial eye which not only corresponds exactly in colour to its counterpart, but dilat's and changes colour with each turn of the head in sunlight or shadow. The pupil records natural expression, and the eye in fact does everything except see. \"We make a special honeymoon eye\" said Mr. Taylor \"for brides who do see. \"We make a special honeymoon eye\" said Mr. Taylor \"for brides who do not wish their husbands to discover that they have a glass eye\". One of the world's famous batsmen, now retired from first-class cricket has worn an artificial eye for years and likewise one of the greatest living actresses, yet no one but their most intimate friends know this, yet no one but their most intimate friends know this, making the O.P.S. Mr. Gustav Taylor at work in his workshop at Holborn, making the O.P.S. SSS.\nartificial eyes.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          850.5599975585938,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 728,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 34
+          },
+          "alpha_ratio": 0.9529,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9941
+        }
+      },
+      "source_annotation_id": 57553,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_009_0002-verso-57554",
+      "image_id": 52384,
+      "category_id": 1012,
+      "bbox": [
+        129.16666928857634,
+        399.9999969992549,
+        3016.6667279009444,
+        762.4999942798297
+      ],
+      "segmentation": [
+        [
+          129.16666928857634,
+          399.9999969992549,
+          3145.833397189521,
+          399.9999969992549,
+          3145.833397189521,
+          1162.4999912790845,
+          129.16666928857634,
+          1162.4999912790845
+        ]
+      ],
+      "area": 2300208.3627686226,
+      "iscrowd": 0,
+      "text": "There is a man in London who has been mathing people's eyes in glass for 27 years. His grandfather and his father did the same and he received the ordinary training of an artist in order to be able to blend and mix colors ordinary training of an artist in order to be able to blend and mix colors by second nature. He made eyes for well known actresses and Princess – among by second nature. He made eyes for well known actresses and Princess – among others and also made an eye for the lateGen. Booth when he was 81. These others and also made an eye for the true eye. He puts a small glass eyes can hardly be distinguished from the true eye. He puts a small bulge on the back of the glass eyes in such position that the muscles of the eye socket move the artificial thing in unison with the movements of the eye socket move the artificial thing in unison with the movements of the good eye. Then he made eyes with diting pupil – that is to say in the good eye. Then he made eyes with diting pupil – that is to say in the good eye. Then he made eyes with diting pupil – in artifical light it enlarges as do the daylight the pupil is small – in artifical light it enlarges as do the night.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          841.9199829101562,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 931,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 18
+          },
+          "alpha_ratio": 0.9769,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9971
+        }
+      },
+      "source_annotation_id": 57554,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_009_0002-verso-57555",
+      "image_id": 52384,
+      "category_id": 1012,
+      "bbox": [
+        137.50000279106516,
+        1104.1666583833598,
+        3008.3333943984558,
+        399.9999969992549
+      ],
+      "segmentation": [
+        [
+          137.50000279106516,
+          1104.1666583833598,
+          3145.833397189521,
+          1104.1666583833598,
+          3145.833397189521,
+          1504.1666553826149,
+          137.50000279106516,
+          1504.1666553826149
+        ]
+      ],
+      "area": 1203333.3487321406,
+      "iscrowd": 0,
+      "text": "daylight the pupil is small. He can match your eye in glass in half an pupils of all our eyes. He can match your eye in glass in half an pupils of all our eyes. He sits at a bench at his work hour while you sit beside him for pattern. He sits at a bench at his work hour while you sit beside him for pattern. He sits at a bench at his work hour. The windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows of the windows",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          841.9199829101562,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 16318,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9996,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 1.0
+        }
+      },
+      "source_annotation_id": 57555,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_010_0002-verso-57556",
+      "image_id": 52385,
+      "category_id": 1012,
+      "bbox": [
+        208.3333327201168,
+        479.1666739526689,
+        1720.833328268165,
+        116.6666684406498
+      ],
+      "segmentation": [
+        [
+          208.3333327201168,
+          479.1666739526689,
+          1929.1666609882818,
+          479.1666739526689,
+          1929.1666609882818,
+          595.8333423933186,
+          208.3333327201168,
+          595.8333423933186
+        ]
+      ],
+      "area": 200763.89135068186,
+      "iscrowd": 0,
+      "text": "SECRETS OF THE MAN WHO SALES EYES ALL DAY.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          829.4400024414062,
+          642.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 33,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9706,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9185
+        }
+      },
+      "source_annotation_id": 57556,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_010_0002-verso-57557",
+      "image_id": 52385,
+      "category_id": 1012,
+      "bbox": [
+        179.16666613930045,
+        620.833342773458,
+        3037.499991059303,
+        829.1666792746183
+      ],
+      "segmentation": [
+        [
+          179.16666613930045,
+          620.833342773458,
+          3216.6666571986034,
+          620.833342773458,
+          3216.6666571986034,
+          1450.0000220480763,
+          179.16666613930045,
+          1450.0000220480763
+        ]
+      ],
+      "area": 2518593.780883325,
+      "iscrowd": 0,
+      "text": "There is a man in London who has been matching peoples's eyes in glass for 27 years. His grandfather and his father did the same and he received the ordinary trailing of an artist in order to be able to blond and mix colours as by second nature. He made eyes for well known a stresses and Princesss among others, and also made an eye for the late General Booth when he was 81. These glass eyes can hardly be distinguished from the true eyes. He puts a bulge on the back of the glass eye in such a position that the muscles of the gum eye socket move the glass artificial thing in unison with the movements of the good eyes. Then he makes eyes with dilating pupils, that is to say in daylight the pupil is small - in a rtificial light it enlarges as do the pupils of all our eyes.\n\n0.P.3. Usually engaged making the artificial glass eyes.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          829.4400024414062,
+          642.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 655,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 14
+          },
+          "alpha_ratio": 0.9704,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9963
+        }
+      },
+      "source_annotation_id": 57557,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_011_0002-verso-57559",
+      "image_id": 52386,
+      "category_id": 1013,
+      "bbox": [
+        200.0000011665741,
+        1133.3333033548645,
+        958.3333389231675,
+        79.16666457258245
+      ],
+      "segmentation": [
+        [
+          200.0000011665741,
+          1133.3333033548645,
+          1158.3333400897416,
+          1133.3333033548645,
+          1158.3333400897416,
+          1212.499967927447,
+          200.0000011665741,
+          1212.499967927447
+        ]
+      ],
+      "area": 75868.05399125337,
+      "iscrowd": 0,
+      "text": "THE HONEYMOON GLASS EYE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.919
+        }
+      },
+      "source_annotation_id": 57559,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_011_0002-verso-57560",
+      "image_id": 52386,
+      "category_id": 1012,
+      "bbox": [
+        204.16666785754438,
+        1229.1666341532539,
+        3108.333351463839,
+        766.6666463871143
+      ],
+      "segmentation": [
+        [
+          204.16666785754438,
+          1229.1666341532539,
+          3312.500019321383,
+          1229.1666341532539,
+          3312.500019321383,
+          1995.8332805403682,
+          204.16666785754438,
+          1995.8332805403682
+        ]
+      ],
+      "area": 2383055.506420001,
+      "iscrowd": 0,
+      "text": "After 10 years' hard work, Mr. Gustav Taylor has perfected a new artificial eye, which not only corresponds exactly in colour to its counterpart, but eye, which not only corresponds exactly in colour to its counterpart, but dilates, and changes colour with each turn of the head in sunlight or shadow. The pupil records natural expression, the eye in fact does everything except see. The workshop of Mr. G. Taylor near Holborn might be described as the house of 10,000 eyes. \"We make a special honeymoon eye \" said Mr. Taylor \" for brides who do not wish their husbands to discover that they have a glass eye. One of the world's famous batsman, now retired from first-class cricket has worn an artificial for years, and likewise one of the greatest living actresses, yet no one but their most intimate friends know it. O.P.S. Making the eye-shape by means of blowing through a thin tube. SSS.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 698,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 32
+          },
+          "alpha_ratio": 0.9471,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9934
+        }
+      },
+      "source_annotation_id": 57560,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_013_0002-verso-57562",
+      "image_id": 52388,
+      "category_id": 1012,
+      "bbox": [
+        133.33332984959162,
+        491.6666629782508,
+        945.8333086205406,
+        66.66666616654248
+      ],
+      "segmentation": [
+        [
+          133.33332984959162,
+          491.6666629782508,
+          1079.1666384701323,
+          491.6666629782508,
+          1079.1666384701323,
+          558.3333291447933,
+          133.33332984959162,
+          558.3333291447933
+        ]
+      ],
+      "area": 63055.55343500193,
+      "iscrowd": 0,
+      "text": "THE HONEYMOON GLASS EYE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_013_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          840.9600219726562,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.919
+        }
+      },
+      "source_annotation_id": 57562,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_013__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_013__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_013_0002-verso-57563",
+      "image_id": 52388,
+      "category_id": 1012,
+      "bbox": [
+        112.49999706059293,
+        620.8333286759269,
+        3112.4999186764044,
+        545.8333292385665
+      ],
+      "segmentation": [
+        [
+          112.49999706059293,
+          620.8333286759269,
+          3224.9999157369975,
+          620.8333286759269,
+          3224.9999157369975,
+          1166.6666579144935,
+          112.49999706059293,
+          1166.6666579144935
+        ]
+      ],
+      "area": 1698906.1928659093,
+      "iscrowd": 0,
+      "text": "After ten years' hard work Mr. Gustav Taylor has perfected a new artificial eye which not only corresponds exactly in colour to its counterpart, but dilates and changes colour with each turn of the head in sunlight or shadow. The pupil record natural expression and the eye in fact does everything except see. \"To make a special honeycomb eye \" said Mr. Taylor\" for bridges who do not wish their husbands to discover that they have a glass eye\". C.P.S. Mr. Gustav Taylor about to put an artificial eye into place for one of his customers, in his workshop near Holborn. SSS",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_013_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          840.9600219726562,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 454,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 17
+          },
+          "alpha_ratio": 0.9639,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9955
+        }
+      },
+      "source_annotation_id": 57563,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_013__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_013__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_014_0002-verso-57565",
+      "image_id": 52389,
+      "category_id": 1012,
+      "bbox": [
+        262.4999931413835,
+        529.166662696931,
+        945.8333086205406,
+        62.49999953113358
+      ],
+      "segmentation": [
+        [
+          262.4999931413835,
+          529.166662696931,
+          1208.333301761924,
+          529.166662696931,
+          1208.333301761924,
+          591.6666622280645,
+          262.4999931413835,
+          591.6666622280645
+        ]
+      ],
+      "area": 59114.58134531431,
+      "iscrowd": 0,
+      "text": "THE HONEYMOON GLASS EYE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          840.9600219726562,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.919
+        }
+      },
+      "source_annotation_id": 57565,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_210_014_0002-verso-57566",
+      "image_id": 52389,
+      "category_id": 1012,
+      "bbox": [
+        245.83332691018455,
+        654.1666617591982,
+        3133.333251465403,
+        524.9999960615221
+      ],
+      "segmentation": [
+        [
+          245.83332691018455,
+          654.1666617591982,
+          3379.1665783755875,
+          654.1666617591982,
+          3379.1665783755875,
+          1179.1666578207203,
+          245.83332691018455,
+          1179.1666578207203
+        ]
+      ],
+      "area": 1644999.9446787727,
+      "iscrowd": 0,
+      "text": "After ten years' hard work Mr. Gustav Taylor has perfected a new artificial eye which not only corresponds exactly in colour to its counterpart, but dilates and changes colour with each turn of the head in sunlight or shadow. The pupil record natural expression and the eye in fact does everything except see, \"We make a special honeymoon eye \" said Mr. Taylor\" for brides who did not wish their husbands to discover that they have a glass eye\". O.P.S. Mr. Gustav Taylor about to put an artificial eye into place for one of his customers, in his workshop near Holborn. SSS",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_210_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          840.9600219726562,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 454,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 17
+          },
+          "alpha_ratio": 0.9639,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9955
+        }
+      },
+      "source_annotation_id": 57566,
+      "source_file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_210/SHDGR__GR_2_K_247_210_014__0002.jpg"
+    }
+  ]
 }

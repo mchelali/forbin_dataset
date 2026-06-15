@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_11",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,6 +2903,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2544,6 +2932,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2570,6 +2961,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2596,6 +2990,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2622,6 +3019,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2648,6 +3048,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2674,6 +3077,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2700,6 +3106,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2726,6 +3135,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2752,6 +3164,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2778,6 +3193,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2804,6 +3222,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2830,6 +3251,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2856,6 +3280,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2882,6 +3309,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2908,6 +3338,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2934,6 +3367,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2960,6 +3396,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2986,6 +3425,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3012,6 +3454,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3038,6 +3483,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3064,6 +3512,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3090,6 +3541,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3116,6 +3570,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3142,6 +3599,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3168,6 +3628,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3194,6 +3657,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3220,6 +3686,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3246,6 +3715,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3272,6 +3744,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3298,6 +3773,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3324,6 +3802,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3350,6 +3831,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3376,6 +3860,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3402,6 +3889,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3428,6 +3918,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3454,6 +3947,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3480,6 +3976,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3506,6 +4005,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3532,6 +4034,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3558,6 +4063,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3584,6 +4092,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3610,6 +4121,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3636,6 +4150,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3662,6 +4179,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3688,6 +4208,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3714,6 +4237,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3740,6 +4266,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3766,6 +4295,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3792,6 +4324,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3818,6 +4353,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3844,6 +4382,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3870,6 +4411,9 @@
         "Type": "Géographique",
         "Cluster": 21,
         "ClusterLabel": "ARCHITECTURE",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3896,6 +4440,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3922,6 +4469,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3948,6 +4498,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3974,6 +4527,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4000,6 +4556,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4026,6 +4585,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4052,6 +4614,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4078,6 +4643,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4104,6 +4672,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4130,6 +4701,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4156,6 +4730,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4182,6 +4759,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4208,6 +4788,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4234,6 +4817,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4260,6 +4846,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4286,6 +4875,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4312,6 +4904,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4338,6 +4933,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4364,6 +4962,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4390,6 +4991,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4416,6 +5020,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4442,6 +5049,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4468,6 +5078,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4494,6 +5107,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4520,6 +5136,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4546,6 +5165,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4572,6 +5194,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4598,6 +5223,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4624,6 +5252,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4650,6 +5281,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4676,6 +5310,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4702,6 +5339,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4728,9 +5368,2455 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Afrique du Sud",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_012_0002-verso-7175",
+      "image_id": 2408,
+      "category_id": 1012,
+      "bbox": [
+        445.83335101462524,
+        837.5000000000001,
+        741.6666960804046,
+        91.66666666666667
+      ],
+      "segmentation": [
+        [
+          445.83335101462524,
+          837.5000000000001,
+          1187.50004709503,
+          837.5000000000001,
+          1187.50004709503,
+          929.1666666666667,
+          445.83335101462524,
+          929.1666666666667
+        ]
+      ],
+      "area": 67986.11380737042,
+      "iscrowd": 0,
+      "text": "with hot of milk",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          369.3599853515625,
+          288.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 13,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.95
+        }
+      },
+      "source_annotation_id": 7175,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_015_0002-verso-7177",
+      "image_id": 2411,
+      "category_id": 1012,
+      "bbox": [
+        37.49999949541042,
+        554.1666666666667,
+        874.9999882262432,
+        95.83333333333334
+      ],
+      "segmentation": [
+        [
+          37.49999949541042,
+          554.1666666666667,
+          912.4999877216536,
+          554.1666666666667,
+          912.4999877216536,
+          650.0000000000001,
+          37.49999949541042,
+          650.0000000000001
+        ]
+      ],
+      "area": 83854.16553834832,
+      "iscrowd": 0,
+      "text": "COPYRIGHT STEREOGRAPH, KEYSTONE VIEW CO.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_015_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          226.8000030517578,
+          234.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 34,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9444,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9131
+        }
+      },
+      "source_annotation_id": 7177,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_015__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_015__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_017_0001-recto-7178",
+      "image_id": 2413,
+      "category_id": 1012,
+      "bbox": [
+        283.33332758040785,
+        870.8333262803279,
+        187.49999619291697,
+        87.49999929132481
+      ],
+      "segmentation": [
+        [
+          283.33332758040785,
+          870.8333262803279,
+          470.8333237733248,
+          870.8333262803279,
+          470.8333237733248,
+          958.3333255716527,
+          283.33332758040785,
+          958.3333255716527
+        ]
+      ],
+      "area": 16406.24953400364,
+      "iscrowd": 0,
+      "text": "Major R.S. Bowls, President, H. R. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_11_017_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          601.2000122070312,
+          452.1600036621094
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 2065,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2047
+          },
+          "alpha_ratio": 0.5022,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8378
+        }
+      },
+      "source_annotation_id": 7178,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_017__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_017__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_017_0001-recto-7179",
+      "image_id": 2413,
+      "category_id": 1012,
+      "bbox": [
+        237.4999951776948,
+        987.4999920020944,
+        204.16666252117625,
+        104.16666582300573
+      ],
+      "segmentation": [
+        [
+          237.4999951776948,
+          987.4999920020944,
+          441.66665769887106,
+          987.4999920020944,
+          441.66665769887106,
+          1091.6666578251002,
+          237.4999951776948,
+          1091.6666578251002
+        ]
+      ],
+      "area": 21267.360507041754,
+      "iscrowd": 0,
+      "text": "Who were killed in action at Maco Rix, C.I. January, 1900.\n\nThe close in action in stages of affection and rights at each Governor Officer.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_11_017_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          601.2000122070312,
+          452.1600036621094
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 104,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 6
+          },
+          "alpha_ratio": 0.9123,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.939
+        }
+      },
+      "source_annotation_id": 7179,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_017__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_017__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_026_0002-verso-7180",
+      "image_id": 2422,
+      "category_id": 1012,
+      "bbox": [
+        1591.6667200371526,
+        237.49999515698048,
+        137.50000461053938,
+        1283.3333071640347
+      ],
+      "segmentation": [
+        [
+          1591.6667200371526,
+          237.49999515698048,
+          1729.166724647692,
+          237.49999515698048,
+          1729.166724647692,
+          1520.8333023210153,
+          1591.6667200371526,
+          1520.8333023210153
+        ]
+      ],
+      "area": 176458.3356519135,
+      "iscrowd": 0,
+      "text": "9 mother how to help",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_026_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          582.47998046875,
+          419.0400085449219
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 15,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 0
+          },
+          "alpha_ratio": 0.9375,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8922
+        }
+      },
+      "source_annotation_id": 7180,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_026__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_026__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_041_0001-recto-7184",
+      "image_id": 2437,
+      "category_id": 1012,
+      "bbox": [
+        329.1666797210784,
+        1058.3333249290215,
+        379.1666817040271,
+        108.33333247304945
+      ],
+      "segmentation": [
+        [
+          329.1666797210784,
+          1058.3333249290215,
+          708.3333614251055,
+          1058.3333249290215,
+          708.3333614251055,
+          1166.666657402071,
+          329.1666797210784,
+          1166.666657402071
+        ]
+      ],
+      "area": 41076.39019174528,
+      "iscrowd": 0,
+      "text": "Notal Levis",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_11_041_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          615.5999755859375,
+          307.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 7184,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_041__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_041__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_046_0002-verso-7185",
+      "image_id": 2442,
+      "category_id": 1012,
+      "bbox": [
+        275.0000127737205,
+        624.9999953113357,
+        2300.0001068347533,
+        387.4999970930282
+      ],
+      "segmentation": [
+        [
+          275.0000127737205,
+          624.9999953113357,
+          2575.000119608474,
+          624.9999953113357,
+          2575.000119608474,
+          1012.4999924043639,
+          275.0000127737205,
+          1012.4999924043639
+        ]
+      ],
+      "area": 891250.0347124314,
+      "iscrowd": 0,
+      "text": "ALL DRESSED UP! \nO.P.S. A squaint and interesting photograph of a baby, boy of Dululand, by \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday morning string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string. \nMr \nArice, dressed up in beads ready for his Sunday string",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_046_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          630.719970703125,
+          488.1600036621094
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12455,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 493
+          },
+          "alpha_ratio": 0.9619,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9952
+        }
+      },
+      "source_annotation_id": 7185,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_046__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_046__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_047_0002-verso-7187",
+      "image_id": 2443,
+      "category_id": 1012,
+      "bbox": [
+        266.6666779952206,
+        583.333326061307,
+        2270.8334298030504,
+        262.49999672758815
+      ],
+      "segmentation": [
+        [
+          266.6666779952206,
+          583.333326061307,
+          2537.500107798271,
+          583.333326061307,
+          2537.500107798271,
+          845.8333227888952,
+          266.6666779952206,
+          845.8333227888952
+        ]
+      ],
+      "area": 596093.7678921985,
+      "iscrowd": 0,
+      "text": "ALL DRESSED UP! O.P.S.A quint and interesting photograph of a baby boy of Zululand, South NY. A quint and interesting photograph of his Sunday morning airing.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_047_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          632.1599731445312,
+          489.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 126,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9474,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9518
+        }
+      },
+      "source_annotation_id": 7187,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_047__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_047__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_056_0002-verso-7194",
+      "image_id": 2452,
+      "category_id": 1012,
+      "bbox": [
+        891.6667045465189,
+        829.1666797640574,
+        737.500031330532,
+        229.16667028654854
+      ],
+      "segmentation": [
+        [
+          891.6667045465189,
+          829.1666797640574,
+          1629.166735877051,
+          829.1666797640574,
+          1629.166735877051,
+          1058.333350050606,
+          891.6667045465189,
+          1058.333350050606
+        ]
+      ],
+      "area": 169010.42651624326,
+      "iscrowd": 0,
+      "text": "4242.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_056_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          632.1599731445312,
+          463.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 1
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 7194,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_056__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_056__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_069_0002-verso-7199",
+      "image_id": 2465,
+      "category_id": 1012,
+      "bbox": [
+        91.66666666666667,
+        83.33333602082143,
+        908.3333333333334,
+        145.8333380364375
+      ],
+      "segmentation": [
+        [
+          91.66666666666667,
+          83.33333602082143,
+          1000.0,
+          83.33333602082143,
+          1000.0,
+          229.16667405725894,
+          91.66666666666667,
+          229.16667405725894
+        ]
+      ],
+      "area": 132465.28204976406,
+      "iscrowd": 0,
+      "text": "1/- is credited to sender of advance advice with Name and Date of Publication that will contain KEYSTONE VIEWS.'",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_069_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          270.0,
+          264.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 89,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 4
+          },
+          "alpha_ratio": 0.9468,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9267
+        }
+      },
+      "source_annotation_id": 7199,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_069__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_069__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_069_0002-verso-7200",
+      "image_id": 2465,
+      "category_id": 1012,
+      "bbox": [
+        87.5,
+        262.50000846558754,
+        912.5000000000001,
+        187.50000604684823
+      ],
+      "segmentation": [
+        [
+          87.5,
+          262.50000846558754,
+          1000.0000000000001,
+          262.50000846558754,
+          1000.0000000000001,
+          450.00001451243577,
+          87.5,
+          450.00001451243577
+        ]
+      ],
+      "area": 171093.75551774903,
+      "iscrowd": 0,
+      "text": "As IMPRINT must be printed with each view, a further 1/- per View will be credited to Publishers sending two (2) first copies of Publication with Imprint as follows:",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_069_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          270.0,
+          264.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 129,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 6
+          },
+          "alpha_ratio": 0.9416,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9177
+        }
+      },
+      "source_annotation_id": 7200,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_069__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_069__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_069_0002-verso-7201",
+      "image_id": 2465,
+      "category_id": 1012,
+      "bbox": [
+        87.5,
+        641.6666873603251,
+        904.1666666666667,
+        125.00000403123215
+      ],
+      "segmentation": [
+        [
+          87.5,
+          641.6666873603251,
+          991.6666666666667,
+          641.6666873603251,
+          991.6666666666667,
+          766.6666913915573,
+          87.5,
+          766.6666913915573
+        ]
+      ],
+      "area": 113020.83697823908,
+      "iscrowd": 0,
+      "text": "Or 6d. per View if imprinted as follows:—\"Copyright, Keystone View Co.\"",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_069_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          270.0,
+          264.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0909,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 53,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 7
+          },
+          "alpha_ratio": 0.8689,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8927
+        }
+      },
+      "source_annotation_id": 7201,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_069__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_069__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_069_0002-verso-7202",
+      "image_id": 2465,
+      "category_id": 1012,
+      "bbox": [
+        379.1666666666667,
+        883.3333618207073,
+        579.1666666666667,
+        104.1666700260268
+      ],
+      "segmentation": [
+        [
+          379.1666666666667,
+          883.3333618207073,
+          958.3333333333335,
+          883.3333618207073,
+          958.3333333333335,
+          987.5000318467341,
+          379.1666666666667,
+          987.5000318467341
+        ]
+      ],
+      "area": 60329.86305674053,
+      "iscrowd": 0,
+      "text": "88, CHANCERY LANE,\nLONDON, W.C.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_069_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          270.0,
+          264.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 5
+          },
+          "alpha_ratio": 0.7407,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8676
+        }
+      },
+      "source_annotation_id": 7202,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_069__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_069__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_069_0002-verso-7203",
+      "image_id": 2465,
+      "category_id": 1012,
+      "bbox": [
+        87.5,
+        983.333365045693,
+        245.83333333333334,
+        41.66666801041072
+      ],
+      "segmentation": [
+        [
+          87.5,
+          983.333365045693,
+          333.33333333333337,
+          983.333365045693,
+          333.33333333333337,
+          1025.0000330561038,
+          87.5,
+          1025.0000330561038
+        ]
+      ],
+      "area": 10243.055885892634,
+      "iscrowd": 0,
+      "text": "201.16.D$^{1}_{5}$E.5Y.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_069_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          270.0,
+          264.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "suspicious",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 3,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 12
+          },
+          "alpha_ratio": 0.1304,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.7913
+        }
+      },
+      "source_annotation_id": 7203,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_069__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_069__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_087_0002-verso-7208",
+      "image_id": 2483,
+      "category_id": 1012,
+      "bbox": [
+        137.5000014816974,
+        1341.6666458615769,
+        1000.0000107759811,
+        99.99999844931008
+      ],
+      "segmentation": [
+        [
+          137.5000014816974,
+          1341.6666458615769,
+          1137.5000122576785,
+          1341.6666458615769,
+          1137.5000122576785,
+          1441.666644310887,
+          137.5000014816974,
+          1441.666644310887
+        ]
+      ],
+      "area": 99999.99952690817,
+      "iscrowd": 0,
+      "text": "Drei Häuptlinge im Löderitzbucht. \nsüdwestafrika.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_087_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          339.8399963378906,
+          472.32000732421875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 42,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9545,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8943
+        }
+      },
+      "source_annotation_id": 7208,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_087__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_087__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_088_0002-verso-7209",
+      "image_id": 2484,
+      "category_id": 1012,
+      "bbox": [
+        249.99998836095472,
+        237.50000300494398,
+        158.333325961938,
+        75.00000094892968
+      ],
+      "segmentation": [
+        [
+          249.99998836095472,
+          237.50000300494398,
+          408.3333143228927,
+          237.50000300494398,
+          408.3333143228927,
+          312.50000395387366,
+          249.99998836095472,
+          312.50000395387366
+        ]
+      ],
+      "area": 11874.999597392542,
+      "iscrowd": 0,
+      "text": "44/400",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_088_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          314.6400146484375,
+          241.1999969482422
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 1
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 7209,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_088__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_088__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_089_0002-verso-7212",
+      "image_id": 2485,
+      "category_id": 1012,
+      "bbox": [
+        99.99999776918294,
+        1387.5000182356332,
+        1124.9999749033082,
+        58.33333409999659
+      ],
+      "segmentation": [
+        [
+          99.99999776918294,
+          1387.5000182356332,
+          1224.9999726724911,
+          1387.5000182356332,
+          1224.9999726724911,
+          1445.8333523356298,
+          99.99999776918294,
+          1445.8333523356298
+        ]
+      ],
+      "area": 65624.99939852246,
+      "iscrowd": 0,
+      "text": "Altes Hottentottenweib. Southwestafrika.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_089_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          383.0400085449219,
+          464.3999938964844
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 36,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9474,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8934
+        }
+      },
+      "source_annotation_id": 7212,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_089__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_089__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_090_0002-verso-7214",
+      "image_id": 2486,
+      "category_id": 1012,
+      "bbox": [
+        149.99999903486471,
+        1337.5000282570174,
+        1241.6666586774911,
+        70.8333348298109
+      ],
+      "segmentation": [
+        [
+          149.99999903486471,
+          1337.5000282570174,
+          1391.6666577123558,
+          1337.5000282570174,
+          1391.6666577123558,
+          1408.3333630868283,
+          149.99999903486471,
+          1408.3333630868283
+        ]
+      ],
+      "area": 87951.39018111525,
+      "iscrowd": 0,
+      "text": "Ein altes Hottentottenweib, Southwestafrika.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_090_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          379.44000244140625,
+          462.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 39,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9512,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8939
+        }
+      },
+      "source_annotation_id": 7214,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_090__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_090__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_091_0002-verso-7216",
+      "image_id": 2487,
+      "category_id": 1012,
+      "bbox": [
+        162.49999688693887,
+        1395.833344306402,
+        1237.4999762928421,
+        54.166667092487245
+      ],
+      "segmentation": [
+        [
+          162.49999688693887,
+          1395.833344306402,
+          1399.999973179781,
+          1395.833344306402,
+          1399.999973179781,
+          1450.0000113988892,
+          162.49999688693887,
+          1450.0000113988892
+        ]
+      ],
+      "area": 67031.24924281523,
+      "iscrowd": 0,
+      "text": "Ein altes Hottentottenweib. Sudwestafrika.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          382.32000732421875,
+          465.8399963378906
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9487,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8936
+        }
+      },
+      "source_annotation_id": 7216,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_110_0002-verso-7219",
+      "image_id": 2506,
+      "category_id": 1012,
+      "bbox": [
+        145.83332646530874,
+        1037.499980124302,
+        1445.833265241775,
+        54.16666562897962
+      ],
+      "segmentation": [
+        [
+          145.83332646530874,
+          1037.499980124302,
+          1591.6665917070839,
+          1037.499980124302,
+          1591.6665917070839,
+          1091.6666457532817,
+          145.83332646530874,
+          1091.6666457532817
+        ]
+      ],
+      "area": 78315.96703360704,
+      "iscrowd": 0,
+      "text": "Eingeborene bei der Mittageruhe in Southwestafrika.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_110_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          518.4000244140625,
+          382.32000732421875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 45,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9783,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9139
+        }
+      },
+      "source_annotation_id": 7219,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_110__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_110__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_111_0002-verso-7220",
+      "image_id": 2507,
+      "category_id": 1012,
+      "bbox": [
+        195.83333089201022,
+        1054.1667106155942,
+        1420.833315620755,
+        58.3333357652898
+      ],
+      "segmentation": [
+        [
+          195.83333089201022,
+          1054.1667106155942,
+          1616.6666465127653,
+          1054.1667106155942,
+          1616.6666465127653,
+          1112.500046380884,
+          195.83333089201022,
+          1112.500046380884
+        ]
+      ],
+      "area": 82881.94686661549,
+      "iscrowd": 0,
+      "text": "Witboi Frauen bei der Begrüssung. Southwest afrika.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_111_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          489.6000061035156,
+          351.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 43,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9556,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8944
+        }
+      },
+      "source_annotation_id": 7220,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_111__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_111__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_113_0002-verso-7223",
+      "image_id": 2509,
+      "category_id": 1012,
+      "bbox": [
+        120.83333556357225,
+        1049.9999727322886,
+        1183.3333551742937,
+        79.1666646107678
+      ],
+      "segmentation": [
+        [
+          120.83333556357225,
+          1049.9999727322886,
+          1304.166690737866,
+          1049.9999727322886,
+          1304.166690737866,
+          1129.1666373430564,
+          120.83333556357225,
+          1129.1666373430564
+        ]
+      ],
+      "area": 93680.55485181788,
+      "iscrowd": 0,
+      "text": "Witboi Arbeiter kommen zur Essenausgabe.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_113_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          462.9599914550781,
+          329.0400085449219
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 35,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9722,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8965
+        }
+      },
+      "source_annotation_id": 7223,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_113__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_113__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_114_0002-verso-7225",
+      "image_id": 2510,
+      "category_id": 1012,
+      "bbox": [
+        62.499998605739336,
+        1375.0000386193426,
+        1133.33330805074,
+        95.83333602498449
+      ],
+      "segmentation": [
+        [
+          62.499998605739336,
+          1375.0000386193426,
+          1195.8333066564794,
+          1375.0000386193426,
+          1195.8333066564794,
+          1470.833374644327,
+          62.499998605739336,
+          1470.833374644327
+        ]
+      ],
+      "area": 108611.11173873383,
+      "iscrowd": 0,
+      "text": "Partie im Gouvernementsgraten in Windhuk. Southwestafrika.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_114_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          328.32000732421875,
+          478.0799865722656
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 51,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9623,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9119
+        }
+      },
+      "source_annotation_id": 7225,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_114__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_114__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_116_0002-verso-7226",
+      "image_id": 2512,
+      "category_id": 1012,
+      "bbox": [
+        116.66666988291257,
+        75.00000312680118,
+        904.1666915925724,
+        158.33333993435804
+      ],
+      "segmentation": [
+        [
+          116.66666988291257,
+          75.00000312680118,
+          1020.8333614754849,
+          75.00000312680118,
+          1020.8333614754849,
+          233.3333430611592,
+          116.66666988291257,
+          233.3333430611592
+        ]
+      ],
+      "area": 143159.73213725063,
+      "iscrowd": 0,
+      "text": "1/- is credited to sender of advance advice with Name and Date of Publication that will contain KEYSTONE VIEWS. (6)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_116_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          265.67999267578125,
+          263.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 89,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 5
+          },
+          "alpha_ratio": 0.9271,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9242
+        }
+      },
+      "source_annotation_id": 7226,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_116__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_116__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_116_0002-verso-7227",
+      "image_id": 2512,
+      "category_id": 1012,
+      "bbox": [
+        112.50000310137997,
+        258.33334410342627,
+        908.333358374105,
+        191.66667465738078
+      ],
+      "segmentation": [
+        [
+          112.50000310137997,
+          258.33334410342627,
+          1020.833361475485,
+          258.33334410342627,
+          1020.833361475485,
+          450.00001876080705,
+          112.50000310137997,
+          450.00001876080705
+        ]
+      ],
+      "area": 174097.23427993566,
+      "iscrowd": 0,
+      "text": "As IMPRINT must be printed with each view, a further 1/- per View will be credited to Publishers sending two (c) first copies of Publication with Impint as follows:",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_116_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          265.67999267578125,
+          263.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 129,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 6
+          },
+          "alpha_ratio": 0.9485,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9186
+        }
+      },
+      "source_annotation_id": 7227,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_116__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_116__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_116_0002-verso-7228",
+      "image_id": 2512,
+      "category_id": 1012,
+      "bbox": [
+        120.83333666444516,
+        641.6666934181878,
+        900.0000248110398,
+        120.83333837095745
+      ],
+      "segmentation": [
+        [
+          120.83333666444516,
+          641.6666934181878,
+          1020.8333614754849,
+          641.6666934181878,
+          1020.8333614754849,
+          762.5000317891453,
+          120.83333666444516,
+          762.5000317891453
+        ]
+      ],
+      "area": 108750.00753186247,
+      "iscrowd": 0,
+      "text": "Of 6d. per View if imprinted as follows:—\n\"Copyright, Keystone View Co.\"",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_116_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          265.67999267578125,
+          263.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1818,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 53,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 7
+          },
+          "alpha_ratio": 0.8689,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9018
+        }
+      },
+      "source_annotation_id": 7228,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_116__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_116__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_116_0002-verso-7229",
+      "image_id": 2512,
+      "category_id": 1012,
+      "bbox": [
+        133.33333700904294,
+        991.6667080099267,
+        245.8333401104229,
+        37.50000156340059
+      ],
+      "segmentation": [
+        [
+          133.33333700904294,
+          991.6667080099267,
+          379.1666771194658,
+          991.6667080099267,
+          379.1666771194658,
+          1029.1667095733274,
+          133.33333700904294,
+          1029.1667095733274
+        ]
+      ],
+      "area": 9218.750638476848,
+      "iscrowd": 0,
+      "text": "201.16.D$^{3}$E.5Y.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_116_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          265.67999267578125,
+          263.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "suspicious",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 3,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 9
+          },
+          "alpha_ratio": 0.1579,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.7947
+        }
+      },
+      "source_annotation_id": 7229,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_116__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_116__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_121_0002-verso-7231",
+      "image_id": 2517,
+      "category_id": 1012,
+      "bbox": [
+        475.00002339927414,
+        154.16666407877162,
+        366.66668472926426,
+        187.49999685256006
+      ],
+      "segmentation": [
+        [
+          475.00002339927414,
+          154.16666407877162,
+          841.6667081285384,
+          154.16666407877162,
+          841.6667081285384,
+          341.66666093133165,
+          475.00002339927414,
+          341.66666093133165
+        ]
+      ],
+      "area": 68750.00223267567,
+      "iscrowd": 0,
+      "text": "V. FORBIN\n15°, Rue Gule\nParc des Prés\nBOULOGNE sur\nBLOUGNE sur",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_121_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          297.3599853515625,
+          290.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 46,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 3
+          },
+          "alpha_ratio": 0.902,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9177
+        }
+      },
+      "source_annotation_id": 7231,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_121__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_121__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_125_0002-verso-7234",
+      "image_id": 2521,
+      "category_id": 1012,
+      "bbox": [
+        1187.4999806644666,
+        483.33333861161674,
+        308.3333283128791,
+        83.3333342433822
+      ],
+      "segmentation": [
+        [
+          1187.4999806644666,
+          483.33333861161674,
+          1495.8333089773457,
+          483.33333861161674,
+          1495.8333089773457,
+          566.666672854999,
+          1187.4999806644666,
+          566.666672854999
+        ]
+      ],
+      "area": 25694.444306671652,
+      "iscrowd": 0,
+      "text": "4242",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_125_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          599.760009765625,
+          447.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "unknown",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 0
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 7234,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_125__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_125__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_126_0002-verso-7235",
+      "image_id": 2522,
+      "category_id": 1012,
+      "bbox": [
+        2041.6666587727452,
+        1312.4999967082247,
+        204.16666587727454,
+        104.16666640541466
+      ],
+      "segmentation": [
+        [
+          2041.6666587727452,
+          1312.4999967082247,
+          2245.8333246500197,
+          1312.4999967082247,
+          2245.8333246500197,
+          1416.6666631136393,
+          2041.6666587727452,
+          1416.6666631136393
+        ]
+      ],
+      "area": 21267.360975543812,
+      "iscrowd": 0,
+      "text": "V. FORBIE\nPARIS",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_126_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          631.4400024414062,
+          486.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 7235,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_126__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_126__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_128_0002-verso-7236",
+      "image_id": 2524,
+      "category_id": 1012,
+      "bbox": [
+        1524.9999751691046,
+        1241.6666599516818,
+        212.4999965399572,
+        112.49999939159532
+      ],
+      "segmentation": [
+        [
+          1524.9999751691046,
+          1241.6666599516818,
+          1737.4999717090618,
+          1241.6666599516818,
+          1737.4999717090618,
+          1354.1666593432772,
+          1524.9999751691046,
+          1354.1666593432772
+        ]
+      ],
+      "area": 23906.249481459196,
+      "iscrowd": 0,
+      "text": "V. FORBIN\nPARIS",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_128_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          599.760009765625,
+          451.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 7236,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_128__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_128__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_133_0002-verso-7238",
+      "image_id": 2529,
+      "category_id": 1012,
+      "bbox": [
+        216.66666605544998,
+        1466.6667033695085,
+        1004.1666638339124,
+        387.50000969705764
+      ],
+      "segmentation": [
+        [
+          216.66666605544998,
+          1466.6667033695085,
+          1220.8333298893624,
+          1466.6667033695085,
+          1220.8333298893624,
+          1854.166713066566,
+          216.66666605544998,
+          1854.166713066566
+        ]
+      ],
+      "area": 389114.59197310306,
+      "iscrowd": 0,
+      "text": "Haraï Wash Bay,\nor Harchy",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_133_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          432.7200012207031,
+          585.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.894
+        }
+      },
+      "source_annotation_id": 7238,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_133__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_133__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_139_0002-verso-7240",
+      "image_id": 2535,
+      "category_id": 1012,
+      "bbox": [
+        1158.333302406363,
+        841.6666644746862,
+        729.1666471982501,
+        241.66666603728612
+      ],
+      "segmentation": [
+        [
+          1158.333302406363,
+          841.6666644746862,
+          1887.499949604613,
+          841.6666644746862,
+          1887.499949604613,
+          1083.3333305119722,
+          1158.333302406363,
+          1083.3333305119722
+        ]
+      ],
+      "area": 176215.27261398712,
+      "iscrowd": 0,
+      "text": "FROM 1.D.RAVENScroft\n21 UNION .ST\nCAPE TOW",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_139_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          640.0800170898438,
+          468.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 30,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 3
+          },
+          "alpha_ratio": 0.8333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8792
+        }
+      },
+      "source_annotation_id": 7240,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_139__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_139__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_148_0002-verso-7241",
+      "image_id": 2544,
+      "category_id": 1012,
+      "bbox": [
+        958.3333410155011,
+        724.9999980364532,
+        745.8333393120639,
+        262.49999928906067
+      ],
+      "segmentation": [
+        [
+          958.3333410155011,
+          724.9999980364532,
+          1704.166680327565,
+          724.9999980364532,
+          1704.166680327565,
+          987.499997325514,
+          958.3333410155011,
+          987.499997325514
+        ]
+      ],
+      "area": 195781.25103917453,
+      "iscrowd": 0,
+      "text": "FROM T.D.RAVENSCROFT\n21 UNION .ST\nCAPE TOW1",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_148_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          609.1199951171875,
+          450.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 31,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 3
+          },
+          "alpha_ratio": 0.8378,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8797
+        }
+      },
+      "source_annotation_id": 7241,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_148__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_148__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_149_0002-verso-7242",
+      "image_id": 2545,
+      "category_id": 1012,
+      "bbox": [
+        1341.66670475956,
+        1024.999982793995,
+        520.8333481209472,
+        87.49999853119469
+      ],
+      "segmentation": [
+        [
+          1341.66670475956,
+          1024.999982793995,
+          1862.5000528805072,
+          1024.999982793995,
+          1862.5000528805072,
+          1112.4999813251898,
+          1341.66670475956,
+          1112.4999813251898
+        ]
+      ],
+      "area": 45572.91719558009,
+      "iscrowd": 0,
+      "text": "THIS PHOTOGRAPH IS THE COPYRIGHT PROPERTY OF T. D. RAVENBROOFT, RONDEBORGH,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_149_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          601.9199829101562,
+          436.32000732421875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4444,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 61,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9385,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9368
+        }
+      },
+      "source_annotation_id": 7242,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_149__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_149__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_152_0002-verso-7244",
+      "image_id": 2548,
+      "category_id": 1012,
+      "bbox": [
+        116.6666686646376,
+        1341.6666836419643,
+        1283.3333553110135,
+        204.16666924986413
+      ],
+      "segmentation": [
+        [
+          116.6666686646376,
+          1341.6666836419643,
+          1400.0000239756512,
+          1341.6666836419643,
+          1400.0000239756512,
+          1545.8333528918283,
+          116.6666686646376,
+          1545.8333528918283
+        ]
+      ],
+      "area": 262013.89669110207,
+      "iscrowd": 0,
+      "text": "Herero Grab. Akazia Horida (Weissdorabaum) Die Hörner der Opfertiere, welche beim Tode des Hereros geschlachtet werden, werden aufgehängt und bleiben hängen.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_11_152_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          356.3999938964844,
+          482.3999938964844
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 131,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9562,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9029
+        }
+      },
+      "source_annotation_id": 7244,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_152__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_152__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_11_168_0001-recto-7247",
+      "image_id": 2564,
+      "category_id": 1012,
+      "bbox": [
+        175.00000424866852,
+        1725.0000093887681,
+        620.8333484059907,
+        54.16666696148306
+      ],
+      "segmentation": [
+        [
+          175.00000424866852,
+          1725.0000093887681,
+          795.8333526546592,
+          1725.0000093887681,
+          795.8333526546592,
+          1779.1666763502512,
+          175.00000424866852,
+          1779.1666763502512
+        ]
+      ],
+      "area": 33628.47322168968,
+      "iscrowd": 0,
+      "text": "FISHING, KOMATI RIVER.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_11_168_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          603.3599853515625,
+          448.55999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 18,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8875
+        }
+      },
+      "source_annotation_id": 7247,
+      "source_file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_168__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_11/SHDGR__GR_2_K_247_11_168__0001.jpg"
+    }
+  ]
 }

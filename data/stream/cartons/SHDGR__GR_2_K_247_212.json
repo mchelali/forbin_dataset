@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_212",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,6 +2903,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2544,6 +2932,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2570,6 +2961,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2596,6 +2990,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2622,6 +3019,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2648,6 +3048,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2674,6 +3077,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2700,6 +3106,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2726,6 +3135,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2752,6 +3164,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2778,6 +3193,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2804,6 +3222,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2830,6 +3251,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2856,6 +3280,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2882,6 +3309,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2908,6 +3338,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2934,6 +3367,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2960,6 +3396,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2986,6 +3425,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3012,6 +3454,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3038,6 +3483,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3064,6 +3512,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3090,6 +3541,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3116,6 +3570,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3142,6 +3599,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3168,6 +3628,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3194,6 +3657,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3220,6 +3686,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3246,6 +3715,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3272,6 +3744,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3298,6 +3773,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3324,6 +3802,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3350,6 +3831,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3376,6 +3860,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3402,6 +3889,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3428,6 +3918,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3454,6 +3947,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3480,6 +3976,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3506,6 +4005,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3532,6 +4034,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3558,6 +4063,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3584,6 +4092,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3610,6 +4121,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3636,6 +4150,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3662,6 +4179,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3688,6 +4208,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3714,6 +4237,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3740,6 +4266,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3766,6 +4295,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3792,6 +4324,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3818,6 +4353,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3844,6 +4382,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3870,6 +4411,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3896,6 +4440,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3922,6 +4469,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3948,6 +4498,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3974,6 +4527,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4000,6 +4556,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4026,6 +4585,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4052,6 +4614,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4078,6 +4643,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4104,6 +4672,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4130,6 +4701,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4156,6 +4730,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4182,6 +4759,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4208,6 +4788,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4234,6 +4817,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4260,6 +4846,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4286,9 +4875,1861 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_009_0002-verso-57756",
+      "image_id": 52599,
+      "category_id": 1013,
+      "bbox": [
+        687.500024844092,
+        174.99999448287602,
+        737.5000266509351,
+        91.66666377674457
+      ],
+      "segmentation": [
+        [
+          687.500024844092,
+          174.99999448287602,
+          1425.000051495027,
+          174.99999448287602,
+          1425.000051495027,
+          266.6666582596206,
+          687.500024844092,
+          266.6666582596206
+        ]
+      ],
+      "area": 67604.16697835142,
+      "iscrowd": 0,
+      "text": "CARTE POSTALE",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          540.47998046875,
+          348.4800109863281
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 57756,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_009_0002-verso-57757",
+      "image_id": 52599,
+      "category_id": 1012,
+      "bbox": [
+        154.16667223776608,
+        441.6666527424966,
+        41.666668172369214,
+        541.6666495898543
+      ],
+      "segmentation": [
+        [
+          154.16667223776608,
+          441.6666527424966,
+          195.8333404101353,
+          441.6666527424966,
+          195.8333404101353,
+          983.3333023323509,
+          154.16667223776608,
+          983.3333023323509
+        ]
+      ],
+      "area": 22569.44454849945,
+      "iscrowd": 0,
+      "text": "Photographie Duvergier, Avallon",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          540.47998046875,
+          348.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 28,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9655,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.929
+        }
+      },
+      "source_annotation_id": 57757,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_019_0002-verso-57758",
+      "image_id": 52609,
+      "category_id": 1012,
+      "bbox": [
+        266.6666644173519,
+        612.5,
+        1795.8333181856042,
+        354.1666666666667
+      ],
+      "segmentation": [
+        [
+          266.6666644173519,
+          612.5,
+          2062.499982602956,
+          612.5,
+          2062.499982602956,
+          966.6666666666667,
+          266.6666644173519,
+          966.6666666666667
+        ]
+      ],
+      "area": 636024.3001907348,
+      "iscrowd": 0,
+      "text": "The same picture,- chorus by younger students",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_019_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          578.8800048828125,
+          432.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9487,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9222
+        }
+      },
+      "source_annotation_id": 57758,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_019__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_019__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_020_0002-verso-57759",
+      "image_id": 52610,
+      "category_id": 1012,
+      "bbox": [
+        2066.666727780682,
+        495.83334725970235,
+        558.3333498439745,
+        287.5000080749534
+      ],
+      "segmentation": [
+        [
+          2066.666727780682,
+          495.83334725970235,
+          2625.000077624656,
+          495.83334725970235,
+          2625.000077624656,
+          783.3333553346558,
+          2066.666727780682,
+          783.3333553346558
+        ]
+      ],
+      "area": 160520.84258865844,
+      "iscrowd": 0,
+      "text": "V. FORBIN\nCLAMART (SEINE)\nTél.: 104",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_020_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          660.47998046875,
+          478.0799865722656
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 22,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 5
+          },
+          "alpha_ratio": 0.7333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8917
+        }
+      },
+      "source_annotation_id": 57759,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_020__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_020__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_025_0001-recto-57760",
+      "image_id": 52615,
+      "category_id": 1012,
+      "bbox": [
+        429.16666976145103,
+        3041.6665927325384,
+        979.1666737275824,
+        49.99999878464446
+      ],
+      "segmentation": [
+        [
+          429.16666976145103,
+          3041.6665927325384,
+          1408.3333434890335,
+          3041.6665927325384,
+          1408.3333434890335,
+          3091.666591517183,
+          429.16666976145103,
+          3091.666591517183
+        ]
+      ],
+      "area": 48958.33249634348,
+      "iscrowd": 0,
+      "text": "PHOTO UNDERWOOD & UNDERWOOD",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_212_025_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1015.6799926757812,
+          803.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 23,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9583,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9615
+        }
+      },
+      "source_annotation_id": 57760,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_025__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_025__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_029_0001-recto-57764",
+      "image_id": 52619,
+      "category_id": 1012,
+      "bbox": [
+        404.1666725908684,
+        1441.6665856424077,
+        687.5000100772504,
+        129.16665940726773
+      ],
+      "segmentation": [
+        [
+          404.1666725908684,
+          1441.6665856424077,
+          1091.666682668119,
+          1441.6665856424077,
+          1091.666682668119,
+          1570.8332450496755,
+          404.1666725908684,
+          1570.8332450496755
+        ]
+      ],
+      "area": 88802.07964414134,
+      "iscrowd": 0,
+      "text": "Nee margeitut!",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_212_029_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          333.1199951171875,
+          521.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 57764,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_029__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_029__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_029_0001-recto-57765",
+      "image_id": 52619,
+      "category_id": 1012,
+      "bbox": [
+        804.1666784539959,
+        1683.3332387269731,
+        370.83333876894113,
+        183.33332302967034
+      ],
+      "segmentation": [
+        [
+          804.1666784539959,
+          1683.3332387269731,
+          1175.000017222937,
+          1683.3332387269731,
+          1175.000017222937,
+          1866.6665617566434,
+          804.1666784539959,
+          1866.6665617566434
+        ]
+      ],
+      "area": 67986.10828669746,
+      "iscrowd": 0,
+      "text": "The text content from the image is: $D_{\\mathrm{~d~o~u~L~}}$",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_212_029_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          333.1199951171875,
+          521.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 39,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 14
+          },
+          "alpha_ratio": 0.7358,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.892
+        }
+      },
+      "source_annotation_id": 57765,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_029__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_029__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_030_0001-recto-57766",
+      "image_id": 52620,
+      "category_id": 1012,
+      "bbox": [
+        416.6666666666667,
+        1400.0000130178578,
+        687.5,
+        129.16666786771904
+      ],
+      "segmentation": [
+        [
+          416.6666666666667,
+          1400.0000130178578,
+          1104.1666666666667,
+          1400.0000130178578,
+          1104.1666666666667,
+          1529.1666808855769,
+          416.6666666666667,
+          1529.1666808855769
+        ]
+      ],
+      "area": 88802.08415905685,
+      "iscrowd": 0,
+      "text": "Nee ergitier!",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_212_030_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          360.0,
+          525.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 11,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9167,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8896
+        }
+      },
+      "source_annotation_id": 57766,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_030__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_030__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_031_0001-recto-57767",
+      "image_id": 52621,
+      "category_id": 1012,
+      "bbox": [
+        291.6666688742461,
+        1383.3333567420696,
+        687.50000520358,
+        125.00000211524724
+      ],
+      "segmentation": [
+        [
+          291.6666688742461,
+          1383.3333567420696,
+          979.1666740778262,
+          1383.3333567420696,
+          979.1666740778262,
+          1508.3333588573169,
+          291.6666688742461,
+          1508.3333588573169
+        ]
+      ],
+      "area": 85937.50210468,
+      "iscrowd": 0,
+      "text": "Nec ergitier!",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_212_031_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          322.55999755859375,
+          504.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 11,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9167,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8896
+        }
+      },
+      "source_annotation_id": 57767,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_031__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_031__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_031_0001-recto-57768",
+      "image_id": 52621,
+      "category_id": 1012,
+      "bbox": [
+        691.6666719017836,
+        1616.6666940238642,
+        370.8333361401129,
+        179.16666969852105
+      ],
+      "segmentation": [
+        [
+          691.6666719017836,
+          1616.6666940238642,
+          1062.5000080418965,
+          1616.6666940238642,
+          1062.5000080418965,
+          1795.8333637223852,
+          691.6666719017836,
+          1795.8333637223852
+        ]
+      ],
+      "area": 66440.97384941624,
+      "iscrowd": 0,
+      "text": "Paul\nPapig-1947",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_212_031_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          322.55999755859375,
+          504.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 9,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 1
+          },
+          "alpha_ratio": 0.6429,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8554
+        }
+      },
+      "source_annotation_id": 57768,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_031__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_031__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_032_0001-recto-57769",
+      "image_id": 52622,
+      "category_id": 1012,
+      "bbox": [
+        320.8333345227231,
+        1529.1666325537558,
+        687.5000025486924,
+        120.83333063776271
+      ],
+      "segmentation": [
+        [
+          320.8333345227231,
+          1529.1666325537558,
+          1008.3333370714154,
+          1529.1666325537558,
+          1008.3333370714154,
+          1649.9999631915184,
+          320.8333345227231,
+          1649.9999631915184
+        ]
+      ],
+      "area": 83072.91512142886,
+      "iscrowd": 0,
+      "text": "Thee ergitier!",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_212_032_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          329.2799987792969,
+          547.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 57769,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_032__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_032__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_032_0001-recto-57770",
+      "image_id": 52622,
+      "category_id": 1012,
+      "bbox": [
+        725.0000026877119,
+        1758.3332941081333,
+        370.83333470808253,
+        183.33332924350205
+      ],
+      "segmentation": [
+        [
+          725.0000026877119,
+          1758.3332941081333,
+          1095.8333373957944,
+          1758.3332941081333,
+          1095.8333373957944,
+          1941.6666233516353,
+          725.0000026877119,
+          1941.6666233516353
+        ]
+      ],
+      "area": 67986.10984650269,
+      "iscrowd": 0,
+      "text": "Paul\nPapig-1947",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_212_032_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          329.2799987792969,
+          547.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 9,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 1
+          },
+          "alpha_ratio": 0.6429,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8554
+        }
+      },
+      "source_annotation_id": 57770,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_032__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_032__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_033_0001-recto-57771",
+      "image_id": 52623,
+      "category_id": 1012,
+      "bbox": [
+        133.33333625647307,
+        1379.1666343238192,
+        687.5000150724393,
+        120.83333049966996
+      ],
+      "segmentation": [
+        [
+          133.33333625647307,
+          1379.1666343238192,
+          820.8333513289124,
+          1379.1666343238192,
+          820.8333513289124,
+          1499.999964823489,
+          133.33333625647307,
+          1499.999964823489
+        ]
+      ],
+      "area": 83072.91653977612,
+      "iscrowd": 0,
+      "text": "Nec ergitier!",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_212_033_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          278.3999938964844,
+          468.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 11,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9167,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8896
+        }
+      },
+      "source_annotation_id": 57771,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_033__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_033__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_057_0002-verso-57775",
+      "image_id": 52647,
+      "category_id": 1012,
+      "bbox": [
+        1312.500034512587,
+        599.9999866150977,
+        333.3333420984348,
+        154.16666322749037
+      ],
+      "segmentation": [
+        [
+          1312.500034512587,
+          599.9999866150977,
+          1645.8333766110218,
+          599.9999866150977,
+          1645.8333766110218,
+          754.1666498425881,
+          1312.500034512587,
+          754.1666498425881
+        ]
+      ],
+      "area": 51388.88909378324,
+      "iscrowd": 0,
+      "text": "3.3",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_057_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          649.9199829101562,
+          437.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 1
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 57775,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_057__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_057__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_092_0002-verso-57778",
+      "image_id": 52682,
+      "category_id": 1012,
+      "bbox": [
+        224.99999617802285,
+        341.66667677019336,
+        812.4999861984159,
+        58.333335058325694
+      ],
+      "segmentation": [
+        [
+          224.99999617802285,
+          341.66667677019336,
+          1037.4999823764388,
+          341.66667677019336,
+          1037.4999823764388,
+          400.00001182851906,
+          224.99999617802285,
+          400.00001182851906
+        ]
+      ],
+      "area": 47395.8339297972,
+      "iscrowd": 0,
+      "text": "Communication--Correspondance",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_092_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          503.0400085449219,
+          330.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.931,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8914
+        }
+      },
+      "source_annotation_id": 57778,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_092__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_092__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_092_0002-verso-57779",
+      "image_id": 52682,
+      "category_id": 1012,
+      "bbox": [
+        1204.1666462120113,
+        354.1666771398346,
+        420.8333261848205,
+        50.00000147856488
+      ],
+      "segmentation": [
+        [
+          1204.1666462120113,
+          354.1666771398346,
+          1624.9999723968317,
+          354.1666771398346,
+          1624.9999723968317,
+          404.1666786183995,
+          1204.1666462120113,
+          404.1666786183995
+        ]
+      ],
+      "area": 21041.666931470405,
+      "iscrowd": 0,
+      "text": "Address—Adresse",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_092_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          503.0400085449219,
+          330.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8917
+        }
+      },
+      "source_annotation_id": 57779,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_092__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_092__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_101_0002-verso-57780",
+      "image_id": 52691,
+      "category_id": 1012,
+      "bbox": [
+        362.50000211441557,
+        1241.6666389673549,
+        2858.3333500056215,
+        412.4999907978796
+      ],
+      "segmentation": [
+        [
+          362.50000211441557,
+          1241.6666389673549,
+          3220.833352120037,
+          1241.6666389673549,
+          3220.833352120037,
+          1654.1666297652346,
+          362.50000211441557,
+          1654.1666297652346
+        ]
+      ],
+      "area": 1179062.4805745913,
+      "iscrowd": 0,
+      "text": "A puzzle for the louder; The authorities did not wish this rest to be used and the way gave them the idea of barbed wire entanglements.This is used and the way gave them the idea of barbed wire entanglements. This is even more effectual than the \"Wet Paint nothee.\"",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_101_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          656.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 211,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9724,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9965
+        }
+      },
+      "source_annotation_id": 57780,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_101__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_101__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_124_0002-verso-57784",
+      "image_id": 52714,
+      "category_id": 1013,
+      "bbox": [
+        362.4999901049895,
+        183.3333313120583,
+        1299.999964514445,
+        258.33333048517306
+      ],
+      "segmentation": [
+        [
+          362.4999901049895,
+          183.3333313120583,
+          1662.4999546194344,
+          183.3333313120583,
+          1662.4999546194344,
+          441.66666179723137,
+          362.4999901049895,
+          441.66666179723137
+        ]
+      ],
+      "area": 335833.3204636234,
+      "iscrowd": 0,
+      "text": "Stabilization Plant Scheme\nProcess Plant",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_124_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          536.6400146484375,
+          332.1600036621094
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 36,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 57784,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_124__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_124__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_124_0002-verso-57785",
+      "image_id": 52714,
+      "category_id": 1012,
+      "bbox": [
+        79.16666450568736,
+        541.6666606947177,
+        2045.8332774890787,
+        412.49999545213115
+      ],
+      "segmentation": [
+        [
+          79.16666450568736,
+          541.6666606947177,
+          2124.9999419947662,
+          541.6666606947177,
+          2124.9999419947662,
+          954.1666561468489,
+          79.16666450568736,
+          954.1666561468489
+        ]
+      ],
+      "area": 843906.2176600635,
+      "iscrowd": 0,
+      "text": "General view taken from power house roof showing 2$^{nd}$ stage column of No. 1 unit being lifted into position",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_124_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          536.6400146484375,
+          332.1600036621094
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 85,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 6
+          },
+          "alpha_ratio": 0.914,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8976
+        }
+      },
+      "source_annotation_id": 57785,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_124__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_124__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_124_0002-verso-57786",
+      "image_id": 52714,
+      "category_id": 1012,
+      "bbox": [
+        229.16666041120024,
+        1133.3333208381785,
+        633.3333160454989,
+        124.99999862185793
+      ],
+      "segmentation": [
+        [
+          229.16666041120024,
+          1133.3333208381785,
+          862.4999764566992,
+          1133.3333208381785,
+          862.4999764566992,
+          1258.3333194600364,
+          229.16666041120024,
+          1258.3333194600364
+        ]
+      ],
+      "area": 79166.66363286407,
+      "iscrowd": 0,
+      "text": "Taken 27th Feb.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_124_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          536.6400146484375,
+          332.1600036621094
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 1
+          },
+          "alpha_ratio": 0.7692,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8712
+        }
+      },
+      "source_annotation_id": 57786,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_124__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_124__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_125_0002-verso-57787",
+      "image_id": 52715,
+      "category_id": 1012,
+      "bbox": [
+        429.1666686121698,
+        158.33333969725223,
+        1341.666672748725,
+        304.1666788920898
+      ],
+      "segmentation": [
+        [
+          429.1666686121698,
+          158.33333969725223,
+          1770.8333413608948,
+          158.33333969725223,
+          1770.8333413608948,
+          462.50001858934206,
+          429.1666686121698,
+          462.50001858934206
+        ]
+      ],
+      "area": 408090.29603017995,
+      "iscrowd": 0,
+      "text": "Stabilization Plant Scheme\nProcer Plant.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_125_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          538.5599975585938,
+          334.0799865722656
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 35,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9722,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8965
+        }
+      },
+      "source_annotation_id": 57787,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_125__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_125__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_125_0002-verso-57788",
+      "image_id": 52715,
+      "category_id": 1012,
+      "bbox": [
+        208.33333427775233,
+        570.8333562769357,
+        1866.666675128661,
+        320.83334622864265
+      ],
+      "segmentation": [
+        [
+          208.33333427775233,
+          570.8333562769357,
+          2075.0000094064135,
+          570.8333562769357,
+          2075.0000094064135,
+          891.6667025055783,
+          208.33333427775233,
+          891.6667025055783
+        ]
+      ],
+      "area": 598888.9156750229,
+      "iscrowd": 0,
+      "text": "Excavation of hot oil pump house\nmanifold pit in progress.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_125_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          538.5599975585938,
+          334.0799865722656
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 48,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9796,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9174
+        }
+      },
+      "source_annotation_id": 57788,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_125__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_125__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_125_0002-verso-57789",
+      "image_id": 52715,
+      "category_id": 1012,
+      "bbox": [
+        241.6666677621927,
+        1087.5000437100746,
+        604.1666694054818,
+        125.00000502414649
+      ],
+      "segmentation": [
+        [
+          241.6666677621927,
+          1087.5000437100746,
+          845.8333371676745,
+          1087.5000437100746,
+          845.8333371676745,
+          1212.500048734221,
+          241.6666677621927,
+          1212.500048734221
+        ]
+      ],
+      "area": 75520.83671110707,
+      "iscrowd": 0,
+      "text": "Taken 14.3.36.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_125_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          538.5599975585938,
+          334.0799865722656
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 5,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 3
+          },
+          "alpha_ratio": 0.3846,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8231
+        }
+      },
+      "source_annotation_id": 57789,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_125__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_125__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_126_0002-verso-57790",
+      "image_id": 52716,
+      "category_id": 1012,
+      "bbox": [
+        324.99999112861127,
+        654.1666425560608,
+        754.1666460804954,
+        133.33332841906972
+      ],
+      "segmentation": [
+        [
+          324.99999112861127,
+          654.1666425560608,
+          1079.1666372091067,
+          654.1666425560608,
+          1079.1666372091067,
+          787.4999709751305,
+          324.99999112861127,
+          787.4999709751305
+        ]
+      ],
+      "area": 100555.54910455902,
+      "iscrowd": 0,
+      "text": "General View",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_126_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          536.6400146484375,
+          331.20001220703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 11,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 57790,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_126__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_126__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_126_0002-verso-57791",
+      "image_id": 52716,
+      "category_id": 1012,
+      "bbox": [
+        245.83332662292392,
+        1079.1666268918455,
+        649.9999822572225,
+        129.1666619059738
+      ],
+      "segmentation": [
+        [
+          245.83332662292392,
+          1079.1666268918455,
+          895.8333088801464,
+          1079.1666268918455,
+          895.8333088801464,
+          1208.3332887978193,
+          245.83332662292392,
+          1208.3332887978193
+        ]
+      ],
+      "area": 83958.32794710762,
+      "iscrowd": 0,
+      "text": "Taken 14.3.36.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_126_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          536.6400146484375,
+          331.20001220703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 5,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 3
+          },
+          "alpha_ratio": 0.3846,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8231
+        }
+      },
+      "source_annotation_id": 57791,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_126__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_126__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_127_0001-recto-57792",
+      "image_id": 52717,
+      "category_id": 1012,
+      "bbox": [
+        141.66666103733934,
+        2125.0000655616677,
+        1108.3332892921253,
+        120.83333706134974
+      ],
+      "segmentation": [
+        [
+          141.66666103733934,
+          2125.0000655616677,
+          1249.9999503294646,
+          2125.0000655616677,
+          1249.9999503294646,
+          2245.8334026230173,
+          141.66666103733934,
+          2245.8334026230173
+        ]
+      ],
+      "area": 133923.60992134982,
+      "iscrowd": 0,
+      "text": "Pendant to get ridiment",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_212_127_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          368.6400146484375,
+          553.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 57792,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_127__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_127__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_129_0002-verso-57793",
+      "image_id": 52719,
+      "category_id": 1012,
+      "bbox": [
+        70.83333268183793,
+        83.33333186161374,
+        1908.3333157812808,
+        258.3333287710026
+      ],
+      "segmentation": [
+        [
+          70.83333268183793,
+          83.33333186161374,
+          1979.1666484631187,
+          83.33333186161374,
+          1979.1666484631187,
+          341.6666606326163,
+          70.83333268183793,
+          341.6666606326163
+        ]
+      ],
+      "area": 492986.0978703831,
+      "iscrowd": 0,
+      "text": "Täugbau med undistation sans lagur- s. lasteiplad, Vil\nkonsutneret. Primo jümi 1924.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_129_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          530.8800048828125,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 64,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 5
+          },
+          "alpha_ratio": 0.8767,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8846
+        }
+      },
+      "source_annotation_id": 57793,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_129__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_129__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_212_156_0002-verso-57798",
+      "image_id": 52746,
+      "category_id": 1012,
+      "bbox": [
+        404.1666793561607,
+        745.8333606903379,
+        1833.3333908939248,
+        454.1666833254013
+      ],
+      "segmentation": [
+        [
+          404.1666793561607,
+          745.8333606903379,
+          2237.5000702500856,
+          745.8333606903379,
+          2237.5000702500856,
+          1200.0000440157391,
+          404.1666793561607,
+          1200.0000440157391
+        ]
+      ],
+      "area": 832638.9455720054,
+      "iscrowd": 0,
+      "text": "LONDON FLOWER SHOW.\nA remarkable display of cacti by Miss Thompson\nof Birmingham, at the @ostocultural Royal\nHorticultural Society's show at Holland Park\nHall yesterday (September 23rd).\nHall yesterday (September 23rd).",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_212_156_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          777.5999755859375,
+          599.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 175,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 10
+          },
+          "alpha_ratio": 0.9259,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9241
+        }
+      },
+      "source_annotation_id": 57798,
+      "source_file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_156__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_212/SHDGR__GR_2_K_247_212_156__0002.jpg"
+    }
+  ]
 }

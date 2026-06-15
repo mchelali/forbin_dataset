@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_149",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -47,6 +147,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -73,6 +176,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -99,6 +205,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -125,6 +234,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -151,6 +263,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -177,6 +292,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -203,6 +321,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -229,6 +350,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -255,6 +379,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -281,6 +408,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -307,6 +437,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -333,6 +466,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -359,6 +495,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -385,6 +524,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -411,6 +553,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -437,6 +582,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -463,6 +611,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -489,6 +640,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -515,6 +669,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -541,6 +698,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -567,6 +727,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -593,6 +756,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -619,6 +785,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -645,6 +814,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -671,6 +843,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -697,6 +872,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -723,6 +901,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -749,6 +930,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -775,6 +959,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -801,6 +988,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -827,6 +1017,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -853,6 +1046,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -879,6 +1075,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -905,6 +1104,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -931,6 +1133,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -957,6 +1162,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -983,6 +1191,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1009,6 +1220,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1035,6 +1249,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1061,6 +1278,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1087,6 +1307,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1113,6 +1336,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1139,6 +1365,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1165,6 +1394,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1191,6 +1423,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1217,6 +1452,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1243,6 +1481,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1269,6 +1510,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1295,6 +1539,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1321,6 +1568,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1347,6 +1597,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1373,6 +1626,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1399,6 +1655,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1425,6 +1684,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1451,6 +1713,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1477,6 +1742,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1503,6 +1771,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1529,6 +1800,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1555,6 +1829,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1581,6 +1858,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1607,6 +1887,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1633,6 +1916,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1659,6 +1945,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1685,6 +1974,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1711,6 +2003,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1737,6 +2032,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1763,6 +2061,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1789,6 +2090,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1815,6 +2119,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1841,6 +2148,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1867,6 +2177,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1893,6 +2206,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1919,6 +2235,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1945,6 +2264,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1971,6 +2293,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1997,6 +2322,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2023,6 +2351,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2049,6 +2380,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2075,6 +2409,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2101,6 +2438,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2127,6 +2467,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2153,6 +2496,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2179,6 +2525,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2205,6 +2554,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2231,6 +2583,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2257,6 +2612,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2283,6 +2641,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2309,6 +2670,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2335,6 +2699,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2361,6 +2728,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2387,6 +2757,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2413,6 +2786,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2439,6 +2815,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2465,6 +2844,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2491,6 +2873,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2517,6 +2902,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2543,9 +2931,5227 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Islande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_004_0002-verso-48078",
+      "image_id": 40867,
+      "category_id": 1012,
+      "bbox": [
+        708.3333137056542,
+        2595.833240115107,
+        1962.4999456197831,
+        295.83332270974734
+      ],
+      "segmentation": [
+        [
+          708.3333137056542,
+          2595.833240115107,
+          2670.833259325437,
+          2595.833240115107,
+          2670.833259325437,
+          2891.6665628248543,
+          708.3333137056542,
+          2891.6665628248543
+        ]
+      ],
+      "area": 580572.8797303989,
+      "iscrowd": 0,
+      "text": "The grasses of Iceland are very important to the people. The climate is such that there is not enough of warm days to open gait. Therefore the stock must be fed can grass.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_004_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          747.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 136,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9784,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9473
+        }
+      },
+      "source_annotation_id": 48078,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_004__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_006_0002-verso-48080",
+      "image_id": 40869,
+      "category_id": 1012,
+      "bbox": [
+        358.3333442469719,
+        870.8333652753107,
+        1608.333382317804,
+        304.16667782343393
+      ],
+      "segmentation": [
+        [
+          358.3333442469719,
+          870.8333652753107,
+          1966.666726564776,
+          870.8333652753107,
+          1966.666726564776,
+          1175.0000430987448,
+          358.3333442469719,
+          1175.0000430987448
+        ]
+      ],
+      "area": 489201.4217321333,
+      "iscrowd": 0,
+      "text": "Though Iceland is associated in the mind, a barren waste, there is much to be seen interesting. Our photo shows recovering cliffs into the box.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          599.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 115,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9664,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9375
+        }
+      },
+      "source_annotation_id": 48080,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_006_0002-verso-48081",
+      "image_id": 40869,
+      "category_id": 1012,
+      "bbox": [
+        1995.833394119762,
+        854.1666979973144,
+        829.1666919203187,
+        208.33334097495472
+      ],
+      "segmentation": [
+        [
+          1995.833394119762,
+          854.1666979973144,
+          2825.0000860400805,
+          854.1666979973144,
+          2825.0000860400805,
+          1062.500038972269,
+          1995.833394119762,
+          1062.500038972269
+        ]
+      ],
+      "area": 172743.06715291098,
+      "iscrowd": 0,
+      "text": "of many people with that is beautiful and birds thrown from the",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          599.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 52,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9333
+        }
+      },
+      "source_annotation_id": 48081,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_010_0002-verso-48084",
+      "image_id": 40873,
+      "category_id": 1013,
+      "bbox": [
+        787.4999903599709,
+        412.4999882130144,
+        924.9999886767912,
+        66.6666647616993
+      ],
+      "segmentation": [
+        [
+          787.4999903599709,
+          412.4999882130144,
+          1712.499979036762,
+          412.4999882130144,
+          1712.499979036762,
+          479.16665297471366,
+          787.4999903599709,
+          479.16665297471366
+        ]
+      ],
+      "area": 61666.664149691285,
+      "iscrowd": 0,
+      "text": "ICELAND'S FISH INDUSTRY",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          797.760009765625,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.894
+        }
+      },
+      "source_annotation_id": 48084,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_010_0002-verso-48085",
+      "image_id": 40873,
+      "category_id": 1012,
+      "bbox": [
+        387.4999952564936,
+        541.6666511888068,
+        2499.999969396733,
+        208.3333273803103
+      ],
+      "segmentation": [
+        [
+          387.4999952564936,
+          541.6666511888068,
+          2887.4999646532265,
+          541.6666511888068,
+          2887.4999646532265,
+          749.999978569117,
+          387.4999952564936,
+          749.999978569117
+        ]
+      ],
+      "area": 520833.31207509525,
+      "iscrowd": 0,
+      "text": "The chief industry of Iceland,which formerly was farming,as now turned to fishing and fish curing, and large quantities of dried fish are exported allover the world,especially Sapin.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          797.760009765625,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 151,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9679,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.946
+        }
+      },
+      "source_annotation_id": 48085,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_010_0002-verso-48086",
+      "image_id": 40873,
+      "category_id": 1012,
+      "bbox": [
+        383.3333286408324,
+        795.8333105927853,
+        2420.83330369917,
+        145.8333291662172
+      ],
+      "segmentation": [
+        [
+          383.3333286408324,
+          795.8333105927853,
+          2804.1666323400023,
+          795.8333105927853,
+          2804.1666323400023,
+          941.6666397590025,
+          383.3333286408324,
+          941.6666397590025
+        ]
+      ],
+      "area": 353038.18003490206,
+      "iscrowd": 0,
+      "text": "Photo shows. Gathering up dried fish at Sundown,at the curing station near Reykjavik,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          797.760009765625,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 70,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9589,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9199
+        }
+      },
+      "source_annotation_id": 48086,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_011_0002-verso-48088",
+      "image_id": 40874,
+      "category_id": 1013,
+      "bbox": [
+        845.8333150375162,
+        362.4999896417399,
+        924.9999799917664,
+        70.8333313093055
+      ],
+      "segmentation": [
+        [
+          845.8333150375162,
+          362.4999896417399,
+          1770.8332950292825,
+          362.4999896417399,
+          1770.8332950292825,
+          433.3333209510454,
+          845.8333150375162,
+          433.3333209510454
+        ]
+      ],
+      "area": 65520.83004385776,
+      "iscrowd": 0,
+      "text": "ICELAND'S FISH INDUSTRY",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.894
+        }
+      },
+      "source_annotation_id": 48088,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_011_0002-verso-48089",
+      "image_id": 40874,
+      "category_id": 1012,
+      "bbox": [
+        412.49999107740933,
+        483.33331952231987,
+        2391.666614933666,
+        308.33332452285924
+      ],
+      "segmentation": [
+        [
+          412.49999107740933,
+          483.33331952231987,
+          2804.1666060110756,
+          483.33331952231987,
+          2804.1666060110756,
+          791.666644045179,
+          412.49999107740933,
+          791.666644045179
+        ]
+      ],
+      "area": 737430.5185328303,
+      "iscrowd": 0,
+      "text": "The chief industry of Iceland,which formerly was farming, as new turned to fishing and fish curing, and large quantities of dried fish are exported all over the world,especially Spain.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 151,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9679,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.946
+        }
+      },
+      "source_annotation_id": 48089,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_011_0002-verso-48090",
+      "image_id": 40874,
+      "category_id": 1012,
+      "bbox": [
+        412.49999107740933,
+        808.3333102356039,
+        2462.4999467348375,
+        162.49999535664202
+      ],
+      "segmentation": [
+        [
+          412.49999107740933,
+          808.3333102356039,
+          2874.999937812247,
+          808.3333102356039,
+          2874.999937812247,
+          970.8333055922459,
+          412.49999107740933,
+          970.8333055922459
+        ]
+      ],
+      "area": 400156.2299101423,
+      "iscrowd": 0,
+      "text": "Photo shows: Gathering up dried fish at Sundown,at the curing station near Reykjavik.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 70,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9589,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9199
+        }
+      },
+      "source_annotation_id": 48090,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_013_0002-verso-48092",
+      "image_id": 40876,
+      "category_id": 1013,
+      "bbox": [
+        904.1666501241149,
+        300.00000851766555,
+        929.1666496667171,
+        104.16666962418944
+      ],
+      "segmentation": [
+        [
+          904.1666501241149,
+          300.00000851766555,
+          1833.333299790832,
+          300.00000851766555,
+          1833.333299790832,
+          404.16667814185496,
+          904.1666501241149,
+          404.16667814185496
+        ]
+      ],
+      "area": 96788.19542164789,
+      "iscrowd": 0,
+      "text": "forland's next industry",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_013_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          800.6400146484375,
+          601.9199829101562
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.894
+        }
+      },
+      "source_annotation_id": 48092,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_013__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_013__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_013_0002-verso-48093",
+      "image_id": 40876,
+      "category_id": 1012,
+      "bbox": [
+        458.33332494770804,
+        416.66667849675775,
+        2399.9999560898164,
+        308.3333420876007
+      ],
+      "segmentation": [
+        [
+          458.33332494770804,
+          416.66667849675775,
+          2858.3332810375246,
+          416.66667849675775,
+          2858.3332810375246,
+          725.0000205843585,
+          458.33332494770804,
+          725.0000205843585
+        ]
+      ],
+      "area": 740000.0074712681,
+      "iscrowd": 0,
+      "text": "The chief industry of Iceland, which formerly was forming, so now turned to fishing and fish curing, and large quantities of dried fish are exported all over the world, especially in Spain.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_013_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          800.6400146484375,
+          601.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 153,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9684,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9544
+        }
+      },
+      "source_annotation_id": 48093,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_013__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_013__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_013_0002-verso-48094",
+      "image_id": 40876,
+      "category_id": 1012,
+      "bbox": [
+        458.33332494770804,
+        745.8333545091964,
+        2449.999955175021,
+        200.0000056784437
+      ],
+      "segmentation": [
+        [
+          458.33332494770804,
+          745.8333545091964,
+          2908.3332801227293,
+          745.8333545091964,
+          2908.3332801227293,
+          945.8333601876401,
+          458.33332494770804,
+          945.8333601876401
+        ]
+      ],
+      "area": 490000.00494719105,
+      "iscrowd": 0,
+      "text": "Photo shows.. Gathering up dried fish at mudown,at the curing station near Roykjavvi.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_013_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          800.6400146484375,
+          601.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 69,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9452,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9182
+        }
+      },
+      "source_annotation_id": 48094,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_013__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_013__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_014_0002-verso-48096",
+      "image_id": 40877,
+      "category_id": 1013,
+      "bbox": [
+        754.1666829007844,
+        575.0000210908751,
+        920.8333531551015,
+        75.0000027509837
+      ],
+      "segmentation": [
+        [
+          754.1666829007844,
+          575.0000210908751,
+          1675.0000360558859,
+          575.0000210908751,
+          1675.0000360558859,
+          650.0000238418588,
+          754.1666829007844,
+          650.0000238418588
+        ]
+      ],
+      "area": 69062.50401983016,
+      "iscrowd": 0,
+      "text": "ICELAND'S FISH INDUSTRY",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          599.0399780273438
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.894
+        }
+      },
+      "source_annotation_id": 48096,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_014_0002-verso-48097",
+      "image_id": 40877,
+      "category_id": 1012,
+      "bbox": [
+        429.1666759048663,
+        708.3333593148461,
+        2420.8333854439543,
+        275.0000100869402
+      ],
+      "segmentation": [
+        [
+          429.1666759048663,
+          708.3333593148461,
+          2850.0000613488205,
+          708.3333593148461,
+          2850.0000613488205,
+          983.3333694017863,
+          429.1666759048663,
+          983.3333694017863
+        ]
+      ],
+      "area": 665729.205415889,
+      "iscrowd": 0,
+      "text": "The chief industry of Iceland, which was formerly farming, as turned now to fishing and fish curing and large quantities % of dried fish are expected all over the world especially Spain.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          599.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 151,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9742,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9468
+        }
+      },
+      "source_annotation_id": 48097,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_014_0002-verso-48098",
+      "image_id": 40877,
+      "category_id": 1012,
+      "bbox": [
+        425.00000914850835,
+        1033.3333712357755,
+        2379.166717880375,
+        154.1666723214665
+      ],
+      "segmentation": [
+        [
+          425.00000914850835,
+          1033.3333712357755,
+          2804.1667270288835,
+          1033.3333712357755,
+          2804.1667270288835,
+          1187.500043557242,
+          425.00000914850835,
+          1187.500043557242
+        ]
+      ],
+      "area": 366788.21579360275,
+      "iscrowd": 0,
+      "text": "Photo shows... Four girl workers at the fish curing station near Reykjavik.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          599.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 60,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9375,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9172
+        }
+      },
+      "source_annotation_id": 48098,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_015_0002-verso-48099",
+      "image_id": 40878,
+      "category_id": 1013,
+      "bbox": [
+        587.5,
+        325.0000026576133,
+        929.1666666666667,
+        79.16666731403402
+      ],
+      "segmentation": [
+        [
+          587.5,
+          325.0000026576133,
+          1516.6666666666667,
+          325.0000026576133,
+          1516.6666666666667,
+          404.16666997164737,
+          587.5,
+          404.16666997164737
+        ]
+      ],
+      "area": 73559.02837928994,
+      "iscrowd": 0,
+      "text": "ROLAND'S FISH INDUSTRY",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_015_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.0,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 19,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.95,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8938
+        }
+      },
+      "source_annotation_id": 48099,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_015__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_015__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_015_0002-verso-48100",
+      "image_id": 40878,
+      "category_id": 1012,
+      "bbox": [
+        229.16666666666669,
+        454.16667038051094,
+        2370.8333333333335,
+        233.33333524136344
+      ],
+      "segmentation": [
+        [
+          229.16666666666669,
+          454.16667038051094,
+          2600.0,
+          454.16667038051094,
+          2600.0,
+          687.5000056218744,
+          229.16666666666669,
+          687.5000056218744
+        ]
+      ],
+      "area": 553194.4489680659,
+      "iscrowd": 0,
+      "text": "The chief industry of Iceland,which formerly was forming an now turned to fishing and fish during, and large quantities of dried fish are exported all over the world.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_015_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          792.0,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 136,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9784,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9473
+        }
+      },
+      "source_annotation_id": 48100,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_015__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_015__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_015_0002-verso-48101",
+      "image_id": 40878,
+      "category_id": 1012,
+      "bbox": [
+        233.33333333333334,
+        700.0000057240903,
+        2508.3333333333335,
+        129.1666677228976
+      ],
+      "segmentation": [
+        [
+          233.33333333333334,
+          700.0000057240903,
+          2741.666666666667,
+          700.0000057240903,
+          2741.666666666667,
+          829.1666734469879,
+          233.33333333333334,
+          829.1666734469879
+        ]
+      ],
+      "area": 323993.0582049349,
+      "iscrowd": 0,
+      "text": "Photo shows. Girl workers' at the curing station near Roykjavik,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_015_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          792.0,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 52,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9455,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9232
+        }
+      },
+      "source_annotation_id": 48101,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_015__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_015__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_016_0002-verso-48102",
+      "image_id": 40879,
+      "category_id": 1013,
+      "bbox": [
+        670.8333374842273,
+        350.00000575183225,
+        912.5000056462471,
+        83.33333470281721
+      ],
+      "segmentation": [
+        [
+          670.8333374842273,
+          350.00000575183225,
+          1583.3333431304745,
+          350.00000575183225,
+          1583.3333431304745,
+          433.3333404546495,
+          670.8333374842273,
+          433.3333404546495
+        ]
+      ],
+      "area": 76041.66838684131,
+      "iscrowd": 0,
+      "text": "ICELAND'S FISH INDUSTRY",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_016_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.894
+        }
+      },
+      "source_annotation_id": 48102,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_016__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_016__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_016_0002-verso-48103",
+      "image_id": 40879,
+      "category_id": 1012,
+      "bbox": [
+        354.1666688581324,
+        458.3333408654946,
+        2404.166681542852,
+        312.50000513556455
+      ],
+      "segmentation": [
+        [
+          354.1666688581324,
+          458.3333408654946,
+          2758.3333504009843,
+          458.3333408654946,
+          2758.3333504009843,
+          770.8333460010592,
+          354.1666688581324,
+          770.8333460010592
+        ]
+      ],
+      "area": 751302.1003288944,
+      "iscrowd": 0,
+      "text": "The chief industry of Iceland, which was formerly farming, as turned now to fishing and fish curing and large quantities of dried fish are expected all over the world especially Spain.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_016_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 151,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9805,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9476
+        }
+      },
+      "source_annotation_id": 48103,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_016__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_016__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_016_0002-verso-48104",
+      "image_id": 40879,
+      "category_id": 1012,
+      "bbox": [
+        350.00000216568384,
+        779.1666794713409,
+        2383.3333480806086,
+        170.8333361407753
+      ],
+      "segmentation": [
+        [
+          350.00000216568384,
+          779.1666794713409,
+          2733.3333502462924,
+          779.1666794713409,
+          2733.3333502462924,
+          950.0000156121162,
+          350.00000216568384,
+          950.0000156121162
+        ]
+      ],
+      "area": 407152.786988174,
+      "iscrowd": 0,
+      "text": "Photo shows... Four girl workers at the fish curing station near Reykjavík.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_016_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 60,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9375,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9172
+        }
+      },
+      "source_annotation_id": 48104,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_016__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_016__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_017_0002-verso-48105",
+      "image_id": 40880,
+      "category_id": 1013,
+      "bbox": [
+        708.333318011713,
+        429.16665786483406,
+        924.9999799917664,
+        87.4999982054516
+      ],
+      "segmentation": [
+        [
+          708.333318011713,
+          429.16665786483406,
+          1633.3332980034793,
+          429.16665786483406,
+          1633.3332980034793,
+          516.6666560702856,
+          708.333318011713,
+          516.6666560702856
+        ]
+      ],
+      "area": 80937.49658932233,
+      "iscrowd": 0,
+      "text": "ICELAND'S FISH INDUSTRY",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_017_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          595.2000122070312
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.894
+        }
+      },
+      "source_annotation_id": 48105,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_017__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_017__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_017_0002-verso-48106",
+      "image_id": 40880,
+      "category_id": 1012,
+      "bbox": [
+        341.666659276238,
+        541.6666555575575,
+        2579.166610877943,
+        333.3333264969585
+      ],
+      "segmentation": [
+        [
+          341.666659276238,
+          541.6666555575575,
+          2920.8332701541813,
+          541.6666555575575,
+          2920.8332701541813,
+          874.9999820545161,
+          341.666659276238,
+          874.9999820545161
+        ]
+      ],
+      "area": 859722.1859938313,
+      "iscrowd": 0,
+      "text": "The chief industry of Iceland is fishing and fish curing, and large quantities are exported to Spain and others countries Photo shows... Girl workers' at the curing station near Reykjavik",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_017_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          595.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 153,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9684,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9627
+        }
+      },
+      "source_annotation_id": 48106,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_017__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_017__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_018_0002-verso-48108",
+      "image_id": 40881,
+      "category_id": 1013,
+      "bbox": [
+        762.5000164135002,
+        212.49999599197452,
+        1804.1667055029816,
+        141.66666399464967
+      ],
+      "segmentation": [
+        [
+          762.5000164135002,
+          212.49999599197452,
+          2566.666721916482,
+          212.49999599197452,
+          2566.666721916482,
+          354.16665998662415,
+          762.5000164135002,
+          354.16665998662415
+        ]
+      ],
+      "area": 255590.27845882496,
+      "iscrowd": 0,
+      "text": "A FIFTH OF THE POPULATION OF ICELAND FISH FOR A LIVING.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_018_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          776.6400146484375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4444,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 44,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9778,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9417
+        }
+      },
+      "source_annotation_id": 48108,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_018__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_018__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_018_0002-verso-48109",
+      "image_id": 40881,
+      "category_id": 1012,
+      "bbox": [
+        758.3333496571423,
+        412.49999221971524,
+        1954.1667087318667,
+        274.9999948131435
+      ],
+      "segmentation": [
+        [
+          758.3333496571423,
+          412.49999221971524,
+          2712.500058389009,
+          412.49999221971524,
+          2712.500058389009,
+          687.4999870328587,
+          758.3333496571423,
+          687.4999870328587
+        ]
+      ],
+      "area": 537395.834765281,
+      "iscrowd": 0,
+      "text": "Typical Fishing village of Southern Iceland, The Wood fisheries are among the most important in the world and large quantities of halibut and herring are also shipped from the little country.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_018_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          776.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 159,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9876,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9734
+        }
+      },
+      "source_annotation_id": 48109,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_018__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_018__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_019_0002-verso-48111",
+      "image_id": 40882,
+      "category_id": 1013,
+      "bbox": [
+        1104.1666802979341,
+        633.3333119616217,
+        937.5000115737176,
+        66.66666441701281
+      ],
+      "segmentation": [
+        [
+          1104.1666802979341,
+          633.3333119616217,
+          2041.666691871652,
+          633.3333119616217,
+          2041.666691871652,
+          699.9999763786345,
+          1104.1666802979341,
+          699.9999763786345
+        ]
+      ],
+      "area": 62499.99866253066,
+      "iscrowd": 0,
+      "text": "TOELAND'S FISH INDUSTRY",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_019_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          988.7999877929688,
+          795.8400268554688
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.894
+        }
+      },
+      "source_annotation_id": 48111,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_019__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_019__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_019_0002-verso-48112",
+      "image_id": 40882,
+      "category_id": 1012,
+      "bbox": [
+        791.6666764400283,
+        766.6666407956474,
+        2391.666696192506,
+        195.83332672497514
+      ],
+      "segmentation": [
+        [
+          791.6666764400283,
+          766.6666407956474,
+          3183.3333726325345,
+          766.6666407956474,
+          3183.3333726325345,
+          962.4999675206225,
+          791.6666764400283,
+          962.4999675206225
+        ]
+      ],
+      "area": 468368.04553270893,
+      "iscrowd": 0,
+      "text": "The chief industry of Iceland if fishing and fish curing, and acre quantities of dried fish are exported to Spain and other countries.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_019_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          988.7999877929688,
+          795.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 110,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9821,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9478
+        }
+      },
+      "source_annotation_id": 48112,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_019__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_019__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_019_0002-verso-48113",
+      "image_id": 40882,
+      "category_id": 1012,
+      "bbox": [
+        791.6666764400283,
+        999.9999662551921,
+        2462.5000304002983,
+        124.99999578189902
+      ],
+      "segmentation": [
+        [
+          791.6666764400283,
+          999.9999662551921,
+          3254.1667068403267,
+          999.9999662551921,
+          3254.1667068403267,
+          1124.999962037091,
+          791.6666764400283,
+          1124.999962037091
+        ]
+      ],
+      "area": 307812.49341296346,
+      "iscrowd": 0,
+      "text": "Photo shows., Cod curing near Reykjavik.The fish drying in the sun on the rBcks.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_019_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          988.7999877929688,
+          795.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 63,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9403,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9509
+        }
+      },
+      "source_annotation_id": 48113,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_019__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_019__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_021_0002-verso-48114",
+      "image_id": 40884,
+      "category_id": 1013,
+      "bbox": [
+        1387.499959402552,
+        695.8333439935484,
+        949.999972203549,
+        104.16666826250724
+      ],
+      "segmentation": [
+        [
+          1387.499959402552,
+          695.8333439935484,
+          2337.4999316061007,
+          695.8333439935484,
+          2337.4999316061007,
+          800.0000122560557,
+          1387.499959402552,
+          800.0000122560557
+        ]
+      ],
+      "area": 98958.33195391818,
+      "iscrowd": 0,
+      "text": "IOLAND'S POLE INDU SERY",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_021_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1001.280029296875,
+          796.7999877929688
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 19,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.95,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8938
+        }
+      },
+      "source_annotation_id": 48114,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_021__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_021__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_021_0002-verso-48115",
+      "image_id": 40884,
+      "category_id": 1012,
+      "bbox": [
+        1162.4999659859218,
+        783.3333453340545,
+        2479.166594127683,
+        412.50000631952867
+      ],
+      "segmentation": [
+        [
+          1162.4999659859218,
+          783.3333453340545,
+          3641.6665601136046,
+          783.3333453340545,
+          3641.6665601136046,
+          1195.8333516535831,
+          1162.4999659859218,
+          1195.8333516535831
+        ]
+      ],
+      "area": 1022656.2357448335,
+      "iscrowd": 0,
+      "text": "The chief industry of Iceland if fishing and fish during, and large quantities of dried fish are exported to Spain and other countries. Photo shows...3ed curing near Roykjavik.The fish drying in the sun.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_021_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          1001.280029296875,
+          796.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 163,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 7
+          },
+          "alpha_ratio": 0.9532,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9858
+        }
+      },
+      "source_annotation_id": 48115,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_021__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_021__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_022_0002-verso-48117",
+      "image_id": 40885,
+      "category_id": 1012,
+      "bbox": [
+        737.5000181213481,
+        766.6666526398025,
+        2483.33339435211,
+        437.49999199553946
+      ],
+      "segmentation": [
+        [
+          737.5000181213481,
+          766.6666526398025,
+          3220.8334124734583,
+          766.6666526398025,
+          3220.8334124734583,
+          1204.166644635342,
+          737.5000181213481,
+          1204.166644635342
+        ]
+      ],
+      "area": 1086458.3401513041,
+      "iscrowd": 0,
+      "text": "The chief industry of Iceland is fishing and fish curing, and large quantities of dried fish are export to Spain and other countries\n\nPhoto shows... Cod curing near Reykjavik.The fish drying in the gun on the rocks",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_022_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          993.5999755859375,
+          800.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 172,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9718,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9965
+        }
+      },
+      "source_annotation_id": 48117,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_022__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_022__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_025_0002-verso-48119",
+      "image_id": 40888,
+      "category_id": 1012,
+      "bbox": [
+        462.5000028617965,
+        962.5000000000001,
+        2229.16668046001,
+        208.33333333333334
+      ],
+      "segmentation": [
+        [
+          462.5000028617965,
+          962.5000000000001,
+          2691.6666833218064,
+          962.5000000000001,
+          2691.6666833218064,
+          1170.8333333333335,
+          462.5000028617965,
+          1170.8333333333335
+        ]
+      ],
+      "area": 464409.72509583546,
+      "iscrowd": 0,
+      "text": "Representatives of all nations witnessed the picturesque celebrations of the thousandth anniversary of Icelandio Parliament at Thingvalla.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_025_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          600.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 121,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9918,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9406
+        }
+      },
+      "source_annotation_id": 48119,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_025__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_025__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_026_0002-verso-48120",
+      "image_id": 40889,
+      "category_id": 1012,
+      "bbox": [
+        487.4999864915385,
+        745.8333001627867,
+        2241.666604550835,
+        216.66665703053022
+      ],
+      "segmentation": [
+        [
+          487.4999864915385,
+          745.8333001627867,
+          2729.1665910423735,
+          745.8333001627867,
+          2729.1665910423735,
+          962.499957193317,
+          487.4999864915385,
+          962.499957193317
+        ]
+      ],
+      "area": 485694.40938500897,
+      "iscrowd": 0,
+      "text": "Representatives of nations witnessed the picturesoque celebrations of the thousandth anniversary of Icelandic Parliament at Thingvalls.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_026_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          603.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 119,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9917,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9406
+        }
+      },
+      "source_annotation_id": 48120,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_026__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_026__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_026_0002-verso-48121",
+      "image_id": 40889,
+      "category_id": 1012,
+      "bbox": [
+        487.4999864915385,
+        1012.4999549695932,
+        2408.3332665992243,
+        149.99999332882862
+      ],
+      "segmentation": [
+        [
+          487.4999864915385,
+          1012.4999549695932,
+          2895.833253090763,
+          1012.4999549695932,
+          2895.833253090763,
+          1162.4999482984217,
+          487.4999864915385,
+          1162.4999482984217
+        ]
+      ],
+      "area": 361249.9739234797,
+      "iscrowd": 0,
+      "text": "Photo Shows.,Members of the Parliament of the shop year 930, impersonated by islanders of to-day.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_026_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          603.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 75,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 5
+          },
+          "alpha_ratio": 0.9036,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9546
+        }
+      },
+      "source_annotation_id": 48121,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_026__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_026__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_027_0002-verso-48122",
+      "image_id": 40890,
+      "category_id": 1012,
+      "bbox": [
+        650.0,
+        654.166653250281,
+        2225.0,
+        229.16666196665895
+      ],
+      "segmentation": [
+        [
+          650.0,
+          654.166653250281,
+          2875.0,
+          654.166653250281,
+          2875.0,
+          883.3333152169399,
+          650.0,
+          883.3333152169399
+        ]
+      ],
+      "area": 509895.82287581614,
+      "iscrowd": 0,
+      "text": "Representatives of all nations witnessed the picturesque celebrations of the Thousandth anniversary of Icelandic Parliament at Thingvalla.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_027_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.0,
+          595.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 121,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9918,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9406
+        }
+      },
+      "source_annotation_id": 48122,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_027__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_027__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_027_0002-verso-48123",
+      "image_id": 40890,
+      "category_id": 1012,
+      "bbox": [
+        637.5,
+        904.1666481229998,
+        2295.8333333333335,
+        174.9999964109032
+      ],
+      "segmentation": [
+        [
+          637.5,
+          904.1666481229998,
+          2933.3333333333335,
+          904.1666481229998,
+          2933.3333333333335,
+          1079.166644533903,
+          637.5,
+          1079.166644533903
+        ]
+      ],
+      "area": 401770.82509336533,
+      "iscrowd": 0,
+      "text": "Phpto Shows.. An Icelandic boat on the lake, with children in national costumes.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_027_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          792.0,
+          595.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 64,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9412,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.926
+        }
+      },
+      "source_annotation_id": 48123,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_027__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_027__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_028_0002-verso-48124",
+      "image_id": 40891,
+      "category_id": 1013,
+      "bbox": [
+        954.1666608053832,
+        504.1666768425568,
+        1229.1666591161052,
+        87.50000176606358
+      ],
+      "segmentation": [
+        [
+          954.1666608053832,
+          504.1666768425568,
+          2183.3333199214885,
+          504.1666768425568,
+          2183.3333199214885,
+          591.6666786086204,
+          954.1666608053832,
+          591.6666786086204
+        ]
+      ],
+      "area": 107552.08484344567,
+      "iscrowd": 0,
+      "text": "ICELAND'S PARLIAMENT MILLENARY.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_028_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          794.8800048828125,
+          604.7999877929688
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.931,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8914
+        }
+      },
+      "source_annotation_id": 48124,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_028__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_028__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_028_0002-verso-48125",
+      "image_id": 40891,
+      "category_id": 1012,
+      "bbox": [
+        708.3333289821622,
+        637.5000128670347,
+        2229.166652973275,
+        208.3333375382466
+      ],
+      "segmentation": [
+        [
+          708.3333289821622,
+          637.5000128670347,
+          2937.4999819554373,
+          637.5000128670347,
+          2937.4999819554373,
+          845.8333504052813,
+          708.3333289821622,
+          845.8333504052813
+        ]
+      ],
+      "area": 464409.72874288476,
+      "iscrowd": 0,
+      "text": "Representatives of all nations witnessed the picturesque celebrations of the thousandth anniversary of Icelandic Parliament at Thingvalla.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_028_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          794.8800048828125,
+          604.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 121,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9918,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9406
+        }
+      },
+      "source_annotation_id": 48125,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_028__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_028__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_028_0002-verso-48126",
+      "image_id": 40891,
+      "category_id": 1012,
+      "bbox": [
+        699.9999957000192,
+        895.8333514144604,
+        2083.3333205357712,
+        158.33333652906742
+      ],
+      "segmentation": [
+        [
+          699.9999957000192,
+          895.8333514144604,
+          2783.3333162357903,
+          895.8333514144604,
+          2783.3333162357903,
+          1054.166687943528,
+          699.9999957000192,
+          1054.166687943528
+        ]
+      ],
+      "area": 329861.1157426098,
+      "iscrowd": 0,
+      "text": "Photo Shows.. An Icelandic boat on the lake, with @ children in national costume.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_028_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          794.8800048828125,
+          604.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 63,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9265,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9408
+        }
+      },
+      "source_annotation_id": 48126,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_028__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_028__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_029_0002-verso-48127",
+      "image_id": 40892,
+      "category_id": 1013,
+      "bbox": [
+        1299.9999935679555,
+        795.8333235912934,
+        1433.3333262415917,
+        91.66666554454687
+      ],
+      "segmentation": [
+        [
+          1299.9999935679555,
+          795.8333235912934,
+          2733.333319809547,
+          795.8333235912934,
+          2733.333319809547,
+          887.4999891358402,
+          1299.9999935679555,
+          887.4999891358402
+        ]
+      ],
+      "area": 131388.8866304409,
+      "iscrowd": 0,
+      "text": "IGELAND'S I,000 YEAR OLD PARLIAMENT.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          986.8800048828125,
+          797.760009765625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 3
+          },
+          "alpha_ratio": 0.8125,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8766
+        }
+      },
+      "source_annotation_id": 48127,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_029_0002-verso-48128",
+      "image_id": 40892,
+      "category_id": 1012,
+      "bbox": [
+        1099.9999945575007,
+        924.9999886767912,
+        2349.9999883728424,
+        412.499994950461
+      ],
+      "segmentation": [
+        [
+          1099.9999945575007,
+          924.9999886767912,
+          3449.9999829303433,
+          924.9999886767912,
+          3449.9999829303433,
+          1337.4999836272523,
+          1099.9999945575007,
+          1337.4999836272523
+        ]
+      ],
+      "area": 969374.9833373808,
+      "iscrowd": 0,
+      "text": "Crowde round a t. mphal arch raised at Reykjavik in welcome to the Royal visitors, the King and Queen of Denmark, who are visiting Iceland in connection with the millenary of the Parliament of Iceland. Many countries including Britain sent representatives to the picturesque ceremonies.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          986.8800048828125,
+          797.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 237,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9793,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9974
+        }
+      },
+      "source_annotation_id": 48128,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_030_0002-verso-48129",
+      "image_id": 40893,
+      "category_id": 1012,
+      "bbox": [
+        887.500004416887,
+        966.6666457571613,
+        2479.166679004919,
+        404.16665792433037
+      ],
+      "segmentation": [
+        [
+          887.500004416887,
+          966.6666457571613,
+          3366.666683421806,
+          966.6666457571613,
+          3366.666683421806,
+          1370.8333036814915,
+          887.500004416887,
+          1370.8333036814915
+        ]
+      ],
+      "area": 1001996.5110907792,
+      "iscrowd": 0,
+      "text": "Plains of Thingvellir and tents for the members of Parliament who will live here during the celebrations of the millenary of the Parliament of Iceland. The celebrations last for three days and were attended by NO representatives from many countries.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_030_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          981.1199951171875,
+          790.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 208,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9905,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9988
+        }
+      },
+      "source_annotation_id": 48129,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_030__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_030__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_031_0002-verso-48130",
+      "image_id": 40894,
+      "category_id": 1013,
+      "bbox": [
+        1225.0000090474427,
+        933.3333162571508,
+        1237.5000091397637,
+        91.6666649895416
+      ],
+      "segmentation": [
+        [
+          1225.0000090474427,
+          933.3333162571508,
+          2462.5000181872065,
+          933.3333162571508,
+          2462.5000181872065,
+          1024.9999812466924,
+          1225.0000090474427,
+          1024.9999812466924
+        ]
+      ],
+      "area": 113437.49876236939,
+      "iscrowd": 0,
+      "text": "POELAND'S PARLIAMENT MILLENARY.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_031_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          991.6799926757812,
+          800.6400146484375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.931,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8914
+        }
+      },
+      "source_annotation_id": 48130,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_031__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_031__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_031_0002-verso-48131",
+      "image_id": 40894,
+      "category_id": 1012,
+      "bbox": [
+        820.8333393957355,
+        1070.8333137414634,
+        2237.5000165254314,
+        204.16666293125175
+      ],
+      "segmentation": [
+        [
+          820.8333393957355,
+          1070.8333137414634,
+          3058.333355921167,
+          1070.8333137414634,
+          3058.333355921167,
+          1274.999976672715,
+          820.8333393957355,
+          1274.999976672715
+        ]
+      ],
+      "area": 456822.91168261797,
+      "iscrowd": 0,
+      "text": "Representatives of all nations witnessed the picturesque celebrations of the thousand anniversary of the Icelandic Parliament at Thingvalla.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_031_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          991.6799926757812,
+          800.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 122,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9919,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.949
+        }
+      },
+      "source_annotation_id": 48131,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_031__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_031__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_031_0002-verso-48132",
+      "image_id": 40894,
+      "category_id": 1012,
+      "bbox": [
+        816.6666726982952,
+        1312.4999759866184,
+        2366.66668414608,
+        224.9999958834203
+      ],
+      "segmentation": [
+        [
+          816.6666726982952,
+          1312.4999759866184,
+          3183.3333568443754,
+          1312.4999759866184,
+          3183.3333568443754,
+          1537.4999718700387,
+          816.6666726982952,
+          1537.4999718700387
+        ]
+      ],
+      "area": 532499.994190296,
+      "iscrowd": 0,
+      "text": "Photo Shows: The King of Denmark, Premier of Iceland's wife in concert and the Premier, Mr. Thorhallason, pointing out the mountain ranges to the Crown Prince of Sweden.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_031_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          991.6799926757812,
+          800.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 135,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9507,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9855
+        }
+      },
+      "source_annotation_id": 48132,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_031__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_031__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_035_0002-verso-48135",
+      "image_id": 40898,
+      "category_id": 1012,
+      "bbox": [
+        904.1666445569101,
+        1195.8333186947707,
+        2320.833276581562,
+        545.83332665162
+      ],
+      "segmentation": [
+        [
+          904.1666445569101,
+          1195.8333186947707,
+          3224.999921138472,
+          1195.8333186947707,
+          3224.999921138472,
+          1741.6666453463909,
+          904.1666445569101,
+          1741.6666453463909
+        ]
+      ],
+      "area": 1266788.1479602933,
+      "iscrowd": 0,
+      "text": "ICELAND'S PARLIAMENT MILLENARY.\n\nRepresentatives of all nations witnessed the picturesque celebrations of the thousandth anniversary of Icelandic Parliament at Thingvalla.\n\nPhoto Shows: Members of the Parliament of the year 6000 950, impersonated by the Icelanders of to-day.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          998.4000244140625,
+          797.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 223,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 7
+          },
+          "alpha_ratio": 0.9409,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9926
+        }
+      },
+      "source_annotation_id": 48135,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_037_0002-verso-48137",
+      "image_id": 40900,
+      "category_id": 1013,
+      "bbox": [
+        316.66667241214816,
+        879.1666345220543,
+        1000.0000181436258,
+        91.66666331509572
+      ],
+      "segmentation": [
+        [
+          316.66667241214816,
+          879.1666345220543,
+          1316.666690555774,
+          879.1666345220543,
+          1316.666690555774,
+          970.83329783715,
+          316.66667241214816,
+          970.83329783715
+        ]
+      ],
+      "area": 91666.66497826135,
+      "iscrowd": 0,
+      "text": "SUMMER SCENTS IN IOLAND.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_037_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          807.3599853515625,
+          600.9600219726562
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.919
+        }
+      },
+      "source_annotation_id": 48137,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_037__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_037__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_037_0002-verso-48138",
+      "image_id": 40900,
+      "category_id": 1012,
+      "bbox": [
+        308.33333892761794,
+        995.8332969230852,
+        2433.3333774828225,
+        308.3333220598674
+      ],
+      "segmentation": [
+        [
+          308.33333892761794,
+          995.8332969230852,
+          2741.6667164104406,
+          995.8332969230852,
+          2741.6667164104406,
+          1304.1666189829525,
+          308.33333892761794,
+          1304.1666189829525
+        ]
+      ],
+      "area": 750277.763958436,
+      "iscrowd": 0,
+      "text": "The earth in the neighbourhood of the great Geyser in Iceland is so hot that bread can be baked by placing it in a hole in the ground there. Our photo shows—Two Icelandic women, baking bread in this manner.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_037_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          807.3599853515625,
+          600.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 164,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9762,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.997
+        }
+      },
+      "source_annotation_id": 48138,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_037__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_037__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_038_0002-verso-48139",
+      "image_id": 40901,
+      "category_id": 1012,
+      "bbox": [
+        316.6666570794648,
+        1029.1666666666667,
+        1004.166636265145,
+        91.66666666666667
+      ],
+      "segmentation": [
+        [
+          316.6666570794648,
+          1029.1666666666667,
+          1320.83329334461,
+          1029.1666666666667,
+          1320.83329334461,
+          1120.8333333333335,
+          316.6666570794648,
+          1120.8333333333335
+        ]
+      ],
+      "area": 92048.60832430497,
+      "iscrowd": 0,
+      "text": "SUMMER SCIENCE IN IOLAND.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_038_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          806.4000244140625,
+          600.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9545,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9193
+        }
+      },
+      "source_annotation_id": 48139,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_038__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_038__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_038_0002-verso-48140",
+      "image_id": 40901,
+      "category_id": 1012,
+      "bbox": [
+        316.6666570794648,
+        1137.5,
+        2429.1665931227367,
+        312.5
+      ],
+      "segmentation": [
+        [
+          316.6666570794648,
+          1137.5,
+          2745.8332502022013,
+          1137.5,
+          2745.8332502022013,
+          1450.0,
+          316.6666570794648,
+          1450.0
+        ]
+      ],
+      "area": 759114.5603508552,
+      "iscrowd": 0,
+      "text": "The earth in the neighbourhood of the great Geyser in Iceland is so not that bread can be baked by placing it in a hole in the ground there. Our photo shows -- we Icelandic women, baking bread in this manner.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_038_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          806.4000244140625,
+          600.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 163,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9702,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9963
+        }
+      },
+      "source_annotation_id": 48140,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_038__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_038__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_039_0002-verso-48141",
+      "image_id": 40902,
+      "category_id": 1013,
+      "bbox": [
+        258.3333412013053,
+        937.4999924070516,
+        1000.0000304566657,
+        95.83333255716528
+      ],
+      "segmentation": [
+        [
+          258.3333412013053,
+          937.4999924070516,
+          1258.333371657971,
+          937.4999924070516,
+          1258.333371657971,
+          1033.333324964217,
+          258.3333412013053,
+          1033.333324964217
+        ]
+      ],
+      "area": 95833.33547592905,
+      "iscrowd": 0,
+      "text": "SUITter D'Agree in towland.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_039_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 22,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9167,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9146
+        }
+      },
+      "source_annotation_id": 48141,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_039__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_039__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_039_0002-verso-48142",
+      "image_id": 40902,
+      "category_id": 1012,
+      "bbox": [
+        254.16667440773588,
+        1066.6666580275787,
+        2425.0000738574145,
+        304.16666420317677
+      ],
+      "segmentation": [
+        [
+          254.16667440773588,
+          1066.6666580275787,
+          2679.1667482651505,
+          1066.6666580275787,
+          2679.1667482651505,
+          1370.8333222307556,
+          254.16667440773588,
+          1370.8333222307556
+        ]
+      ],
+      "area": 737604.183157667,
+      "iscrowd": 0,
+      "text": "The earth in the neighbourhood of the great Cayer in Ireland is so hot that breed can be baked by placing it in a hole in the ground there. Our photo shows two Icelandic women, baking bread in this manner.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_039_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 163,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9819,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9977
+        }
+      },
+      "source_annotation_id": 48142,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_039__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_039__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_052_0002-verso-48148",
+      "image_id": 40915,
+      "category_id": 1012,
+      "bbox": [
+        712.499995187301,
+        91.66666983837274,
+        1391.6666572664242,
+        208.33334054175623
+      ],
+      "segmentation": [
+        [
+          712.499995187301,
+          91.66666983837274,
+          2104.166652453725,
+          91.66666983837274,
+          2104.166652453725,
+          300.00001038012897,
+          712.499995187301,
+          300.00001038012897
+        ]
+      ],
+      "area": 289930.5636288935,
+      "iscrowd": 0,
+      "text": "Islande,Concert et Spatiillage.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_052_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          722.8800048828125,
+          705.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.931,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9164
+        }
+      },
+      "source_annotation_id": 48148,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_052__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_052__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_057_0002-verso-48150",
+      "image_id": 40920,
+      "category_id": 1013,
+      "bbox": [
+        1141.6666750986371,
+        908.3333222141464,
+        1425.0000105245763,
+        95.8333321602081
+      ],
+      "segmentation": [
+        [
+          1141.6666750986371,
+          908.3333222141464,
+          2566.666685623213,
+          908.3333222141464,
+          2566.666685623213,
+          1004.1666543743545,
+          1141.6666750986371,
+          1004.1666543743545
+        ]
+      ],
+      "area": 136562.49933690176,
+      "iscrowd": 0,
+      "text": "ICELAND'S I,000 YEAR OLD PARLIAMENT.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_057_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          991.6799926757812,
+          797.760009765625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 3
+          },
+          "alpha_ratio": 0.8125,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8766
+        }
+      },
+      "source_annotation_id": 48150,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_057__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_057__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_057_0002-verso-48151",
+      "image_id": 40920,
+      "category_id": 1012,
+      "bbox": [
+        916.666673436862,
+        1033.333320683983,
+        2516.66668525393,
+        337.499995868559
+      ],
+      "segmentation": [
+        [
+          916.666673436862,
+          1033.333320683983,
+          3433.333358690792,
+          1033.333320683983,
+          3433.333358690792,
+          1370.8333165525419,
+          916.666673436862,
+          1370.8333165525419
+        ]
+      ],
+      "area": 849374.9958757415,
+      "iscrowd": 0,
+      "text": "Plains of Thingvollir and tents for the members of Parliament who will live here during the celebrations of the Parliament of Iceland. The celebrations last for three days. Many countries including Britain, sent representatives to the picturesque ceremonies.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_057_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          991.6799926757812,
+          797.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 217,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9819,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9977
+        }
+      },
+      "source_annotation_id": 48151,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_057__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_057__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_059_0002-verso-48152",
+      "image_id": 40922,
+      "category_id": 1012,
+      "bbox": [
+        337.50000612347367,
+        733.3333007187177,
+        2500.0000453590646,
+        512.4999772068311
+      ],
+      "segmentation": [
+        [
+          337.50000612347367,
+          733.3333007187177,
+          2837.5000514825383,
+          733.3333007187177,
+          2837.5000514825383,
+          1245.8332779255488,
+          337.50000612347367,
+          1245.8332779255488
+        ]
+      ],
+      "area": 1281249.9662635974,
+      "iscrowd": 0,
+      "text": "SUMMER SCENTS IN ICLAND.\n\nThough ICLAND is associated in the minds of many people with a broken waste, there is much that is beautiful and interesting to be seen. Our photo shows Rockclimbing in search of nests.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_059_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          807.3599853515625,
+          603.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 170,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.977,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9805
+        }
+      },
+      "source_annotation_id": 48152,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_059__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_059__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_060_0002-verso-48153",
+      "image_id": 40923,
+      "category_id": 1013,
+      "bbox": [
+        662.4999979918657,
+        1087.4999689252197,
+        1037.499996855186,
+        99.99999714254895
+      ],
+      "segmentation": [
+        [
+          662.4999979918657,
+          1087.4999689252197,
+          1699.9999948470518,
+          1087.4999689252197,
+          1699.9999948470518,
+          1187.4999660677686,
+          662.4999979918657,
+          1187.4999660677686
+        ]
+      ],
+      "area": 103749.99672091314,
+      "iscrowd": 0,
+      "text": "BUTTER SCOTENS TO TICHLA,",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_060_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          805.4400024414062,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9545,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8943
+        }
+      },
+      "source_annotation_id": 48153,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_060__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_060__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_060_0002-verso-48154",
+      "image_id": 40923,
+      "category_id": 1012,
+      "bbox": [
+        649.999998029755,
+        1229.1666315438308,
+        2341.666659568733,
+        416.6666547606206
+      ],
+      "segmentation": [
+        [
+          649.999998029755,
+          1229.1666315438308,
+          2991.666657598488,
+          1229.1666315438308,
+          2991.666657598488,
+          1645.8332863044513,
+          649.999998029755,
+          1645.8332863044513
+        ]
+      ],
+      "area": 975694.4136069809,
+      "iscrowd": 0,
+      "text": "Though Iceland is associated in the minds of many people with a barren waste, there is much that is beautiful and interesting to be soon. No one should visit Iceland without going to visit the # Gulfoss Waterfall, where the white waters thunder over the rocks forming a grand spectacle, which is not easily forgotten.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_060_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          805.4400024414062,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 257,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9772,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9638
+        }
+      },
+      "source_annotation_id": 48154,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_060__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_060__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_061_0002-verso-48155",
+      "image_id": 40924,
+      "category_id": 1012,
+      "bbox": [
+        633.333348709467,
+        1045.8333333333335,
+        2275.0000552326906,
+        595.8333333333334
+      ],
+      "segmentation": [
+        [
+          633.333348709467,
+          1045.8333333333335,
+          2908.3334039421575,
+          1045.8333333333335,
+          2908.3334039421575,
+          1641.666666666667,
+          633.333348709467,
+          1641.666666666667
+        ]
+      ],
+      "area": 1355520.8662428115,
+      "iscrowd": 0,
+      "text": "summer scenes in Iceland.\n\nThailand Iceland is associated in the minds of many people with a barren waste; there is much that is beautiful and interesting to be seen.\n\nPhoto shows: The Great Boyear.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_061_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          804.47998046875,
+          600.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 158,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9693,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9712
+        }
+      },
+      "source_annotation_id": 48155,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_061__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_061__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_066_0002-verso-48156",
+      "image_id": 40929,
+      "category_id": 1012,
+      "bbox": [
+        495.8333183217936,
+        1266.6666571643073,
+        2304.1665969071587,
+        349.999997374348
+      ],
+      "segmentation": [
+        [
+          495.8333183217936,
+          1266.6666571643073,
+          2799.9999152289524,
+          1266.6666571643073,
+          2799.9999152289524,
+          1616.6666545386552,
+          495.8333183217936,
+          1616.6666545386552
+        ]
+      ],
+      "area": 806458.302867566,
+      "iscrowd": 0,
+      "text": "Picturesque waterfall at Thingvellir where the members of the parliament are staying during the celebrations of the millenary of the Parliament of Iceland. Many countries including Britain, sent representatives to the picturesque coronodies which last for three days.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          806.4000244140625,
+          976.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 227,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.987,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.99
+        }
+      },
+      "source_annotation_id": 48156,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_066__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_067_0002-verso-48157",
+      "image_id": 40930,
+      "category_id": 1012,
+      "bbox": [
+        1491.666698776137,
+        412.4999948993109,
+        708.3333485808472,
+        216.6666639875168
+      ],
+      "segmentation": [
+        [
+          1491.666698776137,
+          412.4999948993109,
+          2200.0000473569844,
+          412.4999948993109,
+          2200.0000473569844,
+          629.1666588868277,
+          1491.666698776137,
+          629.1666588868277
+        ]
+      ],
+      "area": 153472.22362811904,
+      "iscrowd": 0,
+      "text": "6,2+10",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_067_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          592.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 2
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 48157,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_067__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_067__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_068_0002-verso-48159",
+      "image_id": 40931,
+      "category_id": 1012,
+      "bbox": [
+        399.9999987875416,
+        833.3333265840458,
+        2279.16665975818,
+        462.49999625414546
+      ],
+      "segmentation": [
+        [
+          399.9999987875416,
+          833.3333265840458,
+          2679.1666585457215,
+          833.3333265840458,
+          2679.1666585457215,
+          1295.8333228381912,
+          399.9999987875416,
+          1295.8333228381912
+        ]
+      ],
+      "area": 1054114.5716007315,
+      "iscrowd": 0,
+      "text": "Though Zealand is associated in the minds of many people with barren waste, there is much that is beautiful and killing birds in their rocky nests. They are killed a few days before they are able to fly.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_068_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          805.4400024414062,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 163,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9819,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9477
+        }
+      },
+      "source_annotation_id": 48159,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_068__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_068__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_069_0002-verso-48160",
+      "image_id": 40932,
+      "category_id": 1012,
+      "bbox": [
+        262.4999951973237,
+        820.8333400455107,
+        2391.666622908949,
+        95.83333411698855
+      ],
+      "segmentation": [
+        [
+          262.4999951973237,
+          820.8333400455107,
+          2654.166618106273,
+          820.8333400455107,
+          2654.166618106273,
+          916.6666741624992,
+          262.4999951973237,
+          916.6666741624992
+        ]
+      ],
+      "area": 229201.386569683,
+      "iscrowd": 0,
+      "text": "SUMOUR SCENTS IN ICELAND::A STEAMING CRATER ON MOUNT HEKLA.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_069_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          800.6400146484375,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 48,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9412,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9149
+        }
+      },
+      "source_annotation_id": 48160,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_069__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_069__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_069_0002-verso-48161",
+      "image_id": 40932,
+      "category_id": 1012,
+      "bbox": [
+        258.33332860688995,
+        958.3333411698856,
+        2591.6666192497673,
+        487.50000398642004
+      ],
+      "segmentation": [
+        [
+          258.33332860688995,
+          958.3333411698856,
+          2849.9999478566574,
+          958.3333411698856,
+          2849.9999478566574,
+          1445.8333451563055,
+          258.33332860688995,
+          1445.8333451563055
+        ]
+      ],
+      "area": 1263437.4872157334,
+      "iscrowd": 0,
+      "text": "Violent eruptions of Mount Hekla, the 5,000 feet high Icelandic volcano have produced a number of new mountains round about the parent volcano. Our photo shows--The crater of one of the \"little Hekla's\" from which, fiery gases and sulphurous fumes are consistently arising. For miles around the earth is seared with giant fissures, some of which show black in a dome-shaped mountains at the back of the crater above.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_069_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          800.6400146484375,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 331,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 13
+          },
+          "alpha_ratio": 0.9511,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9939
+        }
+      },
+      "source_annotation_id": 48161,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_069__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_069__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_074_0002-verso-48162",
+      "image_id": 40937,
+      "category_id": 1012,
+      "bbox": [
+        433.3333268124834,
+        620.8333057220963,
+        2379.1666308646927,
+        133.33332740340322
+      ],
+      "segmentation": [
+        [
+          433.3333268124834,
+          620.8333057220963,
+          2812.499957677176,
+          620.8333057220963,
+          2812.499957677176,
+          754.1666331254995,
+          433.3333268124834,
+          754.1666331254995
+        ]
+      ],
+      "area": 317222.2033403338,
+      "iscrowd": 0,
+      "text": "SUMMER SCENTS IN ICELAND: A STEAMING CRATER ON MOUNT HEKLA.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_074_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          811.2000122070312,
+          603.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 48,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.96,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9172
+        }
+      },
+      "source_annotation_id": 48162,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_074__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_074__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_074_0002-verso-48163",
+      "image_id": 40937,
+      "category_id": 1012,
+      "bbox": [
+        416.6666603966187,
+        758.3332996068558,
+        2591.666627666968,
+        499.99997776276206
+      ],
+      "segmentation": [
+        [
+          416.6666603966187,
+          758.3332996068558,
+          3008.3332880635867,
+          758.3332996068558,
+          3008.3332880635867,
+          1258.333277369618,
+          416.6666603966187,
+          1258.333277369618
+        ]
+      ],
+      "area": 1295833.2562019764,
+      "iscrowd": 0,
+      "text": "Violent eruptions of Mount Hekla, the 5,000 feet high Icelandic volcano have produced a number of new mountains round about the parent volcano. Our photo shows --The crater of one of the \"little Hekla's\" from which, fiery gases and sulphurous fumes are consistently rising. For miles around the earth is seared with giant fissures, some of which show black in a dome shaped mountains at the back of the crater above.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_074_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          811.2000122070312,
+          603.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 330,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 12
+          },
+          "alpha_ratio": 0.9538,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9942
+        }
+      },
+      "source_annotation_id": 48163,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_074__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_074__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_075_0002-verso-48164",
+      "image_id": 40938,
+      "category_id": 1012,
+      "bbox": [
+        249.9999992422135,
+        908.3333591229318,
+        2570.833325540762,
+        641.6666848850069
+      ],
+      "segmentation": [
+        [
+          249.9999992422135,
+          908.3333591229318,
+          2820.8333247829755,
+          908.3333591229318,
+          2820.8333247829755,
+          1550.0000440079389,
+          249.9999992422135,
+          1550.0000440079389
+        ]
+      ],
+      "area": 1649618.0973916384,
+      "iscrowd": 0,
+      "text": "SUMMER SCENTS IN ICELAND. Though Iceland is associated in the minds of many people with a barren waste, there is much that is beautiful and interesting to be seen. Our photo shows - Rock-climbing in search of nests.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_075_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          805.4400024414062,
+          601.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 172,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9663,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9791
+        }
+      },
+      "source_annotation_id": 48164,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_075__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_075__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_076_0002-verso-48165",
+      "image_id": 40939,
+      "category_id": 1012,
+      "bbox": [
+        516.6666824026106,
+        1170.8333238505845,
+        2229.1667345596506,
+        312.4999974690172
+      ],
+      "segmentation": [
+        [
+          516.6666824026106,
+          1170.8333238505845,
+          2745.8334169622613,
+          1170.8333238505845,
+          2745.8334169622613,
+          1483.3333213196017,
+          516.6666824026106,
+          1483.3333213196017
+        ]
+      ],
+      "area": 696614.5989079082,
+      "iscrowd": 0,
+      "text": "Butterland is associated in the minds of many people. Though Iceland is associated with a barren waste, there is much that is beautiful and interesting to be seen.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_076_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 133,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9779,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9389
+        }
+      },
+      "source_annotation_id": 48165,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_076__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_076__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_083_0002-verso-48168",
+      "image_id": 40946,
+      "category_id": 1012,
+      "bbox": [
+        566.6666615320781,
+        1037.5000294569268,
+        2345.833312077647,
+        466.66667991636865
+      ],
+      "segmentation": [
+        [
+          566.6666615320781,
+          1037.5000294569268,
+          2912.499973609725,
+          1037.5000294569268,
+          2912.499973609725,
+          1504.1667093732954,
+          566.6666615320781,
+          1504.1667093732954
+        ]
+      ],
+      "area": 1094722.2433844942,
+      "iscrowd": 0,
+      "text": "Though Iceland is associated in the minds of many people with a barren waste, there is much that is beautiful and interesting to be seen. No one should visit Iceland without going to visit the # Gullfoss Waterfall, where the white waters thunder over the rocks forming a grand spectacle, which is not easily forgotten.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_083_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          808.3200073242188,
+          601.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 258,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9773,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9638
+        }
+      },
+      "source_annotation_id": 48168,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_083__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_083__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_085_0002-verso-48169",
+      "image_id": 40948,
+      "category_id": 1012,
+      "bbox": [
+        549.9999814403557,
+        624.9999871817971,
+        1387.499953179079,
+        83.33333162423962
+      ],
+      "segmentation": [
+        [
+          549.9999814403557,
+          624.9999871817971,
+          1937.4999346194347,
+          624.9999871817971,
+          1937.4999346194347,
+          708.3333188060367,
+          549.9999814403557,
+          708.3333188060367
+        ]
+      ],
+      "area": 115624.99372688914,
+      "iscrowd": 0,
+      "text": "ICELAND PONY RACES IN WILD SETTING.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_085_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          795.8400268554688,
+          595.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9125
+        }
+      },
+      "source_annotation_id": 48169,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_085__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_085__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_085_0002-verso-48170",
+      "image_id": 40948,
+      "category_id": 1012,
+      "bbox": [
+        420.83331913239334,
+        762.4999843617925,
+        2304.1665889130054,
+        262.4999946163548
+      ],
+      "segmentation": [
+        [
+          420.83331913239334,
+          762.4999843617925,
+          2724.9999080453986,
+          762.4999843617925,
+          2724.9999080453986,
+          1024.9999789781473,
+          420.83331913239334,
+          1024.9999789781473
+        ]
+      ],
+      "area": 604843.7171848485,
+      "iscrowd": 0,
+      "text": "Jockey's being numbered in an impromptu paddock during the pony race meeting which was held at Armannsfell, Iceland, during the 1,000-year-old Parliament celebrations on the island.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_085_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          795.8400268554688,
+          595.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 145,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 7
+          },
+          "alpha_ratio": 0.9295,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9329
+        }
+      },
+      "source_annotation_id": 48170,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_085__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_085__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_087_0002-verso-48171",
+      "image_id": 40950,
+      "category_id": 1012,
+      "bbox": [
+        466.6666581285754,
+        708.3333418707023,
+        2416.6666224515516,
+        329.1666706340322
+      ],
+      "segmentation": [
+        [
+          466.6666581285754,
+          708.3333418707023,
+          2883.333280580127,
+          708.3333418707023,
+          2883.333280580127,
+          1037.5000125047345,
+          466.6666581285754,
+          1037.5000125047345
+        ]
+      ],
+      "area": 795486.1061447689,
+      "iscrowd": 0,
+      "text": "Ponies getting into their stride during the furlong race in the pony race meeting, which was held at Armannsfell, Iceland, during the 1,000-year-old Parliament celebrations on the island.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_087_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          800.6400146484375,
+          607.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 149,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 7
+          },
+          "alpha_ratio": 0.9313,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9414
+        }
+      },
+      "source_annotation_id": 48171,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_087__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_087__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_088_0002-verso-48172",
+      "image_id": 40951,
+      "category_id": 1012,
+      "bbox": [
+        620.8333123834318,
+        533.3333290137894,
+        1429.1666184397122,
+        74.99999939256412
+      ],
+      "segmentation": [
+        [
+          620.8333123834318,
+          533.3333290137894,
+          2049.999930823144,
+          533.3333290137894,
+          2049.999930823144,
+          608.3333284063535,
+          620.8333123834318,
+          608.3333284063535
+        ]
+      ],
+      "area": 107187.49551485134,
+      "iscrowd": 0,
+      "text": "IOMAND POXY HADD IN WILD SETTING.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_088_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          795.8400268554688,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9643,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9122
+        }
+      },
+      "source_annotation_id": 48172,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_088__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_088__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_088_0002-verso-48173",
+      "image_id": 40951,
+      "category_id": 1012,
+      "bbox": [
+        420.83331913239334,
+        666.6666612672367,
+        2416.6665851167145,
+        266.6666645068947
+      ],
+      "segmentation": [
+        [
+          420.83331913239334,
+          666.6666612672367,
+          2837.4999042491077,
+          666.6666612672367,
+          2837.4999042491077,
+          933.3333257741314,
+          420.83331913239334,
+          933.3333257741314
+        ]
+      ],
+      "area": 644444.4174783417,
+      "iscrowd": 0,
+      "text": "Pomies getting into their stride during the furlong race in the pony rear meeting, which was held at Ammansefolll, Iceland, during the 1,000-year-old Perlimont colonizations on the island.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_088_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          795.8400268554688,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 150,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 7
+          },
+          "alpha_ratio": 0.9317,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9415
+        }
+      },
+      "source_annotation_id": 48173,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_088__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_088__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_089_0002-verso-48174",
+      "image_id": 40952,
+      "category_id": 1012,
+      "bbox": [
+        629.1666802100467,
+        700.0000256758478,
+        1425.0000306744103,
+        70.83333593148461
+      ],
+      "segmentation": [
+        [
+          629.1666802100467,
+          700.0000256758478,
+          2054.1667108844567,
+          700.0000256758478,
+          2054.1667108844567,
+          770.8333616073324,
+          629.1666802100467,
+          770.8333616073324
+        ]
+      ],
+      "area": 100937.50587513638,
+      "iscrowd": 0,
+      "text": "TOMLAND POUMY RACKS IN ALL SETTING.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_089_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          599.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9125
+        }
+      },
+      "source_annotation_id": 48174,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_089__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_089__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_089_0002-verso-48175",
+      "image_id": 40952,
+      "category_id": 1012,
+      "bbox": [
+        387.500008341287,
+        829.1666970803199,
+        2341.666717073154,
+        279.16667690643936
+      ],
+      "segmentation": [
+        [
+          387.500008341287,
+          829.1666970803199,
+          2729.166725414441,
+          829.1666970803199,
+          2729.166725414441,
+          1108.3333739867592,
+          387.500008341287,
+          1108.3333739867592
+        ]
+      ],
+      "area": 653715.3158277237,
+      "iscrowd": 0,
+      "text": "Jockey's being numbered in an important padbook during the pony race meeting which was held at Armanafoll, Iceland, during the 1,000-year-old Parliament celebrations on the jaunzer island.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_089_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          599.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 151,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 7
+          },
+          "alpha_ratio": 0.9321,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9332
+        }
+      },
+      "source_annotation_id": 48175,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_089__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_089__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_090_0002-verso-48176",
+      "image_id": 40953,
+      "category_id": 1012,
+      "bbox": [
+        641.6666488862985,
+        616.666661672194,
+        1395.8332946552598,
+        95.83333255716528
+      ],
+      "segmentation": [
+        [
+          641.6666488862985,
+          616.666661672194,
+          2037.4999435415584,
+          616.666661672194,
+          2037.4999435415584,
+          712.4999942293592,
+          641.6666488862985,
+          712.4999942293592
+        ]
+      ],
+      "area": 133767.35632106118,
+      "iscrowd": 0,
+      "text": "ICELAND PONY RACES IN WILD SETTING.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_090_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9125
+        }
+      },
+      "source_annotation_id": 48176,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_090__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_090__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_090_0002-verso-48177",
+      "image_id": 40953,
+      "category_id": 1012,
+      "bbox": [
+        366.66665650645626,
+        741.6666606598009,
+        2374.9999341895464,
+        295.83333093733626
+      ],
+      "segmentation": [
+        [
+          366.66665650645626,
+          741.6666606598009,
+          2741.6665906960025,
+          741.6666606598009,
+          2741.6665906960025,
+          1037.499991597137,
+          366.66665650645626,
+          1037.499991597137
+        ]
+      ],
+      "area": 702604.1415072479,
+      "iscrowd": 0,
+      "text": "Ponies getting into their stride during the furlong race in the pony race meeting which was held at Armannsfell, Iceland, during the 1,000-year-old Parliament celebrations on the island.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_090_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 149,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 6
+          },
+          "alpha_ratio": 0.9371,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9421
+        }
+      },
+      "source_annotation_id": 48177,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_090__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_090__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_149_094_0002-verso-48179",
+      "image_id": 40957,
+      "category_id": 1012,
+      "bbox": [
+        833.3333515158754,
+        533.3333171864671,
+        2170.8333806988553,
+        208.3333270259637
+      ],
+      "segmentation": [
+        [
+          833.3333515158754,
+          533.3333171864671,
+          3004.1667322147305,
+          533.3333171864671,
+          3004.1667322147305,
+          741.6666442124308,
+          833.3333515158754,
+          741.6666442124308
+        ]
+      ],
+      "area": 452256.940620013,
+      "iscrowd": 0,
+      "text": "Pomies used at Lighthouse camera",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_149_094_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1007.0399780273438,
+          806.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 28,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 48179,
+      "source_file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_094__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_149/SHDGR__GR_2_K_247_149_094__0002.jpg"
+    }
+  ]
 }

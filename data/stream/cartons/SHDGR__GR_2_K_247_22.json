@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_22",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1503,6 +1771,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1529,6 +1800,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1555,6 +1829,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1581,6 +1858,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1607,6 +1887,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1633,6 +1916,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1659,6 +1945,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1685,6 +1974,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1711,6 +2003,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1737,6 +2032,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1763,6 +2061,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1789,6 +2090,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1815,6 +2119,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1841,6 +2148,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1867,6 +2177,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1893,6 +2206,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1919,6 +2235,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1945,6 +2264,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1971,6 +2293,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1997,6 +2322,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2023,6 +2351,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2049,6 +2380,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2075,6 +2409,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2101,6 +2438,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2127,6 +2467,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2153,6 +2496,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2179,6 +2525,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2205,6 +2554,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2231,6 +2583,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2257,6 +2612,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2283,6 +2641,9 @@
         "Type": "Géographique",
         "Cluster": 20,
         "ClusterLabel": "Aerostation",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2309,6 +2670,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2335,6 +2699,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2361,6 +2728,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2387,6 +2757,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2413,6 +2786,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2439,6 +2815,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2465,6 +2844,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2491,6 +2873,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2517,6 +2902,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2543,6 +2931,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2569,6 +2960,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2595,6 +2989,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2621,6 +3018,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2647,6 +3047,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2673,6 +3076,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2699,6 +3105,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2725,6 +3134,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2751,6 +3163,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2777,6 +3192,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2803,6 +3221,9 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2829,9 +3250,4435 @@
         "Type": "Géographique",
         "Cluster": 6,
         "ClusterLabel": "Prisonniers Allemands",
+        "Pays / Région": "Allemagne 212",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_004_0002-verso-8823",
+      "image_id": 3762,
+      "category_id": 1012,
+      "bbox": [
+        416.66666325810013,
+        879.1666478286559,
+        1670.8333196649814,
+        149.99999678593178
+      ],
+      "segmentation": [
+        [
+          416.66666325810013,
+          879.1666478286559,
+          2087.4999829230815,
+          879.1666478286559,
+          2087.4999829230815,
+          1029.1666446145878,
+          416.66666325810013,
+          1029.1666446145878
+        ]
+      ],
+      "area": 250624.99257957496,
+      "iscrowd": 0,
+      "text": "THE GERMAN SIDE OF THE WAR\nRUSSIAN STANDARD CARRIED THROUGH THE STREETS OF BERLIN,\nBY THE SOLDIER WHO CAPTURED IT",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_004_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          596.8800048828125,
+          455.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 93,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9894,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.957
+        }
+      },
+      "source_annotation_id": 8823,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_004__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_005_0002-verso-8825",
+      "image_id": 3763,
+      "category_id": 1012,
+      "bbox": [
+        104.16666408847178,
+        941.666637997371,
+        1812.499955139409,
+        137.49999581377543
+      ],
+      "segmentation": [
+        [
+          104.16666408847178,
+          941.666637997371,
+          1916.6666192278808,
+          941.666637997371,
+          1916.6666192278808,
+          1079.1666338111465,
+          104.16666408847178,
+          1079.1666338111465
+        ]
+      ],
+      "area": 249218.73624413688,
+      "iscrowd": 0,
+      "text": "HOW GERMAN SOLDIERS AMUSE THEMSELVES IN BELGIUM BY PRACTISING\nSHOOTING AT AN EFFIGY OF A BELGIAN SOLDIER",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          493.20001220703125,
+          641.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 88,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.925
+        }
+      },
+      "source_annotation_id": 8825,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_006_0002-verso-8827",
+      "image_id": 3764,
+      "category_id": 1012,
+      "bbox": [
+        187.5000032110247,
+        833.3333301113246,
+        1425.0000244037876,
+        162.4999993717083
+      ],
+      "segmentation": [
+        [
+          187.5000032110247,
+          833.3333301113246,
+          1612.5000276148123,
+          833.3333301113246,
+          1612.5000276148123,
+          995.8333294830329,
+          187.5000032110247,
+          995.8333294830329
+        ]
+      ],
+      "area": 231562.5030702998,
+      "iscrowd": 0,
+      "text": "AMUSEMENTS OF THE INVADERS IN BELGIUM. Effigy of a Belgian refugee on which the enemy's troops practise shooting.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          498.9599914550781,
+          631.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 93,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9688,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9461
+        }
+      },
+      "source_annotation_id": 8827,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_007_0002-verso-8829",
+      "image_id": 3765,
+      "category_id": 1012,
+      "bbox": [
+        441.6666819485232,
+        670.8333150960245,
+        254.1666754609426,
+        66.6666648542633
+      ],
+      "segmentation": [
+        [
+          441.6666819485232,
+          670.8333150960245,
+          695.8333574094659,
+          670.8333150960245,
+          695.8333574094659,
+          737.4999799502879,
+          441.6666819485232,
+          737.4999799502879
+        ]
+      ],
+      "area": 16944.44457007697,
+      "iscrowd": 0,
+      "text": "GERMAN F",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          635.0399780273438,
+          493.9200134277344
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 7,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 8829,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_007_0002-verso-8830",
+      "image_id": 3765,
+      "category_id": 1012,
+      "bbox": [
+        1941.666733849168,
+        616.6666499019356,
+        225.00000778509673,
+        62.499998300871844
+      ],
+      "segmentation": [
+        [
+          1941.666733849168,
+          616.6666499019356,
+          2166.666741634265,
+          616.6666499019356,
+          2166.666741634265,
+          679.1666482028074,
+          1941.666733849168,
+          679.1666482028074
+        ]
+      ],
+      "area": 14062.500104264696,
+      "iscrowd": 0,
+      "text": "RUSSA",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          635.0399780273438,
+          493.9200134277344
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 5,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 8830,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_009_0001-recto-8833",
+      "image_id": 3767,
+      "category_id": 1012,
+      "bbox": [
+        208.3333418444833,
+        1787.5000377640513,
+        1958.3334133381431,
+        58.33333456572662
+      ],
+      "segmentation": [
+        [
+          208.3333418444833,
+          1787.5000377640513,
+          2166.6667551826263,
+          1787.5000377640513,
+          2166.6667551826263,
+          1845.8333723297778,
+          208.3333418444833,
+          1845.8333723297778
+        ]
+      ],
+      "area": 114236.11819149529,
+      "iscrowd": 0,
+      "text": "A GERMAN WHO HELPED TO CAPTURE A FRENCH GUN TELLS BERLIN ABOUT IT",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_009_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          597.5999755859375,
+          462.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 53,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 8833,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_009__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_009__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_009_0002-verso-8834",
+      "image_id": 3767,
+      "category_id": 1012,
+      "bbox": [
+        262.5,
+        687.5000163657063,
+        1862.5000000000002,
+        200.00000476093274
+      ],
+      "segmentation": [
+        [
+          262.5,
+          687.5000163657063,
+          2125.0,
+          687.5000163657063,
+          2125.0,
+          887.500021126639,
+          262.5,
+          887.500021126639
+        ]
+      ],
+      "area": 372500.00886723725,
+      "iscrowd": 0,
+      "text": "THE GERMAN SIDE OF THE VAR\nA wounded soldier who helped in the capture of this French gun\nexplaining to the Berliners how the capture was effected.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          594.0,
+          461.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 120,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9917,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9656
+        }
+      },
+      "source_annotation_id": 8834,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_010_0001-recto-8835",
+      "image_id": 3768,
+      "category_id": 1012,
+      "bbox": [
+        591.6666618265021,
+        1774.9999479511096,
+        1541.6666540549704,
+        66.66666471177876
+      ],
+      "segmentation": [
+        [
+          591.6666618265021,
+          1774.9999479511096,
+          2133.3333158814726,
+          1774.9999479511096,
+          2133.3333158814726,
+          1841.6666126628884,
+          591.6666618265021,
+          1841.6666126628884
+        ]
+      ],
+      "area": 102777.77392321253,
+      "iscrowd": 0,
+      "text": "GERMAN SOLDIERS WITH CAPTURED BELGIAN GUNS AT LIEGE",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_010_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          596.8800048828125,
+          457.9200134277344
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.125,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 44,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9125
+        }
+      },
+      "source_annotation_id": 8835,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_010__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_010__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_010_0002-verso-8836",
+      "image_id": 3768,
+      "category_id": 1012,
+      "bbox": [
+        270.8333199592605,
+        899.9999783392589,
+        1762.4999129656492,
+        124.99999699156373
+      ],
+      "segmentation": [
+        [
+          270.8333199592605,
+          899.9999783392589,
+          2033.3332329249097,
+          899.9999783392589,
+          2033.3332329249097,
+          1024.9999753308225,
+          270.8333199592605,
+          1024.9999753308225
+        ]
+      ],
+      "area": 220312.4838183375,
+      "iscrowd": 0,
+      "text": "GERMANS WITH CAPTURED BELGIAN GUNS IN THE BARRACKS AT LIEGE",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          593.280029296875,
+          456.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 50,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.93
+        }
+      },
+      "source_annotation_id": 8836,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_011_0002-verso-8838",
+      "image_id": 3769,
+      "category_id": 1012,
+      "bbox": [
+        1358.3333167055582,
+        866.6666666666667,
+        762.4999906660036,
+        54.16666666666667
+      ],
+      "segmentation": [
+        [
+          1358.3333167055582,
+          866.6666666666667,
+          2120.8333073715617,
+          866.6666666666667,
+          2120.8333073715617,
+          920.8333333333334,
+          1358.3333167055582,
+          920.8333333333334
+        ]
+      ],
+      "area": 41302.08282774186,
+      "iscrowd": 0,
+      "text": "BUILT BY THE BELGIANS NOW",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          598.3200073242188,
+          450.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.94
+        }
+      },
+      "source_annotation_id": 8838,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_013_0001-recto-8841",
+      "image_id": 3771,
+      "category_id": 1012,
+      "bbox": [
+        741.6666456844009,
+        1737.5000000000002,
+        1087.4999692338688,
+        45.833333333333336
+      ],
+      "segmentation": [
+        [
+          741.6666456844009,
+          1737.5000000000002,
+          1829.1666149182697,
+          1737.5000000000002,
+          1829.1666149182697,
+          1783.3333333333335,
+          741.6666456844009,
+          1783.3333333333335
+        ]
+      ],
+      "area": 49843.748589885654,
+      "iscrowd": 0,
+      "text": "WOUNDED GERMANS FIND SOLACE IN MUSIC",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_013_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          604.0800170898438,
+          450.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 31,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9167
+        }
+      },
+      "source_annotation_id": 8841,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_013__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_013__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_013_0002-verso-8842",
+      "image_id": 3771,
+      "category_id": 1012,
+      "bbox": [
+        491.66665866107746,
+        687.5000056218744,
+        1774.9999710984662,
+        187.50000153323847
+      ],
+      "segmentation": [
+        [
+          491.66665866107746,
+          687.5000056218744,
+          2266.666629759544,
+          687.5000056218744,
+          2266.666629759544,
+          875.0000071551128,
+          491.66665866107746,
+          875.0000071551128
+        ]
+      ],
+      "area": 332812.49730246066,
+      "iscrowd": 0,
+      "text": "WOUNDED GERMAN SOLDERS IN BERLIN LISTENING TO AN IMPROMPTU CONCERT GIVEN BY THEIR COMRADES 1/6",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_013_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          599.760009765625,
+          447.8399963378906
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 77,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 1
+          },
+          "alpha_ratio": 0.9625,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.912
+        }
+      },
+      "source_annotation_id": 8842,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_013__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_013__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_014_0002-verso-8844",
+      "image_id": 3772,
+      "category_id": 1012,
+      "bbox": [
+        579.1666927566308,
+        708.3333200319689,
+        1325.0000596878317,
+        195.8333296558973
+      ],
+      "segmentation": [
+        [
+          579.1666927566308,
+          708.3333200319689,
+          1904.1667524444624,
+          708.3333200319689,
+          1904.1667524444624,
+          904.1666496878662,
+          579.1666927566308,
+          904.1666496878662
+        ]
+      ],
+      "area": 259479.17348293075,
+      "iscrowd": 0,
+      "text": "THE GERMAN SIDE OF THE WAR\nSOLDIERS WITH A CAPTURED RUSSIAN QUICK-FIRER\nOUTSIDE THE ROYAL PALACE, BERLIN",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          596.1599731445312,
+          455.0400085449219
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 86,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9773,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9388
+        }
+      },
+      "source_annotation_id": 8844,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_015_0001-recto-8846",
+      "image_id": 3773,
+      "category_id": 1012,
+      "bbox": [
+        570.8333240387086,
+        1762.499980997269,
+        1212.499980257403,
+        45.83333283917248
+      ],
+      "segmentation": [
+        [
+          570.8333240387086,
+          1762.499980997269,
+          1783.3333042961117,
+          1762.499980997269,
+          1783.3333042961117,
+          1808.3333138364414,
+          570.8333240387086,
+          1808.3333138364414
+        ]
+      ],
+      "area": 55572.91516262761,
+      "iscrowd": 0,
+      "text": "A CAPTURED RUSSIAN MACHINE GUN IN BERLIN",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_015_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          599.760009765625,
+          452.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 34,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9167
+        }
+      },
+      "source_annotation_id": 8846,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_015__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_015__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_015_0002-verso-8847",
+      "image_id": 3773,
+      "category_id": 1012,
+      "bbox": [
+        537.4999977961577,
+        779.1666645564181,
+        1112.499995438559,
+        199.99999945833193
+      ],
+      "segmentation": [
+        [
+          537.4999977961577,
+          779.1666645564181,
+          1649.9999932347166,
+          779.1666645564181,
+          1649.9999932347166,
+          979.16666401475,
+          537.4999977961577,
+          979.16666401475
+        ]
+      ],
+      "area": 222499.99848510604,
+      "iscrowd": 0,
+      "text": "THE GENIA SIDE OF THE WAR\nCAPTURED RUSSIAN GUNS ON THEIR WAY TO\nTHE ROYAL PALACE, BERLIN",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_015_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          595.4400024414062,
+          450.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 71,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9861,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9399
+        }
+      },
+      "source_annotation_id": 8847,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_015__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_015__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_017_0002-verso-8849",
+      "image_id": 3775,
+      "category_id": 1012,
+      "bbox": [
+        54.166665194088935,
+        283.3333391677782,
+        1845.833283152415,
+        425.00000875166734
+      ],
+      "segmentation": [
+        [
+          54.166665194088935,
+          283.3333391677782,
+          1899.999948346504,
+          283.3333391677782,
+          1899.999948346504,
+          708.3333479194455,
+          54.166665194088935,
+          708.3333479194455
+        ]
+      ],
+      "area": 784479.1614938952,
+      "iscrowd": 0,
+      "text": "696) The \"GAE B\" D E S A R D E N N E B E \"B E S A R D E N N E B E\" was a newspaper, published in Charleville's by Gorzan military persons. The paper is chiefly intended for the inhabitants of the territory occupied at present by German troops. It appeared for the first time in November 1914 and has seen published since that date reguärly 3 times a week. It is issued in about 100 000 copies. Room where the papers are dispatched.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_017_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          493.9200134277344,
+          355.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 316,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 14,
+            "other": 12
+          },
+          "alpha_ratio": 0.924,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9905
+        }
+      },
+      "source_annotation_id": 8849,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_017__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_017__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_023_0002-verso-8853",
+      "image_id": 3781,
+      "category_id": 1012,
+      "bbox": [
+        1104.1666702392379,
+        458.3333277227344,
+        1666.666672059227,
+        399.9999951034773
+      ],
+      "segmentation": [
+        [
+          1104.1666702392379,
+          458.3333277227344,
+          2770.833342298465,
+          458.3333277227344,
+          2770.833342298465,
+          858.3333228262118,
+          1104.1666702392379,
+          858.3333228262118
+        ]
+      ],
+      "area": 666666.6606628196,
+      "iscrowd": 0,
+      "text": "Aston boche, photographie, an démon\nde la Macdonie, l'antenne franc\nVice President\nVice President\nVice President\nVice President\nVice President\nVice President",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_023_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          754.5599975585938,
+          598.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 132,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9706,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9213
+        }
+      },
+      "source_annotation_id": 8853,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_023__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_023__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_027_0002-verso-8858",
+      "image_id": 3785,
+      "category_id": 1012,
+      "bbox": [
+        241.66666545624796,
+        991.666712729477,
+        1495.8333258412588,
+        162.50000754810756
+      ],
+      "segmentation": [
+        [
+          241.66666545624796,
+          991.666712729477,
+          1737.4999912975068,
+          991.666712729477,
+          1737.4999912975068,
+          1154.1667202775845,
+          241.66666545624796,
+          1154.1667202775845
+        ]
+      ],
+      "area": 243072.9267399154,
+      "iscrowd": 0,
+      "text": "THE BOMB-DROPPER\nA GERMAN AVIATOR ATTACHING A BOMB TO HIS AEROPLANE\nBEFORE SETTING OUT ON A RAID",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_027_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          487.44000244140625,
+          630.719970703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9875,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9151
+        }
+      },
+      "source_annotation_id": 8858,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_027__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_027__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_028_0001-recto-8860",
+      "image_id": 3786,
+      "category_id": 1012,
+      "bbox": [
+        320.8333341714652,
+        1412.5000178715088,
+        1237.5000032327944,
+        50.00000063261979
+      ],
+      "segmentation": [
+        [
+          320.8333341714652,
+          1412.5000178715088,
+          1558.3333374042595,
+          1412.5000178715088,
+          1558.3333374042595,
+          1462.5000185041285,
+          320.8333341714652,
+          1462.5000185041285
+        ]
+      ],
+      "area": 61875.000944506704,
+      "iscrowd": 0,
+      "text": "Vom Seeflugzeugwettbewerb in Warnemünde.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_028_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          467.2799987792969,
+          482.3999938964844
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 36,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.973,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9216
+        }
+      },
+      "source_annotation_id": 8860,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_028__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_028__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_028_0001-recto-8861",
+      "image_id": 3786,
+      "category_id": 1012,
+      "bbox": [
+        320.8333341714652,
+        1479.1666853816687,
+        1295.8333367185153,
+        141.66666845908938
+      ],
+      "segmentation": [
+        [
+          320.8333341714652,
+          1479.1666853816687,
+          1616.6666708899804,
+          1479.1666853816687,
+          1616.6666708899804,
+          1620.833353840758,
+          320.8333341714652,
+          1620.833353840758
+        ]
+      ],
+      "area": 183576.39169113743,
+      "iscrowd": 0,
+      "text": "Bei dem vor kurzem stattgefundenen Wettbewerb in Warnemünde sind mehrere Havarien vorgekommen.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_028_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          467.2799987792969,
+          482.3999938964844
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 82,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.988,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9068
+        }
+      },
+      "source_annotation_id": 8861,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_028__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_028__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_028_0001-recto-8862",
+      "image_id": 3786,
+      "category_id": 1012,
+      "bbox": [
+        316.6666674939137,
+        1625.000020560143,
+        1204.1666698123825,
+        295.83333707633375
+      ],
+      "segmentation": [
+        [
+          316.6666674939137,
+          1625.000020560143,
+          1520.833337306296,
+          1625.000020560143,
+          1520.833337306296,
+          1920.8333576364766,
+          316.6666674939137,
+          1920.8333576364766
+        ]
+      ],
+      "area": 356232.6443266928,
+      "iscrowd": 0,
+      "text": "Der Führer von Drewitz des verun-glückten Flugzeuges hat sich mit viel Mat und Geschicklichkeit auf den gekerten Apparat gerettet und befestigt daran eine Stahllein, damit er abgeschlept werden kann.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_028_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          467.2799987792969,
+          482.3999938964844
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 168,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9825,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9061
+        }
+      },
+      "source_annotation_id": 8862,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_028__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_028__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_031_0001-recto-8868",
+      "image_id": 3789,
+      "category_id": 1013,
+      "bbox": [
+        483.3333263691395,
+        1445.8333403571046,
+        616.666657781316,
+        66.66666699052932
+      ],
+      "segmentation": [
+        [
+          483.3333263691395,
+          1445.8333403571046,
+          1099.9999841504555,
+          1445.8333403571046,
+          1099.9999841504555,
+          1512.500007347634,
+          483.3333263691395,
+          1512.500007347634
+        ]
+      ],
+      "area": 41111.110718469696,
+      "iscrowd": 0,
+      "text": "Der fliegende Fekir.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_031_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          508.32000732421875,
+          502.55999755859375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 17,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9444,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8931
+        }
+      },
+      "source_annotation_id": 8868,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_031__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_031__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_031_0001-recto-8869",
+      "image_id": 3789,
+      "category_id": 1012,
+      "bbox": [
+        499.99999279566157,
+        1545.8333408428987,
+        1141.6666502167607,
+        412.5000020039002
+      ],
+      "segmentation": [
+        [
+          499.99999279566157,
+          1545.8333408428987,
+          1641.6666430124224,
+          1545.8333408428987,
+          1641.6666430124224,
+          1958.3333428467988,
+          499.99999279566157,
+          1958.3333428467988
+        ]
+      ],
+      "area": 470937.4955021998,
+      "iscrowd": 0,
+      "text": "Fakir \"Fakiro\" liess sich am Himmel fahrtstage mit Händen und Füssen an ein Brett nageln, das unter einem Flugzeug befestigt wurde. In dieser seltsamen Stellung liess sich Fakiro 40 Minuten lang in über 1000 m Höhe tragen. Die Nagelung.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_031_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          508.32000732421875,
+          502.55999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 186,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 6
+          },
+          "alpha_ratio": 0.9394,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9091
+        }
+      },
+      "source_annotation_id": 8869,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_031__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_031__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_036_0001-recto-8875",
+      "image_id": 3794,
+      "category_id": 1013,
+      "bbox": [
+        454.16667525806105,
+        1458.333347050332,
+        1066.6666868446205,
+        87.50000082301992
+      ],
+      "segmentation": [
+        [
+          454.16667525806105,
+          1458.333347050332,
+          1520.8333621026816,
+          1458.333347050332,
+          1520.8333621026816,
+          1545.8333478733518,
+          454.16667525806105,
+          1545.8333478733518
+        ]
+      ],
+      "area": 93333.33597679222,
+      "iscrowd": 0,
+      "text": "Die japanischen Flieger in Berlin.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_036_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          516.239990234375,
+          519.1199951171875
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9158
+        }
+      },
+      "source_annotation_id": 8875,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_036__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_036__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_036_0001-recto-8876",
+      "image_id": 3794,
+      "category_id": 1012,
+      "bbox": [
+        437.5000082761139,
+        1558.333347990926,
+        1233.3333566640924,
+        525.0000049381194
+      ],
+      "segmentation": [
+        [
+          437.5000082761139,
+          1558.333347990926,
+          1670.8333649402064,
+          1558.333347990926,
+          1670.8333649402064,
+          2083.3333529290458,
+          437.5000082761139,
+          2083.3333529290458
+        ]
+      ],
+      "area": 647500.018338996,
+      "iscrowd": 0,
+      "text": "Eines der beiden japanischen Zeitungsflugzeuge ist gestern nachmittag auf dem Berliner Flugbafen glatt gelandet. Die Flieger wurden von der japanischen Kolonie jubeld begrüsst. Das von den japanischen Europafliegern benutzte Flugzeug, ein Breguet-Doppel-decker ist Eigentum der Tokioter Zeitung Osaka-Asahi. Das Flugzeug bei seiner Ankunft auf dem Tempelhofer Felde.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_036_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          516.239990234375,
+          519.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 312,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.975,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8969
+        }
+      },
+      "source_annotation_id": 8876,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_036__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_036__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_038_0001-recto-8878",
+      "image_id": 3796,
+      "category_id": 1013,
+      "bbox": [
+        437.49999578553025,
+        1424.9999931168807,
+        983.3333238608108,
+        74.99999963773055
+      ],
+      "segmentation": [
+        [
+          437.49999578553025,
+          1424.9999931168807,
+          1420.833319646341,
+          1424.9999931168807,
+          1420.833319646341,
+          1499.9999927546112,
+          437.49999578553025,
+          1499.9999927546112
+        ]
+      ],
+      "area": 73749.99893332919,
+      "iscrowd": 0,
+      "text": "Der erste fliegende Schlafwagen.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_038_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          505.44000244140625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 28,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9655,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8957
+        }
+      },
+      "source_annotation_id": 8878,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_038__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_038__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_038_0001-recto-8879",
+      "image_id": 3796,
+      "category_id": 1012,
+      "bbox": [
+        424.99999590594365,
+        1520.833325987314,
+        1179.1666553076673,
+        508.33333087795154
+      ],
+      "segmentation": [
+        [
+          424.99999590594365,
+          1520.833325987314,
+          1604.166651213611,
+          1520.833325987314,
+          1604.166651213611,
+          2029.1666568652656,
+          424.99999590594365,
+          2029.1666568652656
+        ]
+      ],
+      "area": 599409.7135527598,
+      "iscrowd": 0,
+      "text": "Die Albatroswerke in Johannes- thal haben einen neuen zweimotorigen Doppeldecker konstruiert, der von der Deutschen Lufthansa demnächst als Ver- kehrs-Schlaffflugzeug in den Dienst ge- stellt wird. Die Kabine bietet Platz für 10 Personen. Die Sitze können be- quem umgeklappt werden und dienen dann als Bett. Das neue Schlaf-Flugzeug.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_038_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          505.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 274,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 11
+          },
+          "alpha_ratio": 0.9547,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.911
+        }
+      },
+      "source_annotation_id": 8879,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_038__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_038__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_040_0002-verso-8881",
+      "image_id": 3798,
+      "category_id": 1012,
+      "bbox": [
+        308.3333321411901,
+        1074.999989263166,
+        1924.9999925571599,
+        212.49999787760262
+      ],
+      "segmentation": [
+        [
+          308.3333321411901,
+          1074.999989263166,
+          2233.33332469835,
+          1074.999989263166,
+          2233.33332469835,
+          1287.4999871407688,
+          308.3333321411901,
+          1287.4999871407688
+        ]
+      ],
+      "area": 409062.4943327815,
+      "iscrowd": 0,
+      "text": "ZEPPELIN NURSERY DESTROYED ONE OF THE GREAT AIRSHIPS HOVERING OVER FRIDRICHSHAWEN, WHERE THE ENORMOUS AIRSHIP AND AEROPLANE FACTORIES HAVE BEEN COMPLETELY DESTROYED BY FIRE",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_040_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          631.4400024414062,
+          488.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 148,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9933,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9408
+        }
+      },
+      "source_annotation_id": 8881,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_040__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_040__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_045_0001-recto-8886",
+      "image_id": 3803,
+      "category_id": 1012,
+      "bbox": [
+        495.8333357420618,
+        1454.1667042112065,
+        1016.6666716055721,
+        95.83333580761533
+      ],
+      "segmentation": [
+        [
+          495.8333357420618,
+          1454.1667042112065,
+          1512.500007347634,
+          1454.1667042112065,
+          1512.500007347634,
+          1550.000040018822,
+          495.8333357420618,
+          1550.000040018822
+        ]
+      ],
+      "area": 97430.55854438737,
+      "iscrowd": 0,
+      "text": "Der Berliner Zentralflughafen bei Nacht.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_045_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          502.55999755859375,
+          425.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 35,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9722,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8965
+        }
+      },
+      "source_annotation_id": 8886,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_045__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_045__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_045_0001-recto-8887",
+      "image_id": 3803,
+      "category_id": 1012,
+      "bbox": [
+        495.8333357420618,
+        1591.6667077612633,
+        1045.8333384139287,
+        133.33333677581263
+      ],
+      "segmentation": [
+        [
+          495.8333357420618,
+          1591.6667077612633,
+          1541.6666741559904,
+          1591.6667077612633,
+          1541.6666741559904,
+          1725.0000445370758,
+          495.8333357420618,
+          1725.0000445370758
+        ]
+      ],
+      "area": 139444.44872211677,
+      "iscrowd": 0,
+      "text": "Das Berlin-Königsberger Flugzeug der Lufthansa kurz vor dem Start.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_045_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          502.55999755859375,
+          425.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 56,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9655,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8957
+        }
+      },
+      "source_annotation_id": 8887,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_045__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_045__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_046_0001-recto-8889",
+      "image_id": 3804,
+      "category_id": 1012,
+      "bbox": [
+        183.3333314794933,
+        2125.0000603334643,
+        1012.4999897617471,
+        108.33333640915701
+      ],
+      "segmentation": [
+        [
+          183.3333314794933,
+          2125.0000603334643,
+          1195.8333212412404,
+          2125.0000603334643,
+          1195.8333212412404,
+          2233.333396742621,
+          183.3333314794933,
+          2233.333396742621
+        ]
+      ],
+      "area": 109687.50200512738,
+      "iscrowd": 0,
+      "text": "Der Berliner Zentralflughafen bei Nacht.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_046_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          362.1600036621094,
+          601.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 35,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9722,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8965
+        }
+      },
+      "source_annotation_id": 8889,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_046__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_046__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_046_0001-recto-8890",
+      "image_id": 3804,
+      "category_id": 1012,
+      "bbox": [
+        179.16666485495935,
+        2270.8333978073297,
+        1137.4999884977651,
+        162.5000046137355
+      ],
+      "segmentation": [
+        [
+          179.16666485495935,
+          2270.8333978073297,
+          1316.6666533527246,
+          2270.8333978073297,
+          1316.6666533527246,
+          2433.3334024210653,
+          179.16666485495935,
+          2433.3334024210653
+        ]
+      ],
+      "area": 184843.75337901092,
+      "iscrowd": 0,
+      "text": "Der neuerbaute beleuchete Windanzeiger, der den Piloten die Windrichung angibt.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_046_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          362.1600036621094,
+          601.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 68,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9714,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8964
+        }
+      },
+      "source_annotation_id": 8890,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_046__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_046__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_047_0001-recto-8891",
+      "image_id": 3805,
+      "category_id": 1012,
+      "bbox": [
+        124.99999692221297,
+        2045.8333852133385,
+        983.3333091214087,
+        108.33333608054338
+      ],
+      "segmentation": [
+        [
+          124.99999692221297,
+          2045.8333852133385,
+          1108.3333060436216,
+          2045.8333852133385,
+          1108.3333060436216,
+          2154.166721293882,
+          124.99999692221297,
+          2154.166721293882
+        ]
+      ],
+      "area": 106527.7778562424,
+      "iscrowd": 0,
+      "text": "Kampfflieger Wüsthoff in Dresden abgestürzt.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_047_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          347.0400085449219,
+          673.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 39,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.975,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9169
+        }
+      },
+      "source_annotation_id": 8891,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_047__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_047__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_047_0001-recto-8892",
+      "image_id": 3805,
+      "category_id": 1012,
+      "bbox": [
+        116.66666379406544,
+        2179.1667219278534,
+        1112.4999726076953,
+        541.6666804027169
+      ],
+      "segmentation": [
+        [
+          116.66666379406544,
+          2179.1667219278534,
+          1229.1666364017608,
+          2179.1667219278534,
+          1229.1666364017608,
+          2720.83340233057,
+          116.66666379406544,
+          2720.83340233057
+        ]
+      ],
+      "area": 602604.1671105238,
+      "iscrowd": 0,
+      "text": "Bei dem vom Deutschen Luftfahrtverhand veranstalteten \"Immelmann-Gedächtnistag\" hatte es der bekanntete Kampflieger Wüsthoff, der letzte sächstische Pour-le-Mérite-Flieger übernommen, mit einem neuen Sportflugzeug Kunstflüge auszuführen. Leider stürzte der Flieger nach etwa 20 Minuten ab und liegt tödlich verwundet in einem Dresdener Krankenhaus.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_047_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          347.0400085449219,
+          673.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 296,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 10
+          },
+          "alpha_ratio": 0.961,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9201
+        }
+      },
+      "source_annotation_id": 8892,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_047__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_047__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_050_0002-verso-8896",
+      "image_id": 3808,
+      "category_id": 1012,
+      "bbox": [
+        979.1666591121742,
+        391.6666588887471,
+        1008.3333255538134,
+        99.9999980141482
+      ],
+      "segmentation": [
+        [
+          979.1666591121742,
+          391.6666588887471,
+          1987.4999846659875,
+          391.6666588887471,
+          1987.4999846659875,
+          491.66665690289534,
+          979.1666591121742,
+          491.66665690289534
+        ]
+      ],
+      "area": 100833.3305529808,
+      "iscrowd": 0,
+      "text": "La Sancissi et son combégrids",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_050_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          632.8800048828125,
+          491.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 25,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.94
+        }
+      },
+      "source_annotation_id": 8896,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_050__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_050__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_059_0001-recto-8897",
+      "image_id": 3817,
+      "category_id": 1012,
+      "bbox": [
+        500.00000000000006,
+        1516.66671557895,
+        1083.3333333333335,
+        391.66667929786075
+      ],
+      "segmentation": [
+        [
+          500.00000000000006,
+          1516.66671557895,
+          1583.3333333333335,
+          1516.66671557895,
+          1583.3333333333335,
+          1908.3333948768109,
+          500.00000000000006,
+          1908.3333948768109
+        ]
+      ],
+      "area": 424305.5692393492,
+      "iscrowd": 0,
+      "text": "Generalfeldmarschall von Mackensen besuchte mit seiner Gemahlin die Albatroswerke auf dem Flugplatz Johannisthal-Berlin, wo er besondereres Interesse für die zweimortorigen Apparate zeigte, die für die bis nach Peking führenden Ostflüge be- stimmt sind.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_059_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          504.0,
+          529.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 216,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9774,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8972
+        }
+      },
+      "source_annotation_id": 8897,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_059__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_059__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_059_0001-recto-8898",
+      "image_id": 3817,
+      "category_id": 1012,
+      "bbox": [
+        495.83333333333337,
+        1908.3333948768109,
+        1087.5,
+        204.16667325101253
+      ],
+      "segmentation": [
+        [
+          495.83333333333337,
+          1908.3333948768109,
+          1583.3333333333335,
+          1908.3333948768109,
+          1583.3333333333335,
+          2112.5000681278234,
+          495.83333333333337,
+          2112.5000681278234
+        ]
+      ],
+      "area": 222031.25716047612,
+      "iscrowd": 0,
+      "text": "Unser Bild zeigt Mackensen im Ge- spräch mit Direktor Walter Hutt und dem Flugzeugführer Klaassen (links vom Feldmarschall).",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_059_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          504.0,
+          529.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 103,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9626,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8953
+        }
+      },
+      "source_annotation_id": 8898,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_059__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_059__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_064_0002-verso-8904",
+      "image_id": 3822,
+      "category_id": 1012,
+      "bbox": [
+        395.8333194164275,
+        112.5000017770329,
+        1912.4999327593707,
+        491.66667443295864
+      ],
+      "segmentation": [
+        [
+          395.8333194164275,
+          112.5000017770329,
+          2308.3332521757984,
+          112.5000017770329,
+          2308.3332521757984,
+          604.1666762099916,
+          395.8333194164275,
+          604.1666762099916
+        ]
+      ],
+      "area": 940312.4817930568,
+      "iscrowd": 0,
+      "text": "BRITISH AIR RAIDS ON RHINE TOWNS THE SUPREMACY OF THE ALLIES IN THE AIR IS NOW WELL ESTABLISHED OVER A THOUSAND HUN MACHINES HAVE BEEN DESTROYED BY THE BRITISH ALONE SINCE THE BEGINNING OF THE GREAT GERMAN OFFENSIVE AND UPON THE CITIES AND THE TOWNS OF THE RHINE TONS OF BOMBS HAVE BEEN DROPPED, OUR RAIDERS HAVE GIVEN THEM NO REST BY NORTY OR DAY, AND THEIR ACTIVITIES HAVE CAUSED THE GREATEST CONSTERNATION AND DISPLAY. OUR PHOT O SHOWSCOBLENZ A GREAT MILITARY DEPOT AND MANUFACTURING CENTRE, WHICH HAS RECEIVED MUCH UNDESIRED ATTENTI ON FROM BRITISH BOMBERS",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_064_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          624.9600219726562,
+          463.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 461,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9914,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9989
+        }
+      },
+      "source_annotation_id": 8904,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_064__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_064__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_066_0002-verso-8907",
+      "image_id": 3824,
+      "category_id": 1012,
+      "bbox": [
+        470.8333180556166,
+        620.8333586965603,
+        2237.499927397045,
+        445.8333515471943
+      ],
+      "segmentation": [
+        [
+          470.8333180556166,
+          620.8333586965603,
+          2708.3332454526617,
+          620.8333586965603,
+          2708.3332454526617,
+          1066.6667102437546,
+          470.8333180556166,
+          1066.6667102437546
+        ]
+      ],
+      "area": 997552.0917180285,
+      "iscrowd": 0,
+      "text": "NEW AIRSHIP'S TRIAL TRIP BEFORE GOING TO UNITED STATES.\nThe Zeppelin Z.R.5. built in Germany,during her successful trial trip to Lake Constance. She is to leave for the United States next month for use as a passenger airship for which purpose she is luxuriously appointed.\nPhoto shows.... The airship leaving the hangar at Lake Constance.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          752.4000244140625,
+          597.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 270,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 13
+          },
+          "alpha_ratio": 0.9507,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9772
+        }
+      },
+      "source_annotation_id": 8907,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_066__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_067_0002-verso-8908",
+      "image_id": 3825,
+      "category_id": 1013,
+      "bbox": [
+        375.0000144496114,
+        579.166669584739,
+        950.0000366056821,
+        66.66666700255989
+      ],
+      "segmentation": [
+        [
+          375.0000144496114,
+          579.166669584739,
+          1325.0000510552936,
+          579.166669584739,
+          1325.0000510552936,
+          645.8333365872988,
+          375.0000144496114,
+          645.8333365872988
+        ]
+      ],
+      "area": 63333.336092810714,
+      "iscrowd": 0,
+      "text": "RES PITE FOR THE ZEPPELIN WORKS!",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_067_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          633.5999755859375,
+          484.55999755859375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.963,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9287
+        }
+      },
+      "source_annotation_id": 8908,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_067__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_067__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_067_0002-verso-8909",
+      "image_id": 3825,
+      "category_id": 1012,
+      "bbox": [
+        337.5000130046502,
+        683.3333367762389,
+        2229.1667525615785,
+        250.0000012595996
+      ],
+      "segmentation": [
+        [
+          337.5000130046502,
+          683.3333367762389,
+          2566.6667655662286,
+          683.3333367762389,
+          2566.6667655662286,
+          933.3333380358384,
+          337.5000130046502,
+          933.3333380358384
+        ]
+      ],
+      "area": 557291.6909482522,
+      "iscrowd": 0,
+      "text": "According to a German paper the French Government will not insister on the immediate destruction of the Zeppelin works at Friedrichshafen. O.P.S. An aerial view of the giant Zeppelin works at Friedrichshafen. AT",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_067_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          633.5999755859375,
+          484.55999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 174,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9721,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9548
+        }
+      },
+      "source_annotation_id": 8909,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_067__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_067__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_068_0002-verso-8910",
+      "image_id": 3826,
+      "category_id": 1013,
+      "bbox": [
+        1583.3333591450319,
+        262.5000074529574,
+        329.1666720327829,
+        100.00000283922185
+      ],
+      "segmentation": [
+        [
+          1583.3333591450319,
+          262.5000074529574,
+          1912.500031177815,
+          262.5000074529574,
+          1912.500031177815,
+          362.50001029217924,
+          1583.3333591450319,
+          362.50001029217924
+        ]
+      ],
+      "area": 32916.6681378555,
+      "iscrowd": 0,
+      "text": "1 SEPT 1924",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_068_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          748.7999877929688,
+          601.9199829101562
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 4,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 0
+          },
+          "alpha_ratio": 0.4444,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8306
+        }
+      },
+      "source_annotation_id": 8910,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_068__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_068__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_071_0002-verso-8912",
+      "image_id": 3829,
+      "category_id": 1012,
+      "bbox": [
+        316.6666654423033,
+        358.3333351387594,
+        1858.333326148254,
+        241.6666678842796
+      ],
+      "segmentation": [
+        [
+          316.6666654423033,
+          358.3333351387594,
+          2174.9999915905573,
+          358.3333351387594,
+          2174.9999915905573,
+          600.000003023039,
+          316.6666654423033,
+          600.000003023039
+        ]
+      ],
+      "area": 449097.22274855874,
+      "iscrowd": 0,
+      "text": "German aerial post A pilot helps to load up while the pilot gets ready. This, the pilot helps to load up while the pilot gets ready, where the National Gun aerial post, run from Berlin toagon, where the National assembly sits",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_071_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          631.4400024414062,
+          484.55999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 180,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.973,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9383
+        }
+      },
+      "source_annotation_id": 8912,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_071__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_071__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_074_0002-verso-8914",
+      "image_id": 3832,
+      "category_id": 1012,
+      "bbox": [
+        537.4999958530658,
+        345.83332816740307,
+        1824.999985919712,
+        274.99999589215184
+      ],
+      "segmentation": [
+        [
+          537.4999958530658,
+          345.83332816740307,
+          2362.4999817727776,
+          345.83332816740307,
+          2362.4999817727776,
+          620.8333240595549,
+          537.4999958530658,
+          620.8333240595549
+        ]
+      ],
+      "area": 501874.98863109795,
+      "iscrowd": 0,
+      "text": "GERMAN AINDIAN LAND IN ROLLAND.\nGerman flying officers standing before their wrecked machine\nGerman flying officers standing before their wrecked machine\nafter landing at Nueguen. They damaged the house soon in the\nafter landing at Nueguen. They were on the Prussian Frontier,\nbackground.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_074_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          632.8800048828125,
+          490.32000732421875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 241,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9797,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9475
+        }
+      },
+      "source_annotation_id": 8914,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_074__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_074__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_084_0002-verso-8919",
+      "image_id": 3842,
+      "category_id": 1012,
+      "bbox": [
+        141.66666182531907,
+        595.833336335379,
+        1066.666630214167,
+        91.66666712851985
+      ],
+      "segmentation": [
+        [
+          141.66666182531907,
+          595.833336335379,
+          1208.3332920394862,
+          595.833336335379,
+          1208.3332920394862,
+          687.5000034638989,
+          141.66666182531907,
+          687.5000034638989
+        ]
+      ],
+      "area": 97777.77492894202,
+      "iscrowd": 0,
+      "text": "ZEPPELIN \"R3\" CROSSING THE ATLANTIC。",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_084_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          642.9600219726562,
+          484.55999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 28,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 3
+          },
+          "alpha_ratio": 0.875,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9094
+        }
+      },
+      "source_annotation_id": 8919,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_084__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_084__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_084_0002-verso-8920",
+      "image_id": 3842,
+      "category_id": 1012,
+      "bbox": [
+        124.9999957282227,
+        695.8333368392189,
+        2262.499922680831,
+        337.50000170045945
+      ],
+      "segmentation": [
+        [
+          124.9999957282227,
+          695.8333368392189,
+          2387.4999184090534,
+          695.8333368392189,
+          2387.4999184090534,
+          1033.3333385396784,
+          124.9999957282227,
+          1033.3333385396784
+        ]
+      ],
+      "area": 763593.7277520698,
+      "iscrowd": 0,
+      "text": "Travelling at well over 60 miles an hour, and averaging as high as 75 m.p.h. the ZR 3, starting from Lake Constance, (South Germany) at sawn, last night was well over the high Atlantic. At her first day's rate of travelling she should be at Lakehurst, New Jersey, U.S.A. tomorrow night. O.P.S. The giant Zeppelin \"R3\" photographed during her trial test. SSS",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_084_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          642.9600219726562,
+          484.55999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 267,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 23
+          },
+          "alpha_ratio": 0.902,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9294
+        }
+      },
+      "source_annotation_id": 8920,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_084__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_084__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_088_0001-recto-8922",
+      "image_id": 3846,
+      "category_id": 1012,
+      "bbox": [
+        791.6666818185951,
+        2666.666528903933,
+        1491.6666952160897,
+        70.83332967401071
+      ],
+      "segmentation": [
+        [
+          791.6666818185951,
+          2666.666528903933,
+          2283.333377034685,
+          2666.666528903933,
+          2283.333377034685,
+          2737.4998585779435,
+          791.6666818185951,
+          2737.4998585779435
+        ]
+      ],
+      "area": 105659.71878598334,
+      "iscrowd": 0,
+      "text": "RUSSIAN S THREATEN LEMBERG IN THEIR GREAT ADVANCE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_088_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          765.3599853515625,
+          1039.6800537109375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 42,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9767,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9114
+        }
+      },
+      "source_annotation_id": 8922,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_088__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_088__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_088_0001-recto-8923",
+      "image_id": 3846,
+      "category_id": 1012,
+      "bbox": [
+        783.3333483257677,
+        2770.8331901892425,
+        1629.1666978477404,
+        149.99999225084622
+      ],
+      "segmentation": [
+        [
+          783.3333483257677,
+          2770.8331901892425,
+          2412.500046173508,
+          2770.8331901892425,
+          2412.500046173508,
+          2920.833182440089,
+          783.3333483257677,
+          2920.833182440089
+        ]
+      ],
+      "area": 244374.99205249778,
+      "iscrowd": 0,
+      "text": "Busy scene in one of the principal squares in Lemberg. In the crowd there can be seen quite a number of, Austrian soldiers.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_088_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          765.3599853515625,
+          1039.6800537109375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 98,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9703,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9546
+        }
+      },
+      "source_annotation_id": 8923,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_088__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_088__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_088_0001-recto-8924",
+      "image_id": 3846,
+      "category_id": 1012,
+      "bbox": [
+        766.6666813401131,
+        2929.1665153429135,
+        1650.0000315798086,
+        954.1666173734384
+      ],
+      "segmentation": [
+        [
+          766.6666813401131,
+          2929.1665153429135,
+          2416.666712919922,
+          2929.1665153429135,
+          2416.666712919922,
+          3883.333132716352,
+          766.6666813401131,
+          3883.333132716352
+        ]
+      ],
+      "area": 1574374.9487985724,
+      "iscrowd": 0,
+      "text": "Lemberg is about sixty miles from Brody which is now in the hands of the Russians. The Russian troops under General Kaledines* are now, in full control of the Stokhod River which has been for some time the chief obstacles to the westward progress of the northern wing of the Russian forces under Gen. Brusioff. The Russians are well advanced in the campaign against the two important centres of Kovel and Lemberg. The Germans are exclusively occupied with the defense of Kovel, while von Boehme-Ermolli's army without assistance has been mainly striving to protect the roads to Lemberg. It is thought that the Austro-Bermans despite their stubborn resistance will be unable much longer to successfully oppose all three Russian lines of advance upon Lemberg, Kovel and Vladimir-Wolynski and will be compiled to sacrifice one of these points in order to stiffen resistance against the Russian attack on the other two. 8/1/16.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_088_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          765.3599853515625,
+          1039.6800537109375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 752,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 17
+          },
+          "alpha_ratio": 0.9728,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9966
+        }
+      },
+      "source_annotation_id": 8924,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_088__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_088__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_089_0001-recto-8926",
+      "image_id": 3847,
+      "category_id": 1012,
+      "bbox": [
+        387.4999968300331,
+        1729.1666159617616,
+        1624.9999867065903,
+        108.3333301566405
+      ],
+      "segmentation": [
+        [
+          387.4999968300331,
+          1729.1666159617616,
+          2012.4999835366234,
+          1729.1666159617616,
+          2012.4999835366234,
+          1837.499946118402,
+          387.4999968300331,
+          1837.499946118402
+        ]
+      ],
+      "area": 176041.66006442148,
+      "iscrowd": 0,
+      "text": "THE GERMAN EMPLOYEES FROM RODER'S FACTORY AT WILLESDEN MARCHED FROM HARROW ROAD POLICE STATION TO OLMPIA",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_089_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          596.8800048828125,
+          457.9200134277344
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 88,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9888,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9069
+        }
+      },
+      "source_annotation_id": 8926,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_089__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_089__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_093_0001-recto-8928",
+      "image_id": 3851,
+      "category_id": 1012,
+      "bbox": [
+        1016.6666633897122,
+        2433.333404770988,
+        1358.3333289551074,
+        208.3333394495709
+      ],
+      "segmentation": [
+        [
+          1016.6666633897122,
+          2433.333404770988,
+          2374.9999923448195,
+          2433.333404770988,
+          2374.9999923448195,
+          2641.666744220559,
+          1016.6666633897122,
+          2641.666744220559
+        ]
+      ],
+      "area": 282986.11850687006,
+      "iscrowd": 0,
+      "text": "CREDIT WARNING..............OVER\nI34407 P.C. PHOTO FROM UNDERWOOD &\nUNDERWOOD, M.Y.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_093_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          757.4400024414062,
+          831.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 49,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 20
+          },
+          "alpha_ratio": 0.6622,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8863
+        }
+      },
+      "source_annotation_id": 8928,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_093__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_093__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_093_0001-recto-8929",
+      "image_id": 3851,
+      "category_id": 1012,
+      "bbox": [
+        1020.8333300429488,
+        2691.666745688456,
+        512.4999983480926,
+        50.00000146789702
+      ],
+      "segmentation": [
+        [
+          1020.8333300429488,
+          2691.666745688456,
+          1533.3333283910415,
+          2691.666745688456,
+          1533.3333283910415,
+          2741.6667471563533,
+          1020.8333300429488,
+          2741.6667471563533
+        ]
+      ],
+      "area": 25625.00066970185,
+      "iscrowd": 0,
+      "text": "BATTLE OF VERDUN.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_093_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          757.4400024414062,
+          831.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.925
+        }
+      },
+      "source_annotation_id": 8929,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_093__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_093__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_093_0001-recto-8930",
+      "image_id": 3851,
+      "category_id": 1012,
+      "bbox": [
+        1016.6666633897122,
+        2779.166748257276,
+        1362.4999956083439,
+        62.50000183487127
+      ],
+      "segmentation": [
+        [
+          1016.6666633897122,
+          2779.166748257276,
+          2379.166658998056,
+          2779.166748257276,
+          2379.166658998056,
+          2841.6667500921476,
+          1016.6666633897122,
+          2841.6667500921476
+        ]
+      ],
+      "area": 85156.2522255336,
+      "iscrowd": 0,
+      "text": "French prisoners taken at%urdun marching to",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_093_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          757.4400024414062,
+          831.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9737,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8967
+        }
+      },
+      "source_annotation_id": 8930,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_093__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_093__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_093_0001-recto-8931",
+      "image_id": 3851,
+      "category_id": 1012,
+      "bbox": [
+        1012.4999967364757,
+        2883.3334179820613,
+        1674.9999946010832,
+        466.66668036703885
+      ],
+      "segmentation": [
+        [
+          1012.4999967364757,
+          2883.3334179820613,
+          2687.499991337559,
+          2883.3334179820613,
+          2687.499991337559,
+          3350.0000983491,
+          1012.4999967364757,
+          3350.0000983491
+        ]
+      ],
+      "area": 781666.6870952955,
+      "iscrowd": 0,
+      "text": "the German concentration camp. The battle of Verdun the greatest in the history of the world, is now considered to be approaching its final stages. All one can ascertain from the dispatches after comparing them carefully is that it is any one's fight. It seems if they dispatches are to be depended on that a greater number of prisoners have been taken in this battle than in any other of the war.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_093_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          757.4400024414062,
+          831.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 320,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9816,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9977
+        }
+      },
+      "source_annotation_id": 8931,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_093__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_093__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_095_0001-recto-8936",
+      "image_id": 3853,
+      "category_id": 1012,
+      "bbox": [
+        595.8333576752223,
+        1708.3333012535722,
+        1458.3333929113833,
+        104.16666471058366
+      ],
+      "segmentation": [
+        [
+          595.8333576752223,
+          1708.3333012535722,
+          2054.1667505866053,
+          1708.3333012535722,
+          2054.1667505866053,
+          1812.499965964156,
+          595.8333576752223,
+          1812.499965964156
+        ]
+      ],
+      "area": 151909.72557564793,
+      "iscrowd": 0,
+      "text": "BRITISH PRISONERS IN GERMANY OFF TO DIG TRENCHES",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_095_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          597.5999755859375,
+          455.0400085449219
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.125,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 41,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9125
+        }
+      },
+      "source_annotation_id": 8936,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_095__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_095__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_095_0002-verso-8937",
+      "image_id": 3853,
+      "category_id": 1012,
+      "bbox": [
+        104.16666709584372,
+        408.33332675047853,
+        2020.8333416593682,
+        245.83332937018605
+      ],
+      "segmentation": [
+        [
+          104.16666709584372,
+          408.33332675047853,
+          2125.000008755212,
+          408.33332675047853,
+          2125.000008755212,
+          654.1666561206646,
+          104.16666709584372,
+          654.1666561206646
+        ]
+      ],
+      "area": 496788.1884824012,
+      "iscrowd": 0,
+      "text": "TOMY IN CAPTIVITY WEARS A SMILE AND A BEARD.\nBritish prisoners arriving at a German concentration camp.They are\nmade to do heavy manual labour-maker roads and drains and work in the\nfields. Photo shows the men setting out to work with their tools.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_095_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          592.5599975585938,
+          454.32000732421875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 200,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9756,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9803
+        }
+      },
+      "source_annotation_id": 8937,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_095__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_095__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_096_0002-verso-8939",
+      "image_id": 3854,
+      "category_id": 1012,
+      "bbox": [
+        583.3333333333334,
+        629.1666588232669,
+        1591.6666666666667,
+        133.3333316711559
+      ],
+      "segmentation": [
+        [
+          583.3333333333334,
+          629.1666588232669,
+          2175.0,
+          629.1666588232669,
+          2175.0,
+          762.4999904944227,
+          583.3333333333334,
+          762.4999904944227
+        ]
+      ],
+      "area": 212222.2195765898,
+      "iscrowd": 0,
+      "text": "BRITISH PRISONERS IN GERMANY START OUT FOR DAY'S WORK",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_096_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          630.0,
+          489.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 44,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9778,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9194
+        }
+      },
+      "source_annotation_id": 8939,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_096__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_096__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_097_0001-recto-8941",
+      "image_id": 3855,
+      "category_id": 1012,
+      "bbox": [
+        233.333327212967,
+        2566.6666876549975,
+        862.499977376503,
+        54.16666710960222
+      ],
+      "segmentation": [
+        [
+          233.333327212967,
+          2566.6666876549975,
+          1095.8333045894701,
+          2566.6666876549975,
+          1095.8333045894701,
+          2620.8333547646,
+          233.333327212967,
+          2620.8333547646
+        ]
+      ],
+      "area": 46718.74915659249,
+      "iscrowd": 0,
+      "text": "COPYRIGHT WARNING......(OVER)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_097_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          511.9200134277344,
+          895.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.7143,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8976
+        }
+      },
+      "source_annotation_id": 8941,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_097__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_097__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_097_0001-recto-8942",
+      "image_id": 3855,
+      "category_id": 1012,
+      "bbox": [
+        229.1666606555926,
+        2658.3333550712478,
+        1137.4999701632141,
+        120.83333432142035
+      ],
+      "segmentation": [
+        [
+          229.1666606555926,
+          2658.3333550712478,
+          1366.6666308188067,
+          2658.3333550712478,
+          1366.6666308188067,
+          2779.166689392668,
+          229.1666606555926,
+          2779.166689392668
+        ]
+      ],
+      "area": 137447.91418533731,
+      "iscrowd": 0,
+      "text": "S/117651 F.C Copyright by Undrwood & Undrwood.N.Y.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_097_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          511.9200134277344,
+          895.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 32,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 6
+          },
+          "alpha_ratio": 0.7273,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9159
+        }
+      },
+      "source_annotation_id": 8942,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_097__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_097__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_097_0001-recto-8943",
+      "image_id": 3855,
+      "category_id": 1012,
+      "bbox": [
+        224.9999940982182,
+        2812.500022998577,
+        937.4999754092424,
+        104.16666751846581
+      ],
+      "segmentation": [
+        [
+          224.9999940982182,
+          2812.500022998577,
+          1162.4999695074607,
+          2812.500022998577,
+          1162.4999695074607,
+          2916.6666905170428,
+          224.9999940982182,
+          2916.6666905170428
+        ]
+      ],
+      "area": 97656.24823702444,
+      "iscrowd": 0,
+      "text": "45,000 RUSSIANS TAKEN PRISONERS BY TEUTONS ON DRIVE ON WARSAW!",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_097_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          511.9200134277344,
+          895.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 46,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 2
+          },
+          "alpha_ratio": 0.8679,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9168
+        }
+      },
+      "source_annotation_id": 8943,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_097__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_097__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_097_0001-recto-8944",
+      "image_id": 3855,
+      "category_id": 1012,
+      "bbox": [
+        220.83332754084378,
+        2970.833357626645,
+        1549.9999593432808,
+        608.3333383078403
+      ],
+      "segmentation": [
+        [
+          220.83332754084378,
+          2970.833357626645,
+          1770.8332868841246,
+          2970.833357626645,
+          1770.8332868841246,
+          3579.1666959344852,
+          220.83332754084378,
+          3579.1666959344852
+        ]
+      ],
+      "area": 942916.6496443148,
+      "iscrowd": 0,
+      "text": "Following the evacuation of Przemysl by the Russians, the Tauton forces have been following up by a drive which swept everything before it. From London come reports that the evacuation of Warsaw has now been begun by the Russians. Windau a seaport on the Baltic, which is but a few miles from Riga, the seat of the Russian Governor General of the Baltic Province, has likewise been taken by the Tauton forces. With the fall of Windau, over 45,000 Russians were made prisoners? The photo shows Russian prisoners at the railroad station at Stryi an important strategical point in Galicia. 7/20/15",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_097_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          511.9200134277344,
+          895.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 471,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 10,
+            "other": 13
+          },
+          "alpha_ratio": 0.9534,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9942
+        }
+      },
+      "source_annotation_id": 8944,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_097__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_097__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_099_0002-verso-8946",
+      "image_id": 3857,
+      "category_id": 1012,
+      "bbox": [
+        166.66666984161242,
+        429.16666344711723,
+        2245.8333761157273,
+        187.49999859340073
+      ],
+      "segmentation": [
+        [
+          166.66666984161242,
+          429.16666344711723,
+          2412.50004595734,
+          429.16666344711723,
+          2412.50004595734,
+          616.666662040518,
+          166.66666984161242,
+          616.666662040518
+        ]
+      ],
+      "area": 421093.7548627113,
+      "iscrowd": 0,
+      "text": "TAP war: Captured Allies gun on show in Berlin; A german soldier explaining the mechanism.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_22_099_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          640.7999877929688,
+          488.1600036621094
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 73,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9605,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9201
+        }
+      },
+      "source_annotation_id": 8946,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_099__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_099__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_102_0001-recto-8948",
+      "image_id": 3860,
+      "category_id": 1012,
+      "bbox": [
+        416.6666615661222,
+        2091.6667170191813,
+        1133.3333194598524,
+        120.83333624214396
+      ],
+      "segmentation": [
+        [
+          416.6666615661222,
+          2091.6667170191813,
+          1549.9999810259746,
+          2091.6667170191813,
+          1549.9999810259746,
+          2212.5000532613253,
+          416.6666615661222,
+          2212.5000532613253
+        ]
+      ],
+      "area": 136944.44606471751,
+      "iscrowd": 0,
+      "text": "BUILDING A MOUNTAIN OF HAY TO BE USED\nAS FODDER FOR GERMAN HORSES,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_102_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          598.3200073242188,
+          709.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 53,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9815,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9144
+        }
+      },
+      "source_annotation_id": 8948,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_102__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_102__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_102_0001-recto-8949",
+      "image_id": 3860,
+      "category_id": 1012,
+      "bbox": [
+        412.499994950461,
+        2241.666720630119,
+        1604.1666470295704,
+        500.00001203645775
+      ],
+      "segmentation": [
+        [
+          412.499994950461,
+          2241.666720630119,
+          2016.6666419800313,
+          2241.666720630119,
+          2016.6666419800313,
+          2741.6667326665765,
+          412.499994950461,
+          2741.6667326665765
+        ]
+      ],
+      "area": 802083.3428232693,
+      "iscrowd": 0,
+      "text": "Hay is as much a necessity in the provisioning of the German, army as is food for the fighters in the Kaiser's ranks, for cavity horses, artillery horses pack horses and mules must be fed as carefully as the men themselves. Great quantities of proceed hay are stacked into great mountains at the different supply bases and are then distributed on requisition to the points where needed. Here we see Russian prisoners stacking up the hay into a great mountain.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_102_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          598.3200073242188,
+          709.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 373,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9816,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9977
+        }
+      },
+      "source_annotation_id": 8949,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_102__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_102__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_106_0001-recto-8961",
+      "image_id": 3864,
+      "category_id": 1012,
+      "bbox": [
+        783.3333411532341,
+        2504.1666208506595,
+        975.0000097332806,
+        212.49999611211916
+      ],
+      "segmentation": [
+        [
+          783.3333411532341,
+          2504.1666208506595,
+          1758.3333508865148,
+          2504.1666208506595,
+          1758.3333508865148,
+          2716.666616962779,
+          783.3333411532341,
+          2716.666616962779
+        ]
+      ],
+      "area": 207187.49827763828,
+      "iscrowd": 0,
+      "text": "COPYRIGHT WARNING....(OVER)\n181726 Copyright by Underwood & Underwood.N.Y.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_106_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          733.6799926757812,
+          800.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4286,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 51,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 10
+          },
+          "alpha_ratio": 0.7612,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.913
+        }
+      },
+      "source_annotation_id": 8961,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_106__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_106__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_106_0001-recto-8962",
+      "image_id": 3864,
+      "category_id": 1012,
+      "bbox": [
+        783.3333411532341,
+        2754.166616276682,
+        1050.0000104819947,
+        70.83333203737305
+      ],
+      "segmentation": [
+        [
+          783.3333411532341,
+          2754.166616276682,
+          1833.3333516352286,
+          2754.166616276682,
+          1833.3333516352286,
+          2824.999948314055,
+          783.3333411532341,
+          2824.999948314055
+        ]
+      ],
+      "area": 74374.99938171632,
+      "iscrowd": 0,
+      "text": "RUSIAN PRISONS BURYING THE DEAD.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_106_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          733.6799926757812,
+          800.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9643,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9155
+        }
+      },
+      "source_annotation_id": 8962,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_106__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_106__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_22_106_0001-recto-8963",
+      "image_id": 3864,
+      "category_id": 1012,
+      "bbox": [
+        775.0000077367102,
+        2862.499947627958,
+        1179.166678438113,
+        304.1666611016608
+      ],
+      "segmentation": [
+        [
+          775.0000077367102,
+          2862.499947627958,
+          1954.166686174823,
+          2862.499947627958,
+          1954.166686174823,
+          3166.666608729619,
+          775.0000077367102,
+          3166.666608729619
+        ]
+      ],
+      "area": 358663.19146285654,
+      "iscrowd": 0,
+      "text": "Russian prisoners guarded by their Gorman captors burying their dead at Momel.On the left of the photo two of the prisoners are soon searching the bodies for identification marks on their comrades.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_22_106_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          733.6799926757812,
+          800.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 164,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.988,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9985
+        }
+      },
+      "source_annotation_id": 8963,
+      "source_file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_106__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_22/SHDGR__GR_2_K_247_22_106__0001.jpg"
+    }
+  ]
 }

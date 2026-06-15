@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_217",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,9 +2033,4435 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_001_0001-recto-58044",
+      "image_id": 52999,
+      "category_id": 1012,
+      "bbox": [
+        283.33334088828957,
+        3445.833388840586,
+        1637.5000436632029,
+        195.83333648791722
+      ],
+      "segmentation": [
+        [
+          283.33334088828957,
+          3445.833388840586,
+          1920.8333845514924,
+          3445.833388840586,
+          1920.8333845514924,
+          3641.666725328503,
+          283.33334088828957,
+          3641.666725328503
+        ]
+      ],
+      "area": 320677.0970496751,
+      "iscrowd": 0,
+      "text": "WATCH YOUR CREDIT LIKE (SLUG) PAPER DRESS, COPYRIGHT BY UNDERWOD & UNDERWOD NEW YORK.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_001_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          732.47998046875,
+          1212.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 67,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9306,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.908
+        }
+      },
+      "source_annotation_id": 58044,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_001__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_001__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_001_0001-recto-58045",
+      "image_id": 52999,
+      "category_id": 1012,
+      "bbox": [
+        620.8333498875757,
+        3725.0000600042126,
+        2045.8333878845613,
+        162.50000261763344
+      ],
+      "segmentation": [
+        [
+          620.8333498875757,
+          3725.0000600042126,
+          2666.666737772137,
+          3725.0000600042126,
+          2666.666737772137,
+          3887.500062621846,
+          620.8333498875757,
+          3887.500062621846
+        ]
+      ],
+      "area": 332447.9308864831,
+      "iscrowd": 0,
+      "text": "NEWSPAPERS HAVE MANY USES, BUT, IT TOOK THIS SOUTHERN LADY TO FIND A NEW AND UNIQUE USE FOR THEM.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_001_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          732.47998046875,
+          1212.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 76,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.962,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9119
+        }
+      },
+      "source_annotation_id": 58045,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_001__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_001__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_001_0001-recto-58046",
+      "image_id": 52999,
+      "category_id": 1012,
+      "bbox": [
+        541.6666811099653,
+        3925.0000632259153,
+        2170.8333912176304,
+        841.6666802246655
+      ],
+      "segmentation": [
+        [
+          541.6666811099653,
+          3925.0000632259153,
+          2712.5000723275957,
+          3925.0000632259153,
+          2712.5000723275957,
+          4766.666743450581,
+          541.6666811099653,
+          4766.666743450581
+        ]
+      ],
+      "area": 1827118.1337069955,
+      "iscrowd": 0,
+      "text": "Photo shows Mary Belle Mc Keclar of the Dickinson Motors Inc., of Shreveport, La., whose agency embraces the States of Louisiana, Texas and Arkansas, decked in a creation of her own for theTNM Convention on the Board the S.S. Republic leaving with delegates to the International Advertising Convention in London. Miss. Mc Keilar believes firmly in the value of advertising as she recently acted as campaign manager for her father. Reuben Mc Keilar of Shreveport and put him in office as Street and Park Commissioner through advertising columns of daily papers ONLY. Her costume embraces headlines from 144 leading newspapers of the South.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_001_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          732.47998046875,
+          1212.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 519,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 14
+          },
+          "alpha_ratio": 0.9683,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.996
+        }
+      },
+      "source_annotation_id": 58046,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_001__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_001__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_002_0001-recto-58047",
+      "image_id": 53000,
+      "category_id": 1012,
+      "bbox": [
+        1237.500027001075,
+        3391.6666968255986,
+        1775.0000387288146,
+        912.5000081140124
+      ],
+      "segmentation": [
+        [
+          1237.500027001075,
+          3391.6666968255986,
+          3012.5000657298897,
+          3391.6666968255986,
+          3012.5000657298897,
+          4304.166704939611,
+          1237.500027001075,
+          4304.166704939611
+        ]
+      ],
+      "area": 1619687.5497424158,
+      "iscrowd": 0,
+      "text": "COPYRIGHT WARNING. OVER\nF 6. COPYRIGHT UNDERWOOD & UNDERWOOD, N.Y.\nWOMEN DRILL ON GOVERNOR'S ISLAND WOULD BE\nREADY IF UNCLE SAM NEEDS THEM.\nMembers of the American Women's League\nof Self Defense arriving at Governor's\nIsland for their drill. They want to\nbe ready to help Uncle Sam cut of his\ntroubles if the need artiso.\n3/24/17.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_002_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1007.0399780273438,
+          1098.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 253,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 15
+          },
+          "alpha_ratio": 0.9234,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9654
+        }
+      },
+      "source_annotation_id": 58047,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_002__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_002__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_004_0001-recto-58056",
+      "image_id": 53002,
+      "category_id": 1012,
+      "bbox": [
+        987.4999737905454,
+        3695.8332699871494,
+        2079.166611483047,
+        633.3333224780685
+      ],
+      "segmentation": [
+        [
+          987.4999737905454,
+          3695.8332699871494,
+          3066.6665852735923,
+          3695.8332699871494,
+          3066.6665852735923,
+          4329.166592465218,
+          987.4999737905454,
+          4329.166592465218
+        ]
+      ],
+      "area": 1316805.4980360253,
+      "iscrowd": 0,
+      "text": "To the long list of women who are holding important war posts another name must be added, that of Miss Maria Dahn, of New York City. Despite her youth she is now filling a position for the Navy Department that requires a high degree of technical skill. Miss Dahn is a finger print expert in the bureau of identifications and her work is very important in keeping track of the men serving in every branch of the Navy.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_004_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1011.8400268554688,
+          1139.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 334,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9853,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9982
+        }
+      },
+      "source_annotation_id": 58056,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_004__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_004__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_007_0002-verso-58059",
+      "image_id": 53005,
+      "category_id": 1012,
+      "bbox": [
+        191.66667385402476,
+        191.66666716102114,
+        2483.3334264564946,
+        529.1666680315149
+      ],
+      "segmentation": [
+        [
+          191.66667385402476,
+          191.66666716102114,
+          2675.0001003105194,
+          191.66666716102114,
+          2675.0001003105194,
+          720.833335192536,
+          191.66667385402476,
+          720.833335192536
+        ]
+      ],
+      "area": 1314097.2748892682,
+      "iscrowd": 0,
+      "text": "TRAINING THE NEWLAI ARMY\nThe young women whose patience has moved them to become farm\nhands are seen a training school near Theydon Bois Essex. They\nwork here a month until they acquire a good serviceable\nknowledge of the duties required $2000 of them and are then\ndrafted elsewhere. Special attention is devoted to milking as\nclumsy fingers call easily spoil a milch cow worth £50 now.\nOur Photo Shows Making a fuss of the kids",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          716.1599731445312,
+          473.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 342,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 5
+          },
+          "alpha_ratio": 0.9688,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9794
+        }
+      },
+      "source_annotation_id": 58059,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_010_0002-verso-58060",
+      "image_id": 53008,
+      "category_id": 1012,
+      "bbox": [
+        595.8333545508257,
+        249.99999714040686,
+        2512.500089469566,
+        695.8333253741324
+      ],
+      "segmentation": [
+        [
+          595.8333545508257,
+          249.99999714040686,
+          3108.3334440203917,
+          249.99999714040686,
+          3108.3334440203917,
+          945.8333225145393,
+          595.8333545508257,
+          945.8333225145393
+        ]
+      ],
+      "area": 1748281.2922584133,
+      "iscrowd": 0,
+      "text": "TRAINING THE NEW LAND ARMY\nThese young women whose patriotism has moved them to become farm\nthese young women whoseColonist has moved them to become farm\nthese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has moved to become farm\nThese young women whose colonist has",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          822.719970703125,
+          640.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 16383,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9083
+        }
+      },
+      "source_annotation_id": 58060,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_014_0002-verso-58064",
+      "image_id": 53012,
+      "category_id": 1012,
+      "bbox": [
+        283.33333508650594,
+        541.6666938995425,
+        2908.3333513291345,
+        254.16667944516993
+      ],
+      "segmentation": [
+        [
+          283.33333508650594,
+          541.6666938995425,
+          3191.6666864156405,
+          541.6666938995425,
+          3191.6666864156405,
+          795.8333733447124,
+          283.33333508650594,
+          795.8333733447124
+        ]
+      ],
+      "area": 739201.430626969,
+      "iscrowd": 0,
+      "text": "C.2802. OFFICIAL PHOTOGRAPH TAKEN ON THE BRITISH WESTERN FRONT IN FRANCE.\nMembers of the Q.M.A.A.C. at home.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          582.719970703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 9
+          },
+          "alpha_ratio": 0.8587,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9323
+        }
+      },
+      "source_annotation_id": 58064,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_015_0002-verso-58065",
+      "image_id": 53013,
+      "category_id": 1012,
+      "bbox": [
+        716.6666590408191,
+        379.1666505507226,
+        2783.33330371667,
+        574.9999755604364
+      ],
+      "segmentation": [
+        [
+          716.6666590408191,
+          379.1666505507226,
+          3499.999962757489,
+          379.1666505507226,
+          3499.999962757489,
+          954.166626111159,
+          716.6666590408191,
+          954.166626111159
+        ]
+      ],
+      "area": 1600416.5816136338,
+      "iscrowd": 0,
+      "text": "Nursing International. The American Branch of Nursing, International who have been holding their Annual Congress in Paris visited the devastated areas of Soisson's and Cocy le Chateau on Friday 16th. The picture shows Miss Isabel Deming of Philadelphia one of the original workers of the American Committee for Devastated France talking to some of her pupils on leaving the school.\n\nTimes Wide World Photos.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_015_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          917.760009765625,
+          689.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 335,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 6
+          },
+          "alpha_ratio": 0.9767,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9971
+        }
+      },
+      "source_annotation_id": 58065,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_015__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_015__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_016_0002-verso-58067",
+      "image_id": 53014,
+      "category_id": 1012,
+      "bbox": [
+        799.9999765413452,
+        525.0000188048464,
+        2758.3332524498464,
+        629.1666892026333
+      ],
+      "segmentation": [
+        [
+          799.9999765413452,
+          525.0000188048464,
+          3558.3332289911914,
+          525.0000188048464,
+          3558.3332289911914,
+          1154.1667080074797,
+          799.9999765413452,
+          1154.1667080074797
+        ]
+      ],
+      "area": 1735451.4001614011,
+      "iscrowd": 0,
+      "text": "International, The American Branch of Nursing International who have been holding their annual Congress in Paris visited the devastated areas of Boi sons and Ocouy le Chateau on Friday 16th. The picture shows Miss Schuyler pointing out to Miss Jessie Carson of New York, American Directrice of the American National Association Committee for Devastated France Library Work scenes of interest in the ruined Chateau de Cousey.\n\nTimes Wide World Photos.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_016_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          915.8400268554688,
+          681.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 373,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 5
+          },
+          "alpha_ratio": 0.9816,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9977
+        }
+      },
+      "source_annotation_id": 58067,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_016__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_016__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_018_0002-verso-58069",
+      "image_id": 53016,
+      "category_id": 1012,
+      "bbox": [
+        212.49999207214535,
+        116.66667253220915,
+        1641.6666054201032,
+        212.50001068366666
+      ],
+      "segmentation": [
+        [
+          212.49999207214535,
+          116.66667253220915,
+          1854.1665974922485,
+          116.66667253220915,
+          1854.1665974922485,
+          329.1666832158758,
+          212.49999207214535,
+          329.1666832158758
+        ]
+      ],
+      "area": 348854.1711907907,
+      "iscrowd": 0,
+      "text": "K.1030, \"The Woman Postwoman\". Garbed for a rainy day, off with her letters and parcels.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_018_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          785.280029296875,
+          582.719970703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 63,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 7
+          },
+          "alpha_ratio": 0.8514,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9148
+        }
+      },
+      "source_annotation_id": 58069,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_018__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_018__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_018_0002-verso-58070",
+      "image_id": 53016,
+      "category_id": 1012,
+      "bbox": [
+        837.4999687549258,
+        866.666710239268,
+        1020.8332952485414,
+        208.33334380751634
+      ],
+      "segmentation": [
+        [
+          837.4999687549258,
+          866.666710239268,
+          1858.3332640034673,
+          866.666710239268,
+          1858.3332640034673,
+          1075.0000540467843,
+          837.4999687549258,
+          1075.0000540467843
+        ]
+      ],
+      "area": 212673.6138691742,
+      "iscrowd": 0,
+      "text": "British Official Photography, Crown copyright reserved,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_018_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          785.280029296875,
+          582.719970703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 48,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.96,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9117
+        }
+      },
+      "source_annotation_id": 58070,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_018__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_018__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_019_0002-verso-58072",
+      "image_id": 53017,
+      "category_id": 1012,
+      "bbox": [
+        79.16666643364438,
+        70.83333333333334,
+        2999.999991169682,
+        191.66666666666669
+      ],
+      "segmentation": [
+        [
+          79.16666643364438,
+          70.83333333333334,
+          3079.1666576033263,
+          70.83333333333334,
+          3079.1666576033263,
+          262.5,
+          79.16666643364438,
+          262.5
+        ]
+      ],
+      "area": 574999.9983075224,
+      "iscrowd": 0,
+      "text": "In his Shirley Kellogg appearing for recruits in Trafalgar Square,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_019_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          829.4400024414062,
+          648.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 56,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9825,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9278
+        }
+      },
+      "source_annotation_id": 58072,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_019__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_019__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_020_0002-verso-58073",
+      "image_id": 53018,
+      "category_id": 1012,
+      "bbox": [
+        195.8333267027577,
+        462.49998373919425,
+        2116.6665950000192,
+        487.49998286023174
+      ],
+      "segmentation": [
+        [
+          195.8333267027577,
+          462.49998373919425,
+          2312.499921702777,
+          462.49998373919425,
+          2312.499921702777,
+          949.999966599426,
+          195.8333267027577,
+          949.999966599426
+        ]
+      ],
+      "area": 1031874.9287833344,
+      "iscrowd": 0,
+      "text": "Miss Shinley Kellogg recruiting at\nSrafalgue Square for the 2nd London\nRegimen.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_020_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          648.9600219726562,
+          833.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 66,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 1
+          },
+          "alpha_ratio": 0.9706,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.913
+        }
+      },
+      "source_annotation_id": 58073,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_020__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_020__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_021_0001-recto-58074",
+      "image_id": 53019,
+      "category_id": 1012,
+      "bbox": [
+        1125.0000027616052,
+        3720.83320156563,
+        1941.6666714329924,
+        679.1666426150031
+      ],
+      "segmentation": [
+        [
+          1125.0000027616052,
+          3720.83320156563,
+          3066.6666741945974,
+          3720.83320156563,
+          3066.6666741945974,
+          4399.999844180633,
+          1125.0000027616052,
+          4399.999844180633
+        ]
+      ],
+      "area": 1318715.2343145937,
+      "iscrowd": 0,
+      "text": "Canadian women are not going to let English women outdo them in petrolism. As the men continue to go overseas to fight they are enlisting for work in munition factories and wherever else they are needed to fill the gaps left by the men. They are not trying to do their work in cumbersome skirts but are using the more practical costumes of overalls. Photo shows a group of women worker workers snapped during lunch hour at one of the shops of the Canadian Pacific Railway, where a large number of women are doing work hitherto done by men.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_021_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          994.5599975585938,
+          1103.0400390625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 436,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9887,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9986
+        }
+      },
+      "source_annotation_id": 58074,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_021__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_023_0002-verso-58078",
+      "image_id": 53021,
+      "category_id": 1012,
+      "bbox": [
+        379.16666548205893,
+        754.166647770657,
+        2233.3333263558634,
+        104.16666405672059
+      ],
+      "segmentation": [
+        [
+          379.16666548205893,
+          754.166647770657,
+          2612.499991837922,
+          754.166647770657,
+          2612.499991837922,
+          858.3333118273777,
+          379.16666548205893,
+          858.3333118273777
+        ]
+      ],
+      "area": 232638.88233318954,
+      "iscrowd": 0,
+      "text": "K.II00.The workers taking a spell of rest in the fields.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_023_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          781.4400024414062,
+          584.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 42,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 3
+          },
+          "alpha_ratio": 0.8936,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9267
+        }
+      },
+      "source_annotation_id": 58078,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_023__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_023__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_023_0002-verso-58079",
+      "image_id": 53021,
+      "category_id": 1012,
+      "bbox": [
+        466.6666652086879,
+        1387.4999652355184,
+        1016.6666634903557,
+        183.33332873982823
+      ],
+      "segmentation": [
+        [
+          466.6666652086879,
+          1387.4999652355184,
+          1483.3333286990437,
+          1387.4999652355184,
+          1483.3333286990437,
+          1570.8332939753466,
+          466.6666652086879,
+          1570.8332939753466
+        ]
+      ],
+      "area": 186388.8836365017,
+      "iscrowd": 0,
+      "text": "British Official Photograph,\nCrown copyright reserved.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_023_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          781.4400024414062,
+          584.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 47,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9592,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9282
+        }
+      },
+      "source_annotation_id": 58079,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_023__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_023__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_023_0002-verso-58080",
+      "image_id": 53021,
+      "category_id": 1012,
+      "bbox": [
+        379.16666548205893,
+        1766.6666224019812,
+        1174.9999963290177,
+        341.66665810604354
+      ],
+      "segmentation": [
+        [
+          379.16666548205893,
+          1766.6666224019812,
+          1554.1666618110767,
+          1766.6666224019812,
+          1554.1666618110767,
+          2108.3332805080245,
+          379.16666548205893,
+          2108.3332805080245
+        ]
+      ],
+      "area": 401458.3220203489,
+      "iscrowd": 0,
+      "text": "MINISTRY OF INFORMATION, Photographic Section, 10, 11, 12, COVENTRY STREET, LONDON, W.1,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_023_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          781.4400024414062,
+          584.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.125,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 61,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 9
+          },
+          "alpha_ratio": 0.7922,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8865
+        }
+      },
+      "source_annotation_id": 58080,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_023__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_023__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_024_0002-verso-58081",
+      "image_id": 53022,
+      "category_id": 1012,
+      "bbox": [
+        170.8333375650052,
+        979.1666849765907,
+        1966.666715382499,
+        104.16666861453092
+      ],
+      "segmentation": [
+        [
+          170.8333375650052,
+          979.1666849765907,
+          2137.500052947504,
+          979.1666849765907,
+          2137.500052947504,
+          1083.3333535911215,
+          170.8333375650052,
+          1083.3333535911215
+        ]
+      ],
+      "area": 204861.12001647678,
+      "iscrowd": 0,
+      "text": "K.I071. A Tent Party of College Girl Flax Workers.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_024_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          591.3599853515625,
+          783.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 36,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 3
+          },
+          "alpha_ratio": 0.8571,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8964
+        }
+      },
+      "source_annotation_id": 58081,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_024__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_024__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_024_0002-verso-58082",
+      "image_id": 53022,
+      "category_id": 1012,
+      "bbox": [
+        325.0000080504977,
+        2312.5000432425863,
+        1012.5000250803967,
+        204.16667048448062
+      ],
+      "segmentation": [
+        [
+          325.0000080504977,
+          2312.5000432425863,
+          1337.5000331308943,
+          2312.5000432425863,
+          1337.5000331308943,
+          2516.666713727067,
+          325.0000080504977,
+          2516.666713727067
+        ]
+      ],
+      "area": 206718.7589861177,
+      "iscrowd": 0,
+      "text": "British Official Photograph, Crown copyright reserved,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_024_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          591.3599853515625,
+          783.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 47,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9592,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9282
+        }
+      },
+      "source_annotation_id": 58082,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_024__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_024__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_024_0002-verso-58083",
+      "image_id": 53022,
+      "category_id": 1012,
+      "bbox": [
+        266.66667327220324,
+        2691.666716999479,
+        1175.0000291056456,
+        308.33333909901154
+      ],
+      "segmentation": [
+        [
+          266.66667327220324,
+          2691.666716999479,
+          1441.6667023778489,
+          2691.666716999479,
+          1441.6667023778489,
+          3000.0000560984904,
+          266.66667327220324,
+          3000.0000560984904
+        ]
+      ],
+      "area": 362291.68241557945,
+      "iscrowd": 0,
+      "text": "MINISTRY OF INFORMATION,\nPhotographic Section,\n10, 11, 12, COVENTRY STREET,\nLONDON, W.1.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_024_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          591.3599853515625,
+          783.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.125,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 61,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 9
+          },
+          "alpha_ratio": 0.7922,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8865
+        }
+      },
+      "source_annotation_id": 58083,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_024__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_024__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_025_0002-verso-58084",
+      "image_id": 53023,
+      "category_id": 1012,
+      "bbox": [
+        104.16666861453092,
+        616.6666744048136,
+        2533.333380705392,
+        250.0000031370866
+      ],
+      "segmentation": [
+        [
+          104.16666861453092,
+          616.6666744048136,
+          2637.5000493199227,
+          616.6666744048136,
+          2637.5000493199227,
+          866.6666775419003,
+          104.16666861453092,
+          866.6666775419003
+        ]
+      ],
+      "area": 633333.3531236341,
+      "iscrowd": 0,
+      "text": "K.1102. The college girl flax workers refreshing themselves at a village pump on the way back to camp.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_025_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          583.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 78,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 3
+          },
+          "alpha_ratio": 0.9176,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9147
+        }
+      },
+      "source_annotation_id": 58084,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_025__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_025__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_025_0002-verso-58085",
+      "image_id": 53023,
+      "category_id": 1012,
+      "bbox": [
+        283.3333386315241,
+        1416.6666844434908,
+        1025.0000191669842,
+        237.50000298023227
+      ],
+      "segmentation": [
+        [
+          283.3333386315241,
+          1416.6666844434908,
+          1308.3333577985084,
+          1416.6666844434908,
+          1308.3333577985084,
+          1654.166687423723,
+          283.3333386315241,
+          1654.166687423723
+        ]
+      ],
+      "area": 243437.5076068969,
+      "iscrowd": 0,
+      "text": "British Official Photography, Crown copyright reserved,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_025_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          583.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 48,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.96,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9117
+        }
+      },
+      "source_annotation_id": 58085,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_025__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_025__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_029_0002-verso-58088",
+      "image_id": 53027,
+      "category_id": 1012,
+      "bbox": [
+        320.8333303372941,
+        712.5000089406968,
+        2895.833306291161,
+        233.33333626128083
+      ],
+      "segmentation": [
+        [
+          320.8333303372941,
+          712.5000089406968,
+          3216.6666366284553,
+          712.5000089406968,
+          3216.6666366284553,
+          945.8333452019776,
+          320.8333303372941,
+          945.8333452019776
+        ]
+      ],
+      "area": 675694.4466134522,
+      "iscrowd": 0,
+      "text": "C.2802. OFFICIAL PHOTOGRAPH TAKEN ON THE BRITISH WESTERN FRONT IN FRANCE. Members of the Q.M.A.A.C. at home.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          784.3200073242188,
+          583.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 9
+          },
+          "alpha_ratio": 0.8587,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9323
+        }
+      },
+      "source_annotation_id": 58088,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_029_0002-verso-58089",
+      "image_id": 53027,
+      "category_id": 1012,
+      "bbox": [
+        779.1666593905713,
+        1679.1666877374316,
+        1249.9999883271198,
+        400.0000050193386
+      ],
+      "segmentation": [
+        [
+          779.1666593905713,
+          1679.1666877374316,
+          2029.1666477176911,
+          1679.1666877374316,
+          2029.1666477176911,
+          2079.1666927567703,
+          779.1666593905713,
+          2079.1666927567703
+        ]
+      ],
+      "area": 500000.00160502107,
+      "iscrowd": 0,
+      "text": "ASSOCIATED ILLUSTRATION AGENCIES, ST. MARY'S CHAMBERS, 161a, STRAND, LONDON, PLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" CROWN COPYRIGHT RESERVED. For PUBLICATION on or after....................",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          784.3200073242188,
+          583.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 141,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 32
+          },
+          "alpha_ratio": 0.8011,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9251
+        }
+      },
+      "source_annotation_id": 58089,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_033_0001-recto-58090",
+      "image_id": 53031,
+      "category_id": 1012,
+      "bbox": [
+        391.6666653629234,
+        3575.000105717389,
+        1499.9999950069407,
+        125.0000036964122
+      ],
+      "segmentation": [
+        [
+          391.6666653629234,
+          3575.000105717389,
+          1891.666660369864,
+          3575.000105717389,
+          1891.666660369864,
+          3700.000109413801,
+          391.6666653629234,
+          3700.000109413801
+        ]
+      ],
+      "area": 187500.00492048587,
+      "iscrowd": 0,
+      "text": "WATCH YOUR CREDIT LINE(SLUG) MINNE COSGROVE.\nPHOTO BY UNDERWOD & UNDERWOOD, NEW YORK.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_033_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          733.4400024414062,
+          1155.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 67,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9178,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9147
+        }
+      },
+      "source_annotation_id": 58090,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_033__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_033__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_033_0001-recto-58091",
+      "image_id": 53031,
+      "category_id": 1012,
+      "bbox": [
+        462.49999846047336,
+        3775.0001116316485,
+        1462.4999951317673,
+        125.0000036964122
+      ],
+      "segmentation": [
+        [
+          462.49999846047336,
+          3775.0001116316485,
+          1924.9999935922406,
+          3775.0001116316485,
+          1924.9999935922406,
+          3900.0001153280605,
+          462.49999846047336,
+          3900.0001153280605
+        ]
+      ],
+      "area": 182812.50479747372,
+      "iscrowd": 0,
+      "text": "\"THE PEARL QUEEN\", \"KNOWS MORE / BOUT THE GMS\nTHIN / ANY OTHER WOMAE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_033_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          733.4400024414062,
+          1155.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 49,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.875,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.901
+        }
+      },
+      "source_annotation_id": 58091,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_033__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_033__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_033_0001-recto-58092",
+      "image_id": 53031,
+      "category_id": 1012,
+      "bbox": [
+        399.9999986685175,
+        3970.8334507560276,
+        1999.9999933425877,
+        400.00001182851906
+      ],
+      "segmentation": [
+        [
+          399.9999986685175,
+          3970.8334507560276,
+          2399.999992011105,
+          3970.8334507560276,
+          2399.999992011105,
+          4370.833462584546,
+          399.9999986685175,
+          4370.833462584546
+        ]
+      ],
+      "area": 800000.0209940731,
+      "iscrowd": 0,
+      "text": "378,296 Miss Minnie Cosgrove, of 712 Fifth Avenue, 88 New York, is known as \"the Pearl Queen\". She knows more about pearls than does any other woman living—of dead for that matter, Miss Cosgrove was formerly secretary for the Dreicer firm at $25,000 a year nut has recently gone into business for herself.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_033_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          733.4400024414062,
+          1155.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 225,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 16,
+            "other": 12
+          },
+          "alpha_ratio": 0.8893,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9445
+        }
+      },
+      "source_annotation_id": 58092,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_033__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_033__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_035_0002-verso-58094",
+      "image_id": 53033,
+      "category_id": 1012,
+      "bbox": [
+        412.5000132485185,
+        641.6666863570772,
+        2645.8334183112047,
+        466.6666809869652
+      ],
+      "segmentation": [
+        [
+          412.5000132485185,
+          641.6666863570772,
+          3058.333431559723,
+          641.6666863570772,
+          3058.333431559723,
+          1108.3333673440425,
+          412.5000132485185,
+          1108.3333673440425
+        ]
+      ],
+      "area": 1234722.2997676868,
+      "iscrowd": 0,
+      "text": "WAR TIME METAMORPHOSIS 14517\nNine girls, who have volunteered their services for the duration of\nNine girls, who have volunteered their services at Tregavethan Manor Farm\nwar, are receiving practical training at Tregavethan Manor Farm\nComwall. Four come from Devon and five from Cornwall\nCur Photo Shows, They arrive at the Farm to commence their new\nduties",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          836.1599731445312,
+          636.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 291,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 5
+          },
+          "alpha_ratio": 0.9668,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9542
+        }
+      },
+      "source_annotation_id": 58094,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_037_0002-verso-58095",
+      "image_id": 53035,
+      "category_id": 1012,
+      "bbox": [
+        149.9999950864557,
+        520.8333313385326,
+        2379.1665887323943,
+        279.16666559745346
+      ],
+      "segmentation": [
+        [
+          149.9999950864557,
+          520.8333313385326,
+          2529.16658381885,
+          520.8333313385326,
+          2529.16658381885,
+          799.999996935986,
+          149.9999950864557,
+          799.999996935986
+        ]
+      ],
+      "area": 664184.0034772904,
+      "iscrowd": 0,
+      "text": "LUMBEREOMRN WHO MAKE PIR ROPES.\nThe lumberwomen who bare working near Ludlow are living in caravans. They look the part in their knickers and gaiters.\nOur photo shows. Having a mid-day meal.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_037_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          819.8400268554688,
+          637.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 153,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9623,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9536
+        }
+      },
+      "source_annotation_id": 58095,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_037__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_037__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_038_0002-verso-58096",
+      "image_id": 53036,
+      "category_id": 1012,
+      "bbox": [
+        224.99999865837142,
+        479.16665557182154,
+        2287.4999863601092,
+        291.6666599132827
+      ],
+      "segmentation": [
+        [
+          224.99999865837142,
+          479.16665557182154,
+          2512.499985018481,
+          479.16665557182154,
+          2512.499985018481,
+          770.8333154851042,
+          224.99999865837142,
+          770.8333154851042
+        ]
+      ],
+      "area": 667187.4805733328,
+      "iscrowd": 0,
+      "text": "LUMBEREOMENI WHO MAKE PIR ROPES,\nThe Lumbrewomen whobare working near Ludlow are living in\ncaravans. They look the part in their knickers and cats.\nOur photo shows. Having a mid-day meal.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_038_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          818.8800048828125,
+          632.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 151,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9618,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9536
+        }
+      },
+      "source_annotation_id": 58096,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_038__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_038__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_043_0002-verso-58099",
+      "image_id": 53041,
+      "category_id": 1012,
+      "bbox": [
+        270.83334256160725,
+        612.4999846535171,
+        2879.166764770317,
+        249.99999373612943
+      ],
+      "segmentation": [
+        [
+          270.83334256160725,
+          612.4999846535171,
+          3150.0001073319245,
+          612.4999846535171,
+          3150.0001073319245,
+          862.4999783896466,
+          270.83334256160725,
+          862.4999783896466
+        ]
+      ],
+      "area": 719791.6731578513,
+      "iscrowd": 0,
+      "text": "C.2802. OFFICIAL PHOTOGRAPH TAKEN ON THE BRITISH WESTERN FRONT IN FRANCE. Members of the Q.M.A.A.C. at home.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_043_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          788.1599731445312,
+          584.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 9
+          },
+          "alpha_ratio": 0.8587,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9323
+        }
+      },
+      "source_annotation_id": 58099,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_043__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_043__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_044_0002-verso-58100",
+      "image_id": 53042,
+      "category_id": 1012,
+      "bbox": [
+        349.9999890785767,
+        499.999979324135,
+        954.1666368927864,
+        79.16666339298804
+      ],
+      "segmentation": [
+        [
+          349.9999890785767,
+          499.999979324135,
+          1304.1666259713631,
+          499.999979324135,
+          1304.1666259713631,
+          579.1666427171231,
+          349.9999890785767,
+          579.1666427171231
+        ]
+      ],
+      "area": 75538.18896371067,
+      "iscrowd": 0,
+      "text": "SCHOOL FOR EXCEL MAIDS.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_044_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          782.4000244140625,
+          590.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 19,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.95,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9188
+        }
+      },
+      "source_annotation_id": 58100,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_044__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_044__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_044_0002-verso-58101",
+      "image_id": 53042,
+      "category_id": 1012,
+      "bbox": [
+        345.8333225419269,
+        624.9999741551687,
+        2091.6666013981608,
+        216.66665770712515
+      ],
+      "segmentation": [
+        [
+          345.8333225419269,
+          624.9999741551687,
+          2437.4999239400877,
+          624.9999741551687,
+          2437.4999239400877,
+          841.6666318622939,
+          345.8333225419269,
+          841.6666318622939
+        ]
+      ],
+      "area": 453194.41156256106,
+      "iscrowd": 0,
+      "text": "An interesting new occupation for women is that of kennelmaid, which is taught at the Bell Mead Kennels, Haslemere, by Miss Forbes.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_044_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          782.4000244140625,
+          590.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 106,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9636,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9288
+        }
+      },
+      "source_annotation_id": 58101,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_044__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_044__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_045_0001-recto-58102",
+      "image_id": 53043,
+      "category_id": 1012,
+      "bbox": [
+        1187.500028490271,
+        3258.333433861224,
+        1400.0000335885302,
+        141.66667103744453
+      ],
+      "segmentation": [
+        [
+          1187.500028490271,
+          3258.333433861224,
+          2587.5000620788014,
+          3258.333433861224,
+          2587.5000620788014,
+          3400.0001048986687,
+          1187.500028490271,
+          3400.0001048986687
+        ]
+      ],
+      "area": 198333.3442107976,
+      "iscrowd": 0,
+      "text": "WATCH YOUR CREDIT LINE(SLUG) SONG CLARITY,\nPHOTO BY UNDERVO OD & UNDERVO OD, NEW YORK.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_045_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1017.5999755859375,
+          1107.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 66,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9167,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9146
+        }
+      },
+      "source_annotation_id": 58102,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_045__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_045__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_045_0001-recto-58103",
+      "image_id": 53043,
+      "category_id": 1012,
+      "bbox": [
+        1191.6666952569037,
+        3462.500106826953,
+        2087.5000500828974,
+        79.16666910916018
+      ],
+      "segmentation": [
+        [
+          1191.6666952569037,
+          3462.500106826953,
+          3279.1667453398013,
+          3462.500106826953,
+          3279.1667453398013,
+          3541.666775936113,
+          1191.6666952569037,
+          3541.666775936113
+        ]
+      ],
+      "area": 165260.42573026803,
+      "iscrowd": 0,
+      "text": "TEACHING SINGERS TO SING IN A WAY THAT THEY WILL BE UNDERS TOOD.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_045_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1017.5999755859375,
+          1107.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 51,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9808,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9059
+        }
+      },
+      "source_annotation_id": 58103,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_045__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_045__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_045_0001-recto-58104",
+      "image_id": 53043,
+      "category_id": 1012,
+      "bbox": [
+        1179.166694957006,
+        3595.8334442739597,
+        2345.8333896141144,
+        670.833354030252
+      ],
+      "segmentation": [
+        [
+          1179.166694957006,
+          3595.8334442739597,
+          3525.00008457112,
+          3595.8334442739597,
+          3525.00008457112,
+          4266.666798304212,
+          1179.166694957006,
+          4266.666798304212
+        ]
+      ],
+      "area": 1573663.2807509913,
+      "iscrowd": 0,
+      "text": "378,140- Henri Barron an opera star(tenor) holds classes for the first time in the United States- where actresses and actors and singers may come and learn to perfect their diction, and thus we hope in the future that all who hear the different artists may more clearly understand what they are singing or saying on the stage. This class is formed at an opportune time for \"Walter Hampden\" has just been honored for his perfect diction on the stage and it it hoped that others will qualify for the honor. He was awarded a gold medal by the American Academy of Arts and Statistics Letters.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_045_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          1017.5999755859375,
+          1107.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 467,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 11
+          },
+          "alpha_ratio": 0.9649,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9956
+        }
+      },
+      "source_annotation_id": 58104,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_045__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_045__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_045_0001-recto-58105",
+      "image_id": 53043,
+      "category_id": 1012,
+      "bbox": [
+        2662.5000638781867,
+        4266.666798304212,
+        241.66667246468674,
+        75.00000231394122
+      ],
+      "segmentation": [
+        [
+          2662.5000638781867,
+          4266.666798304212,
+          2904.1667363428733,
+          4266.666798304212,
+          2904.1667363428733,
+          4341.666800618153,
+          2662.5000638781867,
+          4341.666800618153
+        ]
+      ],
+      "area": 18125.000994053982,
+      "iscrowd": 0,
+      "text": "3/1/25.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_045_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          1017.5999755859375,
+          1107.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 3
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 58105,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_045__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_045__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_047_0002-verso-58108",
+      "image_id": 53045,
+      "category_id": 1012,
+      "bbox": [
+        233.33332512968357,
+        245.8333221024387,
+        2816.6665676368943,
+        416.66664763125203
+      ],
+      "segmentation": [
+        [
+          233.33332512968357,
+          245.8333221024387,
+          3049.999892766578,
+          245.8333221024387,
+          3049.999892766578,
+          662.4999697336907,
+          233.33332512968357,
+          662.4999697336907
+        ]
+      ],
+      "area": 1173611.01623229,
+      "iscrowd": 0,
+      "text": "THEY ALSO SERVE WHO STAY AT HOME AND WORK: HOW WOMEN ARE HELPING TO FIGHT AND WIN THE EMPIRES BATTLES. \nEleven sections, embracing various aspects of women war time time ser- ve were presented in the prossion which marched through the main thoroughfares on Saturday July 22. \nPhoto shows. Women Aeroplane workers.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_047_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          833.280029296875,
+          641.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 251,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 7
+          },
+          "alpha_ratio": 0.9654,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.979
+        }
+      },
+      "source_annotation_id": 58108,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_047__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_047__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_049_0002-verso-58109",
+      "image_id": 53047,
+      "category_id": 1012,
+      "bbox": [
+        591.6666806150902,
+        566.6666474803201,
+        2741.6667313009107,
+        479.1666504429177
+      ],
+      "segmentation": [
+        [
+          591.6666806150902,
+          566.6666474803201,
+          3333.333411916001,
+          566.6666474803201,
+          3333.333411916001,
+          1045.8332979232378,
+          591.6666806150902,
+          1045.8332979232378
+        ]
+      ],
+      "area": 1313715.2642682402,
+      "iscrowd": 0,
+      "text": "Mme Bertha Trost who always presented so picturesque a figure in her early Victorian crinoline-dress and poke bonnet has been reportedly early Victorian crinoline-dress and poke bonnet has been reportedly as \"an undesirable enemy alien\". Mme-Trost, was a beauty specialist as \"an undesirable enemy alien\". Photo shows her being escorted by detectives.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          828.47998046875,
+          648.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 289,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 11
+          },
+          "alpha_ratio": 0.9633,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9454
+        }
+      },
+      "source_annotation_id": 58109,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_052_0002-verso-58113",
+      "image_id": 53050,
+      "category_id": 1012,
+      "bbox": [
+        395.83333216822194,
+        550.0,
+        2741.6666585967373,
+        425.00000000000006
+      ],
+      "segmentation": [
+        [
+          395.83333216822194,
+          550.0,
+          3137.4999907649594,
+          550.0,
+          3137.4999907649594,
+          975.0,
+          395.83333216822194,
+          975.0
+        ]
+      ],
+      "area": 1165208.3299036135,
+      "iscrowd": 0,
+      "text": "No Bertha Trust who always presented so vitreous a figure in hair of the Bertha Trust who always presented so vitreous a figure in hair of the Bertha Trust, who has been departred early by a photo being noted that he has not had a beauty specialist, as \"an undesirable enemy alien\", like Frost, was a beauty specialist. The photo shows her being admitted by detectives.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_052_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          829.4400024414062,
+          648.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 296,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9737,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9967
+        }
+      },
+      "source_annotation_id": 58113,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_052__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_052__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_053_0001-recto-58114",
+      "image_id": 53051,
+      "category_id": 1012,
+      "bbox": [
+        345.83334356007373,
+        3466.666679288269,
+        2275.000067274702,
+        129.16666713694272
+      ],
+      "segmentation": [
+        [
+          345.83334356007373,
+          3466.666679288269,
+          2620.833410834776,
+          3466.666679288269,
+          2620.833410834776,
+          3595.8333464252114,
+          345.83334356007373,
+          3595.8333464252114
+        ]
+      ],
+      "area": 293854.17642619374,
+      "iscrowd": 0,
+      "text": "S/345, 676 (Photo # MUST Match Caption #) (OVER)\nWARNING., Credit photo COPYRIGHT BY Underwood & Underwood, NY(OVER)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_053_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 25,
+        "monkeyocr_page_size": [
+          743.0399780273438,
+          1341.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 14
+          },
+          "alpha_ratio": 0.798,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9247
+        }
+      },
+      "source_annotation_id": 58114,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_053__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_053__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_053_0001-recto-58115",
+      "image_id": 53051,
+      "category_id": 1012,
+      "bbox": [
+        375.0000110892366,
+        3658.3333466527647,
+        1908.3333897652262,
+        70.83333359122665
+      ],
+      "segmentation": [
+        [
+          375.0000110892366,
+          3658.3333466527647,
+          2283.333400854463,
+          3658.3333466527647,
+          2283.333400854463,
+          3729.1666802439913,
+          375.0000110892366,
+          3729.1666802439913
+        ]
+      ],
+      "area": 135173.6156005166,
+      "iscrowd": 0,
+      "text": "GIRL,16, TYPES 250 WORDS A L INUTE AND KNOWS 64, COL WORDS.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_053_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 26,
+        "monkeyocr_page_size": [
+          743.0399780273438,
+          1341.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.125,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 4
+          },
+          "alpha_ratio": 0.7708,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8839
+        }
+      },
+      "source_annotation_id": 58115,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_053__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_053__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_053_0001-recto-58116",
+      "image_id": 53051,
+      "category_id": 1012,
+      "bbox": [
+        341.66667677019336,
+        3775.0000137441966,
+        2358.33340307231,
+        1300.000004733101
+      ],
+      "segmentation": [
+        [
+          341.66667677019336,
+          3775.0000137441966,
+          2700.0000798425035,
+          3775.0000137441966,
+          2700.0000798425035,
+          5075.000018477298,
+          341.66667677019336,
+          5075.000018477298
+        ]
+      ],
+      "area": 3065833.4351562327,
+      "iscrowd": 0,
+      "text": "Now in New York on a tour of the continent, 16 year old Birdie Reeve, of St Louis, who can typewrite at the rate of 250 words a minute and, according to her father, held as many as 20 keys a second when going at top speed, with accuracy. But that's not all. She knows--really knows, spelling, pronunciation, and meaning--sixty-four thousand (64,000) words. And, although she left school at 12 to concentrate on becoming the world's best typist, she has managed to read all of Dickens and Thackeray. And that, too, is rather unusual in these days when sophisticated sixteen sneers at 'em as snuffy, formal, and cut-of-date. & 7/21/23",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_053_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 27,
+        "monkeyocr_page_size": [
+          743.0399780273438,
+          1341.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 468,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 19,
+            "other": 36
+          },
+          "alpha_ratio": 0.8948,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9869
+        }
+      },
+      "source_annotation_id": 58116,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_053__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_053__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_055_0002-verso-58119",
+      "image_id": 53053,
+      "category_id": 1012,
+      "bbox": [
+        337.49999010338,
+        399.9999929357459,
+        345.83332319235234,
+        208.33332965403434
+      ],
+      "segmentation": [
+        [
+          337.49999010338,
+          399.9999929357459,
+          683.3333132957323,
+          399.9999929357459,
+          683.3333132957323,
+          608.3333225897802,
+          337.49999010338,
+          608.3333225897802
+        ]
+      ],
+      "area": 72048.60772598254,
+      "iscrowd": 0,
+      "text": "Nouring Council",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_055_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          915.8400268554688,
+          691.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 58119,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_055__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_055__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_055_0002-verso-58120",
+      "image_id": 53053,
+      "category_id": 1012,
+      "bbox": [
+        683.3333132957323,
+        470.83332501811765,
+        2849.9999164285423,
+        341.66666063261636
+      ],
+      "segmentation": [
+        [
+          683.3333132957323,
+          470.83332501811765,
+          3533.3332297242746,
+          470.83332501811765,
+          3533.3332297242746,
+          812.4999856507341,
+          683.3333132957323,
+          812.4999856507341
+        ]
+      ],
+      "area": 973749.9542493757,
+      "iscrowd": 0,
+      "text": "The European\nInternational. The American Branch of Nursing\nvisited the devastated areas of Soisson's and Cacey is Chateau on\nFriday 16th. The picture shows the nurses walking through the\nruins of Cacey le Chateau.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_055_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          915.8400268554688,
+          691.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 174,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 4
+          },
+          "alpha_ratio": 0.9667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9958
+        }
+      },
+      "source_annotation_id": 58120,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_055__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_055__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_055_0002-verso-58121",
+      "image_id": 53053,
+      "category_id": 1012,
+      "bbox": [
+        1812.4999468514852,
+        887.4999843261863,
+        920.8333063314442,
+        108.33333142009786
+      ],
+      "segmentation": [
+        [
+          1812.4999468514852,
+          887.4999843261863,
+          2733.333253182929,
+          887.4999843261863,
+          2733.333253182929,
+          995.8333157462841,
+          1812.4999468514852,
+          995.8333157462841
+        ]
+      ],
+      "area": 99756.93975746885,
+      "iscrowd": 0,
+      "text": "Times Wide World Photos",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_055_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          915.8400268554688,
+          691.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 58121,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_055__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_055__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_056_0001-recto-58123",
+      "image_id": 53054,
+      "category_id": 1012,
+      "bbox": [
+        433.3333251601049,
+        3804.166680769431,
+        1966.6666295727837,
+        141.66666719185176
+      ],
+      "segmentation": [
+        [
+          433.3333251601049,
+          3804.166680769431,
+          2399.9999547328885,
+          3804.166680769431,
+          2399.9999547328885,
+          3945.833347961283,
+          433.3333251601049,
+          3945.833347961283
+        ]
+      ],
+      "area": 278611.10688900837,
+      "iscrowd": 0,
+      "text": "s/179730 F.C. Copyright BY G.V.BUCK\nFROM UNDERWOOD & UNDERWOOD,N.Y.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_056_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          776.6400146484375,
+          1317.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 44,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 9
+          },
+          "alpha_ratio": 0.7458,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9016
+        }
+      },
+      "source_annotation_id": 58123,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_056__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_056__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_056_0001-recto-58124",
+      "image_id": 53054,
+      "category_id": 1012,
+      "bbox": [
+        666.666654092469,
+        4004.166681510869,
+        1699.9999679357961,
+        137.50000050973847
+      ],
+      "segmentation": [
+        [
+          666.666654092469,
+          4004.166681510869,
+          2366.666622028265,
+          4004.166681510869,
+          2366.666622028265,
+          4141.666682020607,
+          666.666654092469,
+          4141.666682020607
+        ]
+      ],
+      "area": 233749.99645772736,
+      "iscrowd": 0,
+      "text": "MRS. STEWART SELECTED AS PRIVATE SECRETARY TO CABINET MEMBER.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_056_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          776.6400146484375,
+          1317.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 51,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9623,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8953
+        }
+      },
+      "source_annotation_id": 58124,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_056__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_056__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_056_0001-recto-58125",
+      "image_id": 53054,
+      "category_id": 1012,
+      "bbox": [
+        591.6666555070663,
+        4275.000015848233,
+        1699.9999679357961,
+        137.50000050973847
+      ],
+      "segmentation": [
+        [
+          591.6666555070663,
+          4275.000015848233,
+          2291.666623442862,
+          4275.000015848233,
+          2291.666623442862,
+          4412.500016357971,
+          591.6666555070663,
+          4412.500016357971
+        ]
+      ],
+      "area": 233749.99645772736,
+      "iscrowd": 0,
+      "text": "First woman to act in such capacity proves invaluable to Mr. Redfield.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_056_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          776.6400146484375,
+          1317.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 57,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9661,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9041
+        }
+      },
+      "source_annotation_id": 58125,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_056__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_056__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_056_0001-recto-58126",
+      "image_id": 53054,
+      "category_id": 1012,
+      "bbox": [
+        433.3333251601049,
+        4537.500016821369,
+        2133.333293095901,
+        275.00000101947694
+      ],
+      "segmentation": [
+        [
+          433.3333251601049,
+          4537.500016821369,
+          2566.6666182560057,
+          4537.500016821369,
+          2566.6666182560057,
+          4812.500017840846,
+          433.3333251601049,
+          4812.500017840846
+        ]
+      ],
+      "area": 586666.6577762568,
+      "iscrowd": 0,
+      "text": "Miss Agatha Olsen Stewart of Port Richmond, S.W. has the honor and the distinction of being the first woman to act in the capacity of a private secretary to a cabinet member.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_056_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          776.6400146484375,
+          1317.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 139,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.972,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9715
+        }
+      },
+      "source_annotation_id": 58126,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_056__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_056__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_056_0001-recto-58127",
+      "image_id": 53054,
+      "category_id": 1012,
+      "bbox": [
+        429.16665857202696,
+        4816.666684522959,
+        2104.1666269793554,
+        470.83333507880144
+      ],
+      "segmentation": [
+        [
+          429.16665857202696,
+          4816.666684522959,
+          2533.3332855513822,
+          4816.666684522959,
+          2533.3332855513822,
+          5287.500019601761,
+          429.16665857202696,
+          5287.500019601761
+        ]
+      ],
+      "area": 990711.7905422023,
+      "iscrowd": 0,
+      "text": "When Mr. Redfield was elected to congress she went to Washington as his confidential clerk. After Mr. Redfield's appointment to Pres. Wilson's cabinet as secretary of the Department of Commerce he took Miss Steward along to act as his private secretary, which position she is now filling with great satisfaction.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_056_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 7,
+        "monkeyocr_page_size": [
+          776.6400146484375,
+          1317.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 255,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9696,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9295
+        }
+      },
+      "source_annotation_id": 58127,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_056__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_056__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_056_0002-verso-58128",
+      "image_id": 53054,
+      "category_id": 1012,
+      "bbox": [
+        1187.50003401717,
+        3541.666679796294,
+        1558.3333779734091,
+        191.6666673772112
+      ],
+      "segmentation": [
+        [
+          1187.50003401717,
+          3541.666679796294,
+          2745.8334119905794,
+          3541.666679796294,
+          2745.8334119905794,
+          3733.333347173505,
+          1187.50003401717,
+          3733.333347173505
+        ]
+      ],
+      "area": 298680.56521883537,
+      "iscrowd": 0,
+      "text": "2\"Failure to\"Health Offsetting and Safety\" in the United States. \n\"Cooperative Warning Care\"",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_056_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          767.0399780273438,
+          1317.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 73,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 6
+          },
+          "alpha_ratio": 0.9125,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9141
+        }
+      },
+      "source_annotation_id": 58128,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_056__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_056__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_057_0001-recto-58129",
+      "image_id": 53055,
+      "category_id": 1012,
+      "bbox": [
+        654.1666730407352,
+        3295.8333489709034,
+        1158.3333446199006,
+        137.50000065238913
+      ],
+      "segmentation": [
+        [
+          654.1666730407352,
+          3295.8333489709034,
+          1812.5000176606359,
+          3295.8333489709034,
+          1812.5000176606359,
+          3433.3333496232926,
+          654.1666730407352,
+          3433.3333496232926
+        ]
+      ],
+      "area": 159270.8356409204,
+      "iscrowd": 0,
+      "text": "AWL(4)WATCH YOUR CREDIT LINE: PHOTO FROM:WIDE WORLD PHOTOS:",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_057_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1002.239990234375,
+          1029.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 46,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 5
+          },
+          "alpha_ratio": 0.8846,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9056
+        }
+      },
+      "source_annotation_id": 58129,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_057__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_057__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_057_0001-recto-58130",
+      "image_id": 53055,
+      "category_id": 1012,
+      "bbox": [
+        854.1666749894949,
+        3500.000016606269,
+        179.16666841243065,
+        66.66666698297655
+      ],
+      "segmentation": [
+        [
+          854.1666749894949,
+          3500.000016606269,
+          1033.3333434019255,
+          3500.000016606269,
+          1033.3333434019255,
+          3566.6666835892456,
+          854.1666749894949,
+          3566.6666835892456
+        ]
+      ],
+      "area": 11944.444617500898,
+      "iscrowd": 0,
+      "text": "55313",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_057_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1002.239990234375,
+          1029.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "unknown",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 0
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 58130,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_057__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_057__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_057_0001-recto-58131",
+      "image_id": 53055,
+      "category_id": 1012,
+      "bbox": [
+        1341.666679739597,
+        3504.166683292705,
+        1416.6666804703818,
+        133.3333339659531
+      ],
+      "segmentation": [
+        [
+          1341.666679739597,
+          3504.166683292705,
+          2758.3333602099788,
+          3504.166683292705,
+          2758.3333602099788,
+          3637.500017258658,
+          1341.666679739597,
+          3637.500017258658
+        ]
+      ],
+      "area": 188888.8916255956,
+      "iscrowd": 0,
+      "text": "\"GOOD WILL DELEGATION\" OF U.S.WOMEN LEAVES FOR FRANCE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_057_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          1002.239990234375,
+          1029.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 42,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.8936,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9117
+        }
+      },
+      "source_annotation_id": 58131,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_057__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_057__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_057_0001-recto-58132",
+      "image_id": 53055,
+      "category_id": 1012,
+      "bbox": [
+        850.0000082822291,
+        3708.3333509280706,
+        2200.0000214363577,
+        345.83333497419085
+      ],
+      "segmentation": [
+        [
+          850.0000082822291,
+          3708.3333509280706,
+          3050.000029718587,
+          3708.3333509280706,
+          3050.000029718587,
+          4054.1666859022616,
+          850.0000082822291,
+          4054.1666859022616
+        ]
+      ],
+      "area": 760833.344356627,
+      "iscrowd": 0,
+      "text": "\"The Good Will Delegation\" of girls and>women sent by the American Committee for Devastated France. Each is a winner of a popularity contest held under the auspices of the Committee in fifty cities of the United States. The photo of the \"delegation was taken aboard the S.S.Paris, before sailing. 7/26/22",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_217_057_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          1002.239990234375,
+          1029.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 238,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 12
+          },
+          "alpha_ratio": 0.9333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9917
+        }
+      },
+      "source_annotation_id": 58132,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_057__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_057__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_059_0002-verso-58133",
+      "image_id": 53057,
+      "category_id": 1012,
+      "bbox": [
+        675.0000053756173,
+        1691.6667201461948,
+        2616.6666875054793,
+        412.50001304057463
+      ],
+      "segmentation": [
+        [
+          675.0000053756173,
+          1691.6667201461948,
+          3291.6666928810964,
+          1691.6667201461948,
+          3291.6666928810964,
+          2104.1667331867693,
+          675.0000053756173,
+          2104.1667331867693
+        ]
+      ],
+      "area": 1079375.0427188475,
+      "iscrowd": 0,
+      "text": "3/16/23 Nursing International. The American Branch of Nursing International who have been holding their Annual Congress in Paris visited the devastated areas of Soisson's and Cocy le Chateau on Friday 16th. The picture shows the nurses walking through the ruins of Cocy le Chateau.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_059_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          919.6799926757812,
+          695.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 225,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 6
+          },
+          "alpha_ratio": 0.9454,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9932
+        }
+      },
+      "source_annotation_id": 58133,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_059__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_059__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_060_0002-verso-58134",
+      "image_id": 53058,
+      "category_id": 1012,
+      "bbox": [
+        891.6666902877672,
+        545.8333545113999,
+        2816.6667412828538,
+        466.66668477310526
+      ],
+      "segmentation": [
+        [
+          891.6666902877672,
+          545.8333545113999,
+          3708.333431570621,
+          545.8333545113999,
+          3708.333431570621,
+          1012.5000392845052,
+          891.6666902877672,
+          1012.5000392845052
+        ]
+      ],
+      "area": 1314444.5302651352,
+      "iscrowd": 0,
+      "text": "Nursing International. The American Branch of Nursing\nVisits the devastated areas of Soissons and Cocy le Chateau on\nFriday 16th. The photo shows, left to right, Miss Margerita Van\nR. Schuyler of New York talking to an old Soissons native.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_060_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          921.5999755859375,
+          692.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 192,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 6
+          },
+          "alpha_ratio": 0.96,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9867
+        }
+      },
+      "source_annotation_id": 58134,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_060__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_060__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_061_0002-verso-58137",
+      "image_id": 53059,
+      "category_id": 1013,
+      "bbox": [
+        1325.0000247768332,
+        241.66667008580504,
+        379.1666737568926,
+        91.66666796358122
+      ],
+      "segmentation": [
+        [
+          1325.0000247768332,
+          241.66667008580504,
+          1704.1666985337258,
+          241.66667008580504,
+          1704.1666985337258,
+          333.33333804938627,
+          1325.0000247768332,
+          333.33333804938627
+        ]
+      ],
+      "area": 34756.9455861286,
+      "iscrowd": 0,
+      "text": "Cinnal",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_061_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          913.9199829101562,
+          690.239990234375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 6,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 58137,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_061__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_061__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_061_0002-verso-58138",
+      "image_id": 53059,
+      "category_id": 1012,
+      "bbox": [
+        562.500010518467,
+        333.33333804938627,
+        2575.0000481512043,
+        400.0000056592635
+      ],
+      "segmentation": [
+        [
+          562.500010518467,
+          333.33333804938627,
+          3137.5000586696715,
+          333.33333804938627,
+          3137.5000586696715,
+          733.3333437086497,
+          562.500010518467,
+          733.3333437086497
+        ]
+      ],
+      "area": 1030000.0338330854,
+      "iscrowd": 0,
+      "text": "European Nursing International. The American Branch of Nursing, International who have been holding their Annual Congress in Paris, visited the devastated areas of Scissons and Cocy le Chateau on Friday 16th. The photo shows Major Julia Stinson of the United States Army (with furs) talking to some of the children whom the Americans have succoured.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_061_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          913.9199829101562,
+          690.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 286,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 7
+          },
+          "alpha_ratio": 0.9695,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9962
+        }
+      },
+      "source_annotation_id": 58138,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_061__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_061__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_061_0002-verso-58139",
+      "image_id": 53059,
+      "category_id": 1012,
+      "bbox": [
+        1712.5000320228883,
+        783.3333444160577,
+        916.6666838078721,
+        83.33333451234657
+      ],
+      "segmentation": [
+        [
+          1712.5000320228883,
+          783.3333444160577,
+          2629.1667158307605,
+          783.3333444160577,
+          2629.1667158307605,
+          866.6666789284043,
+          1712.5000320228883,
+          866.6666789284043
+        ]
+      ],
+      "area": 76388.89139808483,
+      "iscrowd": 0,
+      "text": "Times wide World Photos",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_061_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          913.9199829101562,
+          690.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 58139,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_061__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_061__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_063_0002-verso-58142",
+      "image_id": 53061,
+      "category_id": 1012,
+      "bbox": [
+        1008.3333018692327,
+        470.83334322912765,
+        1304.1666259713631,
+        179.16667043232292
+      ],
+      "segmentation": [
+        [
+          1008.3333018692327,
+          470.83334322912765,
+          2312.499927840596,
+          470.83334322912765,
+          2312.499927840596,
+          650.0000136614506,
+          1008.3333018692327,
+          650.0000136614506
+        ]
+      ],
+      "area": 233663.19206424578,
+      "iscrowd": 0,
+      "text": "OFFICIAL PHOTOGRAPHS TAKEN ON THE\nBRITISH WESTERN FRONT IN FRANCE",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_063_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          782.4000244140625,
+          580.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 56,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.93
+        }
+      },
+      "source_annotation_id": 58142,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_063__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_063__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_063_0002-verso-58143",
+      "image_id": 53061,
+      "category_id": 1012,
+      "bbox": [
+        770.8333092801986,
+        720.8333484835317,
+        229.16665951573472,
+        108.33333561024176
+      ],
+      "segmentation": [
+        [
+          770.8333092801986,
+          720.8333484835317,
+          999.9999687959333,
+          720.8333484835317,
+          999.9999687959333,
+          829.1666840937735,
+          770.8333092801986,
+          829.1666840937735
+        ]
+      ],
+      "area": 24826.388635996092,
+      "iscrowd": 0,
+      "text": "$n^{536}$",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_063_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          782.4000244140625,
+          580.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "suspicious",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 1,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 5
+          },
+          "alpha_ratio": 0.1111,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.7889
+        }
+      },
+      "source_annotation_id": 58143,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_063__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_063__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_063_0002-verso-58144",
+      "image_id": 53061,
+      "category_id": 1012,
+      "bbox": [
+        1054.1666337723798,
+        708.3333482208116,
+        1429.1666220708546,
+        391.6666748985664
+      ],
+      "segmentation": [
+        [
+          1054.1666337723798,
+          708.3333482208116,
+          2483.3332558432344,
+          708.3333482208116,
+          2483.3332558432344,
+          1100.000023119378,
+          1054.1666337723798,
+          1100.000023119378
+        ]
+      ],
+      "area": 559756.9387425077,
+      "iscrowd": 0,
+      "text": "British and American officers\nenjoying a rest at a rest house\nin France well known to officers on\nactive service. A detachment\nof the U.M.A.A.C. is employed here.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_063_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          782.4000244140625,
+          580.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 128,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9481,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9352
+        }
+      },
+      "source_annotation_id": 58144,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_063__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_063__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_066_0002-verso-58146",
+      "image_id": 53064,
+      "category_id": 1012,
+      "bbox": [
+        991.6666296700116,
+        529.1666688691879,
+        1399.9999477694282,
+        145.83333394032738
+      ],
+      "segmentation": [
+        [
+          991.6666296700116,
+          529.1666688691879,
+          2391.6665774394396,
+          529.1666688691879,
+          2391.6665774394396,
+          675.0000028095153,
+          991.6666296700116,
+          675.0000028095153
+        ]
+      ],
+      "area": 204166.6598994999,
+      "iscrowd": 0,
+      "text": "OFFICIAL PHOTOGRAPHS TAKEN ON\nTHE BRITISH WEDERN FRONT IN FRANCE",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          785.280029296875,
+          586.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 55,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.93
+        }
+      },
+      "source_annotation_id": 58146,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_066__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_217_066_0002-verso-58147",
+      "image_id": 53064,
+      "category_id": 1012,
+      "bbox": [
+        1016.6666287373229,
+        829.1666701178614,
+        1404.1666142806466,
+        433.3333351369728
+      ],
+      "segmentation": [
+        [
+          1016.6666287373229,
+          829.1666701178614,
+          2420.8332430179694,
+          829.1666701178614,
+          2420.8332430179694,
+          1262.5000052548342,
+          1016.6666287373229,
+          1262.5000052548342
+        ]
+      ],
+      "area": 608472.2020542239,
+      "iscrowd": 0,
+      "text": "A detachment of the O.M.A.A.S. encamped in a big first in France. During the hot nights they sleep out in the open. Here are some. They are supplied with tin hats also in the case if air raids.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_217_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          785.280029296875,
+          586.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 147,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 9
+          },
+          "alpha_ratio": 0.9423,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9761
+        }
+      },
+      "source_annotation_id": 58147,
+      "source_file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_217/SHDGR__GR_2_K_247_217_066__0002.jpg"
+    }
+  ]
 }

@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_199",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,6 +2903,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2544,6 +2932,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2570,6 +2961,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2596,6 +2990,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2622,6 +3019,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2648,6 +3048,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2674,6 +3077,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2700,6 +3106,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2726,6 +3135,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2752,6 +3164,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2778,6 +3193,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2804,6 +3222,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2830,6 +3251,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2856,6 +3280,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2882,6 +3309,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2908,6 +3338,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2934,6 +3367,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2960,6 +3396,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2986,6 +3425,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3012,6 +3454,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3038,6 +3483,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3064,6 +3512,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3090,6 +3541,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3116,6 +3570,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3142,6 +3599,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3168,6 +3628,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3194,6 +3657,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3220,6 +3686,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3246,6 +3715,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3272,6 +3744,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3298,6 +3773,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3324,6 +3802,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3350,6 +3831,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3376,6 +3860,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3402,6 +3889,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3428,6 +3918,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3454,6 +3947,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3480,6 +3976,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3506,6 +4005,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3532,6 +4034,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3558,6 +4063,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3584,6 +4092,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3610,6 +4121,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3636,6 +4150,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3662,6 +4179,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3688,6 +4208,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3714,6 +4237,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3740,6 +4266,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3766,6 +4295,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3792,6 +4324,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3818,6 +4353,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3844,6 +4382,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3870,6 +4411,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3896,6 +4440,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3922,6 +4469,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3948,6 +4498,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3974,6 +4527,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4000,6 +4556,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4026,6 +4585,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4052,6 +4614,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4078,6 +4643,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4104,6 +4672,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4130,6 +4701,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4156,6 +4730,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4182,6 +4759,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4208,6 +4788,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4234,6 +4817,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4260,6 +4846,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4286,6 +4875,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4312,6 +4904,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4338,6 +4933,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4364,6 +4962,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4390,6 +4991,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4416,6 +5020,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4442,6 +5049,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4468,6 +5078,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4494,6 +5107,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4520,6 +5136,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4546,6 +5165,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4572,6 +5194,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4598,6 +5223,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4624,6 +5252,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4650,6 +5281,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4676,6 +5310,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4702,6 +5339,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4728,6 +5368,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4754,6 +5397,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4780,6 +5426,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4806,6 +5455,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4832,6 +5484,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4858,6 +5513,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4884,6 +5542,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4910,6 +5571,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4936,6 +5600,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4962,6 +5629,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4988,6 +5658,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -5014,6 +5687,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -5040,6 +5716,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -5066,6 +5745,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -5092,6 +5774,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -5118,6 +5803,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -5144,6 +5832,9 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -5170,9 +5861,2719 @@
         "Type": "Thématique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_003_0002-verso-56134",
+      "image_id": 50764,
+      "category_id": 1012,
+      "bbox": [
+        383.33332605820607,
+        274.9999992745216,
+        933.3333156199799,
+        158.33333291563366
+      ],
+      "segmentation": [
+        [
+          383.33332605820607,
+          274.9999992745216,
+          1316.666641678186,
+          274.9999992745216,
+          1316.666641678186,
+          433.33333219015526,
+          383.33332605820607,
+          433.33333219015526
+        ]
+      ],
+      "area": 147777.77458331047,
+      "iscrowd": 0,
+      "text": "Africque Decadal",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          643.2000122070312,
+          462.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 15,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 56134,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_009_0002-verso-56135",
+      "image_id": 50770,
+      "category_id": 1012,
+      "bbox": [
+        387.5000091352351,
+        533.3333468580597,
+        1754.1667080207953,
+        241.6666727950583
+      ],
+      "segmentation": [
+        [
+          387.5000091352351,
+          533.3333468580597,
+          2141.6667171560302,
+          533.3333468580597,
+          2141.6667171560302,
+          775.000019653118,
+          387.5000091352351,
+          775.000019653118
+        ]
+      ],
+      "area": 423923.63185524615,
+      "iscrowd": 0,
+      "text": "Sacke race for French疲劳",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          828.47998046875,
+          336.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 18,
+            "cjk": 2,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.925
+        }
+      },
+      "source_annotation_id": 56135,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_010_0002-verso-56136",
+      "image_id": 50771,
+      "category_id": 1012,
+      "bbox": [
+        645.8333086350019,
+        658.3333518238064,
+        545.8333124592597,
+        154.16667099671417
+      ],
+      "segmentation": [
+        [
+          645.8333086350019,
+          658.3333518238064,
+          1191.6666210942617,
+          658.3333518238064,
+          1191.6666210942617,
+          812.5000228205206,
+          645.8333086350019,
+          812.5000228205206
+        ]
+      ],
+      "area": 84149.30470095338,
+      "iscrowd": 0,
+      "text": "à Brest",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          638.4000244140625,
+          478.0799865722656
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 6,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 56136,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_022_0002-verso-56141",
+      "image_id": 50783,
+      "category_id": 1012,
+      "bbox": [
+        149.9999960322615,
+        108.33333079280754,
+        2379.166603733925,
+        591.6666527914874
+      ],
+      "segmentation": [
+        [
+          149.9999960322615,
+          108.33333079280754,
+          2529.1665997661867,
+          108.33333079280754,
+          2529.1665997661867,
+          699.999983584295,
+          149.9999960322615,
+          699.999983584295
+        ]
+      ],
+      "area": 1407673.5408645426,
+      "iscrowd": 0,
+      "text": "Lin Thomas Brookes-Bitching, Chagas of Marylandstone gives a garden part @ the Royal Botanic Garden to members of the French Republican Commercial Association.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_022_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          646.0800170898438,
+          468.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 133,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9708,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9297
+        }
+      },
+      "source_annotation_id": 56141,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_022__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_022__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_028_0002-verso-56143",
+      "image_id": 50789,
+      "category_id": 1012,
+      "bbox": [
+        1429.1667042470392,
+        241.6666734543087,
+        858.3333559034696,
+        366.66667696515805
+      ],
+      "segmentation": [
+        [
+          1429.1667042470392,
+          241.6666734543087,
+          2287.500060150509,
+          241.6666734543087,
+          2287.500060150509,
+          608.3333504194668,
+          1429.1667042470392,
+          608.3333504194668
+        ]
+      ],
+      "area": 314722.23933747754,
+      "iscrowd": 0,
+      "text": "5)Garden Blue,\n6. Royal Parliament\n7. Bandstand\n8. Palace restaurant",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_028_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          649.9199829101562,
+          478.0799865722656
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 50,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 5
+          },
+          "alpha_ratio": 0.8475,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8809
+        }
+      },
+      "source_annotation_id": 56143,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_028__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_028__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_028_0002-verso-56144",
+      "image_id": 50789,
+      "category_id": 1012,
+      "bbox": [
+        291.6666743361304,
+        1462.5000410769371,
+        1350.000035498661,
+        466.6666797738375
+      ],
+      "segmentation": [
+        [
+          291.6666743361304,
+          1462.5000410769371,
+          1641.6667098347914,
+          1462.5000410769371,
+          1641.6667098347914,
+          1929.1667208507747,
+          291.6666743361304,
+          1929.1667208507747
+        ]
+      ],
+      "area": 630000.0342607228,
+      "iscrowd": 0,
+      "text": "9. France British Parliament\n10. British applied art Palace\n11. Parliament Louis XV\n12. Machineing Hall",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_028_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          649.9199829101562,
+          478.0799865722656
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 77,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 4
+          },
+          "alpha_ratio": 0.875,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8844
+        }
+      },
+      "source_annotation_id": 56144,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_028__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_028__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_032_0002-verso-56146",
+      "image_id": 50793,
+      "category_id": 1012,
+      "bbox": [
+        133.33332881889885,
+        129.16666363757824,
+        2441.666583996085,
+        554.1666536709001
+      ],
+      "segmentation": [
+        [
+          133.33332881889885,
+          129.16666363757824,
+          2574.999912814984,
+          129.16666363757824,
+          2574.999912814984,
+          683.3333173084784,
+          133.33332881889885,
+          683.3333173084784
+        ]
+      ],
+      "area": 1353090.2002331682,
+      "iscrowd": 0,
+      "text": "Siv. Thomas Brooke, Hitching, Marpo & Matalabone gives a garden party @ Royal Botania gardens to members of the French Republician Commercial Associations.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_032_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          648.9600219726562,
+          468.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 127,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9549,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.911
+        }
+      },
+      "source_annotation_id": 56146,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_032__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_032__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_033_0002-verso-56147",
+      "image_id": 50794,
+      "category_id": 1012,
+      "bbox": [
+        224.99999373082642,
+        925.0000070011805,
+        1699.9999526329107,
+        120.83333424790196
+      ],
+      "segmentation": [
+        [
+          224.99999373082642,
+          925.0000070011805,
+          1924.999946363737,
+          925.0000070011805,
+          1924.999946363737,
+          1045.8333412490824,
+          224.99999373082642,
+          1045.8333412490824
+        ]
+      ],
+      "area": 205416.66249791,
+      "iscrowd": 0,
+      "text": "a 47 on the Wilker-Maxima Island",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_033_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          481.9200134277344,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 24,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 1
+          },
+          "alpha_ratio": 0.8889,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9261
+        }
+      },
+      "source_annotation_id": 56147,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_033__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_033__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_040_0002-verso-56150",
+      "image_id": 50801,
+      "category_id": 1014,
+      "bbox": [
+        1108.333339798098,
+        679.1666718071731,
+        1479.1666752944543,
+        170.83333462634414
+      ],
+      "segmentation": [
+        [
+          1108.333339798098,
+          679.1666718071731,
+          2587.5000150925525,
+          679.1666718071731,
+          2587.5000150925525,
+          850.0000064335172,
+          1108.333339798098,
+          850.0000064335172
+        ]
+      ],
+      "area": 252690.97560871445,
+      "iscrowd": 0,
+      "text": "C o u r s e \\; f r a nco - a n g l o i s e ( 1 0 1 - 1 9 0 7 ) .",
+      "orientation": "",
+      "text_type": "monkeyocr_interline_equation",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_040_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "interline_equation",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 7
+          },
+          "alpha_ratio": 0.5882,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8485
+        }
+      },
+      "source_annotation_id": 56150,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_040__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 14,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_040__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_040_0002-verso-56151",
+      "image_id": 50801,
+      "category_id": 1014,
+      "bbox": [
+        408.33333571508877,
+        895.8333401137559,
+        2650.0000154571067,
+        312.5000023652637
+      ],
+      "segmentation": [
+        [
+          408.33333571508877,
+          895.8333401137559,
+          3058.3333511721953,
+          895.8333401137559,
+          3058.3333511721953,
+          1208.3333424790196,
+          408.33333571508877,
+          1208.3333424790196
+        ]
+      ],
+      "area": 828125.0110982946,
+      "iscrowd": 0,
+      "text": "D a m un match de 1 0 0 \\, m i t e n o r g a réint e n t rée l'au d'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l'au de l",
+      "orientation": "",
+      "text_type": "monkeyocr_interline_equation",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_040_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "interline_equation",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 5111,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 1018
+          },
+          "alpha_ratio": 0.8335,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9792
+        }
+      },
+      "source_annotation_id": 56151,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_040__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 14,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_040__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_049_0002-verso-56155",
+      "image_id": 50810,
+      "category_id": 1014,
+      "bbox": [
+        925.0000107252127,
+        658.3333178947536,
+        1595.8333518367408,
+        266.66666041306473
+      ],
+      "segmentation": [
+        [
+          925.0000107252127,
+          658.3333178947536,
+          2520.8333625619534,
+          658.3333178947536,
+          2520.8333625619534,
+          924.9999783078183,
+          925.0000107252127,
+          924.9999783078183
+        ]
+      ],
+      "area": 425555.550510091,
+      "iscrowd": 0,
+      "text": "L ^ { \\prime } E n p o t e n t \\textsuperscript { f r a n c e - a u g l a i r de } _ { S h i p h e r d ' s B u h , l o w l e }",
+      "orientation": "",
+      "text_type": "monkeyocr_interline_equation",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          631.6799926757812,
+          468.4800109863281
+        ],
+        "monkeyocr_raw_type": "interline_equation",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 61,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 13
+          },
+          "alpha_ratio": 0.8243,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9114
+        }
+      },
+      "source_annotation_id": 56155,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 14,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_063_0002-verso-56161",
+      "image_id": 50824,
+      "category_id": 1012,
+      "bbox": [
+        166.6666727799638,
+        58.33333430505391,
+        1975.0000724425709,
+        166.66666944301116
+      ],
+      "segmentation": [
+        [
+          166.6666727799638,
+          58.33333430505391,
+          2141.6667452225347,
+          58.33333430505391,
+          2141.6667452225347,
+          225.00000374806507,
+          166.6666727799638,
+          225.00000374806507
+        ]
+      ],
+      "area": 329166.68422370905,
+      "iscrowd": 0,
+      "text": "Exposition - Gérancaise-Britannique en Londer",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_063_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          599.0399780273438,
+          439.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 39,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9512,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8939
+        }
+      },
+      "source_annotation_id": 56161,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_063__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_063__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_063_0002-verso-56162",
+      "image_id": 50824,
+      "category_id": 1012,
+      "bbox": [
+        225.00000825295112,
+        483.33334138473236,
+        1212.5000444742366,
+        175.00000291516173
+      ],
+      "segmentation": [
+        [
+          225.00000825295112,
+          483.33334138473236,
+          1437.5000527271877,
+          483.33334138473236,
+          1437.5000527271877,
+          658.3333442998941,
+          225.00000825295112,
+          658.3333442998941
+        ]
+      ],
+      "area": 212187.51131762512,
+      "iscrowd": 0,
+      "text": "La grand lac et le pont,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_063_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          599.0399780273438,
+          439.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 18,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9474,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9434
+        }
+      },
+      "source_annotation_id": 56162,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_063__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_063__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_074_0002-verso-56164",
+      "image_id": 50835,
+      "category_id": 1012,
+      "bbox": [
+        195.83332879891836,
+        79.16666625494632,
+        2299.9999467447433,
+        537.4999972046355
+      ],
+      "segmentation": [
+        [
+          195.83332879891836,
+          79.16666625494632,
+          2495.833275543662,
+          79.16666625494632,
+          2495.833275543662,
+          616.6666634595819,
+          195.83332879891836,
+          616.6666634595819
+        ]
+      ],
+      "area": 1236249.9649459613,
+      "iscrowd": 0,
+      "text": "Anglo-French exhibition of Shepherd's Bush\nmaking bridge over lake.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_074_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          632.6400146484375,
+          469.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 56,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9492,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9036
+        }
+      },
+      "source_annotation_id": 56164,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_074__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_074__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_079_0002-verso-56165",
+      "image_id": 50840,
+      "category_id": 1012,
+      "bbox": [
+        250.000004441597,
+        1129.1666581958134,
+        1466.6666927240358,
+        758.3333276444207
+      ],
+      "segmentation": [
+        [
+          250.000004441597,
+          1129.1666581958134,
+          1716.6666971656327,
+          1129.1666581958134,
+          1716.6666971656327,
+          1887.499985840234,
+          250.000004441597,
+          1887.499985840234
+        ]
+      ],
+      "area": 1112222.2336386552,
+      "iscrowd": 0,
+      "text": "La state de l'ambande de France et un bayan de l'antòs organique (Von la Rénie à Maonin - Haune (hétet du Lord - Mayor) canfor aux bénéfices de solit, infirmaries",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_079_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          480.9599914550781,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 125,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9398,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9675
+        }
+      },
+      "source_annotation_id": 56165,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_079__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_079__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_083_0002-verso-56166",
+      "image_id": 50844,
+      "category_id": 1012,
+      "bbox": [
+        204.16665758646118,
+        375.0000020687079,
+        2004.1665775324045,
+        391.6666688273171
+      ],
+      "segmentation": [
+        [
+          204.16665758646118,
+          375.0000020687079,
+          2208.3332351188656,
+          375.0000020687079,
+          2208.3332351188656,
+          766.6666708960249,
+          204.16665758646118,
+          766.6666708960249
+        ]
+      ],
+      "area": 784965.2471971618,
+      "iscrowd": 0,
+      "text": "Le stade et le bain de notation sur les sports, l'ajimpeque auracient lieu",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_083_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          603.8400268554688,
+          442.55999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 60,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9677,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.946
+        }
+      },
+      "source_annotation_id": 56166,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_083__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_083__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_085_0002-verso-56167",
+      "image_id": 50846,
+      "category_id": 1012,
+      "bbox": [
+        241.6666556261262,
+        529.1666815292622,
+        2054.1665728220723,
+        212.50000596844384
+      ],
+      "segmentation": [
+        [
+          241.6666556261262,
+          529.1666815292622,
+          2295.8332284481985,
+          529.1666815292622,
+          2295.8332284481985,
+          741.666687497706,
+          241.6666556261262,
+          741.666687497706
+        ]
+      ],
+      "area": 436510.4089848682,
+      "iscrowd": 0,
+      "text": "Ploughing as carried on-in Scriptural days.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_085_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          641.280029296875,
+          478.0799865722656
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 36,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9474,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.922
+        }
+      },
+      "source_annotation_id": 56167,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_085__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_085__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_088_0002-verso-56168",
+      "image_id": 50849,
+      "category_id": 1012,
+      "bbox": [
+        187.5000072248057,
+        62.50000146869765,
+        2250.0000866976684,
+        245.83333911021074
+      ],
+      "segmentation": [
+        [
+          187.5000072248057,
+          62.50000146869765,
+          2437.500093922474,
+          62.50000146869765,
+          2437.500093922474,
+          308.3333405789084,
+          187.5000072248057,
+          308.3333405789084
+        ]
+      ],
+      "area": 553125.0343111515,
+      "iscrowd": 0,
+      "text": "Anglo-French exhibition @Shepherd's Bush",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_088_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          633.5999755859375,
+          467.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 34,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9189,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8899
+        }
+      },
+      "source_annotation_id": 56168,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_088__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_088__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_088_0002-verso-56169",
+      "image_id": 50849,
+      "category_id": 1012,
+      "bbox": [
+        245.83334280585635,
+        583.3333470411781,
+        1375.0000529819083,
+        208.33333822899215
+      ],
+      "segmentation": [
+        [
+          245.83334280585635,
+          583.3333470411781,
+          1620.8333957877646,
+          583.3333470411781,
+          1620.8333957877646,
+          791.6666852701702,
+          245.83334280585635,
+          791.6666852701702
+        ]
+      ],
+      "area": 286458.35110276204,
+      "iscrowd": 0,
+      "text": "French plasticers @ work.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_088_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          633.5999755859375,
+          467.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9091,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8886
+        }
+      },
+      "source_annotation_id": 56169,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_088__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_088__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_091_0002-verso-56170",
+      "image_id": 50852,
+      "category_id": 1012,
+      "bbox": [
+        183.3333300631075,
+        800.0000149595975,
+        1591.6666382751605,
+        350.0000065448239
+      ],
+      "segmentation": [
+        [
+          183.3333300631075,
+          800.0000149595975,
+          1774.999968338268,
+          800.0000149595975,
+          1774.999968338268,
+          1150.0000215044215,
+          183.3333300631075,
+          1150.0000215044215
+        ]
+      ],
+      "area": 557083.3338134841,
+      "iscrowd": 0,
+      "text": "The Premier, Mr. Asquith, Strolling\nround the galleries",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          479.0400085449219,
+          652.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 45,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9375,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9172
+        }
+      },
+      "source_annotation_id": 56170,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_092_0002-verso-56172",
+      "image_id": 50853,
+      "category_id": 1012,
+      "bbox": [
+        425.00001304170047,
+        479.1666679025529,
+        904.1666944122451,
+        187.50000048360764
+      ],
+      "segmentation": [
+        [
+          425.00001304170047,
+          479.1666679025529,
+          1329.1667074539455,
+          479.1666679025529,
+          1329.1667074539455,
+          666.6666683861605,
+          425.00001304170047,
+          666.6666683861605
+        ]
+      ],
+      "area": 169531.25563955787,
+      "iscrowd": 0,
+      "text": "French plateries",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_092_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          636.47998046875,
+          473.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 15,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 56172,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_092__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_092__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_100_0002-verso-56175",
+      "image_id": 50861,
+      "category_id": 1013,
+      "bbox": [
+        341.666663660081,
+        287.5000119860712,
+        1412.4999875703347,
+        133.33333889209098
+      ],
+      "segmentation": [
+        [
+          341.666663660081,
+          287.5000119860712,
+          1754.1666512304157,
+          287.5000119860712,
+          1754.1666512304157,
+          420.83335087816215,
+          341.666663660081,
+          420.83335087816215
+        ]
+      ],
+      "area": 188333.33952778974,
+      "iscrowd": 0,
+      "text": "FRENCH REPUBLIC'S PLATE FOR BANQUET",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_100_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          832.3200073242188,
+          644.1599731445312
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 30,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9677,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.916
+        }
+      },
+      "source_annotation_id": 56175,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_100__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_100__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_100_0002-verso-56176",
+      "image_id": 50861,
+      "category_id": 1012,
+      "bbox": [
+        324.999997140077,
+        420.83335087816215,
+        2666.6666432006323,
+        316.6666798687161
+      ],
+      "segmentation": [
+        [
+          324.999997140077,
+          420.83335087816215,
+          2991.6666403407094,
+          420.83335087816215,
+          2991.6666403407094,
+          737.5000307468782,
+          324.999997140077,
+          737.5000307468782
+        ]
+      ],
+      "area": 844444.4722189984,
+      "iscrowd": 0,
+      "text": "Unpacking the French republics gold and silver plate which is to be used at the banquet given by President Poincaré to the King on Tuesday next IITH. The photograph was taken in the vaults of the French Embassy yesterday Nov 7TH",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_100_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          832.3200073242188,
+          644.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 186,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 1
+          },
+          "alpha_ratio": 0.9894,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9987
+        }
+      },
+      "source_annotation_id": 56176,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_100__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_100__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_104_0002-verso-56178",
+      "image_id": 50865,
+      "category_id": 1012,
+      "bbox": [
+        537.5000033258716,
+        1266.6666666666667,
+        2591.66668270304,
+        358.33333333333337
+      ],
+      "segmentation": [
+        [
+          537.5000033258716,
+          1266.6666666666667,
+          3129.1666860289115,
+          1266.6666666666667,
+          3129.1666860289115,
+          1625.0,
+          537.5000033258716,
+          1625.0
+        ]
+      ],
+      "area": 928680.5613019228,
+      "iscrowd": 0,
+      "text": "Le Salin de l'émbranade de France, tel qu'il pour\nannonglir avec la réception de M. Lourier.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_104_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          600.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 72,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9351,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9502
+        }
+      },
+      "source_annotation_id": 56178,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_104__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_104__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_112_0002-verso-56181",
+      "image_id": 50873,
+      "category_id": 1014,
+      "bbox": [
+        1245.8333371231874,
+        70.83333302749551,
+        854.1666692650617,
+        174.99999924440067
+      ],
+      "segmentation": [
+        [
+          1245.8333371231874,
+          70.83333302749551,
+          2100.000006388249,
+          70.83333302749551,
+          2100.000006388249,
+          245.83333227189618,
+          1245.8333371231874,
+          245.83333227189618
+        ]
+      ],
+      "area": 149479.16647597804,
+      "iscrowd": 0,
+      "text": "L o w f l u t o : o v t r i m o u t l i",
+      "orientation": "",
+      "text_type": "monkeyocr_interline_equation",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_112_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          802.5599975585938,
+          565.4400024414062
+        ],
+        "monkeyocr_raw_type": "interline_equation",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 19,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.95,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8938
+        }
+      },
+      "source_annotation_id": 56181,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_112__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 14,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_112__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_120_0002-verso-56182",
+      "image_id": 50881,
+      "category_id": 1012,
+      "bbox": [
+        958.3333145316543,
+        779.1666883095188,
+        2416.666619253737,
+        675.0000187494228
+      ],
+      "segmentation": [
+        [
+          958.3333145316543,
+          779.1666883095188,
+          3374.999933785391,
+          779.1666883095188,
+          3374.999933785391,
+          1454.1667070589415,
+          958.3333145316543,
+          1454.1667070589415
+        ]
+      ],
+      "area": 1631250.0133073765,
+      "iscrowd": 0,
+      "text": "ENGLAND'S WELCOME TO THE FRENCH NAVAL SQUADRON.\n\nWhen a squadron of the French Navy, numbering eught vessels, and including two cruisers which are faster than any British cruise, arrived at Spithead yesterday salutes to the British nation were fired.\n\nPhoto shows.. The entry into Portsmouth Harbour. Flags were run up on Nelson's flagship Victory.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_120_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          995.52001953125,
+          791.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 282,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 11
+          },
+          "alpha_ratio": 0.9625,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9703
+        }
+      },
+      "source_annotation_id": 56182,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_120__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_120__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_123_0002-verso-56183",
+      "image_id": 50884,
+      "category_id": 1012,
+      "bbox": [
+        829.1666727906161,
+        1229.1666666666667,
+        2429.166684607684,
+        166.66666666666669
+      ],
+      "segmentation": [
+        [
+          829.1666727906161,
+          1229.1666666666667,
+          3258.3333573983,
+          1229.1666666666667,
+          3258.3333573983,
+          1395.8333333333335,
+          829.1666727906161,
+          1395.8333333333335
+        ]
+      ],
+      "area": 404861.11410128075,
+      "iscrowd": 0,
+      "text": "The French Ex-Service men's delegation, leaving Westminster Abbey after paying home at the tomb of the Unknown Frontier.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_123_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          991.6799926757812,
+          792.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 99,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9612,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9285
+        }
+      },
+      "source_annotation_id": 56183,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_123__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_123__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_124_0002-verso-56185",
+      "image_id": 50885,
+      "category_id": 1012,
+      "bbox": [
+        808.3333393034146,
+        1029.166660344671,
+        2329.1666838691176,
+        399.9999975428681
+      ],
+      "segmentation": [
+        [
+          808.3333393034146,
+          1029.166660344671,
+          3137.500023172532,
+          1029.166660344671,
+          3137.500023172532,
+          1429.1666578875393,
+          808.3333393034146,
+          1429.1666578875393
+        ]
+      ],
+      "area": 931666.6678245772,
+      "iscrowd": 0,
+      "text": "FRECH EX-SERVICE PILGRIMS IN LONDON.\nBanners of the French and British Legions dipped in salute during the visit yesterday (March31st) to the Cenataph in Whitehall, London, of over 900 French Ax-Service men.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_124_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          991.6799926757812,
+          794.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 163,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 8
+          },
+          "alpha_ratio": 0.9261,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9658
+        }
+      },
+      "source_annotation_id": 56185,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_124__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_124__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_125_0002-verso-56186",
+      "image_id": 50886,
+      "category_id": 1012,
+      "bbox": [
+        933.3333287154551,
+        1049.9999608270712,
+        2374.9999882491493,
+        262.4999902067678
+      ],
+      "segmentation": [
+        [
+          933.3333287154551,
+          1049.9999608270712,
+          3308.3333169646044,
+          1049.9999608270712,
+          3308.3333169646044,
+          1312.499951033839,
+          933.3333287154551,
+          1312.499951033839
+        ]
+      ],
+      "area": 623437.4736564753,
+      "iscrowd": 0,
+      "text": "Seventy banner of the French Legion being carried across the Horse Guardes Parade. They attended an official reception in Westminster Hall and rendered homage at the tomb of the Unknown Warrior.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_125_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          986.8800048828125,
+          785.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 162,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9878,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9651
+        }
+      },
+      "source_annotation_id": 56186,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_125__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_125__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_130_0002-verso-56189",
+      "image_id": 50891,
+      "category_id": 1012,
+      "bbox": [
+        470.8333183489175,
+        1087.4999584111968,
+        2737.499912878219,
+        366.6666526443882
+      ],
+      "segmentation": [
+        [
+          470.8333183489175,
+          1087.4999584111968,
+          3208.333231227137,
+          1087.4999584111968,
+          3208.333231227137,
+          1454.166611055585,
+          470.8333183489175,
+          1454.166611055585
+        ]
+      ],
+      "area": 1003749.929669361,
+      "iscrowd": 0,
+      "text": "Dégalisation américain (avril 1907) débarguer et\nDonauer.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_130_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          843.8400268554688,
+          638.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 44,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 3
+          },
+          "alpha_ratio": 0.8627,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8995
+        }
+      },
+      "source_annotation_id": 56189,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_130__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_130__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_134_0002-verso-56190",
+      "image_id": 50895,
+      "category_id": 1012,
+      "bbox": [
+        1291.6666437222325,
+        787.4999817658633,
+        1391.6666419458893,
+        229.1666613604364
+      ],
+      "segmentation": [
+        [
+          1291.6666437222325,
+          787.4999817658633,
+          2683.333285668122,
+          787.4999817658633,
+          2683.333285668122,
+          1016.6666431262996,
+          1291.6666437222325,
+          1016.6666431262996
+        ]
+      ],
+      "area": 318923.5980614293,
+      "iscrowd": 0,
+      "text": "COPYRIGHT. \nILLUSTRATIONS BUREAU, 12, Whitefields St., B.C. \nTELEPHONE NO. 8190, HOLEBORN.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_134_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          824.6400146484375,
+          632.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 62,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 10
+          },
+          "alpha_ratio": 0.7949,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8994
+        }
+      },
+      "source_annotation_id": 56190,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_134__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_134__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_134_0002-verso-56191",
+      "image_id": 50895,
+      "category_id": 1012,
+      "bbox": [
+        970.8333160880005,
+        1141.6666402319922,
+        2387.499957589804,
+        349.9999918959392
+      ],
+      "segmentation": [
+        [
+          970.8333160880005,
+          1141.6666402319922,
+          3358.3332736778048,
+          1141.6666402319922,
+          3358.3332736778048,
+          1491.6666321279315,
+          970.8333160880005,
+          1491.6666321279315
+        ]
+      ],
+      "area": 835624.9658079867,
+      "iscrowd": 0,
+      "text": "Dégalation d'offcnir français annuitant sur\nGuildhall (Maunie de London) - (1905)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_134_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          824.6400146484375,
+          632.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 61,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 6
+          },
+          "alpha_ratio": 0.8592,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9046
+        }
+      },
+      "source_annotation_id": 56191,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_134__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_134__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_147_0002-verso-56194",
+      "image_id": 50908,
+      "category_id": 1012,
+      "bbox": [
+        962.5000146353609,
+        1624.999948769563,
+        875.0000133048735,
+        191.6666606241023
+      ],
+      "segmentation": [
+        [
+          962.5000146353609,
+          1624.999948769563,
+          1837.5000279402343,
+          1624.999948769563,
+          1837.5000279402343,
+          1816.666609393665,
+          962.5000146353609,
+          1816.666609393665
+        ]
+      ],
+      "area": 167708.33059619018,
+      "iscrowd": 0,
+      "text": "A bandsman of the Grenadier Guards conducting some members of the band of the French engineers round the grounds of the White City yesterday.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_147_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 9,
+        "monkeyocr_page_size": [
+          642.239990234375,
+          464.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 117,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9915,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9739
+        }
+      },
+      "source_annotation_id": 56194,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_147__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_147__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_148_0002-verso-56196",
+      "image_id": 50909,
+      "category_id": 1012,
+      "bbox": [
+        954.1666485579259,
+        1608.3333711278194,
+        870.833316806142,
+        204.1666714644123
+      ],
+      "segmentation": [
+        [
+          954.1666485579259,
+          1608.3333711278194,
+          1824.999965364068,
+          1608.3333711278194,
+          1824.999965364068,
+          1812.5000425922317,
+          954.1666485579259,
+          1812.5000425922317
+        ]
+      ],
+      "area": 177795.13969262407,
+      "iscrowd": 0,
+      "text": "A bandsman of the Grenadier Guards conducting some members of the band of the French engineers round the grounds of the White City yesterday.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_148_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 7,
+        "monkeyocr_page_size": [
+          643.2000122070312,
+          467.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 117,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9915,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9739
+        }
+      },
+      "source_annotation_id": 56196,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_148__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_148__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_149_0002-verso-56197",
+      "image_id": 50910,
+      "category_id": 1012,
+      "bbox": [
+        124.99999743635942,
+        324.99999800358034,
+        2104.1666235120506,
+        474.99999708215586
+      ],
+      "segmentation": [
+        [
+          124.99999743635942,
+          324.99999800358034,
+          2229.16662094841,
+          324.99999800358034,
+          2229.16662094841,
+          799.9999950857361,
+          124.99999743635942,
+          799.9999950857361
+        ]
+      ],
+      "area": 999479.1400285938,
+      "iscrowd": 0,
+      "text": "Lour d'offrein, du l'infanteur de l'marine ou\nlendant avec leur female\nune mal organique\nVon lesurer officur de deux flutter",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_149_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          595.2000122070312,
+          397.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 101,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9619,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9369
+        }
+      },
+      "source_annotation_id": 56197,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_149__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_149__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_150_0002-verso-56198",
+      "image_id": 50911,
+      "category_id": 1012,
+      "bbox": [
+        891.6666693003782,
+        662.4999746642923,
+        2329.166673546315,
+        149.99999426361336
+      ],
+      "segmentation": [
+        [
+          891.6666693003782,
+          662.4999746642923,
+          3220.833342846693,
+          662.4999746642923,
+          3220.833342846693,
+          812.4999689279057,
+          891.6666693003782,
+          812.4999689279057
+        ]
+      ],
+      "area": 349374.98767094663,
+      "iscrowd": 0,
+      "text": "Marin francér et al. angloir et portmouth (April 1905)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_150_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          826.5599975585938,
+          638.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 39,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 3
+          },
+          "alpha_ratio": 0.8478,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.906
+        }
+      },
+      "source_annotation_id": 56198,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_150__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_150__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_167_0002-verso-56204",
+      "image_id": 50928,
+      "category_id": 1012,
+      "bbox": [
+        229.16666578895433,
+        1249.9999518953705,
+        2108.33332525838,
+        333.33332050543214
+      ],
+      "segmentation": [
+        [
+          229.16666578895433,
+          1249.9999518953705,
+          2337.4999910473343,
+          1249.9999518953705,
+          2337.4999910473343,
+          1583.3332724008026,
+          229.16666578895433,
+          1583.3332724008026
+        ]
+      ],
+      "area": 702777.748040635,
+      "iscrowd": 0,
+      "text": "Jean mani les oralisonnais dans le domaine de laitérature et de laitérature",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_167_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          637.4400024414062,
+          761.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 64,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.95
+        }
+      },
+      "source_annotation_id": 56204,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_167__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_167__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_172_0002-verso-56208",
+      "image_id": 50933,
+      "category_id": 1012,
+      "bbox": [
+        358.33333064516586,
+        445.83332990446405,
+        1545.8333217367037,
+        166.66666538484637
+      ],
+      "segmentation": [
+        [
+          358.33333064516586,
+          445.83332990446405,
+          1904.1666523818697,
+          445.83332990446405,
+          1904.1666523818697,
+          612.4999952893104,
+          358.33333064516586,
+          612.4999952893104
+        ]
+      ],
+      "area": 257638.88497463675,
+      "iscrowd": 0,
+      "text": "Aerival ? Victoria State.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_172_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          650.8800048828125,
+          476.1600036621094
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9091,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8886
+        }
+      },
+      "source_annotation_id": 56208,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_172__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_172__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_186_0002-verso-56211",
+      "image_id": 50947,
+      "category_id": 1012,
+      "bbox": [
+        587.5000053408035,
+        695.8333163179908,
+        3779.1667010220476,
+        399.9999902187252
+      ],
+      "segmentation": [
+        [
+          587.5000053408035,
+          695.8333163179908,
+          4366.666706362851,
+          695.8333163179908,
+          4366.666706362851,
+          1095.833306536716,
+          587.5000053408035,
+          1095.833306536716
+        ]
+      ],
+      "area": 1511666.6434437511,
+      "iscrowd": 0,
+      "text": "La Sante Républicieren assiste à l'impacture n'obemille du Luxembourg, Fortée de mon les canteux de la Harre du laire, par le biais, et de la côte d'ajon par le biais, et de la côte d'ajon par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, par le biais, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire, et de la Harre du laire,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_186_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1074.239990234375,
+          499.20001220703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 8208,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 511
+          },
+          "alpha_ratio": 0.9414,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9927
+        }
+      },
+      "source_annotation_id": 56211,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_186__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_186__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_194_0002-verso-56214",
+      "image_id": 50955,
+      "category_id": 1012,
+      "bbox": [
+        558.3333264293702,
+        1108.3333643073718,
+        1383.3333162279919,
+        275.00000768528776
+      ],
+      "segmentation": [
+        [
+          558.3333264293702,
+          1108.3333643073718,
+          1941.666642657362,
+          1108.3333643073718,
+          1941.666642657362,
+          1383.3333719926595,
+          558.3333264293702,
+          1383.3333719926595
+        ]
+      ],
+      "area": 380416.67259401234,
+      "iscrowd": 0,
+      "text": "COPYRIGHT\nILLUSTRATIONS BUREAU, 12, Whitefriars St., E.C.\nTELEPHONE NO. 2180, HLOBORW.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_194_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          592.3200073242188,
+          436.79998779296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 61,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 9
+          },
+          "alpha_ratio": 0.8026,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9003
+        }
+      },
+      "source_annotation_id": 56214,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_194__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_194__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_199_195_0002-verso-56215",
+      "image_id": 50956,
+      "category_id": 1012,
+      "bbox": [
+        216.66666750027002,
+        341.66666754790725,
+        1433.3333388479402,
+        162.50000041912662
+      ],
+      "segmentation": [
+        [
+          216.66666750027002,
+          341.66666754790725,
+          1650.0000063482103,
+          341.66666754790725,
+          1650.0000063482103,
+          504.16666796703385,
+          216.66666750027002,
+          504.16666796703385
+        ]
+      ],
+      "area": 232916.66816353844,
+      "iscrowd": 0,
+      "text": "Entire Cordiale @ portmouth",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_199_195_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          634.5599975585938,
+          473.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 23,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9583,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8948
+        }
+      },
+      "source_annotation_id": 56215,
+      "source_file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_195__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_199/SHDGR__GR_2_K_247_199_195__0002.jpg"
+    }
+  ]
 }

@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_190",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,6 +2903,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2544,6 +2932,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2570,6 +2961,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2596,6 +2990,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2622,6 +3019,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2648,6 +3048,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2674,6 +3077,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2700,6 +3106,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2726,6 +3135,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2752,6 +3164,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2778,6 +3193,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2804,6 +3222,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2830,6 +3251,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2856,6 +3280,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2882,6 +3309,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2908,6 +3338,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2934,6 +3367,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2960,6 +3396,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2986,6 +3425,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3012,6 +3454,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3038,6 +3483,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3064,6 +3512,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3090,6 +3541,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3116,6 +3570,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Ex-Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3142,6 +3599,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3168,9 +3628,3181 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Yougoslavie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_001_0002-verso-55371",
+      "image_id": 49796,
+      "category_id": 1012,
+      "bbox": [
+        141.6666717409903,
+        79.16666843617959,
+        1108.3333730324534,
+        745.8333500040078
+      ],
+      "segmentation": [
+        [
+          141.6666717409903,
+          79.16666843617959,
+          1250.0000447734437,
+          79.16666843617959,
+          1250.0000447734437,
+          825.0000184401874,
+          141.6666717409903,
+          825.0000184401874
+        ]
+      ],
+      "area": 826631.9925300364,
+      "iscrowd": 0,
+      "text": "English doctors injecting\nSerbian villagers against\nChelena - This place\nGotch was reached by a\n5 hours ride into the\nmountain",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_001_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          340.79998779296875,
+          245.75999450683594
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 104,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 1
+          },
+          "alpha_ratio": 0.9811,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9143
+        }
+      },
+      "source_annotation_id": 55371,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_001__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_001__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_003_0002-verso-55373",
+      "image_id": 49798,
+      "category_id": 1012,
+      "bbox": [
+        1095.8333077659186,
+        937.5000335800828,
+        62.49999854178243,
+        320.8333448251839
+      ],
+      "segmentation": [
+        [
+          1095.8333077659186,
+          937.5000335800828,
+          1158.333306307701,
+          937.5000335800828,
+          1158.333306307701,
+          1258.3333784052666,
+          1095.8333077659186,
+          1258.3333784052666
+        ]
+      ],
+      "area": 20052.08358372917,
+      "iscrowd": 0,
+      "text": "greb, Jurisíčeva 1",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          523.2000122070312,
+          340.79998779296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 1
+          },
+          "alpha_ratio": 0.875,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8844
+        }
+      },
+      "source_annotation_id": 55373,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_009_0002-verso-55379",
+      "image_id": 49804,
+      "category_id": 1012,
+      "bbox": [
+        87.49999731088822,
+        54.16666748016839,
+        2370.833260471209,
+        512.5000076969778
+      ],
+      "segmentation": [
+        [
+          87.49999731088822,
+          54.16666748016839,
+          2458.3332577820975,
+          54.16666748016839,
+          2458.3332577820975,
+          566.6666751771462,
+          87.49999731088822,
+          566.6666751771462
+        ]
+      ],
+      "area": 1215052.0642397457,
+      "iscrowd": 0,
+      "text": "L'prospect de la village de Chabac en primes\nCest dans cette village qu'il se penoula la première\nbataille de la grande précure en Sept, 1941, -",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          635.52001953125,
+          243.83999633789062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 110,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 5
+          },
+          "alpha_ratio": 0.9244,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9489
+        }
+      },
+      "source_annotation_id": 55379,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_016_0002-verso-55381",
+      "image_id": 49811,
+      "category_id": 1012,
+      "bbox": [
+        587.4999983193591,
+        495.8333259267586,
+        1370.833329411838,
+        66.66666567082468
+      ],
+      "segmentation": [
+        [
+          587.4999983193591,
+          495.8333259267586,
+          1958.333327731197,
+          495.8333259267586,
+          1958.333327731197,
+          562.4999915975833,
+          587.4999983193591,
+          562.4999915975833
+        ]
+      ],
+      "area": 91388.88726232247,
+      "iscrowd": 0,
+      "text": "PEASANTS GIRLS OF SOUTHERN SERBIA.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_016_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          853.4400024414062,
+          653.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9158
+        }
+      },
+      "source_annotation_id": 55381,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_016__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_016__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_016_0002-verso-55382",
+      "image_id": 49811,
+      "category_id": 1012,
+      "bbox": [
+        570.8333317003702,
+        637.499990477261,
+        2791.6666586806423,
+        337.49999495854996
+      ],
+      "segmentation": [
+        [
+          570.8333317003702,
+          637.499990477261,
+          3362.4999903810126,
+          637.499990477261,
+          3362.4999903810126,
+          974.9999854358109,
+          570.8333317003702,
+          974.9999854358109
+        ]
+      ],
+      "area": 942187.4832306688,
+      "iscrowd": 0,
+      "text": "Serbian peasant girls of the Kossor district, are here seen with thei hand made gay clothes, and gold embroideries, their town shoes also should be noticed, which begin to replace, the ancient Opanak sandal the peasants used to wear on festive occasions.\nN.Y. 933.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_016_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          853.4400024414062,
+          653.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 209,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 9
+          },
+          "alpha_ratio": 0.9457,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9515
+        }
+      },
+      "source_annotation_id": 55382,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_016__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_016__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_018_0002-verso-55384",
+      "image_id": 49813,
+      "category_id": 1013,
+      "bbox": [
+        1200.000018022192,
+        629.1666784317667,
+        1008.3333484769809,
+        129.16666908201833
+      ],
+      "segmentation": [
+        [
+          1200.000018022192,
+          629.1666784317667,
+          2208.333366499173,
+          629.1666784317667,
+          2208.333366499173,
+          758.333347513785,
+          1200.000018022192,
+          758.333347513785
+        ]
+      ],
+      "area": 130243.05994708966,
+      "iscrowd": 0,
+      "text": "SKaters' SERBILIAN COSTUMES",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_018_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          975.3599853515625,
+          783.3599853515625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 24,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.96,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.895
+        }
+      },
+      "source_annotation_id": 55384,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_018__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_018__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_018_0002-verso-55385",
+      "image_id": 49813,
+      "category_id": 1012,
+      "bbox": [
+        625.0000093865584,
+        716.6666800679727,
+        2475.000037170771,
+        275.00000514236166
+      ],
+      "segmentation": [
+        [
+          625.0000093865584,
+          716.6666800679727,
+          3100.0000465573294,
+          716.6666800679727,
+          3100.0000465573294,
+          991.6666852103344,
+          625.0000093865584,
+          991.6666852103344
+        ]
+      ],
+      "area": 680625.0229493073,
+      "iscrowd": 0,
+      "text": "Rehearsing a Serbian tableau for the National Council of Girls(\nClub ice cornival at the Westminster Ice Clubs\nKOKOKOKOKOK",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_018_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          975.3599853515625,
+          783.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 103,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9904,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9321
+        }
+      },
+      "source_annotation_id": 55385,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_018__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_018__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_019_0002-verso-55387",
+      "image_id": 49814,
+      "category_id": 1012,
+      "bbox": [
+        245.833326105744,
+        2262.4999401532773,
+        2016.6666073759336,
+        91.66666424193758
+      ],
+      "segmentation": [
+        [
+          245.833326105744,
+          2262.4999401532773,
+          2262.4999334816775,
+          2262.4999401532773,
+          2262.4999334816775,
+          2354.166604395215,
+          245.833326105744,
+          2354.166604395215
+        ]
+      ],
+      "area": 184861.10078625707,
+      "iscrowd": 0,
+      "text": "THE AUSTRIAN - SERVIAN WAR. A SERVIAN STREET SCENE",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_019_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          830.4000244140625,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 40,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9083
+        }
+      },
+      "source_annotation_id": 55387,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_019__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_019__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_022_0002-verso-55388",
+      "image_id": 49817,
+      "category_id": 1012,
+      "bbox": [
+        491.6666834195332,
+        758.3333699512098,
+        2654.166757103751,
+        295.83334761832907
+      ],
+      "segmentation": [
+        [
+          491.6666834195332,
+          758.3333699512098,
+          3145.833440523284,
+          758.3333699512098,
+          3145.833440523284,
+          1054.1667175695388,
+          491.6666834195332,
+          1054.1667175695388
+        ]
+      ],
+      "area": 785191.0368912872,
+      "iscrowd": 0,
+      "text": "PREPARING FOR THE WEEDING OF KING ALEXANDER OF SERBIA AND PRINCES\nMARIE OF RUMANIA TO TAKE PLACE IN BELGRADE ON THURSDAY (JUNE 8TH).\nWOMEN AS WELL AS MEN ACT IN THE GREAT REBUILDING OF BELGRADE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_022_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          788.1599731445312,
+          606.719970703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 155,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 4
+          },
+          "alpha_ratio": 0.9688,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9878
+        }
+      },
+      "source_annotation_id": 55388,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_022__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_022__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_026_0002-verso-55389",
+      "image_id": 49821,
+      "category_id": 1012,
+      "bbox": [
+        408.3333258625035,
+        441.6666788424547,
+        529.1666569850811,
+        54.166668159923695
+      ],
+      "segmentation": [
+        [
+          408.3333258625035,
+          441.6666788424547,
+          937.4999828475845,
+          441.6666788424547,
+          937.4999828475845,
+          495.8333470023784,
+          408.3333258625035,
+          495.8333470023784
+        ]
+      ],
+      "area": 28663.194710207055,
+      "iscrowd": 0,
+      "text": "correspondance",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_026_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          533.760009765625,
+          354.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55389,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_026__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_026__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_026_0002-verso-55390",
+      "image_id": 49821,
+      "category_id": 1012,
+      "bbox": [
+        1466.6666398326656,
+        441.6666788424547,
+        199.99999634081803,
+        62.50000172298888
+      ],
+      "segmentation": [
+        [
+          1466.6666398326656,
+          441.6666788424547,
+          1666.6666361734838,
+          441.6666788424547,
+          1666.6666361734838,
+          504.1666805654436,
+          1466.6666398326656,
+          504.1666805654436
+        ]
+      ],
+      "area": 12500.000115898896,
+      "iscrowd": 0,
+      "text": "ADRES",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_026_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          533.760009765625,
+          354.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 5,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55390,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_026__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_026__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_032_0002-verso-55393",
+      "image_id": 49827,
+      "category_id": 1012,
+      "bbox": [
+        224.9999933849182,
+        2008.3332952179926,
+        2595.83325701489,
+        141.66666397803266
+      ],
+      "segmentation": [
+        [
+          224.9999933849182,
+          2008.3332952179926,
+          2820.833250399808,
+          2008.3332952179926,
+          2820.833250399808,
+          2149.9999591960254,
+          224.9999933849182,
+          2149.9999591960254
+        ]
+      ],
+      "area": 367743.0377645305,
+      "iscrowd": 0,
+      "text": "THE AUSTRIAN- SERVIAN WAR...A STREET SCENE IN SERVIA. MOVING DAY.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_032_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          830.4000244140625,
+          643.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 50,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.8929,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9066
+        }
+      },
+      "source_annotation_id": 55393,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_032__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_032__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_035_0002-verso-55395",
+      "image_id": 49830,
+      "category_id": 1012,
+      "bbox": [
+        270.8333253707349,
+        2012.4999318602545,
+        2058.333272817585,
+        91.66666356299297
+      ],
+      "segmentation": [
+        [
+          270.8333253707349,
+          2012.4999318602545,
+          2329.1665981883198,
+          2012.4999318602545,
+          2329.1665981883198,
+          2104.1665954232476,
+          270.8333253707349,
+          2104.1665954232476
+        ]
+      ],
+      "area": 188680.5436198838,
+      "iscrowd": 0,
+      "text": "THE AUSTRIAN - SERVIAN WAR....A SERVIAN STREET SCENE",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          830.4000244140625,
+          648.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 40,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.8889,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9004
+        }
+      },
+      "source_annotation_id": 55395,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_038_0001-recto-55396",
+      "image_id": 49833,
+      "category_id": 1013,
+      "bbox": [
+        345.8333409700888,
+        3620.8333007665597,
+        1237.5000273267033,
+        129.16666550490604
+      ],
+      "segmentation": [
+        [
+          345.8333409700888,
+          3620.8333007665597,
+          1583.333368296792,
+          3620.8333007665597,
+          1583.333368296792,
+          3749.999966271466,
+          345.8333409700888,
+          3749.999966271466
+        ]
+      ],
+      "area": 159843.75209202035,
+      "iscrowd": 0,
+      "text": "A MAN DESERTED SERBIAN VILLAGE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_190_038_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          663.3599853515625,
+          1085.760009765625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.963,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8954
+        }
+      },
+      "source_annotation_id": 55396,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_038__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_038__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_047_0002-verso-55397",
+      "image_id": 49842,
+      "category_id": 1012,
+      "bbox": [
+        216.6666646738572,
+        424.99999703068437,
+        1045.8333237141953,
+        79.16666611355886
+      ],
+      "segmentation": [
+        [
+          216.6666646738572,
+          424.99999703068437,
+          1262.4999883880525,
+          424.99999703068437,
+          1262.4999883880525,
+          504.1666631442432,
+          216.6666646738572,
+          504.1666631442432
+        ]
+      ],
+      "area": 82795.13754891523,
+      "iscrowd": 0,
+      "text": "Medvedov grad kraj Zagrebba",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_047_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          530.8800048828125,
+          349.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 24,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55397,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_047__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_047__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_048_0002-verso-55398",
+      "image_id": 49843,
+      "category_id": 1012,
+      "bbox": [
+        1112.5000463808842,
+        162.4999930931668,
+        45.833335244156274,
+        1024.9999564338214
+      ],
+      "segmentation": [
+        [
+          1112.5000463808842,
+          162.4999930931668,
+          1158.3333816250406,
+          162.4999930931668,
+          1158.3333816250406,
+          1187.499949526988,
+          1112.5000463808842,
+          1187.499949526988
+        ]
+      ],
+      "area": 46979.16662847691,
+      "iscrowd": 0,
+      "text": "roto-Material oil 11. Giresburg I Kinaus, Zagreb, Juliščva 1",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_048_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          527.0399780273438,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 45,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 4
+          },
+          "alpha_ratio": 0.8654,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8832
+        }
+      },
+      "source_annotation_id": 55398,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_048__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_048__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_051_0002-verso-55400",
+      "image_id": 49846,
+      "category_id": 1012,
+      "bbox": [
+        41.66666894954965,
+        112.50000469020176,
+        70.83333721423442,
+        1250.000052113353
+      ],
+      "segmentation": [
+        [
+          41.66666894954965,
+          112.50000469020176,
+          112.50000616378406,
+          112.50000469020176,
+          112.50000616378406,
+          1362.5000568035548,
+          41.66666894954965,
+          1362.5000568035548
+        ]
+      ],
+      "area": 88541.67520915573,
+      "iscrowd": 0,
+      "text": "ИЗДАНИь КИЯжаре, НикOLE ГерMANови́ф-Орхид",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_051_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          534.719970703125,
+          351.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "non_latin",
+          "language_confidence": 0.8,
+          "dominant_script": "cyrillic",
+          "script_counts": {
+            "latin": 6,
+            "cjk": 0,
+            "cyrillic": 29,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9211,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9701
+        }
+      },
+      "source_annotation_id": 55400,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_051__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_051__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_051_0002-verso-55401",
+      "image_id": 49846,
+      "category_id": 1012,
+      "bbox": [
+        429.16669018036146,
+        304.16667934758254,
+        362.50001986108197,
+        62.500002605667646
+      ],
+      "segmentation": [
+        [
+          429.16669018036146,
+          304.16667934758254,
+          791.6667100414434,
+          304.16667934758254,
+          791.6667100414434,
+          366.6666819532502,
+          429.16669018036146,
+          366.6666819532502
+        ]
+      ],
+      "area": 22656.252185872196,
+      "iscrowd": 0,
+      "text": "Correspondance",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_051_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          534.719970703125,
+          351.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55401,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_051__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_051__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_051_0002-verso-55402",
+      "image_id": 49846,
+      "category_id": 1012,
+      "bbox": [
+        1558.333418713157,
+        300.0000125072047,
+        175.00000958810855,
+        54.16666892491196
+      ],
+      "segmentation": [
+        [
+          1558.333418713157,
+          300.0000125072047,
+          1733.3334283012655,
+          300.0000125072047,
+          1733.3334283012655,
+          354.16668143211666,
+          1558.333418713157,
+          354.16668143211666
+        ]
+      ],
+      "area": 9479.167581215495,
+      "iscrowd": 0,
+      "text": "Adresse",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_051_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          534.719970703125,
+          351.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 7,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55402,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_051__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_051__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_053_0002-verso-55404",
+      "image_id": 49848,
+      "category_id": 1012,
+      "bbox": [
+        158.3333420082887,
+        491.66667714465285,
+        991.6667209992818,
+        70.83333484287371
+      ],
+      "segmentation": [
+        [
+          158.3333420082887,
+          491.66667714465285,
+          1150.0000630075706,
+          491.66667714465285,
+          1150.0000630075706,
+          562.5000119875266,
+          158.3333420082887,
+          562.5000119875266
+        ]
+      ],
+      "area": 70243.06090107675,
+      "iscrowd": 0,
+      "text": "Ohrid, Sv. Jovan Vladimir",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_053_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          534.719970703125,
+          343.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9091,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8886
+        }
+      },
+      "source_annotation_id": 55404,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_053__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_053__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_054_0002-verso-55405",
+      "image_id": 49849,
+      "category_id": 1012,
+      "bbox": [
+        404.1666592720698,
+        291.6666615156481,
+        354.1666601868653,
+        62.49999889621031
+      ],
+      "segmentation": [
+        [
+          404.1666592720698,
+          291.6666615156481,
+          758.3333194589351,
+          291.6666615156481,
+          758.3333194589351,
+          354.1666604118584,
+          404.1666592720698,
+          354.1666604118584
+        ]
+      ],
+      "area": 22135.41587075357,
+      "iscrowd": 0,
+      "text": "Correspondance",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_054_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          533.760009765625,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55405,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_054__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_054__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_054_0002-verso-55406",
+      "image_id": 49849,
+      "category_id": 1012,
+      "bbox": [
+        45.8333324947708,
+        112.49999801317855,
+        83.33333180867419,
+        1237.499978144964
+      ],
+      "segmentation": [
+        [
+          45.8333324947708,
+          112.49999801317855,
+          129.16666430344497,
+          112.49999801317855,
+          129.16666430344497,
+          1349.9999761581425,
+          45.8333324947708,
+          1349.9999761581425
+        ]
+      ],
+      "area": 103124.99629198134,
+      "iscrowd": 0,
+      "text": "7.зДане къ各级е, НикOLE Германоввил-Орхил",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_054_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          533.760009765625,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "non_latin",
+          "language_confidence": 0.8,
+          "dominant_script": "cyrillic",
+          "script_counts": {
+            "latin": 3,
+            "cjk": 2,
+            "cyrillic": 27,
+            "arabic": 0,
+            "digit": 1,
+            "other": 3
+          },
+          "alpha_ratio": 0.8889,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9661
+        }
+      },
+      "source_annotation_id": 55406,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_054__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_054__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_054_0002-verso-55407",
+      "image_id": 49849,
+      "category_id": 1012,
+      "bbox": [
+        1537.4999718700387,
+        295.8333281087288,
+        170.83333020778207,
+        54.16666571004893
+      ],
+      "segmentation": [
+        [
+          1537.4999718700387,
+          295.8333281087288,
+          1708.333302077821,
+          295.8333281087288,
+          1708.333302077821,
+          349.99999381877774,
+          1537.4999718700387,
+          349.99999381877774
+        ]
+      ],
+      "area": 9253.471889499335,
+      "iscrowd": 0,
+      "text": "Adresse",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_054_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          533.760009765625,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 7,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55407,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_054__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_054__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_055_0002-verso-55408",
+      "image_id": 49850,
+      "category_id": 1013,
+      "bbox": [
+        975.0000534194619,
+        116.66666988291257,
+        287.5000157518926,
+        45.833334596858506
+      ],
+      "segmentation": [
+        [
+          975.0000534194619,
+          116.66666988291257,
+          1262.5000691713544,
+          116.66666988291257,
+          1262.5000691713544,
+          162.50000447977106,
+          975.0000534194619,
+          162.50000447977106
+        ]
+      ],
+      "area": 13177.084418558585,
+      "iscrowd": 0,
+      "text": "DOPISNICA",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_055_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          534.719970703125,
+          354.239990234375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 9,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55408,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_055__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_055__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_055_0002-verso-55409",
+      "image_id": 49850,
+      "category_id": 1012,
+      "bbox": [
+        383.3333543358568,
+        245.8333401104229,
+        491.6666936046859,
+        45.833334596858506
+      ],
+      "segmentation": [
+        [
+          383.3333543358568,
+          245.8333401104229,
+          875.0000479405428,
+          245.8333401104229,
+          875.0000479405428,
+          291.6666747072814,
+          383.3333543358568,
+          291.6666747072814
+        ]
+      ],
+      "area": 22534.724078114683,
+      "iscrowd": 0,
+      "text": "Mostar, Cuprija Narenta",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_055_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          534.719970703125,
+          354.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.894
+        }
+      },
+      "source_annotation_id": 55409,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_055__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_055__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_056_0002-verso-55411",
+      "image_id": 49851,
+      "category_id": 1012,
+      "bbox": [
+        1095.8332779988034,
+        287.4999877802182,
+        58.333330387769,
+        841.6666308928127
+      ],
+      "segmentation": [
+        [
+          1095.8332779988034,
+          287.4999877802182,
+          1154.1666083865723,
+          287.4999877802182,
+          1154.1666083865723,
+          1129.1666186730308,
+          1095.8332779988034,
+          1129.1666186730308
+        ]
+      ],
+      "area": 49097.21765623087,
+      "iscrowd": 0,
+      "text": "Depose Ljubo Tošović Dubrovnik-Raguse",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_056_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          531.8400268554688,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 33,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9706,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8963
+        }
+      },
+      "source_annotation_id": 55411,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_056__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_056__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_057_0002-verso-55412",
+      "image_id": 49852,
+      "category_id": 1012,
+      "bbox": [
+        141.66666666666669,
+        83.33332979136759,
+        337.5,
+        91.66666277050436
+      ],
+      "segmentation": [
+        [
+          141.66666666666669,
+          83.33332979136759,
+          479.1666666666667,
+          83.33332979136759,
+          479.1666666666667,
+          174.99999256187195,
+          141.66666666666669,
+          174.99999256187195
+        ]
+      ],
+      "area": 30937.498685045222,
+      "iscrowd": 0,
+      "text": "王一19",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_057_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          528.0,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "cjk",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 2,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 0
+          },
+          "alpha_ratio": 0.5,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8375
+        }
+      },
+      "source_annotation_id": 55412,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_057__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_057__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_057_0002-verso-55413",
+      "image_id": 49852,
+      "category_id": 1012,
+      "bbox": [
+        708.3333333333334,
+        83.33332979136759,
+        262.5,
+        87.49999628093597
+      ],
+      "segmentation": [
+        [
+          708.3333333333334,
+          83.33332979136759,
+          970.8333333333334,
+          83.33332979136759,
+          970.8333333333334,
+          170.83332607230358,
+          708.3333333333334,
+          170.83332607230358
+        ]
+      ],
+      "area": 22968.749023745695,
+      "iscrowd": 0,
+      "text": "Worin",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_057_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          528.0,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 5,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55413,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_057__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_057__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_057_0002-verso-55414",
+      "image_id": 49852,
+      "category_id": 1012,
+      "bbox": [
+        1229.1666666666667,
+        79.16666330179922,
+        483.33333333333337,
+        124.9999946870514
+      ],
+      "segmentation": [
+        [
+          1229.1666666666667,
+          79.16666330179922,
+          1712.5,
+          79.16666330179922,
+          1712.5,
+          204.1666579888506,
+          1229.1666666666667,
+          204.1666579888506
+        ]
+      ],
+      "area": 60416.664098741516,
+      "iscrowd": 0,
+      "text": "Cannabis",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_057_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          528.0,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 8,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55414,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_057__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_057__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_058_0001-recto-55415",
+      "image_id": 49853,
+      "category_id": 1012,
+      "bbox": [
+        116.66667305873904,
+        1250.0000395168927,
+        316.6666840165774,
+        75.00000237101357
+      ],
+      "segmentation": [
+        [
+          116.66667305873904,
+          1250.0000395168927,
+          433.3333570753164,
+          1250.0000395168927,
+          433.3333570753164,
+          1325.0000418879063,
+          116.66667305873904,
+          1325.0000418879063
+        ]
+      ],
+      "area": 23750.00205206431,
+      "iscrowd": 0,
+      "text": "JABLANAC",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_190_058_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          534.719970703125,
+          347.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 8,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55415,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_058__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_058__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_059_0001-recto-55416",
+      "image_id": 49854,
+      "category_id": 1012,
+      "bbox": [
+        462.4999841054286,
+        2079.166573080932,
+        549.9999810983475,
+        58.333330707681455
+      ],
+      "segmentation": [
+        [
+          462.4999841054286,
+          2079.166573080932,
+          1012.4999652037761,
+          2079.166573080932,
+          1012.4999652037761,
+          2137.499903788613,
+          462.4999841054286,
+          2137.499903788613
+        ]
+      ],
+      "area": 32083.330786628452,
+      "iscrowd": 0,
+      "text": "Ljubljana - grajski stolp",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_190_059_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          355.20001220703125,
+          542.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9545,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8943
+        }
+      },
+      "source_annotation_id": 55416,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_059__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_059__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_059_0002-verso-55417",
+      "image_id": 49854,
+      "category_id": 1012,
+      "bbox": [
+        1016.666648065825,
+        175.00000553236498,
+        49.99999908520451,
+        1062.500033589359
+      ],
+      "segmentation": [
+        [
+          1016.666648065825,
+          175.00000553236498,
+          1066.6666471510296,
+          175.00000553236498,
+          1066.6666471510296,
+          1237.500039121724,
+          1016.666648065825,
+          1237.500039121724
+        ]
+      ],
+      "area": 53125.000707497704,
+      "iscrowd": 0,
+      "text": "Založba Vekoslav Kramarič, trgovina разglednie, Ljubljana",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_059_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          533.760009765625,
+          347.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 47,
+            "cjk": 0,
+            "cyrillic": 3,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8952
+        }
+      },
+      "source_annotation_id": 55417,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_059__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_059__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_061_0002-verso-55418",
+      "image_id": 49856,
+      "category_id": 1012,
+      "bbox": [
+        1037.5000334592269,
+        179.16666541489636,
+        45.83333481145179,
+        1108.333325589824
+      ],
+      "segmentation": [
+        [
+          1037.5000334592269,
+          179.16666541489636,
+          1083.3333682706786,
+          179.16666541489636,
+          1083.3333682706786,
+          1287.4999910047204,
+          1037.5000334592269,
+          1287.4999910047204
+        ]
+      ],
+      "area": 50798.61239444821,
+      "iscrowd": 0,
+      "text": "Foro-Material od t. t. Griestadi i Knaus, Zagreb, Jurisieva 1",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_061_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          529.9199829101562,
+          349.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 46,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 5
+          },
+          "alpha_ratio": 0.8846,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8856
+        }
+      },
+      "source_annotation_id": 55418,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_061__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_061__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_065_0001-recto-55421",
+      "image_id": 49860,
+      "category_id": 1012,
+      "bbox": [
+        1891.6666581369557,
+        1224.999978365722,
+        266.66666546424045,
+        54.16666571004893
+      ],
+      "segmentation": [
+        [
+          1891.6666581369557,
+          1224.999978365722,
+          2158.3333236011963,
+          1224.999978365722,
+          2158.3333236011963,
+          1279.1666440757708,
+          1891.6666581369557,
+          1279.1666440757708
+        ]
+      ],
+      "area": 14444.444124214962,
+      "iscrowd": 0,
+      "text": "VRBNIK.O.KRK.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_190_065_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          541.4400024414062,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.7692,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8712
+        }
+      },
+      "source_annotation_id": 55421,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_065__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_065__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_065_0002-verso-55422",
+      "image_id": 49860,
+      "category_id": 1012,
+      "bbox": [
+        1087.499945086265,
+        237.50000850695432,
+        99.99999495046114,
+        920.8333663164368
+      ],
+      "segmentation": [
+        [
+          1087.499945086265,
+          237.50000850695432,
+          1187.499940036726,
+          237.50000850695432,
+          1187.499940036726,
+          1158.333374823391,
+          1087.499945086265,
+          1158.333374823391
+        ]
+      ],
+      "area": 92083.33198185981,
+      "iscrowd": 0,
+      "text": "FOTOS O'S, AFANASJJEV\n\nREPRODURUKUIA ZAATPAKIA, MA, MA",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_065_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          531.8400268554688,
+          340.79998779296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 43,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9149,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8894
+        }
+      },
+      "source_annotation_id": 55422,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_065__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_065__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_068_0002-verso-55423",
+      "image_id": 49863,
+      "category_id": 1012,
+      "bbox": [
+        1029.1666956940926,
+        154.16666226142962,
+        45.83333462605271,
+        1104.1666351156446
+      ],
+      "segmentation": [
+        [
+          1029.1666956940926,
+          154.16666226142962,
+          1075.0000303201452,
+          154.16666226142962,
+          1075.0000303201452,
+          1258.3332973770741,
+          1029.1666956940926,
+          1258.3332973770741
+        ]
+      ],
+      "area": 50607.63887017798,
+      "iscrowd": 0,
+      "text": "Photo=Material od t. l. Griesbadi i Knaus, Zajreb, Jurisšíeva 1",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_068_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          519.3599853515625,
+          341.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 48,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 5
+          },
+          "alpha_ratio": 0.8889,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9111
+        }
+      },
+      "source_annotation_id": 55423,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_068__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_068__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_071_0002-verso-55424",
+      "image_id": 49866,
+      "category_id": 1012,
+      "bbox": [
+        170.83332623702745,
+        49.99999911696824,
+        229.16665714723194,
+        120.83333119933992
+      ],
+      "segmentation": [
+        [
+          170.83332623702745,
+          49.99999911696824,
+          399.9999833842594,
+          49.99999911696824,
+          399.9999833842594,
+          170.83333031630815,
+          170.83332623702745,
+          170.83333031630815
+        ]
+      ],
+      "area": 27690.970582917056,
+      "iscrowd": 0,
+      "text": "11-29",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_071_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          528.9600219726562,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 1
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 55424,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_071__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_071__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_080_0002-verso-55425",
+      "image_id": 49875,
+      "category_id": 1012,
+      "bbox": [
+        1054.1666764688036,
+        162.4999930931668,
+        54.16666717033379,
+        1112.4999527147575
+      ],
+      "segmentation": [
+        [
+          1054.1666764688036,
+          162.4999930931668,
+          1108.3333436391374,
+          162.4999930931668,
+          1108.3333436391374,
+          1274.9999458079242,
+          1054.1666764688036,
+          1274.9999458079242
+        ]
+      ],
+      "area": 60260.41466571234,
+      "iscrowd": 0,
+      "text": "Photo-Material od t. t. Griesbadh i Knaus, Zagreb, Jurisšiceva 1",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_080_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          525.1199951171875,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 49,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 5
+          },
+          "alpha_ratio": 0.8909,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9114
+        }
+      },
+      "source_annotation_id": 55425,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_080__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_080__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_087_0002-verso-55426",
+      "image_id": 49882,
+      "category_id": 1012,
+      "bbox": [
+        1091.6666666666667,
+        125.00000088058572,
+        50.0,
+        1108.3333411411934
+      ],
+      "segmentation": [
+        [
+          1091.6666666666667,
+          125.00000088058572,
+          1141.6666666666667,
+          125.00000088058572,
+          1141.6666666666667,
+          1233.3333420217791,
+          1091.6666666666667,
+          1233.3333420217791
+        ]
+      ],
+      "area": 55416.66705705967,
+      "iscrowd": 0,
+      "text": "Photo-Material od t. t. Griesbadi i Knaus, Zagreb, Jurisíčeva 1",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_087_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          528.0,
+          346.55999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 48,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 5
+          },
+          "alpha_ratio": 0.8889,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9111
+        }
+      },
+      "source_annotation_id": 55426,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_087__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_087__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_090_0002-verso-55428",
+      "image_id": 49885,
+      "category_id": 1012,
+      "bbox": [
+        120.83333781939272,
+        66.6666663199548,
+        2454.16675778008,
+        595.833330234596
+      ],
+      "segmentation": [
+        [
+          120.83333781939272,
+          66.6666663199548,
+          2575.000095599473,
+          66.6666663199548,
+          2575.000095599473,
+          662.4999965545508,
+          120.83333781939272,
+          662.4999965545508
+        ]
+      ],
+      "area": 1462274.3522391461,
+      "iscrowd": 0,
+      "text": "et. II. - 11 Manastie ; Wiski Decané\npoglet sa jugo-istocune otrane\nLe manastère Visiski Dettchani en\nnieille Serbie.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_090_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          657.5999755859375,
+          469.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 91,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 6
+          },
+          "alpha_ratio": 0.9192,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9066
+        }
+      },
+      "source_annotation_id": 55428,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_090__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_090__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_092_0002-verso-55429",
+      "image_id": 49887,
+      "category_id": 1013,
+      "bbox": [
+        224.9999958834203,
+        112.49999921400469,
+        604.1666556128879,
+        66.66666620089167
+      ],
+      "segmentation": [
+        [
+          224.9999958834203,
+          112.49999921400469,
+          829.1666514963082,
+          112.49999921400469,
+          829.1666514963082,
+          179.16666541489636,
+          224.9999958834203,
+          179.16666541489636
+        ]
+      ],
+      "area": 40277.77675945347,
+      "iscrowd": 0,
+      "text": "VI. Triglavsko jezero.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_092_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          533.760009765625,
+          349.44000244140625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 18,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8875
+        }
+      },
+      "source_annotation_id": 55429,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_092__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_092__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_097_0001-recto-55430",
+      "image_id": 49892,
+      "category_id": 1012,
+      "bbox": [
+        1045.8333182642589,
+        3466.666840957072,
+        1533.333311240029,
+        154.1666744175621
+      ],
+      "segmentation": [
+        [
+          1045.8333182642589,
+          3466.666840957072,
+          2579.166629504288,
+          3466.666840957072,
+          2579.166629504288,
+          3620.8335153746343,
+          1045.8333182642589,
+          3620.8335153746343
+        ]
+      ],
+      "area": 236388.89736754395,
+      "iscrowd": 0,
+      "text": "188445 & Photograph from Underwood & S/ Underwood, N?Y.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_190_097_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1016.6400146484375,
+          1165.43994140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 35,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 6
+          },
+          "alpha_ratio": 0.7447,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8931
+        }
+      },
+      "source_annotation_id": 55430,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_097__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_097__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_097_0001-recto-55431",
+      "image_id": 49892,
+      "category_id": 1012,
+      "bbox": [
+        1045.8333182642589,
+        3670.8335178884377,
+        1533.333311240029,
+        141.66667378911112
+      ],
+      "segmentation": [
+        [
+          1045.8333182642589,
+          3670.8335178884377,
+          2579.166629504288,
+          3670.8335178884377,
+          2579.166629504288,
+          3812.5001916775486,
+          1045.8333182642589,
+          3812.5001916775486
+        ]
+      ],
+      "area": 217222.23001341877,
+      "iscrowd": 0,
+      "text": "WHEN THE GERMANS ENTERED BELGRADE THRU\nAUSTRALIA ACROSS THE SAVE RIVER.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_190_097_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1016.6400146484375,
+          1165.43994140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1818,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 60,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9836,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9161
+        }
+      },
+      "source_annotation_id": 55431,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_097__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_097__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_097_0001-recto-55432",
+      "image_id": 49892,
+      "category_id": 1012,
+      "bbox": [
+        1037.4999850509978,
+        3870.8335279436537,
+        2008.3333043959074,
+        825.0000414777647
+      ],
+      "segmentation": [
+        [
+          1037.4999850509978,
+          3870.8335279436537,
+          3045.833289446905,
+          3870.8335279436537,
+          3045.833289446905,
+          4695.833569421418,
+          1037.4999850509978,
+          4695.833569421418
+        ]
+      ],
+      "area": 1656875.0594278,
+      "iscrowd": 0,
+      "text": "The Save or San River is the boundary separating Austria from Serbia. Across this river there was a magnificent steel bridge connecting Semlin, Austria with Belgrade, Serbia. When the Teuton forces made their assault on the Serbs, the latter in an effort to checkmate the entry into Belgrade of the Austrian and German troops, destroyed this magnificent steel structure and the invaders were compelled to resort to the use of small beats on getting into Belgrade. Many Austrian and German soldiers lost their lives in crossing the river in small boats. 11/30/1915.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_190_097_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          1016.6400146484375,
+          1165.43994140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 454,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 11
+          },
+          "alpha_ratio": 0.9598,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.995
+        }
+      },
+      "source_annotation_id": 55432,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_097__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_097__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_110_0002-verso-55436",
+      "image_id": 49905,
+      "category_id": 1012,
+      "bbox": [
+        50.000000261639045,
+        458.3333459685851,
+        1833.333342926765,
+        658.3333514821495
+      ],
+      "segmentation": [
+        [
+          50.000000261639045,
+          458.3333459685851,
+          1883.3333431884041,
+          458.3333459685851,
+          1883.3333431884041,
+          1116.6666974507345,
+          50.000000261639045,
+          1116.6666974507345
+        ]
+      ],
+      "area": 1206944.4840329501,
+      "iscrowd": 0,
+      "text": "Pégrade japes sa lubination\nL'aspect pas d'interieur de Palais\nRoyale afores les petrante aueinrichtement et\naltenmannel.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_110_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          466.55999755859375,
+          354.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 103,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9717,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9215
+        }
+      },
+      "source_annotation_id": 55436,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_110__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_110__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_114_0002-verso-55439",
+      "image_id": 49909,
+      "category_id": 1012,
+      "bbox": [
+        416.66666346211593,
+        1025.0,
+        587.4999954815835,
+        112.50000000000001
+      ],
+      "segmentation": [
+        [
+          416.66666346211593,
+          1025.0,
+          1004.1666589436994,
+          1025.0,
+          1004.1666589436994,
+          1137.5,
+          416.66666346211593,
+          1137.5
+        ]
+      ],
+      "area": 66093.74949167814,
+      "iscrowd": 0,
+      "text": "Kerrison",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_114_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          476.1600036621094,
+          408.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 8,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55439,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_114__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_114__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_118_0002-verso-55440",
+      "image_id": 49913,
+      "category_id": 1012,
+      "bbox": [
+        441.66667402397957,
+        174.99999858264962,
+        2833.33338053119,
+        116.66666572176642
+      ],
+      "segmentation": [
+        [
+          441.66667402397957,
+          174.99999858264962,
+          3275.0000545551693,
+          174.99999858264962,
+          3275.0000545551693,
+          291.66666430441603,
+          441.66667402397957,
+          291.66666430441603
+        ]
+      ],
+      "area": 330555.55838475475,
+      "iscrowd": 0,
+      "text": "Einquartierung öst.ung.truppen im Parlamentssaal inn Cetinje.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_118_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          879.3599853515625,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 53,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9464,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8933
+        }
+      },
+      "source_annotation_id": 55440,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_118__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_118__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_190_118_0002-verso-55441",
+      "image_id": 49913,
+      "category_id": 1012,
+      "bbox": [
+        2095.8333682458656,
+        629.1666615709546,
+        791.6666798543031,
+        204.16666501309123
+      ],
+      "segmentation": [
+        [
+          2095.8333682458656,
+          629.1666615709546,
+          2887.500048100169,
+          629.1666615709546,
+          2887.500048100169,
+          833.3333265840458,
+          2095.8333682458656,
+          833.3333265840458
+        ]
+      ],
+      "area": 161631.94582783963,
+      "iscrowd": 0,
+      "text": "1364317",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_190_118_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          879.3599853515625,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "unknown",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 0
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 55441,
+      "source_file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_118__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_190/SHDGR__GR_2_K_247_190_118__0002.jpg"
+    }
+  ]
 }

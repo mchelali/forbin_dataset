@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_230",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,6 +2903,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2544,6 +2932,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2570,6 +2961,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2596,6 +2990,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2622,6 +3019,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2648,6 +3048,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2674,6 +3077,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2700,9 +3106,5095 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_001_0002-verso-60539",
+      "image_id": 54697,
+      "category_id": 1012,
+      "bbox": [
+        274.99998944722563,
+        112.49999701411276,
+        2491.666571052135,
+        283.33332581332104
+      ],
+      "segmentation": [
+        [
+          274.99998944722563,
+          112.49999701411276,
+          2766.666560499361,
+          112.49999701411276,
+          2766.666560499361,
+          395.8333228274338,
+          274.99998944722563,
+          395.8333228274338
+        ]
+      ],
+      "area": 705972.176394075,
+      "iscrowd": 0,
+      "text": "charrie a sonateur experimente avec grand success à l'exportation d'agriculture de Margate.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_001_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          699.8400268554688,
+          505.9200134277344
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 77,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9625,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9153
+        }
+      },
+      "source_annotation_id": 60539,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_001__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_001__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_004_0002-verso-60540",
+      "image_id": 54700,
+      "category_id": 1012,
+      "bbox": [
+        237.49999515698048,
+        566.6666859099473,
+        2654.166612543799,
+        725.0000246200797
+      ],
+      "segmentation": [
+        [
+          237.49999515698048,
+          566.6666859099473,
+          2891.6666077007794,
+          566.6666859099473,
+          2891.6666077007794,
+          1291.666710530027,
+          237.49999515698048,
+          1291.666710530027
+        ]
+      ],
+      "area": 1924270.8594400478,
+      "iscrowd": 0,
+      "text": "A NEW METHOD OF PLOUGHING.\n\nThe plough is of the usual variety but the power is obtained from two large traction engines. On the underside of each engine is a two large drum around which is wound a stout cable and when the engine is in motion the plough is drawn from one side of the field to the other. To draw the plough back to the other side the engine on the far side is used.\n\nPhoto shows: - One of the engines showing the drum and cable",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_004_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          838.0800170898438,
+          647.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 347,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.983,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9979
+        }
+      },
+      "source_annotation_id": 60540,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_004__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_006_0002-verso-60541",
+      "image_id": 54702,
+      "category_id": 1013,
+      "bbox": [
+        562.4999853029647,
+        579.1666908125202,
+        1041.6666394499346,
+        120.83333837095745
+      ],
+      "segmentation": [
+        [
+          562.4999853029647,
+          579.1666908125202,
+          1604.1666247528992,
+          579.1666908125202,
+          1604.1666247528992,
+          700.0000291834776,
+          562.4999853029647,
+          700.0000291834776
+        ]
+      ],
+      "area": 125868.05751439207,
+      "iscrowd": 0,
+      "text": "TERMINATE A OTCOMM ARE V",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          840.9600219726562,
+          644.1599731445312
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 60541,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_006_0002-verso-60542",
+      "image_id": 54702,
+      "category_id": 1012,
+      "bbox": [
+        437.4999885689725,
+        708.3333628642333,
+        2499.9999346798427,
+        675.0000281412106
+      ],
+      "segmentation": [
+        [
+          437.4999885689725,
+          708.3333628642333,
+          2937.4999232488153,
+          708.3333628642333,
+          2937.4999232488153,
+          1383.333391005444,
+          437.4999885689725,
+          1383.333391005444
+        ]
+      ],
+      "area": 1687500.0262619185,
+      "iscrowd": 0,
+      "text": "The plough is of the usual variety but the power is obtained from two large traction engines. On the underside of each engine is a large drum around which is wound a stout cable and when the engine is an motion the plough is drawn across from one side of the field to the other. To draw the plough back to the other side the engine on the far side of the field is used.\n\nPhoto Shows-- The plough at 42h work",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          840.9600219726562,
+          644.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 318,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 5
+          },
+          "alpha_ratio": 0.9785,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9973
+        }
+      },
+      "source_annotation_id": 60542,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_010_0002-verso-60543",
+      "image_id": 54706,
+      "category_id": 1012,
+      "bbox": [
+        724.9999932297295,
+        316.6666771766178,
+        1970.8333149290922,
+        208.33334024777486
+      ],
+      "segmentation": [
+        [
+          724.9999932297295,
+          316.6666771766178,
+          2695.8333081588216,
+          316.6666771766178,
+          2695.8333081588216,
+          525.0000174243926,
+          724.9999932297295,
+          525.0000174243926
+        ]
+      ],
+      "area": 410590.2875707726,
+      "iscrowd": 0,
+      "text": "L.1624. Harvesting in France. Loads of wheat for threshing being brought in by troops.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          784.3200073242188,
+          588.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 65,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 4
+          },
+          "alpha_ratio": 0.8904,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.928
+        }
+      },
+      "source_annotation_id": 60543,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_013_0001-recto-60545",
+      "image_id": 54709,
+      "category_id": 1012,
+      "bbox": [
+        308.33333333333337,
+        1804.16663039605,
+        845.8333333333334,
+        154.16666356732992
+      ],
+      "segmentation": [
+        [
+          308.33333333333337,
+          1804.16663039605,
+          1154.1666666666667,
+          1804.16663039605,
+          1154.1666666666667,
+          1958.3332939633801,
+          308.33333333333337,
+          1958.3332939633801
+        ]
+      ],
+      "area": 130399.30293403323,
+      "iscrowd": 0,
+      "text": "Jiuangulai Harrow,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_013_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          648.0,
+          485.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 16,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9412,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8926
+        }
+      },
+      "source_annotation_id": 60545,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_013__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_013__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_014_0002-verso-60546",
+      "image_id": 54710,
+      "category_id": 1012,
+      "bbox": [
+        1620.8334009069808,
+        616.6666529099615,
+        504.166687685719,
+        116.66666406404676
+      ],
+      "segmentation": [
+        [
+          1620.8334009069808,
+          616.6666529099615,
+          2125.0000885926997,
+          616.6666529099615,
+          2125.0000885926997,
+          733.3333169740083,
+          1620.8334009069808,
+          733.3333169740083
+        ]
+      ],
+      "area": 58819.445584512956,
+      "iscrowd": 0,
+      "text": "No: 14.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          644.1599731445312,
+          492.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 2,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 2
+          },
+          "alpha_ratio": 0.3333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8167
+        }
+      },
+      "source_annotation_id": 60546,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_016_0002-verso-60547",
+      "image_id": 54712,
+      "category_id": 1012,
+      "bbox": [
+        466.6666680862776,
+        554.1666553011935,
+        2100.0000063882494,
+        304.1666604284746
+      ],
+      "segmentation": [
+        [
+          466.6666680862776,
+          554.1666553011935,
+          2566.666674474527,
+          554.1666553011935,
+          2566.666674474527,
+          858.3333157296681,
+          466.6666680862776,
+          858.3333157296681
+        ]
+      ],
+      "area": 638749.9888428891,
+      "iscrowd": 0,
+      "text": "THE CAMBRIDGE CATTLE SHOW.\nMaking butter at the show yesterday (July 4th), where\nthe Duke of York watched the judging.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_016_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          802.5599975585938,
+          595.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 93,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 5
+          },
+          "alpha_ratio": 0.9394,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9341
+        }
+      },
+      "source_annotation_id": 60547,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_016__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_016__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_017_0002-verso-60548",
+      "image_id": 54713,
+      "category_id": 1012,
+      "bbox": [
+        254.1666728904011,
+        75.0000005408361,
+        2533.3333953666206,
+        329.1666690403362
+      ],
+      "segmentation": [
+        [
+          254.1666728904011,
+          75.0000005408361,
+          2787.5000682570217,
+          75.0000005408361,
+          2787.5000682570217,
+          404.1666695811723,
+          254.1666728904011,
+          404.1666695811723
+        ]
+      ],
+      "area": 833888.9153214756,
+      "iscrowd": 0,
+      "text": "Charrue d'moteur, expérimentée avec grand succès à l'exportation d'agriculture de Margate",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_017_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          697.9199829101562,
+          507.8399963378906
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 75,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9494,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9137
+        }
+      },
+      "source_annotation_id": 60548,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_017__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_017__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_018_0002-verso-60549",
+      "image_id": 54714,
+      "category_id": 1012,
+      "bbox": [
+        154.1666720008996,
+        75.0000005408361,
+        2683.33342617782,
+        487.5000035154347
+      ],
+      "segmentation": [
+        [
+          154.1666720008996,
+          75.0000005408361,
+          2837.50009817872,
+          75.0000005408361,
+          2837.50009817872,
+          562.5000040562708,
+          154.1666720008996,
+          562.5000040562708
+        ]
+      ],
+      "area": 1308125.0546947706,
+      "iscrowd": 0,
+      "text": "Charrue a moteur expérimentée avec grand success à l'exposition d'agquaculture de Margate.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_018_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          705.5999755859375,
+          507.8399963378906
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 76,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.962,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9153
+        }
+      },
+      "source_annotation_id": 60549,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_018__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_018__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_019_0002-verso-60550",
+      "image_id": 54715,
+      "category_id": 1012,
+      "bbox": [
+        379.16665846509346,
+        620.8333026758434,
+        2441.66661385214,
+        479.1666430048455
+      ],
+      "segmentation": [
+        [
+          379.16665846509346,
+          620.8333026758434,
+          2820.8332723172334,
+          620.8333026758434,
+          2820.8332723172334,
+          1099.9999456806888,
+          379.16665846509346,
+          1099.9999456806888
+        ]
+      ],
+      "area": 1169965.1946965384,
+      "iscrowd": 0,
+      "text": "Kent County Agricultural Society SHOW AT MARGATE. 10026.\n\nThe Kent County Agricultural Society's fourth annual show was opened yesterday at Margate,\n\nPhoto shows. Visitors to the Kent Show at Margate watching the operation of a new mching or tiling the ground.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_019_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          593.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 207,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 6
+          },
+          "alpha_ratio": 0.9495,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.952
+        }
+      },
+      "source_annotation_id": 60550,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_019__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_019__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_029_0001-recto-60564",
+      "image_id": 54725,
+      "category_id": 1012,
+      "bbox": [
+        1054.1666589481893,
+        3249.9999185696824,
+        2054.1666516263135,
+        470.83332153637707
+      ],
+      "segmentation": [
+        [
+          1054.1666589481893,
+          3249.9999185696824,
+          3108.333310574503,
+          3249.9999185696824,
+          3108.333310574503,
+          3720.8332401060597,
+          1054.1666589481893,
+          3720.8332401060597
+        ]
+      ],
+      "area": 967170.1075744751,
+      "iscrowd": 0,
+      "text": "CREDIT WARNING. OVER\nI55206 F.C. PHOTO FROM UNDERWOD & UNDERWOOD, N.Y.\nRUMELY OIL FULL TRACTOR OWNED BY LEE GROVER OF\nPRATT, KANSAS.\n6/24/17",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_029_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1000.3200073242188,
+          974.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 97,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 10,
+            "other": 11
+          },
+          "alpha_ratio": 0.822,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9111
+        }
+      },
+      "source_annotation_id": 60564,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_029__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_029__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_031_0001-recto-60568",
+      "image_id": 54727,
+      "category_id": 1012,
+      "bbox": [
+        1216.6666607898512,
+        3375.000093950717,
+        1945.833323934454,
+        408.33334470021026
+      ],
+      "segmentation": [
+        [
+          1216.6666607898512,
+          3375.000093950717,
+          3162.4999847243052,
+          3375.000093950717,
+          3162.4999847243052,
+          3783.3334386509273,
+          1216.6666607898512,
+          3783.3334386509273
+        ]
+      ],
+      "area": 794548.6293912833,
+      "iscrowd": 0,
+      "text": "COPYRIGHT WARNING..............OVER, 225911 COPYRIGHT UNDERWOOD & UNDERWOOD, N.Y. FARM TRACTORS DOING THEIR BIT IN INCREASESING FOOD PRODUCTION.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_031_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1010.8800048828125,
+          1227.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 102,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 20
+          },
+          "alpha_ratio": 0.7969,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8996
+        }
+      },
+      "source_annotation_id": 60568,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_031__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_031__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_031_0001-recto-60569",
+      "image_id": 54727,
+      "category_id": 1012,
+      "bbox": [
+        1204.1666608502296,
+        3845.8334403907556,
+        1891.6666575294264,
+        737.5000205299716
+      ],
+      "segmentation": [
+        [
+          1204.1666608502296,
+          3845.8334403907556,
+          3095.833318379656,
+          3845.8334403907556,
+          3095.833318379656,
+          4583.333460920727,
+          1204.1666608502296,
+          4583.333460920727
+        ]
+      ],
+      "area": 1395104.1987638148,
+      "iscrowd": 0,
+      "text": "Farm tractors by speeding up farm work wherever they are employed are doing their bit to increase the food supply of the nation and a sufficient supply of food for our allies and ourselves will have an important bearing on the outcome of the war. This tractor is proving its worth to an interested group of spectators at the National Farm Tractor Demonstration at Fromont, Nebraska. It is one of the smallest of the \"caterpillar\" type.\n8/22/10.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_031_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1010.8800048828125,
+          1227.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 354,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 9
+          },
+          "alpha_ratio": 0.962,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9952
+        }
+      },
+      "source_annotation_id": 60569,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_031__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_031__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_031_0002-verso-60570",
+      "image_id": 54727,
+      "category_id": 1012,
+      "bbox": [
+        537.5000155186365,
+        3179.1666414206434,
+        1541.6667111774846,
+        1062.4999915626004
+      ],
+      "segmentation": [
+        [
+          537.5000155186365,
+          3179.1666414206434,
+          2079.1667266961213,
+          3179.1666414206434,
+          2079.1667266961213,
+          4241.666632983244,
+          537.5000155186365,
+          4241.666632983244
+        ]
+      ],
+      "area": 1638020.8676184192,
+      "iscrowd": 0,
+      "text": "WARNING: Copyright license to reproduce this photograph in your publication is granted on the condition that the price quoted is paid and that the following copyright line be printed underneath each reproduction.\n\nCOPYRIGHT BY UNDERWOOD & UNDERWOOD, N.Y.\n\nNOT TO BE SYNTHETED, BUT NOT FOR YOUR",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_031_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1014.719970703125,
+          1229.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 239,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9715,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9964
+        }
+      },
+      "source_annotation_id": 60570,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_031__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_031__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_032_0001-recto-60571",
+      "image_id": 54728,
+      "category_id": 1012,
+      "bbox": [
+        1333.3333689922847,
+        3699.9999415099524,
+        1941.6667185950146,
+        224.99999644317276
+      ],
+      "segmentation": [
+        [
+          1333.3333689922847,
+          3699.9999415099524,
+          3275.0000875872993,
+          3699.9999415099524,
+          3275.0000875872993,
+          3924.999937953125,
+          1333.3333689922847,
+          3924.999937953125
+        ]
+      ],
+      "area": 436875.0047777052,
+      "iscrowd": 0,
+      "text": "COPYRIGHT WARNING..............OVER.\n225909 COPYRIGHT UNDER/ood & UNDER/ood, N.Y.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_032_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1004.1599731445312,
+          1235.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 47,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 21
+          },
+          "alpha_ratio": 0.6351,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8794
+        }
+      },
+      "source_annotation_id": 60571,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_032__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_032__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_032_0001-recto-60572",
+      "image_id": 54728,
+      "category_id": 1012,
+      "bbox": [
+        1308.3333683236795,
+        4179.166600601894,
+        1920.83338470451,
+        604.1666571159269
+      ],
+      "segmentation": [
+        [
+          1308.3333683236795,
+          4179.166600601894,
+          3229.1667530281893,
+          4179.166600601894,
+          3229.1667530281893,
+          4783.333257717821,
+          1308.3333683236795,
+          4783.333257717821
+        ]
+      ],
+      "area": 1160503.484913595,
+      "iscrowd": 0,
+      "text": "The usefulness ofm tractor on the forms of the United States was shown at the National Farm Tractor Demonstration at Fromont, Nebraska. This tractor with exhaust and air intake pipes that give it the appearance of sporting a submarine periscope is a handy thing to have around the farm. It is shown at work cultivating a rather extensive field.\n8/22/17.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_032_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1004.1599731445312,
+          1235.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 282,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 7
+          },
+          "alpha_ratio": 0.9592,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9866
+        }
+      },
+      "source_annotation_id": 60572,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_032__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_032__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_034_0001-recto-60575",
+      "image_id": 54730,
+      "category_id": 1012,
+      "bbox": [
+        950.0000114501183,
+        3441.66670442056,
+        2029.1666911237176,
+        362.50000397649967
+      ],
+      "segmentation": [
+        [
+          950.0000114501183,
+          3441.66670442056,
+          2979.166702573836,
+          3441.66670442056,
+          2979.166702573836,
+          3804.1667083970597,
+          950.0000114501183,
+          3804.1667083970597
+        ]
+      ],
+      "area": 735572.9336013283,
+      "iscrowd": 0,
+      "text": "225903 COPYRIGHT UNDERWOOD & UNDERWOOD, N.Y.\nMACHINES THAT WILL HELP WIN THE WAR SHOWN AT\nNATIONAL FARM TRACTOR DEMONS TRATION AT FROMONT,IEB.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_034_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1012.7999877929688,
+          1335.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 109,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 6
+          },
+          "alpha_ratio": 0.9008,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9043
+        }
+      },
+      "source_annotation_id": 60575,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_034__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_034__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_034_0001-recto-60576",
+      "image_id": 54730,
+      "category_id": 1012,
+      "bbox": [
+        916.6666777150264,
+        3812.500041821807,
+        2029.1666911237176,
+        895.8333431603153
+      ],
+      "segmentation": [
+        [
+          916.6666777150264,
+          3812.500041821807,
+          2945.833368838744,
+          3812.500041821807,
+          2945.833368838744,
+          4708.333384982122,
+          916.6666777150264,
+          4708.333384982122
+        ]
+      ],
+      "area": 1817795.1807389148,
+      "iscrowd": 0,
+      "text": "Raising a plantful supply of food will be one of the factors that will help the United States win the war and this tractor being demonstrated at the National Farm Tractor Demonstration at Fremont, Nebraska, is one of the instruments that will be a powerful factor in raising that supply of food. The long pipe rising out of the front of the tractor is not really a periscope though it looks like one. It is really the air intake and the exhaust pipe. The man riding behind on the binder drives the tractor with lines as though it were a tour of horses. 8/22/17.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_034_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1012.7999877929688,
+          1335.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 444,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 9
+          },
+          "alpha_ratio": 0.9694,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9962
+        }
+      },
+      "source_annotation_id": 60576,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_034__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_034__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_036_0002-verso-60579",
+      "image_id": 54732,
+      "category_id": 1013,
+      "bbox": [
+        1170.833350495196,
+        441.6666639535835,
+        1112.5000163068232,
+        83.33333282143086
+      ],
+      "segmentation": [
+        [
+          1170.833350495196,
+          441.6666639535835,
+          2283.3333668020196,
+          441.6666639535835,
+          2283.3333668020196,
+          524.9999967750143,
+          1170.833350495196,
+          524.9999967750143
+        ]
+      ],
+      "area": 92708.33412274376,
+      "iscrowd": 0,
+      "text": "MIDDLESEX PLOUGHING MATCHES.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_036_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          999.3599853515625,
+          794.8800048828125
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 25,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8952
+        }
+      },
+      "source_annotation_id": 60579,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_036__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_036__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_036_0002-verso-60580",
+      "image_id": 54732,
+      "category_id": 1012,
+      "bbox": [
+        683.3333433495095,
+        562.4999965446583,
+        2391.666701723283,
+        249.99999846429256
+      ],
+      "segmentation": [
+        [
+          683.3333433495095,
+          562.4999965446583,
+          3075.0000450727925,
+          562.4999965446583,
+          3075.0000450727925,
+          812.4999950089509,
+          683.3333433495095,
+          812.4999950089509
+        ]
+      ],
+      "area": 597916.6717579204,
+      "iscrowd": 0,
+      "text": "Ploughing matches were held by the Middlesex Agricultural and Market Garden Society at Harlington yesterday (Oct 7th). There were classes for both horse-drawn and tractor ploughs.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_036_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          999.3599853515625,
+          794.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 148,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 5
+          },
+          "alpha_ratio": 0.961,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9368
+        }
+      },
+      "source_annotation_id": 60580,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_036__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_036__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_037_0002-verso-60581",
+      "image_id": 54733,
+      "category_id": 1012,
+      "bbox": [
+        991.666664116678,
+        470.833322829903,
+        2158.333327783358,
+        145.83333008005846
+      ],
+      "segmentation": [
+        [
+          991.666664116678,
+          470.833322829903,
+          3149.999991900036,
+          470.833322829903,
+          3149.999991900036,
+          616.6666529099615,
+          991.666664116678,
+          616.6666529099615
+        ]
+      ],
+      "area": 314756.9366134215,
+      "iscrowd": 0,
+      "text": "#4. Showing the wood splitter, in operation",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_037_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          949.4400024414062,
+          766.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 33,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 3
+          },
+          "alpha_ratio": 0.8919,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9198
+        }
+      },
+      "source_annotation_id": 60581,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_037__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_037__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_038_0002-verso-60582",
+      "image_id": 54734,
+      "category_id": 1012,
+      "bbox": [
+        970.8333432687735,
+        500.00000161776813,
+        1916.6666862816987,
+        270.8333342096244
+      ],
+      "segmentation": [
+        [
+          970.8333432687735,
+          500.00000161776813,
+          2887.5000295504724,
+          500.00000161776813,
+          2887.5000295504724,
+          770.8333358273926,
+          970.8333432687735,
+          770.8333358273926
+        ]
+      ],
+      "area": 519097.2292141846,
+      "iscrowd": 0,
+      "text": "# 3. General view of the \"Farm\" lookings toward the entrance,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_038_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          954.239990234375,
+          754.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 45,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 5
+          },
+          "alpha_ratio": 0.8824,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9186
+        }
+      },
+      "source_annotation_id": 60582,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_038__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_038__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_039_0002-verso-60583",
+      "image_id": 54735,
+      "category_id": 1012,
+      "bbox": [
+        941.6666909791767,
+        404.16667060478545,
+        1483.3333716309155,
+        295.8333362158739
+      ],
+      "segmentation": [
+        [
+          941.6666909791767,
+          404.16667060478545,
+          2425.0000626100923,
+          404.16667060478545,
+          2425.0000626100923,
+          700.0000068206593,
+          941.6666909791767,
+          700.0000068206593
+        ]
+      ],
+      "area": 438819.4600499144,
+      "iscrowd": 0,
+      "text": "#9. Showing the Hay Unloads\nin operation.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_039_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          945.5999755859375,
+          751.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 31,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 3
+          },
+          "alpha_ratio": 0.8857,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.919
+        }
+      },
+      "source_annotation_id": 60583,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_039__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_039__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_041_0002-verso-60588",
+      "image_id": 54737,
+      "category_id": 1012,
+      "bbox": [
+        904.1666526458454,
+        462.500004506507,
+        1866.666637720455,
+        312.5000030449372
+      ],
+      "segmentation": [
+        [
+          904.1666526458454,
+          462.500004506507,
+          2770.8332903663004,
+          462.500004506507,
+          2770.8332903663004,
+          775.0000075514442,
+          904.1666526458454,
+          775.0000075514442
+        ]
+      ],
+      "area": 583333.3299715249,
+      "iscrowd": 0,
+      "text": "#7. Showing site \"work Shop Section\" of the Farm.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_041_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          944.6400146484375,
+          751.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 35,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 5
+          },
+          "alpha_ratio": 0.8537,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9067
+        }
+      },
+      "source_annotation_id": 60588,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_041__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_041__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_042_0001-recto-60589",
+      "image_id": 54738,
+      "category_id": 1012,
+      "bbox": [
+        566.666661374961,
+        4120.833213171588,
+        2141.6666466671318,
+        445.8333203330231
+      ],
+      "segmentation": [
+        [
+          566.666661374961,
+          4120.833213171588,
+          2708.3333080420925,
+          4120.833213171588,
+          2708.3333080420925,
+          4566.666533504611,
+          566.666661374961,
+          4566.666533504611
+        ]
+      ],
+      "area": 954826.3521300987,
+      "iscrowd": 0,
+      "text": "CREDIT WARNING. OVER\n155203 F.C. PHOTO FROM UNDERFOOD & UNDERFOOD, N.Y.\nADVANCE-RUMELY \"8-16\" TRACTOR PILLING SILO.\n6/24/17",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_042_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          784.3200073242188,
+          1172.1600341796875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 14,
+            "other": 14
+          },
+          "alpha_ratio": 0.7383,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.884
+        }
+      },
+      "source_annotation_id": 60589,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_042__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_042__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_044_0001-recto-60591",
+      "image_id": 54740,
+      "category_id": 1012,
+      "bbox": [
+        1116.6666775472422,
+        3366.66665000932,
+        2054.1666866820538,
+        420.833331251165
+      ],
+      "segmentation": [
+        [
+          1116.6666775472422,
+          3366.66665000932,
+          3170.833364229296,
+          3366.66665000932,
+          3170.833364229296,
+          3787.499981260485,
+          1116.6666775472422,
+          3787.499981260485
+        ]
+      ],
+      "area": 864461.8097015768,
+      "iscrowd": 0,
+      "text": "CREDIT WARNING. OVER\nI55210 F.C. PHOTO FROM UNDERWOOD & UNDERWOOD, N.Y.\nRUMELY OIL FULL TRACTOR ROAD GRADING. 6/24/17",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_044_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1002.239990234375,
+          986.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 80,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 10,
+            "other": 10
+          },
+          "alpha_ratio": 0.8,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8917
+        }
+      },
+      "source_annotation_id": 60591,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_044__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_044__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_047_0002-verso-60593",
+      "image_id": 54743,
+      "category_id": 1013,
+      "bbox": [
+        608.3333370974981,
+        658.3333629895516,
+        1354.1666750458005,
+        62.50000281546376
+      ],
+      "segmentation": [
+        [
+          608.3333370974981,
+          658.3333629895516,
+          1962.5000121432986,
+          658.3333629895516,
+          1962.5000121432986,
+          720.8333658050153,
+          608.3333370974981,
+          720.8333658050153
+        ]
+      ],
+      "area": 84635.42100296973,
+      "iscrowd": 0,
+      "text": "DEVON'S SPLENDID SHOW AT PLYMOUTH.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_047_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 28,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8917
+        }
+      },
+      "source_annotation_id": 60593,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_047__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_047__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_047_0002-verso-60594",
+      "image_id": 54743,
+      "category_id": 1012,
+      "bbox": [
+        375.00000232037553,
+        787.5000354748433,
+        2504.1666821616186,
+        279.16667924240477
+      ],
+      "segmentation": [
+        [
+          375.00000232037553,
+          787.5000354748433,
+          2879.1666844819943,
+          787.5000354748433,
+          2879.1666844819943,
+          1066.6667147172482,
+          375.00000232037553,
+          1066.6667147172482
+        ]
+      ],
+      "area": 699079.8969285296,
+      "iscrowd": 0,
+      "text": "The agricultural implement section, one of the most interesting sections of the show now being held at Plymouth. Seldom has this Dvon Show produced a finer selection of farm stock of all descriptions.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_047_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 165,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9821,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9561
+        }
+      },
+      "source_annotation_id": 60594,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_047__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_047__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_049_0002-verso-60596",
+      "image_id": 54745,
+      "category_id": 1013,
+      "bbox": [
+        475.0000027706135,
+        462.50000350059025,
+        912.5000053224943,
+        91.66666736047735
+      ],
+      "segmentation": [
+        [
+          475.0000027706135,
+          462.50000350059025,
+          1387.5000080931077,
+          462.50000350059025,
+          1387.5000080931077,
+          554.1666708610676,
+          475.0000027706135,
+          554.1666708610676
+        ]
+      ],
+      "area": 83645.83445433089,
+      "iscrowd": 0,
+      "text": "AN 81ST ANNUAL MEETING.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 17,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 1
+          },
+          "alpha_ratio": 0.85,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8813
+        }
+      },
+      "source_annotation_id": 60596,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_049_0002-verso-60597",
+      "image_id": 54745,
+      "category_id": 1012,
+      "bbox": [
+        475.0000027706135,
+        545.8333374646605,
+        2695.83334905778,
+        308.33333566706017
+      ],
+      "segmentation": [
+        [
+          475.0000027706135,
+          545.8333374646605,
+          3170.8333518283935,
+          545.8333374646605,
+          3170.8333518283935,
+          854.1666731317207,
+          475.0000027706135,
+          854.1666731317207
+        ]
+      ],
+      "area": 831215.2889174875,
+      "iscrowd": 0,
+      "text": "The superiority of the tractor over the hand plough was demonstrated yesterday (Oct 7th), when the Middlesex Agricultural and Market yesterday (Oct 7th), when the Middlesex Agricultural and Market held its 81st annual meeting at Dawley Manor Farm, Harlington.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 209,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 8
+          },
+          "alpha_ratio": 0.9457,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9599
+        }
+      },
+      "source_annotation_id": 60597,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_049_0002-verso-60598",
+      "image_id": 54745,
+      "category_id": 1012,
+      "bbox": [
+        479.16666946158375,
+        875.0000066227383,
+        2337.5000136343347,
+        133.3333343425125
+      ],
+      "segmentation": [
+        [
+          479.16666946158375,
+          875.0000066227383,
+          2816.6666830959184,
+          875.0000066227383,
+          2816.6666830959184,
+          1008.3333409652507,
+          479.16666946158375,
+          1008.3333409652507
+        ]
+      ],
+      "area": 311666.6708435343,
+      "iscrowd": 0,
+      "text": "Photo Shows; - A ploughing match with 22 teams in one field.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.4444,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 44,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 3
+          },
+          "alpha_ratio": 0.898,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9317
+        }
+      },
+      "source_annotation_id": 60598,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_050_0002-verso-60599",
+      "image_id": 54746,
+      "category_id": 1012,
+      "bbox": [
+        345.83332081376585,
+        704.1666465454488,
+        2612.499905424472,
+        504.16665226035093
+      ],
+      "segmentation": [
+        [
+          345.83332081376585,
+          704.1666465454488,
+          2958.3332262382382,
+          704.1666465454488,
+          2958.3332262382382,
+          1208.3332988057996,
+          345.83332081376585,
+          1208.3332988057996
+        ]
+      ],
+      "area": 1317135.3313483396,
+      "iscrowd": 0,
+      "text": "WAVING SPADEWORK\nThe \"horti plow\" a new labour saving device for digging, which is more effective and speedy than a spade. By means of the handles, more effective and speedy than a spade. By means of the handles, a wire cable is wound on a drum and the machine moves forward.\nPhoto Shows:- The plough, which folds up, being wheeled home.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_050_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          809.280029296875,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 264,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 13
+          },
+          "alpha_ratio": 0.9531,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9941
+        }
+      },
+      "source_annotation_id": 60599,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_050__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_050__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_051_0002-verso-60600",
+      "image_id": 54747,
+      "category_id": 1012,
+      "bbox": [
+        183.33333888933086,
+        149.9999990498886,
+        2895.8334210928397,
+        270.8333316178544
+      ],
+      "segmentation": [
+        [
+          183.33333888933086,
+          149.9999990498886,
+          3079.1667599821703,
+          149.9999990498886,
+          3079.1667599821703,
+          420.833330667743,
+          183.33333888933086,
+          420.833330667743
+        ]
+      ],
+      "area": 784288.2132449029,
+      "iscrowd": 0,
+      "text": "North Dakota winter Hamming scene",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_051_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          966.719970703125,
+          770.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 60600,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_051__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_051__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_061_0001-recto-60604",
+      "image_id": 54757,
+      "category_id": 1012,
+      "bbox": [
+        454.166650225307,
+        2504.1667370006817,
+        1187.4999570111238,
+        137.50000386193426
+      ],
+      "segmentation": [
+        [
+          454.166650225307,
+          2504.1667370006817,
+          1641.6666072364308,
+          2504.1667370006817,
+          1641.6666072364308,
+          2641.666740862616,
+          454.166650225307,
+          2641.666740862616
+        ]
+      ],
+      "area": 163281.2486750763,
+      "iscrowd": 0,
+      "text": "AWL; 2; WATCH YOUR CREDIT LINE: PHOTO FROM:WIDE WORLD PHOTOS:",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_061_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          809.280029296875,
+          956.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 46,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 5
+          },
+          "alpha_ratio": 0.8846,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9056
+        }
+      },
+      "source_annotation_id": 60604,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_061__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_061__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_061_0001-recto-60605",
+      "image_id": 54757,
+      "category_id": 1012,
+      "bbox": [
+        1437.499947960834,
+        2683.3334086995656,
+        649.9999764692467,
+        75.0000021065096
+      ],
+      "segmentation": [
+        [
+          1437.499947960834,
+          2683.3334086995656,
+          2087.4999244300807,
+          2683.3334086995656,
+          2087.4999244300807,
+          2758.3334108060753,
+          1437.499947960834,
+          2758.3334108060753
+        ]
+      ],
+      "area": 48749.99960442469,
+      "iscrowd": 0,
+      "text": "BLUE GRASS PROFITS,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_061_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          809.280029296875,
+          956.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 16,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9412,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8926
+        }
+      },
+      "source_annotation_id": 60605,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_061__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_061__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_061_0001-recto-60606",
+      "image_id": 54757,
+      "category_id": 1012,
+      "bbox": [
+        666.6666425325607,
+        2720.8334097528204,
+        174.9999936647972,
+        62.50000175542466
+      ],
+      "segmentation": [
+        [
+          666.6666425325607,
+          2720.8334097528204,
+          841.6666361973579,
+          2720.8334097528204,
+          841.6666361973579,
+          2783.3334115082453,
+          666.6666425325607,
+          2783.3334115082453
+        ]
+      ],
+      "area": 10937.49991124913,
+      "iscrowd": 0,
+      "text": "82696",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_061_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          809.280029296875,
+          956.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "unknown",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 0
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 60606,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_061__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_061__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_061_0001-recto-60607",
+      "image_id": 54757,
+      "category_id": 1012,
+      "bbox": [
+        662.4999760167323,
+        2804.16674542672,
+        2474.9999104021317,
+        862.5000242248603
+      ],
+      "segmentation": [
+        [
+          662.4999760167323,
+          2804.16674542672,
+          3137.4998864188638,
+          2804.16674542672,
+          3137.4998864188638,
+          3666.66676965158,
+          662.4999760167323,
+          3666.66676965158
+        ]
+      ],
+      "area": 2134687.482678366,
+      "iscrowd": 0,
+      "text": "Growing wild in its native environment and costing nothing to raise, the seed of the famous Blue Grass of Central Kentucky nets the farmer a neat little profit at harvesting time. The nature of this grass is such that cattle can be raised and fattened on it the year round without destroying the seed. The seed which is merely a by product of grass used for grazing purposes and seldom raised especially for marketing when harvested sells in good years for an average of $325,00. Profit realized from this source alone on many of the large stock farms of Central Kentucky sometimes runs into thousands of dollars. Blue grass seed is in demand all over the United States and Europe for lawns and pasturage. In recent years the increase of golf courses in this country, which are almost all seeded with blue grass has greatly increased the demand for this seed. 6/21/22",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_061_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          809.280029296875,
+          956.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 694,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 10,
+            "other": 12
+          },
+          "alpha_ratio": 0.9693,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9962
+        }
+      },
+      "source_annotation_id": 60607,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_061__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_061__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_063_0001-recto-60611",
+      "image_id": 54759,
+      "category_id": 1012,
+      "bbox": [
+        508.3333313102371,
+        3254.1665924444824,
+        912.4999963683764,
+        124.99999714895579
+      ],
+      "segmentation": [
+        [
+          508.3333313102371,
+          3254.1665924444824,
+          1420.8333276786134,
+          3254.1665924444824,
+          1420.8333276786134,
+          3379.166589593438,
+          508.3333313102371,
+          3379.166589593438
+        ]
+      ],
+      "area": 114062.49694446921,
+      "iscrowd": 0,
+      "text": "WATCH YOUR CREDIT\nPHOTO FROM DIE WORLD PHOTOS",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_063_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          613.4400024414062,
+          1070.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 38,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.925
+        }
+      },
+      "source_annotation_id": 60611,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_063__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_063__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_063_0001-recto-60612",
+      "image_id": 54759,
+      "category_id": 1012,
+      "bbox": [
+        1045.8333291710615,
+        3433.3332550246523,
+        987.4999960698868,
+        137.49999686385135
+      ],
+      "segmentation": [
+        [
+          1045.8333291710615,
+          3433.3332550246523,
+          2033.3333252409484,
+          3433.3332550246523,
+          2033.3333252409484,
+          3570.8332518885036,
+          1045.8333291710615,
+          3570.8332518885036
+        ]
+      ],
+      "area": 135781.24636266267,
+      "iscrowd": 0,
+      "text": "DOING HER BIT TO VIPE OUT THE\nBOLL WEEVIL PLAGUE",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_063_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          613.4400024414062,
+          1070.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 39,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.91
+        }
+      },
+      "source_annotation_id": 60612,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_063__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_063__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_063_0001-recto-60613",
+      "image_id": 54759,
+      "category_id": 1012,
+      "bbox": [
+        520.8333312604888,
+        3641.6665836062452,
+        1762.4999929854941,
+        341.6666588738125
+      ],
+      "segmentation": [
+        [
+          520.8333312604888,
+          3641.6665836062452,
+          2283.333324245983,
+          3641.6665836062452,
+          2283.333324245983,
+          3983.333242480058,
+          520.8333312604888,
+          3983.333242480058
+        ]
+      ],
+      "area": 602187.4838684717,
+      "iscrowd": 0,
+      "text": "Miss Frances Cooper of Atlanta, Ga., armed with one of the hand sprays employed in the South's campaign against the boll weevil, which has been destroying the cotton crops. The sprayer is filled with calcium arsenate, an economic killer. 8/27/23",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_063_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          613.4400024414062,
+          1070.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 191,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 10
+          },
+          "alpha_ratio": 0.9272,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9742
+        }
+      },
+      "source_annotation_id": 60613,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_063__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_063__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_064_0002-verso-60614",
+      "image_id": 54760,
+      "category_id": 1012,
+      "bbox": [
+        495.8333409295345,
+        474.99999025816584,
+        2200.000033704153,
+        179.1666629921152
+      ],
+      "segmentation": [
+        [
+          495.8333409295345,
+          474.99999025816584,
+          2695.8333746336875,
+          474.99999025816584,
+          2695.8333746336875,
+          654.166653250281,
+          495.8333409295345,
+          654.166653250281
+        ]
+      ],
+      "area": 394166.66462131403,
+      "iscrowd": 0,
+      "text": "Aged pLough-boys examining motor-tractors at a ploughing match held at Stenwell, near Staines yesterday Oct 5TE",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_064_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          796.7999877929688,
+          595.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 92,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 3
+          },
+          "alpha_ratio": 0.9583,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8948
+        }
+      },
+      "source_annotation_id": 60614,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_064__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_064__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_066_0002-verso-60616",
+      "image_id": 54762,
+      "category_id": 1012,
+      "bbox": [
+        483.33331994032875,
+        666.6666855948124,
+        1074.9999702121104,
+        79.16666891438398
+      ],
+      "segmentation": [
+        [
+          483.33331994032875,
+          666.6666855948124,
+          1558.333290152439,
+          666.6666855948124,
+          1558.333290152439,
+          745.8333545091964,
+          483.33331994032875,
+          745.8333545091964
+        ]
+      ],
+      "area": 85104.16672475477,
+      "iscrowd": 0,
+      "text": "THE NORFOLK FARMERS STRIKE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          601.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 23,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9583,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9198
+        }
+      },
+      "source_annotation_id": 60616,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_066__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_066_0002-verso-60617",
+      "image_id": 54762,
+      "category_id": 1012,
+      "bbox": [
+        479.166653389119,
+        800.0000227137748,
+        2387.4999338431758,
+        216.66667281831403
+      ],
+      "segmentation": [
+        [
+          479.166653389119,
+          800.0000227137748,
+          2866.6665872322947,
+          800.0000227137748,
+          2866.6665872322947,
+          1016.6666955320889,
+          479.166653389119,
+          1016.6666955320889
+        ]
+      ],
+      "area": 517291.66701974574,
+      "iscrowd": 0,
+      "text": "There is no indication of a coming settlement of the Norfolk Farms strike. Vitally necessary work is being carried on with the greatest difficulty.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          601.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 122,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9839,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.948
+        }
+      },
+      "source_annotation_id": 60617,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_066__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_066_0002-verso-60618",
+      "image_id": 54762,
+      "category_id": 1012,
+      "bbox": [
+        479.166653389119,
+        1062.5000301667321,
+        2258.3332707556738,
+        154.16667104380036
+      ],
+      "segmentation": [
+        [
+          479.166653389119,
+          1062.5000301667321,
+          2737.4999241447927,
+          1062.5000301667321,
+          2737.4999241447927,
+          1216.6667012105324,
+          479.166653389119,
+          1216.6667012105324
+        ]
+      ],
+      "area": 348159.7224598597,
+      "iscrowd": 0,
+      "text": "Photo shows::Volunteer helpers with the plough--Cambridge undergraduates at work.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          601.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3636,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 68,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9315,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9278
+        }
+      },
+      "source_annotation_id": 60618,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_066__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_069_0002-verso-60620",
+      "image_id": 54765,
+      "category_id": 1012,
+      "bbox": [
+        545.8333149142924,
+        829.1666564137663,
+        2137.499927870473,
+        212.49999737237226
+      ],
+      "segmentation": [
+        [
+          545.8333149142924,
+          829.1666564137663,
+          2683.3332427847654,
+          829.1666564137663,
+          2683.3332427847654,
+          1041.6666537861386,
+          545.8333149142924,
+          1041.6666537861386
+        ]
+      ],
+      "area": 454218.72905592143,
+      "iscrowd": 0,
+      "text": "Henry Davies, who has won championships seven years in succession, He is sixty-five years of age and has been employed by one former for thirty years",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_069_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          795.8400268554688,
+          592.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 121,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9758,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9386
+        }
+      },
+      "source_annotation_id": 60620,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_069__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_069__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_070_0002-verso-60621",
+      "image_id": 54766,
+      "category_id": 1012,
+      "bbox": [
+        495.8333195939579,
+        458.333327665901,
+        2208.333272141157,
+        195.83333091179404
+      ],
+      "segmentation": [
+        [
+          495.8333195939579,
+          458.333327665901,
+          2704.166591735115,
+          458.333327665901,
+          2704.166591735115,
+          654.166658577695,
+          495.8333195939579,
+          654.166658577695
+        ]
+      ],
+      "area": 432465.2604467441,
+      "iscrowd": 0,
+      "text": "Aged plough-boys examining motor-tractors at a ploughing match held at Stanwell, near Staines yesterday Oct 5TH",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_070_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          592.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 92,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 3
+          },
+          "alpha_ratio": 0.9583,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8948
+        }
+      },
+      "source_annotation_id": 60621,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_070__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_070__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_080_0001-recto-60625",
+      "image_id": 54776,
+      "category_id": 1012,
+      "bbox": [
+        558.3333396864211,
+        2687.5000198489815,
+        1495.8333503539193,
+        187.5000013848127
+      ],
+      "segmentation": [
+        [
+          558.3333396864211,
+          2687.5000198489815,
+          2054.1666900403407,
+          2687.5000198489815,
+          2054.1666900403407,
+          2875.000021233794,
+          558.3333396864211,
+          2875.000021233794
+        ]
+      ],
+      "area": 280468.7552628089,
+      "iscrowd": 0,
+      "text": "MATCH YOUR CREDIT LINE(SLUG) AUTOMATIC FLOW\nRECOMAXENPHOTO BY UNDERMOOD & UNDERDOO D\nNEW YORK.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_080_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          858.239990234375,
+          991.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 77,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9506,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9022
+        }
+      },
+      "source_annotation_id": 60625,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_080__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_080__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_080_0001-recto-60626",
+      "image_id": 54776,
+      "category_id": 1013,
+      "bbox": [
+        850.000009671865,
+        2954.1666884851597,
+        591.6666733990432,
+        62.50000046160422
+      ],
+      "segmentation": [
+        [
+          850.000009671865,
+          2954.1666884851597,
+          1441.6666830709082,
+          2954.1666884851597,
+          1441.6666830709082,
+          3016.6666889467638,
+          850.000009671865,
+          3016.6666889467638
+        ]
+      ],
+      "area": 36979.167360556035,
+      "iscrowd": 0,
+      "text": "AN AUTOMATIC PIOW",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_080_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          858.239990234375,
+          991.6799926757812
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 15,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 60626,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_080__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_080__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_080_0001-recto-60627",
+      "image_id": 54776,
+      "category_id": 1012,
+      "bbox": [
+        550.0000062582656,
+        3083.3333561058084,
+        2483.3333615903507,
+        716.6666719597284
+      ],
+      "segmentation": [
+        [
+          550.0000062582656,
+          3083.3333561058084,
+          3033.333367848616,
+          3083.3333561058084,
+          3033.333367848616,
+          3800.0000280655368,
+          550.0000062582656,
+          3800.0000280655368
+        ]
+      ],
+      "area": 1779722.2556175215,
+      "iscrowd": 0,
+      "text": "C:25363 An automatic plow is the /atest. All the farmer has to do is to wind it up, so to speak, supply it with gasoline, and start it out upon the expanse of field to be plowed. The manless plow was invented by Prof. J.B. Davidson of the Iowa State College at Ames. The device consists of a two wheel tractor with a four horse power, single cylinder engine to furnish the power. Right and left hand plow bottoms are attached to the frame with their beams opposite and nearly at right angle to the tractor axle and so place that while one plow is in service the other is carried above the surface of the soil. This new invention is considered the greatest boon to the farmer in the way of labor saving devices that so far has been devised.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_080_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          858.239990234375,
+          991.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 579,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 15
+          },
+          "alpha_ratio": 0.9666,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9958
+        }
+      },
+      "source_annotation_id": 60627,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_080__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_080__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_080_0001-recto-60628",
+      "image_id": 54776,
+      "category_id": 1012,
+      "bbox": [
+        2429.1666943073396,
+        3812.5000281578577,
+        283.3333365572883,
+        79.16666725136535
+      ],
+      "segmentation": [
+        [
+          2429.1666943073396,
+          3812.5000281578577,
+          2712.500030864628,
+          3812.5000281578577,
+          2712.500030864628,
+          3891.666695409223,
+          2429.1666943073396,
+          3891.666695409223
+        ]
+      ],
+      "area": 22430.555976449956,
+      "iscrowd": 0,
+      "text": "9/11/24。",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_080_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          858.239990234375,
+          991.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "suspicious",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 3
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 60628,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_080__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_080__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_089_0001-recto-60640",
+      "image_id": 54785,
+      "category_id": 1012,
+      "bbox": [
+        645.8333429382404,
+        4141.666518201164,
+        1370.8333537205233,
+        129.1666620364548
+      ],
+      "segmentation": [
+        [
+          645.8333429382404,
+          4141.666518201164,
+          2016.6666966587636,
+          4141.666518201164,
+          2016.6666966587636,
+          4270.833180237619,
+          645.8333429382404,
+          4270.833180237619
+        ]
+      ],
+      "area": 177065.96850831874,
+      "iscrowd": 0,
+      "text": "COPYRIGHT BY UNDERWOOD & UNDERWOOD, N. Y.\nG-F19",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_089_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          820.7999877929688,
+          1225.9200439453125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 33,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 5
+          },
+          "alpha_ratio": 0.825,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9281
+        }
+      },
+      "source_annotation_id": 60640,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_089__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_089__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_089_0001-recto-60641",
+      "image_id": 54785,
+      "category_id": 1013,
+      "bbox": [
+        783.3333449831562,
+        4345.833177549109,
+        1441.6666881072981,
+        58.333331242269914
+      ],
+      "segmentation": [
+        [
+          783.3333449831562,
+          4345.833177549109,
+          2225.000033090454,
+          4345.833177549109,
+          2225.000033090454,
+          4404.166508791379,
+          783.3333449831562,
+          4404.166508791379
+        ]
+      ],
+      "area": 84097.22045830925,
+      "iscrowd": 0,
+      "text": "FOOD PRODUCTION AND CONSERVATION IN AMERICA",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_089_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          820.7999877929688,
+          1225.9200439453125
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 38,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9333
+        }
+      },
+      "source_annotation_id": 60641,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_089__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_089__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_089_0001-recto-60642",
+      "image_id": 54785,
+      "category_id": 1012,
+      "bbox": [
+        641.6666762096066,
+        4479.166506102868,
+        2075.0000308596373,
+        454.1666503862443
+      ],
+      "segmentation": [
+        [
+          641.6666762096066,
+          4479.166506102868,
+          2716.666707069244,
+          4479.166506102868,
+          2716.666707069244,
+          4933.333156489112,
+          641.6666762096066,
+          4933.333156489112
+        ]
+      ],
+      "area": 942395.8135668751,
+      "iscrowd": 0,
+      "text": "Breaking ground with a tractor. With the number of farm laborers reduced by military service, the tractor is a great national---yes, international-b-blessing. It does the work of two or three men with teams, and has the advantage of being able to work twenty-four hours a day. It does not have to stop and rest. By changing operators twice or three times a day a farmer can keep his tractor going continuously.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_089_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          820.7999877929688,
+          1225.9200439453125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 326,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 14
+          },
+          "alpha_ratio": 0.9588,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9949
+        }
+      },
+      "source_annotation_id": 60642,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_089__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_089__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_090_0002-verso-60643",
+      "image_id": 54786,
+      "category_id": 1012,
+      "bbox": [
+        1320.8333430885693,
+        1433.3333422023243,
+        829.1666727906161,
+        316.66666862609486
+      ],
+      "segmentation": [
+        [
+          1320.8333430885693,
+          1433.3333422023243,
+          2150.0000158791854,
+          1433.3333422023243,
+          2150.0000158791854,
+          1750.0000108284191,
+          1320.8333430885693,
+          1750.0000108284191
+        ]
+      ],
+      "area": 262569.44800838764,
+      "iscrowd": 0,
+      "text": "W. H. BALLOU, PHOTO.\n48W, 20\nNEW YORK.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_090_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          991.6799926757812,
+          789.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 6
+          },
+          "alpha_ratio": 0.6774,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9097
+        }
+      },
+      "source_annotation_id": 60643,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_090__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_090__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0001-recto-60644",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1879.1667260737288,
+        1208.3333201305381,
+        883.3333612586042,
+        216.66666429926892
+      ],
+      "segmentation": [
+        [
+          1879.1667260737288,
+          1208.3333201305381,
+          2762.500087332333,
+          1208.3333201305381,
+          2762.500087332333,
+          1424.999984429807,
+          1879.1667260737288,
+          1424.999984429807
+        ]
+      ],
+      "area": 191388.89284816282,
+      "iscrowd": 0,
+      "text": "Vincent Astor and a gas tractor on his experiment farm hauling six 14-inch plows, a cutaway disc harrow and pulverizer.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          695.0399780273438,
+          893.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 95,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 3
+          },
+          "alpha_ratio": 0.95,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9188
+        }
+      },
+      "source_annotation_id": 60644,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0001-recto-60645",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1870.8333924769495,
+        1429.166651050947,
+        891.6666948553835,
+        1304.1666524167533
+      ],
+      "segmentation": [
+        [
+          1870.8333924769495,
+          1429.166651050947,
+          2762.500087332333,
+          1429.166651050947,
+          2762.500087332333,
+          2733.3333034677003,
+          1870.8333924769495,
+          2733.3333034677003
+        ]
+      ],
+      "area": 1162881.9685010563,
+      "iscrowd": 0,
+      "text": "Rinebeck, N. Y., July 7.—Owners of farms located for hundred miles around this vicinity are anxiously awaiting the first news of the result of experiments on the six hundred acres of virgin soil on the estate of young Vincent Astor, which he set aside for a truck farm. The beautiful stretch of land was turned into a farm inside of thirty days by the huge agricultural machines Mr. Astor ordered from the West. The 60 horse power caterpillar gas tractor hauled six 14-inch gang plows, behind to which was attached a cutaway disc harrow with six rows of revolving discs, 14 discs to to the row, and behind that a 14-foot, 3-section pulverizer, These machines at one working converted the virgin sod into pulverized soil, ready to plant, at an average speed of 20 acres a day. As fast as the soil was prepared it was planted, so that the time the plowing was done crops were already up over a large part of the surface.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          695.0399780273438,
+          893.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 718,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 12,
+            "other": 23
+          },
+          "alpha_ratio": 0.9535,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9942
+        }
+      },
+      "source_annotation_id": 60645,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60646",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        108.33333486605054,
+        3004.1665924118975,
+        1758.3333582105124,
+        520.8333204597603
+      ],
+      "segmentation": [
+        [
+          108.33333486605054,
+          3004.1665924118975,
+          1866.666693076563,
+          3004.1665924118975,
+          1866.666693076563,
+          3524.9999128716577,
+          108.33333486605054,
+          3524.9999128716577
+        ]
+      ],
+      "area": 915798.6014319423,
+      "iscrowd": 0,
+      "text": "Prince Rupert, B. C., July 6.—Accompanied only by two Indian guides Miss Mary L. Jobe, professor of history in the Normal College of New York city, will on Wednesday start from Prince Rupert on a long trip into the unexplored wilds of Northern British Columbia and Southeastern Alaska. Miss Jobe is the veteran of several explorations into the Selkirk Mountains of this district. She said the purpose of her present trip is largely ethmological; that she expected to make a study of the traditions, ceremonies, habits and language of the Athabascaan or \"Carrier\" tribe of Indians along the Skeena and Peace rivers. The only knowledge of this tribe has been brought by trappers from the Hudson Bay trading posts. She will be ten weeks away from civilization and expects to discover some tribes that have never been seen by a white man.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 673,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 19
+          },
+          "alpha_ratio": 0.9711,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9964
+        }
+      },
+      "source_annotation_id": 60646,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60647",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1904.166693607119,
+        774.9999808441233,
+        866.6666789284043,
+        149.99999629241097
+      ],
+      "segmentation": [
+        [
+          1904.166693607119,
+          774.9999808441233,
+          2770.8333725355233,
+          774.9999808441233,
+          2770.8333725355233,
+          924.9999771365343,
+          1904.166693607119,
+          924.9999771365343
+        ]
+      ],
+      "area": 129999.99862601676,
+      "iscrowd": 0,
+      "text": "Bulgarians Nearing Vrania, Says Report.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 33,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9429,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8929
+        }
+      },
+      "source_annotation_id": 60647,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60648",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1904.166693607119,
+        1162.499971266185,
+        866.6666789284043,
+        229.16666100229452
+      ],
+      "segmentation": [
+        [
+          1904.166693607119,
+          1162.499971266185,
+          2770.8333725355233,
+          1162.499971266185,
+          2770.8333725355233,
+          1391.6666322684796,
+          1904.166693607119,
+          1391.6666322684796
+        ]
+      ],
+      "area": 198611.10901197005,
+      "iscrowd": 0,
+      "text": "Indications Are That Serbs and Greeks Are Suffering Defeat at Hand of the Bulgars—Powers Are Making No Efforts to Stop War",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 101,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9902,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9238
+        }
+      },
+      "source_annotation_id": 60648,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60649",
+      "image_id": 54787,
+      "category_id": 1013,
+      "bbox": [
+        1900.0000268815018,
+        995.8333087190616,
+        870.8333456540216,
+        83.33333127356164
+      ],
+      "segmentation": [
+        [
+          1900.0000268815018,
+          995.8333087190616,
+          2770.8333725355233,
+          995.8333087190616,
+          2770.8333725355233,
+          1079.1666399926232,
+          1900.0000268815018,
+          1079.1666399926232
+        ]
+      ],
+      "area": 72569.44367745059,
+      "iscrowd": 0,
+      "text": "OFFICIAL REPORTS SCARCE",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 60649,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60650",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1895.8333601558843,
+        1458.3332972873288,
+        870.8333456540216,
+        266.66666007539726
+      ],
+      "segmentation": [
+        [
+          1895.8333601558843,
+          1458.3332972873288,
+          2766.666705809906,
+          1458.3332972873288,
+          2766.666705809906,
+          1724.999957362726,
+          1895.8333601558843,
+          1724.999957362726
+        ]
+      ],
+      "area": 232222.21976784192,
+      "iscrowd": 0,
+      "text": "London, July 7.—The most important news from the seat of war to-day is the report, confirmed from Sofia, of the appearance of a large Bulgarian force at Vrania, threatening the Servian line of retreat.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 7,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 159,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 8
+          },
+          "alpha_ratio": 0.9464,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9683
+        }
+      },
+      "source_annotation_id": 60650,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60651",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1895.8333601558843,
+        2170.8332796762807,
+        875.000012379639,
+        174.99999567447946
+      ],
+      "segmentation": [
+        [
+          1895.8333601558843,
+          2170.8332796762807,
+          2770.8333725355233,
+          2170.8332796762807,
+          2770.8333725355233,
+          2345.8332753507602,
+          1895.8333601558843,
+          2345.8332753507602
+        ]
+      ],
+      "area": 153124.9983816063,
+      "iscrowd": 0,
+      "text": "The wounded describe the battles as almost inhuman in their ferocity, the men throwing away their firearms and using their bayonets as daggers.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 8,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 119,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9835,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9396
+        }
+      },
+      "source_annotation_id": 60651,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60652",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1895.8333601558843,
+        1729.166623926404,
+        875.000012379639,
+        437.4999891861986
+      ],
+      "segmentation": [
+        [
+          1895.8333601558843,
+          1729.166623926404,
+          2770.8333725355233,
+          1729.166623926404,
+          2770.8333725355233,
+          2166.6666131126026,
+          1895.8333601558843,
+          2166.6666131126026
+        ]
+      ],
+      "area": 382812.4959540157,
+      "iscrowd": 0,
+      "text": "Still more significant, as tending to confirm the belief that the Servians are suffering defeat, is the announcement from Belgrade that only meager reports are being received from the Servian army headquarters and that the government has decided to publish reports only on alternate days. In addition a rigorous censorship on the newspapers is being enforced.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 9,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 300,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9868,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9817
+        }
+      },
+      "source_annotation_id": 60652,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60653",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1900.0000268815018,
+        2349.9999419144383,
+        870.8333456540216,
+        349.99999134895893
+      ],
+      "segmentation": [
+        [
+          1900.0000268815018,
+          2349.9999419144383,
+          2770.8333725355233,
+          2349.9999419144383,
+          2770.8333725355233,
+          2699.999933263397,
+          1900.0000268815018,
+          2699.999933263397
+        ]
+      ],
+      "area": 304791.6634452925,
+      "iscrowd": 0,
+      "text": "Whatever the policy of the European powers may be, little is now heard of attempts to stop the war. The ambassador conferences met in London again to-day, but apparently did little else than discuss the boundaries of Albania. Meanwhile, Rumania and Turkey give signs that they will not long be idle spectators.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 10,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 252,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.973,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.98
+        }
+      },
+      "source_annotation_id": 60653,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60654",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1900.0000268815018,
+        2704.1665998270755,
+        866.6666789284043,
+        216.66666131126027
+      ],
+      "segmentation": [
+        [
+          1900.0000268815018,
+          2704.1665998270755,
+          2766.666705809906,
+          2704.1665998270755,
+          2766.666705809906,
+          2920.8332611383357,
+          1900.0000268815018,
+          2920.8332611383357
+        ]
+      ],
+      "area": 187777.7757931353,
+      "iscrowd": 0,
+      "text": "News of the fighting continues to be of a contradictory character. It is almost invariably from official sources in the respective capitals; no independent testimony is available.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 11,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 150,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9804,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9392
+        }
+      },
+      "source_annotation_id": 60654,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60655",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1895.8333601558843,
+        2929.166594265692,
+        875.000012379639,
+        170.83332911080137
+      ],
+      "segmentation": [
+        [
+          1895.8333601558843,
+          2929.166594265692,
+          2770.8333725355233,
+          2929.166594265692,
+          2770.8333725355233,
+          3099.9999233764934,
+          1895.8333601558843,
+          3099.9999233764934
+        ]
+      ],
+      "area": 149479.16508680614,
+      "iscrowd": 0,
+      "text": "This applies equally to the struggle between the Greeks and the Bulgarians and between the Servians and Bulgarians.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 12,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 97,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9898,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9571
+        }
+      },
+      "source_annotation_id": 60655,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60656",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1900.0000268815018,
+        3108.3332565038495,
+        870.8333456540216,
+        349.99999134895893
+      ],
+      "segmentation": [
+        [
+          1900.0000268815018,
+          3108.3332565038495,
+          2770.8333725355233,
+          3108.3332565038495,
+          2770.8333725355233,
+          3458.333247852808,
+          1900.0000268815018,
+          3458.333247852808
+        ]
+      ],
+      "area": 304791.6634452925,
+      "iscrowd": 0,
+      "text": "A dispatch from Saloniki reports that the Greeks have occupied Demirhishir and Strumitza, and according to the most likely information the Bulgarian general, Ivanoff, is slowly retiring before the superior Greek forces northward since his army was weakened by the departure of his right wing to attack Krivolak.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 13,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 260,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9848,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9731
+        }
+      },
+      "source_annotation_id": 60656,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60657",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1000.0000141481588,
+        3599.999911017863,
+        870.8333456540216,
+        37.49999907310274
+      ],
+      "segmentation": [
+        [
+          1000.0000141481588,
+          3599.999911017863,
+          1870.8333598021804,
+          3599.999911017863,
+          1870.8333598021804,
+          3637.4999100909654,
+          1000.0000141481588,
+          3637.4999100909654
+        ]
+      ],
+      "area": 32656.24965485277,
+      "iscrowd": 0,
+      "text": "unjust and was treating the bank un-",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 14,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.4286,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9387
+        }
+      },
+      "source_annotation_id": 60657,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_091_0002-verso-60658",
+      "image_id": 54787,
+      "category_id": 1012,
+      "bbox": [
+        1900.0000268815018,
+        3462.4999144164863,
+        875.000012379639,
+        170.83332911080137
+      ],
+      "segmentation": [
+        [
+          1900.0000268815018,
+          3462.4999144164863,
+          2775.000039261141,
+          3462.4999144164863,
+          2775.000039261141,
+          3633.333243527288,
+          1900.0000268815018,
+          3633.333243527288
+        ]
+      ],
+      "area": 149479.16508680614,
+      "iscrowd": 0,
+      "text": "It should be noted that another dispatch asserts that General Ivanoff by an unexpected attack scattered the Greek army of 80,000 commanded.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 15,
+        "monkeyocr_page_size": [
+          690.239990234375,
+          888.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 111,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 2
+          },
+          "alpha_ratio": 0.9407,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9176
+        }
+      },
+      "source_annotation_id": 60658,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_094_0002-verso-60659",
+      "image_id": 54790,
+      "category_id": 1012,
+      "bbox": [
+        562.4999894371518,
+        154.1666699521369,
+        2345.833289282344,
+        241.66667181686327
+      ],
+      "segmentation": [
+        [
+          562.4999894371518,
+          154.1666699521369,
+          2908.333278719496,
+          154.1666699521369,
+          2908.333278719496,
+          395.8333417690002,
+          562.4999894371518,
+          395.8333417690002
+        ]
+      ],
+      "area": 566909.7236580692,
+      "iscrowd": 0,
+      "text": "Vincenant Ashlava New Farm Gas Truckler,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_094_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          910.0800170898438,
+          687.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 34,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9714,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8964
+        }
+      },
+      "source_annotation_id": 60659,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_094__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_094__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_094_0002-verso-60660",
+      "image_id": 54790,
+      "category_id": 1012,
+      "bbox": [
+        108.33333129900701,
+        400.00000852446334,
+        3583.3332660440783,
+        2108.333378264359
+      ],
+      "segmentation": [
+        [
+          108.33333129900701,
+          400.00000852446334,
+          3691.6665973430854,
+          400.00000852446334,
+          3691.6665973430854,
+          2508.3333867888223,
+          108.33333129900701,
+          2508.3333867888223
+        ]
+      ],
+      "area": 7554861.13024577,
+      "iscrowd": 0,
+      "text": "Holt \"caterpillar,\" Unicent Alvaris's new co house power structure and farm gas turbine, the first ever seen in that section, created a sensation at Rhinebeck on its arrival from the Holt factory at Reovia, Ill., Plowed two areas, howling & Oliver, chilled, 14-wish plows on his experimental farm, having been selected for its ability to do hill climbing, howling the heaviest form machines. It does the work of 82 horses and will allow 400 aches per day at a cost of $1.1 per acre. It can work all might by only of power-haul research lights. It is called a \"caterpillar\" \"recover\" and \"crush\" on its own tracks at 7 miles per hour. Later, it will have a more heavy agricultural machinery as their season arrives. Here it was 3,700.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_094_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          910.0800170898438,
+          687.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 558,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 14,
+            "other": 33
+          },
+          "alpha_ratio": 0.9223,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9903
+        }
+      },
+      "source_annotation_id": 60660,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_094__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_094__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_098_0001-recto-60663",
+      "image_id": 54794,
+      "category_id": 1012,
+      "bbox": [
+        487.50001018595833,
+        4124.999846106351,
+        2125.0000444003313,
+        308.33332183017166
+      ],
+      "segmentation": [
+        [
+          487.50001018595833,
+          4124.999846106351,
+          2612.5000545862895,
+          4124.999846106351,
+          2612.5000545862895,
+          4433.333167936522,
+          487.50001018595833,
+          4433.333167936522
+        ]
+      ],
+      "area": 655208.3225792164,
+      "iscrowd": 0,
+      "text": "I55203 F.C. PHOTO FROM UNDERWOOD & UNDERWOOD, N.Y.\nADVANCE-RUMELY \"8-16\" TRACTOR FILLING SILO.\n6/24/17",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_230_098_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          817.9199829101562,
+          1177.9200439453125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 63,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 13,
+            "other": 13
+          },
+          "alpha_ratio": 0.7079,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8857
+        }
+      },
+      "source_annotation_id": 60663,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_098__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_098__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_099_0002-verso-60664",
+      "image_id": 54795,
+      "category_id": 1012,
+      "bbox": [
+        629.166643193999,
+        329.1666803898496,
+        1983.3332593400232,
+        237.50000990153706
+      ],
+      "segmentation": [
+        [
+          629.166643193999,
+          329.1666803898496,
+          2612.499902534022,
+          329.1666803898496,
+          2612.499902534022,
+          566.6666902913867,
+          629.166643193999,
+          566.6666902913867
+        ]
+      ],
+      "area": 471041.6687313033,
+      "iscrowd": 0,
+      "text": "L.1624. Harveeting in France. Loads of wheat for threshing being brought in by troops.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_099_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          785.280029296875,
+          585.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 65,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 4
+          },
+          "alpha_ratio": 0.8904,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.928
+        }
+      },
+      "source_annotation_id": 60664,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_099__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_099__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_100_0002-verso-60673",
+      "image_id": 54796,
+      "category_id": 1012,
+      "bbox": [
+        1220.8333109970768,
+        2316.6667594475834,
+        674.9999876502609,
+        212.5000085104798
+      ],
+      "segmentation": [
+        [
+          1220.8333109970768,
+          2316.6667594475834,
+          1895.8332986473376,
+          2316.6667594475834,
+          1895.8332986473376,
+          2529.1667679580632,
+          1220.8333109970768,
+          2529.1667679580632
+        ]
+      ],
+      "area": 143437.5031202542,
+      "iscrowd": 0,
+      "text": "FOREIGN\n(OLAMABST 198) 104",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_100_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          800.6400146484375,
+          1219.199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 15,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 2
+          },
+          "alpha_ratio": 0.6522,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8565
+        }
+      },
+      "source_annotation_id": 60673,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_100__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_100__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_101_0002-verso-60674",
+      "image_id": 54797,
+      "category_id": 1012,
+      "bbox": [
+        304.1666666666667,
+        1754.1667397990718,
+        2704.166666666667,
+        158.33333993435804
+      ],
+      "segmentation": [
+        [
+          304.1666666666667,
+          1754.1667397990718,
+          3008.3333333333335,
+          1754.1667397990718,
+          3008.3333333333335,
+          1912.5000797334299,
+          304.1666666666667,
+          1912.5000797334299
+        ]
+      ],
+      "area": 428159.74007249327,
+      "iscrowd": 0,
+      "text": "They weigh 15 tons, pull an eight fuzzow plough and the caterpillar wheels do not flatten the ground.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_101_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          840.0,
+          644.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 80,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 2
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.919
+        }
+      },
+      "source_annotation_id": 60674,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_101__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_101__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_230_102_0002-verso-60675",
+      "image_id": 54798,
+      "category_id": 1012,
+      "bbox": [
+        583.3333500959708,
+        641.6666934181878,
+        2500.000071839875,
+        279.1666783053155
+      ],
+      "segmentation": [
+        [
+          583.3333500959708,
+          641.6666934181878,
+          3083.3334219358458,
+          641.6666934181878,
+          3083.3334219358458,
+          920.8333717235033,
+          583.3333500959708,
+          920.8333717235033
+        ]
+      ],
+      "area": 697916.715818588,
+      "iscrowd": 0,
+      "text": "A USEFUL RUSSIAN \"LOAN\"\nThe fifteen ton motor caterpillar tractor, made for the Russian Government to draw big guns, is now lent by them to plough the land in England",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_230_102_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          849.5999755859375,
+          644.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 133,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9708,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9464
+        }
+      },
+      "source_annotation_id": 60675,
+      "source_file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_102__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_230/SHDGR__GR_2_K_247_230_102__0002.jpg"
+    }
+  ]
 }

@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_145",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -41,7 +141,10 @@
         "Continent": "Asie",
         "Type": "Géographique",
         "Cluster": 18,
-        "ClusterLabel": "PERSONNALITÉS"
+        "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": ""
       }
     },
     {
@@ -67,6 +170,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -93,6 +199,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -119,6 +228,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -145,6 +257,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -171,6 +286,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -197,6 +315,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -223,6 +344,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -249,6 +373,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -275,6 +402,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -301,6 +431,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -327,6 +460,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -353,6 +489,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -379,6 +518,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -405,6 +547,9 @@
         "Type": "Géographique",
         "Cluster": 17,
         "ClusterLabel": "Industrie",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -431,6 +576,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -457,6 +605,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -483,6 +634,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -509,6 +663,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -535,6 +692,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -561,6 +721,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -587,6 +750,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -613,6 +779,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -639,6 +808,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -665,6 +837,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -691,6 +866,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -717,6 +895,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -743,6 +924,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -769,6 +953,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -795,6 +982,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -821,6 +1011,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -847,6 +1040,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -873,6 +1069,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -899,6 +1098,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -925,6 +1127,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -951,6 +1156,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -977,6 +1185,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1003,6 +1214,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1029,6 +1243,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1055,6 +1272,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1081,6 +1301,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1107,6 +1330,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1133,6 +1359,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1159,6 +1388,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1185,6 +1417,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1211,6 +1446,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1237,6 +1475,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1263,6 +1504,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1289,6 +1533,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1315,6 +1562,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1341,6 +1591,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1367,6 +1620,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1393,6 +1649,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1419,6 +1678,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1445,6 +1707,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1471,6 +1736,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1497,6 +1765,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1523,6 +1794,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1549,6 +1823,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1575,6 +1852,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1601,6 +1881,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1627,6 +1910,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1653,6 +1939,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1679,6 +1968,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1705,6 +1997,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1731,6 +2026,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1757,6 +2055,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1783,6 +2084,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1809,6 +2113,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1835,6 +2142,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1861,6 +2171,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1887,6 +2200,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1913,6 +2229,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1939,6 +2258,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1965,6 +2287,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1991,6 +2316,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2017,6 +2345,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2043,6 +2374,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2069,6 +2403,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2095,6 +2432,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2121,6 +2461,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2147,6 +2490,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2173,6 +2519,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2199,6 +2548,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2225,6 +2577,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2251,6 +2606,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2277,6 +2635,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2303,6 +2664,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2329,6 +2693,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2355,6 +2722,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2381,6 +2751,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2407,6 +2780,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2433,6 +2809,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2459,6 +2838,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2485,6 +2867,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2511,6 +2896,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2537,6 +2925,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2563,6 +2954,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2589,6 +2983,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2615,6 +3012,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2641,6 +3041,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2667,6 +3070,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2693,6 +3099,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2719,6 +3128,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2745,6 +3157,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2771,6 +3186,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2797,6 +3215,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2823,6 +3244,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2849,6 +3273,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2875,6 +3302,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2901,6 +3331,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2927,6 +3360,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2953,6 +3389,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2979,6 +3418,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3005,6 +3447,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3031,6 +3476,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3057,6 +3505,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3083,6 +3534,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3109,6 +3563,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3135,6 +3592,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3161,6 +3621,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3187,6 +3650,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3213,9 +3679,4171 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_006_0002-verso-46622",
+      "image_id": 39749,
+      "category_id": 1012,
+      "bbox": [
+        1987.50003716525,
+        1833.3332809467306,
+        566.6666772630482,
+        279.1666586896158
+      ],
+      "segmentation": [
+        [
+          1987.50003716525,
+          1833.3332809467306,
+          2554.1667144282983,
+          1833.3332809467306,
+          2554.1667144282983,
+          2112.4999396363464,
+          1987.50003716525,
+          2112.4999396363464
+        ]
+      ],
+      "area": 158194.44288227207,
+      "iscrowd": 0,
+      "text": "V. FORBIN\nCLAMART (SEINE)\nTél.: 104",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 22,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 5
+          },
+          "alpha_ratio": 0.7333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8917
+        }
+      },
+      "source_annotation_id": 46622,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_008_0002-verso-46624",
+      "image_id": 39751,
+      "category_id": 1012,
+      "bbox": [
+        400.00001384017196,
+        1300.0000297844238,
+        2716.6667606645015,
+        287.5000065869399
+      ],
+      "segmentation": [
+        [
+          400.00001384017196,
+          1300.0000297844238,
+          3116.6667745046734,
+          1300.0000297844238,
+          3116.6667745046734,
+          1587.5000363713636,
+          400.00001384017196,
+          1587.5000363713636
+        ]
+      ],
+      "area": 781041.7115855648,
+      "iscrowd": 0,
+      "text": "WARSHIPS DESRROY VILLAGE: Smoke rising from a village near Euprates which was demolished in thirty minutes by two British warships,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          846.719970703125,
+          639.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 110,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9821,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9144
+        }
+      },
+      "source_annotation_id": 46624,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_010_0002-verso-46627",
+      "image_id": 39753,
+      "category_id": 1012,
+      "bbox": [
+        220.83332801842926,
+        541.6666700183202,
+        1574.999962093703,
+        145.83333423570159
+      ],
+      "segmentation": [
+        [
+          220.83332801842926,
+          541.6666700183202,
+          1795.8332901121323,
+          541.6666700183202,
+          1795.8332901121323,
+          687.5000042540219,
+          220.83332801842926,
+          687.5000042540219
+        ]
+      ],
+      "area": 229687.49589322833,
+      "iscrowd": 0,
+      "text": "96. Observation Post for artillery.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          608.6400146484375,
+          789.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 2
+          },
+          "alpha_ratio": 0.871,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9089
+        }
+      },
+      "source_annotation_id": 46627,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_014_0002-verso-46629",
+      "image_id": 39757,
+      "category_id": 1013,
+      "bbox": [
+        825.0000161702006,
+        1058.3333333333335,
+        1595.8333646120548,
+        95.83333333333334
+      ],
+      "segmentation": [
+        [
+          825.0000161702006,
+          1058.3333333333335,
+          2420.8333807822555,
+          1058.3333333333335,
+          2420.8333807822555,
+          1154.1666666666667,
+          825.0000161702006,
+          1154.1666666666667
+        ]
+      ],
+      "area": 152934.03077532194,
+      "iscrowd": 0,
+      "text": "ACROSS THE DESERT FROM HAIFA TO BAGDAD,",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          996.47998046875,
+          792.0
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 32,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9697,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9105
+        }
+      },
+      "source_annotation_id": 46629,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_014_0002-verso-46630",
+      "image_id": 39757,
+      "category_id": 1012,
+      "bbox": [
+        662.5000129851611,
+        1187.5,
+        2291.666711583891,
+        362.5
+      ],
+      "segmentation": [
+        [
+          662.5000129851611,
+          1187.5,
+          2954.166724569052,
+          1187.5,
+          2954.166724569052,
+          1550.0,
+          662.5000129851611,
+          1550.0
+        ]
+      ],
+      "area": 830729.1829491605,
+      "iscrowd": 0,
+      "text": "From Haifa to Bagdad by motor-convoys, which run weekly across the Syrian desert, is a new experience now open to the traveller in the East. Whether on business bent or merely in search of health and pleasure, he-or she-will find the journey a wealth of romance and adventure.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          996.47998046875,
+          792.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 221,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9651,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9956
+        }
+      },
+      "source_annotation_id": 46630,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_014_0002-verso-46631",
+      "image_id": 39757,
+      "category_id": 1012,
+      "bbox": [
+        670.8333464818298,
+        1579.1666666666667,
+        2400.000047040584,
+        170.83333333333334
+      ],
+      "segmentation": [
+        [
+          670.8333464818298,
+          1579.1666666666667,
+          3070.8333935224136,
+          1579.1666666666667,
+          3070.8333935224136,
+          1750.0,
+          670.8333464818298,
+          1750.0
+        ]
+      ],
+      "area": 410000.0080360998,
+      "iscrowd": 0,
+      "text": "Photo Shows... Arabs and passengers are seen helping to move a car stuck in soft ground near Bagdad.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          996.47998046875,
+          792.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9518,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9273
+        }
+      },
+      "source_annotation_id": 46631,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_023_0001-recto-46633",
+      "image_id": 39766,
+      "category_id": 1012,
+      "bbox": [
+        474.99999841886455,
+        2133.333399152106,
+        537.4999982108204,
+        37.50000115697061
+      ],
+      "segmentation": [
+        [
+          474.99999841886455,
+          2133.333399152106,
+          1012.499996629685,
+          2133.333399152106,
+          1012.499996629685,
+          2170.8334003090763,
+          474.99999841886455,
+          2170.8334003090763
+        ]
+      ],
+      "area": 20156.250554777467,
+      "iscrowd": 0,
+      "text": "LES YÉZIDIS - Chefs de tribus",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_145_023_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          366.7200012207031,
+          553.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 23,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9583,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9348
+        }
+      },
+      "source_annotation_id": 46633,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_023__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_023__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_023_0002-verso-46635",
+      "image_id": 39766,
+      "category_id": 1012,
+      "bbox": [
+        1054.1667183124296,
+        579.1666626202464,
+        37.50000183720105,
+        504.1666631442433
+      ],
+      "segmentation": [
+        [
+          1054.1667183124296,
+          579.1666626202464,
+          1091.6667201496307,
+          579.1666626202464,
+          1091.6667201496307,
+          1083.3333257644897,
+          1054.1667183124296,
+          1083.3333257644897
+        ]
+      ],
+      "area": 18906.250794164644,
+      "iscrowd": 0,
+      "text": "Imprimeries Rénies de Nancy",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_023_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          548.1599731445312,
+          349.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 24,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.925
+        }
+      },
+      "source_annotation_id": 46635,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_023__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_023__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_024_0002-verso-46636",
+      "image_id": 39767,
+      "category_id": 1012,
+      "bbox": [
+        495.83333908243384,
+        120.83333012626926,
+        758.3333421260753,
+        1749.9999535528652
+      ],
+      "segmentation": [
+        [
+          495.83333908243384,
+          120.83333012626926,
+          1254.166681208509,
+          120.83333012626926,
+          1254.166681208509,
+          1870.8332836791344,
+          495.83333908243384,
+          1870.8332836791344
+        ]
+      ],
+      "area": 1327083.3134982209,
+      "iscrowd": 0,
+      "text": "ges-Marie Haardt ont partie. Il savaient que le n, c'était la félité et le scrup devoir. Il y avait à utiliser et ion recuille, dans tous le le et fructueuse randonnée de r la plupart peu connues ou re et les embüches des hommes documentation photographique et cinematographique enregistrée par les milliers de plaques et le kilomètres de films de MM. And Sauvage, Specht, Morizet Sivel ; documentation histori qu'un livre de Georges Le Fè présentera d'après les notes au jour le jour ; documenta scientificique assurée par M. Jo Hackin, conservateur du mu Guimet, pour l'archéologie, le R. P. Theilhard de Char pour la géologie et la paléonologie, par le lieutenant de va seua Pecqueur pour la geODEs par M. André Reymond p l'histoire naturelle, par les deux Delastre et Jourdan p les observations médicales ; de mentation artistique, enfin, le peintre Alexandre Iacovle",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_024_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          315.8399963378906,
+          505.9200134277344
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 700,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 27
+          },
+          "alpha_ratio": 0.9629,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9954
+        }
+      },
+      "source_annotation_id": 46636,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_024__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_024__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_024_0002-verso-46637",
+      "image_id": 39767,
+      "category_id": 1012,
+      "bbox": [
+        500.0000057974123,
+        1874.9999502352127,
+        641.6666741066791,
+        174.9999953552865
+      ],
+      "segmentation": [
+        [
+          500.0000057974123,
+          1874.9999502352127,
+          1141.6666799040913,
+          1874.9999502352127,
+          1141.6666799040913,
+          2049.999945590499,
+          500.0000057974123,
+          2049.999945590499
+        ]
+      ],
+      "area": 112291.66498831098,
+      "iscrowd": 0,
+      "text": "C'est de cette dernière s'agit aujourd'hui. D'ores et quelques éléments en or",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_024_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          315.8399963378906,
+          505.9200134277344
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 61,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9242,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9072
+        }
+      },
+      "source_annotation_id": 46637,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_024__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_024__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_025_0001-recto-46638",
+      "image_id": 39768,
+      "category_id": 1012,
+      "bbox": [
+        345.83334022236465,
+        2170.833419895065,
+        791.6666824367384,
+        45.83333516093227
+      ],
+      "segmentation": [
+        [
+          345.83334022236465,
+          2170.833419895065,
+          1137.500022659103,
+          2170.833419895065,
+          1137.500022659103,
+          2216.6667550559973,
+          345.83334022236465,
+          2216.6667550559973
+        ]
+      ],
+      "area": 36284.724391866366,
+      "iscrowd": 0,
+      "text": "LES YÉZIDIS. - Jeunes enfants de la montagne",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_145_025_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          367.67999267578125,
+          551.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4286,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 35,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9459,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9361
+        }
+      },
+      "source_annotation_id": 46638,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_025__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_025__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_026_0001-recto-46639",
+      "image_id": 39769,
+      "category_id": 1012,
+      "bbox": [
+        737.499990076405,
+        1370.8333711242226,
+        837.4999887308328,
+        37.500001033793325
+      ],
+      "segmentation": [
+        [
+          737.499990076405,
+          1370.8333711242226,
+          1574.9999788072378,
+          1370.8333711242226,
+          1574.9999788072378,
+          1408.333372158016,
+          737.499990076405,
+          1408.333372158016
+        ]
+      ],
+      "area": 31406.250443208126,
+      "iscrowd": 0,
+      "text": "LES YÉSIDIS. - En visite光学 un prêtre chaldéen",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_145_026_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          544.3200073242188,
+          354.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 34,
+            "cjk": 2,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9474,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.922
+        }
+      },
+      "source_annotation_id": 46639,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_026__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_026__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_026_0002-verso-46640",
+      "image_id": 39769,
+      "category_id": 1013,
+      "bbox": [
+        749.9999966181763,
+        137.50000379057553,
+        816.6666629842364,
+        83.33333563065183
+      ],
+      "segmentation": [
+        [
+          749.9999966181763,
+          137.50000379057553,
+          1566.6666596024127,
+          137.50000379057553,
+          1566.6666596024127,
+          220.83333942122738,
+          749.9999966181763,
+          220.83333942122738
+        ]
+      ],
+      "area": 68055.5571248298,
+      "iscrowd": 0,
+      "text": "CARTE POSTALE",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_026_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          541.4400024414062,
+          354.239990234375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 46640,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_026__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_026__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_030_0002-verso-46641",
+      "image_id": 39773,
+      "category_id": 1012,
+      "bbox": [
+        195.83333182719448,
+        99.99999834861593,
+        1662.4999872138426,
+        183.33333030579587
+      ],
+      "segmentation": [
+        [
+          195.83333182719448,
+          99.99999834861593,
+          1858.3333190410372,
+          99.99999834861593,
+          1858.3333190410372,
+          283.3333286544118,
+          195.83333182719448,
+          283.3333286544118
+        ]
+      ],
+      "area": 304791.6592892568,
+      "iscrowd": 0,
+      "text": "Coast dwellers built their homes over the water as a safeguard against raids of head-hunters from the hills.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_030_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          476.1600036621094,
+          369.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 89,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.978,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9223
+        }
+      },
+      "source_annotation_id": 46641,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_030__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_030__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_030_0002-verso-46642",
+      "image_id": 39773,
+      "category_id": 1012,
+      "bbox": [
+        66.66666615393855,
+        341.66666102443776,
+        1724.99998673316,
+        124.99999793576991
+      ],
+      "segmentation": [
+        [
+          66.66666615393855,
+          341.66666102443776,
+          1791.6666528870987,
+          341.66666102443776,
+          1791.6666528870987,
+          466.66665896020766,
+          66.66666615393855,
+          466.66665896020766
+        ]
+      ],
+      "area": 215624.99478084812,
+      "iscrowd": 0,
+      "text": "A crude bridge connects the mainland with the rocky island of Elevala.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_030_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          476.1600036621094,
+          369.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3636,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 58,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9831,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9342
+        }
+      },
+      "source_annotation_id": 46642,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_030__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_030__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_035_0001-recto-46643",
+      "image_id": 39778,
+      "category_id": 1012,
+      "bbox": [
+        829.166681490427,
+        1375.0000047510948,
+        641.6666781383204,
+        37.50000012957531
+      ],
+      "segmentation": [
+        [
+          829.166681490427,
+          1375.0000047510948,
+          1470.8333596287475,
+          1375.0000047510948,
+          1470.8333596287475,
+          1412.50000488067,
+          829.166681490427,
+          1412.50000488067
+        ]
+      ],
+      "area": 24062.500513331175,
+      "iscrowd": 0,
+      "text": "LES YÉZIDIS. - Les tombeaux sacrés",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_145_035_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          546.239990234375,
+          353.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.931,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9314
+        }
+      },
+      "source_annotation_id": 46643,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_035__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_035__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_035_0002-verso-46644",
+      "image_id": 39778,
+      "category_id": 1012,
+      "bbox": [
+        1062.4999857032954,
+        583.3333212066847,
+        49.9999993272139,
+        487.4999898655865
+      ],
+      "segmentation": [
+        [
+          1062.4999857032954,
+          583.3333212066847,
+          1112.4999850305092,
+          583.3333212066847,
+          1112.4999850305092,
+          1070.833311072271,
+          1062.4999857032954,
+          1070.833311072271
+        ]
+      ],
+      "area": 24374.999165296107,
+      "iscrowd": 0,
+      "text": "Imprimeries Réunies de Nancy",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          544.3200073242188,
+          352.32000732421875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 25,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.925
+        }
+      },
+      "source_annotation_id": 46644,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_051_0002-verso-46646",
+      "image_id": 39794,
+      "category_id": 1012,
+      "bbox": [
+        1095.8333435229067,
+        1508.3333250663288,
+        833.3333410820583,
+        229.1666654106301
+      ],
+      "segmentation": [
+        [
+          1095.8333435229067,
+          1508.3333250663288,
+          1929.166684604965,
+          1508.3333250663288,
+          1929.166684604965,
+          1737.4999904769588,
+          1095.8333435229067,
+          1737.4999904769588
+        ]
+      ],
+      "area": 190972.22295127454,
+      "iscrowd": 0,
+      "text": "Or, il semble que dépouris trois mois, en Autriche comme en l'activité des particans du 'cancer de l'",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_051_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          525.1199951171875,
+          445.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9405,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9176
+        }
+      },
+      "source_annotation_id": 46646,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_051__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_051__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_055_0002-verso-46650",
+      "image_id": 39798,
+      "category_id": 1012,
+      "bbox": [
+        779.166662811563,
+        416.66664609117004,
+        2408.333321417558,
+        512.4999746921391
+      ],
+      "segmentation": [
+        [
+          779.166662811563,
+          416.66664609117004,
+          3187.4999842291213,
+          416.66664609117004,
+          3187.4999842291213,
+          929.1666207833091,
+          779.166662811563,
+          929.1666207833091
+        ]
+      ],
+      "area": 1234270.7662767337,
+      "iscrowd": 0,
+      "text": "DISCOVERIES OF GREAT ARCHHEOLOGICAL IMPORTANCE NEAR BAGHDAD: EXPEDITION AT KISH ON BEHALF OF OXFORD UNIVERSITY AND THE FIELD MUSEM (CHICAGO).\n\n(See Other Caption).\n\nA general view of the excavation site at Kish.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_055_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          986.8800048828125,
+          593.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 170,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9551,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9527
+        }
+      },
+      "source_annotation_id": 46650,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_055__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_055__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_058_0002-verso-46651",
+      "image_id": 39801,
+      "category_id": 1012,
+      "bbox": [
+        412.49998608026675,
+        466.6666647337762,
+        2570.8332465810563,
+        141.66666607989634
+      ],
+      "segmentation": [
+        [
+          412.49998608026675,
+          466.6666647337762,
+          2983.333232661323,
+          466.6666647337762,
+          2983.333232661323,
+          608.3333308136725,
+          412.49998608026675,
+          608.3333308136725
+        ]
+      ],
+      "area": 364201.37509049434,
+      "iscrowd": 0,
+      "text": "W.2447, Nazirah. Photographic dark room and wireless installation on Mahala (barge) on River Euphrates.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_058_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          795.8400268554688,
+          589.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 80,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 6
+          },
+          "alpha_ratio": 0.8889,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9111
+        }
+      },
+      "source_annotation_id": 46651,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_058__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_058__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_059_0002-verso-46652",
+      "image_id": 39802,
+      "category_id": 1012,
+      "bbox": [
+        929.1666409197699,
+        229.16667427255234,
+        1537.4999573963905,
+        87.50000290406544
+      ],
+      "segmentation": [
+        [
+          929.1666409197699,
+          229.16667427255234,
+          2466.66659831616,
+          229.16667427255234,
+          2466.66659831616,
+          316.6666771766178,
+          929.1666409197699,
+          316.6666771766178
+        ]
+      ],
+      "area": 134531.25073718466,
+      "iscrowd": 0,
+      "text": "WITH THE BRITISH FORCES IN MESOPOTAMIA.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_059_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          588.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 33,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9706,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9463
+        }
+      },
+      "source_annotation_id": 46652,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_059__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_059__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_059_0002-verso-46653",
+      "image_id": 39802,
+      "category_id": 1012,
+      "bbox": [
+        370.833323057666,
+        391.66667966581673,
+        2558.3332624427744,
+        150.0000049783979
+      ],
+      "segmentation": [
+        [
+          370.833323057666,
+          391.66667966581673,
+          2929.1665855004403,
+          391.66667966581673,
+          2929.1665855004403,
+          541.6666846442147,
+          370.833323057666,
+          541.6666846442147
+        ]
+      ],
+      "area": 383750.0021028171,
+      "iscrowd": 0,
+      "text": "W.2447, Nazirah. Photographic dark room and wireless installation on Mahala (barge) on River Euphrates.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_059_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          588.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 80,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 6
+          },
+          "alpha_ratio": 0.8889,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9111
+        }
+      },
+      "source_annotation_id": 46653,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_059__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_059__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_062_0001-recto-46654",
+      "image_id": 39805,
+      "category_id": 1012,
+      "bbox": [
+        1137.4999694062185,
+        4116.666532553304,
+        1237.4999667166553,
+        95.83333021126113
+      ],
+      "segmentation": [
+        [
+          1137.4999694062185,
+          4116.666532553304,
+          2374.999936122874,
+          4116.666532553304,
+          2374.999936122874,
+          4212.4998627645655,
+          1137.4999694062185,
+          4212.4998627645655
+        ]
+      ],
+      "area": 118593.74294678189,
+      "iscrowd": 0,
+      "text": "THE SPLANDOR OF NEBUCHADNEZZAR.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_145_062_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          816.9600219726562,
+          1199.0400390625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9643,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9455
+        }
+      },
+      "source_annotation_id": 46654,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_062__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_062__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_062_0001-recto-46655",
+      "image_id": 39805,
+      "category_id": 1012,
+      "bbox": [
+        399.99998924174713,
+        4241.666528481036,
+        2599.9999300713566,
+        608.333313514962
+      ],
+      "segmentation": [
+        [
+          399.99998924174713,
+          4241.666528481036,
+          2999.999919313104,
+          4241.666528481036,
+          2999.999919313104,
+          4849.999841995998,
+          399.99998924174713,
+          4849.999841995998
+        ]
+      ],
+      "area": 1581666.572598978,
+      "iscrowd": 0,
+      "text": "144800 - The ruins of the Temple of Esagila, probably the most importantAdditional sanctuary, which is supposed to have connected with the Tower of Babel and which may have been part of the supports of the famous Hanging Gardens, one of the seven wonders of the ancient world. Most of the temples were of but one story but at times they were pyramided on smaller and smaller foundations of sun dried brick. The plainness of the brick walls was relieved by stucco on which designs were painted.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_145_062_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          816.9600219726562,
+          1199.0400390625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 394,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 7
+          },
+          "alpha_ratio": 0.9681,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.996
+        }
+      },
+      "source_annotation_id": 46655,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_062__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_062__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_062_0002-verso-46656",
+      "image_id": 39805,
+      "category_id": 1013,
+      "bbox": [
+        1595.8333661949862,
+        816.6666944934618,
+        412.5000084942654,
+        145.83333830240392
+      ],
+      "segmentation": [
+        [
+          1595.8333661949862,
+          816.6666944934618,
+          2008.3333746892515,
+          816.6666944934618,
+          2008.3333746892515,
+          962.5000327958658,
+          1595.8333661949862,
+          962.5000327958658
+        ]
+      ],
+      "area": 60156.2532884887,
+      "iscrowd": 0,
+      "text": "NOTICE",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_062_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1185.5999755859375,
+          788.1599731445312
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 6,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 46656,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_062__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_062__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_062_0002-verso-46657",
+      "image_id": 39805,
+      "category_id": 1012,
+      "bbox": [
+        1025.0000211069623,
+        1004.1667008822669,
+        1570.8333656801822,
+        1012.5000344995472
+      ],
+      "segmentation": [
+        [
+          1025.0000211069623,
+          1004.1667008822669,
+          2595.8333867871443,
+          1004.1667008822669,
+          2595.8333867871443,
+          2016.666735381814,
+          1025.0000211069623,
+          2016.666735381814
+        ]
+      ],
+      "area": 1590468.8369442243,
+      "iscrowd": 0,
+      "text": "THIS PHOTOGRAPH MUST NOT BE USED FOR TRADE OF\nADVERTISING PURPOSES WITHOUT WRITTEN PERMISSION\nCOPYRIGHT BY\nUNDERWOOD & UNDERWOOD,N.Y,\nTHIS PICTURE IS SOLD TO YOU FOR YOUR PUBLICATION\nONLY AND MUST NOT BE SYNDICATED, RENTED OR LOANED,\nKINDLY PRINT THE ABOVE COPYRIGHT BENEFIT\nEACH REPRODUCTION.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_062_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          1185.5999755859375,
+          788.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 242,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9719,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9715
+        }
+      },
+      "source_annotation_id": 46657,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_062__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_062__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_064_0001-recto-46659",
+      "image_id": 39807,
+      "category_id": 1013,
+      "bbox": [
+        1125.0000135593507,
+        4141.666616470624,
+        1241.6666816321722,
+        70.83333247484971
+      ],
+      "segmentation": [
+        [
+          1125.0000135593507,
+          4141.666616470624,
+          2366.666695191523,
+          4141.666616470624,
+          2366.666695191523,
+          4212.499948945474,
+          1125.0000135593507,
+          4212.499948945474
+        ]
+      ],
+      "area": 87951.38888299502,
+      "iscrowd": 0,
+      "text": "THE SPLENDER OF NEBUCHADNEZZAR.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_145_064_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          810.239990234375,
+          1208.6400146484375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9643,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9455
+        }
+      },
+      "source_annotation_id": 46659,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_064__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_064__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_064_0001-recto-46660",
+      "image_id": 39807,
+      "category_id": 1012,
+      "bbox": [
+        391.6666713873295,
+        4274.999948187989,
+        2679.166698958009,
+        633.3333256574798
+      ],
+      "segmentation": [
+        [
+          391.6666713873295,
+          4274.999948187989,
+          3070.8333703453386,
+          4274.999948187989,
+          3070.8333703453386,
+          4908.333273845468,
+          391.6666713873295,
+          4908.333273845468
+        ]
+      ],
+      "area": 1696805.5554418478,
+      "iscrowd": 0,
+      "text": "144712 - One of the places recently uncovered among the ruins og Babies. Here it is possible that the mighty Nebuchadnezzar II may have ruled. We know that it is a royal palace for this is shown by the lion which may be see in the middle distance, always a sign of royalty. It is unfortunate that a series of weak kings following Nebuchadnezzar allowed the city to be over-run by the wilder tribes of A&A Minor and many of its records destroyed. The palace, while of but one story, covered a great area and was a prize of corridors, passages and rooms.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_145_064_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          810.239990234375,
+          1208.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 432,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 12
+          },
+          "alpha_ratio": 0.96,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.995
+        }
+      },
+      "source_annotation_id": 46660,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_064__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_064__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_066_0002-verso-46665",
+      "image_id": 39809,
+      "category_id": 1012,
+      "bbox": [
+        212.50000068755145,
+        100.00000205921584,
+        1254.1666707245683,
+        125.0000025740198
+      ],
+      "segmentation": [
+        [
+          212.50000068755145,
+          100.00000205921584,
+          1466.6666714121197,
+          100.00000205921584,
+          1466.6666714121197,
+          225.00000463323565,
+          212.50000068755145,
+          225.00000463323565
+        ]
+      ],
+      "area": 156770.8370688209,
+      "iscrowd": 0,
+      "text": "A dubu, or man's council house, on the Fly river.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          377.2799987792969,
+          474.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 36,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9097
+        }
+      },
+      "source_annotation_id": 46665,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_066__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_066_0002-verso-46666",
+      "image_id": 39809,
+      "category_id": 1012,
+      "bbox": [
+        225.00000072799565,
+        491.6666767911446,
+        1204.1666705627915,
+        491.6666767911446
+      ],
+      "segmentation": [
+        [
+          225.00000072799565,
+          491.6666767911446,
+          1429.1666712907872,
+          491.6666767911446,
+          1429.1666712907872,
+          983.3333535822892,
+          225.00000072799565,
+          983.3333535822892
+        ]
+      ],
+      "area": 592048.6252182648,
+      "iscrowd": 0,
+      "text": "Von avenir d'un village\nde'un club, infirmment la mixture\nont de l'entrez le conseil de\nla+bille.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          377.2799987792969,
+          474.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 76,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9268,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9575
+        }
+      },
+      "source_annotation_id": 46666,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_066__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_068_0002-verso-46667",
+      "image_id": 39811,
+      "category_id": 1012,
+      "bbox": [
+        1329.1666316382154,
+        629.1666442882957,
+        2445.833268876591,
+        474.99998310507095
+      ],
+      "segmentation": [
+        [
+          1329.1666316382154,
+          629.1666442882957,
+          3774.9999005148065,
+          629.1666442882957,
+          3774.9999005148065,
+          1104.1666273933668,
+          1329.1666316382154,
+          1104.1666273933668
+        ]
+      ],
+      "area": 1161770.761394201,
+      "iscrowd": 0,
+      "text": "Un des aspects du champ dehui de\nKürkonska, pero de Baaba-Guergue.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_068_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          926.4000244140625,
+          686.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 53,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9464,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.935
+        }
+      },
+      "source_annotation_id": 46667,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_068__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_068__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_069_0001-recto-46668",
+      "image_id": 39812,
+      "category_id": 1012,
+      "bbox": [
+        441.6666732351838,
+        4191.666837911004,
+        2150.0000319750457,
+        479.16668624231164
+      ],
+      "segmentation": [
+        [
+          441.6666732351838,
+          4191.666837911004,
+          2591.6667052102293,
+          4191.666837911004,
+          2591.6667052102293,
+          4670.833524153316,
+          441.6666732351838,
+          4670.833524153316
+        ]
+      ],
+      "area": 1030208.3907423466,
+      "iscrowd": 0,
+      "text": "149573 The treecross barron but very fo ille plain on the upper Euphrates, just cast of ALeppo, Northern Syria. Before the Suoz Canal was built the British mail for India used to pass weekly on horseback at the foot of the hill to the right and cross the river. This is a kind of a gate into the heart of Asia.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_145_069_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          820.7999877929688,
+          1195.199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 239,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 5
+          },
+          "alpha_ratio": 0.956,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9945
+        }
+      },
+      "source_annotation_id": 46668,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_069__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_069__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_072_0001-recto-46678",
+      "image_id": 39815,
+      "category_id": 1012,
+      "bbox": [
+        820.8333406322395,
+        4200.000017481429,
+        1779.1666824871384,
+        216.6666675684864
+      ],
+      "segmentation": [
+        [
+          820.8333406322395,
+          4200.000017481429,
+          2600.000023119378,
+          4200.000017481429,
+          2600.000023119378,
+          4416.666685049915,
+          820.8333406322395,
+          4416.666685049915
+        ]
+      ],
+      "area": 385486.1161433676,
+      "iscrowd": 0,
+      "text": "The treoless barren but very fertile plain on the upper Euphrates, just east of Aloppo, Northern Syria.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_145_072_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          823.6799926757812,
+          1173.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 84,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9655,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.929
+        }
+      },
+      "source_annotation_id": 46678,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_072__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_072__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_072_0001-recto-46679",
+      "image_id": 39815,
+      "category_id": 1012,
+      "bbox": [
+        466.66667081629856,
+        4400.000018313877,
+        2137.5000190067963,
+        291.66666788065476
+      ],
+      "segmentation": [
+        [
+          466.66667081629856,
+          4400.000018313877,
+          2604.1666898230947,
+          4400.000018313877,
+          2604.1666898230947,
+          4691.666686194532,
+          466.66667081629856,
+          4691.666686194532
+        ]
+      ],
+      "area": 623437.5081385485,
+      "iscrowd": 0,
+      "text": "Before the Suoz Canal was built the British mail for India used to pass weekly on horseback at the foot of the hill to the right and cross the river. This is a kind of a gate into the heart of Asia.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_145_072_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          823.6799926757812,
+          1173.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 155,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9873,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9984
+        }
+      },
+      "source_annotation_id": 46679,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_072__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_072__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_072_0002-verso-46680",
+      "image_id": 39815,
+      "category_id": 1012,
+      "bbox": [
+        2833.333202106631,
+        820.8333510025112,
+        141.66666010533154,
+        800.0000172207216
+      ],
+      "segmentation": [
+        [
+          2833.333202106631,
+          820.8333510025112,
+          2974.9998622119624,
+          820.8333510025112,
+          2974.9998622119624,
+          1620.8333682232328,
+          2833.333202106631,
+          1620.8333682232328
+        ]
+      ],
+      "area": 113333.33052386735,
+      "iscrowd": 0,
+      "text": "Copyright ©1997年,©",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_072_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1159.6800537109375,
+          793.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 9,
+            "cjk": 1,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 3
+          },
+          "alpha_ratio": 0.5882,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9485
+        }
+      },
+      "source_annotation_id": 46680,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_072__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_072__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_082_0002-verso-46682",
+      "image_id": 39825,
+      "category_id": 1012,
+      "bbox": [
+        758.33334247334,
+        2070.8333268635524,
+        1241.6666816321722,
+        620.8333313937009
+      ],
+      "segmentation": [
+        [
+          758.33334247334,
+          2070.8333268635524,
+          2000.0000241055122,
+          2070.8333268635524,
+          2000.0000241055122,
+          2691.6666582572534,
+          758.33334247334,
+          2691.6666582572534
+        ]
+      ],
+      "area": 770868.0624382632,
+      "iscrowd": 0,
+      "text": "OFFICIAL PHOTOGRAPH\nISSUED BY\nAS O TATED ILLUSTRATION AGE\nST MARY'S CHAMBERS, 161a, STRAND, LO\nPRESIDENT, KNOWLEDGE, \"MINISTRY OF INFORM\nC O IN OUR\nC ESRVED.\nFOR PUBLICATION on or after............",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_082_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          607.6799926757812,
+          781.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 144,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 20
+          },
+          "alpha_ratio": 0.8623,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9328
+        }
+      },
+      "source_annotation_id": 46682,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_082__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_082__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_083_0002-verso-46683",
+      "image_id": 39826,
+      "category_id": 1012,
+      "bbox": [
+        533.3333440979113,
+        487.5000091160047,
+        1704.1667010628573,
+        104.16666861453092
+      ],
+      "segmentation": [
+        [
+          533.3333440979113,
+          487.5000091160047,
+          2237.5000451607684,
+          487.5000091160047,
+          2237.5000451607684,
+          591.6666777305356,
+          533.3333440979113,
+          591.6666777305356
+        ]
+      ],
+      "area": 177517.36801353304,
+      "iscrowd": 0,
+      "text": "Interior of Tomb of Mordicai and Esther",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_083_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          604.7999877929688,
+          783.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4286,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 33,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9429
+        }
+      },
+      "source_annotation_id": 46683,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_083__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_083__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_084_0002-verso-46685",
+      "image_id": 39827,
+      "category_id": 1012,
+      "bbox": [
+        687.5000128559041,
+        1400.000034679067,
+        412.50000771354246,
+        75.00000185780716
+      ],
+      "segmentation": [
+        [
+          687.5000128559041,
+          1400.000034679067,
+          1100.0000205694464,
+          1400.000034679067,
+          1100.0000205694464,
+          1475.0000365368742,
+          687.5000128559041,
+          1475.0000365368742
+        ]
+      ],
+      "area": 30937.501344861153,
+      "iscrowd": 0,
+      "text": "V.FORBIN",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_084_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          591.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 7,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.875,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8844
+        }
+      },
+      "source_annotation_id": 46685,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_084__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_084__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_088_0002-verso-46687",
+      "image_id": 39831,
+      "category_id": 1012,
+      "bbox": [
+        1804.166655583978,
+        1170.8332944106792,
+        1087.4999933196727,
+        479.16665073746657
+      ],
+      "segmentation": [
+        [
+          1804.166655583978,
+          1170.8332944106792,
+          2891.6666489036506,
+          1170.8332944106792,
+          2891.6666489036506,
+          1649.9999451481458,
+          1804.166655583978,
+          1649.9999451481458
+        ]
+      ],
+      "area": 521093.72947600484,
+      "iscrowd": 0,
+      "text": "British Official Photography, Crown copyright reserved. \nMINISTRY OF INFORMATION \nPhotographic Section, \n10, 11, 12, GOVERNING STREET",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_088_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          794.8800048828125,
+          587.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 103,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 6
+          },
+          "alpha_ratio": 0.8957,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9036
+        }
+      },
+      "source_annotation_id": 46687,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_088__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_088__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_089_0002-verso-46688",
+      "image_id": 39832,
+      "category_id": 1012,
+      "bbox": [
+        425.00000000000006,
+        233.33333529389728,
+        1962.5000000000002,
+        325.0000027307855
+      ],
+      "segmentation": [
+        [
+          425.00000000000006,
+          233.33333529389728,
+          2387.5000000000005,
+          233.33333529389728,
+          2387.5000000000005,
+          558.3333380246828,
+          425.00000000000006,
+          558.3333380246828
+        ]
+      ],
+      "area": 637812.5053591667,
+      "iscrowd": 0,
+      "text": "Tomble of the $ Mordicai and of Esterer.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_089_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          624.0,
+          435.8399963378906
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5714,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 31,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9394,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9496
+        }
+      },
+      "source_annotation_id": 46688,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_089__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_089__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_090_0002-verso-46690",
+      "image_id": 39833,
+      "category_id": 1012,
+      "bbox": [
+        437.4999846181567,
+        229.16666155437758,
+        2024.9999288040397,
+        316.66665960241266
+      ],
+      "segmentation": [
+        [
+          437.4999846181567,
+          229.16666155437758,
+          2462.499913422196,
+          229.16666155437758,
+          2462.499913422196,
+          545.8333211567902,
+          437.4999846181567,
+          545.8333211567902
+        ]
+      ],
+      "area": 641249.9631494987,
+      "iscrowd": 0,
+      "text": "Tombs of the Jew Morbicai and of\nEuther.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_090_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          624.9600219726562,
+          437.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 32,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9697,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9462
+        }
+      },
+      "source_annotation_id": 46690,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_090__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_090__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_092_0002-verso-46692",
+      "image_id": 39835,
+      "category_id": 1012,
+      "bbox": [
+        387.5,
+        241.66667220351468,
+        1979.1666666666667,
+        304.1666736354581
+      ],
+      "segmentation": [
+        [
+          387.5,
+          241.66667220351468,
+          2366.666666666667,
+          241.66667220351468,
+          2366.666666666667,
+          545.8333458389727,
+          387.5,
+          545.8333458389727
+        ]
+      ],
+      "area": 601996.5415701775,
+      "iscrowd": 0,
+      "text": "Tomlu of the few mordicaai and of\nEsther-",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_092_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          624.0,
+          426.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 33,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9706,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9463
+        }
+      },
+      "source_annotation_id": 46692,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_092__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_092__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_096_0002-verso-46693",
+      "image_id": 39839,
+      "category_id": 1012,
+      "bbox": [
+        391.6666800121705,
+        937.4999807726957,
+        2362.500080498943,
+        999.9999794908754
+      ],
+      "segmentation": [
+        [
+          391.6666800121705,
+          937.4999807726957,
+          2754.166760511114,
+          937.4999807726957,
+          2754.166760511114,
+          1937.4999602635712,
+          391.6666800121705,
+          1937.4999602635712
+        ]
+      ],
+      "area": 2362500.0320461346,
+      "iscrowd": 0,
+      "text": "British Official Photograph,\nCrown copyright reserved.\nMINISTRY OF INFORMATION,\nPhotographic Section,\n10, 11, 12, COVENTRY STREET,\nLONDON, W.L.\nASSOCIATED ILLUSTRATION AGENCIES, LTD.,\nST: MARY'S CHAMBERS, 1913, STRAND, LONDON, W.C.2.\nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\"\nBROWN COPYRIGHT RESERVE.\nFor PUBLICATION on or after.\nPASSED FOR",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_096_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          788.1599731445312,
+          595.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 262,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 11,
+            "other": 29
+          },
+          "alpha_ratio": 0.8675,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9668
+        }
+      },
+      "source_annotation_id": 46693,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_096__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_096__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_100_0002-verso-46695",
+      "image_id": 39843,
+      "category_id": 1012,
+      "bbox": [
+        529.1666838098573,
+        737.5000088889076,
+        2191.666737669173,
+        233.3333361456431
+      ],
+      "segmentation": [
+        [
+          529.1666838098573,
+          737.5000088889076,
+          2720.83342147903,
+          737.5000088889076,
+          2720.83342147903,
+          970.8333450345507,
+          529.1666838098573,
+          970.8333450345507
+        ]
+      ],
+      "area": 511388.9116197862,
+      "iscrowd": 0,
+      "text": "CTES IPHON - SCENE OF FIRST BRITISH VICTORY IN MESOPOTAMIA RE-PASSED BY OUR TROOPS IN PURSUIT OF THE TURKS FLEERING TOWARDS MAGDAD.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_100_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          753.5999755859375,
+          607.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 107,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9727,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9466
+        }
+      },
+      "source_annotation_id": 46695,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_100__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_100__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_102_0002-verso-46697",
+      "image_id": 39845,
+      "category_id": 1012,
+      "bbox": [
+        416.66667804314994,
+        266.66667192961444,
+        1979.166720704962,
+        479.1666761235259
+      ],
+      "segmentation": [
+        [
+          416.66667804314994,
+          266.66667192961444,
+          2395.833398748112,
+          266.66667192961444,
+          2395.833398748112,
+          745.8333480531403,
+          416.66667804314994,
+          745.8333480531403
+        ]
+      ],
+      "area": 948350.7390544955,
+      "iscrowd": 0,
+      "text": "Chapelles et palais taules dans la\nfalaise du raviin désertique de\nTag I. Bustan.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_102_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          625.9199829101562,
+          432.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 66,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9706,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.938
+        }
+      },
+      "source_annotation_id": 46697,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_102__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_102__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_103_0002-verso-46699",
+      "image_id": 39846,
+      "category_id": 1012,
+      "bbox": [
+        291.6666621438211,
+        212.4999957874075,
+        2095.833300833457,
+        466.66665741548314
+      ],
+      "segmentation": [
+        [
+          291.6666621438211,
+          212.4999957874075,
+          2387.4999629772783,
+          212.4999957874075,
+          2387.4999629772783,
+          679.1666532028906,
+          291.6666621438211,
+          679.1666532028906
+        ]
+      ],
+      "area": 978055.5210000081,
+      "iscrowd": 0,
+      "text": "Bas relief sculpté dans la montagne représentant un 2oi de Perse entoure de ses généraux.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_103_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          629.760009765625,
+          431.0400085449219
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 73,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 1
+          },
+          "alpha_ratio": 0.9733,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9383
+        }
+      },
+      "source_annotation_id": 46699,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_103__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_103__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_104_0002-verso-46700",
+      "image_id": 39847,
+      "category_id": 1012,
+      "bbox": [
+        600.0000121791934,
+        420.83332851968487,
+        2366.6667147068183,
+        254.16666375941364
+      ],
+      "segmentation": [
+        [
+          600.0000121791934,
+          420.83332851968487,
+          2966.666726886012,
+          420.83332851968487,
+          2966.666726886012,
+          674.9999922790985,
+          600.0000121791934,
+          674.9999922790985
+        ]
+      ],
+      "area": 601527.783107484,
+      "iscrowd": 0,
+      "text": "DISCOVERIES OF GREAT ARCHHEOLOGICAL IMPORTANCE NEAR BAGHDAD: DISCOVERIES OF GREAT ARCHHEOLOGICAL IMPORTANCE NEAR BAGHDAD: EXPEDITION AT KISH ON BEHALF OF OXFORD UNIVERSITY AND THE FIELD MUSEUM (CHICAGO).",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_104_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          841.9199829101562,
+          640.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 172,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9718,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9465
+        }
+      },
+      "source_annotation_id": 46700,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_104__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_104__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_104_0002-verso-46701",
+      "image_id": 39847,
+      "category_id": 1012,
+      "bbox": [
+        608.3333456816822,
+        699.9999919931392,
+        2529.16671800535,
+        1149.9999868458715
+      ],
+      "segmentation": [
+        [
+          608.3333456816822,
+          699.9999919931392,
+          3137.5000636870323,
+          699.9999919931392,
+          3137.5000636870323,
+          1849.9999788390107,
+          608.3333456816822,
+          1849.9999788390107
+        ]
+      ],
+      "area": 2908541.6924371687,
+      "iscrowd": 0,
+      "text": "Discoveries of great archaeological importance which throw interesting light on the life of the Surerians, who proceeded the Senate in what is now Mesopotamis, have been made by the expedition now excavating at Kish, South of Baghdad, and 12 expedition now excavating at Kish, South of Baghdad, and 12 expedition now excavating at Kish, South of Bihar, The funds include a complete human skeleton dating back to 3000 B.C., and a series of unbroken skeleton dating back to 3000 B.C., and a series of unbroken examples of contemporary painted pottery. The discoveries have been made by the expedition financed jointly by Mr. H.Weld on behalf of Oxford University, and the Field Museum, Chicago. The work is being directed by Prof. S.Langdon, Prof. of Asericology at Oxford, and his assistants include Mr. H FIELD, of Chicago, who carried out the anthropological work. Now busy digging on the site of the stage tower and temple called Harsegkalemar are the site of the stage tower and temple called Harsegkalemar are 150 workmen. The first specimen of painted pottery found at Jemdet photo:- The first specimen of painted pottery found at Jemdet Nezzer, 16 miles N.E. of Kish.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_104_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          841.9199829101562,
+          640.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 927,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 17,
+            "other": 36
+          },
+          "alpha_ratio": 0.9459,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9932
+        }
+      },
+      "source_annotation_id": 46701,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_104__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_104__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_105_0002-verso-46703",
+      "image_id": 39848,
+      "category_id": 1012,
+      "bbox": [
+        1020.8333182688456,
+        245.83333534357934,
+        2374.9999649520078,
+        216.6666684384089
+      ],
+      "segmentation": [
+        [
+          1020.8333182688456,
+          245.83333534357934,
+          3395.8332832208534,
+          245.83333534357934,
+          3395.8332832208534,
+          462.5000037819882,
+          1020.8333182688456,
+          462.5000037819882
+        ]
+      ],
+      "area": 514583.32994748943,
+      "iscrowd": 0,
+      "text": "DISCOVERIES OF GREAT ARCHOLOGICAL IMPORTANCE NEAR BAGHDAD: EXPEDITION AT KISH ON BEHALF OF OXFORD UNIVERSITY AND THE FIELD MUSEUM (CHICAGO).",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_105_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          992.6400146484375,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 117,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9669,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9375
+        }
+      },
+      "source_annotation_id": 46703,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_105__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_105__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_105_0002-verso-46704",
+      "image_id": 39848,
+      "category_id": 1012,
+      "bbox": [
+        987.4999854274139,
+        512.5000041908518,
+        2329.1666322950396,
+        1166.666676206817
+      ],
+      "segmentation": [
+        [
+          987.4999854274139,
+          512.5000041908518,
+          3316.6666177224533,
+          512.5000041908518,
+          3316.6666177224533,
+          1679.1666803976689,
+          987.4999854274139,
+          1679.1666803976689
+        ]
+      ],
+      "area": 2717361.0932314796,
+      "iscrowd": 0,
+      "text": "Discoveries of great archaeological importance which throw interesting light on the life of the Sumerians, who preceded the Semites in what is now Mesopotamia, have been made by the expedition now excavating at Kish, South of Baghdad, and 12 miles east of(ivylon. The funds include a complete human skeleton dating back to 3000 B.C., a series of unbroken examples of contemporary painted p. The discoveries have been made by the expedition finally by Mr. Herbert Waidan Weld on behalf of Oxford University, and the Field Museum, Chicago. The work is being directed by Prof. Stephen Langdon, Prof. of Assyriology at Oxford, and his assistants include Mr. H FIELD, of Chicago, who carried out the anthropologic work. Now busy digging on the site of the stage tower temple called Harsagkalewar are 150 workmen. PHOTO:- Excavations at Jemdet Nazzer, 16 miles N.E. of 10 miles from any water supply, by Prof. Langdon.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_105_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          992.6400146484375,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 719,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 13,
+            "other": 31
+          },
+          "alpha_ratio": 0.9423,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9928
+        }
+      },
+      "source_annotation_id": 46704,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_105__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_105__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_106_0002-verso-46705",
+      "image_id": 39849,
+      "category_id": 1012,
+      "bbox": [
+        641.6666700243677,
+        116.66666170791464,
+        2304.166678723866,
+        291.6666542697866
+      ],
+      "segmentation": [
+        [
+          641.6666700243677,
+          116.66666170791464,
+          2945.8333487482337,
+          116.66666170791464,
+          2945.8333487482337,
+          408.3333159777012,
+          641.6666700243677,
+          408.3333159777012
+        ]
+      ],
+      "area": 672048.5860633162,
+      "iscrowd": 0,
+      "text": "aspect actual de l'antique poli- burs\ndes rois de Summer,则是 de Balaglone",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_106_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          933.1199951171875,
+          689.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 56,
+            "cjk": 2,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9508,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9272
+        }
+      },
+      "source_annotation_id": 46705,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_106__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_106__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_109_0002-verso-46708",
+      "image_id": 39852,
+      "category_id": 1012,
+      "bbox": [
+        324.9999974685521,
+        262.4999931413835,
+        2116.666650179801,
+        170.83332886978926
+      ],
+      "segmentation": [
+        [
+          324.9999974685521,
+          262.4999931413835,
+          2441.666647648353,
+          262.4999931413835,
+          2441.666647648353,
+          433.33332201117275,
+          324.9999974685521,
+          433.33332201117275
+        ]
+      ],
+      "area": 361597.2099578811,
+      "iscrowd": 0,
+      "text": "Bass-relief assocuer dans les montaigne -",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_109_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          626.8800048828125,
+          420.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 34,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9444,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9264
+        }
+      },
+      "source_annotation_id": 46708,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_109__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_109__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_112_0002-verso-46711",
+      "image_id": 39855,
+      "category_id": 1012,
+      "bbox": [
+        733.3333424418223,
+        895.8333108877971,
+        1725.0000214256502,
+        287.49999279654884
+      ],
+      "segmentation": [
+        [
+          733.3333424418223,
+          895.8333108877971,
+          2458.3333638674726,
+          895.8333108877971,
+          2458.3333638674726,
+          1183.333303684346,
+          733.3333424418223,
+          1183.333303684346
+        ]
+      ],
+      "area": 495937.49373392103,
+      "iscrowd": 0,
+      "text": "Chapelles et palao faillis dans la falaise du raviin désentique de Tag - I - Boustan",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_112_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          786.239990234375,
+          584.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 67,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.971,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.938
+        }
+      },
+      "source_annotation_id": 46711,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_112__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_112__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_113_0002-verso-46713",
+      "image_id": 39856,
+      "category_id": 1012,
+      "bbox": [
+        304.16665223053985,
+        283.3333421794198,
+        1820.8332469143274,
+        350.00001092751853
+      ],
+      "segmentation": [
+        [
+          304.16665223053985,
+          283.3333421794198,
+          2124.9998991448674,
+          283.3333421794198,
+          2124.9998991448674,
+          633.3333531069384,
+          304.16665223053985,
+          633.3333531069384
+        ]
+      ],
+      "area": 637291.6563172037,
+      "iscrowd": 0,
+      "text": "Chapelle besantine dans la valley de Tag I Boustan.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_113_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          617.280029296875,
+          430.0799865722656
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.375,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 42,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9767,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9346
+        }
+      },
+      "source_annotation_id": 46713,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_113__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_113__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_120_0002-verso-46719",
+      "image_id": 39863,
+      "category_id": 1012,
+      "bbox": [
+        2395.8333849058067,
+        354.1666826209613,
+        525.0000113010985,
+        129.16667248529177
+      ],
+      "segmentation": [
+        [
+          2395.8333849058067,
+          354.1666826209613,
+          2920.8333962069055,
+          354.1666826209613,
+          2920.8333962069055,
+          483.33335510625307,
+          2395.8333849058067,
+          483.33335510625307
+        ]
+      ],
+      "area": 67812.50451450347,
+      "iscrowd": 0,
+      "text": "mori et aloudi fair dreyx longs glands de soie...",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_120_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 38,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9268,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9131
+        }
+      },
+      "source_annotation_id": 46719,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_120__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_120__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_120_0002-verso-46720",
+      "image_id": 39863,
+      "category_id": 1012,
+      "bbox": [
+        970.8333542313965,
+        675.0000304070086,
+        1275.0000274455251,
+        100.00000450474201
+      ],
+      "segmentation": [
+        [
+          970.8333542313965,
+          675.0000304070086,
+          2245.833381676922,
+          675.0000304070086,
+          2245.833381676922,
+          775.0000349117506,
+          970.8333542313965,
+          775.0000349117506
+        ]
+      ],
+      "area": 127500.0084880987,
+      "iscrowd": 0,
+      "text": "ock carvings at Taq-I-Bustan.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_120_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 23,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.8846,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8856
+        }
+      },
+      "source_annotation_id": 46720,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_120__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_120__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_120_0002-verso-46721",
+      "image_id": 39863,
+      "category_id": 1012,
+      "bbox": [
+        670.8333477736259,
+        962.5000433581419,
+        2300.0000495095746,
+        316.66668093168306
+      ],
+      "segmentation": [
+        [
+          670.8333477736259,
+          962.5000433581419,
+          2970.8333972832006,
+          962.5000433581419,
+          2970.8333972832006,
+          1279.166724289825,
+          670.8333477736259,
+          1279.166724289825
+        ]
+      ],
+      "area": 728333.3818209037,
+      "iscrowd": 0,
+      "text": "Un cours de Perse entouré de ses généraux, laas-relief sculpté dans les montagnes de Mésopotanie -",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_120_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 80,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9639,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9455
+        }
+      },
+      "source_annotation_id": 46721,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_120__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_120__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_120_0002-verso-46722",
+      "image_id": 39863,
+      "category_id": 1012,
+      "bbox": [
+        250.0000053814755,
+        2216.6667665217815,
+        145.83333647252738,
+        166.66667417457003
+      ],
+      "segmentation": [
+        [
+          250.0000053814755,
+          2216.6667665217815,
+          395.83334185400287,
+          2216.6667665217815,
+          395.83334185400287,
+          2383.3334406963513,
+          250.0000053814755,
+          2383.3334406963513
+        ]
+      ],
+      "area": 24305.557173657162,
+      "iscrowd": 0,
+      "text": "t, or et\nhadrap,\nrenard.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_120_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 17,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.85,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9062
+        }
+      },
+      "source_annotation_id": 46722,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_120__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_120__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_121_0002-verso-46724",
+      "image_id": 39864,
+      "category_id": 1012,
+      "bbox": [
+        512.5000121998902,
+        1099.9999628807113,
+        1258.3333632875351,
+        329.16665555900073
+      ],
+      "segmentation": [
+        [
+          512.5000121998902,
+          1099.9999628807113,
+          1770.8333754874252,
+          1099.9999628807113,
+          1770.8333754874252,
+          1429.166618439712,
+          512.5000121998902,
+          1429.166618439712
+        ]
+      ],
+      "area": 414201.384771667,
+      "iscrowd": 0,
+      "text": "Giganteque los-relief ausquien\nDans les Montagnus de Mésopotanie",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_121_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          615.3599853515625,
+          795.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 56,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9825,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9311
+        }
+      },
+      "source_annotation_id": 46724,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_121__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_121__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_121_0002-verso-46725",
+      "image_id": 39864,
+      "category_id": 1012,
+      "bbox": [
+        79.16666855120255,
+        283.3333237723044,
+        100.00000238046637,
+        2679.166576258702
+      ],
+      "segmentation": [
+        [
+          79.16666855120255,
+          283.3333237723044,
+          179.16667093166893,
+          283.3333237723044,
+          179.16667093166893,
+          2962.4999000310067,
+          79.16666855120255,
+          2962.4999000310067
+        ]
+      ],
+      "area": 267916.66400353616,
+      "iscrowd": 0,
+      "text": "E\n\nla me tè l'pl\npa leg vè tI\nde \"her ho net\"\ncitc son\nland I\ngèn I\nM. van\nLitt\nJohn I\nM. van\nLitt\nJohn I\nM. van\nLitt\nJohn I\nM. van\nMr. mai\nver's",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_121_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          615.3599853515625,
+          795.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 97,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 9
+          },
+          "alpha_ratio": 0.9151,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9061
+        }
+      },
+      "source_annotation_id": 46725,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_121__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_121__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_121_0002-verso-46726",
+      "image_id": 39864,
+      "category_id": 1012,
+      "bbox": [
+        1454.1667012826151,
+        2112.4999287140936,
+        425.0000101169821,
+        74.99999746913942
+      ],
+      "segmentation": [
+        [
+          1454.1667012826151,
+          2112.4999287140936,
+          1879.1667113995973,
+          2112.4999287140936,
+          1879.1667113995973,
+          2187.499926183233,
+          1454.1667012826151,
+          2187.499926183233
+        ]
+      ],
+      "area": 31874.999683157883,
+      "iscrowd": 0,
+      "text": "V.FORBIN",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_121_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          615.3599853515625,
+          795.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 7,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.875,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8844
+        }
+      },
+      "source_annotation_id": 46726,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_121__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_121__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_121_0002-verso-46727",
+      "image_id": 39864,
+      "category_id": 1012,
+      "bbox": [
+        1079.1666923558662,
+        2291.6665893348154,
+        1000.0000238046637,
+        545.8333149142924
+      ],
+      "segmentation": [
+        [
+          1079.1666923558662,
+          2291.6665893348154,
+          2079.16671616053,
+          2291.6665893348154,
+          2079.16671616053,
+          2837.4999042491077,
+          1079.1666923558662,
+          2837.4999042491077
+        ]
+      ],
+      "area": 545833.3279076709,
+      "iscrowd": 0,
+      "text": "OFFICIAL PHOTOG\nISSUED BY\nASSOCIATED ILLUSTRATION AG\nST. DECK'S CHAMBERS, 191a, STRAND,\nPLEASE ACKNOWLEDG, MINISTRY OF IN\nCROWN COPYRIGHT RESERVES.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_121_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          615.3599853515625,
+          795.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 118,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 7
+          },
+          "alpha_ratio": 0.9219,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9319
+        }
+      },
+      "source_annotation_id": 46727,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_121__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_121__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_145_122_0002-verso-46728",
+      "image_id": 39865,
+      "category_id": 1012,
+      "bbox": [
+        1829.1666619631162,
+        570.833305144903,
+        924.9999976214391,
+        258.3333205765254
+      ],
+      "segmentation": [
+        [
+          1829.1666619631162,
+          570.833305144903,
+          2754.1666595845554,
+          570.833305144903,
+          2754.1666595845554,
+          829.1666257214283,
+          1829.1666619631162,
+          829.1666257214283
+        ]
+      ],
+      "area": 238958.32091882447,
+      "iscrowd": 0,
+      "text": "13-56-E",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_145_122_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          949.4400024414062,
+          1186.56005859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 1,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 2
+          },
+          "alpha_ratio": 0.1429,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.7929
+        }
+      },
+      "source_annotation_id": 46728,
+      "source_file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_122__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_145/SHDGR__GR_2_K_247_145_122__0002.jpg"
+    }
+  ]
 }

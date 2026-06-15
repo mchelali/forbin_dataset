@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_186",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Géographique",
         "Cluster": 28,
         "ClusterLabel": "Marine Civile et Militaire",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,6 +2903,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2544,6 +2932,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2570,6 +2961,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2596,6 +2990,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2622,6 +3019,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2648,6 +3048,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2674,6 +3077,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2700,6 +3106,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2726,6 +3135,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2752,6 +3164,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2778,6 +3193,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2804,6 +3222,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2830,6 +3251,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2856,6 +3280,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2882,6 +3309,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2908,6 +3338,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2934,6 +3367,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2960,6 +3396,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2986,6 +3425,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3012,6 +3454,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3038,6 +3483,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3064,6 +3512,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3090,6 +3541,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3116,6 +3570,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3142,6 +3599,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3168,6 +3628,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3194,6 +3657,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3220,6 +3686,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3246,6 +3715,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3272,6 +3744,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3298,6 +3773,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3324,6 +3802,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3350,6 +3831,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3376,6 +3860,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3402,6 +3889,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3428,6 +3918,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3454,6 +3947,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3480,6 +3976,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3506,6 +4005,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3532,6 +4034,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3558,6 +4063,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3584,6 +4092,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3610,6 +4121,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3636,6 +4150,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3662,6 +4179,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3688,6 +4208,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3714,6 +4237,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3740,6 +4266,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3766,6 +4295,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3792,6 +4324,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3818,6 +4353,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3844,6 +4382,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3870,6 +4411,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3896,6 +4440,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3922,6 +4469,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3948,6 +4498,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3974,6 +4527,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4000,6 +4556,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4026,6 +4585,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4052,6 +4614,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4078,6 +4643,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4104,9 +4672,2323 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Turquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_001_0002-verso-54514",
+      "image_id": 48655,
+      "category_id": 1012,
+      "bbox": [
+        795.8333455255554,
+        666.666633745872,
+        1800.0000275761251,
+        229.16665535014351
+      ],
+      "segmentation": [
+        [
+          795.8333455255554,
+          666.666633745872,
+          2595.8333731016805,
+          666.666633745872,
+          2595.8333731016805,
+          895.8332890960155,
+          795.8333455255554,
+          895.8332890960155
+        ]
+      ],
+      "area": 412499.9859497867,
+      "iscrowd": 0,
+      "text": "BRITISH OFFICIAL PHOTOGRAPH.\nW.B.117. SMYRNA. \"Vergniaud\" (French).",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_001_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          796.7999877929688,
+          593.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 48,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 10
+          },
+          "alpha_ratio": 0.7869,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.89
+        }
+      },
+      "source_annotation_id": 54514,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_001__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_001__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_003_0002-verso-54516",
+      "image_id": 48657,
+      "category_id": 1012,
+      "bbox": [
+        850.0000094948542,
+        891.66669437696,
+        1220.8333469705506,
+        154.16667145769867
+      ],
+      "segmentation": [
+        [
+          850.0000094948542,
+          891.66669437696,
+          2070.833356465405,
+          891.66669437696,
+          2070.833356465405,
+          1045.8333658346587,
+          850.0000094948542,
+          1045.8333658346587
+        ]
+      ],
+      "area": 188211.8135070115,
+      "iscrowd": 0,
+      "text": "4169 Schlepper mit Holzkähnen\nam Bosporus.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          655.6799926757812,
+          471.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 32,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 1
+          },
+          "alpha_ratio": 0.8649,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8831
+        }
+      },
+      "source_annotation_id": 54516,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_008_0002-verso-54520",
+      "image_id": 48662,
+      "category_id": 1012,
+      "bbox": [
+        341.6666686595641,
+        750.0000197214782,
+        2866.666683387562,
+        320.83334176974347
+      ],
+      "segmentation": [
+        [
+          341.6666686595641,
+          750.0000197214782,
+          3208.333352047126,
+          750.0000197214782,
+          3208.333352047126,
+          1070.8333614912217,
+          341.6666686595641,
+          1070.8333614912217
+        ]
+      ],
+      "area": 919722.2517712187,
+      "iscrowd": 0,
+      "text": "INTERESTING TYPES FROM TURKEY.\nO.P.S. Turkish Fishermen of the Bosporus, hanging up their fishing nets\nO.P.S. Turkish Fishermen of the Bosporus, hanging up their fishing nets\nRR for drying at Anatalia Kabul, near the Black Sea, Turkey.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          649.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 187,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 12
+          },
+          "alpha_ratio": 0.9397,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9425
+        }
+      },
+      "source_annotation_id": 54520,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_019_0002-verso-54525",
+      "image_id": 48673,
+      "category_id": 1012,
+      "bbox": [
+        562.4999810185456,
+        562.5000045997155,
+        2145.8332609226,
+        270.8333355480111
+      ],
+      "segmentation": [
+        [
+          562.4999810185456,
+          562.5000045997155,
+          2708.3332419411454,
+          562.5000045997155,
+          2708.3332419411454,
+          833.3333401477266,
+          562.4999810185456,
+          833.3333401477266
+        ]
+      ],
+      "area": 581163.1795855334,
+      "iscrowd": 0,
+      "text": "BRITISH OFFICIAL PHOTOGRAPH.\nW.B.94. Russian Destroyer on rocks near entrance to Mudros Harbour.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_019_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          795.8400268554688,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 77,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 5
+          },
+          "alpha_ratio": 0.9167,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9062
+        }
+      },
+      "source_annotation_id": 54525,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_019__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_019__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_019_0002-verso-54526",
+      "image_id": 48673,
+      "category_id": 1012,
+      "bbox": [
+        1291.6666230796232,
+        1325.0000108348852,
+        1429.1666184397122,
+        641.6666719137494
+      ],
+      "segmentation": [
+        [
+          1291.6666230796232,
+          1325.0000108348852,
+          2720.8332415193354,
+          1325.0000108348852,
+          2720.8332415193354,
+          1966.6666827486347,
+          1291.6666230796232,
+          1966.6666827486347
+        ]
+      ],
+      "area": 917048.5876644375,
+      "iscrowd": 0,
+      "text": "OFFICIAL PHOTOGRAPH\nISSUED BY\nASSOCIATED ILLUSTRATION AGENCIES, LTD.,\nST. MARY'S CHAMBERS, 161a, STRAND, LONDON, W.E.2.\nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION\"\nCROWN COPYRIGHT RESERVED.\nFOR PUBLICATION ON or after ...",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_019_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          795.8400268554688,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 172,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 19
+          },
+          "alpha_ratio": 0.8821,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9519
+        }
+      },
+      "source_annotation_id": 54526,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_019__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_019__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_020_0002-verso-54527",
+      "image_id": 48674,
+      "category_id": 1012,
+      "bbox": [
+        825.0000130315747,
+        779.1666644986981,
+        1466.6666898339106,
+        79.16666644639179
+      ],
+      "segmentation": [
+        [
+          825.0000130315747,
+          779.1666644986981,
+          2291.666702865485,
+          779.1666644986981,
+          2291.666702865485,
+          858.3333309450899,
+          825.0000130315747,
+          858.3333309450899
+        ]
+      ],
+      "area": 116111.11262211476,
+      "iscrowd": 0,
+      "text": "4158 Kuchenverkaufenin am Bosporus.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_020_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          618.239990234375,
+          438.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 1
+          },
+          "alpha_ratio": 0.8438,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8805
+        }
+      },
+      "source_annotation_id": 54527,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_020__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_020__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_022_0001-recto-54528",
+      "image_id": 48676,
+      "category_id": 1012,
+      "bbox": [
+        429.16668455891784,
+        129.16666443711136,
+        2041.666751785143,
+        129.16666443711136
+      ],
+      "segmentation": [
+        [
+          429.16668455891784,
+          129.16666443711136,
+          2470.833436344061,
+          129.16666443711136,
+          2470.833436344061,
+          258.33332887422273,
+          429.16668455891784,
+          258.33332887422273
+        ]
+      ],
+      "area": 263715.28422023874,
+      "iscrowd": 0,
+      "text": "3mm thick femoral length 45 mm, 40mm thick femoral length 20mm",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_186_022_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          644.1599731445312,
+          424.32000732421875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 44,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 1
+          },
+          "alpha_ratio": 0.8462,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8808
+        }
+      },
+      "source_annotation_id": 54528,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_022__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_022__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_029_0002-verso-54533",
+      "image_id": 48683,
+      "category_id": 1012,
+      "bbox": [
+        154.16666979604275,
+        362.49999728057475,
+        2950.0000598810343,
+        354.16666400975697
+      ],
+      "segmentation": [
+        [
+          154.16666979604275,
+          362.49999728057475,
+          3104.166729677077,
+          362.49999728057475,
+          3104.166729677077,
+          716.6666612903317,
+          154.16666979604275,
+          716.6666612903317
+        ]
+      ],
+      "area": 1044791.6800366492,
+      "iscrowd": 0,
+      "text": "TURkish OUTBOAT SUNK BY THE BRITISH.\nThese photographs, he illustrate a British novel success, and show the Turkish gunbot's Marmarina, which was sunk by H.K.B. Dupiegle after being captured.\nPhoto shows. The wrecked vessel, which was bothered to ruin by the shells",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          841.9199829101562,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 213,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 11
+          },
+          "alpha_ratio": 0.9509,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9772
+        }
+      },
+      "source_annotation_id": 54533,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_030_0002-verso-54534",
+      "image_id": 48684,
+      "category_id": 1012,
+      "bbox": [
+        350.00000710452946,
+        287.4999978432145,
+        2954.1667266322784,
+        412.4999969054816
+      ],
+      "segmentation": [
+        [
+          350.00000710452946,
+          287.4999978432145,
+          3304.166733736808,
+          287.4999978432145,
+          3304.166733736808,
+          699.999994748696,
+          350.00000710452946,
+          699.999994748696
+        ]
+      ],
+      "area": 1218593.7655940915,
+      "iscrowd": 0,
+      "text": "TURKISH GUNBOAT SUNK BY THE BRITISH.\nThese photographs illustrate a British naval success, and show the Tur-\nThese photographs illustrate a British naval success, and show the Tur-\nThese photographs illustrate a British naval success, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep-\nkissig gunboat Marmeriss, which was sunk by H.M.S.Espiegle after being cep",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_030_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          841.9199829101562,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10312,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 849
+          },
+          "alpha_ratio": 0.9239,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9905
+        }
+      },
+      "source_annotation_id": 54534,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_030__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_030__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_031_0002-verso-54535",
+      "image_id": 48685,
+      "category_id": 1012,
+      "bbox": [
+        454.1666785603169,
+        312.5,
+        2812.5000736533384,
+        412.50000000000006
+      ],
+      "segmentation": [
+        [
+          454.1666785603169,
+          312.5,
+          3266.6667522136554,
+          312.5,
+          3266.6667522136554,
+          725.0,
+          454.1666785603169,
+          725.0
+        ]
+      ],
+      "area": 1160156.2803820022,
+      "iscrowd": 0,
+      "text": "TUKISH GUNBOAT SUNK BY THE BRITISH.\nThese photographs illustrate a British naval success, and show the Turkish.\nthese photographs illustrate a British naval success, and show the Turkish.\nThese photographs illustrate a British naval success, which was sunk by the H.M.S.Espiegle after being captured.\nPhoto shows. The fo'sle, showing the damage done by our gunners.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_031_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          839.0399780273438,
+          648.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 297,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 14
+          },
+          "alpha_ratio": 0.955,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9944
+        }
+      },
+      "source_annotation_id": 54535,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_031__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_031__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_032_0002-verso-54537",
+      "image_id": 48686,
+      "category_id": 1012,
+      "bbox": [
+        404.1666643253251,
+        208.33333881152174,
+        2820.833316992217,
+        341.6666756508956
+      ],
+      "segmentation": [
+        [
+          404.1666643253251,
+          208.33333881152174,
+          3224.9999813175423,
+          208.33333881152174,
+          3224.9999813175423,
+          550.0000144624173,
+          404.1666643253251,
+          550.0000144624173
+        ]
+      ],
+      "area": 963784.7419820199,
+      "iscrowd": 0,
+      "text": "TURKISH GUNBOAT SUNK BY THE BRITISH.\nThese photographs illustrate a British naval success, and show the Turkish gunboat Marsariss, which was sunk by COE H.M.S.Espiegle after being captured.\nPhoto shows. The fo'c'sle, showing the damage done by our gunners.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_032_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          842.8800048828125,
+          649.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 206,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 12
+          },
+          "alpha_ratio": 0.945,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9765
+        }
+      },
+      "source_annotation_id": 54537,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_032__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_032__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_032_0002-verso-54538",
+      "image_id": 48686,
+      "category_id": 1012,
+      "bbox": [
+        2108.333321119737,
+        1275.000033526513,
+        1099.9999936276888,
+        229.16667269267393
+      ],
+      "segmentation": [
+        [
+          2108.333321119737,
+          1275.000033526513,
+          3208.333314747426,
+          1275.000033526513,
+          3208.333314747426,
+          1504.166706219187,
+          2108.333321119737,
+          1504.166706219187
+        ]
+      ],
+      "area": 252083.33850161996,
+      "iscrowd": 0,
+      "text": "PRESS BUREAU,\nPassed for publication.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_032_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          842.8800048828125,
+          649.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 31,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9394,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9524
+        }
+      },
+      "source_annotation_id": 54538,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_032__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_032__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_038_0002-verso-54540",
+      "image_id": 48692,
+      "category_id": 1012,
+      "bbox": [
+        350.0000112411672,
+        1408.3333333333335,
+        2466.666745890131,
+        191.66666666666669
+      ],
+      "segmentation": [
+        [
+          350.0000112411672,
+          1408.3333333333335,
+          2816.6667571312983,
+          1408.3333333333335,
+          2816.6667571312983,
+          1600.0000000000002,
+          350.0000112411672,
+          1600.0000000000002
+        ]
+      ],
+      "area": 472777.79296227515,
+      "iscrowd": 0,
+      "text": "BRITISH SUBMARINE SINKS TURKISH BATTLESHIP IN THE DARDENELLES? A view of the Dardenelles in time of peace.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_038_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          836.1599731445312,
+          648.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 88,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9778,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9472
+        }
+      },
+      "source_annotation_id": 54540,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_038__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_038__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_040_0002-verso-54542",
+      "image_id": 48694,
+      "category_id": 1012,
+      "bbox": [
+        279.1666568515857,
+        1166.6667062851857,
+        2470.8332464625423,
+        170.83333913461647
+      ],
+      "segmentation": [
+        [
+          279.1666568515857,
+          1166.6667062851857,
+          2749.999903314128,
+          1166.6667062851857,
+          2749.999903314128,
+          1337.500045419802,
+          279.1666568515857,
+          1337.500045419802
+        ]
+      ],
+      "area": 422100.6939380209,
+      "iscrowd": 0,
+      "text": "BRITISH SUBMARINE SINKS TURKISH BATTLESHIP IN THE DARDENELLES, A view of the Dardenelles in time of peace.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_040_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          833.280029296875,
+          647.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 88,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9778,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9472
+        }
+      },
+      "source_annotation_id": 54542,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_040__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_040__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_041_0002-verso-54544",
+      "image_id": 48695,
+      "category_id": 1012,
+      "bbox": [
+        212.50000248752795,
+        1458.333382856482,
+        2458.3333621106176,
+        183.33333955910058
+      ],
+      "segmentation": [
+        [
+          212.50000248752795,
+          1458.333382856482,
+          2670.8333645981456,
+          1458.333382856482,
+          2670.8333645981456,
+          1641.6667224155826,
+          212.50000248752795,
+          1641.6667224155826
+        ]
+      ],
+      "area": 450694.4650252912,
+      "iscrowd": 0,
+      "text": "BRITISH SUBMARINE SINKS TURKISH RATTLESHIP IN THE DARDENELLES, A vitor of the Dardenelles in time of peace.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_041_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          834.239990234375,
+          647.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 89,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.978,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9473
+        }
+      },
+      "source_annotation_id": 54544,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_041__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_041__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_044_0002-verso-54547",
+      "image_id": 48698,
+      "category_id": 1012,
+      "bbox": [
+        608.3333502309613,
+        437.50001083720844,
+        1941.6667206001914,
+        379.166676058914
+      ],
+      "segmentation": [
+        [
+          608.3333502309613,
+          437.50001083720844,
+          2550.0000708311527,
+          437.50001083720844,
+          2550.0000708311527,
+          816.6666868961224,
+          608.3333502309613,
+          816.6666868961224
+        ]
+      ],
+      "area": 736215.3164641866,
+      "iscrowd": 0,
+      "text": "BRITISH OFFICIAL PHOTOGRAPH.\nW.B.110. Gulf of Smyrna showing Fort Yeni\nKale, position of boom to guard Harbour\nand Bay of Smyrna.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_044_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          791.0399780273438,
+          591.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 100,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 6
+          },
+          "alpha_ratio": 0.9174,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9313
+        }
+      },
+      "source_annotation_id": 54547,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_044__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_044__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_045_0002-verso-54550",
+      "image_id": 48699,
+      "category_id": 1012,
+      "bbox": [
+        512.5000063655917,
+        566.6666807034319,
+        1975.000024530817,
+        229.16667234329967
+      ],
+      "segmentation": [
+        [
+          512.5000063655917,
+          566.6666807034319,
+          2487.5000308964086,
+          566.6666807034319,
+          2487.5000308964086,
+          795.8333530467315,
+          512.5000063655917,
+          795.8333530467315
+        ]
+      ],
+      "area": 452604.18349966255,
+      "iscrowd": 0,
+      "text": "BRITISH OFFICIAL PHOTOGRAPH.\nW.B.95. Mudros Harbour.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_045_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          786.239990234375,
+          591.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 40,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 5
+          },
+          "alpha_ratio": 0.8511,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9014
+        }
+      },
+      "source_annotation_id": 54550,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_045__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_045__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_046_0002-verso-54552",
+      "image_id": 48700,
+      "category_id": 1013,
+      "bbox": [
+        1354.1666373753337,
+        491.6666463353994,
+        1224.9999735026095,
+        99.99999586482699
+      ],
+      "segmentation": [
+        [
+          1354.1666373753337,
+          491.6666463353994,
+          2579.166610877943,
+          491.6666463353994,
+          2579.166610877943,
+          591.6666422002263,
+          1354.1666373753337,
+          591.6666422002263
+        ]
+      ],
+      "area": 122499.99228467411,
+      "iscrowd": 0,
+      "text": "BRITISH OFFICIAL PHOTOGRAPH.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_046_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          590.4000244140625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 25,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9285
+        }
+      },
+      "source_annotation_id": 54552,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_046__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_046__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_046_0002-verso-54553",
+      "image_id": 48700,
+      "category_id": 1012,
+      "bbox": [
+        654.1666525166996,
+        616.6666411664331,
+        2074.999955116665,
+        374.99998449310124
+      ],
+      "segmentation": [
+        [
+          654.1666525166996,
+          616.6666411664331,
+          2729.166607633365,
+          616.6666411664331,
+          2729.166607633365,
+          991.6666256595344,
+          654.1666525166996,
+          991.6666256595344
+        ]
+      ],
+      "area": 778124.9509919352,
+      "iscrowd": 0,
+      "text": "W.B.l04, Arrival of Mail in Foreign Waters. A French Sardine (Motor) boat, manned by English Tars, collects mails from the Mail Boat. Off to deliver to ships in Mudros Harbour.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_046_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          590.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 135,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 10
+          },
+          "alpha_ratio": 0.9184,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9315
+        }
+      },
+      "source_annotation_id": 54553,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_046__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_046__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_052_0002-verso-54558",
+      "image_id": 48706,
+      "category_id": 1012,
+      "bbox": [
+        316.66667683724654,
+        837.5000220223174,
+        2854.166758335709,
+        404.16667729435216
+      ],
+      "segmentation": [
+        [
+          316.66667683724654,
+          837.5000220223174,
+          3170.8334351729554,
+          837.5000220223174,
+          3170.8334351729554,
+          1241.6666993166696,
+          316.66667683724654,
+          1241.6666993166696
+        ]
+      ],
+      "area": 1153559.0951605355,
+      "iscrowd": 0,
+      "text": "TURKISH OUTDOAT DRIVEN AROUND NEW \"JOMBY'S\" FAVOURITE BATHINS PLACE. This gunboat, however, was unfortunate enough to get within range of one of our ships, and was driven as there's a badly damaged condition. The vessel grounded near some British soldiers, who are seen-making their way over the stones to dry land.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_052_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          836.1599731445312,
+          649.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 253,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 12
+          },
+          "alpha_ratio": 0.9547,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.936
+        }
+      },
+      "source_annotation_id": 54558,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_052__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_052__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_053_0002-verso-54560",
+      "image_id": 48707,
+      "category_id": 1012,
+      "bbox": [
+        624.9999836699607,
+        275.00000514236166,
+        2366.6666048302513,
+        304.1666723544303
+      ],
+      "segmentation": [
+        [
+          624.9999836699607,
+          275.00000514236166,
+          2991.666588500212,
+          275.00000514236166,
+          2991.666588500212,
+          579.166677496792,
+          624.9999836699607,
+          579.166677496792
+        ]
+      ],
+      "area": 719861.1057635751,
+      "iscrowd": 0,
+      "text": "La taripille mellanie pour frappe un maniure, dans la man de maniara.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_053_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          840.9600219726562,
+          652.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 56,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9655,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9457
+        }
+      },
+      "source_annotation_id": 54560,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_053__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_053__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_053_0002-verso-54561",
+      "image_id": 48707,
+      "category_id": 1012,
+      "bbox": [
+        404.1666561065746,
+        1416.6666931576206,
+        2154.1666103824646,
+        154.16666954950577
+      ],
+      "segmentation": [
+        [
+          404.1666561065746,
+          1416.6666931576206,
+          2558.333266489039,
+          1416.6666931576206,
+          2558.333266489039,
+          1570.8333627071263,
+          404.1666561065746,
+          1570.8333627071263
+        ]
+      ],
+      "area": 332100.6919774124,
+      "iscrowd": 0,
+      "text": "\"1998年 第24卷 第3期\"",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_053_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          840.9600219726562,
+          652.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "cjk",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 5,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 2
+          },
+          "alpha_ratio": 0.3571,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8196
+        }
+      },
+      "source_annotation_id": 54561,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_053__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_053__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_063_0002-verso-54565",
+      "image_id": 48717,
+      "category_id": 1012,
+      "bbox": [
+        775.0000072063142,
+        795.833360358823,
+        266.66666914625864,
+        137.50000466932545
+      ],
+      "segmentation": [
+        [
+          775.0000072063142,
+          795.833360358823,
+          1041.6666763525727,
+          795.833360358823,
+          1041.6666763525727,
+          933.3333650281485,
+          775.0000072063142,
+          933.3333650281485
+        ]
+      ],
+      "area": 36666.66825276403,
+      "iscrowd": 0,
+      "text": "148",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_063_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          525.1199951171875,
+          323.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "unknown",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 0
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 54565,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_063__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_063__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_065_0002-verso-54566",
+      "image_id": 48719,
+      "category_id": 1012,
+      "bbox": [
+        249.99999714040686,
+        470.8333308846808,
+        612.4999929939968,
+        162.49999915488982
+      ],
+      "segmentation": [
+        [
+          249.99999714040686,
+          470.8333308846808,
+          862.4999901344037,
+          470.8333308846808,
+          862.4999901344037,
+          633.3333300395706,
+          249.99999714040686,
+          633.3333300395706
+        ]
+      ],
+      "area": 99531.2483438945,
+      "iscrowd": 0,
+      "text": "Constantinople",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_065_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          640.3200073242188,
+          469.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54566,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_065__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_065__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_068_0002-verso-54567",
+      "image_id": 48722,
+      "category_id": 1012,
+      "bbox": [
+        287.50000437160134,
+        395.83334563463177,
+        1837.5000279402345,
+        408.3333460230938
+      ],
+      "segmentation": [
+        [
+          287.50000437160134,
+          395.83334563463177,
+          2125.0000323118356,
+          395.83334563463177,
+          2125.0000323118356,
+          804.1666916577256,
+          287.50000437160134,
+          804.1666916577256
+        ]
+      ],
+      "area": 750312.5347263643,
+      "iscrowd": 0,
+      "text": "Police officer inspecting people leaving constantinople.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_068_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          642.239990234375,
+          471.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 50,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9804,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8975
+        }
+      },
+      "source_annotation_id": 54567,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_068__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_068__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_070_0002-verso-54568",
+      "image_id": 48724,
+      "category_id": 1012,
+      "bbox": [
+        191.66666386532455,
+        650.0000270989435,
+        2858.3332915567967,
+        187.50000781700294
+      ],
+      "segmentation": [
+        [
+          191.66666386532455,
+          650.0000270989435,
+          3049.9999554221213,
+          650.0000270989435,
+          3049.9999554221213,
+          837.5000349159465,
+          191.66666386532455,
+          837.5000349159465
+        ]
+      ],
+      "area": 535937.5145104991,
+      "iscrowd": 0,
+      "text": "O.P.S. A large steamer surrounded by small fishing boats, alongside the Galata Quay, Constantinople, Turkey. RR",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_070_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          835.2000122070312,
+          644.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 89,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9271,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9076
+        }
+      },
+      "source_annotation_id": 54568,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_070__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_070__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_071_0002-verso-54569",
+      "image_id": 48725,
+      "category_id": 1012,
+      "bbox": [
+        174.99999948489813,
+        874.9999768548587,
+        1187.499996504666,
+        74.99999801613075
+      ],
+      "segmentation": [
+        [
+          174.99999948489813,
+          874.9999768548587,
+          1362.499995989564,
+          874.9999768548587,
+          1362.499995989564,
+          949.9999748709895,
+          174.99999948489813,
+          949.9999748709895
+        ]
+      ],
+      "area": 89062.49738200521,
+      "iscrowd": 0,
+      "text": "INTERESTING TYPES FROM TURKEY.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_071_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          829.4400024414062,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.963,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8954
+        }
+      },
+      "source_annotation_id": 54569,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_071__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_071__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_071_0002-verso-54570",
+      "image_id": 48725,
+      "category_id": 1012,
+      "bbox": [
+        174.99999948489813,
+        979.1666407661514,
+        2970.8333245888657,
+        179.16666192742343
+      ],
+      "segmentation": [
+        [
+          174.99999948489813,
+          979.1666407661514,
+          3145.833324073764,
+          979.1666407661514,
+          3145.833324073764,
+          1158.3333026935748,
+          174.99999948489813,
+          1158.3333026935748
+        ]
+      ],
+      "area": 532274.2899093367,
+      "iscrowd": 0,
+      "text": "O.P.S. Turkish fishermen of the Bosporus, hanging up their Fishing Nets for drying at Natalia Kanak, near the Black Seas, Turkey. RR",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_071_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          829.4400024414062,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 104,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9369,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9255
+        }
+      },
+      "source_annotation_id": 54570,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_071__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_071__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_074_0002-verso-54572",
+      "image_id": 48728,
+      "category_id": 1012,
+      "bbox": [
+        458.33334895041224,
+        537.5000178392592,
+        1891.6667311226106,
+        220.83334066264135
+      ],
+      "segmentation": [
+        [
+          458.33334895041224,
+          537.5000178392592,
+          2350.0000800730227,
+          537.5000178392592,
+          2350.0000800730227,
+          758.3333585019005,
+          458.33334895041224,
+          758.3333585019005
+        ]
+      ],
+      "area": 417743.08365418465,
+      "iscrowd": 0,
+      "text": "BRITISH OFFICIAL PHOTOGRAPH.\nW.B.121. SMYRNA. \"Ernest Renan\", French.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_074_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          788.1599731445312,
+          588.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 50,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 9
+          },
+          "alpha_ratio": 0.8065,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8901
+        }
+      },
+      "source_annotation_id": 54572,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_074__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_074__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_099_0001-recto-54583",
+      "image_id": 48753,
+      "category_id": 1013,
+      "bbox": [
+        820.8333609516864,
+        2958.333224298109,
+        1212.5000407966534,
+        154.16666098454937
+      ],
+      "segmentation": [
+        [
+          820.8333609516864,
+          2958.333224298109,
+          2033.3334017483398,
+          2958.333224298109,
+          2033.3334017483398,
+          3112.4998852826584,
+          820.8333609516864,
+          3112.4998852826584
+        ]
+      ],
+      "area": 186927.08273324993,
+      "iscrowd": 0,
+      "text": "146287-Photograph, Underwood & Underwood, N.Y.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_186_099_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          870.719970703125,
+          1324.800048828125
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 30,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 6
+          },
+          "alpha_ratio": 0.7143,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8976
+        }
+      },
+      "source_annotation_id": 54583,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_099__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_099__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_099_0001-recto-54584",
+      "image_id": 48753,
+      "category_id": 1012,
+      "bbox": [
+        820.8333609516864,
+        3154.166550413618,
+        1370.8333794573848,
+        283.33332289052316
+      ],
+      "segmentation": [
+        [
+          820.8333609516864,
+          3154.166550413618,
+          2191.6667404090713,
+          3154.166550413618,
+          2191.6667404090713,
+          3437.499873304141,
+          820.8333609516864,
+          3437.499873304141
+        ]
+      ],
+      "area": 388402.77653090627,
+      "iscrowd": 0,
+      "text": "BALKAN-TURKISH VAR. THE LAST TRAIN\nFRCM TOBACCO, RU TO CONSOLIDATED\nCARRYING WOMEN, CHILDREN, REDUCES\nAND ABDULLAH PACHA'S STIFF.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_186_099_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          870.719970703125,
+          1324.800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 105,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9375,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9089
+        }
+      },
+      "source_annotation_id": 54584,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_099__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_099__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_099_0001-recto-54585",
+      "image_id": 48753,
+      "category_id": 1012,
+      "bbox": [
+        829.1666945654091,
+        3495.833204487484,
+        1895.8333971219151,
+        1566.6666089240691
+      ],
+      "segmentation": [
+        [
+          829.1666945654091,
+          3495.833204487484,
+          2725.000091687324,
+          3495.833204487484,
+          2725.000091687324,
+          5062.499813411553,
+          829.1666945654091,
+          5062.499813411553
+        ]
+      ],
+      "area": 2970138.879353989,
+      "iscrowd": 0,
+      "text": "Martin H, Donohuo, of the \"London Daily Chronicle\" describes the departure of this train from Tchorlu and the first few miles of its journey, with women and children packed so closely in the cars that many were crushed and some actually asphyxiated. Owing to the slow pace at which the train was obliged to go to avoid decapitating those who had fallen on the lines, the fugitive soldiers who had sufficient energy cambered on to it. This happened so frequently that soon every inch of space was occupied, even on the front of the engine and the footboards, to which men cluing with the energy born of despair. Others managed to climb on to the roofs, where they hung like so many flies, and some of these were jolled off as the train crossed points or rounded curves and were killed. When the wounded men died during the journey their bodies were lifted out of the train and laid by the roadside, so as to give additional room to the overcrowded living.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_186_099_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          870.719970703125,
+          1324.800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 767,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 16
+          },
+          "alpha_ratio": 0.9796,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9974
+        }
+      },
+      "source_annotation_id": 54585,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_099__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_099__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_100_0001-recto-54586",
+      "image_id": 48754,
+      "category_id": 1012,
+      "bbox": [
+        791.6666490060317,
+        3133.3334259900657,
+        1387.4999690474133,
+        325.0000096106717
+      ],
+      "segmentation": [
+        [
+          791.6666490060317,
+          3133.3334259900657,
+          2179.166618053445,
+          3133.3334259900657,
+          2179.166618053445,
+          3458.3334356007376,
+          791.6666490060317,
+          3458.3334356007376
+        ]
+      ],
+      "area": 450937.50327521603,
+      "iscrowd": 0,
+      "text": "BALKAN-TERKISH WAR. THE LAST TRAIN FROM TOPORLU TOCONSTANT MOBILE, CARRING WOMEN, OHLJDREN, REDUGUES AND ABBULLAH PACHA'S STIFF.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_186_100_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          875.52001953125,
+          1320.9599609375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 105,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9375,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9089
+        }
+      },
+      "source_annotation_id": 54586,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_100__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_100__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_100_0001-recto-54587",
+      "image_id": 48754,
+      "category_id": 1012,
+      "bbox": [
+        708.3333175317125,
+        3466.6667691804982,
+        1891.666624467044,
+        1595.8333805241957
+      ],
+      "segmentation": [
+        [
+          708.3333175317125,
+          3466.6667691804982,
+          2599.999941998756,
+          3466.6667691804982,
+          2599.999941998756,
+          5062.500149704694,
+          708.3333175317125,
+          5062.500149704694
+        ]
+      ],
+      "area": 3018784.744148037,
+      "iscrowd": 0,
+      "text": "Martin H. Donohue, of the \"London Daily Chonicle\" describes the departure of this train from Tchorlu and the first few miles of its journey, with women and children packed so closely in the cars that many were crushed and some actually asphyxiated. Owing to the slow pace at which the train was obliged to go to avoid recapitating those who had fallen on the lines, the fugitive soldiers who had sufficient energy cambered on to it. This happened so frequently that soon every inch of space was occupied, even on the front of the engine and the footboards, to which men clung with the energy born of despair. Others managed to climb on to the roofs, where they hung like so many flies, and some of these were jolted off as the train crossed points or rounded curves and were killed. When the wounded men died during the journey their bodies were lifted out of the train and laid by the roadside, so as to give additional room to the overcrowded living.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_186_100_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          875.52001953125,
+          1320.9599609375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 765,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 16
+          },
+          "alpha_ratio": 0.9795,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9974
+        }
+      },
+      "source_annotation_id": 54587,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_100__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_100__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_186_107_0002-verso-54590",
+      "image_id": 48761,
+      "category_id": 1012,
+      "bbox": [
+        233.33333264653083,
+        829.1666884698566,
+        1983.3333274955119,
+        62.50000164345652
+      ],
+      "segmentation": [
+        [
+          233.33333264653083,
+          829.1666884698566,
+          2216.666660142043,
+          829.1666884698566,
+          2216.666660142043,
+          891.666690113313,
+          233.33333264653083,
+          891.666690113313
+        ]
+      ],
+      "area": 123958.33622799159,
+      "iscrowd": 0,
+      "text": "THE WAR IN THE LAST::Turkish prison are $---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---$---",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_186_107_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          829.4400024414062,
+          649.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "suspicious",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "non_latin",
+          "language_confidence": 0.8,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 31,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8174
+          },
+          "alpha_ratio": 0.0038,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8555
+        }
+      },
+      "source_annotation_id": 54590,
+      "source_file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_107__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_186/SHDGR__GR_2_K_247_186_107__0002.jpg"
+    }
+  ]
 }

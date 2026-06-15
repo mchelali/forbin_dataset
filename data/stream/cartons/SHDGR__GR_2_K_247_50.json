@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_50",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,9 +1685,4237 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Ceylan",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_001_0002-verso-16594",
+      "image_id": 10466,
+      "category_id": 1012,
+      "bbox": [
+        954.1666811753145,
+        33.333332397283115,
+        1025.000015585709,
+        141.66666268845324
+      ],
+      "segmentation": [
+        [
+          954.1666811753145,
+          33.333332397283115,
+          1979.1666967610236,
+          33.333332397283115,
+          1979.1666967610236,
+          174.99999508573637,
+          954.1666811753145,
+          174.99999508573637
+        ]
+      ],
+      "area": 145208.33146363994,
+      "iscrowd": 0,
+      "text": "1082Ceylan/Vie Quot.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_001_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          481.67999267578125,
+          347.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 13,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 2
+          },
+          "alpha_ratio": 0.6842,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8605
+        }
+      },
+      "source_annotation_id": 16594,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_001__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_001__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_005_0001-recto-16595",
+      "image_id": 10470,
+      "category_id": 1012,
+      "bbox": [
+        524.9999893401675,
+        1949.9999211132772,
+        724.9999852792789,
+        62.4999974715794
+      ],
+      "segmentation": [
+        [
+          524.9999893401675,
+          1949.9999211132772,
+          1249.9999746194464,
+          1949.9999211132772,
+          1249.9999746194464,
+          2012.4999185848567,
+          524.9999893401675,
+          2012.4999185848567
+        ]
+      ],
+      "area": 45312.497246850035,
+      "iscrowd": 0,
+      "text": "CEYLON'S OTHER INDYSTRY.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_005_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          601.2000122070312,
+          663.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9091,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8886
+        }
+      },
+      "source_annotation_id": 16595,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_005__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_005__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_005_0001-recto-16596",
+      "image_id": 10470,
+      "category_id": 1012,
+      "bbox": [
+        520.8333227581027,
+        2054.1665835659096,
+        1516.666635871595,
+        254.16665638442288
+      ],
+      "segmentation": [
+        [
+          520.8333227581027,
+          2054.1665835659096,
+          2037.4999586296976,
+          2054.1665835659096,
+          2037.4999586296976,
+          2308.3332399503324,
+          520.8333227581027,
+          2308.3332399503324
+        ]
+      ],
+      "area": 385486.0876892943,
+      "iscrowd": 0,
+      "text": "Ceylon and tea are synonymous. Tea is the most important staple of Ceylon, but it does not represent that island's only industry. Rubber is also produced, and cocoa, and the fishing industry is no mean affair.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_005_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          601.2000122070312,
+          663.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 167,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9598,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.945
+        }
+      },
+      "source_annotation_id": 16596,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_005__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_005__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_005_0001-recto-16597",
+      "image_id": 10470,
+      "category_id": 1012,
+      "bbox": [
+        520.8333227581027,
+        2354.166571429491,
+        1583.333301184632,
+        312.499987357897
+      ],
+      "segmentation": [
+        [
+          520.8333227581027,
+          2354.166571429491,
+          2104.166623942735,
+          2354.166571429491,
+          2104.166623942735,
+          2666.6665587873877,
+          520.8333227581027,
+          2666.6665587873877
+        ]
+      ],
+      "area": 494791.63660353486,
+      "iscrowd": 0,
+      "text": "PHOTO SHOWS:--Here we see a typical Ceylonese fish-ling village, on the shore of the Kolani River, Soú tourists are shown in the photograph, taking advantage of the bathing facilities of the spot, but they do not interfere with the activities of the village, (D.BH-BH)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_005_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          601.2000122070312,
+          663.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 212,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 13
+          },
+          "alpha_ratio": 0.9422,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9928
+        }
+      },
+      "source_annotation_id": 16597,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_005__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_005__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_011_0002-verso-16604",
+      "image_id": 10476,
+      "category_id": 1012,
+      "bbox": [
+        158.333325961938,
+        370.83333426615025,
+        670.8333021018951,
+        54.16666680292083
+      ],
+      "segmentation": [
+        [
+          158.333325961938,
+          370.83333426615025,
+          829.1666280638331,
+          370.83333426615025,
+          829.1666280638331,
+          425.00000106907106,
+          158.333325961938,
+          425.00000106907106
+        ]
+      ],
+      "area": 36336.80395525648,
+      "iscrowd": 0,
+      "text": "WASHINGTON DAY IN CYCLON!",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          629.280029296875,
+          485.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9545,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9193
+        }
+      },
+      "source_annotation_id": 16604,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_011_0002-verso-16605",
+      "image_id": 10476,
+      "category_id": 1012,
+      "bbox": [
+        149.99999301657283,
+        475.0000011948442,
+        2295.833226448101,
+        241.66666727456985
+      ],
+      "segmentation": [
+        [
+          149.99999301657283,
+          475.0000011948442,
+          2445.8332194646737,
+          475.0000011948442,
+          2445.8332194646737,
+          716.666668469414,
+          149.99999301657283,
+          716.666668469414
+        ]
+      ],
+      "area": 554826.3644539354,
+      "iscrowd": 0,
+      "text": "When washing day comes round in Ceylon, India, there are no washing machines wringers, linco, Lux or any other kind of appliance or cleaners, to clean the clothes. The washing is just dipped in and out of the water vats, then pounded with a polished mallet, and afterwards hung in the sun to dry. Ny",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          629.280029296875,
+          485.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 236,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 9
+          },
+          "alpha_ratio": 0.9633,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9954
+        }
+      },
+      "source_annotation_id": 16605,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_012_0002-verso-16606",
+      "image_id": 10477,
+      "category_id": 1012,
+      "bbox": [
+        229.16666666666669,
+        641.6666523522572,
+        2275.0,
+        291.6666601601169
+      ],
+      "segmentation": [
+        [
+          229.16666666666669,
+          641.6666523522572,
+          2504.1666666666665,
+          641.6666523522572,
+          2504.1666666666665,
+          933.333312512374,
+          229.16666666666669,
+          933.333312512374
+        ]
+      ],
+      "area": 663541.651864266,
+      "iscrowd": 0,
+      "text": "\"hen washing day comes round in Caylon, India, there are no washing machines wringers, Rinno, Lux, Kit, or any other kind of appliance or cleanser to clean the clothes. The washing is just dipped in and out of water vats, then pounded with a polished mallet and then wrung out by hand, and hung into, the sun to dry.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          630.0,
+          492.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 246,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 12
+          },
+          "alpha_ratio": 0.9535,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9942
+        }
+      },
+      "source_annotation_id": 16606,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_013_0002-verso-16607",
+      "image_id": 10478,
+      "category_id": 1013,
+      "bbox": [
+        175.0,
+        475.0000035952008,
+        679.1666666666667,
+        58.33333377484922
+      ],
+      "segmentation": [
+        [
+          175.0,
+          475.0000035952008,
+          854.1666666666667,
+          475.0000035952008,
+          854.1666666666667,
+          533.33333737005,
+          175.0,
+          533.33333737005
+        ]
+      ],
+      "area": 39618.05585541843,
+      "iscrowd": 0,
+      "text": "WASHINGTON DAY IN CYZON!",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_013_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          630.0,
+          483.8399963378906
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.919
+        }
+      },
+      "source_annotation_id": 16607,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_013__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_013__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_013_0002-verso-16608",
+      "image_id": 10478,
+      "category_id": 1012,
+      "bbox": [
+        166.66666666666669,
+        562.5000042574746,
+        2266.666666666667,
+        287.5000021760426
+      ],
+      "segmentation": [
+        [
+          166.66666666666669,
+          562.5000042574746,
+          2433.3333333333335,
+          562.5000042574746,
+          2433.3333333333335,
+          850.0000064335172,
+          166.66666666666669,
+          850.0000064335172
+        ]
+      ],
+      "area": 651666.6715990299,
+      "iscrowd": 0,
+      "text": "When washing day comes round in Ceylon, India, there are no washing machines wringers, Rinso, Lux, Rit, or any other kind of appliance or cleanser to clean the clothes. The washing is just dipped in and out of water vats, then pounded with a polished mallet and then wrung out by hand, and hung into the sun to dry. NY",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_013_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          630.0,
+          483.8399963378906
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 249,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 10
+          },
+          "alpha_ratio": 0.9614,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9952
+        }
+      },
+      "source_annotation_id": 16608,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_013__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_013__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_014_0001-recto-16609",
+      "image_id": 10479,
+      "category_id": 1013,
+      "bbox": [
+        408.33334336662216,
+        87.49999860047797,
+        216.66667199045258,
+        33.333332800182085
+      ],
+      "segmentation": [
+        [
+          408.33334336662216,
+          87.49999860047797,
+          625.0000153570747,
+          87.49999860047797,
+          625.0000153570747,
+          120.83333140066006,
+          408.33334336662216,
+          120.83333140066006
+        ]
+      ],
+      "area": 7222.222284165646,
+      "iscrowd": 0,
+      "text": "MIHINTALE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_014_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          248.39999389648438,
+          190.8000030517578
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 9,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8875
+        }
+      },
+      "source_annotation_id": 16609,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_014__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_014__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_014_0001-recto-16610",
+      "image_id": 10479,
+      "category_id": 1012,
+      "bbox": [
+        66.66666830475464,
+        145.83333100079662,
+        900.0000221141876,
+        366.6666608020029
+      ],
+      "segmentation": [
+        [
+          66.66666830475464,
+          145.83333100079662,
+          966.6666904189422,
+          145.83333100079662,
+          966.6666904189422,
+          512.4999918027995,
+          66.66666830475464,
+          512.4999918027995
+        ]
+      ],
+      "area": 330000.00283033797,
+      "iscrowd": 0,
+      "text": "Mihintale has been called \"the cradle of Buddhism in Ceylon\" from the fact that here the Sinhale King Dévánampiya Tissa in the third century B.C. welcomed Buddhism at the hands of the Ayran Missionary Mahinda. The scene of his conversion was commemorated by the building of huge shrines and monSTERIES which literally covered the mountain. This picture conveys the impression of a natural hill but upon close examination it reveals the remains of a gigantic edifice in the erection of which many millions of bricks were brought to the top of the mountain and carefully laid.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_014_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          248.39999389648438,
+          190.8000030517578
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 472,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9854,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9982
+        }
+      },
+      "source_annotation_id": 16610,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_014__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_014__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_014_0001-recto-16611",
+      "image_id": 10479,
+      "category_id": 1012,
+      "bbox": [
+        66.66666830475464,
+        537.4999914029361,
+        904.1666888832348,
+        133.33333120072834
+      ],
+      "segmentation": [
+        [
+          66.66666830475464,
+          537.4999914029361,
+          970.8333571879893,
+          537.4999914029361,
+          970.8333571879893,
+          670.8333226036644,
+          66.66666830475464,
+          670.8333226036644
+        ]
+      ],
+      "area": 120555.55658953424,
+      "iscrowd": 0,
+      "text": "For full information consult \"The Ruined Cities of Ceylon,\" by Henry W. Cave, M.A., F.R.G.S., M.R.A.S., published by Hutchinson & Co., London, and to be obtained of all bookseellers.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_014_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          248.39999389648438,
+          190.8000030517578
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 131,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 23
+          },
+          "alpha_ratio": 0.8506,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9397
+        }
+      },
+      "source_annotation_id": 16611,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_014__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_014__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_016_0002-verso-16612",
+      "image_id": 10481,
+      "category_id": 1012,
+      "bbox": [
+        1599.9999804139093,
+        783.3333281707297,
+        320.83332940591407,
+        1762.499988384142
+      ],
+      "segmentation": [
+        [
+          1599.9999804139093,
+          783.3333281707297,
+          1920.8333098198234,
+          783.3333281707297,
+          1920.8333098198234,
+          2545.8333165548715,
+          1599.9999804139093,
+          2545.8333165548715
+        ]
+      ],
+      "area": 565468.7393511691,
+      "iscrowd": 0,
+      "text": "DAR RASTEN TRATIS FOR AERONAUTics OR INCOME PER CENTRECEIVED\n0-3021994\nprinatal cities of the next Los Angeles\nmay or there may also be an annual retail shops.\nwww.rasten.com for American trade.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_016_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          598.3200073242188,
+          740.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 151,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 5
+          },
+          "alpha_ratio": 0.9207,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9234
+        }
+      },
+      "source_annotation_id": 16612,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_016__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_016__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_017_0001-recto-16613",
+      "image_id": 10482,
+      "category_id": 1013,
+      "bbox": [
+        774.9999793078543,
+        362.50000440171976,
+        804.1666451957843,
+        95.83333449700638
+      ],
+      "segmentation": [
+        [
+          774.9999793078543,
+          362.50000440171976,
+          1579.1666245036386,
+          362.50000440171976,
+          1579.1666245036386,
+          458.33333889872614,
+          774.9999793078543,
+          458.33333889872614
+        ]
+      ],
+      "area": 77065.97110038305,
+      "iscrowd": 0,
+      "text": "WORLD'S MOST REMARKABLE\nNATURAL FORTRESS IN CEYLON.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_017_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          640.0800170898438,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 43,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9556,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9087
+        }
+      },
+      "source_annotation_id": 16613,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_017__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_017__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_017_0001-recto-16614",
+      "image_id": 10482,
+      "category_id": 1012,
+      "bbox": [
+        241.66666021427716,
+        508.3333395058599,
+        2099.9999439309604,
+        950.0000115355415
+      ],
+      "segmentation": [
+        [
+          241.66666021427716,
+          508.3333395058599,
+          2341.6666041452377,
+          508.3333395058599,
+          2341.6666041452377,
+          1458.3333510414013,
+          241.66666021427716,
+          1458.3333510414013
+        ]
+      ],
+      "area": 1994999.970959049,
+      "iscrowd": 0,
+      "text": "Now and then Nature, seemingly in a perverse and freakish mood, throws up a rocky eminence which by its nature is a perfect fortress, apparently as though Nature had designed it for the use of man. These peculiar strongholds are found in various parts of the earth. The best known is the Rock of Gibralter. The least known, yet probably the most remarkable, is the Sigiriya or Lion's rock in Ceylon, today in the heart of a great jungle. But though few people in the outside world have ever heard of it, Sigiriya Rock has a famous history, and once figured largely in the lives of a race that then peeled what is now lonely jungle, seldom penetrated by men.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_017_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          640.0800170898438,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 523,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 15
+          },
+          "alpha_ratio": 0.9721,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9965
+        }
+      },
+      "source_annotation_id": 16614,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_017__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_017__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_017_0001-recto-16615",
+      "image_id": 10482,
+      "category_id": 1012,
+      "bbox": [
+        249.9999933251143,
+        1495.8333514967517,
+        2116.6666101526343,
+        954.1666782528026
+      ],
+      "segmentation": [
+        [
+          249.9999933251143,
+          1495.8333514967517,
+          2366.6666034777486,
+          1495.8333514967517,
+          2366.6666034777486,
+          2450.0000297495544,
+          249.9999933251143,
+          2450.0000297495544
+        ]
+      ],
+      "area": 2019652.748377959,
+      "iscrowd": 0,
+      "text": "The rock some five hundred feet high is particularly strange in that it towers high and lonely in a monotonously flat plain. The photograph of it shown herewith will perhaps not convey the impression to the viewer that the rock's top contains an area of five and a half acres. Yet it does, and upon this in the long ago a wonderful city was reared, a city which was absolutely impregnable perched on the top of a rock which is so remarkably formed for defense in that not only do its walls sheer up, but for a greater part of the circumference the top actually overhangs. From this the reader will easily understand why Sigiriya Rock was an impregnable stronghold in the days of old.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_017_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          640.0800170898438,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 551,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9857,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9982
+        }
+      },
+      "source_annotation_id": 16615,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_017__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_017__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_017_0001-recto-16616",
+      "image_id": 10482,
+      "category_id": 1012,
+      "bbox": [
+        254.16665988053288,
+        2491.6666969221656,
+        2145.8332760405647,
+        658.3333413272612
+      ],
+      "segmentation": [
+        [
+          254.16665988053288,
+          2491.6666969221656,
+          2399.9999359210974,
+          2491.6666969221656,
+          2399.9999359210974,
+          3150.000038249427,
+          254.16665988053288,
+          3150.000038249427
+        ]
+      ],
+      "area": 1412673.5905470082,
+      "iscrowd": 0,
+      "text": "About the year A.D. 470 the country around the rock, which is now nothing but a mass of lonely jungle where wild elephants and other animals roam, was a rich agricultural country supporting tens of thousands of people. A king named Dhatusena ruled over the country, having his capital at the city of Anuradhapura a few day's journey from Sigiriya Rock. The king had two sons, the eldest named Moggallana, the second Kasapa.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_017_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          640.0800170898438,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 337,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 11
+          },
+          "alpha_ratio": 0.9601,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.995
+        }
+      },
+      "source_annotation_id": 16616,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_017__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_017__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_018_0001-recto-16617",
+      "image_id": 10483,
+      "category_id": 1012,
+      "bbox": [
+        249.9999961598619,
+        270.8333259405094,
+        2170.833299988134,
+        383.33332286964406
+      ],
+      "segmentation": [
+        [
+          249.9999961598619,
+          270.8333259405094,
+          2420.833296147996,
+          270.8333259405094,
+          2420.833296147996,
+          654.1666488101534,
+          249.9999961598619,
+          654.1666488101534
+        ]
+      ],
+      "area": 832152.7422805263,
+      "iscrowd": 0,
+      "text": "was successful. He put his father out of the way by building him up alive in a wall, a practise common among these people in those days. The elder brother, Moggana, managed to escape to India and took refuge in the court of one of the powerful rajah's.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_018_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 198,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9659,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9957
+        }
+      },
+      "source_annotation_id": 16617,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_018__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_018__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_018_0001-recto-16618",
+      "image_id": 10483,
+      "category_id": 1012,
+      "bbox": [
+        724.9999888635995,
+        670.8333150218771,
+        1566.6666426018012,
+        70.83333139982554
+      ],
+      "segmentation": [
+        [
+          724.9999888635995,
+          670.8333150218771,
+          2291.6666314654008,
+          670.8333150218771,
+          2291.6666314654008,
+          741.6666464217026,
+          724.9999888635995,
+          741.6666464217026
+        ]
+      ],
+      "area": 110972.21748846542,
+      "iscrowd": 0,
+      "text": "Once in possession of the kingdom,Kasapa was worried",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_018_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 44,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9778,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9306
+        }
+      },
+      "source_annotation_id": 16618,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_018__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_018__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_018_0001-recto-16619",
+      "image_id": 10483,
+      "category_id": 1012,
+      "bbox": [
+        258.3333293651906,
+        766.6666457392881,
+        2145.8333003721477,
+        670.8333150218771
+      ],
+      "segmentation": [
+        [
+          258.3333293651906,
+          766.6666457392881,
+          2404.1666297373386,
+          766.6666457392881,
+          2404.1666297373386,
+          1437.4999607611653,
+          258.3333293651906,
+          1437.4999607611653
+        ]
+      ],
+      "area": 1439496.466372983,
+      "iscrowd": 0,
+      "text": "that his brother might return with an army lent by the friendly rajah to whose court he had fled. To be fully prepared, Kasapa bethought himself of the Sigiriya rock. Here certainly nature offered a natural fortress. The rock, however, required a great deal of engineering skill to make it a suitable habitation, for there were no approaches leading to its top. He called together all the most learned engineers in the land and they set about overcoming the difficulties.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_018_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 383,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 9
+          },
+          "alpha_ratio": 0.977,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9971
+        }
+      },
+      "source_annotation_id": 16619,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_018__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_018__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_018_0001-recto-16620",
+      "image_id": 10483,
+      "category_id": 1012,
+      "bbox": [
+        741.666655274257,
+        1462.4999600787507,
+        1449.999977727199,
+        66.66666484689462
+      ],
+      "segmentation": [
+        [
+          741.666655274257,
+          1462.4999600787507,
+          2191.666633001456,
+          1462.4999600787507,
+          2191.666633001456,
+          1529.1666249256455,
+          741.666655274257,
+          1529.1666249256455
+        ]
+      ],
+      "area": 96666.66254314383,
+      "iscrowd": 0,
+      "text": "As can be seen from photograph one, the rock is",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_018_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9737,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9167
+        }
+      },
+      "source_annotation_id": 16620,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_018__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_018__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_018_0001-recto-16621",
+      "image_id": 10483,
+      "category_id": 1012,
+      "bbox": [
+        270.8333291731837,
+        1562.4999573490927,
+        2279.1666316574074,
+        1162.4999682677249
+      ],
+      "segmentation": [
+        [
+          270.8333291731837,
+          1562.4999573490927,
+          2549.999960830591,
+          1562.4999573490927,
+          2549.999960830591,
+          2724.9999256168176,
+          270.8333291731837,
+          2724.9999256168176
+        ]
+      ],
+      "area": 2649531.136978593,
+      "iscrowd": 0,
+      "text": "cylindrical in form. The flat summit of the rock overhangs the main body, the main body slopes outwards at a height of about two thirds of the way from the top until the walls are nearly plumb with the face of the over-hanging portion, a good idea of which can be gained from the two photos of the causeway and approaches herewith shown. The new king's engineers set their workmen to constructing a grand stone stairway to that portion of the outward slope of the rock that approached nearest to its base, and from there he commenced a wonderful causeway. To obtain a sound foundation for this parallel grooves were cut in the rock. Upon this solid brickwork, inclining slightly inward, was laid. Upon this limestone slabs were laid, cement while, as a protection to the passage, a nine foot/wall was reared. Photo 2. Gradually ascending higher and higher from this point onward",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_018_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 707,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 18
+          },
+          "alpha_ratio": 0.9738,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9967
+        }
+      },
+      "source_annotation_id": 16621,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_018__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_018__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_018_0001-recto-16622",
+      "image_id": 10483,
+      "category_id": 1012,
+      "bbox": [
+        291.66666218650556,
+        2754.166591487334,
+        2245.8332988360926,
+        479.16665358705507
+      ],
+      "segmentation": [
+        [
+          291.66666218650556,
+          2754.166591487334,
+          2537.499961022598,
+          2754.166591487334,
+          2537.499961022598,
+          3233.3332450743887,
+          291.66666218650556,
+          3233.3332450743887
+        ]
+      ],
+      "area": 1076128.4263176671,
+      "iscrowd": 0,
+      "text": "and following the outline of the cliff on the western side the gallery was continued till the north west portion was reached. At this point, due to the extreme steepness of the rock face, instead of continuing the foundation, the engineers built/cement bastion from the base below, over which the road was continued. Though fourteen hundred years have passed since",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_018_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 298,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.977,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9971
+        }
+      },
+      "source_annotation_id": 16622,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_018__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_018__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_019_0001-recto-16623",
+      "image_id": 10484,
+      "category_id": 1012,
+      "bbox": [
+        187.50000502311542,
+        104.16666476084274,
+        2208.3333924944704,
+        449.9999917668406
+      ],
+      "segmentation": [
+        [
+          187.50000502311542,
+          104.16666476084274,
+          2395.833397517586,
+          104.16666476084274,
+          2395.833397517586,
+          554.1666565276834,
+          187.50000502311542,
+          554.1666565276834
+        ]
+      ],
+      "area": 993750.0084409509,
+      "iscrowd": 0,
+      "text": "the work was done much of it has stood the erosion of wind and rain. In places where the monsoon's havoc through the centuries carried part of the gallery away, modern archaeologists have placed iron railings which makes the ascent possible today. A view of this is seen in photograph three.\n\nRising gradually and winding around the rock the road",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_019_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          637.9199829101562,
+          800.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 281,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9825,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9978
+        }
+      },
+      "source_annotation_id": 16623,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_019__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_019__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_019_0001-recto-16624",
+      "image_id": 10484,
+      "category_id": 1012,
+      "bbox": [
+        191.66667180140686,
+        595.8333224320204,
+        2254.1667270556763,
+        854.1666510389103
+      ],
+      "segmentation": [
+        [
+          191.66667180140686,
+          595.8333224320204,
+          2445.833398857083,
+          595.8333224320204,
+          2445.833398857083,
+          1449.9999734709309,
+          191.66667180140686,
+          1449.9999734709309
+        ]
+      ],
+      "area": 1925434.0441324885,
+      "iscrowd": 0,
+      "text": "was projected to the northeast aspect,.. Here and enormous lion xxxxxxx was built, through which the way led through massive iron gates. These of course have decomposed centuries ago. Above these iron gates a little way was the only place on the whole rock where the summit did not overhang, and of course was the only spot where access to the plateau at the top could be reached. Over this last stretch stone steps were placed as shown in photograph four. At the top of these steps gates once were hung, which would have aided the defenders in a last final defence if so improbable a thing happened as an enemy being able to get this far up alive.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_019_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          637.9199829101562,
+          800.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 519,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 11
+          },
+          "alpha_ratio": 0.9792,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9974
+        }
+      },
+      "source_annotation_id": 16624,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_019__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_019__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_019_0001-recto-16625",
+      "image_id": 10484,
+      "category_id": 1012,
+      "bbox": [
+        195.83333857969834,
+        2179.16662679683,
+        2220.833392829345,
+        758.3333194589351
+      ],
+      "segmentation": [
+        [
+          195.83333857969834,
+          2179.16662679683,
+          2416.666731409043,
+          2179.16662679683,
+          2416.666731409043,
+          2937.499946255765,
+          195.83333857969834,
+          2937.499946255765
+        ]
+      ],
+      "area": 1684131.9587495264,
+      "iscrowd": 0,
+      "text": "But a fortress is useless to its defenders unless a good supply of water is guaranteed. To assure this, one of the most remarkable feats of engineering work in the world was accomplished. A huge reservoir was built on the eastern side portion of the plateau. Into this, by a system of gravitation drainage all the rain that fell on the roofs of all the buildings was carried off them into the reservoir. Immense stores of food were always kept on hand at the top of the rock. Here a flourishing city of several thousand inhabitants was established.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_019_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          637.9199829101562,
+          800.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 443,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9823,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9978
+        }
+      },
+      "source_annotation_id": 16625,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_019__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_019__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_019_0001-recto-16626",
+      "image_id": 10484,
+      "category_id": 1012,
+      "bbox": [
+        195.83333857969834,
+        2974.9999455696684,
+        2137.500057263516,
+        166.66666361734838
+      ],
+      "segmentation": [
+        [
+          195.83333857969834,
+          2974.9999455696684,
+          2333.333395843214,
+          2974.9999455696684,
+          2333.333395843214,
+          3141.6666091870165,
+          195.83333857969834,
+          3141.6666091870165
+        ]
+      ],
+      "area": 356250.0030260013,
+      "iscrowd": 0,
+      "text": "In this city for twenty years Kasapa reigned. Then in the year 494 his elder brother Moggallana marched into the land with a",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_019_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          637.9199829101562,
+          800.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 98,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 1
+          },
+          "alpha_ratio": 0.9608,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9451
+        }
+      },
+      "source_annotation_id": 16626,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_019__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_019__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_020_0001-recto-16627",
+      "image_id": 10485,
+      "category_id": 1012,
+      "bbox": [
+        154.1666637132497,
+        174.99999574625562,
+        2183.3332915065635,
+        149.9999963539334
+      ],
+      "segmentation": [
+        [
+          154.1666637132497,
+          174.99999574625562,
+          2337.4999552198133,
+          174.99999574625562,
+          2337.4999552198133,
+          324.99999210018905,
+          154.1666637132497,
+          324.99999210018905
+        ]
+      ],
+      "area": 327499.98576540593,
+      "iscrowd": 0,
+      "text": "powerful army from India. He easily captured the city of Anaradhapura, and marched on to the siege of Sigiriya Rock.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_020_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          637.2000122070312,
+          803.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 94,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9691,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9461
+        }
+      },
+      "source_annotation_id": 16627,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_020__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_020_0001-recto-16628",
+      "image_id": 10485,
+      "category_id": 1012,
+      "bbox": [
+        691.6666534162014,
+        370.83332431944643,
+        1591.666636174632,
+        49.99999878464446
+      ],
+      "segmentation": [
+        [
+          691.6666534162014,
+          370.83332431944643,
+          2283.3332895908334,
+          370.83332431944643,
+          2283.3332895908334,
+          420.8333231040909,
+          691.6666534162014,
+          420.8333231040909
+        ]
+      ],
+      "area": 79583.32987429074,
+      "iscrowd": 0,
+      "text": "Perched high on this fortress that was absolutely im-",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_020_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          637.2000122070312,
+          803.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1111,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 44,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9778,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9083
+        }
+      },
+      "source_annotation_id": 16628,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_020__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_020_0001-recto-16629",
+      "image_id": 10485,
+      "category_id": 1012,
+      "bbox": [
+        158.33333030009427,
+        466.6666553233483,
+        2191.6666246802524,
+        449.9999890618002
+      ],
+      "segmentation": [
+        [
+          158.33333030009427,
+          466.6666553233483,
+          2349.9999549803465,
+          466.6666553233483,
+          2349.9999549803465,
+          916.6666443851485,
+          158.33333030009427,
+          916.6666443851485
+        ]
+      ],
+      "area": 986249.9571332261,
+      "iscrowd": 0,
+      "text": "pregnant against any mode of attack in those days, Kasapa would have been able to hold out indefinitely, for the reservoir supplied plenty of water, and they had stored up food to last for years; while a large army attacking on the plains below would have had to bring in their food from long distances.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_020_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          637.2000122070312,
+          803.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 244,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9799,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9808
+        }
+      },
+      "source_annotation_id": 16629,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_020__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_020_0001-recto-16630",
+      "image_id": 10485,
+      "category_id": 1012,
+      "bbox": [
+        158.33333030009427,
+        958.3333100390189,
+        2279.1666230039887,
+        349.99999149251124
+      ],
+      "segmentation": [
+        [
+          158.33333030009427,
+          958.3333100390189,
+          2437.4999533040827,
+          958.3333100390189,
+          2437.4999533040827,
+          1308.3333015315302,
+          158.33333030009427,
+          1308.3333015315302
+        ]
+      ],
+      "area": 797708.2986614116,
+      "iscrowd": 0,
+      "text": "But Kasapa was foolhardily brave. Hardly had his brother left the city of Anaradhapura at the head of his army than Kasapa gathered his army at the foot of the rock, and when the opposing one marched upon the plain Kasapa attacked them.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_020_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          637.2000122070312,
+          803.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 191,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9845,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9814
+        }
+      },
+      "source_annotation_id": 16630,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_020__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_020_0001-recto-16631",
+      "image_id": 10485,
+      "category_id": 1012,
+      "bbox": [
+        158.33333030009427,
+        1354.1666337507877,
+        2270.8332898302997,
+        1041.6666413467597
+      ],
+      "segmentation": [
+        [
+          158.33333030009427,
+          1354.1666337507877,
+          2429.1666201303938,
+          1354.1666337507877,
+          2429.1666201303938,
+          2395.8332750975474,
+          158.33333030009427,
+          2395.8332750975474
+        ]
+      ],
+      "area": 2365451.2860759413,
+      "iscrowd": 0,
+      "text": "At this late date, of course, it is hard to gather from the primitive records of those times exactly what really happened. According to the legend of the battle,Kasapa's army was getting the best of the conflict and Moggallana's men were just about to retreat when suddenly two supernatural beings mounted on enormous horses galloped upon the scene and began fighting on the side of Moggallana. The horsemen had swords of flame. These warriors and their flaming swords frightened Kasapa's fighting elephants, which were a very important part of an army in those days. The elephants broke rank and fled, throwing the whole army out of order. Then the soldiers of Moggallana quickly swept the field of their enemies.Kasapa, rather than be taken prisoner committed suicide.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_020_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          637.2000122070312,
+          803.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 629,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 16
+          },
+          "alpha_ratio": 0.9752,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9969
+        }
+      },
+      "source_annotation_id": 16631,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_020__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_020_0001-recto-16632",
+      "image_id": 10485,
+      "category_id": 1012,
+      "bbox": [
+        158.33333030009427,
+        2537.4999383207064,
+        2324.999955459279,
+        674.9999835927002
+      ],
+      "segmentation": [
+        [
+          158.33333030009427,
+          2537.4999383207064,
+          2483.333285759373,
+          2537.4999383207064,
+          2483.333285759373,
+          3212.4999219134065,
+          158.33333030009427,
+          3212.4999219134065
+        ]
+      ],
+      "area": 1569374.9317880422,
+      "iscrowd": 0,
+      "text": "enemies to fear, he moved the capital of the kingdom back to the city of Anaradhapura. From that day the great natural fortress was deserted. Slowly the jungle crept over what had once been level fertile plains around it. Today the only sign that men once used it is a wonderful bath, said to have been used by Kasapa's queen. This is carved out of solid rock, and stands on a pinnacle of rock. The stone steps leading up to it can be seen to the right of the bath, as shown in photo five. (FRANK BURNETT)\nPhotographer",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_020_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          637.2000122070312,
+          803.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 408,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 13
+          },
+          "alpha_ratio": 0.9691,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9961
+        }
+      },
+      "source_annotation_id": 16632,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_020__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_021_0001-recto-16633",
+      "image_id": 10486,
+      "category_id": 1012,
+      "bbox": [
+        1612.4999752311091,
+        116.6666680833121,
+        424.9999934717652,
+        145.83333510414013
+      ],
+      "segmentation": [
+        [
+          1612.4999752311091,
+          116.6666680833121,
+          2037.4999687028744,
+          116.6666680833121,
+          2037.4999687028744,
+          262.50000318745225,
+          1612.4999752311091,
+          262.50000318745225
+        ]
+      ],
+      "area": 61979.1664672253,
+      "iscrowd": 0,
+      "text": "Approximately 2,000 words. Six photos.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_021_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 3
+          },
+          "alpha_ratio": 0.7941,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8743
+        }
+      },
+      "source_annotation_id": 16633,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_021_0001-recto-16634",
+      "image_id": 10486,
+      "category_id": 1012,
+      "bbox": [
+        874.9999865595166,
+        304.16667036006373,
+        1020.8333176527694,
+        95.83333449700638
+      ],
+      "segmentation": [
+        [
+          874.9999865595166,
+          304.16667036006373,
+          1895.833304212286,
+          304.16667036006373,
+          1895.833304212286,
+          400.0000048570701,
+          874.9999865595166,
+          400.0000048570701
+        ]
+      ],
+      "area": 97829.86079630662,
+      "iscrowd": 0,
+      "text": "STORY OF THE FIRST SKYSCRAPER AND OTHERS WONDERS OF ANURADHAPURA",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_021_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 55,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.94
+        }
+      },
+      "source_annotation_id": 16634,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_021_0001-recto-16635",
+      "image_id": 10486,
+      "category_id": 1012,
+      "bbox": [
+        724.9999888635995,
+        454.166672181465,
+        1683.3333074764034,
+        54.16666732439491
+      ],
+      "segmentation": [
+        [
+          724.9999888635995,
+          454.166672181465,
+          2408.333296340003,
+          454.166672181465,
+          2408.333296340003,
+          508.3333395058599,
+          724.9999888635995,
+          508.3333395058599
+        ]
+      ],
+      "area": 91180.55526214771,
+      "iscrowd": 0,
+      "text": "Strange and unbelievable though it may seem, men erected",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_021_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1111,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 47,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9792,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9085
+        }
+      },
+      "source_annotation_id": 16635,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_021_0001-recto-16636",
+      "image_id": 10486,
+      "category_id": 1012,
+      "bbox": [
+        224.9999965438757,
+        550.0000066784713,
+        2270.833298452079,
+        945.8333448182804
+      ],
+      "segmentation": [
+        [
+          224.9999965438757,
+          550.0000066784713,
+          2495.8332949959545,
+          550.0000066784713,
+          2495.8332949959545,
+          1495.8333514967517,
+          224.9999965438757,
+          1495.8333514967517
+        ]
+      ],
+      "area": 2147829.854199658,
+      "iscrowd": 0,
+      "text": "skyscrapers more than two thousand years ago. One of the finest of these was reared in the city of Anuradhapura in Ceylon, a city which rivalledylation in its size and magnificence. For forty years now the British Colonial officials and the Archaeological Society of Ceylon have been laboring to wrest a few of the best preserved buildings of the city from the ruin of seven hundred and fifty years caused by neglect and desertion. Yet though work has been continued with a fair degree of rapidity for all this time only a small circle of five miles has been cleared in a city which had four walls each sixteen miles long, and which encircled an area of two hundred and sixty miles.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_021_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 555,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9893,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9987
+        }
+      },
+      "source_annotation_id": 16636,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_021_0001-recto-16637",
+      "image_id": 10486,
+      "category_id": 1012,
+      "bbox": [
+        729.1666554662638,
+        1537.500018669363,
+        1720.8333069003827,
+        50.00000060713376
+      ],
+      "segmentation": [
+        [
+          729.1666554662638,
+          1537.500018669363,
+          2449.9999623666463,
+          1537.500018669363,
+          2449.9999623666463,
+          1587.500019276497,
+          729.1666554662638,
+          1587.500019276497
+        ]
+      ],
+      "area": 86041.66638979512,
+      "iscrowd": 0,
+      "text": "Three centuries before Christ the city was built and con-",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_021_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 47,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9792,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9174
+        }
+      },
+      "source_annotation_id": 16637,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_021_0001-recto-16638",
+      "image_id": 10486,
+      "category_id": 1012,
+      "bbox": [
+        224.9999965438757,
+        1637.5000198836306,
+        2254.1666320414215,
+        1154.1666806813375
+      ],
+      "segmentation": [
+        [
+          224.9999965438757,
+          1637.5000198836306,
+          2479.166628585297,
+          1637.5000198836306,
+          2479.166628585297,
+          2791.666700564968,
+          224.9999965438757,
+          2791.666700564968
+        ]
+      ],
+      "area": 2601684.019405877,
+      "iscrowd": 0,
+      "text": "Continued as a mighty place till the year 1164; then was deserted and became overgrown by the jungle. Now after these various places and shrines have been standing for over two thousand years some of them are being reclaimed. Fortunately for the men of today who are working in Ceylon on this ancient ancient city, the people who founded it two thousand years ago and those who came after them and dwelt here till the year 1100 were learned and much given to the propagation of knowledge. In Anuradhapura dwelt countless teachers, to whom came scholars from all the country around. Thus men of today by deciphering those writings of ancient times have learned of the wonders of the past, one of the most interesting of which to the average reader is probably the fact that buildings of many storeys were reared in those far distant days.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_021_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 674,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 9
+          },
+          "alpha_ratio": 0.9754,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9969
+        }
+      },
+      "source_annotation_id": 16638,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_021_0001-recto-16639",
+      "image_id": 10486,
+      "category_id": 1012,
+      "bbox": [
+        229.16666314654006,
+        2829.1667010203187,
+        2174.9999665907985,
+        370.83333783624204
+      ],
+      "segmentation": [
+        [
+          229.16666314654006,
+          2829.1667010203187,
+          2404.1666297373386,
+          2829.1667010203187,
+          2404.1666297373386,
+          3200.000038856561,
+          229.16666314654006,
+          3200.000038856561
+        ]
+      ],
+      "area": 806562.4974045807,
+      "iscrowd": 0,
+      "text": "Anuradhapura was the stronghold of Buddhism and was introduced in the third century before Christ by Prince Mahinda of India. According to the legend this prince flew from northern India to near the city of Anuradhapura. The reigning monarch, King Tissa happened to be",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_021_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 222,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9867,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.99
+        }
+      },
+      "source_annotation_id": 16639,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_022_0001-recto-16640",
+      "image_id": 10487,
+      "category_id": 1012,
+      "bbox": [
+        162.50000498653253,
+        179.1666688422293,
+        2266.6667362224025,
+        541.666673243949
+      ],
+      "segmentation": [
+        [
+          162.50000498653253,
+          179.1666688422293,
+          2429.166741208935,
+          179.1666688422293,
+          2429.166741208935,
+          720.8333420861784,
+          162.50000498653253,
+          720.8333420861784
+        ]
+      ],
+      "area": 1227777.8303623085,
+      "iscrowd": 0,
+      "text": "out hunting near the spot where Mahinda alighted. The king, seeing this wonderful sight was at once converted. He took Prince Mahinda into the city and within a few months time the whole nation had accepted the faith of Buddha. One hundred thousand converts were made in a single day on one particular occasion. One of stone Buddha's worshiped is shown in photo one. With the nation's acceptance of the new religion there",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_022_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          636.47998046875,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 341,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9771,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9971
+        }
+      },
+      "source_annotation_id": 16640,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_022__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_022__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_022_0001-recto-16641",
+      "image_id": 10487,
+      "category_id": 1012,
+      "bbox": [
+        170.8333385755855,
+        766.666675976051,
+        2308.333404167667,
+        1150.0000139640765
+      ],
+      "segmentation": [
+        [
+          170.8333385755855,
+          766.666675976051,
+          2479.1667427432526,
+          766.666675976051,
+          2479.1667427432526,
+          1916.6666899401275,
+          170.8333385755855,
+          1916.6666899401275
+        ]
+      ],
+      "area": 2654583.4470265615,
+      "iscrowd": 0,
+      "text": "began feverish activity in erecting stone Buddas, shrines, temples and places to house the priesthood. The finest structure, and one particularly interesting as it was probably the first skyscraper in the world was the Bronzen Palace built in the heart of the city of Anuradhapura. It was nine storeys high and housed nine hundred monks, a hundred to each floor. The roof of this monstrous building was made of brass tiles, hence its name. The foundation consisted of sixteen hundred stone pillars some fifteen feet in height and several feet thick, each one hewn from solid rock and trash transported a distance of one hundred and twenty five miles from the mountain quarry. Today nothing remains but these upright pillars, part of which are shown in photograph two. The walls were destroyed in the twelfth century by Holyan invaders.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_022_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          636.47998046875,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 683,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 14
+          },
+          "alpha_ratio": 0.9799,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9975
+        }
+      },
+      "source_annotation_id": 16641,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_022__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_022__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_022_0001-recto-16642",
+      "image_id": 10487,
+      "category_id": 1012,
+      "bbox": [
+        175.00000537011195,
+        1954.1666903954779,
+        2375.0000728800906,
+        354.1666709671975
+      ],
+      "segmentation": [
+        [
+          175.00000537011195,
+          1954.1666903954779,
+          2550.0000782502025,
+          1954.1666903954779,
+          2550.0000782502025,
+          2308.3333613626755,
+          175.00000537011195,
+          2308.3333613626755
+        ]
+      ],
+      "area": 841145.8693587931,
+      "iscrowd": 0,
+      "text": "Of course all the immense stones were too large for men to alone have handled, . But the ancients were very clever. They had input captured elephants and tamed and trained them to labor, thus making possible the moving of stones weighing many tons over a distance of a hundred miles.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_022_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          636.47998046875,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 228,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9785,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9723
+        }
+      },
+      "source_annotation_id": 16642,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_022__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_022__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_022_0001-recto-16643",
+      "image_id": 10487,
+      "category_id": 1012,
+      "bbox": [
+        175.00000537011195,
+        2437.5000295977707,
+        2358.3334057019847,
+        779.1666761278344
+      ],
+      "segmentation": [
+        [
+          175.00000537011195,
+          2437.5000295977707,
+          2533.3334110720966,
+          2437.5000295977707,
+          2533.3334110720966,
+          3216.666705725605,
+          175.00000537011195,
+          3216.666705725605
+        ]
+      ],
+      "area": 1837534.800922051,
+      "iscrowd": 0,
+      "text": "shrines of solid masonry, called dagabas. These ranged in size from a few feet in circumference to twelve hundred feet. The best preserved of these is the Dagaba Ruanveli shown in photograph three. It has enough masonry in it to build a modern town of twenty thousand inhabitants. This was built in the second century B.C. and is solid throughout. It is three hundred feet high, has a foundation of cement twenty feet thick. In the days before the city was deserted the whole face of it was coated with stucco from pinnacle to revetment and gaily gilded. Today it looks very much like a hill by nature",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_022_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          636.47998046875,
+          804.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 483,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 11
+          },
+          "alpha_ratio": 0.9777,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9972
+        }
+      },
+      "source_annotation_id": 16643,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_022__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_022__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_023_0001-recto-16644",
+      "image_id": 10488,
+      "category_id": 1012,
+      "bbox": [
+        200.00000535798978,
+        174.99999574625562,
+        200.00000535798978,
+        37.49999908848335
+      ],
+      "segmentation": [
+        [
+          200.00000535798978,
+          174.99999574625562,
+          400.00001071597956,
+          174.99999574625562,
+          400.00001071597956,
+          212.49999483473897,
+          200.00000535798978,
+          212.49999483473897
+        ]
+      ],
+      "area": 7500.000018621282,
+      "iscrowd": 0,
+      "text": "reared.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_023_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          637.9199829101562,
+          803.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 6,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.8571,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8821
+        }
+      },
+      "source_annotation_id": 16644,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_023__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_023__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_023_0001-recto-16645",
+      "image_id": 10488,
+      "category_id": 1012,
+      "bbox": [
+        720.8333526444214,
+        270.83332675015754,
+        1625.000043533667,
+        49.99999878464446
+      ],
+      "segmentation": [
+        [
+          720.8333526444214,
+          270.83332675015754,
+          2345.833396178088,
+          270.83332675015754,
+          2345.833396178088,
+          320.833325534802,
+          720.8333526444214,
+          320.833325534802
+        ]
+      ],
+      "area": 81250.00020173054,
+      "iscrowd": 0,
+      "text": "About a mile distant from this structure is the Dalada",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_023_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          637.9199829101562,
+          803.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1111,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 45,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9111
+        }
+      },
+      "source_annotation_id": 16645,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_023__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_023__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_023_0001-recto-16646",
+      "image_id": 10488,
+      "category_id": 1012,
+      "bbox": [
+        183.33333824482395,
+        362.49999118867237,
+        2329.1667290649225,
+        1145.8333054814357
+      ],
+      "segmentation": [
+        [
+          183.33333824482395,
+          362.49999118867237,
+          2512.5000673097466,
+          362.49999118867237,
+          2512.5000673097466,
+          1508.333296670108,
+          183.33333824482395,
+          1508.333296670108
+        ]
+      ],
+      "area": 2668836.8121818434,
+      "iscrowd": 0,
+      "text": "Malgawa, where in the year A.D. 319 was enshrined the tooth of the great Buddha. The following is the story of it, which the natives implicitly believe; Some seven hundred years after its enshrining the city was threatened with invasion. Fearing the tooth would fall to the enemy the priests assigned to guard it ground the tooth into powder, and one of their number took this and cast it into the sea. Later, when the enemy were driven off and peace restored, the denizens of the sea, who had carefully gathered all the powder returned it to the priests. The priests, sided by a miraculous power, converted the φ tooth back to its original shape. If you doubt this, go to Kandy Ceylon, where it is today on view to thousands of Buddhists who travel from Siam, Burma and many other places to see it. The Valade Maligawa is one of the best preserved of the temples as shown in photograph four.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_023_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          637.9199829101562,
+          803.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 706,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 22
+          },
+          "alpha_ratio": 0.9672,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9959
+        }
+      },
+      "source_annotation_id": 16646,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_023__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_023__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_023_0001-recto-16647",
+      "image_id": 10488,
+      "category_id": 1012,
+      "bbox": [
+        179.1666714665325,
+        1641.6666267624933,
+        2325.000062286631,
+        366.66665775405943
+      ],
+      "segmentation": [
+        [
+          179.1666714665325,
+          1641.6666267624933,
+          2504.1667337531635,
+          1641.6666267624933,
+          2504.1667337531635,
+          2008.3332845165528,
+          179.1666714665325,
+          2008.3332845165528
+        ]
+      ],
+      "area": 852500.002116619,
+      "iscrowd": 0,
+      "text": "remains of wonderful reddi residences, rock bath tubs and various temples. One of the temples hewn out of solid rock is shown herewith. The picture tells more of the architecture of these people of the past than twenty pages of description. Photo's",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_023_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          637.9199829101562,
+          803.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 202,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9758,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.997
+        }
+      },
+      "source_annotation_id": 16647,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_023__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_023__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_023_0001-recto-16648",
+      "image_id": 10488,
+      "category_id": 1012,
+      "bbox": [
+        170.8333379099496,
+        2045.833283605036,
+        2333.333395843214,
+        1149.9999720468227
+      ],
+      "segmentation": [
+        [
+          170.8333379099496,
+          2045.833283605036,
+          2504.1667337531635,
+          2045.833283605036,
+          2504.1667337531635,
+          3195.833255651859,
+          170.8333379099496,
+          3195.833255651859
+        ]
+      ],
+      "area": 2683333.339995614,
+      "iscrowd": 0,
+      "text": "The hugest of all the dagabas is the Jetawanarama, erected toward the end of the third century after Christ. This structure is three hundred and seven feet high with its spire intact. In% spite of many wars raging about it through sixteen hundred years, it still remains intact. It has been calculated that there are in it twenty million cubic feet of brickwork which today would require five hundred men, working ten hours daily for sevenyears to complete. The Jetawanarama is so covered with jungle that has been growing for the last seven hundred years that it hardly seems the work of man today. This and the other dagabas, though useless structures, serving no end to make mens' lives easier, still are of striking interest as an evidence that in all ages men had to be busy with something, whether the thing erected was of use or not. (Francis Dickie)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_50_023_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          637.9199829101562,
+          803.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 691,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 17
+          },
+          "alpha_ratio": 0.976,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.997
+        }
+      },
+      "source_annotation_id": 16648,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_023__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_023__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_027_0002-verso-16650",
+      "image_id": 10492,
+      "category_id": 1013,
+      "bbox": [
+        529.1666709085594,
+        579.1666635345093,
+        1166.666676018871,
+        70.83333295026372
+      ],
+      "segmentation": [
+        [
+          529.1666709085594,
+          579.1666635345093,
+          1695.8333469274303,
+          579.1666635345093,
+          1695.8333469274303,
+          649.9999964847731,
+          529.1666709085594,
+          649.9999964847731
+        ]
+      ],
+      "area": 82638.88910442214,
+      "iscrowd": 0,
+      "text": "FIRST PICTURES OF THE JERVIS BAY DRAMA.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_027_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          609.1199951171875,
+          451.44000244140625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 32,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9697,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9248
+        }
+      },
+      "source_annotation_id": 16650,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_027__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_027__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_027_0002-verso-16651",
+      "image_id": 10492,
+      "category_id": 1012,
+      "bbox": [
+        295.83333570478516,
+        666.6666630613056,
+        2054.1666831332263,
+        183.33333234185906
+      ],
+      "segmentation": [
+        [
+          295.83333570478516,
+          666.6666630613056,
+          2350.0000188380113,
+          666.6666630613056,
+          2350.0000188380113,
+          849.9999954031647,
+          295.83333570478516,
+          849.9999954031647
+        ]
+      ],
+      "area": 376597.2232044381,
+      "iscrowd": 0,
+      "text": "88000 Prison vans with stowaways inside being driven to the court at Colombe, where they were sentenced. These are the first pictures to reach London of the sensational sea drama on board the Jervis Bay.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_027_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          609.1199951171875,
+          451.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 161,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 3
+          },
+          "alpha_ratio": 0.9527,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9524
+        }
+      },
+      "source_annotation_id": 16651,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_027__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_027__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_028_0002-verso-16652",
+      "image_id": 10493,
+      "category_id": 1012,
+      "bbox": [
+        245.83332955719752,
+        587.500011946745,
+        2041.6666353055389,
+        279.1666723434887
+      ],
+      "segmentation": [
+        [
+          245.83332955719752,
+          587.500011946745,
+          2287.4999648627363,
+          587.500011946745,
+          2287.4999648627363,
+          866.6666842902337,
+          245.83332955719752,
+          866.6666842902337
+        ]
+      ],
+      "area": 569965.2806129744,
+      "iscrowd": 0,
+      "text": "shop rooted in the Colorado riots. \nALL that remained of a native ship after the lectors had attacked it. \nColonbo volunteers town guards, Indian and Cingalese police are down \nColumbo volunteers town guards.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_028_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          635.760009765625,
+          480.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 169,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9769,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9388
+        }
+      },
+      "source_annotation_id": 16652,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_028__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_028__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_029_0002-verso-16653",
+      "image_id": 10494,
+      "category_id": 1012,
+      "bbox": [
+        287.5000099476236,
+        508.33334236458063,
+        2108.333406282573,
+        216.66667051605077
+      ],
+      "segmentation": [
+        [
+          287.5000099476236,
+          508.33334236458063,
+          2395.8334162301967,
+          508.33334236458063,
+          2395.8334162301967,
+          725.0000128806314,
+          287.5000099476236,
+          725.0000128806314
+        ]
+      ],
+      "area": 456805.57947700925,
+      "iscrowd": 0,
+      "text": "shop rooted in the colombo riots. All that remained of a native shop after the lostors has attacked it, all that remained of a native shop after the lostors has attacked it, and the volunteers town guards, Indian and Cingalese police are seen on the school.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          635.0399780273438,
+          480.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 207,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9764,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9887
+        }
+      },
+      "source_annotation_id": 16653,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_030_0002-verso-16654",
+      "image_id": 10495,
+      "category_id": 1012,
+      "bbox": [
+        787.4999896600657,
+        595.8333086945942,
+        1608.3333122157956,
+        295.8333211001132
+      ],
+      "segmentation": [
+        [
+          787.4999896600657,
+          595.8333086945942,
+          2395.8333018758613,
+          595.8333086945942,
+          2395.8333018758613,
+          891.6666297947074,
+          787.4999896600657,
+          891.6666297947074
+        ]
+      ],
+      "area": 475798.58518874407,
+      "iscrowd": 0,
+      "text": "WHITE-COVERED WAY FOR THE PASSAGE TO THE GRESE GRAVE.\n\nA white sheet being laid on the road for the passage of a Cingali funeral near Colombo. Boys carry the sheets and ceeing re-relay them as the procession passes.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_030_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          743.760009765625,
+          590.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 172,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9718,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9881
+        }
+      },
+      "source_annotation_id": 16654,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_030__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_030__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_034_0002-verso-16657",
+      "image_id": 10499,
+      "category_id": 1012,
+      "bbox": [
+        483.3333380428362,
+        683.3333333333334,
+        1016.6666765728623,
+        154.16666666666669
+      ],
+      "segmentation": [
+        [
+          483.3333380428362,
+          683.3333333333334,
+          1500.0000146156985,
+          683.3333333333334,
+          1500.0000146156985,
+          837.5,
+          483.3333380428362,
+          837.5
+        ]
+      ],
+      "area": 156736.1126383163,
+      "iscrowd": 0,
+      "text": "INDISCHE ELEFANTEN DER JOHN\nHAGENBECKTRUPPE BEI SENSATIONELLE\nPRODUKTIONEN:",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_034_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          501.1199951171875,
+          414.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 67,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9853,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8982
+        }
+      },
+      "source_annotation_id": 16657,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_034__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_034__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_034_0002-verso-16658",
+      "image_id": 10499,
+      "category_id": 1012,
+      "bbox": [
+        483.3333380428362,
+        891.6666666666667,
+        1016.6666765728623,
+        295.83333333333337
+      ],
+      "segmentation": [
+        [
+          483.3333380428362,
+          891.6666666666667,
+          1500.0000146156985,
+          891.6666666666667,
+          1500.0000146156985,
+          1187.5,
+          483.3333380428362,
+          1187.5
+        ]
+      ],
+      "area": 300763.89181947184,
+      "iscrowd": 0,
+      "text": "Einen Beweis, dass die massigen Urwaldriesen Ceylons trotz ihrer Grösse und Dickkhäutigkeit über ein erstaunlich feines Getast verfügbar ist durch unsere heuteigenbilder umumstösslich erbracht.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_034_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          501.1199951171875,
+          414.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 168,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9882,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8985
+        }
+      },
+      "source_annotation_id": 16658,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_034__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_034__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_034_0002-verso-16659",
+      "image_id": 10499,
+      "category_id": 1012,
+      "bbox": [
+        479.16667133557036,
+        1191.6666666666667,
+        1012.5000098655966,
+        345.83333333333337
+      ],
+      "segmentation": [
+        [
+          479.16667133557036,
+          1191.6666666666667,
+          1491.666681201167,
+          1191.6666666666667,
+          1491.666681201167,
+          1537.5,
+          479.16667133557036,
+          1537.5
+        ]
+      ],
+      "area": 350156.2534118522,
+      "iscrowd": 0,
+      "text": "So sieht man hier im Bilde einen Singhalesen unter einem Elefanten liegen, ohne dass der schwere Körper des Urwaldriesen, ohne-dass auch nur im geringsten den Körper des darunter liegenden Menschen berührt.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_034_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          501.1199951171875,
+          414.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 172,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9773,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9138
+        }
+      },
+      "source_annotation_id": 16659,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_034__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_034__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_035_0002-verso-16660",
+      "image_id": 10500,
+      "category_id": 1012,
+      "bbox": [
+        420.83333640430754,
+        512.4999866093677,
+        1095.8333413300286,
+        183.3333285431885
+      ],
+      "segmentation": [
+        [
+          420.83333640430754,
+          512.4999866093677,
+          1516.6666777343362,
+          512.4999866093677,
+          1516.6666777343362,
+          695.8333151525562,
+          420.83333640430754,
+          695.8333151525562
+        ]
+      ],
+      "area": 200902.77399463815,
+      "iscrowd": 0,
+      "text": "DISCHE ELEFANTEN DER JOHN\nHAGENBECKS TRUPPE BRI SENSATIONELLEN\nPRODUKTIONEN 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          501.8399963378906,
+          420.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "suspicious",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 67,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4063,
+            "other": 0
+          },
+          "alpha_ratio": 0.0162,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.777
+        }
+      },
+      "source_annotation_id": 16660,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_035_0002-verso-16661",
+      "image_id": 10500,
+      "category_id": 1012,
+      "bbox": [
+        408.3333363130905,
+        704.1666482681558,
+        1041.666674268088,
+        324.9999915083796
+      ],
+      "segmentation": [
+        [
+          408.3333363130905,
+          704.1666482681558,
+          1450.0000105811785,
+          704.1666482681558,
+          1450.0000105811785,
+          1029.1666397765352,
+          408.3333363130905,
+          1029.1666397765352
+        ]
+      ],
+      "area": 338541.6602916906,
+      "iscrowd": 0,
+      "text": "Einen Beweis, dass die massigen Urwaldriesen Ceylons trotz ihrer Grösse und Dickhäusertigkeit über ein erstaunlich feines Getast verfügen, ist durch unsere Bilder umum- stösslich erbracht.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          501.8399963378906,
+          420.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 160,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9756,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.897
+        }
+      },
+      "source_annotation_id": 16661,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_035_0002-verso-16662",
+      "image_id": 10500,
+      "category_id": 1012,
+      "bbox": [
+        387.50000282772874,
+        1033.333306334335,
+        1137.5000083007521,
+        249.9999934679843
+      ],
+      "segmentation": [
+        [
+          387.50000282772874,
+          1033.333306334335,
+          1525.0000111284808,
+          1033.333306334335,
+          1525.0000111284808,
+          1283.3332998023193,
+          387.50000282772874,
+          1283.3332998023193
+        ]
+      ],
+      "area": 284374.9946450201,
+      "iscrowd": 0,
+      "text": "So lässt sich einer der Singhalesen vom Elefanten am Bein hochheben und über den freien Platz des Zoologischen Bartens tragen.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          501.8399963378906,
+          420.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 106,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9907,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9072
+        }
+      },
+      "source_annotation_id": 16662,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_050_0002-verso-16672",
+      "image_id": 10515,
+      "category_id": 1012,
+      "bbox": [
+        750.0000141876237,
+        425.0000069284033,
+        195.83333703787955,
+        729.1666785536331
+      ],
+      "segmentation": [
+        [
+          750.0000141876237,
+          425.0000069284033,
+          945.8333512255033,
+          425.0000069284033,
+          945.8333512255033,
+          1154.1666854820364,
+          750.0000141876237,
+          1154.1666854820364
+        ]
+      ],
+      "area": 142795.1439179848,
+      "iscrowd": 0,
+      "text": "FRANCIS DICKIE\nHERIOT BAY,\nBRITISH COLUMBIA, CANADA",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_050_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          516.239990234375,
+          374.3999938964844
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 43,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9556,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8944
+        }
+      },
+      "source_annotation_id": 16672,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_050__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_050__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_050_0002-verso-16673",
+      "image_id": 10515,
+      "category_id": 1012,
+      "bbox": [
+        54.166667691328385,
+        1170.8333524204052,
+        1995.8333710881766,
+        345.8333389711517
+      ],
+      "segmentation": [
+        [
+          54.166667691328385,
+          1170.8333524204052,
+          2050.000038779505,
+          1170.8333524204052,
+          2050.000038779505,
+          1516.666691391557,
+          54.166667691328385,
+          1516.666691391557
+        ]
+      ],
+      "area": 690225.7187534738,
+      "iscrowd": 0,
+      "text": "Jetawanarana, gudgeel gull degebras, Bouet shing\ncentury 307 ject hark, Containe 20 000 000 cubic Ject hark\nunk- enough to be building with 1,not thick,10 ject high,many to Chicago",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_050_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          516.239990234375,
+          374.3999938964844
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 131,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 14,
+            "other": 7
+          },
+          "alpha_ratio": 0.8618,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8911
+        }
+      },
+      "source_annotation_id": 16673,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_050__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_050__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_052_0002-verso-16674",
+      "image_id": 10517,
+      "category_id": 1012,
+      "bbox": [
+        270.83333425352674,
+        75.00000165616383,
+        970.8333366318728,
+        104.16666896689422
+      ],
+      "segmentation": [
+        [
+          270.83333425352674,
+          75.00000165616383,
+          1241.6666708853995,
+          75.00000165616383,
+          1241.6666708853995,
+          179.16667062305805,
+          270.83333425352674,
+          179.16667062305805
+        ]
+      ],
+      "area": 101128.47479895769,
+      "iscrowd": 0,
+      "text": "Frank Burnett,Box 1090,Vancouver, Canada, Photo 4.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_052_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          359.2799987792969,
+          497.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 35,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 5
+          },
+          "alpha_ratio": 0.7778,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9056
+        }
+      },
+      "source_annotation_id": 16674,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_052__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_052__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_50_054_0002-verso-16675",
+      "image_id": 10519,
+      "category_id": 1012,
+      "bbox": [
+        891.6666616442401,
+        529.1666645606566,
+        179.1666656574875,
+        70.83333305142648
+      ],
+      "segmentation": [
+        [
+          891.6666616442401,
+          529.1666645606566,
+          1070.8333273017276,
+          529.1666645606566,
+          1070.8333273017276,
+          599.9999976120831,
+          891.6666616442401,
+          599.9999976120831
+        ]
+      ],
+      "area": 12690.972100230387,
+      "iscrowd": 0,
+      "text": "243",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_50_054_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          433.44000244140625,
+          306.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "unknown",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 0
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 16675,
+      "source_file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_054__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_50/SHDGR__GR_2_K_247_50_054__0002.jpg"
+    }
+  ]
 }

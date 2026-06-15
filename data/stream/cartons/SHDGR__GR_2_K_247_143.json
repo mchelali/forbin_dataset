@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_143",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 24,
         "ClusterLabel": "Divers Animaux",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,9 +2439,4765 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Irak",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_002_0002-verso-46360",
+      "image_id": 39516,
+      "category_id": 1012,
+      "bbox": [
+        358.33332340403683,
+        420.8333402492269,
+        2379.166600740756,
+        216.66667022732474
+      ],
+      "segmentation": [
+        [
+          358.33332340403683,
+          420.8333402492269,
+          2737.499924144793,
+          420.8333402492269,
+          2737.499924144793,
+          637.5000104765517,
+          358.33332340403683,
+          637.5000104765517
+        ]
+      ],
+      "area": 515486.1052985626,
+      "iscrowd": 0,
+      "text": "485. Many baroplanes banbard Casualty Clearing Station at Baghdad. Scene弹roops holding blanket riddled with bomb agilentars.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_002_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 102,
+            "cjk": 1,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 3
+          },
+          "alpha_ratio": 0.945,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9015
+        }
+      },
+      "source_annotation_id": 46360,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_002__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_002__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_002_0002-verso-46361",
+      "image_id": 39516,
+      "category_id": 1012,
+      "bbox": [
+        608.3333164766207,
+        1400.000023007329,
+        1387.4999615528402,
+        333.33333881126885
+      ],
+      "segmentation": [
+        [
+          608.3333164766207,
+          1400.000023007329,
+          1995.8332780294609,
+          1400.000023007329,
+          1995.8332780294609,
+          1733.333361818598,
+          608.3333164766207,
+          1733.333361818598
+        ]
+      ],
+      "area": 462499.99478491535,
+      "iscrowd": 0,
+      "text": "OFFICIAL PHOTOGRAPH\nISSUED BY\nASSOCIATED ILLUSTRATION\nAGENCEED, LTD",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_002_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 59,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9833,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9229
+        }
+      },
+      "source_annotation_id": 46361,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_002__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_002__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_003_0002-verso-46363",
+      "image_id": 39517,
+      "category_id": 1012,
+      "bbox": [
+        291.6666666666667,
+        1145.8333226331931,
+        1704.1666666666667,
+        329.1666635928082
+      ],
+      "segmentation": [
+        [
+          291.6666666666667,
+          1145.8333226331931,
+          1995.8333333333335,
+          1145.8333226331931,
+          1995.8333333333335,
+          1474.9999862260013,
+          291.6666666666667,
+          1474.9999862260013
+        ]
+      ],
+      "area": 560954.855872744,
+      "iscrowd": 0,
+      "text": "797. WITH THE BRITISH TROOPS IN MESOPOTAMIA\nA few of the Mounted Police.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          600.0,
+          784.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4545,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 55,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 2
+          },
+          "alpha_ratio": 0.9167,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.935
+        }
+      },
+      "source_annotation_id": 46363,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_004_0002-verso-46365",
+      "image_id": 39518,
+      "category_id": 1012,
+      "bbox": [
+        308.33334189788445,
+        508.33334168718494,
+        1195.8333665499033,
+        262.50000431387423
+      ],
+      "segmentation": [
+        [
+          308.33334189788445,
+          508.33334168718494,
+          1504.1667084477876,
+          508.33334168718494,
+          1504.1667084477876,
+          770.8333460010592,
+          308.33334189788445,
+          770.8333460010592
+        ]
+      ],
+      "area": 313906.26387802436,
+      "iscrowd": 0,
+      "text": "303. Main Mupri Bridge being\nrequired by saapers and filters\nwhile mon bath beneath.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_004_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          791.0399780273438,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 66,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 2
+          },
+          "alpha_ratio": 0.9296,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9079
+        }
+      },
+      "source_annotation_id": 46365,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_004__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_004_0002-verso-46366",
+      "image_id": 39518,
+      "category_id": 1012,
+      "bbox": [
+        1716.6667143503837,
+        870.8333476444399,
+        1158.3333655082686,
+        562.5000092440162
+      ],
+      "segmentation": [
+        [
+          1716.6667143503837,
+          870.8333476444399,
+          2875.0000798586525,
+          870.8333476444399,
+          2875.0000798586525,
+          1433.333356888456,
+          1716.6667143503837,
+          1433.333356888456
+        ]
+      ],
+      "area": 651562.5288060535,
+      "iscrowd": 0,
+      "text": "British Official Photograph,\nCrown copyright reserved.\nMINIST.Y OF INF RATION,\nPhotographic Section,\n10, 11, 12, COVENTRY STREET,\nLONDON, WA.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_004_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          791.0399780273438,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 106,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 11
+          },
+          "alpha_ratio": 0.8618,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9077
+        }
+      },
+      "source_annotation_id": 46366,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_004__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_004_0002-verso-46367",
+      "image_id": 39518,
+      "category_id": 1012,
+      "bbox": [
+        1562.5000434014416,
+        1658.3333605860623,
+        1470.833374188557,
+        425.00000698436776
+      ],
+      "segmentation": [
+        [
+          1562.5000434014416,
+          1658.3333605860623,
+          3033.3334175899986,
+          1658.3333605860623,
+          3033.3334175899986,
+          2083.3333675704303,
+          1562.5000434014416,
+          2083.3333675704303
+        ]
+      ],
+      "area": 625104.1943029779,
+      "iscrowd": 0,
+      "text": "ASSOCIATED ILLUSTRATION AGENCIES, LTD.\nST. MARY'S CHAMBERS, 161a, STRAND, LONDON, W.O.2\nPLEASE ACKNOWLEDGE, \"MINIS BY OF INFORMATION.\"\nCROWN COPYRIGHT RESERVED.\nFor PUBLICATION on or after............................................",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_004_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          791.0399780273438,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 145,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 59
+          },
+          "alpha_ratio": 0.6971,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9205
+        }
+      },
+      "source_annotation_id": 46367,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_004__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_005_0002-verso-46368",
+      "image_id": 39519,
+      "category_id": 1012,
+      "bbox": [
+        983.3333120633192,
+        270.8333446245598,
+        1399.9999697172682,
+        300.0000125072047
+      ],
+      "segmentation": [
+        [
+          983.3333120633192,
+          270.8333446245598,
+          2383.3332817805876,
+          270.8333446245598,
+          2383.3332817805876,
+          570.8333571317645,
+          983.3333120633192,
+          570.8333571317645
+        ]
+      ],
+      "area": 420000.00842526666,
+      "iscrowd": 0,
+      "text": "WITH THE TROOPS IN MESOPOTAMIA.\nA front line trench on the Jebel\nHamarin.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          585.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 59,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9672,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9376
+        }
+      },
+      "source_annotation_id": 46368,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_005_0002-verso-46369",
+      "image_id": 39519,
+      "category_id": 1012,
+      "bbox": [
+        1141.66664197182,
+        1212.5000505499524,
+        1429.1666357530446,
+        266.66667778418196
+      ],
+      "segmentation": [
+        [
+          1141.66664197182,
+          1212.5000505499524,
+          2570.8332777248643,
+          1212.5000505499524,
+          2570.8332777248643,
+          1479.1667283341344,
+          1141.66664197182,
+          1479.1667283341344
+        ]
+      ],
+      "area": 381111.1187562605,
+      "iscrowd": 0,
+      "text": "ASSOCIATED ILLUSTRATION AGENCIES, LTD.,\nST. MARY'S CHAMBERS, 161a, STRAND, LONDON, W.C.2.\nPLEASE ACKNOWLEDG W. DE 'BRITISH OFFICIAL' - RJWN COPYRIGHT RESERVED.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          585.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 118,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 17
+          },
+          "alpha_ratio": 0.8489,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9061
+        }
+      },
+      "source_annotation_id": 46369,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_006_0002-verso-46371",
+      "image_id": 39520,
+      "category_id": 1012,
+      "bbox": [
+        629.1666784317667,
+        491.66667474662154,
+        2150.000040203918,
+        275.0000045192968
+      ],
+      "segmentation": [
+        [
+          629.1666784317667,
+          491.66667474662154,
+          2779.166718635685,
+          491.66667474662154,
+          2779.166718635685,
+          766.6666792659183,
+          629.1666784317667,
+          766.6666792659183
+        ]
+      ],
+      "area": 591250.0207725657,
+      "iscrowd": 0,
+      "text": "165. Civilian Arabs returning to RAMADIE after Turkish defeat. An Armoured car entered the town and accepted the surrender of the Arabs.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 109,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 3
+          },
+          "alpha_ratio": 0.9478,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9351
+        }
+      },
+      "source_annotation_id": 46371,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_006_0002-verso-46372",
+      "image_id": 39520,
+      "category_id": 1012,
+      "bbox": [
+        1108.333354058609,
+        1791.66669611057,
+        1441.6666936251079,
+        391.6666731032409
+      ],
+      "segmentation": [
+        [
+          1108.333354058609,
+          1791.66669611057,
+          2550.0000476837167,
+          1791.66669611057,
+          2550.0000476837167,
+          2183.333369213811,
+          1108.333354058609,
+          2183.333369213811
+        ]
+      ],
+      "area": 564652.7976158953,
+      "iscrowd": 0,
+      "text": "ASSOCIATED IL UTR IN AGENCIES, LTD.,\nST. MARY'S CHAMBERS, 101a STRAND, LONDON, W.C.2\nPLEASE ACKNOWLEDG, \"NO SKY OF INFORMATION.\"\nCROWN COPYRIGHT ES R.N.E.\nFor PUBLICATION ON or after ...",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 134,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 20
+          },
+          "alpha_ratio": 0.8481,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.931
+        }
+      },
+      "source_annotation_id": 46372,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_008_0002-verso-46373",
+      "image_id": 39522,
+      "category_id": 1012,
+      "bbox": [
+        791.6666495425028,
+        295.83334315184027,
+        2320.833283132495,
+        141.6666713684869
+      ],
+      "segmentation": [
+        [
+          791.6666495425028,
+          295.83334315184027,
+          3112.499932674998,
+          295.83334315184027,
+          3112.499932674998,
+          437.50001452032717,
+          791.6666495425028,
+          437.50001452032717
+        ]
+      ],
+      "area": 328784.7260225777,
+      "iscrowd": 0,
+      "text": "426. Scene of the barge Dookyard at ---- showing the work of the I.R.T.R.E.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          588.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4545,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 49,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 10
+          },
+          "alpha_ratio": 0.7903,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9192
+        }
+      },
+      "source_annotation_id": 46373,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_009_0002-verso-46374",
+      "image_id": 39523,
+      "category_id": 1012,
+      "bbox": [
+        766.6666761891779,
+        187.4999907410265,
+        1837.5000228229753,
+        358.3333156384062
+      ],
+      "segmentation": [
+        [
+          766.6666761891779,
+          187.4999907410265,
+          2604.166699012153,
+          187.4999907410265,
+          2604.166699012153,
+          545.8333063794327,
+          766.6666761891779,
+          545.8333063794327
+        ]
+      ],
+      "area": 658437.4756638038,
+      "iscrowd": 0,
+      "text": "WITH THE TROOPS IN MESOPOTAMIA.\nEast is East and West is West, but never twain shall meet. But what about in betting?",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          786.239990234375,
+          593.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 92,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9583,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9365
+        }
+      },
+      "source_annotation_id": 46374,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_010_0001-recto-46375",
+      "image_id": 39524,
+      "category_id": 1012,
+      "bbox": [
+        779.1666666666667,
+        1420.8333392471895,
+        262.5,
+        79.16666699617771
+      ],
+      "segmentation": [
+        [
+          779.1666666666667,
+          1420.8333392471895,
+          1041.6666666666667,
+          1420.8333392471895,
+          1041.6666666666667,
+          1500.0000062433674,
+          779.1666666666667,
+          1500.0000062433674
+        ]
+      ],
+      "area": 20781.25008649665,
+      "iscrowd": 0,
+      "text": "RACE2\nSPORTING CIRCU\nCI ASER III",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_143_010_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.0,
+          586.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 0
+          },
+          "alpha_ratio": 0.963,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8954
+        }
+      },
+      "source_annotation_id": 46375,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_010__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_010__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_016_0002-verso-46377",
+      "image_id": 39530,
+      "category_id": 1013,
+      "bbox": [
+        879.1666639199389,
+        533.3333510343036,
+        1099.9999965633358,
+        75.00000248919895
+      ],
+      "segmentation": [
+        [
+          879.1666639199389,
+          533.3333510343036,
+          1979.1666604832747,
+          533.3333510343036,
+          1979.1666604832747,
+          608.3333535235026,
+          879.1666639199389,
+          608.3333535235026
+        ]
+      ],
+      "area": 82500.00248036902,
+      "iscrowd": 0,
+      "text": "BURRENDER OF SHEIK MAHMOUD.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_016_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          781.4400024414062,
+          588.47998046875
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 23,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9583,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9198
+        }
+      },
+      "source_annotation_id": 46377,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_016__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_016__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_016_0002-verso-46378",
+      "image_id": 39530,
+      "category_id": 1012,
+      "bbox": [
+        424.99999867219793,
+        658.3333551829685,
+        2633.3333251061676,
+        554.1666850590811
+      ],
+      "segmentation": [
+        [
+          424.99999867219793,
+          658.3333551829685,
+          3058.3333237783654,
+          658.3333551829685,
+          3058.3333237783654,
+          1212.5000402420496,
+          424.99999867219793,
+          1212.5000402420496
+        ]
+      ],
+      "area": 1459305.5994296926,
+      "iscrowd": 0,
+      "text": "Remarkable% photographs of the surrender of Sheikh Mahmoud to British Authorities at Hinaïdi, Iraq, The British Authorities have been after him for years, during which time they have never actually caught sight of him. These are believed to be the/photographs ever obtained of Sheikh Mahmoud.\nfirst Photo Shows., Sheikh Mahmoud (with white flag over arm) surrenders to British Officers.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_016_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          781.4400024414062,
+          588.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 316,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 12
+          },
+          "alpha_ratio": 0.9634,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9871
+        }
+      },
+      "source_annotation_id": 46378,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_016__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_016__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_018_0002-verso-46380",
+      "image_id": 39532,
+      "category_id": 1013,
+      "bbox": [
+        679.1666603244017,
+        529.1666905042598,
+        1108.3333229833795,
+        79.16667023292077
+      ],
+      "segmentation": [
+        [
+          679.1666603244017,
+          529.1666905042598,
+          1787.4999833077813,
+          529.1666905042598,
+          1787.4999833077813,
+          608.3333607371806,
+          679.1666603244017,
+          608.3333607371806
+        ]
+      ],
+      "area": 87743.05868878246,
+      "iscrowd": 0,
+      "text": "SURRANDER OF SHEIKH MAHMOURD.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_018_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          784.3200073242188,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 25,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9202
+        }
+      },
+      "source_annotation_id": 46380,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_018__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_018__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_018_0002-verso-46381",
+      "image_id": 39532,
+      "category_id": 1012,
+      "bbox": [
+        387.49999638140713,
+        658.3333629895516,
+        2554.1666428150816,
+        358.3333494753256
+      ],
+      "segmentation": [
+        [
+          387.49999638140713,
+          658.3333629895516,
+          2941.6666391964886,
+          658.3333629895516,
+          2941.6666391964886,
+          1016.6667124648772,
+          387.49999638140713,
+          1016.6667124648772
+        ]
+      ],
+      "area": 915243.0882380757,
+      "iscrowd": 0,
+      "text": "Remarkable photographs of the surrender of Sheikh Mahmoud to British Authorities at Hinaïdi, Iraq. The British Authorities have been after him for years during which time they have never actually caught sight of him. These are believed to be first photographs ever obtained of Sheikh Mahmoud.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_018_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          784.3200073242188,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 243,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9838,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9563
+        }
+      },
+      "source_annotation_id": 46381,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_018__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_018__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_018_0002-verso-46382",
+      "image_id": 39532,
+      "category_id": 1012,
+      "bbox": [
+        395.8333296369213,
+        1054.1667141541554,
+        2520.833309793025,
+        108.33333821347051
+      ],
+      "segmentation": [
+        [
+          395.8333296369213,
+          1054.1667141541554,
+          2916.6666394299464,
+          1054.1667141541554,
+          2916.6666394299464,
+          1162.500052367626,
+          395.8333296369213,
+          1162.500052367626
+        ]
+      ],
+      "area": 273090.2875295901,
+      "iscrowd": 0,
+      "text": "Photo Shows., Part of the detachment that induced the surrender,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_018_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          784.3200073242188,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 52,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9455,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9432
+        }
+      },
+      "source_annotation_id": 46382,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_018__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_018__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_021_0002-verso-46385",
+      "image_id": 39535,
+      "category_id": 1012,
+      "bbox": [
+        1770.833377647844,
+        912.5000226033204,
+        1150.0000287783646,
+        475.00001176611204
+      ],
+      "segmentation": [
+        [
+          1770.833377647844,
+          912.5000226033204,
+          2920.8334064262085,
+          912.5000226033204,
+          2920.8334064262085,
+          1387.5000343694323,
+          1770.833377647844,
+          1387.5000343694323
+        ]
+      ],
+      "area": 546250.0272007524,
+      "iscrowd": 0,
+      "text": "British Official Photograph,\nCrown copyright reserved.\nMINISTRY OF INFORMATION,\nPhotographic Section,\n10, 11, 12, COVENTRY STREET,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_021_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          780.47998046875,
+          591.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 101,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 8
+          },
+          "alpha_ratio": 0.8783,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9098
+        }
+      },
+      "source_annotation_id": 46385,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_021__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_021__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_022_0002-verso-46386",
+      "image_id": 39536,
+      "category_id": 1012,
+      "bbox": [
+        1029.1666697065114,
+        1125.0000085149493,
+        1341.666670629541,
+        358.33333604550234
+      ],
+      "segmentation": [
+        [
+          1029.1666697065114,
+          1125.0000085149493,
+          2370.833340336052,
+          1125.0000085149493,
+          2370.833340336052,
+          1483.3333445604517,
+          1029.1666697065114,
+          1483.3333445604517
+        ]
+      ],
+      "area": 480763.8939477456,
+      "iscrowd": 0,
+      "text": "LEARNING THE NEW WARFARE. Sepoys who are taking part in the campaign in Mesopotania receiving instructions in the throwing of hand Grenades.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_022_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          826.5599975585938,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 117,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9832,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9562
+        }
+      },
+      "source_annotation_id": 46386,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_022__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_022__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_029_0002-verso-46390",
+      "image_id": 39543,
+      "category_id": 1012,
+      "bbox": [
+        604.166675922542,
+        362.50000595725487,
+        2170.833366590651,
+        166.66666940563442
+      ],
+      "segmentation": [
+        [
+          604.166675922542,
+          362.50000595725487,
+          2775.000042513193,
+          362.50000595725487,
+          2775.000042513193,
+          529.1666753628892,
+          604.166675922542,
+          529.1666753628892
+        ]
+      ],
+      "area": 361805.5670442844,
+      "iscrowd": 0,
+      "text": "471. Arab women beginning with a line of trade planning through the Haron.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          796.7999877929688,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2727,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 57,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 2
+          },
+          "alpha_ratio": 0.9194,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9172
+        }
+      },
+      "source_annotation_id": 46390,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_029_0002-verso-46391",
+      "image_id": 39543,
+      "category_id": 1013,
+      "bbox": [
+        608.3333426530423,
+        1375.0000225964839,
+        1029.1666824335716,
+        204.16667002190215
+      ],
+      "segmentation": [
+        [
+          608.3333426530423,
+          1375.0000225964839,
+          1637.500025086614,
+          1375.0000225964839,
+          1637.500025086614,
+          1579.166692618386,
+          608.3333426530423,
+          1579.166692618386
+        ]
+      ],
+      "area": 210121.53444995076,
+      "iscrowd": 0,
+      "text": "OFFICIAL PHOTOGRAPH\nISSUER BY",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          796.7999877929688,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.95
+        }
+      },
+      "source_annotation_id": 46391,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_029_0002-verso-46392",
+      "image_id": 39543,
+      "category_id": 1012,
+      "bbox": [
+        391.6666726670272,
+        1537.5000252669774,
+        1416.6666883700984,
+        337.5000055464097
+      ],
+      "segmentation": [
+        [
+          391.6666726670272,
+          1537.5000252669774,
+          1808.3333610371255,
+          1537.5000252669774,
+          1808.3333610371255,
+          1875.0000308133872,
+          391.6666726670272,
+          1875.0000308133872
+        ]
+      ],
+      "area": 478125.01518232207,
+      "iscrowd": 0,
+      "text": "A ASSOCIATED ILLUSTRATION AGENCIES, LTD.,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          796.7999877929688,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 34,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9189,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8899
+        }
+      },
+      "source_annotation_id": 46392,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_030_0002-verso-46393",
+      "image_id": 39544,
+      "category_id": 1012,
+      "bbox": [
+        199.9999958981751,
+        512.4999983988268,
+        1312.499973081774,
+        99.99999968757598
+      ],
+      "segmentation": [
+        [
+          199.9999958981751,
+          512.4999983988268,
+          1512.499968979949,
+          512.4999983988268,
+          1512.499968979949,
+          612.4999980864028,
+          199.9999958981751,
+          612.4999980864028
+        ]
+      ],
+      "area": 131249.99689812088,
+      "iscrowd": 0,
+      "text": "271. Sandbag Observation Post.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_030_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          595.2000122070312,
+          781.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 22,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 2
+          },
+          "alpha_ratio": 0.8148,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8769
+        }
+      },
+      "source_annotation_id": 46393,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_030__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_030__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_032_0002-verso-46395",
+      "image_id": 39546,
+      "category_id": 1012,
+      "bbox": [
+        154.16666124639806,
+        533.3333152755954,
+        2812.4999011167215,
+        254.16665806102594
+      ],
+      "segmentation": [
+        [
+          154.16666124639806,
+          533.3333152755954,
+          2966.6665623631197,
+          533.3333152755954,
+          2966.6665623631197,
+          787.4999733366213,
+          154.16666124639806,
+          787.4999733366213
+        ]
+      ],
+      "area": 714843.700663803,
+      "iscrowd": 0,
+      "text": "British troops advancing near Basrah. An official report, received yesterday, states that the Turks have been defeated in Mesopotamia.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_032_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          833.280029296875,
+          648.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 112,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9655,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9124
+        }
+      },
+      "source_annotation_id": 46395,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_032__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_032__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_034_0002-verso-46396",
+      "image_id": 39548,
+      "category_id": 1012,
+      "bbox": [
+        395.83331702520667,
+        545.8333508642013,
+        1858.3332567709704,
+        145.833338017153
+      ],
+      "segmentation": [
+        [
+          395.83331702520667,
+          545.8333508642013,
+          2254.166573796177,
+          545.8333508642013,
+          2254.166573796177,
+          691.6666888813543,
+          395.83331702520667,
+          691.6666888813543
+        ]
+      ],
+      "area": 271006.9419831977,
+      "iscrowd": 0,
+      "text": "MOSUL ON THE LEFT BANK OF THE TIGROS FROM WHICH\nTHE RUSSIANS ARE WITHIN 75 MILES.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_034_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          651.8400268554688,
+          836.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 63,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 1
+          },
+          "alpha_ratio": 0.9545,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.936
+        }
+      },
+      "source_annotation_id": 46396,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_034__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_034__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_034_0002-verso-46397",
+      "image_id": 39548,
+      "category_id": 1012,
+      "bbox": [
+        387.4999840352023,
+        737.5000236867452,
+        2137.499911936116,
+        266.6666752313655
+      ],
+      "segmentation": [
+        [
+          387.4999840352023,
+          737.5000236867452,
+          2524.9998959713184,
+          737.5000236867452,
+          2524.9998959713184,
+          1004.1666989181107,
+          387.4999840352023,
+          1004.1666989181107
+        ]
+      ],
+      "area": 569999.9948233406,
+      "iscrowd": 0,
+      "text": "PHOTO SHOWS THE MODERN PONTON BRIDGE AND BEYOND THE RUINS OF A HOARY OLDSTONE STRUCTURE WHOSE USEFULNESS HAS LONG SINCE CEASED WITH THE DIVERTING OF THE COURSE OF THE TIGRIS.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_034_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          651.8400268554688,
+          836.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 144,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9931,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9991
+        }
+      },
+      "source_annotation_id": 46397,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_034__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_034__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_035_0002-verso-46401",
+      "image_id": 39549,
+      "category_id": 1012,
+      "bbox": [
+        345.8333394268645,
+        1799.999952387138,
+        1941.6667008785403,
+        358.33332385484687
+      ],
+      "segmentation": [
+        [
+          345.8333394268645,
+          1799.999952387138,
+          2287.5000403054046,
+          1799.999952387138,
+          2287.5000403054046,
+          2158.333276241985,
+          345.8333394268645,
+          2158.333276241985
+        ]
+      ],
+      "area": 695763.882744082,
+      "iscrowd": 0,
+      "text": "PLEASE ACKNOWLEDGE\nLONDON DAILY MAIL COPYRIGHT.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          831.3599853515625,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 41,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9762,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9637
+        }
+      },
+      "source_annotation_id": 46401,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_038_0002-verso-46403",
+      "image_id": 39552,
+      "category_id": 1012,
+      "bbox": [
+        100.00000124206667,
+        1120.833386612337,
+        2437.500030275375,
+        633.3333634389414
+      ],
+      "segmentation": [
+        [
+          100.00000124206667,
+          1120.833386612337,
+          2537.500031517442,
+          1120.833386612337,
+          2537.500031517442,
+          1754.1667500512785,
+          100.00000124206667,
+          1754.1667500512785
+        ]
+      ],
+      "area": 1543750.092556825,
+      "iscrowd": 0,
+      "text": "British Official Photograph, Crown copyright reserved. \nMINISTRY OF INFORMATION, \nPhotographic Section, \n10, 11, 12, COVENTRY STREET \nLONDON, W.1, \nOFFICIAL PHOTOGRAPH\nISSUED BY \nSOCIATED ILLUSTRATION AGENCIES, LTD., \nJARY'S CHAMBERS, 1616, STRAND, LONDON, W.C.2, \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nCROWN COPYRIGHT RESERVED. \nFOR PUBLICATION on or after....................",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_038_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          786.239990234375,
+          513.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 275,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 12,
+            "other": 46
+          },
+          "alpha_ratio": 0.8258,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9699
+        }
+      },
+      "source_annotation_id": 46403,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_038__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_038__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_039_0002-verso-46404",
+      "image_id": 39553,
+      "category_id": 1012,
+      "bbox": [
+        1887.499970730728,
+        1037.4999957027703,
+        1158.333315371175,
+        591.6666642160377
+      ],
+      "segmentation": [
+        [
+          1887.499970730728,
+          1037.4999957027703,
+          3045.833286101903,
+          1037.4999957027703,
+          3045.833286101903,
+          1629.166659918808,
+          1887.499970730728,
+          1629.166659918808
+        ]
+      ],
+      "area": 685347.2087559667,
+      "iscrowd": 0,
+      "text": "British Official Photograph,\nCrown copyright reserved.\nMINISTRY OF INFORMATION,\nPhotographic Section,\n10, 11, 12, COVENTRY STREET,\nD., LONDON, W.I.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_039_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          787.2000122070312,
+          589.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 110,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 13
+          },
+          "alpha_ratio": 0.8527,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9066
+        }
+      },
+      "source_annotation_id": 46404,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_039__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_039__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_040_0002-verso-46406",
+      "image_id": 39554,
+      "category_id": 1012,
+      "bbox": [
+        245.83333534357934,
+        1333.3332835899316,
+        1720.8333474050553,
+        212.49999207214535
+      ],
+      "segmentation": [
+        [
+          245.83333534357934,
+          1333.3332835899316,
+          1966.6666827486347,
+          1333.3332835899316,
+          1966.6666827486347,
+          1545.833275662077,
+          245.83333534357934,
+          1545.833275662077
+        ]
+      ],
+      "area": 365677.0726810576,
+      "iscrowd": 0,
+      "text": "727. WITH THE BRITISH TROOPS IN RECOPOTAMIA\nThe pipe major of a Punjabi Segment.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_040_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          597.1199951171875,
+          785.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 62,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 2
+          },
+          "alpha_ratio": 0.9254,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9323
+        }
+      },
+      "source_annotation_id": 46406,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_040__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_040__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_041_0002-verso-46408",
+      "image_id": 39555,
+      "category_id": 1012,
+      "bbox": [
+        562.500010518467,
+        337.5000140706053,
+        1187.5000222056526,
+        79.16666996717902
+      ],
+      "segmentation": [
+        [
+          562.500010518467,
+          337.5000140706053,
+          1750.0000327241196,
+          337.5000140706053,
+          1750.0000327241196,
+          416.6666840377843,
+          562.500010518467,
+          416.6666840377843
+        ]
+      ],
+      "area": 94010.42234397266,
+      "iscrowd": 0,
+      "text": "496. A 100 yards from home.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_041_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          585.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 2
+          },
+          "alpha_ratio": 0.6364,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8545
+        }
+      },
+      "source_annotation_id": 46408,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_041__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_041__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_043_0002-verso-46410",
+      "image_id": 39557,
+      "category_id": 1012,
+      "bbox": [
+        495.83332564449586,
+        337.49998878030254,
+        2245.833298507422,
+        158.33332806977157
+      ],
+      "segmentation": [
+        [
+          495.83332564449586,
+          337.49998878030254,
+          2741.666624151918,
+          337.49998878030254,
+          2741.666624151918,
+          495.8333168500741,
+          495.83332564449586,
+          495.8333168500741
+        ]
+      ],
+      "area": 355590.2604425929,
+      "iscrowd": 0,
+      "text": "427. Scene of an I.W.T. which has converted the foreshore of the Tigris at -- into a most busy spot.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_043_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          787.2000122070312,
+          587.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 71,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 7
+          },
+          "alpha_ratio": 0.8765,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9179
+        }
+      },
+      "source_annotation_id": 46410,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_043__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_043__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_044_0002-verso-46411",
+      "image_id": 39558,
+      "category_id": 1012,
+      "bbox": [
+        875.0000054142096,
+        283.33332391432805,
+        1595.8333432078202,
+        279.16665738617615
+      ],
+      "segmentation": [
+        [
+          875.0000054142096,
+          283.33332391432805,
+          2470.83334862203,
+          283.33332391432805,
+          2470.83334862203,
+          562.4999813005043,
+          875.0000054142096,
+          562.4999813005043
+        ]
+      ],
+      "area": 445503.4601687336,
+      "iscrowd": 0,
+      "text": "WITH THE TROOPS IN MESOPOTAMIA.\n6 to 4 the field. Tommy as \"book-maker,\"",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_044_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          587.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 52,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 6
+          },
+          "alpha_ratio": 0.8667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9167
+        }
+      },
+      "source_annotation_id": 46411,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_044__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_044__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_045_0002-verso-46412",
+      "image_id": 39559,
+      "category_id": 1012,
+      "bbox": [
+        545.833309057682,
+        583.3333442413732,
+        566.6666414644636,
+        91.66666838078721
+      ],
+      "segmentation": [
+        [
+          545.833309057682,
+          583.3333442413732,
+          1112.4999505221456,
+          583.3333442413732,
+          1112.4999505221456,
+          675.0000126221604,
+          545.833309057682,
+          675.0000126221604
+        ]
+      ],
+      "area": 51944.44310557743,
+      "iscrowd": 0,
+      "text": "Type of Jelu.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_045_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          603.8400268554688,
+          783.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9091,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.922
+        }
+      },
+      "source_annotation_id": 46412,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_045__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_045__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_047_0002-verso-46415",
+      "image_id": 39561,
+      "category_id": 1012,
+      "bbox": [
+        1683.3333648108196,
+        1275.0000574354608,
+        1033.3333526561466,
+        266.66667867931204
+      ],
+      "segmentation": [
+        [
+          1683.3333648108196,
+          1275.0000574354608,
+          2716.6667174669665,
+          1275.0000574354608,
+          2716.6667174669665,
+          1541.666736114773,
+          1683.3333648108196,
+          1541.666736114773
+        ]
+      ],
+      "area": 275555.5731213729,
+      "iscrowd": 0,
+      "text": "Photographic Sec 10, 11, 12, COVENTRY STREET, LONDON, W.I,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_047_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 7
+          },
+          "alpha_ratio": 0.74,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8675
+        }
+      },
+      "source_annotation_id": 46415,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_047__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_047__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_050_0002-verso-46418",
+      "image_id": 39564,
+      "category_id": 1012,
+      "bbox": [
+        1541.6666762059883,
+        1612.4999933211732,
+        1454.1666756645673,
+        441.66666483732394
+      ],
+      "segmentation": [
+        [
+          1541.6666762059883,
+          1612.4999933211732,
+          2995.833351870556,
+          1612.4999933211732,
+          2995.833351870556,
+          2054.1666581584973,
+          1541.6666762059883,
+          2054.1666581584973
+        ]
+      ],
+      "area": 642256.945758348,
+      "iscrowd": 0,
+      "text": "OFFICIAL PHOTOGRAPH\nISSUED BY\nASSOCIATED ILLUSTRATION AGENCIES, LTD.,\nST. MARY'S CHAMPTON, STRAND, LONDON, W.C.2\nINFORM, INFORMATION.\"",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_050_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          589.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 105,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 13
+          },
+          "alpha_ratio": 0.8824,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.902
+        }
+      },
+      "source_annotation_id": 46418,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_050__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_050__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_051_0002-verso-46419",
+      "image_id": 39565,
+      "category_id": 1012,
+      "bbox": [
+        395.8333185657609,
+        866.666663077013,
+        1749.9999347117853,
+        195.83333252220967
+      ],
+      "segmentation": [
+        [
+          395.8333185657609,
+          866.666663077013,
+          2145.833253277546,
+          866.666663077013,
+          2145.833253277546,
+          1062.4999955992228,
+          395.8333185657609,
+          1062.4999955992228
+        ]
+      ],
+      "area": 342708.31912825827,
+      "iscrowd": 0,
+      "text": "798. With the British troops in mesopotamia, Mounted Police in an ancient canal.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_051_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          785.280029296875,
+          589.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 62,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 3
+          },
+          "alpha_ratio": 0.9118,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9223
+        }
+      },
+      "source_annotation_id": 46419,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_051__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_051__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_051_0002-verso-46420",
+      "image_id": 39565,
+      "category_id": 1012,
+      "bbox": [
+        1129.1666245402232,
+        1124.9999953403535,
+        1708.3332695995998,
+        812.4999966346996
+      ],
+      "segmentation": [
+        [
+          1129.1666245402232,
+          1124.9999953403535,
+          2837.499894139823,
+          1124.9999953403535,
+          2837.499894139823,
+          1937.499991975053,
+          1129.1666245402232,
+          1937.499991975053
+        ]
+      ],
+      "area": 1388020.7758006202,
+      "iscrowd": 0,
+      "text": "Crown copyright reserved. \nMINISTRY OF INFORMATION, \nOFFICIAL PHOTOGRAPHY \n19 11 12 \nASSOCIATED ILLUSTRATION AGENCIES, LTD. \nST. MARI'S CHAMD-RC, Tela, STRAND, LONDON, W.O. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nCROWN COPYRIGHT RESERVED. \nFOR PUBLICATION on or after \n19 11 12 \nPHOTOGRAPHY \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nBROWN COPYRIGHT RESERVED. \nFOR PUBLICATION on or after \n19 11 12 \nTHE MINISTRY OF INFORMATION. \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION.\" \nLOMONN, W.I. \nPLEASE ACKNOWLEDGE, \"MINISTRY OF",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_051_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          785.280029296875,
+          589.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 9387,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 18,
+            "other": 1404
+          },
+          "alpha_ratio": 0.8684,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9836
+        }
+      },
+      "source_annotation_id": 46420,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_051__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_051__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_052_0002-verso-46421",
+      "image_id": 39566,
+      "category_id": 1012,
+      "bbox": [
+        1029.166647255249,
+        579.16667140267,
+        1737.4999672284973,
+        283.333335650227
+      ],
+      "segmentation": [
+        [
+          1029.166647255249,
+          579.16667140267,
+          2766.6666144837463,
+          579.16667140267,
+          2766.6666144837463,
+          862.500007052897,
+          1029.166647255249,
+          862.500007052897
+        ]
+      ],
+      "area": 492291.6614070103,
+      "iscrowd": 0,
+      "text": "With our infantry in the trenches, showing the men searching the prisoners who amusingly, always kept their hands up.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_052_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          776.6400146484375,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 96,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9697,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9379
+        }
+      },
+      "source_annotation_id": 46421,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_052__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_052__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_052_0002-verso-46422",
+      "image_id": 39566,
+      "category_id": 1012,
+      "bbox": [
+        1766.666633345043,
+        950.0000077684083,
+        1170.8333112498988,
+        541.6666710960222
+      ],
+      "segmentation": [
+        [
+          1766.666633345043,
+          950.0000077684083,
+          2937.4999445949416,
+          950.0000077684083,
+          2937.4999445949416,
+          1491.6666788644307,
+          1766.666633345043,
+          1491.6666788644307
+        ]
+      ],
+      "area": 634201.3821130656,
+      "iscrowd": 0,
+      "text": "British Official Photograph, Crown copyright reserved. \nMINISTRY OF INFORMATION, \nPhotographic Section, \n10, 11, 12, COVENTRY STREET, \nLONDON, W.I,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_052_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          776.6400146484375,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 109,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 11
+          },
+          "alpha_ratio": 0.8651,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9081
+        }
+      },
+      "source_annotation_id": 46422,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_052__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_052__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_054_0002-verso-46428",
+      "image_id": 39568,
+      "category_id": 1012,
+      "bbox": [
+        212.50000957257677,
+        1770.8333333333335,
+        341.66668205786857,
+        1150.0
+      ],
+      "segmentation": [
+        [
+          212.50000957257677,
+          1770.8333333333335,
+          554.1666916304454,
+          1770.8333333333335,
+          554.1666916304454,
+          2920.8333333333335,
+          212.50000957257677,
+          2920.8333333333335
+        ]
+      ],
+      "area": 392916.68436654884,
+      "iscrowd": 0,
+      "text": "British Official Photography Information,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_054_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          596.1599731445312,
+          792.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9737,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8967
+        }
+      },
+      "source_annotation_id": 46428,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_054__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_054__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_054_0002-verso-46429",
+      "image_id": 39568,
+      "category_id": 1012,
+      "bbox": [
+        566.6666921935381,
+        1775.0000000000002,
+        191.66667530075554,
+        1012.5000000000001
+      ],
+      "segmentation": [
+        [
+          566.6666921935381,
+          1775.0000000000002,
+          758.3333674942936,
+          1775.0000000000002,
+          758.3333674942936,
+          2787.5000000000005,
+          566.6666921935381,
+          2787.5000000000005
+        ]
+      ],
+      "area": 194062.50874201502,
+      "iscrowd": 0,
+      "text": "10, 11, 12, COVENRY STREET, LONDON, W.L.,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_054_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          596.1599731445312,
+          792.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 8
+          },
+          "alpha_ratio": 0.6,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.85
+        }
+      },
+      "source_annotation_id": 46429,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_054__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_054__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_055_0002-verso-46431",
+      "image_id": 39569,
+      "category_id": 1012,
+      "bbox": [
+        691.6666723226131,
+        412.50000000000006,
+        1379.1666779444874,
+        175.0
+      ],
+      "segmentation": [
+        [
+          691.6666723226131,
+          412.50000000000006,
+          2070.8333502671003,
+          412.50000000000006,
+          2070.8333502671003,
+          587.5,
+          691.6666723226131,
+          587.5
+        ]
+      ],
+      "area": 241354.1686402853,
+      "iscrowd": 0,
+      "text": "WITH THE TROOPS III MEGOPOTAMTA.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_055_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          597.1199951171875,
+          792.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9643,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9355
+        }
+      },
+      "source_annotation_id": 46431,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_055__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_055__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_056_0002-verso-46432",
+      "image_id": 39570,
+      "category_id": 1012,
+      "bbox": [
+        508.33332290786166,
+        1954.166642745113,
+        183.33332957332715,
+        1137.4999860755136
+      ],
+      "segmentation": [
+        [
+          508.33332290786166,
+          1954.166642745113,
+          691.6666524811887,
+          1954.166642745113,
+          691.6666524811887,
+          3091.6666288206266,
+          508.33332290786166,
+          3091.6666288206266
+        ]
+      ],
+      "area": 208541.65983683718,
+      "iscrowd": 0,
+      "text": "510, 11, 12, COVENRY STREET, LONDON, W.1.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_056_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          595.2000122070312,
+          797.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 7
+          },
+          "alpha_ratio": 0.5714,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8464
+        }
+      },
+      "source_annotation_id": 46432,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_056__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_056__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_057_0002-verso-46434",
+      "image_id": 39571,
+      "category_id": 1012,
+      "bbox": [
+        1750.0000641896197,
+        695.8333483117734,
+        300.0000110039348,
+        1120.8333574602818
+      ],
+      "segmentation": [
+        [
+          1750.0000641896197,
+          695.8333483117734,
+          2050.0000751935545,
+          695.8333483117734,
+          2050.0000751935545,
+          1816.6667057720551,
+          1750.0000641896197,
+          1816.6667057720551
+        ]
+      ],
+      "area": 336250.0195716617,
+      "iscrowd": 0,
+      "text": "MINISTRY OF INFORMATION",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_057_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          599.0399780273438,
+          793.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9333
+        }
+      },
+      "source_annotation_id": 46434,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_057__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_057__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_057_0002-verso-46435",
+      "image_id": 39571,
+      "category_id": 1012,
+      "bbox": [
+        804.1666961633252,
+        2495.833387058397,
+        1466.6667204636813,
+        604.1666796718991
+      ],
+      "segmentation": [
+        [
+          804.1666961633252,
+          2495.833387058397,
+          2270.8334166270065,
+          2495.833387058397,
+          2270.8334166270065,
+          3100.000066730296,
+          804.1666961633252,
+          3100.000066730296
+        ]
+      ],
+      "area": 886111.1626878157,
+      "iscrowd": 0,
+      "text": "OFFICIAL PHOTOGRAPH\nISSUED BY\nASSOCIATED ILLUSTRATION AGENCIES, LTD.,\nST. MARY'S CHAMBERS 1615 STRAND, LONDON, W.G.2,\nPRESIDENT ACKNOWLEDG\nBROWN CORPORATION\nFOR PUBLICATION ON or after\nANNUAL REPORT",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_057_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          599.0399780273438,
+          793.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 158,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 10
+          },
+          "alpha_ratio": 0.9133,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9225
+        }
+      },
+      "source_annotation_id": 46435,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_057__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_057__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_060_0002-verso-46437",
+      "image_id": 39574,
+      "category_id": 1012,
+      "bbox": [
+        258.33332955761136,
+        483.3333148494208,
+        2708.3332937491514,
+        420.8333172395819
+      ],
+      "segmentation": [
+        [
+          258.33332955761136,
+          483.3333148494208,
+          2966.6666233067626,
+          483.3333148494208,
+          2966.6666233067626,
+          904.1666320890026,
+          258.33332955761136,
+          904.1666320890026
+        ]
+      ],
+      "area": 1139756.8841988584,
+      "iscrowd": 0,
+      "text": "A MESOPOTAN VERSION\nTHE \"BETTER'OLE AS REALISTICALLY REPRODUCED BY & BRITISH SOLDIERS IN\nTHE \"SHELL HOLE IN PARANAY MESOPOTAMTA DURING THE RECENT ADVANCE AND\nA SHELL HOLE IN PARANAY MESOPOTAMTA DURING THE RECENT ADVANCE AND\nPHOTOGRAPHED BY A COMRADE",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_060_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          835.2000122070312,
+          638.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 207,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.981,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9893
+        }
+      },
+      "source_annotation_id": 46437,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_060__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_060__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_061_0002-verso-46438",
+      "image_id": 39575,
+      "category_id": 1012,
+      "bbox": [
+        645.8333154375082,
+        279.166665510384,
+        2124.9999411169624,
+        183.3333325739835
+      ],
+      "segmentation": [
+        [
+          645.8333154375082,
+          279.166665510384,
+          2770.8332565544706,
+          279.166665510384,
+          2770.8332565544706,
+          462.4999980843675,
+          645.8333154375082,
+          462.4999980843675
+        ]
+      ],
+      "area": 389583.32092449145,
+      "iscrowd": 0,
+      "text": "422, London motor fire engine interests the natives of\nBaghdad.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_061_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          589.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 49,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 2
+          },
+          "alpha_ratio": 0.9074,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9106
+        }
+      },
+      "source_annotation_id": 46438,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_061__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_061__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_062_0002-verso-46441",
+      "image_id": 39576,
+      "category_id": 1012,
+      "bbox": [
+        729.1666869206728,
+        308.3333346166921,
+        1862.5000517345184,
+        241.6666676725425
+      ],
+      "segmentation": [
+        [
+          729.1666869206728,
+          308.3333346166921,
+          2591.6667386551912,
+          308.3333346166921,
+          2591.6667386551912,
+          550.0000022892347,
+          729.1666869206728,
+          550.0000022892347
+        ]
+      ],
+      "area": 450104.18104261905,
+      "iscrowd": 0,
+      "text": "Indian Cavalry man finds two starving Christian girls on the desert and gives them half his research at the time was a very short ration.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_062_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          791.0399780273438,
+          586.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 112,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9912,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9322
+        }
+      },
+      "source_annotation_id": 46441,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_062__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_062__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_064_0002-verso-46443",
+      "image_id": 39578,
+      "category_id": 1012,
+      "bbox": [
+        1979.16673926207,
+        891.6667038408584,
+        1166.6667094597465,
+        554.1666897702531
+      ],
+      "segmentation": [
+        [
+          1979.16673926207,
+          891.6667038408584,
+          3145.8334487218162,
+          891.6667038408584,
+          3145.8334487218162,
+          1445.8333936111117,
+          1979.16673926207,
+          1445.8333936111117
+        ]
+      ],
+      "area": 646527.8284464614,
+      "iscrowd": 0,
+      "text": "British Official Photography,\nCrown copyright reserved.\nMINISTRY OF INF ORMATIO\nPhotographic Section,\n10, 11, 12, COVENTRY STREET,\nLONDON, W.I.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_064_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          798.719970703125,
+          585.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 109,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 10
+          },
+          "alpha_ratio": 0.872,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9007
+        }
+      },
+      "source_annotation_id": 46443,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_064__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_064__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_065_0002-verso-46444",
+      "image_id": 39579,
+      "category_id": 1012,
+      "bbox": [
+        658.3333271856164,
+        554.1666938164155,
+        1949.999981790307,
+        254.1666791188071
+      ],
+      "segmentation": [
+        [
+          658.3333271856164,
+          554.1666938164155,
+          2608.3333089759235,
+          554.1666938164155,
+          2608.3333089759235,
+          808.3333729352227,
+          658.3333271856164,
+          808.3333729352227
+        ]
+      ],
+      "area": 495625.01965337666,
+      "iscrowd": 0,
+      "text": "WITH THE TROOPS IN MESOPOTAM1.\nTeaching recruits for the Police, Swedish drill",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_065_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          784.3200073242188,
+          548.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 64,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 2
+          },
+          "alpha_ratio": 0.9552,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9361
+        }
+      },
+      "source_annotation_id": 46444,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_065__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_065__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_066_0002-verso-46446",
+      "image_id": 39580,
+      "category_id": 1012,
+      "bbox": [
+        287.50000618869683,
+        779.1666281904879,
+        1612.500034710517,
+        74.9999962964106
+      ],
+      "segmentation": [
+        [
+          287.50000618869683,
+          779.1666281904879,
+          1900.0000408992137,
+          779.1666281904879,
+          1900.0000408992137,
+          854.1666244868985,
+          287.50000618869683,
+          854.1666244868985
+        ]
+      ],
+      "area": 120937.49663125073,
+      "iscrowd": 0,
+      "text": "A heavy battery in action on the desert.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          593.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4286,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 32,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9697,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9391
+        }
+      },
+      "source_annotation_id": 46446,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_066__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_067_0002-verso-46448",
+      "image_id": 39581,
+      "category_id": 1013,
+      "bbox": [
+        1308.3333486487015,
+        270.8333383977804,
+        912.5000106817378,
+        154.16666954950577
+      ],
+      "segmentation": [
+        [
+          1308.3333486487015,
+          270.8333383977804,
+          2220.833359330439,
+          270.8333383977804,
+          2220.833359330439,
+          425.0000079472861,
+          1308.3333486487015,
+          425.0000079472861
+        ]
+      ],
+      "area": 140677.08761069196,
+      "iscrowd": 0,
+      "text": "PASSED BY CENSOR.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_067_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          834.239990234375,
+          652.7999877929688
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.925
+        }
+      },
+      "source_annotation_id": 46448,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_067__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_067__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_067_0002-verso-46449",
+      "image_id": 39581,
+      "category_id": 1013,
+      "bbox": [
+        675.0000079015595,
+        575.0000107522106,
+        1116.6666797383823,
+        116.66666884827464
+      ],
+      "segmentation": [
+        [
+          675.0000079015595,
+          575.0000107522106,
+          1791.6666876399418,
+          575.0000107522106,
+          1791.6666876399418,
+          691.6666796004853,
+          675.0000079015595,
+          691.6666796004853
+        ]
+      ],
+      "area": 130277.7817389402,
+      "iscrowd": 0,
+      "text": "OUR CAMPAIGN IN MESOPOTAMIA.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_067_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          834.239990234375,
+          652.7999877929688
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 24,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.96,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.92
+        }
+      },
+      "source_annotation_id": 46449,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_067__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_067__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_068_0002-verso-46451",
+      "image_id": 39582,
+      "category_id": 1012,
+      "bbox": [
+        624.9999864809232,
+        179.1666659245748,
+        2229.166618448626,
+        420.83333159028035
+      ],
+      "segmentation": [
+        [
+          624.9999864809232,
+          179.1666659245748,
+          2854.1666049295495,
+          179.1666659245748,
+          2854.1666049295495,
+          599.9999975148552,
+          624.9999864809232,
+          599.9999975148552
+        ]
+      ],
+      "area": 938107.6147115746,
+      "iscrowd": 0,
+      "text": "WITH THE TROOPS IN MESOPOTAMIA, 425. This is not a Mesopotamian dreadmought, but a Tigris barge being built by the I.W.T.R.E. at----.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_068_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          589.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 96,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 13
+          },
+          "alpha_ratio": 0.8571,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9238
+        }
+      },
+      "source_annotation_id": 46451,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_068__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_068__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_069_0002-verso-46452",
+      "image_id": 39583,
+      "category_id": 1013,
+      "bbox": [
+        1025.0,
+        208.33332906059906,
+        1216.6666666666667,
+        129.1666640175714
+      ],
+      "segmentation": [
+        [
+          1025.0,
+          208.33332906059906,
+          2241.666666666667,
+          208.33332906059906,
+          2241.666666666667,
+          337.49999307817046,
+          1025.0,
+          337.49999307817046
+        ]
+      ],
+      "area": 157152.77455471188,
+      "iscrowd": 0,
+      "text": "WITH THE TROOPS IN MESOPOTAMIA.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_069_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.0,
+          595.2000122070312
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.963,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9554
+        }
+      },
+      "source_annotation_id": 46452,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_069__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_069__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_069_0002-verso-46453",
+      "image_id": 39583,
+      "category_id": 1012,
+      "bbox": [
+        812.5000000000001,
+        316.66666017211054,
+        1737.5000000000002,
+        287.4999941036267
+      ],
+      "segmentation": [
+        [
+          812.5000000000001,
+          316.66666017211054,
+          2550.0000000000005,
+          316.66666017211054,
+          2550.0000000000005,
+          604.1666542757373,
+          812.5000000000001,
+          604.1666542757373
+        ]
+      ],
+      "area": 499531.23975505144,
+      "iscrowd": 0,
+      "text": "Hospital Orderlies who escaped death holding blanket and cup perforated by splintyre from enemy bomb dropped on Hospital at Baghdad.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_069_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          792.0,
+          595.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 112,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9912,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9239
+        }
+      },
+      "source_annotation_id": 46453,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_069__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_069__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_070_0002-verso-46454",
+      "image_id": 39584,
+      "category_id": 1012,
+      "bbox": [
+        250.0000031051667,
+        345.83334481130623,
+        2550.0000316727005,
+        141.6666713684869
+      ],
+      "segmentation": [
+        [
+          250.0000031051667,
+          345.83334481130623,
+          2800.0000347778673,
+          345.83334481130623,
+          2800.0000347778673,
+          487.50001617979314,
+          250.0000031051667,
+          487.50001617979314
+        ]
+      ],
+      "area": 361250.01647660765,
+      "iscrowd": 0,
+      "text": "589, Lewis gun as Archie firing at plane that machine-gunned us.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_070_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          786.239990234375,
+          588.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 48,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 3
+          },
+          "alpha_ratio": 0.8889,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8861
+        }
+      },
+      "source_annotation_id": 46454,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_070__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_070__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_070_0002-verso-46455",
+      "image_id": 39584,
+      "category_id": 1012,
+      "bbox": [
+        1787.5000222019419,
+        1129.1667041429398,
+        1100.0000136627334,
+        537.5000178392592
+      ],
+      "segmentation": [
+        [
+          1787.5000222019419,
+          1129.1667041429398,
+          2887.5000358646753,
+          1129.1667041429398,
+          2887.5000358646753,
+          1666.6667219821989,
+          1787.5000222019419,
+          1666.6667219821989
+        ]
+      ],
+      "area": 591250.0269669045,
+      "iscrowd": 0,
+      "text": "British Official Photograph,\nCrown copyright reserved.\nMINISTRY OF INFORMATION\nPhotographic Section,\n10, 11, 12, COVENTRY STREET,\n13",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_070_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          786.239990234375,
+          588.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 101,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 7
+          },
+          "alpha_ratio": 0.8707,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9088
+        }
+      },
+      "source_annotation_id": 46455,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_070__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_070__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_070_0002-verso-46456",
+      "image_id": 39584,
+      "category_id": 1012,
+      "bbox": [
+        925.0000114891168,
+        1862.5000618151073,
+        1462.5000181652251,
+        229.16667427255234
+      ],
+      "segmentation": [
+        [
+          925.0000114891168,
+          1862.5000618151073,
+          2387.500029654342,
+          1862.5000618151073,
+          2387.500029654342,
+          2091.6667360876595,
+          925.0000114891168,
+          2091.6667360876595
+        ]
+      ],
+      "area": 335156.26528647204,
+      "iscrowd": 0,
+      "text": "CROWN COPYRIGHT RESERVED. For PUBLICATION on or after.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_070_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          786.239990234375,
+          588.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.375,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 45,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9574,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9322
+        }
+      },
+      "source_annotation_id": 46456,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_070__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_070__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_072_0002-verso-46458",
+      "image_id": 39586,
+      "category_id": 1013,
+      "bbox": [
+        1133.3333333333335,
+        208.3333307572277,
+        1220.8333333333335,
+        124.99999845433662
+      ],
+      "segmentation": [
+        [
+          1133.3333333333335,
+          208.3333307572277,
+          2354.166666666667,
+          208.3333307572277,
+          2354.166666666667,
+          333.3333292115643,
+          1133.3333333333335,
+          333.3333292115643
+        ]
+      ],
+      "area": 152604.1647796693,
+      "iscrowd": 0,
+      "text": "WITH THE TROOPS IN HESOPOTAMIA,",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_072_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          792.0,
+          592.3200073242188
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.963,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9554
+        }
+      },
+      "source_annotation_id": 46458,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_072__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_072__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_072_0002-verso-46459",
+      "image_id": 39586,
+      "category_id": 1012,
+      "bbox": [
+        962.5000000000001,
+        324.9999959812752,
+        1891.6666666666667,
+        254.16666352381782
+      ],
+      "segmentation": [
+        [
+          962.5000000000001,
+          324.9999959812752,
+          2854.166666666667,
+          324.9999959812752,
+          2854.166666666667,
+          579.1666595050931,
+          962.5000000000001,
+          579.1666595050931
+        ]
+      ],
+      "area": 480798.60516588873,
+      "iscrowd": 0,
+      "text": "Ordnance Workshops. The Gun Hospital workers repairing a German Naval Gun captured at Ramadie for use against the enemy.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_072_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          792.0,
+          592.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 100,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9804,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9225
+        }
+      },
+      "source_annotation_id": 46459,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_072__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_072__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_073_0002-verso-46460",
+      "image_id": 39587,
+      "category_id": 1012,
+      "bbox": [
+        866.666680909299,
+        2416.6666291916604,
+        1441.6666903587377,
+        308.3333285520394
+      ],
+      "segmentation": [
+        [
+          866.666680909299,
+          2416.6666291916604,
+          2308.333371268037,
+          2416.6666291916604,
+          2308.333371268037,
+          2724.9999577436997,
+          866.666680909299,
+          2724.9999577436997
+        ]
+      ],
+      "area": 444513.8893009119,
+      "iscrowd": 0,
+      "text": "IN\nASSOCIATED ILLUSTRATION\nST. MARY'S CHAMBERS\nREASE, A KITNEY\nREASE, A KITNEY\nIN\nASSOCIATED ILLUSTRATION,\nNEW\nS. N. DONDON, W. O. L\nDEVELOPE, A KITNEY\nREASE, A KITNEY\nIN\nASSOCIATED ILLUSTRATION,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_073_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          594.239990234375,
+          787.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 152,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 13
+          },
+          "alpha_ratio": 0.9212,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9152
+        }
+      },
+      "source_annotation_id": 46460,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_073__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_073__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_073_0002-verso-46461",
+      "image_id": 39587,
+      "category_id": 1012,
+      "bbox": [
+        879.1666811147215,
+        2737.4999575498637,
+        1445.8333570938785,
+        166.66666408218347
+      ],
+      "segmentation": [
+        [
+          879.1666811147215,
+          2737.4999575498637,
+          2325.0000382086,
+          2737.4999575498637,
+          2325.0000382086,
+          2904.1666216320473,
+          879.1666811147215,
+          2904.1666216320473
+        ]
+      ],
+      "area": 240972.22244558108,
+      "iscrowd": 0,
+      "text": "CROWN copyright reserved. For PUBLICATION on or after.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_073_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          594.239990234375,
+          787.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.375,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 45,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9574,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9322
+        }
+      },
+      "source_annotation_id": 46461,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_073__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_073__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_078_0002-verso-46467",
+      "image_id": 39592,
+      "category_id": 1012,
+      "bbox": [
+        654.1666605578594,
+        245.8333211937903,
+        1374.9999871598318,
+        179.1666578192031
+      ],
+      "segmentation": [
+        [
+          654.1666605578594,
+          245.8333211937903,
+          2029.1666477176911,
+          245.8333211937903,
+          2029.1666477176911,
+          424.99997901299344,
+          654.1666605578594,
+          424.99997901299344
+        ]
+      ],
+      "area": 246354.15220087423,
+      "iscrowd": 0,
+      "text": "WITH THE TROOPS IN MESOPOTAMIA.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_078_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          784.3200073242188,
+          593.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.963,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9554
+        }
+      },
+      "source_annotation_id": 46467,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_078__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_078__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_078_0002-verso-46468",
+      "image_id": 39592,
+      "category_id": 1012,
+      "bbox": [
+        637.4999940468311,
+        437.49997839572853,
+        1733.3333171469394,
+        295.8333187247307
+      ],
+      "segmentation": [
+        [
+          637.4999940468311,
+          437.49997839572853,
+          2370.8333111937704,
+          437.49997839572853,
+          2370.8333111937704,
+          733.3332971204593,
+          637.4999940468311,
+          733.3332971204593
+        ]
+      ],
+      "area": 512777.74766772526,
+      "iscrowd": 0,
+      "text": "With our infantry in the trenches, showing the men searching the prisoners who amusingly, always kept their hands up.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_078_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          784.3200073242188,
+          593.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 96,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9697,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9379
+        }
+      },
+      "source_annotation_id": 46468,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_078__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_078__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_078_0002-verso-46469",
+      "image_id": 39592,
+      "category_id": 1012,
+      "bbox": [
+        1074.999989961323,
+        954.1666195487793,
+        1991.6666480678775,
+        1037.4999487670134
+      ],
+      "segmentation": [
+        [
+          1074.999989961323,
+          954.1666195487793,
+          3066.666638029201,
+          954.1666195487793,
+          3066.666638029201,
+          1991.6665683157926,
+          1074.999989961323,
+          1991.6665683157926
+        ]
+      ],
+      "area": 2066354.0453313922,
+      "iscrowd": 0,
+      "text": "PASSED FOR\nW W\nTRANSMISSION\nABROAD\nOFFICIAL PHOTOGRAPH\nISSUED BY\nASSOCIATED ILLUSTRATION AGENCIES, LTD.,\nST. MARY'S CHAMBERS, 101a, STRAND, LONDON, W.C.2\nPLEASE ACKNOWLEDGE, \"MINISTRY OF INFORMATION\"\nCROWN COPYRIGHT LESCARED.\nFor PUBLICATION on or after....................",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_078_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          784.3200073242188,
+          593.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 201,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 35
+          },
+          "alpha_ratio": 0.8375,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9547
+        }
+      },
+      "source_annotation_id": 46469,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_078__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_078__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_079_0002-verso-46470",
+      "image_id": 39593,
+      "category_id": 1012,
+      "bbox": [
+        712.5000197910573,
+        254.16667084359247,
+        2125.0000590259606,
+        270.8333377841559
+      ],
+      "segmentation": [
+        [
+          712.5000197910573,
+          254.16667084359247,
+          2837.5000788170178,
+          254.16667084359247,
+          2837.5000788170178,
+          525.0000086277483,
+          712.5000197910573,
+          525.0000086277483
+        ]
+      ],
+      "area": 575520.8587775292,
+      "iscrowd": 0,
+      "text": "464. Enemy aeroplanes bomb British Casualty Clearing Station. Scene shows officer in bomb crater. The large Red Cross may be noticed in the immediate background.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_079_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          791.0399780273438,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 130,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 4
+          },
+          "alpha_ratio": 0.9489,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9269
+        }
+      },
+      "source_annotation_id": 46470,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_079__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_079__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_079_0002-verso-46471",
+      "image_id": 39593,
+      "category_id": 1013,
+      "bbox": [
+        870.8333575224034,
+        1154.1666856340182,
+        1004.1666945593264,
+        200.00000328676128
+      ],
+      "segmentation": [
+        [
+          870.8333575224034,
+          1154.1666856340182,
+          1875.0000520817298,
+          1154.1666856340182,
+          1875.0000520817298,
+          1354.1666889207795,
+          870.8333575224034,
+          1354.1666889207795
+        ]
+      ],
+      "area": 200833.3422123215,
+      "iscrowd": 0,
+      "text": "OFFICIAL PHOTOGRAPH\nISSUED BY",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_079_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          791.0399780273438,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.95
+        }
+      },
+      "source_annotation_id": 46471,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_079__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_079__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_079_0002-verso-46472",
+      "image_id": 39593,
+      "category_id": 1012,
+      "bbox": [
+        641.666684490192,
+        1345.833355450498,
+        1416.666706017307,
+        466.66667433577635
+      ],
+      "segmentation": [
+        [
+          641.666684490192,
+          1345.833355450498,
+          2058.3333905074987,
+          1345.833355450498,
+          2058.3333905074987,
+          1812.5000297862744,
+          641.666684490192,
+          1812.5000297862744
+        ]
+      ],
+      "area": 661111.1403393156,
+      "iscrowd": 0,
+      "text": "ASSOCIATED ILLUSTRATION AGENCIES, LTD.,ST. MARY'S CHAMBERS, 101a, STRAND, LONDON, W G 2.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_079_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          791.0399780273438,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 63,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 10
+          },
+          "alpha_ratio": 0.8182,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8773
+        }
+      },
+      "source_annotation_id": 46472,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_079__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_079__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_143_080_0002-verso-46473",
+      "image_id": 39594,
+      "category_id": 1012,
+      "bbox": [
+        350.00000434723336,
+        370.83333487683245,
+        1125.0000139732501,
+        75.00000031216837
+      ],
+      "segmentation": [
+        [
+          350.00000434723336,
+          370.83333487683245,
+          1475.0000183204834,
+          370.83333487683245,
+          1475.0000183204834,
+          445.8333351890008,
+          350.00000434723336,
+          445.8333351890008
+        ]
+      ],
+      "area": 84375.00139918318,
+      "iscrowd": 0,
+      "text": ". Washing Turkish trenches.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_143_080_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          786.239990234375,
+          586.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 22,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9167,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8896
+        }
+      },
+      "source_annotation_id": 46473,
+      "source_file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_080__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_143/SHDGR__GR_2_K_247_143_080__0002.jpg"
+    }
+  ]
 }

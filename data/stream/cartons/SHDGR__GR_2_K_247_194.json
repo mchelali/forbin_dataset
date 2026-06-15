@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_194",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,12 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
+        "Dégradations": "salt and pepper",
+        "Date de prise": "1919",
+        "Unique / Similaire": "Similaire SHDGR__GR_2_K_247_194",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +180,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +209,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +238,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +267,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +296,14 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
+        "Retouches": "Edited in the newspaper: added women that were not present in the original",
+        "Localisation": "Saint Germain",
+        "Date de prise": "1919",
+        "Lien": "https://www.britishnewspaperarchive.co.uk/viewer/BL/0000560/19190516/026/0008?browse=true",
+        "Parution journal": "Daily Mirror (16/05/1919)",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +330,14 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
+        "Retouches": "Cropped in newspaper",
+        "Date de prise": "1919",
+        "Parution journal": "Daily Mirror (16/05/1919)",
+        "Lien": "https://www.britishnewspaperarchive.co.uk/viewer/BL/0000560/19190516/026/0008?browse=true",
+        "Localisation": "Saint Germain en Laye, France",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +364,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +393,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +422,15 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
+        "Dégradations": "salt and pepper",
+        "Retouches": "cropped in newspaper",
+        "Parution journal": "Daily Mirror (05/06/1919)",
+        "Date de prise": "1919",
+        "Lien": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0000560/19190605/078/0008",
+        "Localisation": "Saint Germain en Laye, France",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +457,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +486,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +515,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +544,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +573,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +602,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +631,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +660,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +689,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +718,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +747,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +776,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +805,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +834,11 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
+        "Dégradations": "stains",
+        "Unique / Similaire": "SHDGR__GR_2_K_247_194_025__0001",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +865,10 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
+        "Dégradations": "stain",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +895,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +924,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +953,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +982,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +1011,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1040,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1069,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1098,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1127,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1156,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1185,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1214,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1243,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1272,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1301,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1330,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1359,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1388,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1417,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1446,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1475,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1504,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1533,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1562,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1591,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1620,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1649,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1678,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1707,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1736,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
@@ -2098,6 +2385,5321 @@
       "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_054__0002.jpg",
       "side": "verso",
       "source_face": "verso"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_001_0002-verso-5087",
+      "image_id": 50196,
+      "category_id": 1001,
+      "bbox": [
+        278,
+        834,
+        1072,
+        342
+      ],
+      "segmentation": [
+        [
+          278,
+          1068,
+          297,
+          1176,
+          1350,
+          948,
+          1324,
+          834,
+          278,
+          1068
+        ]
+      ],
+      "area": 366624,
+      "iscrowd": 0,
+      "text": "PEACE BRINGS JOY IN PARIS",
+      "orientation": "horizontal-lr",
+      "text_type": "Titre",
+      "arkindex_elem_id": "49ac5cbd-00c3-488a-978e-91ad88178caa",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_001_0002",
+      "metadata": {},
+      "source_annotation_id": 5087,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_001__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 1,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_001__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_001_0002-verso-5088",
+      "image_id": 50196,
+      "category_id": 1003,
+      "bbox": [
+        170,
+        582,
+        3164,
+        983
+      ],
+      "segmentation": [
+        [
+          170,
+          1229,
+          246,
+          1565,
+          3334,
+          950,
+          3245,
+          582,
+          170,
+          1229
+        ]
+      ],
+      "area": 3110212,
+      "iscrowd": 0,
+      "text": "The news that the Germans have accepted the peace terms has been received with joy in Paris. There was a rush on the late editions of the newpapers on Monday evening June 23rd",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "6abf568f-554d-44e1-91ef-b0c1d5afb6fb",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_001_0002",
+      "metadata": {},
+      "source_annotation_id": 5088,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_001__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_001__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_001_0002-verso-55727",
+      "image_id": 50196,
+      "category_id": 1014,
+      "bbox": [
+        295.83333333333337,
+        683.3333385053766,
+        2591.666666666667,
+        716.6666720910047
+      ],
+      "segmentation": [
+        [
+          295.83333333333337,
+          683.3333385053766,
+          2887.5000000000005,
+          683.3333385053766,
+          2887.5000000000005,
+          1400.0000105963813,
+          295.83333333333337,
+          1400.0000105963813
+        ]
+      ],
+      "area": 1857361.1251691873,
+      "iscrowd": 0,
+      "text": "^ { c }",
+      "orientation": "",
+      "text_type": "monkeyocr_interline_equation",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_001_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          816.0,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "interline_equation",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 1,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.25,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8063
+        }
+      },
+      "source_annotation_id": 55727,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_001__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 14,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_001__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_002_0002-verso-5090",
+      "image_id": 50197,
+      "category_id": 1003,
+      "bbox": [
+        336,
+        522,
+        3175,
+        905
+      ],
+      "segmentation": [
+        [
+          336,
+          1103,
+          375,
+          1427,
+          3511,
+          945,
+          3431,
+          522,
+          336,
+          1103
+        ]
+      ],
+      "area": 2873375,
+      "iscrowd": 0,
+      "text": "The news that the Germans have accepted the peace terms has been received with joy in Paris. There was a rush on the late editions of the newpapers on Monday evening June 23rd",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "18d67029-4814-4fc8-9ba8-aef70509ec7a",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_002_0002",
+      "metadata": {},
+      "source_annotation_id": 5090,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_002__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_002__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_002_0002-verso-5091",
+      "image_id": 50197,
+      "category_id": 1001,
+      "bbox": [
+        428,
+        747,
+        1083,
+        323
+      ],
+      "segmentation": [
+        [
+          428,
+          951,
+          455,
+          1070,
+          1511,
+          885,
+          1478,
+          747,
+          428,
+          951
+        ]
+      ],
+      "area": 349809,
+      "iscrowd": 0,
+      "text": "PEACE BRINGS JOY IN PARIS",
+      "orientation": "horizontal-lr",
+      "text_type": "Titre",
+      "arkindex_elem_id": "c68d8003-a0de-4f09-8302-7a039025ca80",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_002_0002",
+      "metadata": {},
+      "source_annotation_id": 5091,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_002__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 1,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_002__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_002_0002-verso-55728",
+      "image_id": 50197,
+      "category_id": 1012,
+      "bbox": [
+        462.5000132903769,
+        666.6666717125624,
+        2595.8334079270703,
+        625.0000047305274
+      ],
+      "segmentation": [
+        [
+          462.5000132903769,
+          666.6666717125624,
+          3058.3334212174473,
+          666.6666717125624,
+          3058.3334212174473,
+          1291.6666764430897,
+          462.5000132903769,
+          1291.6666764430897
+        ]
+      ],
+      "area": 1622395.89223408,
+      "iscrowd": 0,
+      "text": "PEACE BRINGS JOY IN PARIS\n\nThe news that the Germans have accepted the peace terms has been received with joy in Paris. There was a rush on the late editions of the newspapers on Monday evening June 23rd",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_002_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          849.5999755859375,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 162,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 1
+          },
+          "alpha_ratio": 0.9818,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9894
+        }
+      },
+      "source_annotation_id": 55728,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_002__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_002__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_003_0002-verso-5094",
+      "image_id": 50198,
+      "category_id": 1003,
+      "bbox": [
+        330,
+        556,
+        2640,
+        644
+      ],
+      "segmentation": [
+        [
+          330,
+          966,
+          369,
+          1200,
+          2970,
+          803,
+          2918,
+          556,
+          330,
+          966
+        ]
+      ],
+      "area": 1700160,
+      "iscrowd": 0,
+      "text": "The news that the Germans have accepted the peace terms has been received with joy in Paris. There was a rush on the late editions of the newpapers on Monday evening June 23rd",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "a3bdf880-b141-4a1a-94ba-d5b19b940ad2",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_003_0002",
+      "metadata": {},
+      "source_annotation_id": 5094,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_003__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_003_0002-verso-5095",
+      "image_id": 50198,
+      "category_id": 1001,
+      "bbox": [
+        317,
+        679,
+        1034,
+        261
+      ],
+      "segmentation": [
+        [
+          317,
+          842,
+          323,
+          940,
+          1351,
+          790,
+          1344,
+          679,
+          317,
+          842
+        ]
+      ],
+      "area": 269874,
+      "iscrowd": 0,
+      "text": "PEACE BRINGS JOY IN PARIS",
+      "orientation": "horizontal-lr",
+      "text_type": "Titre",
+      "arkindex_elem_id": "e82151bd-bbf8-4d7a-bd38-98e1867b2590",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_003_0002",
+      "metadata": {},
+      "source_annotation_id": 5095,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_003__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 1,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_003_0002-verso-55729",
+      "image_id": 50198,
+      "category_id": 1014,
+      "bbox": [
+        325.0000018956829,
+        599.999984129046,
+        2587.5000150925525,
+        558.3333185645289
+      ],
+      "segmentation": [
+        [
+          325.0000018956829,
+          599.999984129046,
+          2912.5000169882355,
+          599.999984129046,
+          2912.5000169882355,
+          1158.3333026935748,
+          325.0000018956829,
+          1158.3333026935748
+        ]
+      ],
+      "area": 1444687.4702123934,
+      "iscrowd": 0,
+      "text": "\\begin{array} { r l } & { \\mathrm { P E A C E ~ B R I N G S ~ J O Y ~ I N ~ P A R I S } } \\\\ & { \\mathrm { T h e ~ n e w s ~ t h a t ~ t h e ~ G e m a n s ~ h a v e ~ a c c e p t e d ~ t h e ~ p e a c e ~ t e r m s ~ h a t ~ t h e ~ p e a c e ~ t e r m s ~ h a s ~ b e e n ~ } } \\\\ & { \\mathrm { r e c e i v e d ~ w i t h ~ j o y ~ i n ~ P a r i s . ~ T h e ~ w a s ~ a ~ r u s h ~ o n ~ t h e ~ l a t e ~ e d i t i o n s } } \\\\ & { \\mathrm { o f ~ t h e ~ n e w p a p e r s ~ o n ~ M o n d a y ~ e v e n i n g ~ J u n e ~ 2 3 r d } } \\end{array}",
+      "orientation": "",
+      "text_type": "monkeyocr_interline_equation",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "interline_equation",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 218,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 78
+          },
+          "alpha_ratio": 0.7315,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8664
+        }
+      },
+      "source_annotation_id": 55729,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 14,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_004_0002-verso-5096",
+      "image_id": 50199,
+      "category_id": 1001,
+      "bbox": [
+        351,
+        770,
+        1069,
+        274
+      ],
+      "segmentation": [
+        [
+          351,
+          920,
+          371,
+          1044,
+          1420,
+          874,
+          1394,
+          770,
+          351,
+          920
+        ]
+      ],
+      "area": 292906,
+      "iscrowd": 0,
+      "text": "PEACE BRINGS JOY IN PARIS",
+      "orientation": "horizontal-lr",
+      "text_type": "Titre",
+      "arkindex_elem_id": "10926857-79b2-4ecb-9c6b-f3ef6a3d738a",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_004_0002",
+      "metadata": {},
+      "source_annotation_id": 5096,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_004__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 1,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_004_0002-verso-5097",
+      "image_id": 50199,
+      "category_id": 1003,
+      "bbox": [
+        358,
+        614,
+        2750,
+        691
+      ],
+      "segmentation": [
+        [
+          358,
+          1089,
+          390,
+          1305,
+          3108,
+          887,
+          3024,
+          614,
+          358,
+          1089
+        ]
+      ],
+      "area": 1900250,
+      "iscrowd": 0,
+      "text": "The news that the Germans have accepted the peace terms has been received with joy in Paris. There was a rush on the late editions of the newpapers on Monday evening June 23rd",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "239e69dc-ca41-433d-b7e8-749238d1b1af",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_004_0002",
+      "metadata": {},
+      "source_annotation_id": 5097,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_004__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_004_0002-verso-5098",
+      "image_id": 50199,
+      "category_id": 1005,
+      "bbox": [
+        1648,
+        1200,
+        626,
+        541
+      ],
+      "segmentation": [
+        [
+          1648,
+          1383,
+          1792,
+          1741,
+          2274,
+          1454,
+          2079,
+          1200,
+          1648,
+          1383
+        ]
+      ],
+      "area": 338666,
+      "iscrowd": 0,
+      "text": "",
+      "orientation": "",
+      "text_type": "signature_forbin",
+      "arkindex_elem_id": "2f3c6aae-0fc7-4175-afa2-2c0777bbed21",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_004_0002",
+      "metadata": {},
+      "source_annotation_id": 5098,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_004__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 5,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_004_0002-verso-55730",
+      "image_id": 50199,
+      "category_id": 1012,
+      "bbox": [
+        362.50000949309697,
+        687.5000233466272,
+        2625.0000687431157,
+        583.3333531425928
+      ],
+      "segmentation": [
+        [
+          362.50000949309697,
+          687.5000233466272,
+          2987.5000782362126,
+          687.5000233466272,
+          2987.5000782362126,
+          1270.83337648922,
+          362.50000949309697,
+          1270.83337648922
+        ]
+      ],
+      "area": 1531250.0920994584,
+      "iscrowd": 0,
+      "text": "PRACE BRINGS JOY IN PARIS\n\nThe news that the Gormans have accepted the peace terms has been received with joy in Paris. There was a rush on the late editor of the newspapers on Monday evening June 23rd",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_004_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          839.0399780273438,
+          647.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 160,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 1
+          },
+          "alpha_ratio": 0.9816,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9894
+        }
+      },
+      "source_annotation_id": 55730,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_004__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_006_0002-verso-5100",
+      "image_id": 50201,
+      "category_id": 1001,
+      "bbox": [
+        476,
+        938,
+        1481,
+        293
+      ],
+      "segmentation": [
+        [
+          476,
+          1081,
+          489,
+          1231,
+          1957,
+          1075,
+          1937,
+          938,
+          476,
+          1081
+        ]
+      ],
+      "area": 433933,
+      "iscrowd": 0,
+      "text": "COURTEOUS AND SMILING AUSTRIAN CHIEF",
+      "orientation": "horizontal-lr",
+      "text_type": "Titre",
+      "arkindex_elem_id": "5aa88d57-05b4-4193-92b5-2d7982e9e31d",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_006_0002",
+      "metadata": {},
+      "source_annotation_id": 5100,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_006__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 1,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_006_0002-verso-5102",
+      "image_id": 50201,
+      "category_id": 1003,
+      "bbox": [
+        182,
+        983,
+        2813,
+        699
+      ],
+      "segmentation": [
+        [
+          182,
+          1283,
+          221,
+          1682,
+          2995,
+          1375,
+          2929,
+          983,
+          182,
+          1283
+        ]
+      ],
+      "area": 1966287,
+      "iscrowd": 0,
+      "text": "Everyone noticed how Dr. Renner, the chief Austrian peace delegate, was smiling when alighted from the train at St. Germain. \"I thank you for this kindly reception\", he said. Photo shows -- Delegates looking out of the railway carriage",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "bdb0ab72-355c-4bd3-b5af-37fe5c2b89ba",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_006_0002",
+      "metadata": {},
+      "source_annotation_id": 5102,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_006__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_006_0002-verso-55731",
+      "image_id": 50201,
+      "category_id": 1012,
+      "bbox": [
+        220.83333333333334,
+        966.6666483206935,
+        2695.8333333333335,
+        637.499987901147
+      ],
+      "segmentation": [
+        [
+          220.83333333333334,
+          966.6666483206935,
+          2916.666666666667,
+          966.6666483206935,
+          2916.666666666667,
+          1604.1666362218407,
+          220.83333333333334,
+          1604.1666362218407
+        ]
+      ],
+      "area": 1718593.717383509,
+      "iscrowd": 0,
+      "text": "COURTEOUS AND SMILING AUSTRALIAAN CHEW\nI everyone noticed how Dr. Rerrer, the chief Austrian peace delegate,\nwas smiling when he alighted from the train at St. Gomain. \"I thank\nyou for this kindly reception\", he said\nPhoto shows-- Delegates looking out of the railway carriage",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          840.0,
+          643.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 222,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 10
+          },
+          "alpha_ratio": 0.9569,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9613
+        }
+      },
+      "source_annotation_id": 55731,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_007_0002-verso-5105",
+      "image_id": 50202,
+      "category_id": 1003,
+      "bbox": [
+        38,
+        1103,
+        3139,
+        586
+      ],
+      "segmentation": [
+        [
+          38,
+          1520,
+          3164,
+          1689,
+          3177,
+          1312,
+          77,
+          1103,
+          38,
+          1520
+        ]
+      ],
+      "area": 1839454,
+      "iscrowd": 0,
+      "text": "Everyone noticed how Dr. Renner, the chief Austrian peace delegate, was smiling when alighted from the train at St. Germain. \"I thank you for this kindly reception\", he said. Photo shows -- Dr. Renner (the bearded figure) the chief delegate",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "acd49609-f2fb-4d32-9c50-c6748a2d6234",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_007_0002",
+      "metadata": {},
+      "source_annotation_id": 5105,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_007__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_007_0002-verso-55732",
+      "image_id": 50202,
+      "category_id": 1012,
+      "bbox": [
+        191.66666275826495,
+        1033.333376413705,
+        2866.666608210571,
+        620.8333592162986
+      ],
+      "segmentation": [
+        [
+          191.66666275826495,
+          1033.333376413705,
+          3058.333270968836,
+          1033.333376413705,
+          3058.333270968836,
+          1654.1667356300036,
+          191.66666275826495,
+          1654.1667356300036
+        ]
+      ],
+      "area": 1779722.2601285619,
+      "iscrowd": 0,
+      "text": "COURTEOUS AND SMILING AUSTRIAN CITY\nEveryone noticed how Dr. Rerrer, the chief Austrian delegate, when he alighted from the train at St. Germain, \"I thank you for this kindly reception\", he said\n\nPhoto Shows-- Dr. Rerrer (the boarded figure) the chief delegate",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          838.0800170898438,
+          644.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 205,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 13
+          },
+          "alpha_ratio": 0.9404,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9592
+        }
+      },
+      "source_annotation_id": 55732,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_008_0002-verso-5107",
+      "image_id": 50203,
+      "category_id": 1003,
+      "bbox": [
+        195,
+        437,
+        2539,
+        540
+      ],
+      "segmentation": [
+        [
+          195,
+          853,
+          208,
+          977,
+          2734,
+          547,
+          2721,
+          437,
+          195,
+          853
+        ]
+      ],
+      "area": 1371060,
+      "iscrowd": 0,
+      "text": "Photo shows -- Top-hatted Austrian delagates entering the Chateau",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "27da4c1b-65f5-46e4-993e-f1116a009584",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_008_0002",
+      "metadata": {},
+      "source_annotation_id": 5107,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_008__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_008_0002-verso-5108",
+      "image_id": 50203,
+      "category_id": 1001,
+      "bbox": [
+        181,
+        378,
+        2240,
+        449
+      ],
+      "segmentation": [
+        [
+          181,
+          717,
+          201,
+          827,
+          2421,
+          482,
+          2421,
+          378,
+          181,
+          717
+        ]
+      ],
+      "area": 1005760,
+      "iscrowd": 0,
+      "text": "HANDING OVER THE TERMS TO THE AUSTRIANS AT ST. GERMAINS",
+      "orientation": "horizontal-lr",
+      "text_type": "Titre",
+      "arkindex_elem_id": "f8c18625-7884-4764-b654-1520ea1abac1",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_008_0002",
+      "metadata": {},
+      "source_annotation_id": 5108,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_008__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 1,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_008_0002-verso-55733",
+      "image_id": 50203,
+      "category_id": 1012,
+      "bbox": [
+        191.66666275826495,
+        391.66665630646054,
+        2533.3332816744582,
+        562.4999851209806
+      ],
+      "segmentation": [
+        [
+          191.66666275826495,
+          391.66665630646054,
+          2724.999944432723,
+          391.66665630646054,
+          2724.999944432723,
+          954.1666414274412,
+          191.66666275826495,
+          954.1666414274412
+        ]
+      ],
+      "area": 1424999.9332483676,
+      "iscrowd": 0,
+      "text": "HANDING OVER THE TERMS TO THE AUSTRIANS AT ST. GERMANNS.\nPhoto shows Top-hatted Austrian delegates entering the Chateau",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          838.0800170898438,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 99,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9706,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.938
+        }
+      },
+      "source_annotation_id": 55733,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_010_0002-verso-5111",
+      "image_id": 50205,
+      "category_id": 1003,
+      "bbox": [
+        122,
+        413,
+        3170,
+        421
+      ],
+      "segmentation": [
+        [
+          122,
+          639,
+          135,
+          834,
+          3292,
+          633,
+          3266,
+          413,
+          122,
+          639
+        ]
+      ],
+      "area": 1334570,
+      "iscrowd": 0,
+      "text": "Dr. Carl Renner making his impassioned reply to the Allied Delegates after receiving the peace terms.",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "0a676ecc-8e96-4a05-a292-fd0f1de8621d",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_010_0002",
+      "metadata": {},
+      "source_annotation_id": 5111,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_010__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_010_0002-verso-5112",
+      "image_id": 50205,
+      "category_id": 1001,
+      "bbox": [
+        433,
+        315,
+        2411,
+        285
+      ],
+      "segmentation": [
+        [
+          433,
+          471,
+          446,
+          600,
+          2844,
+          432,
+          2806,
+          315,
+          433,
+          471
+        ]
+      ],
+      "area": 687135,
+      "iscrowd": 0,
+      "text": "AUSTRIANS RECEIVE THE PEACE TERMS AT SAINT GERMAIN CHATEAU",
+      "orientation": "horizontal-lr",
+      "text_type": "Titre",
+      "arkindex_elem_id": "506a74c8-ccdd-4f78-a360-e8967b695ee9",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_010_0002",
+      "metadata": {},
+      "source_annotation_id": 5112,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_010__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 1,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_010_0002-verso-5114",
+      "image_id": 50205,
+      "category_id": 1005,
+      "bbox": [
+        1224,
+        1021,
+        745,
+        369
+      ],
+      "segmentation": [
+        [
+          1224,
+          1021,
+          1257,
+          1384,
+          1944,
+          1390,
+          1969,
+          1040,
+          1224,
+          1021
+        ]
+      ],
+      "area": 274905,
+      "iscrowd": 0,
+      "text": "",
+      "orientation": "",
+      "text_type": "signature_forbin",
+      "arkindex_elem_id": "9c8fe7d3-5453-4f32-a9db-ab99c4cd6de0",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_010_0002",
+      "metadata": {},
+      "source_annotation_id": 5114,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_010__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 5,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_010_0002-verso-55734",
+      "image_id": 50205,
+      "category_id": 1012,
+      "bbox": [
+        333.333337235338,
+        345.8333175339392,
+        2666.666697882704,
+        399.9999817260019
+      ],
+      "segmentation": [
+        [
+          333.333337235338,
+          345.8333175339392,
+          3000.000035118042,
+          345.8333175339392,
+          3000.000035118042,
+          745.8332992599411,
+          333.333337235338,
+          745.8332992599411
+        ]
+      ],
+      "area": 1066666.6304224194,
+      "iscrowd": 0,
+      "text": "AUSTRIANS RECEIVE THE PEACE TERMS AT SAINT GERMAIN CHATEAU.\nDr.Carl Renner making his impressed reply to the Allied Delegates after receiving the peace terms.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          834.239990234375,
+          641.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 132,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9778,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9222
+        }
+      },
+      "source_annotation_id": 55734,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_011_0002-verso-5115",
+      "image_id": 50206,
+      "category_id": 1003,
+      "bbox": [
+        184,
+        717,
+        1758,
+        158
+      ],
+      "segmentation": [
+        [
+          184,
+          749,
+          184,
+          875,
+          1942,
+          835,
+          1942,
+          717,
+          184,
+          749
+        ]
+      ],
+      "area": 277764,
+      "iscrowd": 0,
+      "text": "Photo shows - Foch and Lloyd George leaving.",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "65f9610f-9b2f-46a8-b0e2-a703871da8ba",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_011_0002",
+      "metadata": {},
+      "source_annotation_id": 5115,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_011__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_011_0002-verso-5117",
+      "image_id": 50206,
+      "category_id": 1001,
+      "bbox": [
+        177,
+        572,
+        2259,
+        177
+      ],
+      "segmentation": [
+        [
+          177,
+          611,
+          197,
+          749,
+          2429,
+          697,
+          2436,
+          572,
+          177,
+          611
+        ]
+      ],
+      "area": 399843,
+      "iscrowd": 0,
+      "text": "AUSTRIANS RECEIVE THE PEACE TERMS AT ST GERMAIN CHATEAU.",
+      "orientation": "horizontal-lr",
+      "text_type": "Titre",
+      "arkindex_elem_id": "87d627c3-9d27-47cc-8b14-525808eaa690",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_011_0002",
+      "metadata": {},
+      "source_annotation_id": 5117,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_011__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 1,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_011_0002-verso-55735",
+      "image_id": 50206,
+      "category_id": 1012,
+      "bbox": [
+        220.833335241402,
+        595.833322025255,
+        2208.33335241402,
+        249.99999525535176
+      ],
+      "segmentation": [
+        [
+          220.833335241402,
+          595.833322025255,
+          2429.166687655422,
+          595.833322025255,
+          2429.166687655422,
+          845.8333172806068,
+          220.833335241402,
+          845.8333172806068
+        ]
+      ],
+      "area": 552083.32762574,
+      "iscrowd": 0,
+      "text": "AUSTRIANS RECEIVE THE PEACE TERMS AT ST GERMAIN CHATEAU.\nPhoto shows-Foch and Lloyd George leaving.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          847.6799926757812,
+          643.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 82,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9647,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9289
+        }
+      },
+      "source_annotation_id": 55735,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_012_0002-verso-5119",
+      "image_id": 50207,
+      "category_id": 1001,
+      "bbox": [
+        656,
+        728,
+        2267,
+        286
+      ],
+      "segmentation": [
+        [
+          656,
+          898,
+          664,
+          1014,
+          2923,
+          852,
+          2923,
+          728,
+          656,
+          898
+        ]
+      ],
+      "area": 648362,
+      "iscrowd": 0,
+      "text": "AUSTRIANS RECEIVE THE PEACE TERMS AT ST GERMAIN CHATEAU:",
+      "orientation": "horizontal-lr",
+      "text_type": "Titre",
+      "arkindex_elem_id": "718005c7-79ed-4146-824f-e7bdae8b35f7",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_012_0002",
+      "metadata": {},
+      "source_annotation_id": 5119,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_012__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 1,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_012_0002-verso-5120",
+      "image_id": 50207,
+      "category_id": 1003,
+      "bbox": [
+        664,
+        852,
+        2351,
+        278
+      ],
+      "segmentation": [
+        [
+          664,
+          1022,
+          672,
+          1130,
+          3015,
+          976,
+          3015,
+          852,
+          664,
+          1022
+        ]
+      ],
+      "area": 653578,
+      "iscrowd": 0,
+      "text": "Photo shows -Clemenceau speaking to the Austrian delegates",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "8763498d-5e2f-4585-80dc-7c782860c194",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_012_0002",
+      "metadata": {},
+      "source_annotation_id": 5120,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_012__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_012_0002-verso-55736",
+      "image_id": 50207,
+      "category_id": 1012,
+      "bbox": [
+        683.3333199269186,
+        762.4999835067264,
+        2316.666621215651,
+        362.49999215893547
+      ],
+      "segmentation": [
+        [
+          683.3333199269186,
+          762.4999835067264,
+          2999.9999411425697,
+          762.4999835067264,
+          2999.9999411425697,
+          1124.9999756656619,
+          683.3333199269186,
+          1124.9999756656619
+        ]
+      ],
+      "area": 839791.632025541,
+      "iscrowd": 0,
+      "text": "AUSTRIANS RECEIVE THE PEACE TERMS AT ST GERMAN CHATEAU: Photo shows -Clemwceak speaking to the Austrian delegaresi",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          995.52001953125,
+          790.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 96,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9796,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9308
+        }
+      },
+      "source_annotation_id": 55736,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_013_0001-recto-5121",
+      "image_id": 50208,
+      "category_id": 1004,
+      "bbox": [
+        1304,
+        2582,
+        362,
+        125
+      ],
+      "segmentation": [
+        [
+          1304,
+          2582,
+          1304,
+          2707,
+          1666,
+          2700,
+          1639,
+          2589,
+          1304,
+          2582
+        ]
+      ],
+      "area": 45250,
+      "iscrowd": 0,
+      "text": "Signature de Stéphen Pichon",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "0228539a-2942-417f-88c4-0843538e784c",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_013_0001",
+      "metadata": {},
+      "source_annotation_id": 5121,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_013_0001-recto-5122",
+      "image_id": 50208,
+      "category_id": 1003,
+      "bbox": [
+        949,
+        2345,
+        968,
+        251
+      ],
+      "segmentation": [
+        [
+          949,
+          2345,
+          949,
+          2568,
+          1917,
+          2596,
+          1910,
+          2359,
+          949,
+          2345
+        ]
+      ],
+      "area": 242968,
+      "iscrowd": 0,
+      "text": "Par le Président de la République: Le Ministre des Affaires Etrangères",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "4508c8f9-9dc1-4630-ad88-7e2cda3ed58a",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_013_0001",
+      "metadata": {},
+      "source_annotation_id": 5122,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_013_0001-recto-5123",
+      "image_id": 50208,
+      "category_id": 1004,
+      "bbox": [
+        1179,
+        1983,
+        494,
+        362
+      ],
+      "segmentation": [
+        [
+          1179,
+          2331,
+          1673,
+          2345,
+          1659,
+          1983,
+          1193,
+          1997,
+          1179,
+          2331
+        ]
+      ],
+      "area": 178828,
+      "iscrowd": 0,
+      "text": "Signature de Raymond Poincaré",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "c4487442-2b98-438d-8f77-23872f7358e0",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_013_0001",
+      "metadata": {},
+      "source_annotation_id": 5123,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_013_0001-recto-5124",
+      "image_id": 50208,
+      "category_id": 1003,
+      "bbox": [
+        276,
+        195,
+        1687,
+        1822
+      ],
+      "segmentation": [
+        [
+          276,
+          195,
+          276,
+          2017,
+          1931,
+          1976,
+          1947,
+          1934,
+          1963,
+          211,
+          276,
+          195
+        ]
+      ],
+      "area": 3073714,
+      "iscrowd": 0,
+      "text": "Ayant vu et examiné lesdits Traité et actes qui le complètent. Nous les avons approuvés et approuvons en vertu des dispositions de la Loi volée par le Sénat et par la Chambre des Députés; Déclarons qu'ils sont acceptés, ratifiés et confirmés, et Promettons qu'il seront inviolablement observés. En foi de quoi, nous avons les présentes, revêtues du Sceau de la République. A Paris, le 13 Octobre 1919",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "cacb1a9e-7de7-4168-9320-659e17dca910",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_013_0001",
+      "metadata": {},
+      "source_annotation_id": 5124,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_013_0001-recto-55737",
+      "image_id": 50208,
+      "category_id": 1012,
+      "bbox": [
+        308.33333555677063,
+        366.66665349940513,
+        1595.8333448411238,
+        916.6666337485128
+      ],
+      "segmentation": [
+        [
+          308.33333555677063,
+          366.66665349940513,
+          1904.1666803978944,
+          366.66665349940513,
+          1904.1666803978944,
+          1283.333287247918,
+          308.33333555677063,
+          1283.333287247918
+        ]
+      ],
+      "area": 1462847.1802391426,
+      "iscrowd": 0,
+      "text": "Traité et Actes qui le complètent, Nous les avons approuvée el approuvons en vertu de dispositions de la Loi solée par le Sénat et par la Chambre des Dépules, Déclarons qu'ils sont acceptés, ratifiés et confirmés, et Promettons qu'ils seront inviolablement observée.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_013_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          507.8399963378906,
+          747.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 218,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9689,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9961
+        }
+      },
+      "source_annotation_id": 55737,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_013_0001-recto-55738",
+      "image_id": 50208,
+      "category_id": 1012,
+      "bbox": [
+        304.16666886005754,
+        1333.3332854523824,
+        1566.6666779641318,
+        441.66665080610164
+      ],
+      "segmentation": [
+        [
+          304.16666886005754,
+          1333.3332854523824,
+          1870.8333468241894,
+          1333.3332854523824,
+          1870.8333468241894,
+          1774.999936258484,
+          304.16666886005754,
+          1774.999936258484
+        ]
+      ],
+      "area": 691944.4245859395,
+      "iscrowd": 0,
+      "text": "En soit de qui, Notre avons donné les présenter, revetues du Secau de la République.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_013_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          507.8399963378906,
+          747.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 67,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9571,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9363
+        }
+      },
+      "source_annotation_id": 55738,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_013_0001-recto-55739",
+      "image_id": 50208,
+      "category_id": 1012,
+      "bbox": [
+        575.0000041464101,
+        1791.6666023266387,
+        1041.6666741782792,
+        166.6666606815478
+      ],
+      "segmentation": [
+        [
+          575.0000041464101,
+          1791.6666023266387,
+          1616.6666783246892,
+          1791.6666023266387,
+          1616.6666783246892,
+          1958.3332630081863,
+          575.0000041464101,
+          1958.3332630081863
+        ]
+      ],
+      "area": 173611.10612854766,
+      "iscrowd": 0,
+      "text": "A Paris, le 13 Octobre",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_013_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          507.8399963378906,
+          747.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 15,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 1
+          },
+          "alpha_ratio": 0.8333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9125
+        }
+      },
+      "source_annotation_id": 55739,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_013_0001-recto-55740",
+      "image_id": 50208,
+      "category_id": 1012,
+      "bbox": [
+        979.1666737275824,
+        2362.49991516094,
+        883.3333397031807,
+        304.1666557438247
+      ],
+      "segmentation": [
+        [
+          979.1666737275824,
+          2362.49991516094,
+          1862.5000134307631,
+          2362.49991516094,
+          1862.5000134307631,
+          2666.6665709047647,
+          979.1666737275824,
+          2666.6665709047647
+        ]
+      ],
+      "area": 268680.5478445403,
+      "iscrowd": 0,
+      "text": "Par le President de la Republique\nLe Ministre des Affaires Etrangères,\nS. R. Rünn",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_013_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          507.8399963378906,
+          747.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 65,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9559,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9445
+        }
+      },
+      "source_annotation_id": 55740,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_013__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_014_0001-recto-5125",
+      "image_id": 50209,
+      "category_id": 1003,
+      "bbox": [
+        744,
+        1602,
+        960,
+        144
+      ],
+      "segmentation": [
+        [
+          744,
+          1625,
+          744,
+          1746,
+          1704,
+          1733,
+          1704,
+          1602,
+          744,
+          1625
+        ]
+      ],
+      "area": 138240,
+      "iscrowd": 0,
+      "text": "Par le Président de la République",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "27c42d99-c26b-4f22-b5f3-81407b1cddbe",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_014_0001",
+      "metadata": {},
+      "source_annotation_id": 5125,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_014_0001-recto-5126",
+      "image_id": 50209,
+      "category_id": 1003,
+      "bbox": [
+        330,
+        273,
+        1567,
+        1135
+      ],
+      "segmentation": [
+        [
+          330,
+          273,
+          343,
+          1408,
+          1897,
+          1368,
+          1870,
+          273,
+          330,
+          273
+        ]
+      ],
+      "area": 1778545,
+      "iscrowd": 0,
+      "text": "Ayant vu et examiné ledit traité, Nous l'avons approuvé et approuvons en vertu des dispositions de la décision de l'Assemble Nationale du 7 novembre 1919, Déclarons qu'il est accepté, ratifié et confirmé, et Promettons qu'il sera inviolablement observé. En Foi du Quoi, Nous avons donné les présentes revêtues du Sceau de la République. A Prague, le 10 novembre 1919.",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "4d73a00f-635c-47ff-b153-11008818d794",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_014_0001",
+      "metadata": {},
+      "source_annotation_id": 5126,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_014_0001-recto-5127",
+      "image_id": 50209,
+      "category_id": 1003,
+      "bbox": [
+        762,
+        1868,
+        1009,
+        122
+      ],
+      "segmentation": [
+        [
+          762,
+          1872,
+          767,
+          1990,
+          1771,
+          1962,
+          1771,
+          1868,
+          762,
+          1872
+        ]
+      ],
+      "area": 123098,
+      "iscrowd": 0,
+      "text": "Le Ministre des Affaires Etrangères",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "c1829c9f-876b-4d3d-9834-8d1cade3d55e",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_014_0001",
+      "metadata": {},
+      "source_annotation_id": 5127,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_014_0001-recto-5128",
+      "image_id": 50209,
+      "category_id": 1004,
+      "bbox": [
+        1105,
+        1962,
+        810,
+        298
+      ],
+      "segmentation": [
+        [
+          1105,
+          2003,
+          1109,
+          2251,
+          1915,
+          2260,
+          1897,
+          1962,
+          1105,
+          2003
+        ]
+      ],
+      "area": 241380,
+      "iscrowd": 0,
+      "text": "Signature de Edvard Benes",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "eff75f2b-b163-4721-8d48-37892450fb52",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_014_0001",
+      "metadata": {},
+      "source_annotation_id": 5128,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_014_0001-recto-5129",
+      "image_id": 50209,
+      "category_id": 1004,
+      "bbox": [
+        996,
+        1742,
+        649,
+        144
+      ],
+      "segmentation": [
+        [
+          996,
+          1746,
+          996,
+          1886,
+          1645,
+          1881,
+          1636,
+          1742,
+          996,
+          1746
+        ]
+      ],
+      "area": 93456,
+      "iscrowd": 0,
+      "text": "Signature de Thomas G. Masaryk",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "fa4b0b72-a0ce-47bd-b61c-8dc14b90cc81",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_014_0001",
+      "metadata": {},
+      "source_annotation_id": 5129,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_014_0001-recto-55741",
+      "image_id": 50209,
+      "category_id": 1012,
+      "bbox": [
+        337.50000243376246,
+        295.83331981818895,
+        1462.5000105463039,
+        1070.8332844123177
+      ],
+      "segmentation": [
+        [
+          337.50000243376246,
+          295.83331981818895,
+          1800.0000129800665,
+          295.83331981818895,
+          1800.0000129800665,
+          1366.6666042305067,
+          337.50000243376246,
+          1366.6666042305067
+        ]
+      ],
+      "area": 1566093.6897463477,
+      "iscrowd": 0,
+      "text": "AYANT vu et examiné ledit Traite/Nous l'avons\napprouvé et approvons en vertu des disposions\nde la décision de l'Assemblée Nationale\ndu 7 November 1919;\nDéCLARONS qu'il est accepté, matifié et confirmée; et\nPROMETTONS qu'il sera inviolablement observé.\nEn Foi du Quoi/ Nous avons donné les présentes\nrevèves du Sceau de la Republique.\nA PRAGUE/ le 10 novembre 1919.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_014_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          507.8399963378906,
+          641.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 283,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 11,
+            "other": 13
+          },
+          "alpha_ratio": 0.9218,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9902
+        }
+      },
+      "source_annotation_id": 55741,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_014_0001-recto-55742",
+      "image_id": 50209,
+      "category_id": 1012,
+      "bbox": [
+        775.0000055886397,
+        1645.8332581434456,
+        912.5000065801726,
+        74.99999657362537
+      ],
+      "segmentation": [
+        [
+          775.0000055886397,
+          1645.8332581434456,
+          1687.5000121688122,
+          1645.8332581434456,
+          1687.5000121688122,
+          1720.833254717071,
+          775.0000055886397,
+          1720.833254717071
+        ]
+      ],
+      "area": 68437.49736694607,
+      "iscrowd": 0,
+      "text": "Par le Président de la République:",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_014_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          507.8399963378906,
+          641.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 28,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9655,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9624
+        }
+      },
+      "source_annotation_id": 55742,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_014_0001-recto-55743",
+      "image_id": 50209,
+      "category_id": 1012,
+      "bbox": [
+        783.3333389820659,
+        1766.6665859565087,
+        962.5000069407299,
+        199.99999086300096
+      ],
+      "segmentation": [
+        [
+          783.3333389820659,
+          1766.6665859565087,
+          1745.8333459227958,
+          1766.6665859565087,
+          1745.8333459227958,
+          1966.6665768195096,
+          783.3333389820659,
+          1966.6665768195096
+        ]
+      ],
+      "area": 192499.99259378435,
+      "iscrowd": 0,
+      "text": "Thomas G. Mesanik\nLe Ministre des Affaires Etrangères.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_014_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          507.8399963378906,
+          641.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 45,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9574,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9233
+        }
+      },
+      "source_annotation_id": 55743,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_014__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_017_0001-recto-5130",
+      "image_id": 50212,
+      "category_id": 1004,
+      "bbox": [
+        1408,
+        2629,
+        673,
+        238
+      ],
+      "segmentation": [
+        [
+          1408,
+          2724,
+          1415,
+          2867,
+          2081,
+          2846,
+          2061,
+          2710,
+          1823,
+          2703,
+          1823,
+          2629,
+          1408,
+          2724
+        ]
+      ],
+      "area": 160174,
+      "iscrowd": 0,
+      "text": "Signature de Tommaso Tittoni",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "18f9faae-73a5-437b-9d3e-26e5eb01047b",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_017_0001",
+      "metadata": {},
+      "source_annotation_id": 5130,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_017__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_017__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_017_0001-recto-5131",
+      "image_id": 50212,
+      "category_id": 1003,
+      "bbox": [
+        416,
+        324,
+        1767,
+        1645
+      ],
+      "segmentation": [
+        [
+          416,
+          324,
+          416,
+          1867,
+          1462,
+          1969,
+          2183,
+          1874,
+          2149,
+          419,
+          416,
+          324
+        ]
+      ],
+      "area": 2906715,
+      "iscrowd": 0,
+      "text": "Noi, avendo veduto ed esaminato il sovrascritto Trattato, approvandolo in ogni e singola sua parte, lo abbiamo accettato. ratificato e confermato, come per le presenti lo accettiamo, ratifichiamo e confermiame. promettendo di osservarlo e di farlo inviolabilmente osservare. In fede di che Noi abbiamo firmato le presenti lettere di ratificazione e vi abbiamo fatto apporre il Nostro Reale sigillo. Date in Roma addì quattordici del mese di Ottobre l'anno del Signore millenovecentodiciannove, ventesimo del Nostro regno.",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "1a400447-0e33-4bf5-bed9-e3ba5a1b88f4",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_017_0001",
+      "metadata": {},
+      "source_annotation_id": 5131,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_017__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_017__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_017_0001-recto-5132",
+      "image_id": 50212,
+      "category_id": 1003,
+      "bbox": [
+        1082,
+        2445,
+        1094,
+        279
+      ],
+      "segmentation": [
+        [
+          1082,
+          2445,
+          1129,
+          2669,
+          1442,
+          2703,
+          1823,
+          2635,
+          1802,
+          2690,
+          2176,
+          2724,
+          2176,
+          2445,
+          1082,
+          2445
+        ]
+      ],
+      "area": 305226,
+      "iscrowd": 0,
+      "text": "Per parte di Sua Maestà il Re Il Ministro Segretario di Stato per gli affari esteri",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "3d3e0259-a4c1-49a3-94fc-f3e3e9ec16e7",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_017_0001",
+      "metadata": {},
+      "source_annotation_id": 5132,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_017__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_017__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_017_0001-recto-5133",
+      "image_id": 50212,
+      "category_id": 1004,
+      "bbox": [
+        953,
+        1874,
+        1237,
+        551
+      ],
+      "segmentation": [
+        [
+          953,
+          2126,
+          980,
+          2425,
+          1367,
+          2377,
+          2190,
+          2058,
+          2176,
+          1874,
+          1612,
+          1935,
+          953,
+          2126
+        ]
+      ],
+      "area": 681587,
+      "iscrowd": 0,
+      "text": "Signature de Vittorio Emanuele",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "709057c4-e2fa-4f02-8abc-cb88da72431b",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_017_0001",
+      "metadata": {},
+      "source_annotation_id": 5133,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_017__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_017__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_018_0001-recto-5134",
+      "image_id": 50213,
+      "category_id": 1003,
+      "bbox": [
+        1255,
+        2367,
+        1047,
+        245
+      ],
+      "segmentation": [
+        [
+          1255,
+          2557,
+          2302,
+          2612,
+          2302,
+          2407,
+          1270,
+          2367,
+          1255,
+          2557
+        ]
+      ],
+      "area": 256515,
+      "iscrowd": 0,
+      "text": "Par le chef de l'Etat; le Président du Conseil, Ministre des Affaires Etrangères",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "0e5f297e-b29e-4879-aee9-33b01c9dc1bc",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_018_0001",
+      "metadata": {},
+      "source_annotation_id": 5134,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_018__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_018__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_018_0001-recto-5135",
+      "image_id": 50213,
+      "category_id": 1004,
+      "bbox": [
+        1412,
+        1587,
+        647,
+        358
+      ],
+      "segmentation": [
+        [
+          1412,
+          1587,
+          1412,
+          1945,
+          2024,
+          1939,
+          2059,
+          1633,
+          1412,
+          1587
+        ]
+      ],
+      "area": 231626,
+      "iscrowd": 0,
+      "text": "Signature de Jozef Pilsudski",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "1b5279f6-039c-49ff-bd08-394fb51a1d5d",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_018_0001",
+      "metadata": {},
+      "source_annotation_id": 5135,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_018__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_018__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_018_0001-recto-5137",
+      "image_id": 50213,
+      "category_id": 1004,
+      "bbox": [
+        1381,
+        2572,
+        850,
+        271
+      ],
+      "segmentation": [
+        [
+          1381,
+          2821,
+          2231,
+          2843,
+          2225,
+          2612,
+          1390,
+          2572,
+          1381,
+          2821
+        ]
+      ],
+      "area": 230350,
+      "iscrowd": 0,
+      "text": "Signature de Ignacy Jan Paderewski",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "e174190b-84e2-4198-8cae-2f865abbc413",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_018_0001",
+      "metadata": {},
+      "source_annotation_id": 5137,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_018__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_018__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_020_0001-recto-5138",
+      "image_id": 50215,
+      "category_id": 1003,
+      "bbox": [
+        228,
+        232,
+        1565,
+        1208
+      ],
+      "segmentation": [
+        [
+          228,
+          232,
+          240,
+          1440,
+          1793,
+          1440,
+          1793,
+          232,
+          228,
+          232
+        ]
+      ],
+      "area": 1890520,
+      "iscrowd": 0,
+      "text": "Nous ayant pour agréable l'arrangement qui précède, l'approuvons, ratifions et confirmons promettant de le faire observer, selon sa forme et teneur, sans permettre qu'il y soit contrevenu en aucune manière que ce soit. En foi de quoi Nous avons signé les présentes lettres de ratification et y avons fait apposer Notre sceau royal. Donné à Bruxelles le seizième jour du mois de septembre de l'an de grâce mil neuf cent dix neuf.",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "0337ef89-4d9c-4a57-b5f1-d01e15507bc8",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_020_0001",
+      "metadata": {},
+      "source_annotation_id": 5138,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_020_0001-recto-5139",
+      "image_id": 50215,
+      "category_id": 1004,
+      "bbox": [
+        339,
+        2198,
+        752,
+        240
+      ],
+      "segmentation": [
+        [
+          339,
+          2438,
+          1066,
+          2358,
+          1091,
+          2210,
+          425,
+          2198,
+          339,
+          2438
+        ]
+      ],
+      "area": 180480,
+      "iscrowd": 0,
+      "text": "Signature de Paul Hymans",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "80bd2dca-f6a4-4e00-a5c1-d2c24fe653e6",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_020_0001",
+      "metadata": {},
+      "source_annotation_id": 5139,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_020_0001-recto-5140",
+      "image_id": 50215,
+      "category_id": 1004,
+      "bbox": [
+        1159,
+        1489,
+        683,
+        308
+      ],
+      "segmentation": [
+        [
+          1159,
+          1797,
+          1842,
+          1772,
+          1830,
+          1489,
+          1208,
+          1501,
+          1159,
+          1797
+        ]
+      ],
+      "area": 210364,
+      "iscrowd": 0,
+      "text": "Signature de Ablert I de Belgique",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "91e70201-1c5b-4f08-a882-20a709a595b4",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_020_0001",
+      "metadata": {},
+      "source_annotation_id": 5140,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_020_0001-recto-5141",
+      "image_id": 50215,
+      "category_id": 1003,
+      "bbox": [
+        271,
+        2025,
+        992,
+        191
+      ],
+      "segmentation": [
+        [
+          271,
+          2025,
+          277,
+          2179,
+          1263,
+          2216,
+          1239,
+          2031,
+          271,
+          2025
+        ]
+      ],
+      "area": 189472,
+      "iscrowd": 0,
+      "text": "Par le Roi: Le Ministre des affaires étrangères",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "c381a9a5-c10d-4261-8d8f-dc47c38207ae",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_020_0001",
+      "metadata": {},
+      "source_annotation_id": 5141,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_020_0001-recto-55745",
+      "image_id": 50215,
+      "category_id": 1012,
+      "bbox": [
+        554.16665605033,
+        333.3333234618867,
+        1204.1666435980856,
+        245.83332605314143
+      ],
+      "segmentation": [
+        [
+          554.16665605033,
+          333.3333234618867,
+          1758.3332996484155,
+          333.3333234618867,
+          1758.3332996484155,
+          579.1666495150282,
+          554.16665605033,
+          579.1666495150282
+        ]
+      ],
+      "area": 296024.2911179651,
+      "iscrowd": 0,
+      "text": "You, ayant pout agreable l'arrangement qui precede, l'appouvono, ratisons et constitons promettant de le faite ob-",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_020_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          509.760009765625,
+          659.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 93,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9394,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9174
+        }
+      },
+      "source_annotation_id": 55745,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_020_0001-recto-55746",
+      "image_id": 50215,
+      "category_id": 1012,
+      "bbox": [
+        316.66666060018855,
+        833.3333086547167,
+        1437.4999724613824,
+        329.1666569186131
+      ],
+      "segmentation": [
+        [
+          316.66666060018855,
+          833.3333086547167,
+          1754.166633061571,
+          833.3333086547167,
+          1754.166633061571,
+          1162.4999655733297,
+          316.66666060018855,
+          1162.4999655733297
+        ]
+      ],
+      "area": 473177.06025571167,
+      "iscrowd": 0,
+      "text": "En soit de qui Nous avons signé leo\nfocetendes lettes de calification et y avons fait\napportetNotre oceanieoyal\n?????????????\nDonnie à Bruxelles le scizième",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_020_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          509.760009765625,
+          659.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 120,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 13
+          },
+          "alpha_ratio": 0.9023,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9211
+        }
+      },
+      "source_annotation_id": 55746,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_020_0001-recto-55747",
+      "image_id": 50215,
+      "category_id": 1012,
+      "bbox": [
+        320.83332718703315,
+        1174.9999652031506,
+        1445.8333056350716,
+        166.66666173094336
+      ],
+      "segmentation": [
+        [
+          320.83332718703315,
+          1174.9999652031506,
+          1766.6666328221047,
+          1174.9999652031506,
+          1766.6666328221047,
+          1341.666626934094,
+          320.83332718703315,
+          1341.666626934094
+        ]
+      ],
+      "area": 240972.21046961212,
+      "iscrowd": 0,
+      "text": "jout du mois de septembre de l'an de grace\nmil neuf cent die pour",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_020_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          509.760009765625,
+          659.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 51,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9808,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9393
+        }
+      },
+      "source_annotation_id": 55747,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_020_0001-recto-55748",
+      "image_id": 50215,
+      "category_id": 1012,
+      "bbox": [
+        404.1666589239249,
+        2045.8332727473296,
+        820.8333176083835,
+        154.1666621011226
+      ],
+      "segmentation": [
+        [
+          404.1666589239249,
+          2045.8332727473296,
+          1224.9999765323084,
+          2045.8332727473296,
+          1224.9999765323084,
+          2199.999934848452,
+          404.1666589239249,
+          2199.999934848452
+        ]
+      ],
+      "area": 126545.1327170751,
+      "iscrowd": 0,
+      "text": "Car le Roi : l'initiative des affaires étrangèzes,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_020_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          509.760009765625,
+          659.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 40,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9302,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9199
+        }
+      },
+      "source_annotation_id": 55748,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_021_0001-recto-5142",
+      "image_id": 50216,
+      "category_id": 1004,
+      "bbox": [
+        1005,
+        2272,
+        1098,
+        336
+      ],
+      "segmentation": [
+        [
+          1005,
+          2288,
+          1005,
+          2608,
+          2103,
+          2603,
+          2001,
+          2277,
+          1564,
+          2288,
+          1422,
+          2349,
+          1320,
+          2272,
+          1005,
+          2288
+        ]
+      ],
+      "area": 368928,
+      "iscrowd": 0,
+      "text": "Signature de Rufino T. Domínguez",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "3d12d3c5-5a7f-4e75-8bec-d3ebf4b3826f",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_021_0001",
+      "metadata": {},
+      "source_annotation_id": 5142,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_021__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_021_0001-recto-5143",
+      "image_id": 50216,
+      "category_id": 1004,
+      "bbox": [
+        934,
+        2035,
+        1088,
+        315
+      ],
+      "segmentation": [
+        [
+          934,
+          2035,
+          959,
+          2284,
+          1330,
+          2279,
+          1417,
+          2350,
+          1584,
+          2284,
+          2006,
+          2274,
+          2022,
+          2035,
+          934,
+          2035
+        ]
+      ],
+      "area": 342720,
+      "iscrowd": 0,
+      "text": "Signature de Baltasar Brum",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "b771cf22-1b4c-47cf-858a-f6dbff99f061",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_021_0001",
+      "metadata": {},
+      "source_annotation_id": 5143,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_021__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_021_0001-recto-55750",
+      "image_id": 50216,
+      "category_id": 1012,
+      "bbox": [
+        608.3333521019676,
+        929.166632193295,
+        1404.1667099887884,
+        333.33332096620444
+      ],
+      "segmentation": [
+        [
+          608.3333521019676,
+          929.166632193295,
+          2012.500062090756,
+          929.166632193295,
+          2012.500062090756,
+          1262.4999531594995,
+          608.3333521019676,
+          1262.4999531594995
+        ]
+      ],
+      "area": 468055.5526307521,
+      "iscrowd": 0,
+      "text": "Porttanto: Declara que los acceptar y confirmarse enSIAs sus per -los.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_021_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          553.9199829101562,
+          723.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 57,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.95,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8938
+        }
+      },
+      "source_annotation_id": 55750,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_021__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_021_0001-recto-55751",
+      "image_id": 50216,
+      "category_id": 1012,
+      "bbox": [
+        620.8333524876246,
+        1320.8332843285853,
+        1408.3333767840074,
+        670.8333084444864
+      ],
+      "segmentation": [
+        [
+          620.8333524876246,
+          1320.8332843285853,
+          2029.166729271632,
+          1320.8332843285853,
+          2029.166729271632,
+          1991.6665927730717,
+          620.8333524876246,
+          1991.6665927730717
+        ]
+      ],
+      "area": 944756.9385408112,
+      "iscrowd": 0,
+      "text": "Enfede los cual, forma el presente instrumente de ratificación que vasellado con el Sello de Armas de la República y representado por Lu Ministro Secretario de Estadó interián en el Departamento de Relaciones Exterminos, Montevideo, a los veintitros dias del mes-de tubre del anno mil novecientes diez ynueve.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_021_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          553.9199829101562,
+          723.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 257,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9809,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9559
+        }
+      },
+      "source_annotation_id": 55751,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_021__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_022_0001-recto-5145",
+      "image_id": 50217,
+      "category_id": 1004,
+      "bbox": [
+        1581,
+        1887,
+        583,
+        278
+      ],
+      "segmentation": [
+        [
+          1581,
+          2145,
+          2164,
+          2165,
+          2157,
+          1887,
+          1594,
+          1893,
+          1581,
+          2145
+        ]
+      ],
+      "area": 162074,
+      "iscrowd": 0,
+      "text": "Signature de Gustav Bauer",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "02e30fa7-bd12-435e-a8de-8ce66303bfc0",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_022_0001",
+      "metadata": {},
+      "source_annotation_id": 5145,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_022__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_022__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_022_0001-recto-5146",
+      "image_id": 50217,
+      "category_id": 1004,
+      "bbox": [
+        1468,
+        1443,
+        305,
+        225
+      ],
+      "segmentation": [
+        [
+          1468,
+          1443,
+          1475,
+          1668,
+          1766,
+          1668,
+          1773,
+          1469,
+          1515,
+          1456,
+          1468,
+          1443
+        ]
+      ],
+      "area": 68625,
+      "iscrowd": 0,
+      "text": "Signature de Friedrich Ebert",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "83adb511-b98a-42b9-bb5b-e9e835565da6",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_022_0001",
+      "metadata": {},
+      "source_annotation_id": 5146,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_022__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_022__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_022_0001-recto-5147",
+      "image_id": 50217,
+      "category_id": 1003,
+      "bbox": [
+        229,
+        2390,
+        861,
+        471
+      ],
+      "segmentation": [
+        [
+          229,
+          2390,
+          229,
+          2861,
+          1090,
+          2861,
+          1004,
+          2424,
+          229,
+          2390
+        ]
+      ],
+      "area": 405531,
+      "iscrowd": 0,
+      "text": "Bestätigungsurkunde\nzu dem Friedensvertrage zwischen Deutschland und den alliierten und assoziierten Mächten, zu dem dazugehörenden Protokolle und zu der Vereinbarung über die militärische Besetzung der Rheinlande.",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "844d73f3-b0a6-431d-ba3f-9503f72031b2",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_022_0001",
+      "metadata": {},
+      "source_annotation_id": 5147,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_022__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_022__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_022_0001-recto-55755",
+      "image_id": 50217,
+      "category_id": 1012,
+      "bbox": [
+        1487.5000698187775,
+        1462.4999949670773,
+        270.8333460454357,
+        174.99999939776995
+      ],
+      "segmentation": [
+        [
+          1487.5000698187775,
+          1462.4999949670773,
+          1758.3334158642133,
+          1462.4999949670773,
+          1758.3334158642133,
+          1637.4999943648472,
+          1487.5000698187775,
+          1637.4999943648472
+        ]
+      ],
+      "area": 47395.835394847265,
+      "iscrowd": 0,
+      "text": "Melvark",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_022_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          572.1599731445312,
+          709.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 7,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55755,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_022__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_022__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_022_0001-recto-55756",
+      "image_id": 50217,
+      "category_id": 1012,
+      "bbox": [
+        275.0000129076731,
+        2516.666658006025,
+        733.3333677537951,
+        258.3333324443271
+      ],
+      "segmentation": [
+        [
+          275.0000129076731,
+          2516.666658006025,
+          1008.3333806614683,
+          2516.666658006025,
+          1008.3333806614683,
+          2774.999990450352,
+          275.0000129076731,
+          2774.999990450352
+        ]
+      ],
+      "area": 189444.4526844591,
+      "iscrowd": 0,
+      "text": "zu dem Friedensvertrage zwischen Deutschland und den alllierten und affozzierten Mächten, zu dem dazugehörenden Protokolle und zu der Vereinbarung über die militärische Besezung der Rheinlande.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_022_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          572.1599731445312,
+          709.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 167,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9882,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8985
+        }
+      },
+      "source_annotation_id": 55756,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_022__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_022__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_023_0001-recto-5149",
+      "image_id": 50218,
+      "category_id": 1004,
+      "bbox": [
+        919,
+        1393,
+        1047,
+        353
+      ],
+      "segmentation": [
+        [
+          919,
+          1746,
+          1966,
+          1733,
+          1947,
+          1393,
+          984,
+          1579,
+          919,
+          1746
+        ]
+      ],
+      "area": 369591,
+      "iscrowd": 0,
+      "text": "Signature de José Manuel de Azevedo Marques",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "0f2b3f0f-6e2b-4f9e-971d-63cc5e353150",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_023_0001",
+      "metadata": {},
+      "source_annotation_id": 5149,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_023__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_023__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_023_0001-recto-5150",
+      "image_id": 50218,
+      "category_id": 1003,
+      "bbox": [
+        297,
+        70,
+        1534,
+        1355
+      ],
+      "segmentation": [
+        [
+          297,
+          1425,
+          817,
+          1380,
+          1266,
+          1264,
+          1825,
+          1284,
+          1831,
+          141,
+          341,
+          70,
+          297,
+          1425
+        ]
+      ],
+      "area": 2078570,
+      "iscrowd": 0,
+      "text": "E tendo sido o mesmo Tratado, enjo teor fica acima transcripto, approvado pelo Congresso Nacional, o confirmo e ratifico e, pela presente, o sou por firme e valioso, para produzir os seus devidos effeitos, promettendo que elle será cumprido inviolavelmente.\nEm firmeza do que, mandei passar esta Carta, que assigno e é sellada com o sello das Armas da República e subscripta pelo Ministro de Estado das Relações Extariores.\nDada no Palacio da Presidencia, no Rio de Janeiro, Janeiro, aos dez dias do mez de Dezembro de 1919. 98º da Independencia e 31º da Republica.",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "2c6a90ac-a593-49b7-9ffd-47aaa892dfc2",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_023_0001",
+      "metadata": {},
+      "source_annotation_id": 5150,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_023__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_023__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_023_0001-recto-5151",
+      "image_id": 50218,
+      "category_id": 1004,
+      "bbox": [
+        849,
+        1149,
+        847,
+        417
+      ],
+      "segmentation": [
+        [
+          849,
+          1374,
+          887,
+          1566,
+          1131,
+          1566,
+          1696,
+          1419,
+          1658,
+          1149,
+          1144,
+          1245,
+          849,
+          1374
+        ]
+      ],
+      "area": 353199,
+      "iscrowd": 0,
+      "text": "Signature de Epitácio Lindolfo da Silva Pessoa",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "d25bc017-fc48-4dd5-9b50-fcc54787e028",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_023_0001",
+      "metadata": {},
+      "source_annotation_id": 5151,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_023__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_023__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_023_0001-recto-55757",
+      "image_id": 50218,
+      "category_id": 1012,
+      "bbox": [
+        350.0,
+        129.16666941935796,
+        1429.1666666666667,
+        516.6666776774318
+      ],
+      "segmentation": [
+        [
+          350.0,
+          129.16666941935796,
+          1779.1666666666667,
+          129.16666941935796,
+          1779.1666666666667,
+          645.8333470967898,
+          350.0,
+          645.8333470967898
+        ]
+      ],
+      "area": 738402.7935139964,
+      "iscrowd": 0,
+      "text": "É tendo sido o unlike Tratado, cujo teor fica acima transscripto,Approvado pelo Congresso Nacional, o confumo e catifico e,>pela presente, o dou por fieme e valioso, para produzir os pens devidos efficiitos, promettendo que elle serà cumpido inviolarmente.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_023_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          504.0,
+          687.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 210,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 9
+          },
+          "alpha_ratio": 0.9589,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8949
+        }
+      },
+      "source_annotation_id": 55757,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_023__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_023__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_023_0001-recto-55758",
+      "image_id": 50218,
+      "category_id": 1012,
+      "bbox": [
+        362.5,
+        662.5000141186424,
+        1437.5,
+        387.5000082580739
+      ],
+      "segmentation": [
+        [
+          362.5,
+          662.5000141186424,
+          1800.0,
+          662.5000141186424,
+          1800.0,
+          1050.0000223767163,
+          362.5,
+          1050.0000223767163
+        ]
+      ],
+      "area": 557031.2618709812,
+      "iscrowd": 0,
+      "text": "Em firmezza do que, mandei passar esta Carta, que assignu e é sellada com o cello das Armas da República e subscripta pelo Minister de Estado das Relações Extero.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_023_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          504.0,
+          687.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 131,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9776,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9055
+        }
+      },
+      "source_annotation_id": 55758,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_023__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_023__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_023_0001-recto-55759",
+      "image_id": 50218,
+      "category_id": 1012,
+      "bbox": [
+        366.6666666666667,
+        1087.5000231758847,
+        1429.1666666666667,
+        316.66667341520014
+      ],
+      "segmentation": [
+        [
+          366.6666666666667,
+          1087.5000231758847,
+          1795.8333333333335,
+          1087.5000231758847,
+          1795.8333333333335,
+          1404.166696591085,
+          366.6666666666667,
+          1404.166696591085
+        ]
+      ],
+      "area": 452569.4540892236,
+      "iscrowd": 0,
+      "text": "Dada no Galactio da Presidencia, no Rio de Janeiro, aos doz dias do benz de Dezemiro de 1919, 98° da Independencia o 31° da República. Epitaci, Benin,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_023_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          504.0,
+          687.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 108,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 8
+          },
+          "alpha_ratio": 0.871,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9089
+        }
+      },
+      "source_annotation_id": 55759,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_023__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_023__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_026_0001-recto-5158",
+      "image_id": 50221,
+      "category_id": 1004,
+      "bbox": [
+        957,
+        2518,
+        1087,
+        341
+      ],
+      "segmentation": [
+        [
+          957,
+          2574,
+          957,
+          2859,
+          2044,
+          2776,
+          2003,
+          2518,
+          957,
+          2574
+        ]
+      ],
+      "area": 370667,
+      "iscrowd": 0,
+      "text": "",
+      "orientation": "",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "481d2722-20ea-4561-bbd0-1de1aed3e3c6",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_026_0001",
+      "metadata": {},
+      "source_annotation_id": 5158,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_026_0001-recto-5159",
+      "image_id": 50221,
+      "category_id": 1003,
+      "bbox": [
+        428,
+        225,
+        1477,
+        2091
+      ],
+      "segmentation": [
+        [
+          428,
+          232,
+          581,
+          2316,
+          1905,
+          2302,
+          1863,
+          225,
+          428,
+          232
+        ]
+      ],
+      "area": 3088407,
+      "iscrowd": 0,
+      "text": "Manuel Estrada Cabrera \nPresidente Constitucional de la República de Guatemala.\nPOR CUANTO:\nEl día veintiocho de junio del corriente año el Delegado de Guatemala Guatemala firmó en Versalles el Tratado de Paz entre las Potencias ado Aliadas y Asociadas y Alemania, compuesto de 440 artículos y el Protocolo adicional: y habiendo la Asamblea Nacional Legislativa emitido el Decreto de aprobación número 1.015, fechado hoy.\nPOR TANTO:\nEn uso de las facultades que me confiere la Constitución, lo ratificó y mandó que se publique para que se tenga como ley de la República.\nEn fe de lo cual firmó la presente ratificación, autorizada con el Sello Mayor de la República y refrendada por el Secretario de Estado y del Despacho de Hacienda y Crédito Público. Encargado del de Relaciones Exteriores, en Guatemala, a los dos días del mes de octubre de mil novecientos diez y nueve.",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "568febd9-a329-4c33-9cab-b96aaf175a4e",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_026_0001",
+      "metadata": {},
+      "source_annotation_id": 5159,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_026_0001-recto-5160",
+      "image_id": 50221,
+      "category_id": 1004,
+      "bbox": [
+        720,
+        2260,
+        1331,
+        321
+      ],
+      "segmentation": [
+        [
+          720,
+          2330,
+          734,
+          2581,
+          2051,
+          2525,
+          2051,
+          2260,
+          720,
+          2330
+        ]
+      ],
+      "area": 427251,
+      "iscrowd": 0,
+      "text": "Signature de Manuel Estrada Cabrera",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "e97d1270-6dd4-4b2e-8036-17e16141f0d7",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_026_0001",
+      "metadata": {},
+      "source_annotation_id": 5160,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_026_0001-recto-55768",
+      "image_id": 50221,
+      "category_id": 1012,
+      "bbox": [
+        516.6666619145825,
+        779.1666845182283,
+        1349.999987583264,
+        637.5000146058231
+      ],
+      "segmentation": [
+        [
+          516.6666619145825,
+          779.1666845182283,
+          1866.6666494978467,
+          779.1666845182283,
+          1866.6666494978467,
+          1416.6666991240513,
+          516.6666619145825,
+          1416.6666991240513
+        ]
+      ],
+      "area": 860625.011802192,
+      "iscrowd": 0,
+      "text": "El dia veintiocho de junio del corriente año el Delegado de Guatemala firmó en Versalles el Tratado de Paz entre las Potencias Aliadas y Asociadas y Alemania, compuesto de 440 artículos y el Protocoloadicional; y habiendo la Assemblela Nacional Legislativa emitido el Decreto de aprobación número 1,015, fechado hay.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_026_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          530.8800048828125,
+          745.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 256,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 5
+          },
+          "alpha_ratio": 0.9552,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9444
+        }
+      },
+      "source_annotation_id": 55768,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_026_0001-recto-55769",
+      "image_id": 50221,
+      "category_id": 1013,
+      "bbox": [
+        966.6666577756706,
+        1425.0000326483107,
+        479.1666622594919,
+        58.33333466981389
+      ],
+      "segmentation": [
+        [
+          966.6666577756706,
+          1425.0000326483107,
+          1445.8333200351626,
+          1425.0000326483107,
+          1445.8333200351626,
+          1483.3333673181246,
+          966.6666577756706,
+          1483.3333673181246
+        ]
+      ],
+      "area": 27951.38927220062,
+      "iscrowd": 0,
+      "text": "POR TANTO:",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_026_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          530.8800048828125,
+          745.9199829101562
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 8,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.8889,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8861
+        }
+      },
+      "source_annotation_id": 55769,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_026_0001-recto-55770",
+      "image_id": 50221,
+      "category_id": 1012,
+      "bbox": [
+        537.4999950562996,
+        1470.8333670317359,
+        1320.8333211848603,
+        312.50000715971726
+      ],
+      "segmentation": [
+        [
+          537.4999950562996,
+          1470.8333670317359,
+          1858.33331624116,
+          1470.8333670317359,
+          1858.33331624116,
+          1783.333374191453,
+          537.4999950562996,
+          1783.333374191453
+        ]
+      ],
+      "area": 412760.422327062,
+      "iscrowd": 0,
+      "text": "En uso de las facultades que me confiere la Constitución, lo ratificio y mando que se publiche para que se tenga como leifs de la República.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_026_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          530.8800048828125,
+          745.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 113,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9826,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9312
+        }
+      },
+      "source_annotation_id": 55770,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_026_0001-recto-55771",
+      "image_id": 50221,
+      "category_id": 1012,
+      "bbox": [
+        562.4999948263601,
+        1779.1667074293234,
+        1312.4999879281734,
+        529.1666787904545
+      ],
+      "segmentation": [
+        [
+          562.4999948263601,
+          1779.1667074293234,
+          1874.9999827545334,
+          1779.1667074293234,
+          1874.9999827545334,
+          2308.333386219778,
+          562.4999948263601,
+          2308.333386219778
+        ]
+      ],
+      "area": 694531.2595244631,
+      "iscrowd": 0,
+      "text": "En fe de lo cual firma la presente ratificación, autorizada con el Sello Mayor de la República yREFrendada por el Secrétario de Estado y del Despacho de Hacienda y Crédito PUBLICO, Encargado del de Relaciones Exterminores, en Guatemala, a los dos dias del MES de octobre de mil novecientos diez y>nueve.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_026_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          530.8800048828125,
+          745.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 247,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9763,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.972
+        }
+      },
+      "source_annotation_id": 55771,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_026__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_027_0001-recto-5162",
+      "image_id": 50222,
+      "category_id": 1004,
+      "bbox": [
+        725,
+        895,
+        884,
+        341
+      ],
+      "segmentation": [
+        [
+          725,
+          899,
+          725,
+          1236,
+          1600,
+          1227,
+          1609,
+          895,
+          725,
+          899
+        ]
+      ],
+      "area": 301444,
+      "iscrowd": 0,
+      "text": "Signature de George V",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_autre",
+      "arkindex_elem_id": "d50de115-9df8-409e-a38f-cdb289823d85",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_027_0001",
+      "metadata": {},
+      "source_annotation_id": 5162,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_027__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 4,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_027__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_029_0001-recto-55773",
+      "image_id": 50224,
+      "category_id": 1012,
+      "bbox": [
+        837.4999742613586,
+        704.16669188904,
+        183.3333276990039,
+        125.00000447734438
+      ],
+      "segmentation": [
+        [
+          837.4999742613586,
+          704.16669188904,
+          1020.8333019603625,
+          704.16669188904,
+          1020.8333019603625,
+          829.1666963663844,
+          837.4999742613586,
+          829.1666963663844
+        ]
+      ],
+      "area": 22916.66678322193,
+      "iscrowd": 0,
+      "text": "TRATTATO\nDI PACE",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_029_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          635.52001953125,
+          681.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55773,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_029__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_029__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_029_0001-recto-55774",
+      "image_id": 50224,
+      "category_id": 1012,
+      "bbox": [
+        816.66664156829,
+        1800.000064473759,
+        208.3333269306862,
+        137.5000049250788
+      ],
+      "segmentation": [
+        [
+          816.66664156829,
+          1800.000064473759,
+          1024.9999684989762,
+          1800.000064473759,
+          1024.9999684989762,
+          1937.500069398838,
+          816.66664156829,
+          1937.500069398838
+        ]
+      ],
+      "area": 28645.833479027406,
+      "iscrowd": 0,
+      "text": "VERSAILLES\nXXVIII GIGNO\nMCMIX",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_029_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 11,
+        "monkeyocr_page_size": [
+          635.52001953125,
+          681.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 26,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 55774,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_029__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_029__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_034_0001-recto-5163",
+      "image_id": 50229,
+      "category_id": 1003,
+      "bbox": [
+        250,
+        321,
+        1782,
+        2631
+      ],
+      "segmentation": [
+        [
+          250,
+          2945,
+          2032,
+          2952,
+          2003,
+          329,
+          264,
+          321,
+          250,
+          2945
+        ]
+      ],
+      "area": 4688442,
+      "iscrowd": 0,
+      "text": "Raymond Poincaré\nPrésident de la République Française\nA tous ceux qui ces présentes Lettres verront\n\nSalut:\nUn Traité de paix ayant été rendu à Versailles le 28 Juin 1919 entre la France, les Etats-Unis d’Amérique, l’Empire Britannique, l’Italie et le Japon Principales Puissances alliées et associées la Belgique, la Bolivie, le Brésil, la Chine, Cuba, L’Equateur, la Grèce, le Guatemala, Haïti, L’Hedjaz, le Honduras, le Libéria, Le Nicaragua, Le Panama, Le Pérou, la Pologne, le Portugal, la Roumanie, l’Etat Serbe Croate Slovene, le Siam, L’Etat Tchéco-Slovaque et l’Uruguay d’une part – et l’Allemagne d’autre part ainsi que les têtes qui le complètent savoir: le Protocole signé le même jour par les mêmes Puissances, l’Arrangement de même date entre la France, les Etats-Unis d’Amérique, la Belgique, l’Empire Britannique et l’Allemagne concernant l’occupation des Pays Rhénans et le Traité entre la France, les Etats-unis d’Amérique, l’Empire Britannique, l’Italie, le Japon et la Pologne.\nTraité et Actes dont la teneur suit",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "da7f68d2-ffce-4cdc-be36-9955fdf9827a",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_194_034_0001",
+      "metadata": {},
+      "source_annotation_id": 5163,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_034__0001.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_034__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_035_0002-verso-5164",
+      "image_id": 50230,
+      "category_id": 1009,
+      "bbox": [
+        1747,
+        278,
+        722,
+        243
+      ],
+      "segmentation": [
+        [
+          1747,
+          278,
+          1747,
+          492,
+          2458,
+          521,
+          2469,
+          289,
+          1747,
+          278
+        ]
+      ],
+      "area": 175446,
+      "iscrowd": 0,
+      "text": "",
+      "orientation": "",
+      "text_type": "tampon_journal",
+      "arkindex_elem_id": "6fbe3383-af4c-418a-8718-df66c9294750",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_035_0002",
+      "metadata": {},
+      "source_annotation_id": 5164,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_035__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 9,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_035_0002-verso-55775",
+      "image_id": 50230,
+      "category_id": 1012,
+      "bbox": [
+        1775.0000511376356,
+        304.1666624339125,
+        654.1666855131663,
+        179.1666641734005
+      ],
+      "segmentation": [
+        [
+          1775.0000511376356,
+          304.1666624339125,
+          2429.166736650802,
+          304.1666624339125,
+          2429.166736650802,
+          483.333326607313,
+          1775.0000511376356,
+          483.333326607313
+        ]
+      ],
+      "area": 117204.86285676397,
+      "iscrowd": 0,
+      "text": "\"EXCELSIOR\"\n\n20, Rue d'Enghicac. MA",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          932.1599731445312,
+          701.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 23,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 5
+          },
+          "alpha_ratio": 0.7667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8708
+        }
+      },
+      "source_annotation_id": 55775,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_036_0002-verso-5166",
+      "image_id": 50231,
+      "category_id": 1003,
+      "bbox": [
+        360,
+        604,
+        2421,
+        204
+      ],
+      "segmentation": [
+        [
+          360,
+          808,
+          2781,
+          782,
+          2765,
+          604,
+          366,
+          667,
+          360,
+          808
+        ]
+      ],
+      "area": 493884,
+      "iscrowd": 0,
+      "text": "The Turkish delegates, who were handed the Allied proposals yesterday March 12TH).",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "94f96835-28fa-4614-8917-e51e0746a7e6",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_036_0002",
+      "metadata": {},
+      "source_annotation_id": 5166,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_036__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_036__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_037_0002-verso-5168",
+      "image_id": 50232,
+      "category_id": 1003,
+      "bbox": [
+        729,
+        535,
+        2413,
+        1427
+      ],
+      "segmentation": [
+        [
+          729,
+          1509,
+          936,
+          1962,
+          3142,
+          956,
+          2928,
+          535,
+          729,
+          1509
+        ]
+      ],
+      "area": 3443351,
+      "iscrowd": 0,
+      "text": "Vital questions of Allied policy arising out of the critical situation caused by the Bolshevist advance on Warsaw were discussed yesterday Aug 9th at Lympne.  Photo shows Marshal Foch about to place personal papers in a bag, which he afterwards locked.",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "1f192065-56c5-48fb-b9fd-e3bd71de4d75",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_037_0002",
+      "metadata": {},
+      "source_annotation_id": 5168,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_037__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_037__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_037_0002-verso-5169",
+      "image_id": 50232,
+      "category_id": 1001,
+      "bbox": [
+        1454,
+        712,
+        954,
+        462
+      ],
+      "segmentation": [
+        [
+          1454,
+          1099,
+          1503,
+          1174,
+          2408,
+          773,
+          2389,
+          712,
+          1454,
+          1099
+        ]
+      ],
+      "area": 440748,
+      "iscrowd": 0,
+      "text": "PREMIERS' LYMPNE SECRETS",
+      "orientation": "horizontal-lr",
+      "text_type": "Titre",
+      "arkindex_elem_id": "67aaa5b8-0c63-4f06-83a0-74c4bedde9e2",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_037_0002",
+      "metadata": {},
+      "source_annotation_id": 5169,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_037__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 1,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_037__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_040_0002-verso-5176",
+      "image_id": 50235,
+      "category_id": 1003,
+      "bbox": [
+        162,
+        301,
+        2890,
+        286
+      ],
+      "segmentation": [
+        [
+          162,
+          301,
+          162,
+          522,
+          3052,
+          587,
+          3039,
+          347,
+          162,
+          301
+        ]
+      ],
+      "area": 826540,
+      "iscrowd": 0,
+      "text": "Peace delegates leaving the conference at St James Palace",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "855d8a61-0a9b-4282-9deb-6956ed8d6ec2",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_040_0002",
+      "metadata": {},
+      "source_annotation_id": 5176,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_040__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_040__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_041_0002-verso-5178",
+      "image_id": 50236,
+      "category_id": 1005,
+      "bbox": [
+        2702,
+        52,
+        429,
+        221
+      ],
+      "segmentation": [
+        [
+          2702,
+          52,
+          2702,
+          248,
+          3131,
+          273,
+          3131,
+          89,
+          2702,
+          52
+        ]
+      ],
+      "area": 94809,
+      "iscrowd": 0,
+      "text": "Signature Forbin",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_forbin",
+      "arkindex_elem_id": "47893aaa-0b22-4981-9cf5-839d85cef5fa",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_041_0002",
+      "metadata": {},
+      "source_annotation_id": 5178,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_041__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 5,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_041__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_041_0002-verso-5179",
+      "image_id": 50236,
+      "category_id": 1003,
+      "bbox": [
+        551,
+        253,
+        2373,
+        331
+      ],
+      "segmentation": [
+        [
+          551,
+          253,
+          551,
+          572,
+          2917,
+          584,
+          2924,
+          302,
+          551,
+          253
+        ]
+      ],
+      "area": 785463,
+      "iscrowd": 0,
+      "text": "The president of France walking through the streets of Valenciennes, which was captured by the Canadians, the day before the Canadians entered Mons, November 10th 1918",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "9ac41882-f4db-4241-9cd4-75925598d334",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_041_0002",
+      "metadata": {},
+      "source_annotation_id": 5179,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_041__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_041__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_041_0002-verso-5180",
+      "image_id": 50236,
+      "category_id": 1003,
+      "bbox": [
+        1360,
+        879,
+        1521,
+        367
+      ],
+      "segmentation": [
+        [
+          1360,
+          885,
+          1372,
+          1246,
+          2881,
+          1246,
+          2875,
+          879,
+          1360,
+          885
+        ]
+      ],
+      "area": 558207,
+      "iscrowd": 0,
+      "text": "M. Poincarré à Valenciennes avec les Canadiens",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "d7dad0e3-e718-4a6a-b7f7-0184d7738869",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_041_0002",
+      "metadata": {},
+      "source_annotation_id": 5180,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_041__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_041__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_041_0002-verso-55777",
+      "image_id": 50236,
+      "category_id": 1012,
+      "bbox": [
+        558.3333367881147,
+        354.1666784212173,
+        2300.0000142316367,
+        212.50000705273035
+      ],
+      "segmentation": [
+        [
+          558.3333367881147,
+          354.1666784212173,
+          2858.3333510197513,
+          354.1666784212173,
+          2858.3333510197513,
+          566.6666854739476,
+          558.3333367881147,
+          566.6666854739476
+        ]
+      ],
+      "area": 488750.0192455027,
+      "iscrowd": 0,
+      "text": "The President of France walking through the streets of Valenciennes, which was captured by the Canadians, the day before the Canadians entered Mons, November 10th 1918.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_041_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          588.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 133,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 4
+          },
+          "alpha_ratio": 0.9301,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9579
+        }
+      },
+      "source_annotation_id": 55777,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_041__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_041__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_045_0002-verso-5183",
+      "image_id": 50240,
+      "category_id": 1009,
+      "bbox": [
+        1830,
+        236,
+        702,
+        241
+      ],
+      "segmentation": [
+        [
+          1830,
+          236,
+          1830,
+          477,
+          2532,
+          477,
+          2510,
+          247,
+          1830,
+          236
+        ]
+      ],
+      "area": 169182,
+      "iscrowd": 0,
+      "text": "",
+      "orientation": "",
+      "text_type": "tampon_journal",
+      "arkindex_elem_id": "7565c8e2-9741-4685-8a01-2071176450aa",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_045_0002",
+      "metadata": {},
+      "source_annotation_id": 5183,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_045__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 9,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_045__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_049_0002-verso-5184",
+      "image_id": 50244,
+      "category_id": 1003,
+      "bbox": [
+        1051,
+        324,
+        2112,
+        575
+      ],
+      "segmentation": [
+        [
+          1051,
+          380,
+          1097,
+          899,
+          3163,
+          815,
+          3116,
+          454,
+          2209,
+          519,
+          2181,
+          324,
+          1051,
+          380
+        ]
+      ],
+      "area": 1214400,
+      "iscrowd": 0,
+      "text": "Versailles. Boche au kiosque de journaux",
+      "orientation": "horizontal-lr",
+      "text_type": "legende",
+      "arkindex_elem_id": "43eecded-2e53-4c3c-85ee-f6c8cc0f0821",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_049_0002",
+      "metadata": {},
+      "source_annotation_id": 5184,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_049__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 3,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_049_0002-verso-5185",
+      "image_id": 50244,
+      "category_id": 1005,
+      "bbox": [
+        2375,
+        157,
+        510,
+        260
+      ],
+      "segmentation": [
+        [
+          2375,
+          408,
+          2885,
+          417,
+          2876,
+          157,
+          2385,
+          157,
+          2375,
+          408
+        ]
+      ],
+      "area": 132600,
+      "iscrowd": 0,
+      "text": "Signature de Forbin",
+      "orientation": "horizontal-lr",
+      "text_type": "signature_forbin",
+      "arkindex_elem_id": "672c600d-fe87-46c1-9664-b83b40edd4fb",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_049_0002",
+      "metadata": {},
+      "source_annotation_id": 5185,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_049__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 5,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_052_0002-verso-5188",
+      "image_id": 50247,
+      "category_id": 1006,
+      "bbox": [
+        566,
+        303,
+        1251,
+        488
+      ],
+      "segmentation": [
+        [
+          566,
+          720,
+          1797,
+          791,
+          1817,
+          406,
+          585,
+          303,
+          566,
+          720
+        ]
+      ],
+      "area": 610488,
+      "iscrowd": 0,
+      "text": "",
+      "orientation": "",
+      "text_type": "tampon_agence",
+      "arkindex_elem_id": "8e199539-27f3-4b57-b063-bc3614faf512",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_052_0002",
+      "metadata": {},
+      "source_annotation_id": 5188,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_052__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 6,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_052__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_053_0002-verso-5189",
+      "image_id": 50248,
+      "category_id": 1006,
+      "bbox": [
+        1990,
+        1633,
+        1216,
+        504
+      ],
+      "segmentation": [
+        [
+          1990,
+          1822,
+          2043,
+          2137,
+          3206,
+          1929,
+          3157,
+          1633,
+          1990,
+          1822
+        ]
+      ],
+      "area": 612864,
+      "iscrowd": 0,
+      "text": "",
+      "orientation": "",
+      "text_type": "tampon_agence",
+      "arkindex_elem_id": "faa30fc5-9f39-419e-9a3a-fc10bd57a2d5",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_053_0002",
+      "metadata": {},
+      "source_annotation_id": 5189,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_053__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 6,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_053__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_054_0002-verso-5190",
+      "image_id": 50249,
+      "category_id": 1006,
+      "bbox": [
+        1904,
+        1514,
+        1275,
+        829
+      ],
+      "segmentation": [
+        [
+          1904,
+          1970,
+          2025,
+          2343,
+          3179,
+          1873,
+          3053,
+          1514,
+          1904,
+          1970
+        ]
+      ],
+      "area": 1056975,
+      "iscrowd": 0,
+      "text": "",
+      "orientation": "",
+      "text_type": "tampon_agence",
+      "arkindex_elem_id": "4589a904-309d-457f-88e7-abcebc59a085",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_054_0002",
+      "metadata": {},
+      "source_annotation_id": 5190,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_054__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 6,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_054__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_055_0002-verso-5191",
+      "image_id": 50250,
+      "category_id": 1006,
+      "bbox": [
+        1113,
+        2920,
+        1251,
+        478
+      ],
+      "segmentation": [
+        [
+          1113,
+          3021,
+          1133,
+          3398,
+          2364,
+          3304,
+          2337,
+          2920,
+          1113,
+          3021
+        ]
+      ],
+      "area": 597978,
+      "iscrowd": 0,
+      "text": "",
+      "orientation": "",
+      "text_type": "tampon_agence",
+      "arkindex_elem_id": "313909b6-97cc-49c1-b59a-fe61e4f1a35f",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_055_0002",
+      "metadata": {},
+      "source_annotation_id": 5191,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_055__0002.jpg",
+      "source": "monkeyocr",
+      "text_source": "monkeyocr",
+      "source_category_id": 6,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_055__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_194_055_0002-verso-55782",
+      "image_id": 50250,
+      "category_id": 1012,
+      "bbox": [
+        220.83332360851628,
+        487.50001565734004,
+        1895.8332498466964,
+        187.50000602205387
+      ],
+      "segmentation": [
+        [
+          220.83332360851628,
+          487.50001565734004,
+          2116.6665734552125,
+          487.50001565734004,
+          2116.6665734552125,
+          675.000021679394,
+          220.83332360851628,
+          675.000021679394
+        ]
+      ],
+      "area": 355468.7457630655,
+      "iscrowd": 0,
+      "text": "POLAND TO BE POLAND AGAIN\nOur Photo Shows General Betha and General Kernan\ntwo of the delegates",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_194_055_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          665.280029296875,
+          836.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9417
+        }
+      },
+      "source_annotation_id": 55782,
+      "source_file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_055__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_194/SHDGR__GR_2_K_247_194_055__0002.jpg"
     }
   ]
 }

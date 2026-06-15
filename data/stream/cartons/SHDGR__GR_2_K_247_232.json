@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_232",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,9 +1279,1861 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_001_0001-recto-61255",
+      "image_id": 55286,
+      "category_id": 1012,
+      "bbox": [
+        637.500009211627,
+        3016.666753576639,
+        2191.6666983353975,
+        354.16667687018554
+      ],
+      "segmentation": [
+        [
+          637.500009211627,
+          3016.666753576639,
+          2829.1667075470245,
+          3016.666753576639,
+          2829.1667075470245,
+          3370.833430446825,
+          637.500009211627,
+          3370.833430446825
+        ]
+      ],
+      "area": 776215.3113564991,
+      "iscrowd": 0,
+      "text": "The battle scarred flag of the Legion of Honor which was carried by the veterans of that celebrated French regiment which arrived in N.Y. amid cheers and a wonderful ovation. 9/19/18.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_232_001_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          844.7999877929688,
+          932.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 142,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 6
+          },
+          "alpha_ratio": 0.9281,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.966
+        }
+      },
+      "source_annotation_id": 61255,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_001__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_001__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_002_0002-verso-61258",
+      "image_id": 55287,
+      "category_id": 1012,
+      "bbox": [
+        241.6666767419149,
+        191.66666273575112,
+        2341.6667642923476,
+        249.99999487271884
+      ],
+      "segmentation": [
+        [
+          241.6666767419149,
+          191.66666273575112,
+          2583.3334410342623,
+          191.66666273575112,
+          2583.3334410342623,
+          441.66665760846996,
+          241.6666767419149,
+          441.66665760846996
+        ]
+      ],
+      "area": 585416.6790667031,
+      "iscrowd": 0,
+      "text": "Royal English standard-Captured at York, Canada, April 27, 1813--this is the only royal English standard captured and held by any nation.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_002_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          702.719970703125,
+          595.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 104,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 7
+          },
+          "alpha_ratio": 0.8889,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9111
+        }
+      },
+      "source_annotation_id": 61258,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_002__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_002__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_003_0002-verso-61260",
+      "image_id": 55288,
+      "category_id": 1012,
+      "bbox": [
+        650.0000214933698,
+        283.3333343837035,
+        1929.166730457886,
+        295.83333443004335
+      ],
+      "segmentation": [
+        [
+          650.0000214933698,
+          283.3333343837035,
+          2579.1667519512557,
+          283.3333343837035,
+          2579.1667519512557,
+          579.1666688137468,
+          650.0000214933698,
+          579.1666688137468
+        ]
+      ],
+      "area": 570711.8265428611,
+      "iscrowd": 0,
+      "text": "Ensign of the Spitfire-showing U.S. flag used in the Gulf Square Service during the war with Mexico--27 stars.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          812.1599731445312,
+          329.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 85,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 6
+          },
+          "alpha_ratio": 0.914,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9392
+        }
+      },
+      "source_annotation_id": 61260,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_005_0002-verso-61262",
+      "image_id": 55290,
+      "category_id": 1012,
+      "bbox": [
+        474.9999958201126,
+        100.00000100651644,
+        2737.499975910649,
+        266.6666693507105
+      ],
+      "segmentation": [
+        [
+          474.9999958201126,
+          100.00000100651644,
+          3212.4999717307614,
+          100.00000100651644,
+          3212.4999717307614,
+          366.66667035722696,
+          474.9999958201126,
+          366.66667035722696
+        ]
+      ],
+      "area": 730000.000923743,
+      "iscrowd": 0,
+      "text": "Design of the Albemarle-Confederate flag captured Oct. 27, 1864, by Lt. W. B. Cushing, with 13 officers and men from U.S. Attn. -tic surgeon at Plymouth, N.C. from CONFEDERATE TRONCOLM from Alcon.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          832.3200073242188,
+          363.8399963378906
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 141,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 16
+          },
+          "alpha_ratio": 0.8545,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9235
+        }
+      },
+      "source_annotation_id": 61262,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_007_0002-verso-61264",
+      "image_id": 55292,
+      "category_id": 1012,
+      "bbox": [
+        816.6666566695994,
+        270.8333289087202,
+        1916.666643204162,
+        154.16666414804075
+      ],
+      "segmentation": [
+        [
+          816.6666566695994,
+          270.8333289087202,
+          2733.3332998737615,
+          270.8333289087202,
+          2733.3332998737615,
+          424.99999305676096,
+          816.6666566695994,
+          424.99999305676096
+        ]
+      ],
+      "area": 295486.1026666087,
+      "iscrowd": 0,
+      "text": "Rear Admiral Montojo's flag, captured at Manila Bay, May 1, 1898.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          797.760009765625,
+          448.32000732421875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 45,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 5
+          },
+          "alpha_ratio": 0.8182,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8773
+        }
+      },
+      "source_annotation_id": 61264,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_008_0002-verso-61266",
+      "image_id": 55293,
+      "category_id": 1012,
+      "bbox": [
+        720.8333464118635,
+        187.50000069509792,
+        2058.333370678963,
+        304.1666677942699
+      ],
+      "segmentation": [
+        [
+          720.8333464118635,
+          187.50000069509792,
+          2779.1667170908268,
+          187.50000069509792,
+          2779.1667170908268,
+          491.66666848936785,
+          720.8333464118635,
+          491.66666848936785
+        ]
+      ],
+      "area": 626076.402569168,
+      "iscrowd": 0,
+      "text": "United States ensign--First U.S. Ensign hotested in Japan. Used by Commodore Perry in his interview will the Japanese Commissioners, at Uraga, Province of Sagami, (near Yokohama) July 15, 1963.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          807.3599853515625,
+          329.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 147,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 12
+          },
+          "alpha_ratio": 0.8909,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.928
+        }
+      },
+      "source_annotation_id": 61266,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_009_0002-verso-61268",
+      "image_id": 55294,
+      "category_id": 1012,
+      "bbox": [
+        791.6666764996945,
+        108.33333291841478,
+        2220.8333609175643,
+        199.9999992339965
+      ],
+      "segmentation": [
+        [
+          791.6666764996945,
+          108.33333291841478,
+          3012.5000374172587,
+          108.33333291841478,
+          3012.5000374172587,
+          308.3333321524113,
+          791.6666764996945,
+          308.3333321524113
+        ]
+      ],
+      "area": 444166.67048234673,
+      "iscrowd": 0,
+      "text": "Ensign of the Macedonia, Captured Oct. 25, 1812, by Frigate United States, Capt. Stephen Decatur commanding.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          786.239990234375,
+          318.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 80,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 7
+          },
+          "alpha_ratio": 0.8602,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9075
+        }
+      },
+      "source_annotation_id": 61268,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_010_0002-verso-61270",
+      "image_id": 55295,
+      "category_id": 1012,
+      "bbox": [
+        820.8333432266373,
+        170.83333228393326,
+        2141.6666924796527,
+        204.16666541250558
+      ],
+      "segmentation": [
+        [
+          820.8333432266373,
+          170.83333228393326,
+          2962.50003570629,
+          170.83333228393326,
+          2962.50003570629,
+          374.99999769643887,
+          820.8333432266373,
+          374.99999769643887
+        ]
+      ],
+      "area": 437256.9470286007,
+      "iscrowd": 0,
+      "text": "Jack of the \"Guerriere\" captured by Frigate Con- jectivitio n. 19, 1812-Capt. Isaac Hull, commanding:",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          810.239990234375,
+          397.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 72,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 9
+          },
+          "alpha_ratio": 0.8276,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9034
+        }
+      },
+      "source_annotation_id": 61270,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_011_0002-verso-61272",
+      "image_id": 55296,
+      "category_id": 1012,
+      "bbox": [
+        720.8333163201183,
+        133.3333308295471,
+        2233.3332806218696,
+        245.83332871697746
+      ],
+      "segmentation": [
+        [
+          720.8333163201183,
+          133.3333308295471,
+          2954.166596941988,
+          133.3333308295471,
+          2954.166596941988,
+          379.16665954652456,
+          720.8333163201183,
+          379.16665954652456
+        ]
+      ],
+      "area": 549027.7545096817,
+      "iscrowd": 0,
+      "text": "Ferry's battle flag--The flag hoisted at the masthead of the flag ship Lawrence as a signal for action by Commodore Perry on Lake Erie, Sept. 10, 1813.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          827.52001953125,
+          455.0400085449219
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 112,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 7
+          },
+          "alpha_ratio": 0.896,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9453
+        }
+      },
+      "source_annotation_id": 61272,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_014_0002-verso-61278",
+      "image_id": 55299,
+      "category_id": 1012,
+      "bbox": [
+        783.3333057925091,
+        266.66665729106694,
+        1754.1666049927996,
+        249.99999121037524
+      ],
+      "segmentation": [
+        [
+          783.3333057925091,
+          266.66665729106694,
+          2537.4999107853087,
+          266.66665729106694,
+          2537.4999107853087,
+          516.6666485014422,
+          783.3333057925091,
+          516.6666485014422
+        ]
+      ],
+      "area": 438541.6358297337,
+      "iscrowd": 0,
+      "text": "Ensign of the \"Cyane\" --taken from an English frigate--Captured by U.S. Ship Constitution, Feb. 20 1815.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          833.280029296875,
+          416.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 72,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 11
+          },
+          "alpha_ratio": 0.809,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9011
+        }
+      },
+      "source_annotation_id": 61278,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_016_0002-verso-61280",
+      "image_id": 55301,
+      "category_id": 1012,
+      "bbox": [
+        800.0000188598401,
+        166.66666728453148,
+        2112.5000498017653,
+        358.3333346617427
+      ],
+      "segmentation": [
+        [
+          800.0000188598401,
+          166.66666728453148,
+          2912.5000686616054,
+          166.66666728453148,
+          2912.5000686616054,
+          525.0000019462742,
+          800.0000188598401,
+          525.0000019462742
+        ]
+      ],
+      "area": 756979.187318564,
+      "iscrowd": 0,
+      "text": "United States ensign--First U.S. Ensign hoisted in Japan. Used by Commodore Perry in his interview with the Japanese Commissioners, at Uraga, Province of the Japanese Commissioners, at Uraga, Province of the Sagami, (near Yokohama.) July 15 14, 1950.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_016_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          828.47998046875,
+          329.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 190,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 15
+          },
+          "alpha_ratio": 0.892,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9615
+        }
+      },
+      "source_annotation_id": 61280,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_016__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_016__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_017_0002-verso-61282",
+      "image_id": 55302,
+      "category_id": 1012,
+      "bbox": [
+        816.6666426563698,
+        104.1666643428989,
+        2124.999937524228,
+        179.1666626697861
+      ],
+      "segmentation": [
+        [
+          816.6666426563698,
+          104.1666643428989,
+          2941.6665801805975,
+          104.1666643428989,
+          2941.6665801805975,
+          283.333327012685,
+          816.6666426563698,
+          283.333327012685
+        ]
+      ],
+      "area": 380729.14697971987,
+      "iscrowd": 0,
+      "text": "Design of the Macedonia, Captured Oct. 20, 1812, by\nFrigate United States, Capt, Stephen Decatur command",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_017_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          830.4000244140625,
+          328.32000732421875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 77,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 6
+          },
+          "alpha_ratio": 0.8652,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9081
+        }
+      },
+      "source_annotation_id": 61282,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_017__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_017__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_018_0002-verso-61284",
+      "image_id": 55303,
+      "category_id": 1012,
+      "bbox": [
+        858.3333535683702,
+        154.16667150698913,
+        2083.3333824475003,
+        183.3333390893925
+      ],
+      "segmentation": [
+        [
+          858.3333535683702,
+          154.16667150698913,
+          2941.6667360158704,
+          154.16667150698913,
+          2941.6667360158704,
+          337.5000105963816,
+          858.3333535683702,
+          337.5000105963816
+        ]
+      ],
+      "area": 381944.4654404986,
+      "iscrowd": 0,
+      "text": "Jack of the \"Guerriere\" captured by Frigate Con- stitution, Aug. 19, 1812-Capt. Issaao Hull, command in",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_018_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          828.47998046875,
+          388.79998779296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 73,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 9
+          },
+          "alpha_ratio": 0.8295,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.912
+        }
+      },
+      "source_annotation_id": 61284,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_018__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_018__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_019_0002-verso-61286",
+      "image_id": 55304,
+      "category_id": 1012,
+      "bbox": [
+        820.8333477962929,
+        175.00000463591692,
+        2229.166705944247,
+        237.50000629160155
+      ],
+      "segmentation": [
+        [
+          820.8333477962929,
+          175.00000463591692,
+          3050.00005374054,
+          175.00000463591692,
+          3050.00005374054,
+          412.5000109275185,
+          820.8333477962929,
+          412.5000109275185
+        ]
+      ],
+      "area": 529427.1066867873,
+      "iscrowd": 0,
+      "text": "Perry's battle flag--The flag hoisted at the masthead of the flag ship Lawrence as a signal for action by Commodore Perry on Lake Erie, Sept. 10, 1813.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_019_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          831.3599853515625,
+          460.79998779296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 112,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 7
+          },
+          "alpha_ratio": 0.896,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9453
+        }
+      },
+      "source_annotation_id": 61286,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_019__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_019__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_020_0002-verso-61287",
+      "image_id": 55305,
+      "category_id": 1012,
+      "bbox": [
+        637.4999828540346,
+        70.83333501015434,
+        2391.66660234128,
+        275.000006510011
+      ],
+      "segmentation": [
+        [
+          637.4999828540346,
+          70.83333501015434,
+          3029.1665851953144,
+          70.83333501015434,
+          3029.1665851953144,
+          345.8333415201654,
+          637.4999828540346,
+          345.8333415201654
+        ]
+      ],
+      "area": 657708.331213628,
+      "iscrowd": 0,
+      "text": "Ersten of the Albemarle-Confedate旗 captured over 10% by Lt. N. B. Cushing, with 18 officers and men from U.S. Army on at Plymouth, N.C. from Confedate concordant ram Alcon",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_020_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          816.9600219726562,
+          360.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 127,
+            "cjk": 1,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 11
+          },
+          "alpha_ratio": 0.8951,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9369
+        }
+      },
+      "source_annotation_id": 61287,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_020__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_020__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_021_0002-verso-61288",
+      "image_id": 55306,
+      "category_id": 1012,
+      "bbox": [
+        812.4999976084555,
+        174.99999526544678,
+        1920.833327679477,
+        145.83332938787234
+      ],
+      "segmentation": [
+        [
+          812.4999976084555,
+          174.99999526544678,
+          2733.3333252879324,
+          174.99999526544678,
+          2733.3333252879324,
+          320.8333246533191,
+          812.4999976084555,
+          320.8333246533191
+        ]
+      ],
+      "area": 280121.5193746841,
+      "iscrowd": 0,
+      "text": "Rear Admiral Montojo's flag, captured at Manila Bay, May 1, 1898.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_021_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          829.4400024414062,
+          451.20001220703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 45,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 5
+          },
+          "alpha_ratio": 0.8182,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8773
+        }
+      },
+      "source_annotation_id": 61288,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_021__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_021__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_023_0002-verso-61292",
+      "image_id": 55308,
+      "category_id": 1012,
+      "bbox": [
+        808.3333130801518,
+        175.0000076076587,
+        2099.9999473834873,
+        262.500011411488
+      ],
+      "segmentation": [
+        [
+          808.3333130801518,
+          175.0000076076587,
+          2908.333260463639,
+          175.0000076076587,
+          2908.333260463639,
+          437.5000190191467,
+          808.3333130801518,
+          437.5000190191467
+        ]
+      ],
+      "area": 551250.0101522896,
+      "iscrowd": 0,
+      "text": "Royal English standard-Captured at York, Canada, April 27, 1813--this is the only royal English standard of and held by any nation.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_023_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          779.52001953125,
+          561.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 98,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 7
+          },
+          "alpha_ratio": 0.8829,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9187
+        }
+      },
+      "source_annotation_id": 61292,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_023__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_023__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_025_0002-verso-61296",
+      "image_id": 55310,
+      "category_id": 1012,
+      "bbox": [
+        1387.5000083319835,
+        1866.6666879068407,
+        479.1666695440784,
+        1333.3333485048863
+      ],
+      "segmentation": [
+        [
+          1387.5000083319835,
+          1866.6666879068407,
+          1866.6666778760618,
+          1866.6666879068407,
+          1866.6666778760618,
+          3200.000036411727,
+          1387.5000083319835,
+          3200.000036411727
+        ]
+      ],
+      "area": 638888.8999951404,
+      "iscrowd": 0,
+      "text": "WARNING\n\nIn preparing a test for a new drug, we will be able to reduce this photo-\nto be\nunderbrace\nto reduce the\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\neffect of\nthe\nthe\neffect of\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\neffect of\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nin\nthe\neffect of\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\nthe\n\n\n\nthe\nthe\nthe\nthe\nthe\nthe\n\n\n\nthe\nthe\nthe\n\n\n\nthe\nthe\n\n\n\nthe\nthe\n\n\n\nthe\nthe\nthe\n\n\n\n\n\nthe\nthe\n\n\n\n\n\n\n\n\n\n\nthe\nthe\n\n口\nthe\nthe\n\n\n\n\nthe\nthe\n\n口\nthe\n\n\n\n\n\n\n\n\nthe\nthe\n\n口\nthe\n\n\n口\nthe\nthe\n\n口\nthe\n\n\n\n\n\n\n\nthe\nthe\n\n口\nthe\n\n口\nthe\n\n口\nthe\n\n口\nthe\n\n\n\nthe\nthe\n\n口\nthe\n\n口\nthe\n\n口\nthe\n\n口\nthe\nthe\n\n口\nthe\n\n口\nthe\nthe\n\n口\nthe\n\n\n\nthe\nthe\n\n口\nthe\nthe\n\n口\nthe\nthe\n\n口\nthe\n\n\n口\nthe\n\n口\n}",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_025_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          813.1199951171875,
+          1287.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 5272,
+            "cjk": 21,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9994,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9999
+        }
+      },
+      "source_annotation_id": 61296,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_025__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_025__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_025_0002-verso-61297",
+      "image_id": 55310,
+      "category_id": 1012,
+      "bbox": [
+        2266.666680278075,
+        1866.6666879068407,
+        129.1666674423168,
+        1300.0000147922642
+      ],
+      "segmentation": [
+        [
+          2266.666680278075,
+          1866.6666879068407,
+          2395.833347720392,
+          1866.6666879068407,
+          2395.833347720392,
+          3166.666702699105,
+          2266.666680278075,
+          3166.666702699105
+        ]
+      ],
+      "area": 167916.6695856793,
+      "iscrowd": 0,
+      "text": "NOTE TO BE SYNDIATED, REINDED OR LOANING FOR YOUR OWN, EXPRESS ONLY",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_025_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          813.1199951171875,
+          1287.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 54,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9643,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9039
+        }
+      },
+      "source_annotation_id": 61297,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_025__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_025__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_025_0002-verso-61298",
+      "image_id": 55310,
+      "category_id": 1012,
+      "bbox": [
+        2425.0000145622053,
+        1750.0000199126632,
+        120.8333340589415,
+        1504.1666837820749
+      ],
+      "segmentation": [
+        [
+          2425.0000145622053,
+          1750.0000199126632,
+          2545.833348621147,
+          1750.0000199126632,
+          2545.833348621147,
+          3254.1667036947383,
+          2425.0000145622053,
+          3254.1667036947383
+        ]
+      ],
+      "area": 181753.47538176968,
+      "iscrowd": 0,
+      "text": "2020 ANNUAL REPORT",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_025_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          813.1199951171875,
+          1287.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 0
+          },
+          "alpha_ratio": 0.75,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8688
+        }
+      },
+      "source_annotation_id": 61298,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_025__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_025__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_029_0001-recto-61303",
+      "image_id": 55314,
+      "category_id": 1012,
+      "bbox": [
+        1095.8333468617234,
+        3483.333286462568,
+        1925.0000237647002,
+        299.99999596328337
+      ],
+      "segmentation": [
+        [
+          1095.8333468617234,
+          3483.333286462568,
+          3020.833370626424,
+          3483.333286462568,
+          3020.833370626424,
+          3783.3332824258514,
+          1095.8333468617234,
+          3783.3332824258514
+        ]
+      ],
+      "area": 577499.9993587305,
+      "iscrowd": 0,
+      "text": "J.20 COPYRIGHT UNDERMOOD & UNDERMOOD, N.Y.\nGIGANTIC AMERICAN FLAG CARRIED IN GREAT WIN THE\nNAR PARADE FOR THE LIBERTY LOAN.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_232_029_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          988.7999877929688,
+          1088.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 96,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 6
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9321
+        }
+      },
+      "source_annotation_id": 61303,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_029__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_029__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_029_0001-recto-61304",
+      "image_id": 55314,
+      "category_id": 1012,
+      "bbox": [
+        1108.3333470160396,
+        3816.666615310661,
+        1950.0000240733327,
+        454.1666605555263
+      ],
+      "segmentation": [
+        [
+          1108.3333470160396,
+          3816.666615310661,
+          3058.333371089372,
+          3816.666615310661,
+          3058.333371089372,
+          4270.833275866187,
+          1108.3333470160396,
+          4270.833275866187
+        ]
+      ],
+      "area": 885624.9990165813,
+      "iscrowd": 0,
+      "text": "films wonderful photograph from the top of a high building on Fifth Avenue of the Gigantic American flag carried in the great \"win the War\" parade to-day by the employees of the Goodrich Co. The thousands who lined the avenue kept a continual stream of coins falling into the flag.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_232_029_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          988.7999877929688,
+          1088.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 227,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9784,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9973
+        }
+      },
+      "source_annotation_id": 61304,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_029__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_029__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_033_0001-recto-61311",
+      "image_id": 55318,
+      "category_id": 1012,
+      "bbox": [
+        1279.1666636092523,
+        3237.5000901230956,
+        1099.9999973708227,
+        75.00000208779372
+      ],
+      "segmentation": [
+        [
+          1279.1666636092523,
+          3237.5000901230956,
+          2379.166660980075,
+          3237.5000901230956,
+          2379.166660980075,
+          3312.5000922108893,
+          1279.1666636092523,
+          3312.5000922108893
+        ]
+      ],
+      "area": 82500.00209938479,
+      "iscrowd": 0,
+      "text": "CREDIT WARNING............(OVER)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_232_033_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1021.4400024414062,
+          1227.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 17,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 14
+          },
+          "alpha_ratio": 0.5484,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8435
+        }
+      },
+      "source_annotation_id": 61311,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_033__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_033__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_033_0001-recto-61312",
+      "image_id": 55318,
+      "category_id": 1012,
+      "bbox": [
+        1283.3333302659598,
+        3570.833432735512,
+        1529.166663011712,
+        141.66667061027704
+      ],
+      "segmentation": [
+        [
+          1283.3333302659598,
+          3570.833432735512,
+          2812.499993277672,
+          3570.833432735512,
+          2812.499993277672,
+          3712.500103345789,
+          1283.3333302659598,
+          3712.500103345789
+        ]
+      ],
+      "area": 216631.94995709672,
+      "iscrowd": 0,
+      "text": "FIRST PUBLIC BUILDING IN U.S.\nTO INSTALL ELECTRIC STARS AND STRIPES.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_232_033_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1021.4400024414062,
+          1227.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 55,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9483,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9135
+        }
+      },
+      "source_annotation_id": 61312,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_033__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_033__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_033_0001-recto-61313",
+      "image_id": 55318,
+      "category_id": 1012,
+      "bbox": [
+        1274.9999969525445,
+        3775.000105085617,
+        2020.8333285032159,
+        1095.8333638383194
+      ],
+      "segmentation": [
+        [
+          1274.9999969525445,
+          3775.000105085617,
+          3295.83332545576,
+          3775.000105085617,
+          3295.83332545576,
+          4870.833468923936,
+          1274.9999969525445,
+          4870.833468923936
+        ]
+      ],
+      "area": 2214496.5841302667,
+      "iscrowd": 0,
+      "text": "The Tolso(Chio) Courthouse was one of the first public buildings in America on which was executed an electrically lighted flag to carry its lesson of patriotism by night as well as by day. Public officials say that the electric flag is most impressive, because it burns its folds into the eye of the passerby in contrast with the dark background. The idea of the electric flag was originated by E.L.Frantz of Cleveland and thus for a number of cities have already adopted the idea. In Sandusky, Cincinnati, Cleveland, Akron, Youngstown Massillon and in Galveston and Denbury as well as Allentown and Newcastle, these electric flags have been installed. \"Every #%#%# foreigner\" says Mr: Frantz should become an American citizen and believe in AMERICA, FIRST, LAST AND ALL THE TIME.1/18/",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_232_033_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          1021.4400024414062,
+          1227.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 627,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 27
+          },
+          "alpha_ratio": 0.9543,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9943
+        }
+      },
+      "source_annotation_id": 61313,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_033__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_033__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_034_0002-verso-61314",
+      "image_id": 55319,
+      "category_id": 1012,
+      "bbox": [
+        391.6666576830381,
+        2679.1667485375083,
+        2208.3332826809597,
+        187.50000572968565
+      ],
+      "segmentation": [
+        [
+          391.6666576830381,
+          2679.1667485375083,
+          2599.9999403639977,
+          2679.1667485375083,
+          2599.9999403639977,
+          2866.666754267194,
+          391.6666576830381,
+          2866.666754267194
+        ]
+      ],
+      "area": 414062.50315573544,
+      "iscrowd": 0,
+      "text": "General Réverard confers the Legion of Honour on Lieutenant Kula for gallantry on the battlefield. The ceremony took place in the grounds of the historic Chateau de Maintenance, which was given by Louis XIV. to his beautiful favourite, Mme. de Maintenance. The chateau has now been converted into a hospital for wounded officers.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_034_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          851.52001953125,
+          719.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 270,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9747,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9968
+        }
+      },
+      "source_annotation_id": 61314,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_034__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_034__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_035_0002-verso-61315",
+      "image_id": 55320,
+      "category_id": 1012,
+      "bbox": [
+        299.99999388250166,
+        2745.8332523447566,
+        2204.166621720047,
+        208.33332718852478
+      ],
+      "segmentation": [
+        [
+          299.99999388250166,
+          2745.8332523447566,
+          2504.1666156025485,
+          2745.8332523447566,
+          2504.1666156025485,
+          2954.1665795332815,
+          299.99999388250166,
+          2954.1665795332815
+        ]
+      ],
+      "area": 459201.36598082783,
+      "iscrowd": 0,
+      "text": "General Réverard confers the Legion of Honour on Lieutenant Kula for gallantry on the battlefield. The ceremony took place in the grounds of the historic Chateau de Maintenon, which was given by Louis XIV, to his beautiful favourite, Mme. de Maintenon. The chateau has now been converted into a hospital for wounded officers.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          838.0800170898438,
+          744.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 266,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9744,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9968
+        }
+      },
+      "source_annotation_id": 61315,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_232_037_0002-verso-61319",
+      "image_id": 55322,
+      "category_id": 1012,
+      "bbox": [
+        116.66666875242188,
+        679.1666596833373,
+        45.83333415273717,
+        687.4999929309856
+      ],
+      "segmentation": [
+        [
+          116.66666875242188,
+          679.1666596833373,
+          162.50000290515905,
+          679.1666596833373,
+          162.50000290515905,
+          1366.666652614323,
+          116.66666875242188,
+          1366.666652614323
+        ]
+      ],
+      "area": 31510.41690601031,
+      "iscrowd": 0,
+      "text": "R. Gnleimast, R. Stöng et al., Paris.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_232_037_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          546.239990234375,
+          356.1600036621094
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 25,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.8065,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8958
+        }
+      },
+      "source_annotation_id": 61319,
+      "source_file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_037__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_232/SHDGR__GR_2_K_247_232_037__0002.jpg"
+    }
+  ]
 }

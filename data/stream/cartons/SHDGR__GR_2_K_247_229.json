@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_229",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,9 +2903,1465 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_005_0002-verso-60485",
+      "image_id": 54605,
+      "category_id": 1012,
+      "bbox": [
+        412.4999936034041,
+        179.1666747376628,
+        2083.3333010272936,
+        116.66667192219901
+      ],
+      "segmentation": [
+        [
+          412.4999936034041,
+          179.1666747376628,
+          2495.8332946306978,
+          179.1666747376628,
+          2495.8332946306978,
+          295.83334665986183,
+          412.4999936034041,
+          295.83334665986183
+        ]
+      ],
+      "area": 243055.56273554315,
+      "iscrowd": 0,
+      "text": "300 SCOTTISH MIGRANTS LEAVE THE HEDBRIDGE FOR CANADA.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          787.2000122070312,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 42,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 1
+          },
+          "alpha_ratio": 0.913,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9177
+        }
+      },
+      "source_annotation_id": 60485,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_005_0002-verso-60486",
+      "image_id": 54605,
+      "category_id": 1012,
+      "bbox": [
+        383.333327389022,
+        308.33334722295456,
+        2470.83329501837,
+        1058.3333810085196
+      ],
+      "segmentation": [
+        [
+          383.333327389022,
+          308.33334722295456,
+          2854.166622407392,
+          308.33334722295456,
+          2854.166622407392,
+          1366.6667282314743,
+          383.333327389022,
+          1366.6667282314743
+        ]
+      ],
+      "area": 2614965.3550252123,
+      "iscrowd": 0,
+      "text": "300 Scottish migrants of Loch Bolodale, Isle of Isle, have just left theirold homes in the distant Hebrides. They have left theirold homes for new ones, but amid familiar people, to a settlement & Red Deer, in Alberta. where families of the Western Wales have already preceded the, and have long entised them to come out and be happy. The Canadian Pacific Company, with Geat kindness and generosity, sent the 10,000 ton liner NAPLOCH to this hamlet of Loch Bolodale to embark them from their own doorsteps. One of their own cletry, Father MacDonnell, came from Canada to see them to their destination, and one of their own cum ties from Barra Is embarking with them for good. Before the liner called two:piers strode up and down playing \"The Lemont of Flora MacDonald\" and amid tenants of tears and handkerchief waving, the Highlands were gone, smiling brave! at the last.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          787.2000122070312,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 690,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 25
+          },
+          "alpha_ratio": 0.9544,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9943
+        }
+      },
+      "source_annotation_id": 60486,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_005_0002-verso-60487",
+      "image_id": 54605,
+      "category_id": 1012,
+      "bbox": [
+        370.8333275828582,
+        1354.1667276683816,
+        2391.666629579333,
+        179.1666747376628
+      ],
+      "segmentation": [
+        [
+          370.8333275828582,
+          1354.1667276683816,
+          2762.499957162191,
+          1354.1667276683816,
+          2762.499957162191,
+          1533.3334024060443,
+          370.8333275828582,
+          1533.3334024060443
+        ]
+      ],
+      "area": 428506.9571027626,
+      "iscrowd": 0,
+      "text": "Photo shows: - Some of the youngest migrants coated on the baggage at the bayaside.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          787.2000122070312,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 66,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9565,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9529
+        }
+      },
+      "source_annotation_id": 60487,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_006_0002-verso-60488",
+      "image_id": 54606,
+      "category_id": 1013,
+      "bbox": [
+        450.0000027844506,
+        316.6666718707054,
+        1995.8333456828875,
+        87.50000143795806
+      ],
+      "segmentation": [
+        [
+          450.0000027844506,
+          316.6666718707054,
+          2445.833348467338,
+          316.6666718707054,
+          2445.833348467338,
+          404.16667330866346,
+          450.0000027844506,
+          404.16667330866346
+        ]
+      ],
+      "area": 174635.4206171773,
+      "iscrowd": 0,
+      "text": "O SCOTTISH EMIGRANTS LEAVE THE HEBRIDES FOR CANADA.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 43,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9773,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9257
+        }
+      },
+      "source_annotation_id": 60488,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_006_0002-verso-60489",
+      "image_id": 54606,
+      "category_id": 1012,
+      "bbox": [
+        350.00000216568384,
+        450.00000739521295,
+        2541.666682393656,
+        1016.6666833743699
+      ],
+      "segmentation": [
+        [
+          350.00000216568384,
+          450.00000739521295,
+          2891.66668455934,
+          450.00000739521295,
+          2891.66668455934,
+          1466.6666907695828,
+          350.00000216568384,
+          1466.6666907695828
+        ]
+      ],
+      "area": 2584027.836232296,
+      "iscrowd": 0,
+      "text": "300 Scottish inhabitants of Loch Boisdale, Isle of Uist, have just left their old homes in the distant Hebrides. They have left their old homes for newones, but amid familiar people, to a settlement at Red Deer, in Alberta, where families of the Western Isles have already preceded them, and have long enticed them to come out and be happy. The Canadian Pacific Company, with great kindnesses and generosity, sent the 10,000 ton liner MARLOCH to this hamlet of Loch Boisdale to embark them from their own doorsteps, One of their own clergy, \"father MacDonald, came from Canada to see them to their destination, and one of their own curates is embarking with them for good. Before the liner sailed pipers strode up and down playing \"The Lament of Flora MacDonald\", and amid torrents of tears and hankerchief waving, the Highlanders were gone, all smiling bravely at the last",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 694,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 23
+          },
+          "alpha_ratio": 0.9572,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9947
+        }
+      },
+      "source_annotation_id": 60489,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_006_0002-verso-60490",
+      "image_id": 54606,
+      "category_id": 1012,
+      "bbox": [
+        341.6666687807866,
+        1504.1666913858505,
+        2454.1666818522353,
+        162.50000267049356
+      ],
+      "segmentation": [
+        [
+          341.6666687807866,
+          1504.1666913858505,
+          2795.833350633022,
+          1504.1666913858505,
+          2795.833350633022,
+          1666.666694056344,
+          341.6666687807866,
+          1666.666694056344
+        ]
+      ],
+      "area": 398802.09235482453,
+      "iscrowd": 0,
+      "text": "Photo shows;- Some of the youngest emigrants seated on the baggage at the quayside.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          594.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 67,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9571,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.953
+        }
+      },
+      "source_annotation_id": 60490,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_007_0002-verso-60491",
+      "image_id": 54607,
+      "category_id": 1012,
+      "bbox": [
+        320.83333933275526,
+        299.9999914276468,
+        2087.5000390351997,
+        79.16666440451792
+      ],
+      "segmentation": [
+        [
+          320.83333933275526,
+          299.9999914276468,
+          2408.333378367955,
+          299.9999914276468,
+          2408.333378367955,
+          379.16665583216474,
+          320.83333933275526,
+          379.16665583216474
+        ]
+      ],
+      "area": 165260.4150347177,
+      "iscrowd": 0,
+      "text": "300 SCOTTISH MIGRAANTS LEAVE THE HEBRIDES FOR CANADA.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 42,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 1
+          },
+          "alpha_ratio": 0.913,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9177
+        }
+      },
+      "source_annotation_id": 60491,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_007_0002-verso-60492",
+      "image_id": 54607,
+      "category_id": 1012,
+      "bbox": [
+        320.83333933275526,
+        437.49998749865165,
+        2500.000046748742,
+        1008.3333045207019
+      ],
+      "segmentation": [
+        [
+          320.83333933275526,
+          437.49998749865165,
+          2820.8333860814973,
+          437.49998749865165,
+          2820.8333860814973,
+          1445.8332920193534,
+          320.83333933275526,
+          1445.8332920193534
+        ]
+      ],
+      "area": 2520833.3084400683,
+      "iscrowd": 0,
+      "text": "300 Scottish Inhabitants of Loch Bolindale, Isle of Ust, have just left their old homes in the distant Hebrides. They have gone from their old homes to new ones, but amid familiar people, to a settlement at Rod Deer, in Jiberta, where families of the Western Isles have already preceded them, and have long enticed them to come out and be happy. The Canadian Pacific Company, with great kindness and generosity, sent the 10,000 ton liner MARLICH to this haulset of Loch Bolindale to embark them from their own doorsteps. One of their own cleary, farber MacDonnell, case from Canada to see them to their destination, and one of their own curates from Barrs is enigrating with them for good. Before the liner sailed a piper strode up and down playing \"The Lament of Flora MacDonald, and amid a torrent of tears and handkerchief waving, the Highlanders were gone, willing bravely at the last.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 706,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 22
+          },
+          "alpha_ratio": 0.9592,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9949
+        }
+      },
+      "source_annotation_id": 60492,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_007_0002-verso-60493",
+      "image_id": 54607,
+      "category_id": 1012,
+      "bbox": [
+        333.3333395664989,
+        1508.3332902334466,
+        533.3333433063983,
+        74.9999978569117
+      ],
+      "segmentation": [
+        [
+          333.3333395664989,
+          1508.3332902334466,
+          866.6666828728972,
+          1508.3332902334466,
+          866.6666828728972,
+          1583.3332880903583,
+          333.3333395664989,
+          1583.3332880903583
+        ]
+      ],
+      "area": 39999.99960499943,
+      "iscrowd": 0,
+      "text": "photo shows: -",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.8333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9792
+        }
+      },
+      "source_annotation_id": 60493,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_007_0002-verso-60494",
+      "image_id": 54607,
+      "category_id": 1012,
+      "bbox": [
+        895.8333500849659,
+        1524.9999564238713,
+        1900.000035529044,
+        212.4999939279165
+      ],
+      "segmentation": [
+        [
+          895.8333500849659,
+          1524.9999564238713,
+          2795.83338561401,
+          1524.9999564238713,
+          2795.83338561401,
+          1737.4999503517877,
+          895.8333500849659,
+          1737.4999503517877
+        ]
+      ],
+      "area": 403749.996012963,
+      "iscrowd": 0,
+      "text": "The largest family of emigrants, Mr. and Mrs. MacDonald with their nine daughters and one son. \"With them is Father MacDonald.\"",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 100,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9346,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9418
+        }
+      },
+      "source_annotation_id": 60494,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_008_0002-verso-60495",
+      "image_id": 54608,
+      "category_id": 1012,
+      "bbox": [
+        258.33333816403666,
+        412.5000033731246,
+        2512.500046982486,
+        1012.5000082794877
+      ],
+      "segmentation": [
+        [
+          258.33333816403666,
+          412.5000033731246,
+          2770.8333851465227,
+          412.5000033731246,
+          2770.8333851465227,
+          1425.0000116526123,
+          258.33333816403666,
+          1425.0000116526123
+        ]
+      ],
+      "area": 2543906.31837198,
+      "iscrowd": 0,
+      "text": "300 Scottish Inhabitants of Loch Poldale, Isle of Isle, have just left their old homes in the distant Nebraska. They have gone from their old homes to new ones, but said familiar people, to a settlement at Rod Deer, in Alberta, where families of the western lakes have already preceded them, and have long enough to come out and be happy. The Canadian Pacific Company, with great kindness and generosity, sent the 10,000 ton linear MARLOCK to this hazlet of Loch Poldale to embark them from their own doorsteps. One of their own allergy, Farher MacDonnell, came from Canada to see them to their destination, and one of their own curates from Harra is enigrating with then low good. Before the linear sailed a piper strode up and down playing \"The Lament of Flora Macdonald, and said a torrent of tears and handkerchief waving, the Highland were gone, while being bravely at the last.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 700,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 22
+          },
+          "alpha_ratio": 0.9589,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9949
+        }
+      },
+      "source_annotation_id": 60495,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_008_0002-verso-60496",
+      "image_id": 54608,
+      "category_id": 1012,
+      "bbox": [
+        254.16667141945544,
+        1462.50001195926,
+        537.5000100509795,
+        83.33333401477265
+      ],
+      "segmentation": [
+        [
+          254.16667141945544,
+          1462.50001195926,
+          791.6666814704349,
+          1462.50001195926,
+          791.6666814704349,
+          1545.8333459740327,
+          254.16667141945544,
+          1545.8333459740327
+        ]
+      ],
+      "area": 44791.66787052193,
+      "iscrowd": 0,
+      "text": "photo shows;",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9091,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9886
+        }
+      },
+      "source_annotation_id": 60496,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_008_0002-verso-60497",
+      "image_id": 54608,
+      "category_id": 1012,
+      "bbox": [
+        816.6666819379225,
+        1495.833345565169,
+        1895.8333687844627,
+        225.00000183988615
+      ],
+      "segmentation": [
+        [
+          816.6666819379225,
+          1495.833345565169,
+          2712.500050722385,
+          1495.833345565169,
+          2712.500050722385,
+          1720.8333474050553,
+          816.6666819379225,
+          1720.8333474050553
+        ]
+      ],
+      "area": 426562.51146462164,
+      "iscrowd": 0,
+      "text": "The largest family of emigrants, Mr. and Uro. Donald with their nine daughters and one son with them is Father's MacDonald.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          783.3599853515625,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 98,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9515,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9439
+        }
+      },
+      "source_annotation_id": 60497,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_020_0001-recto-60503",
+      "image_id": 54620,
+      "category_id": 1012,
+      "bbox": [
+        362.50000313211274,
+        2662.5000666281703,
+        2800.0000241928706,
+        204.16667177586908
+      ],
+      "segmentation": [
+        [
+          362.50000313211274,
+          2662.5000666281703,
+          3162.5000273249834,
+          2662.5000666281703,
+          3162.5000273249834,
+          2866.6667384040393,
+          362.50000313211274,
+          2866.6667384040393
+        ]
+      ],
+      "area": 571666.6859118113,
+      "iscrowd": 0,
+      "text": "Sir George Reid addresses nearly 1000 emigrants about to leave Tilbury for Australia.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_229_020_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          847.6799926757812,
+          780.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 68,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 1
+          },
+          "alpha_ratio": 0.9315,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8998
+        }
+      },
+      "source_annotation_id": 60503,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_020__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_020_0001-recto-60504",
+      "image_id": 54620,
+      "category_id": 1012,
+      "bbox": [
+        366.6666698347807,
+        2925.000073197145,
+        2670.833356410164,
+        208.33333854680518
+      ],
+      "segmentation": [
+        [
+          366.6666698347807,
+          2925.000073197145,
+          3037.500026244945,
+          2925.000073197145,
+          3037.500026244945,
+          3133.33341174395,
+          366.6666698347807,
+          3133.33341174395
+        ]
+      ],
+      "area": 556423.6298430987,
+      "iscrowd": 0,
+      "text": "Sir George Reid pronounce un discours à près de 1000 emigrants prêts à quitter Tilbury pour l'Australie.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_229_020_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          847.6799926757812,
+          780.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 82,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 2
+          },
+          "alpha_ratio": 0.9318,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9165
+        }
+      },
+      "source_annotation_id": 60504,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_020__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_020__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_048_0002-verso-60515",
+      "image_id": 54648,
+      "category_id": 1012,
+      "bbox": [
+        620.8333352801408,
+        899.9999599729717,
+        2150.000006741964,
+        387.4999827661406
+      ],
+      "segmentation": [
+        [
+          620.8333352801408,
+          899.9999599729717,
+          2770.833342022105,
+          899.9999599729717,
+          2770.833342022105,
+          1287.4999427391124,
+          620.8333352801408,
+          1287.4999427391124
+        ]
+      ],
+      "area": 833124.9655597133,
+      "iscrowd": 0,
+      "text": "WELSH FARMERS FOR CANADA.\nA number of Welsh farmers sailed on the s.s. Montcalm\nto try their fortunes in Canada on Saturday last, and\nto try their fortunes in Canada on Saturday last,\nare here seen on board the ship at Liverpool.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_048_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          778.5599975585938,
+          603.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 182,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9681,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9877
+        }
+      },
+      "source_annotation_id": 60515,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_048__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_048__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_049_0002-verso-60517",
+      "image_id": 54649,
+      "category_id": 1012,
+      "bbox": [
+        791.6666543903715,
+        708.3333508792898,
+        2108.333300639621,
+        316.66667451074136
+      ],
+      "segmentation": [
+        [
+          791.6666543903715,
+          708.3333508792898,
+          2899.9999550299926,
+          708.3333508792898,
+          2899.9999550299926,
+          1025.0000253900312,
+          791.6666543903715,
+          1025.0000253900312
+        ]
+      ],
+      "area": 667638.8950738038,
+      "iscrowd": 0,
+      "text": "A number of Welsh farmers sailed on the s.s. Montocalm to try their fortunes in Canada on Saturday last, and are here seen on which the ship at Liverpool\nboarding",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_229_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          787.2000122070312,
+          591.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 130,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9774,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9638
+        }
+      },
+      "source_annotation_id": 60517,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_051_0001-recto-60519",
+      "image_id": 54651,
+      "category_id": 1013,
+      "bbox": [
+        1912.4999767285217,
+        3308.3331662777564,
+        887.4999892008173,
+        62.49999684403822
+      ],
+      "segmentation": [
+        [
+          1912.4999767285217,
+          3308.3331662777564,
+          2799.999965929339,
+          3308.3331662777564,
+          2799.999965929339,
+          3370.8331631217948,
+          1912.4999767285217,
+          3370.8331631217948
+        ]
+      ],
+      "area": 55468.74652413504,
+      "iscrowd": 0,
+      "text": "COPYRIGHT WARNING-OVER",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_229_051_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1003.2000122070312,
+          1063.6800537109375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9274
+        }
+      },
+      "source_annotation_id": 60519,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_051__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_051__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_051_0001-recto-60520",
+      "image_id": 54651,
+      "category_id": 1012,
+      "bbox": [
+        1033.333320759637,
+        3424.999827053294,
+        2079.166641367173,
+        83.3333291253843
+      ],
+      "segmentation": [
+        [
+          1033.333320759637,
+          3424.999827053294,
+          3112.49996212681,
+          3424.999827053294,
+          3112.49996212681,
+          3508.3331561786786,
+          1033.333320759637,
+          3508.3331561786786
+        ]
+      ],
+      "area": 173263.87803157046,
+      "iscrowd": 0,
+      "text": "S/204170 F COPYRIGHT UNDERWOOD & UNDERWOOD, N.Y.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_229_051_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1003.2000122070312,
+          1063.6800537109375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 31,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 5
+          },
+          "alpha_ratio": 0.7381,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9006
+        }
+      },
+      "source_annotation_id": 60520,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_051__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_051__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_051_0001-recto-60521",
+      "image_id": 54651,
+      "category_id": 1012,
+      "bbox": [
+        1112.4999864629963,
+        3562.4998201101785,
+        1408.333316196602,
+        120.83332723180722
+      ],
+      "segmentation": [
+        [
+          1112.4999864629963,
+          3562.4998201101785,
+          2520.8333026595983,
+          3562.4998201101785,
+          2520.8333026595983,
+          3683.3331473419858,
+          1112.4999864629963,
+          3683.3331473419858
+        ]
+      ],
+      "area": 170173.60044744023,
+      "iscrowd": 0,
+      "text": "ITALIAN IMMIGRANTS ARRIVING IN U.S.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_229_051_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          1003.2000122070312,
+          1063.6800537109375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9355,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9169
+        }
+      },
+      "source_annotation_id": 60521,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_051__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_051__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_051_0001-recto-60522",
+      "image_id": 54651,
+      "category_id": 1012,
+      "bbox": [
+        1024.9999875277044,
+        3704.1664796233317,
+        2516.666636043632,
+        262.4999867449605
+      ],
+      "segmentation": [
+        [
+          1024.9999875277044,
+          3704.1664796233317,
+          3541.6666235713365,
+          3704.1664796233317,
+          3541.6666235713365,
+          3966.6664663682923,
+          1024.9999875277044,
+          3966.6664663682923
+        ]
+      ],
+      "area": 660624.9586029378,
+      "iscrowd": 0,
+      "text": "View of the dock of the S.S.Canopic, crowded with Italian immigrants agoer to livo in the United States. Many women and children are in the throng. The photo was taken on the arrival of the vessel at Boston, Mass.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_229_051_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          1003.2000122070312,
+          1063.6800537109375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 168,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.96,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.995
+        }
+      },
+      "source_annotation_id": 60522,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_051__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_051__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_229_051_0001-recto-60523",
+      "image_id": 54651,
+      "category_id": 1012,
+      "bbox": [
+        1024.9999875277044,
+        4024.999796756061,
+        2316.6666384772507,
+        204.16665635719153
+      ],
+      "segmentation": [
+        [
+          1024.9999875277044,
+          4024.999796756061,
+          3341.666626004955,
+          4024.999796756061,
+          3341.666626004955,
+          4229.166453113253,
+          1024.9999875277044,
+          4229.166453113253
+        ]
+      ],
+      "area": 472986.0814721549,
+      "iscrowd": 0,
+      "text": "PHOTO VERIFIED AND FOUND CORRECT BY JAM\nTO AVOID MIST, K.K. THE NUMBER ON CAPTION MUST CORRESPOND TO\nNUMBER ON PHOTO.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_229_051_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 7,
+        "monkeyocr_page_size": [
+          1003.2000122070312,
+          1063.6800537109375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 93,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9588,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9698
+        }
+      },
+      "source_annotation_id": 60523,
+      "source_file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_051__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_229/SHDGR__GR_2_K_247_229_051__0001.jpg"
+    }
+  ]
 }

@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_172",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tahiti",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Samoa Iles Wallace",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Fannily",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Fannily",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Fannily",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Fannily",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Fannily",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Fannily",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Iles Fannily",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,6 +2903,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2544,6 +2932,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2570,6 +2961,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2596,6 +2990,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2622,6 +3019,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2648,6 +3048,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2674,6 +3077,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2700,6 +3106,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2726,6 +3135,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2752,6 +3164,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2778,6 +3193,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2804,6 +3222,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2830,6 +3251,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2856,6 +3280,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2882,9 +3309,2455 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Papouasie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_014_0002-verso-52655",
+      "image_id": 46245,
+      "category_id": 1012,
+      "bbox": [
+        262.5000072365533,
+        699.9999794736771,
+        962.5000265340287,
+        366.6666559147832
+      ],
+      "segmentation": [
+        [
+          262.5000072365533,
+          699.9999794736771,
+          1225.000033770582,
+          699.9999794736771,
+          1225.000033770582,
+          1066.6666353884602,
+          262.5000072365533,
+          1066.6666353884602
+        ]
+      ],
+      "area": 352916.6660471224,
+      "iscrowd": 0,
+      "text": "Les Papons conservent\nles craines des mallemures\nqu'ils ont égorgés et maniés",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          354.239990234375,
+          457.9200134277344
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 65,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9848,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9314
+        }
+      },
+      "source_annotation_id": 52655,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_019_0002-verso-52657",
+      "image_id": 46250,
+      "category_id": 1012,
+      "bbox": [
+        362.5000077252949,
+        612.5000075614955,
+        2400.00005114678,
+        1016.6666792177205
+      ],
+      "segmentation": [
+        [
+          362.5000077252949,
+          612.5000075614955,
+          2762.500058872075,
+          612.5000075614955,
+          2762.500058872075,
+          1629.166686779216,
+          362.5000077252949,
+          1629.166686779216
+        ]
+      ],
+      "area": 2440000.0821217564,
+      "iscrowd": 0,
+      "text": "Cotton No. 1 Taka cloth\nNo.2, \"cutback\" of carved wood\nNo.3, \"cutback\" of leaves on their board\nNo.4, Yoda stool\nNo.5, Yoda\nNo.6. Somman mar.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_019_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          687.3599853515625,
+          494.3999938964844
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 95,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 16
+          },
+          "alpha_ratio": 0.812,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9015
+        }
+      },
+      "source_annotation_id": 52657,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_019__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_019__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_029_0002-verso-52660",
+      "image_id": 46260,
+      "category_id": 1012,
+      "bbox": [
+        733.3333206752129,
+        941.6666247865352,
+        491.6666581799723,
+        162.49999277289768
+      ],
+      "segmentation": [
+        [
+          733.3333206752129,
+          941.6666247865352,
+          1224.9999788551852,
+          941.6666247865352,
+          1224.9999788551852,
+          1104.1666175594328,
+          733.3333206752129,
+          1104.1666175594328
+        ]
+      ],
+      "area": 79895.82840092025,
+      "iscrowd": 0,
+      "text": "Oceane",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          424.32000732421875,
+          603.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 6,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 52660,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_041_0001-recto-52667",
+      "image_id": 46272,
+      "category_id": 1012,
+      "bbox": [
+        154.166672648258,
+        1591.6667067440703,
+        950.0000368595357,
+        270.83334015278683
+      ],
+      "segmentation": [
+        [
+          154.166672648258,
+          1591.6667067440703,
+          1104.1667095077937,
+          1591.6667067440703,
+          1104.1667095077937,
+          1862.5000468968572,
+          154.166672648258,
+          1862.5000468968572
+        ]
+      ],
+      "area": 257291.68312793865,
+      "iscrowd": 0,
+      "text": "Intervention Samoau House - Savii",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_172_041_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          692.1599731445312,
+          484.79998779296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 28,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9655,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8957
+        }
+      },
+      "source_annotation_id": 52667,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_041__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_041__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_048_0002-verso-52671",
+      "image_id": 46279,
+      "category_id": 1012,
+      "bbox": [
+        1049.9999537612473,
+        204.16666412145744,
+        962.4999576144767,
+        245.83333026869366
+      ],
+      "segmentation": [
+        [
+          1049.9999537612473,
+          204.16666412145744,
+          2012.499911375724,
+          204.16666412145744,
+          2012.499911375724,
+          449.9999943901511,
+          1049.9999537612473,
+          449.9999943901511
+        ]
+      ],
+      "area": 236614.5699638433,
+      "iscrowd": 0,
+      "text": "FRANCIS DICKIE\nHERIOT BAY,\nBRITISH COLUMBIA, CANADA",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_048_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          665.280029296875,
+          489.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 43,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9556,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8944
+        }
+      },
+      "source_annotation_id": 52671,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_048__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_048__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_051_0002-verso-52674",
+      "image_id": 46282,
+      "category_id": 1012,
+      "bbox": [
+        175.0000066178146,
+        2195.833314811632,
+        620.8333568108184,
+        129.16666557715484
+      ],
+      "segmentation": [
+        [
+          175.0000066178146,
+          2195.833314811632,
+          795.833363428633,
+          2195.833314811632,
+          795.833363428633,
+          2324.9999803887868,
+          175.0000066178146,
+          2324.9999803887868
+        ]
+      ],
+      "area": 80190.97457832542,
+      "iscrowd": 0,
+      "text": "PREPARED BY J. W. BEATTIE,\nHCB., W. TASMANIA,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_051_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          774.719970703125,
+          578.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 31,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.8158,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.897
+        }
+      },
+      "source_annotation_id": 52674,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_051__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_051__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_063_0002-verso-52684",
+      "image_id": 46294,
+      "category_id": 1012,
+      "bbox": [
+        425.0000090572423,
+        266.6666653472729,
+        1933.3333745349062,
+        112.49999944338076
+      ],
+      "segmentation": [
+        [
+          425.0000090572423,
+          266.6666653472729,
+          2358.3333835921485,
+          266.6666653472729,
+          2358.3333835921485,
+          379.16666479065367,
+          425.0000090572423,
+          379.16666479065367
+        ]
+      ],
+      "area": 217500.0035590464,
+      "iscrowd": 0,
+      "text": "Types d'agents de la police indigéne des Salomon",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_063_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          687.3599853515625,
+          493.44000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.375,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 40,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9756,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9345
+        }
+      },
+      "source_annotation_id": 52684,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_063__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_063__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_080_0002-verso-52687",
+      "image_id": 46311,
+      "category_id": 1012,
+      "bbox": [
+        83.33333680755686,
+        174.99999553676787,
+        179.16667413624725,
+        1099.9999719453979
+      ],
+      "segmentation": [
+        [
+          83.33333680755686,
+          174.99999553676787,
+          262.5000109438041,
+          174.99999553676787,
+          262.5000109438041,
+          1274.9999674821656,
+          83.33333680755686,
+          1274.9999674821656
+        ]
+      ],
+      "area": 197083.33652342221,
+      "iscrowd": 0,
+      "text": "Page 318. Ambunti natives carve these drums, shields, and weapons from wood.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_080_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          527.0399780273438,
+          335.0400085449219
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0909,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 58,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 4
+          },
+          "alpha_ratio": 0.8923,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8956
+        }
+      },
+      "source_annotation_id": 52687,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_080__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_080__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_082_0002-verso-52688",
+      "image_id": 46313,
+      "category_id": 1012,
+      "bbox": [
+        158.33333293623028,
+        116.66666231411901,
+        1541.666662800137,
+        129.16666184777463
+      ],
+      "segmentation": [
+        [
+          158.33333293623028,
+          116.66666231411901,
+          1699.9999957363673,
+          116.66666231411901,
+          1699.9999957363673,
+          245.83332416189364,
+          158.33333293623028,
+          245.83332416189364
+        ]
+      ],
+      "area": 199131.93651589248,
+      "iscrowd": 0,
+      "text": "Film Pack L-4 General view of street, Elevala, July 4, 1928.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_082_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          486.7200012207031,
+          392.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.125,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 39,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 5
+          },
+          "alpha_ratio": 0.78,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.885
+        }
+      },
+      "source_annotation_id": 52688,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_082__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_082__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_083_0002-verso-52689",
+      "image_id": 46314,
+      "category_id": 1012,
+      "bbox": [
+        308.333328890658,
+        716.6667033852646,
+        466.66665994261746,
+        75.00000384264396
+      ],
+      "segmentation": [
+        [
+          308.333328890658,
+          716.6667033852646,
+          774.9999888332754,
+          716.6667033852646,
+          774.9999888332754,
+          791.6667072279085,
+          308.333328890658,
+          791.6667072279085
+        ]
+      ],
+      "area": 35000.001288930136,
+      "iscrowd": 0,
+      "text": "Single girl.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_083_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          338.8800048828125,
+          524.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9091,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8886
+        }
+      },
+      "source_annotation_id": 52689,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_083__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_083__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_083_0002-verso-52690",
+      "image_id": 46314,
+      "category_id": 1012,
+      "bbox": [
+        229.16666336467821,
+        920.8333805124621,
+        1058.3333180841503,
+        129.1666732845535
+      ],
+      "segmentation": [
+        [
+          229.16666336467821,
+          920.8333805124621,
+          1287.4999814488285,
+          920.8333805124621,
+          1287.4999814488285,
+          1050.0000537970157,
+          229.16666336467821,
+          1050.0000537970157
+        ]
+      ],
+      "area": 136701.39392313288,
+      "iscrowd": 0,
+      "text": "Lower Hydrographers Valley, North-Eastern Division.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_083_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          338.8800048828125,
+          524.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 44,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9362,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.892
+        }
+      },
+      "source_annotation_id": 52690,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_083__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_083__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_084_0002-verso-52692",
+      "image_id": 46315,
+      "category_id": 1012,
+      "bbox": [
+        99.99999602635717,
+        429.16667877122086,
+        1020.8332927690628,
+        129.1666703097849
+      ],
+      "segmentation": [
+        [
+          99.99999602635717,
+          429.16667877122086,
+          1120.83328879542,
+          429.16667877122086,
+          1120.83328879542,
+          558.3333490810057,
+          99.99999602635717,
+          558.3333490810057
+        ]
+      ],
+      "area": 131857.63736835367,
+      "iscrowd": 0,
+      "text": "Sewa Bay, Normanby Island, Eastern Division.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_084_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          337.9200134277344,
+          519.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 36,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 52692,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_084__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_084__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_085_0002-verso-52696",
+      "image_id": 46316,
+      "category_id": 1012,
+      "bbox": [
+        208.3333319713306,
+        150.0,
+        1295.8333248616764,
+        129.16666666666669
+      ],
+      "segmentation": [
+        [
+          208.3333319713306,
+          150.0,
+          1504.166656833007,
+          150.0,
+          1504.166656833007,
+          279.1666666666667,
+          208.3333319713306,
+          279.1666666666667
+        ]
+      ],
+      "area": 167378.47112796656,
+      "iscrowd": 0,
+      "text": "Like huge birdhouses on poles are these Pygmy dwellings.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_085_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          373.44000244140625,
+          480.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1111,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 47,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9792,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9085
+        }
+      },
+      "source_annotation_id": 52696,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_085__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_085__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_087_0002-verso-52697",
+      "image_id": 46318,
+      "category_id": 1012,
+      "bbox": [
+        399.99999055914077,
+        745.8333248022138,
+        2745.8332685257687,
+        316.66666304451536
+      ],
+      "segmentation": [
+        [
+          399.99999055914077,
+          745.8333248022138,
+          3145.8332590849095,
+          745.8333248022138,
+          3145.8332590849095,
+          1062.4999878467293,
+          399.99999055914077,
+          1062.4999878467293
+        ]
+      ],
+      "area": 869513.8584206699,
+      "iscrowd": 0,
+      "text": "The war, The method adopted for getting gear ashore at low tide at Infis \"island. The raft was made from seaplane floats, and on this the men and gear were landed from a motor-best, which could only approach to within half a mile of the shore.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_087_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          827.52001953125,
+          640.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 191,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9646,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9789
+        }
+      },
+      "source_annotation_id": 52697,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_087__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_087__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_088_0002-verso-52698",
+      "image_id": 46319,
+      "category_id": 1012,
+      "bbox": [
+        316.6666610415796,
+        712.5000163241554,
+        2741.6666179652548,
+        316.6666739218468
+      ],
+      "segmentation": [
+        [
+          316.6666610415796,
+          712.5000163241554,
+          3058.3332790068343,
+          712.5000163241554,
+          3058.3332790068343,
+          1029.1666902460022,
+          316.6666610415796,
+          1029.1666902460022
+        ]
+      ],
+      "area": 868194.4489136158,
+      "iscrowd": 0,
+      "text": "THE WAR. The method adopted for getting gear asore at low tide at men and gear were landed from seaplane floats, and on this the to within half a mile of the shore.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_088_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          824.6400146484375,
+          639.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 129,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9773,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9722
+        }
+      },
+      "source_annotation_id": 52698,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_088__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_088__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_089_0002-verso-52699",
+      "image_id": 46320,
+      "category_id": 1012,
+      "bbox": [
+        275.0000064830701,
+        395.83333238722787,
+        2725.0000642413306,
+        137.49999967135284
+      ],
+      "segmentation": [
+        [
+          275.0000064830701,
+          395.83333238722787,
+          3000.0000707244008,
+          395.83333238722787,
+          3000.0000707244008,
+          533.3333320585807,
+          275.0000064830701,
+          533.3333320585807
+        ]
+      ],
+      "area": 374687.5079376194,
+      "iscrowd": 0,
+      "text": "THE WAR: OURLAND CUT THE BIFISH CABLE AT FANLING ISLAND, POWER HOUSE\nMOTHERLY, THE PHOTO shows German nautical in occupation of the station.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_089_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          828.47998046875,
+          510.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 114,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9661,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9624
+        }
+      },
+      "source_annotation_id": 52699,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_089__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_089__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_091_0002-verso-52702",
+      "image_id": 46322,
+      "category_id": 1012,
+      "bbox": [
+        383.333346983748,
+        349.99998546122697,
+        2862.500101932988,
+        308.3333205253666
+      ],
+      "segmentation": [
+        [
+          383.333346983748,
+          349.99998546122697,
+          3245.833448916736,
+          349.99998546122697,
+          3245.833448916736,
+          658.3333059865936,
+          383.333346983748,
+          658.3333059865936
+        ]
+      ],
+      "area": 882604.1614331986,
+      "iscrowd": 0,
+      "text": "THE WAR::GERMAN CUT THE BRITISH CABLE AT FANKEING ISLAND. Photo shows the enemy几千er Burnberg lying off the shore. She is one of the vessels which took part in the naval battle in which the Hornmouth and Good Here were lost.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          822.719970703125,
+          528.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 177,
+            "cjk": 2,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9728,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9966
+        }
+      },
+      "source_annotation_id": 52702,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_092_0002-verso-52703",
+      "image_id": 46323,
+      "category_id": 1012,
+      "bbox": [
+        379.1666756054451,
+        783.33330788655,
+        2720.8333974764355,
+        208.3333265655718
+      ],
+      "segmentation": [
+        [
+          379.1666756054451,
+          783.33330788655,
+          3100.0000730818806,
+          783.33330788655,
+          3100.0000730818806,
+          991.6666344521218,
+          379.1666756054451,
+          991.6666344521218
+        ]
+      ],
+      "area": 566840.2727269725,
+      "iscrowd": 0,
+      "text": "THE CAR: GEDIANIS CUT THE BRITISH CABLE AT FAMING ISLAND; POWER HOUSE\nDEPROYRED...PRO TO SHOWS THE WROOKED POWER house.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_092_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          828.47998046875,
+          526.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 95,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9406,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9176
+        }
+      },
+      "source_annotation_id": 52703,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_092__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_092__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_094_0002-verso-52704",
+      "image_id": 46325,
+      "category_id": 1012,
+      "bbox": [
+        508.33331493107755,
+        941.6666580056102,
+        2279.166584158192,
+        1712.4999842491407
+      ],
+      "segmentation": [
+        [
+          508.33331493107755,
+          941.6666580056102,
+          2787.4998990892695,
+          941.6666580056102,
+          2787.4998990892695,
+          2654.166642254751,
+          508.33331493107755,
+          2654.166642254751
+        ]
+      ],
+      "area": 3903072.7394720716,
+      "iscrowd": 0,
+      "text": "Captin Hurley, leader of the Papuan expedition, and the colonist, Mr McCulloch, are enjoying a quiet after-dinner rest outside their headquarters above the Papuan beach. The natives are treating the white men to the latest local council, and in return Captain Hurley tries to explain to them the social conditions of a modern city. A discourse on 'night in Sydney' leaves his in a cycle of wine, and he is forced to admit \"this is the life!\" Obviously the native are thrilled. The old blackfellow in the foreground is bold, and on that account is something of a rarity in Papua, there there is no break or narrow strain to thin the hair of this person.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_094_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          809.280029296875,
+          1061.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 519,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 18
+          },
+          "alpha_ratio": 0.9665,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9958
+        }
+      },
+      "source_annotation_id": 52704,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_094__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_094__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_095_0002-verso-52705",
+      "image_id": 46326,
+      "category_id": 1012,
+      "bbox": [
+        516.6666554908966,
+        1091.6666213195413,
+        2249.9999513313237,
+        1662.499930940828
+      ],
+      "segmentation": [
+        [
+          516.6666554908966,
+          1091.6666213195413,
+          2766.6666068222203,
+          1091.6666213195413,
+          2766.6666068222203,
+          2754.1665522603694,
+          516.6666554908966,
+          2754.1665522603694
+        ]
+      ],
+      "area": 3740624.763705192,
+      "iscrowd": 0,
+      "text": "Captain Hurley, leader of the Papuan expedition, and the scientist, Mr McCulloch, are enjoying a quiet after-dinner rest outside their headquarters above the Papuan beach. The natives are treating the white men to the latest local scandal, and in return Captain Hurley tries to explain to them the social conditions of a modern city. A discourse on 'Night in Sydney' leaves him in a cynical vein, and he is forced to admit \"this is the life\"! Obviously the natives are thrilled. The old blackfellow in the foreground is bald, and on that account is something of a rarity in Papua, where there is no brain work or nerve strain to thin the hair as time passes.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_095_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          1057.9200439453125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 525,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 18
+          },
+          "alpha_ratio": 0.9669,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9959
+        }
+      },
+      "source_annotation_id": 52705,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_095__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_095__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_095_0002-verso-52706",
+      "image_id": 46326,
+      "category_id": 1012,
+      "bbox": [
+        1716.6666295342693,
+        2783.3332177154716,
+        958.3333126040823,
+        79.16666337813467
+      ],
+      "segmentation": [
+        [
+          1716.6666295342693,
+          2783.3332177154716,
+          2674.999942138352,
+          2783.3332177154716,
+          2674.999942138352,
+          2862.4998810936063,
+          1716.6666295342693,
+          2862.4998810936063
+        ]
+      ],
+      "area": 75868.05076298008,
+      "iscrowd": 0,
+      "text": "Photo by Captain Hurley.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_095_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          1057.9200439453125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.969
+        }
+      },
+      "source_annotation_id": 52706,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_095__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_095__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_097_0002-verso-52707",
+      "image_id": 46328,
+      "category_id": 1013,
+      "bbox": [
+        1550.0000435345316,
+        854.1666942134198,
+        1095.833364111779,
+        129.16667083227324
+      ],
+      "segmentation": [
+        [
+          1550.0000435345316,
+          854.1666942134198,
+          2645.8334076463107,
+          854.1666942134198,
+          2645.8334076463107,
+          983.333365045693,
+          1550.0000435345316,
+          983.333365045693
+        ]
+      ],
+      "area": 141545.14742924878,
+      "iscrowd": 0,
+      "text": "CIRCUMFERS\nSCIENCES\nCIRCUMFERS\nSCIENCE & Sciences",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_097_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          956.1599731445312,
+          1059.8399658203125
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 43,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9773,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8972
+        }
+      },
+      "source_annotation_id": 52707,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_097__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_097__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_097_0002-verso-52708",
+      "image_id": 46328,
+      "category_id": 1013,
+      "bbox": [
+        1587.5000445877865,
+        1150.0000370873358,
+        637.5000179053316,
+        83.33333602082143
+      ],
+      "segmentation": [
+        [
+          1587.5000445877865,
+          1150.0000370873358,
+          2225.000062493118,
+          1150.0000370873358,
+          2225.000062493118,
+          1233.3333731081573,
+          1587.5000445877865,
+          1233.3333731081573
+        ]
+      ],
+      "area": 53125.00320538467,
+      "iscrowd": 0,
+      "text": "THE DREAD LEMCHU.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_097_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          956.1599731445312,
+          1059.8399658203125
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.925
+        }
+      },
+      "source_annotation_id": 52708,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_097__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_097__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_097_0002-verso-52709",
+      "image_id": 46328,
+      "category_id": 1012,
+      "bbox": [
+        762.5000214161809,
+        3395.8334428484736,
+        2579.166739107191,
+        700.0000225749001
+      ],
+      "segmentation": [
+        [
+          762.5000214161809,
+          3395.8334428484736,
+          3341.666760523372,
+          3395.8334428484736,
+          3341.666760523372,
+          4095.8334654233736,
+          762.5000214161809,
+          4095.8334654233736
+        ]
+      ],
+      "area": 1805416.775599465,
+      "iscrowd": 0,
+      "text": "Ordinarily this chamber, the native holy of helies, is in murky darkness, but Captain Hurley seized an opportunity when the whole vill-ago was attending a funeral, to enter it secretly. He took several flashlight photographs --- at the expense of nearly setting fire to the whole building. Photo by Captain Hurley.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_097_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          956.1599731445312,
+          1059.8399658203125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 253,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 11
+          },
+          "alpha_ratio": 0.9583,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9781
+        }
+      },
+      "source_annotation_id": 52709,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_097__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_097__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_098_0002-verso-52710",
+      "image_id": 46329,
+      "category_id": 1013,
+      "bbox": [
+        1620.8333416021242,
+        1166.6666234712286,
+        629.166669876403,
+        74.9999972231504
+      ],
+      "segmentation": [
+        [
+          1620.8333416021242,
+          1166.6666234712286,
+          2250.000011478527,
+          1166.6666234712286,
+          2250.000011478527,
+          1241.666620694379,
+          1620.8333416021242,
+          1241.666620694379
+        ]
+      ],
+      "area": 47187.49849362901,
+      "iscrowd": 0,
+      "text": "THE DREAD IMURU.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_098_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          957.1199951171875,
+          1055.0400390625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 13,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9286,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9244
+        }
+      },
+      "source_annotation_id": 52710,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_098__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_098__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_098_0002-verso-52711",
+      "image_id": 46329,
+      "category_id": 1012,
+      "bbox": [
+        795.8333373933309,
+        3412.4998736533435,
+        2575.000013136537,
+        654.1666424463674
+      ],
+      "segmentation": [
+        [
+          795.8333373933309,
+          3412.4998736533435,
+          3370.833350529868,
+          3412.4998736533435,
+          3370.833350529868,
+          4066.666516099711,
+          795.8333373933309,
+          4066.666516099711
+        ]
+      ],
+      "area": 1684479.1128928803,
+      "iscrowd": 0,
+      "text": "Ordinarily this chamber, the native holy of helies, is in murky darkness, but Captain Hurley seized an opportunity when the whole vill- age was attending a funeral, to enter it secretly. He took several flashlight photographs --- at the expense of nearly setting fire to the whole building.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_098_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          957.1199951171875,
+          1055.0400390625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 233,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 10
+          },
+          "alpha_ratio": 0.9588,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9532
+        }
+      },
+      "source_annotation_id": 52711,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_098__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_098__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_099_0002-verso-52712",
+      "image_id": 46330,
+      "category_id": 1013,
+      "bbox": [
+        1616.6666216214935,
+        1133.3333226683355,
+        633.3333156867707,
+        74.99999929422809
+      ],
+      "segmentation": [
+        [
+          1616.6666216214935,
+          1133.3333226683355,
+          2249.999937308264,
+          1133.3333226683355,
+          2249.999937308264,
+          1208.3333219625636,
+          1616.6666216214935,
+          1208.3333219625636
+        ]
+      ],
+      "area": 47499.99822951894,
+      "iscrowd": 0,
+      "text": "THE DREAD IKUNU.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_099_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          963.8400268554688,
+          1037.760009765625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 13,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9286,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9244
+        }
+      },
+      "source_annotation_id": 52712,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_099__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_099__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_099_0002-verso-52713",
+      "image_id": 46330,
+      "category_id": 1012,
+      "bbox": [
+        791.6666446084632,
+        3374.999968240264,
+        2574.999928252791,
+        608.333327608739
+      ],
+      "segmentation": [
+        [
+          791.6666446084632,
+          3374.999968240264,
+          3366.6665728612543,
+          3374.999968240264,
+          3366.6665728612543,
+          3983.3332958490028,
+          791.6666446084632,
+          3983.3332958490028
+        ]
+      ],
+      "area": 1566458.2749462845,
+      "iscrowd": 0,
+      "text": "Ordinarily this chamber, the native holy of helies, is in murky darkness, but Captain Hurley seized an opportunity when the whole vill-ago was attending a funeral, to enter it secretly. He took several flashlight photographs --- at the expense of nearly setting fire to the whole building.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_099_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          963.8400268554688,
+          1037.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 233,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 10
+          },
+          "alpha_ratio": 0.9588,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9532
+        }
+      },
+      "source_annotation_id": 52713,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_099__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_099__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_101_0002-verso-52714",
+      "image_id": 46332,
+      "category_id": 1013,
+      "bbox": [
+        1175.000020367339,
+        975.0000204921758,
+        1662.500028817618,
+        150.00000315264245
+      ],
+      "segmentation": [
+        [
+          1175.000020367339,
+          975.0000204921758,
+          2837.500049184957,
+          975.0000204921758,
+          2837.500049184957,
+          1125.0000236448184,
+          1175.000020367339,
+          1125.0000236448184
+        ]
+      ],
+      "area": 249375.00956391086,
+      "iscrowd": 0,
+      "text": "THE MEETING IN THE GREAT RAVI AT KAIMARY.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_101_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          985.9199829101562,
+          1161.5999755859375
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.375,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 33,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9706,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9338
+        }
+      },
+      "source_annotation_id": 52714,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_101__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_101__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_101_0002-verso-52715",
+      "image_id": 46332,
+      "category_id": 1012,
+      "bbox": [
+        825.000014300472,
+        1091.6666896108977,
+        2875.000049834978,
+        3158.3333997139716
+      ],
+      "segmentation": [
+        [
+          825.000014300472,
+          1091.6666896108977,
+          3700.00006413545,
+          1091.6666896108977,
+          3700.00006413545,
+          4250.000089324869,
+          825.000014300472,
+          4250.000089324869
+        ]
+      ],
+      "area": 9080208.681573145,
+      "iscrowd": 0,
+      "text": "This solemn council meeting was convened in the 250 feet long, cavern-like vestibule of the great Ravi of Kaimari, to consider the request of Captain Hurley to purchase one of the mysterious bundles that lay under the holy Imumu. A few of the natives were willing that a bundle should disappear, providing a large knife was found in its place, but the majority of the meeting decided against this. In the end, however, monstrous bluff and generous gifts of Kuku (trade tobacco) softened the natives, and permission was given to the explorers to extract one bullroarer from each package ---- at the price of twenty more sticks of Kuku, and a present of rice. With the keeper of the Imumu, the two white men entered the sanctum, which lay at the end of the vestibule, and was concealed by a screen, which kept it in bat-filled semi-darkness. The high priest refused to touch the sacred packages, and Mr McCulloch, scientist of the Hurley expedition, had the task of opening them and selecting a bullroarer from each. The spiders, scorpions, centipedes, and other verin which crawled forth from each package did not make his task an enviable one.\n\nAfter the selection was made, and wrapped up in palm leaf, none would venture near, nor would they allow the parcel to leave the Ravi until it was securely wrapped up in numerous sleeping-mats, with McCulloch's singlet over al. For should any gaze on the sacred bullroarers they would immediately die, or become violently ill.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_101_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          985.9199829101562,
+          1161.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 1174,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 42
+          },
+          "alpha_ratio": 0.9631,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9954
+        }
+      },
+      "source_annotation_id": 52715,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_101__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_101__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_103_0002-verso-52717",
+      "image_id": 46334,
+      "category_id": 1012,
+      "bbox": [
+        820.8333233453568,
+        1324.9999898095286,
+        2608.33330159489,
+        1808.333319425583
+      ],
+      "segmentation": [
+        [
+          820.8333233453568,
+          1324.9999898095286,
+          3429.166624940247,
+          1324.9999898095286,
+          3429.166624940247,
+          3133.3333092351118,
+          820.8333233453568,
+          3133.3333092351118
+        ]
+      ],
+      "area": 4716736.017441378,
+      "iscrowd": 0,
+      "text": "Kaimari is the largest of the Purari Delta villages (Papua) and is situated in the middle of a fifty-mile mangrove swamp --- a dreary expense of mud and crazy desolation. The huts are built on piles, and are thatched with sago-palm leaves. The Styx Promenade (as Captain Hurley has named the main thoroughfare) is a rained roadway of ricetty, half-rotten mangrove sticks, which runs through the middle of Kaimari, spanning creeks and slime. From it pathways lead to the demiciles, enabling the inhabitants to move about without sinking thigh-deep in filth. The Styx Promenade leads to a colossal building, the Ravi or club house of Kaimari. A majestic, 50-foot arch stands imposingly facing the thoroughfare, and a barrier of woven palm-leaf screens the entrance from the curious, and maybe impious eye.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_103_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          1003.2000122070312,
+          952.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 643,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 28
+          },
+          "alpha_ratio": 0.9554,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9944
+        }
+      },
+      "source_annotation_id": 52717,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_103__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_103__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_103_0002-verso-52718",
+      "image_id": 46334,
+      "category_id": 1012,
+      "bbox": [
+        2020.833308743645,
+        3204.1666420236716,
+        954.1666550562777,
+        104.16666586552898
+      ],
+      "segmentation": [
+        [
+          2020.833308743645,
+          3204.1666420236716,
+          2974.9999637999226,
+          3204.1666420236716,
+          2974.9999637999226,
+          3308.3333078892006,
+          2020.833308743645,
+          3308.3333078892006
+        ]
+      ],
+      "area": 99392.35913727673,
+      "iscrowd": 0,
+      "text": "Photo by Captain Hurley,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_103_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          1003.2000122070312,
+          952.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.969
+        }
+      },
+      "source_annotation_id": 52718,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_103__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_103__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_104_0002-verso-52719",
+      "image_id": 46335,
+      "category_id": 1012,
+      "bbox": [
+        633.3333471520654,
+        1275.0000201397063,
+        2587.500056456793,
+        1816.6666953624574
+      ],
+      "segmentation": [
+        [
+          633.3333471520654,
+          1275.0000201397063,
+          3220.8334036088586,
+          1275.0000201397063,
+          3220.8334036088586,
+          3091.6667155021637,
+          633.3333471520654,
+          3091.6667155021637
+        ]
+      ],
+      "area": 4700625.176813534,
+      "iscrowd": 0,
+      "text": "Kainari is the largest of the Purari Delta villages (Papua) and is situated in the middle of a fifty-mile nongrove swamp -- a dreary expense of rud and ozy desolation. The huts are built on piles, and are thatched with sego-palm leaves. The Styx Promenade (as Captain Hurley has named the main thoroughfare) is a raised roadway of ricketty, half-roton mangrove sticks, which runs through the middle of Kainari, spanning creeks and slime. From it pathways lead to the domicile, enabling the inhabitants to move about without sinking thigh-deep in filth. The Styx Promenade leads to a colossal building, the Ravi or club house of Kainari. A majestic, 50-foot arch stands imposingly facing the thoroughfare, and a barrier of woven palm-leaf screens the entrance from the curious, and maybe impious eye.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_104_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1007.0399780273438,
+          927.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 640,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 27
+          },
+          "alpha_ratio": 0.9567,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9946
+        }
+      },
+      "source_annotation_id": 52719,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_104__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_104__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_105_0002-verso-52722",
+      "image_id": 46336,
+      "category_id": 1012,
+      "bbox": [
+        645.833323802739,
+        1254.1666901189524,
+        2579.166628605777,
+        1825.0000341265818
+      ],
+      "segmentation": [
+        [
+          645.833323802739,
+          1254.1666901189524,
+          3224.999952408516,
+          1254.1666901189524,
+          3224.999952408516,
+          3079.166724245534,
+          645.833323802739,
+          3079.166724245534
+        ]
+      ],
+      "area": 4706979.185223684,
+      "iscrowd": 0,
+      "text": "Klineari is the largest of the Purari Delta villages (Papua) and is situated in the middle of a fifty-mile nongrove swamp -- a dreary expanse of mud and copy desolation. The huts are built on piles, and are thatched with sago-palm leaves. The Styx Promenode (as Captain Hurley has noted the rain thoroughness raised roadway of ricketty, half-roton mangrove sticks, which runs through the middle of Klimari, spanning crooks and slime. From it pathways lead to the domicile, enabling the inhabitants to move about without sinking thigh-deep in filth. The Styx Promenode leads to a colossal building, the Navi or club house of Klimari. A majestic, 50-foot arch stands imposingly facing the thoroughfare, and a barrier of woven palm-leaf screens the entrance from the curious, and maybe impious eye.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_105_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          992.6400146484375,
+          913.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 639,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 26
+          },
+          "alpha_ratio": 0.958,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9948
+        }
+      },
+      "source_annotation_id": 52722,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_105__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_105__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_106_0002-verso-52723",
+      "image_id": 46337,
+      "category_id": 1012,
+      "bbox": [
+        733.3333262690792,
+        1316.666629043561,
+        2599.999974954008,
+        1824.9999478515183
+      ],
+      "segmentation": [
+        [
+          733.3333262690792,
+          1316.666629043561,
+          3333.333301223087,
+          1316.666629043561,
+          3333.333301223087,
+          3141.6665768950793,
+          733.3333262690792,
+          3141.6665768950793
+        ]
+      ],
+      "area": 4744999.818705013,
+      "iscrowd": 0,
+      "text": "Kainari is the largest of the Purari Delta villages (Popua) and is situated in the middle of a fifty-mile mangrove swamp -- a dreary expense of mud and sozy desolation. The hats are built on piles, and are thatched with sego-palm leaves. The Styx Promenade (as Captain Hurley has named the rain thoroughfore) is a raised roadway of ricketty, half-rotten sengrove sticks, which runs through the middle of Kainari, spanning crooks and slime. From it pathways lead to the domicile, enabling the inhabitants to move about without sinking thigh-deep in filth. The Styx Promenade leads to a colossal building, the Kavi or club house of Kainari. A majestic, 50-foot arch stands imposingly facing the thoroughfare, and a barrier of seven palm-leaf screens the entrance from the curious, and maybe impious eye.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_106_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1013.760009765625,
+          939.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 642,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 27
+          },
+          "alpha_ratio": 0.9568,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9946
+        }
+      },
+      "source_annotation_id": 52723,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_106__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_106__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_109_0002-verso-52727",
+      "image_id": 46340,
+      "category_id": 1012,
+      "bbox": [
+        708.3333305142647,
+        987.4999779706816,
+        1424.9999943286973,
+        254.1666609966733
+      ],
+      "segmentation": [
+        [
+          708.3333305142647,
+          987.4999779706816,
+          2133.333324842962,
+          987.4999779706816,
+          2133.333324842962,
+          1241.6666389673549,
+          708.3333305142647,
+          1241.6666389673549
+        ]
+      ],
+      "area": 362187.4904788034,
+      "iscrowd": 0,
+      "text": "DREAM TIME ON THE FLY RIVER,\n\nPhoto by Capt Hurley.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_109_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          613.4400024414062,
+          437.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 39,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9512,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9439
+        }
+      },
+      "source_annotation_id": 52727,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_109__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_109__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_172_110_0002-verso-52728",
+      "image_id": 46341,
+      "category_id": 1012,
+      "bbox": [
+        437.499994800841,
+        1058.3333303886059,
+        1512.4999820257647,
+        216.6666660638091
+      ],
+      "segmentation": [
+        [
+          437.499994800841,
+          1058.3333303886059,
+          1949.9999768266057,
+          1058.3333303886059,
+          1949.9999768266057,
+          1274.999996452415,
+          437.499994800841,
+          1274.999996452415
+        ]
+      ],
+      "area": 327708.3285270936,
+      "iscrowd": 0,
+      "text": "WHERE NATURE FINDS SYMPATHY IN ALL HER MOODS. Photo by Capt Hurley.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_172_110_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          616.3200073242188,
+          438.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 54,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9643,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9289
+        }
+      },
+      "source_annotation_id": 52728,
+      "source_file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_110__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_172/SHDGR__GR_2_K_247_172_110__0002.jpg"
+    }
+  ]
 }

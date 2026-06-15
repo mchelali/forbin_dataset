@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_141",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Géographique",
         "Cluster": 4,
         "ClusterLabel": "RELIGION",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,6 +2903,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2544,6 +2932,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2570,6 +2961,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2596,6 +2990,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2622,6 +3019,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2648,6 +3048,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2674,6 +3077,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2700,6 +3106,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2726,6 +3135,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2752,6 +3164,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2778,6 +3193,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2804,6 +3222,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2830,6 +3251,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2856,6 +3280,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2882,6 +3309,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2908,6 +3338,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2934,6 +3367,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2960,6 +3396,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2986,6 +3425,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3012,6 +3454,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3038,6 +3483,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3064,6 +3512,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3090,6 +3541,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3116,6 +3570,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3142,6 +3599,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3168,6 +3628,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3194,6 +3657,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3220,6 +3686,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3246,6 +3715,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3272,6 +3744,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3298,6 +3773,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3324,6 +3802,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3350,6 +3831,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3376,6 +3860,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3402,6 +3889,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3428,6 +3918,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3454,6 +3947,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3480,6 +3976,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3506,6 +4005,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3532,6 +4034,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3558,6 +4063,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3584,6 +4092,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3610,6 +4121,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3636,6 +4150,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3662,6 +4179,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3688,6 +4208,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3714,6 +4237,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3740,6 +4266,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3766,6 +4295,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3792,6 +4324,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3818,6 +4353,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3844,6 +4382,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3870,6 +4411,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3896,6 +4440,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3922,6 +4469,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3948,6 +4498,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3974,6 +4527,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4000,6 +4556,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4026,6 +4585,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4052,6 +4614,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4078,6 +4643,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4104,6 +4672,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4130,6 +4701,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4156,6 +4730,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4182,6 +4759,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4208,6 +4788,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4234,6 +4817,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4260,6 +4846,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4286,6 +4875,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4312,6 +4904,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4338,6 +4933,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4364,6 +4962,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4390,6 +4991,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4416,6 +5020,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4442,6 +5049,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4468,6 +5078,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4494,6 +5107,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -4520,9 +5136,2257 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Indonésie Malaisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_017_0002-verso-46271",
+      "image_id": 39065,
+      "category_id": 1012,
+      "bbox": [
+        200.0000050717724,
+        1141.666695413286,
+        1416.666702591721,
+        100.00000251795205
+      ],
+      "segmentation": [
+        [
+          200.0000050717724,
+          1141.666695413286,
+          1616.6667076634935,
+          1141.666695413286,
+          1616.6667076634935,
+          1241.666697931238,
+          200.0000050717724,
+          1241.666697931238
+        ]
+      ],
+      "area": 141666.67382627094,
+      "iscrowd": 0,
+      "text": "Sunalesische Töpfer bei der Arbeit.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_017_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          673.9199829101562,
+          484.79998779296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 30,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9677,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.896
+        }
+      },
+      "source_annotation_id": 46271,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_017__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_017__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_019_0002-verso-46272",
+      "image_id": 39067,
+      "category_id": 1012,
+      "bbox": [
+        562.5000234510088,
+        316.66666030046144,
+        983.333374329171,
+        374.9999924610728
+      ],
+      "segmentation": [
+        [
+          562.5000234510088,
+          316.66666030046144,
+          1545.83339778018,
+          316.66666030046144,
+          1545.83339778018,
+          691.6666527615342,
+          562.5000234510088,
+          691.6666527615342
+        ]
+      ],
+      "area": 368750.0079601604,
+      "iscrowd": 0,
+      "text": "TOUTE LA TERRE 9\nPAGE: 4\nDOCUM.: 4",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_019_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          527.0399780273438,
+          728.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 3
+          },
+          "alpha_ratio": 0.7778,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8922
+        }
+      },
+      "source_annotation_id": 46272,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_019__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_019__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_025_0002-verso-46273",
+      "image_id": 39073,
+      "category_id": 1012,
+      "bbox": [
+        641.6666764970446,
+        720.8333243471865,
+        408.3333395890284,
+        149.9999981300504
+      ],
+      "segmentation": [
+        [
+          641.6666764970446,
+          720.8333243471865,
+          1050.000016086073,
+          720.8333243471865,
+          1050.000016086073,
+          870.8333224772368,
+          641.6666764970446,
+          870.8333224772368
+        ]
+      ],
+      "area": 61250.000174791494,
+      "iscrowd": 0,
+      "text": "Bever",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_025_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          398.3999938964844,
+          489.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 5,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 46273,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_025__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_025__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_032_0002-verso-46274",
+      "image_id": 39080,
+      "category_id": 1012,
+      "bbox": [
+        962.5000299115783,
+        962.500023568568,
+        2033.333396523161,
+        362.50000887647366
+      ],
+      "segmentation": [
+        [
+          962.5000299115783,
+          962.500023568568,
+          2995.833426434739,
+          962.500023568568,
+          2995.833426434739,
+          1325.0000324450416,
+          962.5000299115783,
+          1325.0000324450416
+        ]
+      ],
+      "area": 737083.3742884762,
+      "iscrowd": 0,
+      "text": "FREDERICK BURLINGHAM EXPEDITION INTO CENTRAL BORNEO\n\nThis is not the \"Wild Man from Borneo\" but Frederick Burlingham who is just back from living with the wild men up the Barito River.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_032_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          942.719970703125,
+          697.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 150,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9804,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9309
+        }
+      },
+      "source_annotation_id": 46274,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_032__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_032__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_038_0002-verso-46275",
+      "image_id": 39086,
+      "category_id": 1012,
+      "bbox": [
+        620.8333262320103,
+        470.83332059513066,
+        1645.8333145076786,
+        354.1666570848328
+      ],
+      "segmentation": [
+        [
+          620.8333262320103,
+          470.83332059513066,
+          2266.666640739689,
+          470.83332059513066,
+          2266.666640739689,
+          824.9999776799634,
+          620.8333262320103,
+          824.9999776799634
+        ]
+      ],
+      "area": 582899.2831180348,
+      "iscrowd": 0,
+      "text": "La ferme d'un sulton\nde la Universite de Malacrea",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_038_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          640.3200073242188,
+          902.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5556,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 40,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9756,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9525
+        }
+      },
+      "source_annotation_id": 46275,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_038__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_038__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_039_0002-verso-46276",
+      "image_id": 39087,
+      "category_id": 1012,
+      "bbox": [
+        820.8333273232937,
+        295.83332693430367,
+        2233.333316981144,
+        358.333325582396
+      ],
+      "segmentation": [
+        [
+          820.8333273232937,
+          295.83332693430367,
+          3054.166644304438,
+          295.83332693430367,
+          3054.166644304438,
+          654.1666525166997,
+          820.8333273232937,
+          654.1666525166997
+        ]
+      ],
+      "area": 800277.7546078167,
+      "iscrowd": 0,
+      "text": "Martin Johnson and his plucky wife, Osa, in front of their hut in darkest Borneo, during the filming of Exceptional Pictures Corporation's first release, Martin Johnson's \"Jungle Adventures\", to be shown at the Capitol Theatre, New York, week of September 11th",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_039_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1000.3200073242188,
+          790.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 207,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 11
+          },
+          "alpha_ratio": 0.9409,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9593
+        }
+      },
+      "source_annotation_id": 46276,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_039__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_039__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_040_0001-recto-46277",
+      "image_id": 39088,
+      "category_id": 1012,
+      "bbox": [
+        266.6666544840013,
+        3341.666849753882,
+        1949.9999109142595,
+        650.0000356129746
+      ],
+      "segmentation": [
+        [
+          266.6666544840013,
+          3341.666849753882,
+          2216.666565398261,
+          3341.666849753882,
+          2216.666565398261,
+          3991.6668853668566,
+          266.6666544840013,
+          3991.6668853668566
+        ]
+      ],
+      "area": 1267500.0115395659,
+      "iscrowd": 0,
+      "text": "PHOT O FROM: WIDE WORLD PHOTOS:\n41958 F.C. EXPLORING BORNEO FOR THE MOVIES.\nIt was simply a question of Martin Johnson's life (the world renowned explorer) or that of the mammoth elephant which battle was staged especially for the moving picture in which his adventures on the Isle f Borneo were filmed for the movies. His native attendant and his wife Osa Johnson equally famous for her travels thru jungles are also seen in the photo.\n8/23/21",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_141_040_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          641.280029296875,
+          1069.43994140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 346,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 10,
+            "other": 12
+          },
+          "alpha_ratio": 0.9402,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9925
+        }
+      },
+      "source_annotation_id": 46277,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_040__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_040__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_042_0002-verso-46280",
+      "image_id": 39090,
+      "category_id": 1012,
+      "bbox": [
+        1012.5000322874073,
+        1641.6666782316925,
+        1558.3333830267093,
+        100.00000070446858
+      ],
+      "segmentation": [
+        [
+          1012.5000322874073,
+          1641.6666782316925,
+          2570.833415314117,
+          1641.6666782316925,
+          2570.833415314117,
+          1741.6666789361611,
+          1012.5000322874073,
+          1741.6666789361611
+        ]
+      ],
+      "area": 155833.3394004678,
+      "iscrowd": 0,
+      "text": "This Photograph is copyright & fully protected.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_042_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          918.719970703125,
+          693.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 39,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9512,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9272
+        }
+      },
+      "source_annotation_id": 46280,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_042__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_042__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_042_0002-verso-46281",
+      "image_id": 39090,
+      "category_id": 1012,
+      "bbox": [
+        975.0000310915774,
+        1783.3333458963564,
+        1658.333386215589,
+        104.1666674004881
+      ],
+      "segmentation": [
+        [
+          975.0000310915774,
+          1783.3333458963564,
+          2633.333417307166,
+          1783.3333458963564,
+          2633.333417307166,
+          1887.5000132968444,
+          975.0000310915774,
+          1887.5000132968444
+        ]
+      ],
+      "area": 172743.06228104443,
+      "iscrowd": 0,
+      "text": "Rechtens verboden te reproduceieren in elken vorm.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_042_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          918.719970703125,
+          693.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 43,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9773,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9114
+        }
+      },
+      "source_annotation_id": 46281,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_042__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_042__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_042_0002-verso-46282",
+      "image_id": 39090,
+      "category_id": 1012,
+      "bbox": [
+        337.5000107624691,
+        1900.000013384903,
+        2925.0000932747325,
+        241.6666683691324
+      ],
+      "segmentation": [
+        [
+          337.5000107624691,
+          1900.000013384903,
+          3262.5001040372017,
+          1900.000013384903,
+          3262.5001040372017,
+          2141.6666817540354,
+          337.5000107624691,
+          2141.6666817540354
+        ]
+      ],
+      "area": 706875.0275211061,
+      "iscrowd": 0,
+      "text": "Het Auteursrecht op deze photo is verleend volgens Ind. Staatsblad No. 600 Wet 29/9/12.\nTous droits reservations Alle rechte vorbehalten",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_042_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          918.719970703125,
+          693.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 104,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 5
+          },
+          "alpha_ratio": 0.8889,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9028
+        }
+      },
+      "source_annotation_id": 46282,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_042__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_042__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_044_0002-verso-46283",
+      "image_id": 39092,
+      "category_id": 1012,
+      "bbox": [
+        270.83332781059175,
+        612.4999837984011,
+        2683.3332786157093,
+        408.3333225322674
+      ],
+      "segmentation": [
+        [
+          270.83332781059175,
+          612.4999837984011,
+          2954.166606426301,
+          612.4999837984011,
+          2954.166606426301,
+          1020.8333063306685,
+          270.83332781059175,
+          1020.8333063306685
+        ]
+      ],
+      "area": 1095694.393118555,
+      "iscrowd": 0,
+      "text": "VOLcano IN RUPTION.\n\n0.P.S. A remarkable photograph of the great volcano in Java, in its greatest activity. The smoke can be seen for miles around, and the greatest activity. The smoke can be seen for miles around, and the greatest activity is not present.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_044_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          838.0800170898438,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 201,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 10
+          },
+          "alpha_ratio": 0.9481,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9935
+        }
+      },
+      "source_annotation_id": 46283,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_044__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_044__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_048_0002-verso-46284",
+      "image_id": 39096,
+      "category_id": 1012,
+      "bbox": [
+        1341.6667226016655,
+        649.9999787079746,
+        1991.666749700609,
+        424.9999860782911
+      ],
+      "segmentation": [
+        [
+          1341.6667226016655,
+          649.9999787079746,
+          3333.3334723022745,
+          649.9999787079746,
+          3333.3334723022745,
+          1074.9999647862658,
+          1341.6667226016655,
+          1074.9999647862658
+        ]
+      ],
+      "area": 846458.3408953542,
+      "iscrowd": 0,
+      "text": "the village entirement然而\nfrom la bone volvomique",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_048_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1054.0799560546875,
+          819.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 40,
+            "cjk": 2,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9286
+        }
+      },
+      "source_annotation_id": 46284,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_048__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_048__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_051_0002-verso-46285",
+      "image_id": 39099,
+      "category_id": 1012,
+      "bbox": [
+        1504.166677263048,
+        1204.1666697725025,
+        1045.8333407009006,
+        254.1666673222237
+      ],
+      "segmentation": [
+        [
+          1504.166677263048,
+          1204.1666697725025,
+          2550.0000179639487,
+          1204.1666697725025,
+          2550.0000179639487,
+          1458.3333370947262,
+          1504.166677263048,
+          1458.3333370947262
+        ]
+      ],
+      "area": 265815.97478041565,
+      "iscrowd": 0,
+      "text": "sting on the flour in the prays, before they start the steps of the temple.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_051_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          693.1199951171875,
+          473.2799987792969
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 59,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9672,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9542
+        }
+      },
+      "source_annotation_id": 46285,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_051__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_051__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_052_0002-verso-46286",
+      "image_id": 39100,
+      "category_id": 1012,
+      "bbox": [
+        116.66666298858401,
+        637.4999984762723,
+        2508.3332542545563,
+        449.9999989244275
+      ],
+      "segmentation": [
+        [
+          116.66666298858401,
+          637.4999984762723,
+          2624.9999172431403,
+          637.4999984762723,
+          2624.9999172431403,
+          1087.4999974006996,
+          116.66666298858401,
+          1087.4999974006996
+        ]
+      ],
+      "area": 1128749.961716656,
+      "iscrowd": 0,
+      "text": "for example, before die den bei liehen Boden ist, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl, dass siehl",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_052_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          696.9600219726562,
+          510.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 9228,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1022
+          },
+          "alpha_ratio": 0.9003,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8959
+        }
+      },
+      "source_annotation_id": 46286,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_052__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_052__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_058_0001-recto-46288",
+      "image_id": 39106,
+      "category_id": 1013,
+      "bbox": [
+        141.66667257284666,
+        83.33333333333334,
+        995.8333748503045,
+        654.1666666666667
+      ],
+      "segmentation": [
+        [
+          141.66667257284666,
+          83.33333333333334,
+          1137.500047423151,
+          83.33333333333334,
+          1137.500047423151,
+          737.5000000000001,
+          141.66667257284666,
+          737.5000000000001
+        ]
+      ],
+      "area": 651440.9993812409,
+      "iscrowd": 0,
+      "text": "- Dignitaires umalais\n(Sultans, Datos ...) et occidentaux",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_141_058_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          292.79998779296875,
+          408.0
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 43,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.86,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8992
+        }
+      },
+      "source_annotation_id": 46288,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_058__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_058__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_058_0002-verso-46289",
+      "image_id": 39106,
+      "category_id": 1012,
+      "bbox": [
+        29.166666666666668,
+        37.49999875336695,
+        1275.0,
+        1124.9999626010085
+      ],
+      "segmentation": [
+        [
+          29.166666666666668,
+          37.49999875336695,
+          1304.1666666666667,
+          37.49999875336695,
+          1304.1666666666667,
+          1162.4999613543755,
+          29.166666666666668,
+          1162.4999613543755
+        ]
+      ],
+      "area": 1434374.9523162858,
+      "iscrowd": 0,
+      "text": "nnel qui pourrait en resulter $^{1}$. Un contrôleurner l'étude dans les 3 services historiques. Le eau de Vincennes, où il a notamment investi le er de nouveaux éléments, dont la bibliothèque ain. Cela passe par la fin de la restauration du tion à son profit. L'Armée de terme se déclare en rappelant une instruction de l'Etat-major deance, pour le rayonnement du SHA, de son es. En revanche, le SHA paraît relativement e, car elle favoriserait « une relative dispersion dans les bâtiments classés » $^{15}$. De son côté, le la caserne Denfert-Rochereau de Versailles et est une nécessité » $^{16}$. Excluant lui aussi un plutôt favorable à un transfert à Vincennes, il, en produisant une note sur les conséquences",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_058_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          408.0,
+          293.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 551,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 39
+          },
+          "alpha_ratio": 0.9245,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9906
+        }
+      },
+      "source_annotation_id": 46289,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_058__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_058__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_061_0001-recto-46290",
+      "image_id": 39109,
+      "category_id": 1012,
+      "bbox": [
+        179.16667498893912,
+        3079.166694046827,
+        883.3333743640719,
+        87.50000077805598
+      ],
+      "segmentation": [
+        [
+          179.16667498893912,
+          3079.166694046827,
+          1062.500049353011,
+          3079.166694046827,
+          1062.500049353011,
+          3166.666694824883,
+          179.16667498893912,
+          3166.666694824883
+        ]
+      ],
+      "area": 77291.6709441391,
+      "iscrowd": 0,
+      "text": "1960- Governor General's Palace, Batavia",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_141_061_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1051.199951171875,
+          823.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 3
+          },
+          "alpha_ratio": 0.8056,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8757
+        }
+      },
+      "source_annotation_id": 46290,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_061__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_061__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_081_0002-verso-46293",
+      "image_id": 39129,
+      "category_id": 1013,
+      "bbox": [
+        1154.1666241275723,
+        299.999995777088,
+        749.9999723572671,
+        120.8333316324382
+      ],
+      "segmentation": [
+        [
+          1154.1666241275723,
+          299.999995777088,
+          1904.1665964848394,
+          299.999995777088,
+          1904.1665964848394,
+          420.8333274095262,
+          1154.1666241275723,
+          420.8333274095262
+        ]
+      ],
+      "area": 90624.99538416514,
+      "iscrowd": 0,
+      "text": "Einsender:",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_081_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          662.4000244140625,
+          520.3200073242188
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 9,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8875
+        }
+      },
+      "source_annotation_id": 46293,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_081__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_081__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_081_0002-verso-46294",
+      "image_id": 39129,
+      "category_id": 1012,
+      "bbox": [
+        1045.833294787078,
+        449.9999936656319,
+        758.333305383459,
+        304.16666238510305
+      ],
+      "segmentation": [
+        [
+          1045.833294787078,
+          449.9999936656319,
+          1804.166600170537,
+          449.9999936656319,
+          1804.166600170537,
+          754.1666560507349,
+          1045.833294787078,
+          754.1666560507349
+        ]
+      ],
+      "area": 230659.71047394982,
+      "iscrowd": 0,
+      "text": "Scherl's Bildorf\nBerlin S.W.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_081_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          662.4000244140625,
+          520.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 22,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.88,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.885
+        }
+      },
+      "source_annotation_id": 46294,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_081__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_081__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_092_0002-verso-46296",
+      "image_id": 39140,
+      "category_id": 1012,
+      "bbox": [
+        137.5000047575591,
+        1524.9999596613252,
+        2916.6667675845874,
+        516.6666530000118
+      ],
+      "segmentation": [
+        [
+          137.5000047575591,
+          1524.9999596613252,
+          3054.1667723421465,
+          1524.9999596613252,
+          3054.1667723421465,
+          2041.666612661337,
+          137.5000047575591,
+          2041.666612661337
+        ]
+      ],
+      "area": 1506944.4567242921,
+      "iscrowd": 0,
+      "text": "A MLAX \"BATCH\".\nA MLA X \"BATCH\"\nO.P.S. An interesting photo newspaper with The Tox 11 call 011-8 stores of working food for every-\nshowing the native open. \"The order method of cooking food is an every-\nshowing the open-air storage of late day.\nday scene in the open-air storage of late day.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_092_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          846.719970703125,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 216,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 17
+          },
+          "alpha_ratio": 0.9038,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.988
+        }
+      },
+      "source_annotation_id": 46296,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_092__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_092__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_093_0002-verso-46297",
+      "image_id": 39141,
+      "category_id": 1013,
+      "bbox": [
+        387.5,
+        1137.4999699113164,
+        758.3333333333334,
+        91.66666424193758
+      ],
+      "segmentation": [
+        [
+          387.5,
+          1137.4999699113164,
+          1145.8333333333335,
+          1137.4999699113164,
+          1145.8333333333335,
+          1229.1666341532539,
+          387.5,
+          1229.1666341532539
+        ]
+      ],
+      "area": 69513.887050136,
+      "iscrowd": 0,
+      "text": "A KITCHEN IN MALAY.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_093_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          840.0,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 15,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9375,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9255
+        }
+      },
+      "source_annotation_id": 46297,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_093__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_093__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_093_0002-verso-46298",
+      "image_id": 39141,
+      "category_id": 1012,
+      "bbox": [
+        387.5,
+        1220.8333010403505,
+        2870.8333333333335,
+        362.4999904112986
+      ],
+      "segmentation": [
+        [
+          387.5,
+          1220.8333010403505,
+          3258.3333333333335,
+          1220.8333010403505,
+          3258.3333333333335,
+          1583.333291451649,
+          387.5,
+          1583.333291451649
+        ]
+      ],
+      "area": 1040677.0558057697,
+      "iscrowd": 0,
+      "text": "O.P.S. The interesting way in which a meal is prepared in the open-air Kitchens, consisting of very small stoves = owed by natives. These open-air kitchens cook mainly, for the benefit of the people who pass on the road, to and from the Market.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_093_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          840.0,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 190,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 11
+          },
+          "alpha_ratio": 0.9453,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9932
+        }
+      },
+      "source_annotation_id": 46298,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_093__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_093__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_100_0002-verso-46300",
+      "image_id": 39148,
+      "category_id": 1013,
+      "bbox": [
+        562.5000064004989,
+        645.8333454100917,
+        641.6666739679765,
+        79.1666681470435
+      ],
+      "segmentation": [
+        [
+          562.5000064004989,
+          645.8333454100917,
+          1204.1666803684755,
+          645.8333454100917,
+          1204.1666803684755,
+          725.0000135571353,
+          562.5000064004989,
+          725.0000135571353
+        ]
+      ],
+      "area": 50798.61263903995,
+      "iscrowd": 0,
+      "text": "A MILAY \"SATCH\".",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_100_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          858.239990234375,
+          652.7999877929688
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 11,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.7857,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8732
+        }
+      },
+      "source_annotation_id": 46300,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_100__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_100__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_100_0002-verso-46301",
+      "image_id": 39148,
+      "category_id": 1012,
+      "bbox": [
+        558.3333396864211,
+        770.8333477475288,
+        2858.33336585735,
+        283.3333386315241
+      ],
+      "segmentation": [
+        [
+          558.3333396864211,
+          770.8333477475288,
+          3416.666705543771,
+          770.8333477475288,
+          3416.666705543771,
+          1054.1666863790529,
+          558.3333396864211,
+          1054.1666863790529
+        ]
+      ],
+      "area": 809861.1354702447,
+      "iscrowd": 0,
+      "text": "0.0.3. An interesting photograph taken in a market place in May States showing the natives with their small oil-stoves cooking food for their customers - in the open. This crude method of cooking food is an every-day scene in the open-air streets of May.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_100_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          858.239990234375,
+          652.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 199,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 9
+          },
+          "alpha_ratio": 0.9431,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9929
+        }
+      },
+      "source_annotation_id": 46301,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_100__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_100__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_101_0002-verso-46302",
+      "image_id": 39149,
+      "category_id": 1012,
+      "bbox": [
+        499.9999985696673,
+        679.1666845255609,
+        2874.9999917755868,
+        433.3333447279652
+      ],
+      "segmentation": [
+        [
+          499.9999985696673,
+          679.1666845255609,
+          3374.999990345254,
+          679.1666845255609,
+          3374.999990345254,
+          1112.500029253526,
+          499.9999985696673,
+          1112.500029253526
+        ]
+      ],
+      "area": 1245833.3625289875,
+      "iscrowd": 0,
+      "text": "A MALAY \"SATCH\". An interesting photograph taken in a market place in Malay States 0.P.S. An interesting photograph taken in a market place in Malay States showing the natives with their small oil-stoves cooking food for their showing the natives with their small oil-stoves cooking food is an every-custers - in the open. His crude method of cooking food is an every-day scene in the open-air streets of Malay.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_101_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          853.4400024414062,
+          649.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 328,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 14
+          },
+          "alpha_ratio": 0.9563,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9945
+        }
+      },
+      "source_annotation_id": 46302,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_101__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_101__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_111_0002-verso-46303",
+      "image_id": 39159,
+      "category_id": 1012,
+      "bbox": [
+        883.3333582475614,
+        249.99999130147833,
+        383.3333441451681,
+        166.6666608676522
+      ],
+      "segmentation": [
+        [
+          883.3333582475614,
+          249.99999130147833,
+          1266.6667023927293,
+          249.99999130147833,
+          1266.6667023927293,
+          416.66665216913054,
+          883.3333582475614,
+          416.66665216913054
+        ]
+      ],
+      "area": 63888.888467905745,
+      "iscrowd": 0,
+      "text": "Aitching",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_111_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          519.3599853515625,
+          385.9200134277344
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 8,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 46303,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_111__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_111__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_119_0002-verso-46304",
+      "image_id": 39167,
+      "category_id": 1012,
+      "bbox": [
+        854.1666778446677,
+        429.1666736258205,
+        3700.0000484198285,
+        516.6666750446772
+      ],
+      "segmentation": [
+        [
+          854.1666778446677,
+          429.1666736258205,
+          4554.166726264496,
+          429.1666736258205,
+          4554.166726264496,
+          945.8333486704977,
+          854.1666778446677,
+          945.8333486704977
+        ]
+      ],
+      "area": 1911666.7226822174,
+      "iscrowd": 0,
+      "text": "The galo coach built expertly for the use of the \"prime and Carriers of Wales at Singapore. Note the curious whips in the \"handouts of the two first revances.\" They are \"chance monsoon,\"",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_119_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1119.3599853515625,
+          903.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 146,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9481,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9935
+        }
+      },
+      "source_annotation_id": 46304,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_119__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_119__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_124_0002-verso-46305",
+      "image_id": 39172,
+      "category_id": 1012,
+      "bbox": [
+        616.6666714528246,
+        1058.333311332128,
+        2220.8333505699698,
+        470.8333235453955
+      ],
+      "segmentation": [
+        [
+          616.6666714528246,
+          1058.333311332128,
+          2837.5000220227944,
+          1058.333311332128,
+          2837.5000220227944,
+          1529.1666348775234,
+          616.6666714528246,
+          1529.1666348775234
+        ]
+      ],
+      "area": 1045642.3474893153,
+      "iscrowd": 0,
+      "text": "This is a street scene at Poeroektjahoe, the last Dutch military outpost up the Barito River, taken during the greatest flood in the history of Borneo. The shirtless boy at the bow of the boat is Tjim A Tjie Burlingham's cook loaned by the prison authorities and released from prison where he was serving a fifteen year sentence for assussinating three natives.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_124_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          943.6799926757812,
+          704.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 295,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9833,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9979
+        }
+      },
+      "source_annotation_id": 46305,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_124__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_124__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_124_0002-verso-46306",
+      "image_id": 39172,
+      "category_id": 1012,
+      "bbox": [
+        3008.333356682023,
+        891.666648130218,
+        75.0000005821003,
+        1541.6666346176667
+      ],
+      "segmentation": [
+        [
+          3008.333356682023,
+          891.666648130218,
+          3083.333357264123,
+          891.666648130218,
+          3083.333357264123,
+          2433.333282747885,
+          3008.333356682023,
+          2433.333282747885
+        ]
+      ],
+      "area": 115624.99849372961,
+      "iscrowd": 0,
+      "text": "Scene at Poeroektjahoe, Central Borneo,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_124_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          943.6799926757812,
+          704.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 33,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9429,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8929
+        }
+      },
+      "source_annotation_id": 46306,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_124__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_124__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_124_0002-verso-46307",
+      "image_id": 39172,
+      "category_id": 1012,
+      "bbox": [
+        2595.8333534804715,
+        1874.9999610214866,
+        216.66666834828973,
+        520.8333225059685
+      ],
+      "segmentation": [
+        [
+          2595.8333534804715,
+          1874.9999610214866,
+          2812.5000218287614,
+          1874.9999610214866,
+          2812.5000218287614,
+          2395.833283527455,
+          2595.8333534804715,
+          2395.833283527455
+        ]
+      ],
+      "area": 112847.2207521385,
+      "iscrowd": 0,
+      "text": "k Burlingham",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_124_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          943.6799926757812,
+          704.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 11,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 46307,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_124__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_124__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_141_0001-recto-46308",
+      "image_id": 39189,
+      "category_id": 1012,
+      "bbox": [
+        424.9999780440643,
+        3216.666609527624,
+        583.3333031977353,
+        104.16666481630908
+      ],
+      "segmentation": [
+        [
+          424.9999780440643,
+          3216.666609527624,
+          1008.3332812417996,
+          3216.666609527624,
+          1008.3332812417996,
+          3320.833274343933,
+          424.9999780440643,
+          3320.833274343933
+        ]
+      ],
+      "area": 60763.88467038889,
+      "iscrowd": 0,
+      "text": "404-The Istana, Johore",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_141_141_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1039.6800537109375,
+          824.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 15,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 2
+          },
+          "alpha_ratio": 0.75,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9021
+        }
+      },
+      "source_annotation_id": 46308,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_141__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_141__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_147_0002-verso-46309",
+      "image_id": 39195,
+      "category_id": 1012,
+      "bbox": [
+        504.1666534937683,
+        1383.3333333333335,
+        1037.4999728921348,
+        83.33333333333334
+      ],
+      "segmentation": [
+        [
+          504.1666534937683,
+          1383.3333333333335,
+          1541.666626385903,
+          1383.3333333333335,
+          1541.666626385903,
+          1466.6666666666667,
+          504.1666534937683,
+          1466.6666666666667
+        ]
+      ],
+      "area": 86458.33107434458,
+      "iscrowd": 0,
+      "text": "Evening on Kurischen Haff.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_147_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          840.9600219726562,
+          648.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 22,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9565,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9196
+        }
+      },
+      "source_annotation_id": 46309,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_147__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_147__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_160_0002-verso-46312",
+      "image_id": 39208,
+      "category_id": 1012,
+      "bbox": [
+        762.4999920932202,
+        1500.0000556890132,
+        2262.4999765388993,
+        650.0000241319057
+      ],
+      "segmentation": [
+        [
+          762.4999920932202,
+          1500.0000556890132,
+          3024.9999686321194,
+          1500.0000556890132,
+          3024.9999686321194,
+          2150.000079820919,
+          762.4999920932202,
+          2150.000079820919
+        ]
+      ],
+      "area": 1470625.0393487206,
+      "iscrowd": 0,
+      "text": "Le planade\n& Club on victims' reactions\nles humosplén à la outie des lapes\n& les humosplén à 5 centres de l'apre, much",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_160_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          941.760009765625,
+          657.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 90,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 5
+          },
+          "alpha_ratio": 0.9375,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9505
+        }
+      },
+      "source_annotation_id": 46312,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_160__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_160__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_141_166_0002-verso-46314",
+      "image_id": 39214,
+      "category_id": 1012,
+      "bbox": [
+        1862.50006346213,
+        366.66667883608375,
+        616.6666876787365,
+        208.33334024777486
+      ],
+      "segmentation": [
+        [
+          1862.50006346213,
+          366.66667883608375,
+          2479.1667511408664,
+          366.66667883608375,
+          2479.1667511408664,
+          575.0000190838587,
+          1862.50006346213,
+          575.0000190838587
+        ]
+      ],
+      "area": 128472.23086364252,
+      "iscrowd": 0,
+      "text": "Johnore",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_141_166_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          788.1599731445312,
+          588.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 7,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 46314,
+      "source_file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_166__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_141/SHDGR__GR_2_K_247_141_166__0002.jpg"
+    }
+  ]
 }

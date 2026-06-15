@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_235",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -34,6 +134,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -59,6 +162,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -84,6 +190,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -109,6 +218,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -134,6 +246,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -159,6 +274,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -184,6 +302,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -209,6 +330,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -234,6 +358,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -259,6 +386,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -284,6 +414,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -309,6 +442,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +470,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -359,6 +498,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -384,6 +526,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -409,6 +554,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -434,6 +582,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -459,6 +610,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -484,6 +638,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -509,6 +666,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -534,6 +694,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -559,6 +722,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -584,6 +750,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -609,6 +778,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -634,6 +806,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -659,6 +834,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -684,6 +862,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -709,6 +890,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -734,6 +918,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -759,6 +946,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -784,6 +974,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -809,6 +1002,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -834,6 +1030,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -859,6 +1058,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -884,6 +1086,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -909,6 +1114,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -934,6 +1142,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -959,6 +1170,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1198,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1009,6 +1226,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1034,6 +1254,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1059,6 +1282,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1084,6 +1310,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1109,6 +1338,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1134,6 +1366,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1159,6 +1394,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1184,6 +1422,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1209,6 +1450,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1234,6 +1478,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1259,6 +1506,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1284,6 +1534,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1309,6 +1562,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1334,6 +1590,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1359,6 +1618,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1384,6 +1646,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1409,6 +1674,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1434,6 +1702,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1459,6 +1730,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1484,6 +1758,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1509,6 +1786,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1534,6 +1814,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1559,6 +1842,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1584,6 +1870,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1609,6 +1898,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1926,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1659,6 +1954,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1684,6 +1982,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1709,6 +2010,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1734,6 +2038,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1759,6 +2066,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1784,6 +2094,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1809,6 +2122,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1834,6 +2150,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1859,6 +2178,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1884,6 +2206,9 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1909,9 +2234,871 @@
         "Type": "Inconnu",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_003_0001-recto-65534",
+      "image_id": 58450,
+      "category_id": 1012,
+      "bbox": [
+        66.66666869711105,
+        512.5,
+        725.0000220810826,
+        937.5000000000001
+      ],
+      "segmentation": [
+        [
+          66.66666869711105,
+          512.5,
+          791.6666907781937,
+          512.5,
+          791.6666907781937,
+          1450.0,
+          66.66666869711105,
+          1450.0
+        ]
+      ],
+      "area": 679687.520701015,
+      "iscrowd": 0,
+      "text": "were to remain perman-convention of December, as of the San Remo Agreeherself entitled, on the Rear Admiral Colby M. not only to the oil-fields in other territories out the grant was never either the British nor the ill founded. The matter medium of diplomatic en drawn into the discuss-to produce any immediate",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_003_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 253,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9731,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9966
+        }
+      },
+      "source_annotation_id": 65534,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_003_0001-recto-65535",
+      "image_id": 58450,
+      "category_id": 1012,
+      "bbox": [
+        70.8333354906805,
+        1525.0,
+        737.500022461791,
+        933.3333333333334
+      ],
+      "segmentation": [
+        [
+          70.8333354906805,
+          1525.0,
+          808.3333579524715,
+          1525.0,
+          808.3333579524715,
+          2458.3333333333335,
+          70.8333354906805,
+          2458.3333333333335
+        ]
+      ],
+      "area": 688333.3542976716,
+      "iscrowd": 0,
+      "text": "difficult to secure funds for The profits from oil are vested in irrigation would but not soon enough to who demand immediate decline at present to make ining of swamps, the imbalance construction of irriga-refused the Anglo-Persian short time ago for tank been paying twenty per outlay is clearly a matter.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_003_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 253,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9844,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9647
+        }
+      },
+      "source_annotation_id": 65535,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_003_0001-recto-65536",
+      "image_id": 58450,
+      "category_id": 1012,
+      "bbox": [
+        70.8333354906805,
+        2470.8333333333335,
+        762.5000232232077,
+        1691.6666666666667
+      ],
+      "segmentation": [
+        [
+          70.8333354906805,
+          2470.8333333333335,
+          833.3333587138882,
+          2470.8333333333335,
+          833.3333587138882,
+          4162.5,
+          70.8333354906805,
+          4162.5
+        ]
+      ],
+      "area": 1289895.8726192596,
+      "iscrowd": 0,
+      "text": "Overestimate the financial by the Arabs and the world British taxpayer—from the tain for roads and bridges ks and fords existed, for electigraph and for transport have developed commercial trade, was dependent for s and rafts floating on in-reason that the Germans, of the country, undertook the track of the Bagdad to y miles, the only portion of h advance, was well laid, hops and even the locomodamaged very little by the runs south to Basrah and m Samarrah to Sherghat, linking up with Aleppo is e. The completion of a ranean to the Persian Gulf of its former position on cutting of the Suez Canal,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_003_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 485,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 12
+          },
+          "alpha_ratio": 0.9759,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.997
+        }
+      },
+      "source_annotation_id": 65536,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_003_0001-recto-65537",
+      "image_id": 58450,
+      "category_id": 1012,
+      "bbox": [
+        1266.6667052451098,
+        3162.5,
+        1016.6666976309435,
+        62.50000000000001
+      ],
+      "segmentation": [
+        [
+          1266.6667052451098,
+          3162.5,
+          2283.3334028760532,
+          3162.5,
+          2283.3334028760532,
+          3225.0,
+          1266.6667052451098,
+          3225.0
+        ]
+      ],
+      "area": 63541.668601933976,
+      "iscrowd": 0,
+      "text": "A BITUMEN-FURNACE AT HIT",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_003_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.894
+        }
+      },
+      "source_annotation_id": 65537,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_003_0001-recto-65538",
+      "image_id": 58450,
+      "category_id": 1013,
+      "bbox": [
+        987.5000300759574,
+        3266.666666666667,
+        1579.166714762818,
+        116.66666666666667
+      ],
+      "segmentation": [
+        [
+          987.5000300759574,
+          3266.666666666667,
+          2566.6667448387752,
+          3266.666666666667,
+          2566.6667448387752,
+          3383.3333333333335,
+          987.5000300759574,
+          3383.3333333333335
+        ]
+      ],
+      "area": 184236.11672232876,
+      "iscrowd": 0,
+      "text": "It Extracts Bitumen from the Rock. There Are Also Bitumen-Wells. Hit Is Pittsburgh and Johannum Mixed",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_003_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 7,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 83,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9651,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9123
+        }
+      },
+      "source_annotation_id": 65538,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_003_0001-recto-65539",
+      "image_id": 58450,
+      "category_id": 1012,
+      "bbox": [
+        895.8333606174298,
+        3483.3333333333335,
+        1783.3333876477207,
+        716.6666666666667
+      ],
+      "segmentation": [
+        [
+          895.8333606174298,
+          3483.3333333333335,
+          2679.1667482651505,
+          3483.3333333333335,
+          2679.1667482651505,
+          4200.0,
+          895.8333606174298,
+          4200.0
+        ]
+      ],
+      "area": 1278055.5944808666,
+      "iscrowd": 0,
+      "text": "stream, under convoy of flies and mosquitoes. The steamers now in use are part of the vast fleet—some ships specially built and others drawn from rivers as far away as the Thames or the Irawadi—required during the war to supply an army of half a million men, including British and Indian troops. To be sure, had the world remained at peace, the Germans would have finished the Bagdad Railway and great vessels would some day have steamed up the Tigris; but the exigencies of war have put an end with startling suddenness to the isolation of the city of the caliphs.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_003_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 8,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 455,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 10
+          },
+          "alpha_ratio": 0.9785,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9973
+        }
+      },
+      "source_annotation_id": 65539,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_003_0001-recto-65540",
+      "image_id": 58450,
+      "category_id": 1012,
+      "bbox": [
+        508.33334881547177,
+        4141.666666666667,
+        333.33334348555525,
+        204.16666666666669
+      ],
+      "segmentation": [
+        [
+          508.33334881547177,
+          4141.666666666667,
+          841.6666923010271,
+          4141.666666666667,
+          841.6666923010271,
+          4345.833333333334,
+          508.33334881547177,
+          4345.833333333334
+        ]
+      ],
+      "area": 68055.55762830087,
+      "iscrowd": 0,
+      "text": "Besides the here is also hanikin, on",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_003_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 9,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2857,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9244
+        }
+      },
+      "source_annotation_id": 65540,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_003_0001-recto-65541",
+      "image_id": 58450,
+      "category_id": 1012,
+      "bbox": [
+        908.333360998138,
+        4208.333333333334,
+        1779.1667208541512,
+        141.66666666666669
+      ],
+      "segmentation": [
+        [
+          908.333360998138,
+          4208.333333333334,
+          2687.5000818522894,
+          4208.333333333334,
+          2687.5000818522894,
+          4350.000000000001,
+          908.333360998138,
+          4350.000000000001
+        ]
+      ],
+      "area": 252048.61878767147,
+      "iscrowd": 0,
+      "text": "In particular, the need of adequate defense and policing of the country has called into play the power of the Royal Air",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_003_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 10,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 97,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9898,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9737
+        }
+      },
+      "source_annotation_id": 65541,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_003__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_004_0001-recto-65542",
+      "image_id": 58461,
+      "category_id": 1012,
+      "bbox": [
+        2954.166756640733,
+        537.5,
+        308.3333427241386,
+        2279.166666666667
+      ],
+      "segmentation": [
+        [
+          2954.166756640733,
+          537.5,
+          3262.500099364872,
+          537.5,
+          3262.500099364872,
+          2816.666666666667,
+          2954.166756640733,
+          2816.666666666667
+        ]
+      ],
+      "area": 702743.076958766,
+      "iscrowd": 0,
+      "text": "tremely sh. Department managed action and gasoline advance. able of thick blade up the p set up lorn. At Hit an abund may be a oil. The top places it fumes of no doubt of a mul. The atmosphere of Pittsburgh bitumen is state in the bitumen-perhaps, certainly were cen remain f",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_004_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 217,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9688,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9794
+        }
+      },
+      "source_annotation_id": 65542,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_004__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_004__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_004_0001-recto-65543",
+      "image_id": 58461,
+      "category_id": 1012,
+      "bbox": [
+        475.00001446691624,
+        2529.166666666667,
+        2337.5000711924563,
+        245.83333333333334
+      ],
+      "segmentation": [
+        [
+          475.00001446691624,
+          2529.166666666667,
+          2812.5000856593724,
+          2529.166666666667,
+          2812.5000856593724,
+          2775.0000000000005,
+          475.00001446691624,
+          2775.0000000000005
+        ]
+      ],
+      "area": 574635.4341681455,
+      "iscrowd": 0,
+      "text": "BITUMEN LAKE, KAIYARAH, IN THE OIL REGION SOUTH OF MOSUL\nDuring the War, the Germans, Finding This Lake with Its Pier from Which Buckets Were Lowered into the Treacle-like Liquid, Made Borings Near By and Discovered Oil",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_004_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 177,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9672,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9709
+        }
+      },
+      "source_annotation_id": 65543,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_004__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_004__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_004_0001-recto-65544",
+      "image_id": 58461,
+      "category_id": 1012,
+      "bbox": [
+        370.8333446276802,
+        2850.0,
+        1779.1667208541512,
+        504.1666666666667
+      ],
+      "segmentation": [
+        [
+          370.8333446276802,
+          2850.0,
+          2150.0000654818314,
+          2850.0,
+          2150.0000654818314,
+          3354.1666666666665,
+          370.8333446276802,
+          3354.1666666666665
+        ]
+      ],
+      "area": 896996.5550973013,
+      "iscrowd": 0,
+      "text": "like inky water covered with jet-black ice, and buckets were lowered from the pier into this treacle-like liquid. The Germans made a few borings near by, discovered good oil close to the surface and started a refinery. The stills that I saw were very primitive, but more elaborate machinery was yet in cases, waiting to be unpacked. In the final stages of the war, when the British Mechanical Transport was ex-",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_004_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 329,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 11
+          },
+          "alpha_ratio": 0.9676,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.996
+        }
+      },
+      "source_annotation_id": 65544,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_004__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_004__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_004_0001-recto-65545",
+      "image_id": 58461,
+      "category_id": 1012,
+      "bbox": [
+        2208.3334005918036,
+        2829.166666666667,
+        1045.8333651859296,
+        508.33333333333337
+      ],
+      "segmentation": [
+        [
+          2208.3334005918036,
+          2829.166666666667,
+          3254.1667657777334,
+          2829.166666666667,
+          3254.1667657777334,
+          3337.5000000000005,
+          2208.3334005918036,
+          3337.5000000000005
+        ]
+      ],
+      "area": 531631.960636181,
+      "iscrowd": 0,
+      "text": "A sense of the ancientness of natu as a corrective of overmuch anxiety them in the future. Yet nature arous past all finding out, and histo to gain. It is at least not surprising out money like water in this thirst yond measure, feel that they should",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_004_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 200,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9804,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9642
+        }
+      },
+      "source_annotation_id": 65545,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_004__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_004__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_235_1_004_0001-recto-65546",
+      "image_id": 58461,
+      "category_id": 1012,
+      "bbox": [
+        2995.8334245764277,
+        3333.3333333333335,
+        262.50000799487475,
+        941.6666666666667
+      ],
+      "segmentation": [
+        [
+          2995.8334245764277,
+          3333.3333333333335,
+          3258.333432571302,
+          3333.3333333333335,
+          3258.333432571302,
+          4275.0,
+          2995.8334245764277,
+          4275.0
+        ]
+      ],
+      "area": 247187.50752850706,
+      "iscrowd": 0,
+      "text": "spoils of inhabit a claim at indeed it with pro war. The already interest in the Company the reflow Mtionary mouth.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_235_1_004_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 7,
+        "monkeyocr_page_size": [
+          801.5999755859375,
+          1080.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 93,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9789,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9474
+        }
+      },
+      "source_annotation_id": 65546,
+      "source_file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_004__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_235/SHDGR__GR_2_K_247_235_1_004__0001.jpg"
+    }
+  ]
 }

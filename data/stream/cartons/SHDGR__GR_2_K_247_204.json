@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_204",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,9 +2903,2059 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_006_0001-recto-56782",
+      "image_id": 51531,
+      "category_id": 1012,
+      "bbox": [
+        116.66666978682491,
+        4404.1664400149075,
+        1883.333383701602,
+        208.33332261186882
+      ],
+      "segmentation": [
+        [
+          116.66666978682491,
+          4404.1664400149075,
+          2000.000053488427,
+          4404.1664400149075,
+          2000.000053488427,
+          4612.499762626776,
+          116.66666978682491,
+          4612.499762626776
+        ]
+      ],
+      "area": 392361.1014124084,
+      "iscrowd": 0,
+      "text": "Though he broke both legs in descending at Domodossola, M. Chavez is quite happy, for, in flying over the Alps from Switzerland to Italy, he has accomplished a feat that will live for years in the annals of airmanship. He is, however, unable to explain how he came to fall after having surmounted greater difficulties and the earth was so",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_204_006_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1004.1599731445312,
+          1138.56005859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 271,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9713,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9797
+        }
+      },
+      "source_annotation_id": 56782,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_006_0001-recto-56783",
+      "image_id": 51531,
+      "category_id": 1012,
+      "bbox": [
+        2179.1667249467655,
+        4424.999772276094,
+        1895.8333840359048,
+        216.66665551634358
+      ],
+      "segmentation": [
+        [
+          2179.1667249467655,
+          4424.999772276094,
+          4075.00010898267,
+          4424.999772276094,
+          4075.00010898267,
+          4641.666427792437,
+          2179.1667249467655,
+          4641.666427792437
+        ]
+      ],
+      "area": 410763.8787352913,
+      "iscrowd": 0,
+      "text": "near. He remarked smilingly yesterday: \"In spite of all, I am happy to have flown the Alps, accomplishing a feat which was believed to be impossible.\" The photograph shows the start of the flight at Brigue, and was taken a few moments before the airman disappeared over the mountains.-(Daily Mirror photograph.)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_204_006_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1004.1599731445312,
+          1138.56005859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 248,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 13
+          },
+          "alpha_ratio": 0.9502,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9938
+        }
+      },
+      "source_annotation_id": 56783,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_006_0002-verso-56784",
+      "image_id": 51531,
+      "category_id": 1013,
+      "bbox": [
+        520.833332058504,
+        74.99999935398861,
+        979.1666642699876,
+        137.4999988156458
+      ],
+      "segmentation": [
+        [
+          520.833332058504,
+          74.99999935398861,
+          1499.9999963284915,
+          74.99999935398861,
+          1499.9999963284915,
+          212.4999981696344,
+          520.833332058504,
+          212.4999981696344
+        ]
+      ],
+      "area": 134635.41517744312,
+      "iscrowd": 0,
+      "text": "MILY",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          997.4400024414062,
+          1133.760009765625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 4,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 56784,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_006_0002-verso-56785",
+      "image_id": 51531,
+      "category_id": 1012,
+      "bbox": [
+        324.9999992045065,
+        362.49999687761164,
+        1366.6666633215145,
+        174.99999849264012
+      ],
+      "segmentation": [
+        [
+          324.9999992045065,
+          362.49999687761164,
+          1691.666662526021,
+          362.49999687761164,
+          1691.666662526021,
+          537.4999953702518,
+          324.9999992045065,
+          537.4999953702518
+        ]
+      ],
+      "area": 239166.66402120655,
+      "iscrowd": 0,
+      "text": "Clean, pure and wholesome milk is essential to the well-being of every family.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          997.4400024414062,
+          1133.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 63,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9545,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9193
+        }
+      },
+      "source_annotation_id": 56785,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_006_0002-verso-56786",
+      "image_id": 51531,
+      "category_id": 1012,
+      "bbox": [
+        329.16666586097455,
+        570.8333284164689,
+        1374.9999966344506,
+        383.3333300314974
+      ],
+      "segmentation": [
+        [
+          329.16666586097455,
+          570.8333284164689,
+          1704.166662495425,
+          570.8333284164689,
+          1704.166662495425,
+          954.1666584479663,
+          329.16666586097455,
+          954.1666584479663
+        ]
+      ],
+      "area": 527083.3275031816,
+      "iscrowd": 0,
+      "text": "The liability of fresh milk to change or become contaminated is well-known to all careful housewives. To avoid having milk wasted for these reasons, buy",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          997.4400024414062,
+          1133.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 125,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9766,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9221
+        }
+      },
+      "source_annotation_id": 56786,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_006_0002-verso-56787",
+      "image_id": 51531,
+      "category_id": 1012,
+      "bbox": [
+        333.33333251744256,
+        2066.666648865464,
+        1383.3333299473866,
+        274.9999976312916
+      ],
+      "segmentation": [
+        [
+          333.33333251744256,
+          2066.666648865464,
+          1716.6666624648292,
+          2066.666648865464,
+          1716.6666624648292,
+          2341.6666464967557,
+          333.33333251744256,
+          2341.6666464967557
+        ]
+      ],
+      "area": 380416.662458818,
+      "iscrowd": 0,
+      "text": "which comes to you pure and unskimmed from the high Swiss Pastures, and free from disease germs.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          997.4400024414062,
+          1133.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 78,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.975,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9219
+        }
+      },
+      "source_annotation_id": 56787,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_006_0002-verso-56788",
+      "image_id": 51531,
+      "category_id": 1012,
+      "bbox": [
+        337.4999991739106,
+        2387.4999794353043,
+        1383.3333299473866,
+        183.3333317541944
+      ],
+      "segmentation": [
+        [
+          337.4999991739106,
+          2387.4999794353043,
+          1720.833329121297,
+          2387.4999794353043,
+          1720.833329121297,
+          2570.8333111894985,
+          337.4999991739106,
+          2570.8333111894985
+        ]
+      ],
+      "area": 253611.1083058787,
+      "iscrowd": 0,
+      "text": "Nestlé's Condensed Swiss Milk can be used for all purposes of fresh milk, and is the",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 7,
+        "monkeyocr_page_size": [
+          997.4400024414062,
+          1133.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 67,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.971,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9297
+        }
+      },
+      "source_annotation_id": 56788,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_006_0002-verso-56789",
+      "image_id": 51531,
+      "category_id": 1013,
+      "bbox": [
+        1058.3333307428802,
+        3962.4999658690654,
+        983.3333309264556,
+        104.16666576942863
+      ],
+      "segmentation": [
+        [
+          1058.3333307428802,
+          3962.4999658690654,
+          2041.6666616693358,
+          3962.4999658690654,
+          2041.6666616693358,
+          4066.666631638494,
+          1058.3333307428802,
+          4066.666631638494
+        ]
+      ],
+      "area": 102430.55442255505,
+      "iscrowd": 0,
+      "text": "THE CHARING-CROSS BANK",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 31,
+        "monkeyocr_page_size": [
+          997.4400024414062,
+          1133.760009765625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 19,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.95,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9188
+        }
+      },
+      "source_annotation_id": 56789,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_006_0002-verso-56790",
+      "image_id": 51531,
+      "category_id": 1012,
+      "bbox": [
+        1058.3333307428802,
+        4095.833298053934,
+        991.6666642393916,
+        316.666663939063
+      ],
+      "segmentation": [
+        [
+          1058.3333307428802,
+          4095.833298053934,
+          2049.999994982272,
+          4095.833298053934,
+          2049.999994982272,
+          4412.499961992997,
+          1058.3333307428802,
+          4412.499961992997
+        ]
+      ],
+      "area": 314027.7743042671,
+      "iscrowd": 0,
+      "text": "28, BEDFORD STREET, CHARING CROSS, LONDON, and 39, BISHOPSGATE STREET WITHIN, LONDON, E.Q. Assets, £1,607,949; Liabilities, £1,236,871; Surplus, £371,018. LOANS of £30 to £10,000 made on approved security. Current Accounts opened. Stocks and Shares bought and sold DEPOSITS of £10 and upwards received as under:\n\nSubject to 8 months' notice of withdrawal 5% per annum. No. 6 do. do. 6% of\n\nNo. 12 do. do. do. 7%",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 32,
+        "monkeyocr_page_size": [
+          997.4400024414062,
+          1133.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 261,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 40,
+            "other": 42
+          },
+          "alpha_ratio": 0.7609,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9451
+        }
+      },
+      "source_annotation_id": 56790,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_006_0002-verso-56791",
+      "image_id": 51531,
+      "category_id": 1012,
+      "bbox": [
+        1058.3333307428802,
+        4429.166628516105,
+        987.4999975829236,
+        199.99999827730298
+      ],
+      "segmentation": [
+        [
+          1058.3333307428802,
+          4429.166628516105,
+          2045.833328325804,
+          4429.166628516105,
+          2045.833328325804,
+          4629.166626793409,
+          1058.3333307428802,
+          4629.166626793409
+        ]
+      ],
+      "area": 197499.9978154214,
+      "iscrowd": 0,
+      "text": "Notice may be given at time or depositing. Special terms for longer periods. Interest paid quarterly. Owing to the nature of our investments we are able to pay rates of interest on deposits that will compare favourably with dividends paid on almost any class of stock or shareholding incurring the safety of capital. Write or call for Prospectus, A. WILLIAMS and H. J. TALL, Joint Managers.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 33,
+        "monkeyocr_page_size": [
+          997.4400024414062,
+          1133.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 315,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 10
+          },
+          "alpha_ratio": 0.9692,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9962
+        }
+      },
+      "source_annotation_id": 56791,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_022_0002-verso-56801",
+      "image_id": 51547,
+      "category_id": 1012,
+      "bbox": [
+        1599.9999288408385,
+        420.83332233777355,
+        437.4999805424168,
+        1304.1666325913181
+      ],
+      "segmentation": [
+        [
+          1599.9999288408385,
+          420.83332233777355,
+          2037.4999093832553,
+          420.83332233777355,
+          2037.4999093832553,
+          1724.9999549290917,
+          1599.9999288408385,
+          1724.9999549290917
+        ]
+      ],
+      "area": 570572.876382771,
+      "iscrowd": 0,
+      "text": "is a publication of the ordinary fee of illustration Bureau.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_022_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          603.8400268554688,
+          420.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4444,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 50,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9804,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.942
+        }
+      },
+      "source_annotation_id": 56801,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_022__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_022__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_024_0002-verso-56805",
+      "image_id": 51549,
+      "category_id": 1012,
+      "bbox": [
+        329.16665407848484,
+        1541.6666866700396,
+        283.3333224979363,
+        133.33333506335478
+      ],
+      "segmentation": [
+        [
+          329.16665407848484,
+          1541.6666866700396,
+          612.4999765764212,
+          1541.6666866700396,
+          612.4999765764212,
+          1675.0000217333943,
+          329.16665407848484,
+          1675.0000217333943
+        ]
+      ],
+      "area": 37777.7768232309,
+      "iscrowd": 0,
+      "text": "V. FORBIN\nPARIS",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_024_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          638.4000244140625,
+          470.3999938964844
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 56805,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_024__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_024__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_032_0002-verso-56809",
+      "image_id": 51557,
+      "category_id": 1012,
+      "bbox": [
+        58.33333170799203,
+        58.33333377484922,
+        1891.66661395917,
+        370.8333361401129
+      ],
+      "segmentation": [
+        [
+          58.33333170799203,
+          58.33333377484922,
+          1949.9999456671621,
+          58.33333377484922,
+          1949.9999456671621,
+          429.16666991496214,
+          58.33333170799203,
+          429.16666991496214
+        ]
+      ],
+      "area": 701493.0413193501,
+      "iscrowd": 0,
+      "text": "Harman's Aviation School of Medicine\nAlfred & Frey (French) on\na Harman machine",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_032_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          481.9200134277344,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1818,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 63,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9403,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9107
+        }
+      },
+      "source_annotation_id": 56809,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_032__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_032__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_033_0002-verso-56811",
+      "image_id": 51558,
+      "category_id": 1012,
+      "bbox": [
+        229.16666666666669,
+        1337.5000118931414,
+        275.0,
+        129.1666678152255
+      ],
+      "segmentation": [
+        [
+          229.16666666666669,
+          1337.5000118931414,
+          504.1666666666667,
+          1337.5000118931414,
+          504.1666666666667,
+          1466.666679708367,
+          229.16666666666669,
+          1466.666679708367
+        ]
+      ],
+      "area": 35520.833649187014,
+      "iscrowd": 0,
+      "text": "V. FORIN\nPARIS",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_033_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          576.0,
+          411.8399963378906
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 11,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9167,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8896
+        }
+      },
+      "source_annotation_id": 56811,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_033__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_033__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0001-recto-56825",
+      "image_id": 51574,
+      "category_id": 1012,
+      "bbox": [
+        137.50000099153286,
+        1362.4999811683876,
+        1862.5000134307631,
+        183.33333079941607
+      ],
+      "segmentation": [
+        [
+          137.50000099153286,
+          1362.4999811683876,
+          2000.000014422296,
+          1362.4999811683876,
+          2000.000014422296,
+          1545.8333119678036,
+          137.50000099153286,
+          1545.8333119678036
+        ]
+      ],
+      "area": 341458.331076219,
+      "iscrowd": 0,
+      "text": "While flying at Lanark M. Kuller met with a slight accident. The motor suddenly stopped, but the clever airman brought his machine to earth with comparatively minor injuries. (1) The machine embedded in the ground. (2) M. Kuller after the accident.-(“Daily Mirror” photographs.)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          507.8399963378906,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 217,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 17
+          },
+          "alpha_ratio": 0.9195,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9733
+        }
+      },
+      "source_annotation_id": 56825,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56826",
+      "image_id": 51574,
+      "category_id": 1013,
+      "bbox": [
+        129.16666542239463,
+        62.499999136164575,
+        529.1666615691652,
+        49.99999930893166
+      ],
+      "segmentation": [
+        [
+          129.16666542239463,
+          62.499999136164575,
+          658.3333269915598,
+          62.499999136164575,
+          658.3333269915598,
+          112.49999844509624,
+          129.16666542239463,
+          112.49999844509624
+        ]
+      ],
+      "area": 26458.332712767933,
+      "iscrowd": 0,
+      "text": "Loch, Irish Lough, and",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 17,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.8947,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9118
+        }
+      },
+      "source_annotation_id": 56826,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56827",
+      "image_id": 51574,
+      "category_id": 1012,
+      "bbox": [
+        49.999999518346314,
+        141.6666647086397,
+        999.9999903669262,
+        274.99999619912415
+      ],
+      "segmentation": [
+        [
+          49.999999518346314,
+          141.6666647086397,
+          1049.9999898852725,
+          141.6666647086397,
+          1049.9999898852725,
+          416.66666090776386,
+          49.999999518346314,
+          416.66666090776386
+        ]
+      ],
+      "area": 274999.9935500289,
+      "iscrowd": 0,
+      "text": "Several holiday fatalities occurred yesterday. As two Leven anglers named Mohir and Murray were changing seats in their boat on Loch Lomond in the dark early yesterday morning, Missouri, aged sixty, fell overboard. Murray dived to his rescue, but could not find him, and his body was recovered later.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 244,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9683,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.946
+        }
+      },
+      "source_annotation_id": 56827,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56828",
+      "image_id": 51574,
+      "category_id": 1012,
+      "bbox": [
+        45.83333289181745,
+        420.83332751684145,
+        991.6666571138685,
+        191.66666401757135
+      ],
+      "segmentation": [
+        [
+          45.83333289181745,
+          420.83332751684145,
+          1037.499990005686,
+          420.83332751684145,
+          1037.499990005686,
+          612.4999915344129,
+          45.83333289181745,
+          612.4999915344129
+        ]
+      ],
+      "area": 190069.43998647196,
+      "iscrowd": 0,
+      "text": "A sailing-boat containing four people capsized while returning from Portaferry to Killyleagh, in Strangford Lough, Co. Down, last night. One man named John Morrow was drowned, and Alexander Wilson died after being rescued.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 182,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9579,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9114
+        }
+      },
+      "source_annotation_id": 56828,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56829",
+      "image_id": 51574,
+      "category_id": 1012,
+      "bbox": [
+        45.83333289181745,
+        616.6666581434905,
+        991.6666571138685,
+        154.16666453587263
+      ],
+      "segmentation": [
+        [
+          45.83333289181745,
+          616.6666581434905,
+          1037.499990005686,
+          616.6666581434905,
+          1037.499990005686,
+          770.8333226793632,
+          45.83333289181745,
+          770.8333226793632
+        ]
+      ],
+      "area": 152881.94085868399,
+      "iscrowd": 0,
+      "text": "While on holiday in Devon, Robert Nicholls, of Padding, hired a boat on the River Dart at Stoke, and later he was found drowned. Accidental death was the verdict at the inquest yesterday.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 149,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9613,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9618
+        }
+      },
+      "source_annotation_id": 56829,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56830",
+      "image_id": 51574,
+      "category_id": 1013,
+      "bbox": [
+        199.99999807338526,
+        824.9999885973724,
+        674.9999934976752,
+        41.66666609077638
+      ],
+      "segmentation": [
+        [
+          199.99999807338526,
+          824.9999885973724,
+          874.9999915710605,
+          824.9999885973724,
+          874.9999915710605,
+          866.6666546881488,
+          199.99999807338526,
+          866.6666546881488
+        ]
+      ],
+      "area": 28124.99934034386,
+      "iscrowd": 0,
+      "text": "ONIONS AS ANTIDOTE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 16,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9412,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8926
+        }
+      },
+      "source_annotation_id": 56830,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56831",
+      "image_id": 51574,
+      "category_id": 1012,
+      "bbox": [
+        41.66666626528859,
+        912.4999873880028,
+        991.6666571138685,
+        274.99999619912415
+      ],
+      "segmentation": [
+        [
+          41.66666626528859,
+          912.4999873880028,
+          1033.333323379157,
+          912.4999873880028,
+          1033.333323379157,
+          1187.499983587127,
+          41.66666626528859,
+          1187.499983587127
+        ]
+      ],
+      "area": 272708.32693711197,
+      "iscrowd": 0,
+      "text": "All workmen should be encouraged to make use of onions and garlic in their diet, and no wines, spirits or beer or alcoholic liquor should be taken into a white lead factory, advises Dr. K. W. Goadby, in the report, just issued, of the Home Office Departmental Committee on Lead Poisoning.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 228,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 10
+          },
+          "alpha_ratio": 0.958,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9697
+        }
+      },
+      "source_annotation_id": 56831,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56832",
+      "image_id": 51574,
+      "category_id": 1013,
+      "bbox": [
+        170.83333168768323,
+        1237.4999828960586,
+        724.9999930160214,
+        45.83333269985402
+      ],
+      "segmentation": [
+        [
+          170.83333168768323,
+          1237.4999828960586,
+          895.8333247037046,
+          1237.4999828960586,
+          895.8333247037046,
+          1283.3333155959126,
+          170.83333168768323,
+          1283.3333155959126
+        ]
+      ],
+      "area": 33229.16588729515,
+      "iscrowd": 0,
+      "text": "BEAUTY SHOW RESULTS.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 17,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9444,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8931
+        }
+      },
+      "source_annotation_id": 56832,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56833",
+      "image_id": 51574,
+      "category_id": 1012,
+      "bbox": [
+        37.49999963875973,
+        1320.8333150776114,
+        991.6666571138685,
+        195.833330626649
+      ],
+      "segmentation": [
+        [
+          37.49999963875973,
+          1320.8333150776114,
+          1029.1666567526281,
+          1320.8333150776114,
+          1029.1666567526281,
+          1516.6666457042604,
+          37.49999963875973,
+          1516.6666457042604
+        ]
+      ],
+      "area": 194201.384334004,
+      "iscrowd": 0,
+      "text": "After keen voting at Folkestone last night the beauty competition resulted as follows: Miss Kitty Darlin (Plymouth), 1; Miss Mamie Whittaker, the English beauty queen (London), 2; Mme. Simone de Beryl (Paris), 3.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 7,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 162,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 15
+          },
+          "alpha_ratio": 0.9,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9125
+        }
+      },
+      "source_annotation_id": 56833,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56834",
+      "image_id": 51574,
+      "category_id": 1012,
+      "bbox": [
+        1079.1666562709745,
+        49.99999930893166,
+        979.166657234282,
+        124.99999827232915
+      ],
+      "segmentation": [
+        [
+          1079.1666562709745,
+          49.99999930893166,
+          2058.3333135052562,
+          49.99999930893166,
+          2058.3333135052562,
+          174.9999975812608,
+          1079.1666562709745,
+          174.9999975812608
+        ]
+      ],
+      "area": 122395.83046260756,
+      "iscrowd": 0,
+      "text": "in some cases the evening readings were the highest, being as high as 70deg. in the eastern counties.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 8,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 3
+          },
+          "alpha_ratio": 0.9405,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9342
+        }
+      },
+      "source_annotation_id": 56834,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56835",
+      "image_id": 51574,
+      "category_id": 1012,
+      "bbox": [
+        1079.1666562709745,
+        179.16666419033845,
+        979.166657234282,
+        158.33333114495025
+      ],
+      "segmentation": [
+        [
+          1079.1666562709745,
+          179.16666419033845,
+          2058.3333135052562,
+          179.16666419033845,
+          2058.3333135052562,
+          337.4999953352887,
+          1079.1666562709745,
+          337.4999953352887
+        ]
+      ],
+      "area": 155034.71858596956,
+      "iscrowd": 0,
+      "text": "Week-end prospects favour a continuance of the fair and warmer weather, as the wind promises to be in the south-west. With few exceptions coast resorts reported \"fair\" weather yesterday.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 9,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 151,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9557,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9528
+        }
+      },
+      "source_annotation_id": 56835,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56836",
+      "image_id": 51574,
+      "category_id": 1013,
+      "bbox": [
+        1191.6666551872538,
+        391.666661253298,
+        724.9999930160214,
+        62.499999136164575
+      ],
+      "segmentation": [
+        [
+          1191.6666551872538,
+          391.666661253298,
+          1916.6666482032751,
+          391.666661253298,
+          1916.6666482032751,
+          454.16666038946255,
+          1191.6666551872538,
+          454.16666038946255
+        ]
+      ],
+      "area": 45312.49893722066,
+      "iscrowd": 0,
+      "text": "GRATEFUL MALAY GUIDES.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 10,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 19,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.95,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8938
+        }
+      },
+      "source_annotation_id": 56836,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56837",
+      "image_id": 51574,
+      "category_id": 1013,
+      "bbox": [
+        1066.666656391388,
+        491.6666598711613,
+        983.3333238608108,
+        104.16666522694096
+      ],
+      "segmentation": [
+        [
+          1066.666656391388,
+          491.6666598711613,
+          2049.999980252199,
+          491.6666598711613,
+          2049.999980252199,
+          595.8333250981023,
+          1066.666656391388,
+          595.8333250981023
+        ]
+      ],
+      "area": 102430.55315310419,
+      "iscrowd": 0,
+      "text": "Bisley Team Thanks British Public Who Made Them \"Feel at Home.\"",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 11,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 50,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9434,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8929
+        }
+      },
+      "source_annotation_id": 56837,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56838",
+      "image_id": 51574,
+      "category_id": 1012,
+      "bbox": [
+        1062.499989764859,
+        637.4999911888787,
+        995.8333237403973,
+        195.833330626649
+      ],
+      "segmentation": [
+        [
+          1062.499989764859,
+          637.4999911888787,
+          2058.3333135052562,
+          637.4999911888787,
+          2058.3333135052562,
+          833.3333218155276,
+          1062.499989764859,
+          833.3333218155276
+        ]
+      ],
+      "area": 195017.35653708802,
+      "iscrowd": 0,
+      "text": "Subadar Fatch Singh, Adjutant of the Malay States Guides' team lately at Bisley, has sent a grateful message to this country from the team for the \"two happy months they spent in England.\"",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 12,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 150,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9452
+        }
+      },
+      "source_annotation_id": 56838,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56839",
+      "image_id": 51574,
+      "category_id": 1012,
+      "bbox": [
+        1058.3333231383303,
+        837.4999884246052,
+        999.9999903669262,
+        308.33332907174525
+      ],
+      "segmentation": [
+        [
+          1058.3333231383303,
+          837.4999884246052,
+          2058.3333135052567,
+          837.4999884246052,
+          2058.3333135052567,
+          1145.8333174963504,
+          1058.3333231383303,
+          1145.8333174963504
+        ]
+      ],
+      "area": 308333.3261015476,
+      "iscrowd": 0,
+      "text": "After particularly thanking the president of the council of the N.R.A. for the treatment they \"have received at their hands at all reasonable and unreasonable times,\" the subadar says the team \"carry back with them the greatest esteem for the British public, who have made them feel at home wherever they had occasion to go during their visit.\"",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 13,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 277,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 10
+          },
+          "alpha_ratio": 0.9652,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9956
+        }
+      },
+      "source_annotation_id": 56839,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56840",
+      "image_id": 51574,
+      "category_id": 1013,
+      "bbox": [
+        1224.9999881994845,
+        1204.1666500234376,
+        670.8333268711464,
+        45.83333269985402
+      ],
+      "segmentation": [
+        [
+          1224.9999881994845,
+          1204.1666500234376,
+          1895.8333150706308,
+          1204.1666500234376,
+          1895.8333150706308,
+          1249.9999827232916,
+          1224.9999881994845,
+          1249.9999827232916
+        ]
+      ],
+      "area": 30746.527056635172,
+      "iscrowd": 0,
+      "text": "SHOT FROM A TRAIN.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 14,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8917
+        }
+      },
+      "source_annotation_id": 56840,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_204_049_0002-verso-56841",
+      "image_id": 51574,
+      "category_id": 1012,
+      "bbox": [
+        1054.1666565118014,
+        1283.3333155959126,
+        999.9999903669262,
+        241.66666332650303
+      ],
+      "segmentation": [
+        [
+          1054.1666565118014,
+          1283.3333155959126,
+          2054.1666468787275,
+          1283.3333155959126,
+          2054.1666468787275,
+          1524.9999789224157,
+          1054.1666565118014,
+          1524.9999789224157
+        ]
+      ],
+      "area": 241666.66099851023,
+      "iscrowd": 0,
+      "text": "As a crowded special train on the Great Northern of Ireland line was leaving Londerry last night, after the celebration of the anniversary of the relief of Londerry, a revolver was fired from a carriage window, and Frederick McDonagh, standing at his father's door, was struck in the arm.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_204_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 15,
+        "monkeyocr_page_size": [
+          506.8800048828125,
+          441.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 233,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9708,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9964
+        }
+      },
+      "source_annotation_id": 56841,
+      "source_file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_204/SHDGR__GR_2_K_247_204_049__0002.jpg"
+    }
+  ]
 }

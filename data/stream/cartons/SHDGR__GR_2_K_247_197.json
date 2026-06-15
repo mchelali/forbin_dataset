@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_197",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Thématique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,9 +1308,2851 @@
         "Type": "Thématique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_001_0001-recto-55938",
+      "image_id": 50495,
+      "category_id": 1012,
+      "bbox": [
+        587.4999819445352,
+        2945.8333180130026,
+        2599.999920094964,
+        749.9999960994915
+      ],
+      "segmentation": [
+        [
+          587.4999819445352,
+          2945.8333180130026,
+          3187.4999020394994,
+          2945.8333180130026,
+          3187.4999020394994,
+          3695.833314112494,
+          587.4999819445352,
+          3695.833314112494
+        ]
+      ],
+      "area": 1949999.9299299011,
+      "iscrowd": 0,
+      "text": "COPYRIGHT WARNING\nPHOD OF. SALVATION AMY DEEDS SNOW SHOVELIERS\nNEWS ITEM. .Salvation Army Workers Shown Giving Coffee and Doughn to Men Working on Fifth Avenue Clearing Away the Snow Which Has Paralyzed Traffic.\n275746-51 Photo erified and found correct by ST\nTo avoid mistake no. on caution must agree with no. on photo",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_001_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          953.280029296875,
+          938.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 253,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 7
+          },
+          "alpha_ratio": 0.944,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.993
+        }
+      },
+      "source_annotation_id": 55938,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_001__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_001__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_003_0001-recto-55939",
+      "image_id": 50497,
+      "category_id": 1012,
+      "bbox": [
+        995.8333237403973,
+        3279.1667115018936,
+        974.999990607753,
+        141.6666686036396
+      ],
+      "segmentation": [
+        [
+          995.8333237403973,
+          3279.1667115018936,
+          1970.8333143481505,
+          3279.1667115018936,
+          1970.8333143481505,
+          3420.8333801055333,
+          995.8333237403973,
+          3420.8333801055333
+        ]
+      ],
+      "area": 138125.00055798027,
+      "iscrowd": 0,
+      "text": "WATCH YOUR CREDIT LINE: PHOT TO WIDE WORLD PHOTOS:",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_003_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1013.760009765625,
+          1071.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 40,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.894
+        }
+      },
+      "source_annotation_id": 55939,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_003__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_003__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_003_0001-recto-55940",
+      "image_id": 50497,
+      "category_id": 1012,
+      "bbox": [
+        974.999990607753,
+        3612.5000493928105,
+        2141.6666460358338,
+        558.3333409672856
+      ],
+      "segmentation": [
+        [
+          974.999990607753,
+          3612.5000493928105,
+          3116.6666366435866,
+          3612.5000493928105,
+          3116.6666366435866,
+          4170.833390360096,
+          974.999990607753,
+          4170.833390360096
+        ]
+      ],
+      "area": 1195763.8937193882,
+      "iscrowd": 0,
+      "text": "The Salvation Army's home service appeal for funds for rescue work and aid for children began today in New York with a parade of the ever popular lassies and their male confederates as a public demonstration to arouse the sympathy of the people. The Salvationists drive is for the sum of $500,000. Floats and signs used in the parade today brought forth the accomplishments of the Salvation Army. Photo shows one of the many floats in the parade, \"Conserving Child Life\".",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_003_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1013.760009765625,
+          1071.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 375,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 10
+          },
+          "alpha_ratio": 0.9591,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9949
+        }
+      },
+      "source_annotation_id": 55940,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_003__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_003__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_003_0001-recto-55941",
+      "image_id": 50497,
+      "category_id": 1012,
+      "bbox": [
+        2695.833307364172,
+        4200.000057425551,
+        274.9999973509047,
+        83.33333447272919
+      ],
+      "segmentation": [
+        [
+          2695.833307364172,
+          4200.000057425551,
+          2970.833304715077,
+          4200.000057425551,
+          2970.833304715077,
+          4283.33339189828,
+          2695.833307364172,
+          4283.33339189828
+        ]
+      ],
+      "area": 22916.666759242584,
+      "iscrowd": 0,
+      "text": "4/29/22。",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_003_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          1013.760009765625,
+          1071.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "suspicious",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 3
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 55941,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_003__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_003__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_003_0002-verso-55942",
+      "image_id": 50497,
+      "category_id": 1012,
+      "bbox": [
+        1491.6666992134171,
+        804.1666556020956,
+        1437.5000313648852,
+        870.8333213514921
+      ],
+      "segmentation": [
+        [
+          1491.6666992134171,
+          804.1666556020956,
+          2929.166730578302,
+          804.1666556020956,
+          2929.166730578302,
+          1674.9999769535877,
+          1491.6666992134171,
+          1674.9999769535877
+        ]
+      ],
+      "area": 1251822.926756357,
+      "iscrowd": 0,
+      "text": "The following credit card must be repaid underwritten by the Board of Directors of the company's report on Form 10-K for the year ended December 31, 2023, and 2023, respectively. The following table presents the following criteria for the credit card, including the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following table presents the following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively. The following criteria for the 2023 credit card, and the following criteria for the 2023 credit card, respectively.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          1007.0399780273438,
+          1064.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 13626,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1012,
+            "other": 382
+          },
+          "alpha_ratio": 0.9072,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9884
+        }
+      },
+      "source_annotation_id": 55942,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_004_0002-verso-55943",
+      "image_id": 50498,
+      "category_id": 1012,
+      "bbox": [
+        199.9999959792388,
+        116.66666709917203,
+        1579.1666349194065,
+        483.3333351251413
+      ],
+      "segmentation": [
+        [
+          199.9999959792388,
+          116.66666709917203,
+          1779.1666308986453,
+          116.66666709917203,
+          1779.1666308986453,
+          600.0000022243133,
+          199.9999959792388,
+          600.0000022243133
+        ]
+      ],
+      "area": 763263.8763739432,
+      "iscrowd": 0,
+      "text": "Mr. Mrs. Bramwell Booth, who celebrated their silver wedding @ Clapton yesterday.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_004_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          485.760009765625,
+          658.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 65,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9286,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8911
+        }
+      },
+      "source_annotation_id": 55943,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_004__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_007_0001-recto-55945",
+      "image_id": 50501,
+      "category_id": 1012,
+      "bbox": [
+        908.333362048942,
+        1916.6666143482203,
+        1191.6667043394377,
+        249.99999317585483
+      ],
+      "segmentation": [
+        [
+          908.333362048942,
+          1916.6666143482203,
+          2100.0000663883798,
+          1916.6666143482203,
+          2100.0000663883798,
+          2166.666607524075,
+          908.333362048942,
+          2166.666607524075
+        ]
+      ],
+      "area": 297916.66795275285,
+      "iscrowd": 0,
+      "text": "Farbige Heilsarmeesänger\nbei ihrer Ankunft in Berlin.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_007_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          695.0399780273438,
+          536.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 46,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9787,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9116
+        }
+      },
+      "source_annotation_id": 55945,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_007__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_007__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_012_0002-verso-55947",
+      "image_id": 50506,
+      "category_id": 1013,
+      "bbox": [
+        441.6666543605111,
+        112.49999662747796,
+        987.4999724852937,
+        224.9999932549559
+      ],
+      "segmentation": [
+        [
+          441.6666543605111,
+          112.49999662747796,
+          1429.1666268458048,
+          112.49999662747796,
+          1429.1666268458048,
+          337.49998988243385,
+          441.6666543605111,
+          337.49998988243385
+        ]
+      ],
+      "area": 222187.48714846023,
+      "iscrowd": 0,
+      "text": "GENERAL BOOTH'S\nNEW RECRUIT.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          481.9200134277344,
+          977.280029296875
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 23,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.92,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.89
+        }
+      },
+      "source_annotation_id": 55947,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_012_0002-verso-55948",
+      "image_id": 50506,
+      "category_id": 1012,
+      "bbox": [
+        462.49998711336536,
+        374.99998875825986,
+        987.4999724852937,
+        212.49999362968057
+      ],
+      "segmentation": [
+        [
+          462.49998711336536,
+          374.99998875825986,
+          1449.9999595986592,
+          374.99998875825986,
+          1449.9999595986592,
+          587.4999823879405,
+          462.49998711336536,
+          587.4999823879405
+        ]
+      ],
+      "area": 209843.73786243465,
+      "iscrowd": 0,
+      "text": "His Granddaughter Enters Salvation Army Training Home.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          481.9200134277344,
+          977.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 47,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9792,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8974
+        }
+      },
+      "source_annotation_id": 55948,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_012_0002-verso-55949",
+      "image_id": 50506,
+      "category_id": 1013,
+      "bbox": [
+        641.6666487879123,
+        620.833314722008,
+        654.166648439625,
+        137.4999958780286
+      ],
+      "segmentation": [
+        [
+          641.6666487879123,
+          620.833314722008,
+          1295.8332972275373,
+          620.833314722008,
+          1295.8332972275373,
+          758.3333106000366,
+          641.6666487879123,
+          758.3333106000366
+        ]
+      ],
+      "area": 89947.91146399222,
+      "iscrowd": 0,
+      "text": "SPARTAN RULES.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          481.9200134277344,
+          977.280029296875
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 55949,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_012_0002-verso-55950",
+      "image_id": 50506,
+      "category_id": 1012,
+      "bbox": [
+        508.3333191696448,
+        799.9999760176211,
+        1033.3333045415732,
+        858.3333076022392
+      ],
+      "segmentation": [
+        [
+          508.3333191696448,
+          799.9999760176211,
+          1541.666623711218,
+          799.9999760176211,
+          1541.666623711218,
+          1658.3332836198601,
+          508.3333191696448,
+          1658.3332836198601
+        ]
+      ],
+      "area": 886944.3931427205,
+      "iscrowd": 0,
+      "text": "The Salvation Army has gained another earliest recruit in the person of General Booth's grandchildren. From to-day Miss Mary Booth, the second daughter of Mr. Bramwell Booth, chief of the staff, will be known as Cadet Mary Booth.\n\nShe is a shy and retiring young lady of twenty, and for some time past has lived at High Barnet with her family. She has many accomplishments, is a splendid violinist, and has a taste for modelling and sculpture.\n\nTo the Daily Mirror yesterday she said she had had no time to form an opinion as to what the training at the Salvation Army Home at Clapton was like. It was her first day, but she hoped to be able to do some good work for the army.\n\nShe had always hoped to do something for the betterment of the people, and desired to begin his first as the poorest probationer did.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          481.9200134277344,
+          977.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 641,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 18
+          },
+          "alpha_ratio": 0.9727,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9966
+        }
+      },
+      "source_annotation_id": 55950,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_012_0002-verso-55951",
+      "image_id": 50506,
+      "category_id": 1012,
+      "bbox": [
+        574.9999839787786,
+        1695.8332824956863,
+        1029.1666379910023,
+        658.3333135978339
+      ],
+      "segmentation": [
+        [
+          574.9999839787786,
+          1695.8332824956863,
+          1604.1666219697809,
+          1695.8332824956863,
+          1604.1666219697809,
+          2354.16659609352,
+          574.9999839787786,
+          2354.16659609352
+        ]
+      ],
+      "area": 677534.6830329589,
+      "iscrowd": 0,
+      "text": "The Daily Round.\n\n\"I have always felt drawn to the work of the army,\" she confessed, \"and hope to be as good a soldier as those who have gone before. I am not striving for position as much as to do good to my fellow-creatures, and am prepared to undergo any training for that purpose.\"\n\nThe period of training extends over ten months, and is a most arduous time for the young probationer. Miss Booth will be quartered in the training home with the poorest aspirants to a position in the army.\n\nThe daily routine of a cadet in the Salvation Army is an exacting one. The time-table is as follows:—",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          481.9200134277344,
+          977.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 464,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 18
+          },
+          "alpha_ratio": 0.9627,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9953
+        }
+      },
+      "source_annotation_id": 55951,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_012_0002-verso-55952",
+      "image_id": 50506,
+      "category_id": 1012,
+      "bbox": [
+        687.4999808441918,
+        2674.9999198089204,
+        954.1666400807268,
+        241.6666594219897
+      ],
+      "segmentation": [
+        [
+          687.4999808441918,
+          2674.9999198089204,
+          1641.6666209249186,
+          2674.9999198089204,
+          1641.6666209249186,
+          2916.66657923091,
+          687.4999808441918,
+          2916.66657923091
+        ]
+      ],
+      "area": 230590.2644402132,
+      "iscrowd": 0,
+      "text": "11.15 to 12.0.—Bible class 12.15 to 12.45 p.m.—Verbal examination on the 1.0 to 1.45.—Dinner: two or three courses. 2.0 to 3.30.—Household duties, scrubbing floors, etc., and any personal requirements. 3.45 p.m.—Classes on army discipline, on the method of army duty. Theoretical and with object lessons.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          481.9200134277344,
+          977.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 201,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 28,
+            "other": 31
+          },
+          "alpha_ratio": 0.7731,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9466
+        }
+      },
+      "source_annotation_id": 55952,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_012_0002-verso-55953",
+      "image_id": 50506,
+      "category_id": 1012,
+      "bbox": [
+        733.3333129004712,
+        2929.1665788561854,
+        920.83330767616,
+        158.3333285868208
+      ],
+      "segmentation": [
+        [
+          733.3333129004712,
+          2929.1665788561854,
+          1654.1666205766312,
+          2929.1665788561854,
+          1654.1666205766312,
+          3087.499907443006,
+          733.3333129004712,
+          3087.499907443006
+        ]
+      ],
+      "area": 145798.60267797852,
+      "iscrowd": 0,
+      "text": "4.45 p.m.-A plain tea.\n5.15 p.m.-Prayers for field officers.\n6.0 to 8.45.-Classes for shorthand and other educational subjects for the better equipment of the probationer.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          481.9200134277344,
+          977.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 121,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 11,
+            "other": 15
+          },
+          "alpha_ratio": 0.8231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9362
+        }
+      },
+      "source_annotation_id": 55953,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_012_0002-verso-55954",
+      "image_id": 50506,
+      "category_id": 1012,
+      "bbox": [
+        720.8333132487587,
+        3116.6665732353154,
+        1012.4999717887188,
+        504.16665155277155
+      ],
+      "segmentation": [
+        [
+          720.8333132487587,
+          3116.6665732353154,
+          1733.3332850374775,
+          3116.6665732353154,
+          1733.3332850374775,
+          3620.833224788087,
+          720.8333132487587,
+          3620.833224788087
+        ]
+      ],
+      "area": 510468.720473994,
+      "iscrowd": 0,
+      "text": "9. 0 p.m.—Support for \"Lights out.\"\n\nOn Wednesday, Saturday, and Sunday afternoons the cadet is required to attend with a \"company\" one or other of the branches in the East End or the North-West. She has to start away about midday, with her \"rations\" in a little bag, has to walk to Limehouse, Walthamstow, Leyton, or wherever she is ordered, do house-to-house visiting, work with the local corps, and then walk back to the Clapton Congress Hall.\n\nFriday afternoons she has free to do what she",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 7,
+        "monkeyocr_page_size": [
+          481.9200134277344,
+          977.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 378,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 26
+          },
+          "alpha_ratio": 0.931,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9914
+        }
+      },
+      "source_annotation_id": 55954,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_012_0002-verso-55955",
+      "image_id": 50506,
+      "category_id": 1012,
+      "bbox": [
+        758.3333122038964,
+        3612.49989170457,
+        1008.333305238148,
+        370.8333222165014
+      ],
+      "segmentation": [
+        [
+          758.3333122038964,
+          3612.49989170457,
+          1766.6666174420443,
+          3612.49989170457,
+          1766.6666174420443,
+          3983.3332139210715,
+          758.3333122038964,
+          3983.3332139210715
+        ]
+      ],
+      "area": 373923.589483008,
+      "iscrowd": 0,
+      "text": "likes.\n\"All this Miss Mary Booth is prepared for.\n\"I am so frightfully nervous of speaking,\" she remarked yesterday. \"I am afraid I shall never get over it.\" But the Daily Mirror was assured that the young lady has already made her mark as a speaker, and that she has a winning manner on the platform.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 8,
+        "monkeyocr_page_size": [
+          481.9200134277344,
+          977.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 234,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 12
+          },
+          "alpha_ratio": 0.9512,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9689
+        }
+      },
+      "source_annotation_id": 55955,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_017_0002-verso-55958",
+      "image_id": 50511,
+      "category_id": 1012,
+      "bbox": [
+        266.6666724069072,
+        683.3333029424415,
+        1425.0000306744103,
+        79.16666314577066
+      ],
+      "segmentation": [
+        [
+          266.6666724069072,
+          683.3333029424415,
+          1691.6667030813173,
+          683.3333029424415,
+          1691.6667030813173,
+          762.4999660882122,
+          266.6666724069072,
+          762.4999660882122
+        ]
+      ],
+      "area": 112812.49741111389,
+      "iscrowd": 0,
+      "text": "NO HOPE OF RESCUNV EMTOMBED MINERS.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_017_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          603.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9125
+        }
+      },
+      "source_annotation_id": 55958,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_017__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_017__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_017_0002-verso-55959",
+      "image_id": 50511,
+      "category_id": 1012,
+      "bbox": [
+        266.6666724069072,
+        795.833297939063,
+        2541.6667213783344,
+        241.66665591866834
+      ],
+      "segmentation": [
+        [
+          266.6666724069072,
+          795.833297939063,
+          2808.3333937852417,
+          795.833297939063,
+          2808.3333937852417,
+          1037.4999538577313,
+          266.6666724069072,
+          1037.4999538577313
+        ]
+      ],
+      "area": 614236.0970152678,
+      "iscrowd": 0,
+      "text": "Practically all hopes of rescuing the 38 men and boys trapped in the flooded View Pit at Scotswood, Newcastle-on-Tyne, has been abandoned, as floods are still rising in the pits.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_017_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          603.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 141,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 6
+          },
+          "alpha_ratio": 0.9463,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.96
+        }
+      },
+      "source_annotation_id": 55959,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_017__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_017__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_017_0002-verso-55960",
+      "image_id": 50511,
+      "category_id": 1012,
+      "bbox": [
+        266.6666724069072,
+        1074.9999521899385,
+        2466.6667197638917,
+        158.3333262915413
+      ],
+      "segmentation": [
+        [
+          266.6666724069072,
+          1074.9999521899385,
+          2733.333392170799,
+          1074.9999521899385,
+          2733.333392170799,
+          1233.3332784814797,
+          266.6666724069072,
+          1233.3332784814797
+        ]
+      ],
+      "area": 390555.54659286217,
+      "iscrowd": 0,
+      "text": "Photo shows;- Ministers and Salvationists who held services at the pit head.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_017_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          603.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 62,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9538,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9276
+        }
+      },
+      "source_annotation_id": 55960,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_017__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_017__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_021_0001-recto-55963",
+      "image_id": 50515,
+      "category_id": 1012,
+      "bbox": [
+        191.66666490379674,
+        1450.0000084576623,
+        1870.83331612619,
+        170.83333432978205
+      ],
+      "segmentation": [
+        [
+          191.66666490379674,
+          1450.0000084576623,
+          2062.499981029987,
+          1450.0000084576623,
+          2062.499981029987,
+          1620.8333427874443,
+          191.66666490379674,
+          1620.8333427874443
+        ]
+      ],
+      "area": 319600.69336908025,
+      "iscrowd": 0,
+      "text": "The Salvation Army's newest departure consists of tiny leaden soldiers, coloured in enamel to reproduce exactly the various uniforms worn. These toy soldiers are intended as playthings for Juvenile Salvationists, and in addition teach the lessons of the army.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_021_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          530.8800048828125,
+          418.55999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 216,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9774,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9805
+        }
+      },
+      "source_annotation_id": 55963,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_021__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_021__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_021_0002-verso-55964",
+      "image_id": 50515,
+      "category_id": 1013,
+      "bbox": [
+        70.8333303909626,
+        175.0000045828744,
+        749.9999688454864,
+        137.50000360082987
+      ],
+      "segmentation": [
+        [
+          70.8333303909626,
+          175.0000045828744,
+          820.833299236449,
+          175.0000045828744,
+          820.833299236449,
+          312.50000818370427,
+          70.8333303909626,
+          312.50000818370427
+        ]
+      ],
+      "area": 103124.99841687667,
+      "iscrowd": 0,
+      "text": "strong unless your blood rich and red.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_021_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          528.9600219726562,
+          419.5199890136719
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 31,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9688,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9104
+        }
+      },
+      "source_annotation_id": 55964,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_021__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_021__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_021_0002-verso-55965",
+      "image_id": 50515,
+      "category_id": 1012,
+      "bbox": [
+        79.16666337813467,
+        358.3333427173142,
+        920.8332950825138,
+        387.5000101477933
+      ],
+      "segmentation": [
+        [
+          79.16666337813467,
+          358.3333427173142,
+          999.9999584606485,
+          358.3333427173142,
+          999.9999584606485,
+          745.8333528651076,
+          79.16666337813467,
+          745.8333528651076
+        ]
+      ],
+      "area": 356822.91118890006,
+      "iscrowd": 0,
+      "text": "lent cathartic. They strengthen the bowels, and give them power to do their duty properly. Thus they cleanse the system of all impurities. They keep you in good condition. They don't allow any waste to accumulate in the system. And they do far more, because they strengthen and enrich the blood. They soothe and quiet the nerves, they improve the appetite, and bring natural, refreshing sleep.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_021_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          528.9600219726562,
+          419.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 315,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 13
+          },
+          "alpha_ratio": 0.9604,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.995
+        }
+      },
+      "source_annotation_id": 55965,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_021__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_021__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_021_0002-verso-55966",
+      "image_id": 50515,
+      "category_id": 1012,
+      "bbox": [
+        70.8333303909626,
+        745.8333528651075,
+        929.1666280696859,
+        208.33333878913618
+      ],
+      "segmentation": [
+        [
+          70.8333303909626,
+          745.8333528651075,
+          999.9999584606485,
+          745.8333528651075,
+          999.9999584606485,
+          954.1666916542437,
+          70.8333303909626,
+          954.1666916542437
+        ]
+      ],
+      "area": 193576.38591720117,
+      "iscrowd": 0,
+      "text": "For all digestive troubles or constipation, for biliousness, and for anæmia, Iron-Ox Tablets are the best remedy that you can possibly use. They are a wonderful tonic, as well as a gentle laxative.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_021_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          528.9600219726562,
+          419.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 158,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9576,
+          "mojibake_ratio": 0.0061,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9364
+        }
+      },
+      "source_annotation_id": 55966,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_021__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_021__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_021_0002-verso-55967",
+      "image_id": 50515,
+      "category_id": 1012,
+      "bbox": [
+        83.33332987172071,
+        958.3333584300265,
+        916.6666285889278,
+        170.83333780709168
+      ],
+      "segmentation": [
+        [
+          83.33332987172071,
+          958.3333584300265,
+          999.9999584606485,
+          958.3333584300265,
+          999.9999584606485,
+          1129.1666962371182,
+          83.33332987172071,
+          1129.1666962371182
+        ]
+      ],
+      "area": 156597.21981822015,
+      "iscrowd": 0,
+      "text": "Many doctors throughout the kingdom prescribe Iron-Ox Tablets regularly, because they know what the remedy contains, and they know its value.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_021_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          528.9600219726562,
+          419.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 117,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9669,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9209
+        }
+      },
+      "source_annotation_id": 55967,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_021__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_021__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_021_0002-verso-55968",
+      "image_id": 50515,
+      "category_id": 1012,
+      "bbox": [
+        83.33332987172071,
+        1129.166696237118,
+        916.6666285889278,
+        258.3333400985289
+      ],
+      "segmentation": [
+        [
+          83.33332987172071,
+          1129.166696237118,
+          999.9999584606485,
+          1129.166696237118,
+          999.9999584606485,
+          1387.5000363356469,
+          83.33332987172071,
+          1387.5000363356469
+        ]
+      ],
+      "area": 236805.55192023533,
+      "iscrowd": 0,
+      "text": "We have published in pamphlet form a number of letters from doctors telling of the results that they have obtained with Iron-Ox Tablets. It is called \"The Doctor's Word,\" and will be sent to you gratis and post free if you will write for it.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_021_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          528.9600219726562,
+          419.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 190,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9645,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9706
+        }
+      },
+      "source_annotation_id": 55968,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_021__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_021__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_024_0001-recto-55971",
+      "image_id": 50518,
+      "category_id": 1012,
+      "bbox": [
+        345.83333333333337,
+        3416.666575443229,
+        1929.1666666666667,
+        870.8333100824815
+      ],
+      "segmentation": [
+        [
+          345.83333333333337,
+          3416.666575443229,
+          2275.0,
+          3416.666575443229,
+          2275.0,
+          4287.49988552571,
+          345.83333333333337,
+          4287.49988552571
+        ]
+      ],
+      "area": 1679982.5940341207,
+      "iscrowd": 0,
+      "text": "ONLY SURVIVOR OF ORIGINAL EIGHT\nS.A.P.PIONEERS IN AMERICA\nCommandant Emma Westbrook, in her 80th year,\nis the only survivor of the Original eight\nmilitants who planted the flag of the\nSalvation Army in the United States in 1880.\nShe assists in the routine charitable work\nor her organization and refuses flatly to obey\nthe order by which she was supposed to have been\nretired from active service. 7/19/23",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_024_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          648.0,
+          1097.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 317,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 11,
+            "other": 9
+          },
+          "alpha_ratio": 0.9407,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9926
+        }
+      },
+      "source_annotation_id": 55971,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_024__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_024__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_027_0002-verso-55973",
+      "image_id": 50521,
+      "category_id": 1012,
+      "bbox": [
+        475.00000136341697,
+        775.000008657073,
+        2800.000008036984,
+        412.50000460779694
+      ],
+      "segmentation": [
+        [
+          475.00000136341697,
+          775.000008657073,
+          3275.0000094004013,
+          775.000008657073,
+          3275.0000094004013,
+          1187.50001326487,
+          475.00000136341697,
+          1187.50001326487
+        ]
+      ],
+      "area": 1155000.0162170874,
+      "iscrowd": 0,
+      "text": "AE SALVATION ARMY diamond Jubilee, early 40,000-members of the Salvation Army from all parts of the world celebrated their Diamond Jubilee at the Crystal Palace today1 O.P.S. General Bramwell Booth, greeting Salvationists in their native costumes. HD",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_027_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          850.5599975585938,
+          655.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 200,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 8
+          },
+          "alpha_ratio": 0.9346,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9418
+        }
+      },
+      "source_annotation_id": 55973,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_027__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_027__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_028_0002-verso-55975",
+      "image_id": 50522,
+      "category_id": 1012,
+      "bbox": [
+        645.8333333333334,
+        925.0000413911451,
+        2816.666666666667,
+        462.5000206955726
+      ],
+      "segmentation": [
+        [
+          645.8333333333334,
+          925.0000413911451,
+          3462.5000000000005,
+          925.0000413911451,
+          3462.5000000000005,
+          1387.5000620867177,
+          645.8333333333334,
+          1387.5000620867177
+        ]
+      ],
+      "area": 1302708.3916258628,
+      "iscrowd": 0,
+      "text": "THE SALVATION ARMY diamond JUBILIEE.\n\nNearly 40,000-members of the Salvation Army from all parts of the world\n\ncelebrated their Diamond Jubilee at the Crystal Palace today1\n\nO.P.S. General Bramwell Boothy, greeting Salvationists in their native\n\ncostumes.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_028_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          864.0,
+          654.719970703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 202,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 8
+          },
+          "alpha_ratio": 0.9352,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9502
+        }
+      },
+      "source_annotation_id": 55975,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_028__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_028__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_031_0002-verso-55979",
+      "image_id": 50525,
+      "category_id": 1012,
+      "bbox": [
+        229.16667131844193,
+        708.3333596309229,
+        3054.166728662144,
+        562.50002088338
+      ],
+      "segmentation": [
+        [
+          229.16667131844193,
+          708.3333596309229,
+          3283.333399980586,
+          708.3333596309229,
+          3283.333399980586,
+          1270.833380514303,
+          229.16667131844193,
+          1270.833380514303
+        ]
+      ],
+      "area": 1717968.8486537805,
+      "iscrowd": 0,
+      "text": "MRS, Bramwell Booth LEAVES FOR CANADA.\n\nMr. Bramwell Booth, Commissioner Hopp and Miss Booth left London this\n\nMr. Bramwell Booth, Commissioner Hopp and Miss Booth left London this\n\nMr. Bramwell Booth, Commissioner Hopp and Miss Booth left London this\n\nother countries.\n\nGP\n\nO.P.S. Mrs. Bramwell Booth photographed with her daughter prior to their GP\n\ndeparture, from Waterloo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_031_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          841.9199829101562,
+          657.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 299,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 15
+          },
+          "alpha_ratio": 0.9522,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9357
+        }
+      },
+      "source_annotation_id": 55979,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_031__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_031__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_033_0001-recto-55981",
+      "image_id": 50527,
+      "category_id": 1012,
+      "bbox": [
+        345.8333292235219,
+        3304.166666666667,
+        1041.6666542877167,
+        133.33333333333334
+      ],
+      "segmentation": [
+        [
+          345.8333292235219,
+          3304.166666666667,
+          1387.4999835112385,
+          3304.166666666667,
+          1387.4999835112385,
+          3437.5000000000005,
+          345.8333292235219,
+          3437.5000000000005
+        ]
+      ],
+      "area": 138888.88723836225,
+      "iscrowd": 0,
+      "text": "WATCH YOUR CREDIT LINE: PHOTO FROM: WIDE WORLD PHOTOS:",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_033_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          616.3200073242188,
+          984.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 43,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9348,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9141
+        }
+      },
+      "source_annotation_id": 55981,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_033__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_033__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_033_0001-recto-55982",
+      "image_id": 50527,
+      "category_id": 1012,
+      "bbox": [
+        383.33332877787973,
+        3504.166666666667,
+        341.66666260637106,
+        62.50000000000001
+      ],
+      "segmentation": [
+        [
+          383.33332877787973,
+          3504.166666666667,
+          724.9999913842507,
+          3504.166666666667,
+          724.9999913842507,
+          3566.666666666667,
+          383.33332877787973,
+          3566.666666666667
+        ]
+      ],
+      "area": 21354.166412898194,
+      "iscrowd": 0,
+      "text": "32243 F.C.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_033_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          616.3200073242188,
+          984.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "suspicious",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 2,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 2
+          },
+          "alpha_ratio": 0.2222,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8028
+        }
+      },
+      "source_annotation_id": 55982,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_033__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_033__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_033_0001-recto-55983",
+      "image_id": 50527,
+      "category_id": 1012,
+      "bbox": [
+        379.16666216072883,
+        3641.666666666667,
+        1887.4999775693425,
+        279.1666666666667
+      ],
+      "segmentation": [
+        [
+          379.16666216072883,
+          3641.666666666667,
+          2266.6666397300714,
+          3641.666666666667,
+          2266.6666397300714,
+          3920.8333333333335,
+          379.16666216072883,
+          3920.8333333333335
+        ]
+      ],
+      "area": 526927.0770714415,
+      "iscrowd": 0,
+      "text": "Col.Charles Miles, head of the Salvation Army William Booth Memorial Training College, New York City, and the bust of the late founder of the Salvation Army, unveiled at the college by John Wanamaker, yesterday.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_033_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          616.3200073242188,
+          984.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 171,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9607,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9784
+        }
+      },
+      "source_annotation_id": 55983,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_033__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_033__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_034_0002-verso-55984",
+      "image_id": 50528,
+      "category_id": 1012,
+      "bbox": [
+        429.1666573835673,
+        637.499984656975,
+        2549.9999448421668,
+        270.83332681505476
+      ],
+      "segmentation": [
+        [
+          429.1666573835673,
+          637.499984656975,
+          2979.166602225734,
+          637.499984656975,
+          2979.166602225734,
+          908.3333114720298,
+          429.1666573835673,
+          908.3333114720298
+        ]
+      ],
+      "area": 690624.9684398102,
+      "iscrowd": 0,
+      "text": "The veteran General Booth, leader of the Salvation Army, is at present on a tour of the West of England. He was in Palmouth yesterday (Aug 5th) and is seen with the Mayor.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_034_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          608.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 132,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 6
+          },
+          "alpha_ratio": 0.9496,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9854
+        }
+      },
+      "source_annotation_id": 55984,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_034__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_034__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_035_0001-recto-55985",
+      "image_id": 50529,
+      "category_id": 1012,
+      "bbox": [
+        491.6666624613764,
+        2687.4999232060027,
+        2545.833311558483,
+        408.33332166540816
+      ],
+      "segmentation": [
+        [
+          491.6666624613764,
+          2687.4999232060027,
+          3037.499974019859,
+          2687.4999232060027,
+          3037.499974019859,
+          3095.833244871411,
+          491.6666624613764,
+          3095.833244871411
+        ]
+      ],
+      "area": 1039548.5725151212,
+      "iscrowd": 0,
+      "text": "LEADER OF A GREAT ARMY: General Bramwell Booth (right) world leader of the Salvation Army, who reached Sydney from Melbourne on April 1. He was greeted by great crowds of Salvation Army officers and \"lassies\", and officially welcomed by Commissioner Whatmore (left) who has charge pf the New South Wales branch of the Army.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_035_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          856.3200073242188,
+          768.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 258,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 11
+          },
+          "alpha_ratio": 0.9556,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9944
+        }
+      },
+      "source_annotation_id": 55985,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_035__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_035__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_036_0002-verso-55987",
+      "image_id": 50530,
+      "category_id": 1012,
+      "bbox": [
+        300.00000433488333,
+        704.1666928095646,
+        2912.500042084492,
+        1025.000038054159
+      ],
+      "segmentation": [
+        [
+          300.00000433488333,
+          704.1666928095646,
+          3212.5000464193754,
+          704.1666928095646,
+          3212.5000464193754,
+          1729.1667308637234,
+          300.00000433488333,
+          1729.1667308637234
+        ]
+      ],
+      "area": 2985312.653969344,
+      "iscrowd": 0,
+      "text": "HEAD OF VAST ORGANISATION ARRIVES IN MELBOURNE (VICTORIA), from England. The welcome extended to General Booth, the leader of the Salvation Army, proved that a great number of the people of Victoria are warmly inclined towards that organisation, famed all over the world for its splendid work. Returned soldiers figured in the welcome, for all returned men know the invaluable aid that the Army game them at the Front. General Booth is shown standing in his car in the midst of a cheering crowd, with shouts, cries of Halelujah, and a blame of a band ringing in his ears.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_036_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          844.7999877929688,
+          657.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 459,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 14
+          },
+          "alpha_ratio": 0.9704,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9963
+        }
+      },
+      "source_annotation_id": 55987,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_036__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_036__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_037_0001-recto-55988",
+      "image_id": 50531,
+      "category_id": 1012,
+      "bbox": [
+        266.6666560702858,
+        3550.000134247096,
+        1612.4999359250094,
+        266.66667675095556
+      ],
+      "segmentation": [
+        [
+          266.6666560702858,
+          3550.000134247096,
+          1879.1665919952952,
+          3550.000134247096,
+          1879.1665919952952,
+          3816.6668109980515,
+          266.6666560702858,
+          3816.6668109980515
+        ]
+      ],
+      "area": 429999.99917425105,
+      "iscrowd": 0,
+      "text": "WATCH YOU CREDIT LINE (S LUG)BOOTH,\nCOPY-AIGHT BY UN WOOD & UNDE-WOC D,\nNEW YOK.\nXSALVATION A-MY CHIEF A-IVES IN U.S.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_037_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          737.280029296875,
+          1032.9599609375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 85,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 12
+          },
+          "alpha_ratio": 0.8763,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9095
+        }
+      },
+      "source_annotation_id": 55988,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_037__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_037__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_037_0001-recto-55989",
+      "image_id": 50531,
+      "category_id": 1012,
+      "bbox": [
+        270.83332257138403,
+        3862.5001460646217,
+        2454.166569146849,
+        204.16667438745034
+      ],
+      "segmentation": [
+        [
+          270.83332257138403,
+          3862.5001460646217,
+          2724.999891718233,
+          3862.5001460646217,
+          2724.999891718233,
+          4066.666820452072,
+          270.83332257138403,
+          4066.666820452072
+        ]
+      ],
+      "area": 501059.02681557083,
+      "iscrowd": 0,
+      "text": "#370,574 General Bramwell Booth of the Salvation Army arrives at New York on S.S.Homeric. 10/8/24",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_037_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          737.280029296875,
+          1032.9599609375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 65,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 11,
+            "other": 7
+          },
+          "alpha_ratio": 0.7831,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8979
+        }
+      },
+      "source_annotation_id": 55989,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_037__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_037__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_038_0002-verso-55991",
+      "image_id": 50532,
+      "category_id": 1012,
+      "bbox": [
+        383.33334770804953,
+        483.3333176321266,
+        1679.1667296341734,
+        108.33332981409734
+      ],
+      "segmentation": [
+        [
+          383.33334770804953,
+          483.3333176321266,
+          2062.500077342223,
+          483.3333176321266,
+          2062.500077342223,
+          591.6666474462239,
+          383.33334770804953,
+          591.6666474462239
+        ]
+      ],
+      "area": 181909.72313431813,
+      "iscrowd": 0,
+      "text": "The leader of the Salvation army in Japan?",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_038_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          716.1599731445312,
+          526.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 34,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9714,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9464
+        }
+      },
+      "source_annotation_id": 55991,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_038__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_038__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_038_0002-verso-55992",
+      "image_id": 50532,
+      "category_id": 1012,
+      "bbox": [
+        383.33334770804953,
+        604.1666470401582,
+        2425.0000909357045,
+        191.66666044032604
+      ],
+      "segmentation": [
+        [
+          383.33334770804953,
+          604.1666470401582,
+          2808.333438643754,
+          604.1666470401582,
+          2808.333438643754,
+          795.8333074804842,
+          383.33334770804953,
+          795.8333074804842
+        ]
+      ],
+      "area": 464791.66899713344,
+      "iscrowd": 0,
+      "text": "0, P. General Bramwell Booth, the head of the Salvation army at his arrival in Yokohama,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_038_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          716.1599731445312,
+          526.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 68,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 4
+          },
+          "alpha_ratio": 0.9315,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9248
+        }
+      },
+      "source_annotation_id": 55992,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_038__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_038__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_039_0002-verso-55996",
+      "image_id": 50533,
+      "category_id": 1012,
+      "bbox": [
+        337.49999792679495,
+        462.50000184936846,
+        1574.9999903250432,
+        75.00000029989758
+      ],
+      "segmentation": [
+        [
+          337.49999792679495,
+          462.50000184936846,
+          1912.4999882518382,
+          462.50000184936846,
+          1912.4999882518382,
+          537.500002149266,
+          337.49999792679495,
+          537.500002149266
+        ]
+      ],
+      "area": 118124.99974671693,
+      "iscrowd": 0,
+      "text": "SALVATIONISTS AT CLAXTON ON SEA. 18727.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_039_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          794.8800048828125,
+          610.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 2
+          },
+          "alpha_ratio": 0.7941,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8943
+        }
+      },
+      "source_annotation_id": 55996,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_039__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_039__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_039_0002-verso-55997",
+      "image_id": 50533,
+      "category_id": 1012,
+      "bbox": [
+        329.16666464465186,
+        595.8333357158531,
+        2354.1666522054215,
+        270.83333441629685
+      ],
+      "segmentation": [
+        [
+          329.16666464465186,
+          595.8333357158531,
+          2683.3333168500735,
+          595.8333357158531,
+          2683.3333168500735,
+          866.6666701321499,
+          329.16666464465186,
+          866.6666701321499
+        ]
+      ],
+      "area": 637586.804188445,
+      "iscrowd": 0,
+      "text": "General Bramwell and Mrs. Booth arriving at the Pavilion at Clacton on Sea, where they had a civic reception. General Booth dedicated a memorial hall to his mother, Catherine Booth.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_197_039_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          794.8800048828125,
+          610.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 147,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9671,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9209
+        }
+      },
+      "source_annotation_id": 55997,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_039__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_039__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_041_0001-recto-55998",
+      "image_id": 50535,
+      "category_id": 1012,
+      "bbox": [
+        695.8333478722653,
+        2687.5000598875454,
+        1200.0000250731282,
+        133.33333630449837
+      ],
+      "segmentation": [
+        [
+          695.8333478722653,
+          2687.5000598875454,
+          1895.8333729453934,
+          2687.5000598875454,
+          1895.8333729453934,
+          2820.833396192044,
+          695.8333478722653,
+          2820.833396192044
+        ]
+      ],
+      "area": 160000.00690848188,
+      "iscrowd": 0,
+      "text": "AWL(26)WATCH YOUR CREDIT LINE: PHOTO FROM:WIDE WORLD PHOTOS.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_041_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          817.9199829101562,
+          876.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 46,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 5
+          },
+          "alpha_ratio": 0.8679,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9035
+        }
+      },
+      "source_annotation_id": 55998,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_041__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_041__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_197_041_0001-recto-55999",
+      "image_id": 50535,
+      "category_id": 1012,
+      "bbox": [
+        929.1666860809291,
+        2987.5000665726666,
+        2037.5000425720823,
+        304.1666734446369
+      ],
+      "segmentation": [
+        [
+          929.1666860809291,
+          2987.5000665726666,
+          2966.6667286530114,
+          2987.5000665726666,
+          2966.6667286530114,
+          3291.6667400173037,
+          929.1666860809291,
+          3291.6667400173037
+        ]
+      ],
+      "area": 619739.6100924563,
+      "iscrowd": 0,
+      "text": "Mr. and Mrs. Chauncey Depew, upon a visit to Washington/Where he was made an officer of the Legion of Honor of the French Government, contributing to the Salvati on Army Home Service Fund, outside the National Headquarters of the S.A. 5/23/22",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_197_041_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          817.9199829101562,
+          876.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 187,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 10
+          },
+          "alpha_ratio": 0.9257,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9824
+        }
+      },
+      "source_annotation_id": 55999,
+      "source_file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_041__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_197/SHDGR__GR_2_K_247_197_041__0001.jpg"
+    }
+  ]
 }

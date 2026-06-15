@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_113",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,6 +2903,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2544,6 +2932,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2570,6 +2961,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2596,6 +2990,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2622,6 +3019,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2648,6 +3048,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2674,6 +3077,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2700,6 +3106,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2726,6 +3135,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2752,6 +3164,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2778,6 +3193,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2804,6 +3222,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2830,6 +3251,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2856,6 +3280,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2882,6 +3309,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2908,6 +3338,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2934,6 +3367,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2960,6 +3396,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2986,6 +3425,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3012,6 +3454,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3038,6 +3483,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3064,6 +3512,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3090,6 +3541,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3116,6 +3570,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3142,6 +3599,9 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3168,9 +3628,3841 @@
         "Type": "Géographique",
         "Cluster": 11,
         "ClusterLabel": "Ruines Guerre",
+        "Pays / Région": "Grande-Bretagne",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_001_0002-verso-38383",
+      "image_id": 30875,
+      "category_id": 1012,
+      "bbox": [
+        195.83332985466106,
+        1137.4999869888513,
+        2858.333282559521,
+        262.4999969974272
+      ],
+      "segmentation": [
+        [
+          195.83332985466106,
+          1137.4999869888513,
+          3054.166612414182,
+          1137.4999869888513,
+          3054.166612414182,
+          1399.9999839862785,
+          195.83332985466106,
+          1399.9999839862785
+        ]
+      ],
+      "area": 750312.4780895206,
+      "iscrowd": 0,
+      "text": "GERMAN AIR RAID ON YARMOUTH: Mr Edward J. Billis was injured in the head",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_001_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          824.6400146484375,
+          640.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 57,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9661,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9208
+        }
+      },
+      "source_annotation_id": 38383,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_001__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_001__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_003_0002-verso-38384",
+      "image_id": 30877,
+      "category_id": 1012,
+      "bbox": [
+        370.8333305513926,
+        1358.3333653557702,
+        1820.8333196736917,
+        75.00000176811001
+      ],
+      "segmentation": [
+        [
+          370.8333305513926,
+          1358.3333653557702,
+          2191.666650225084,
+          1358.3333653557702,
+          2191.666650225084,
+          1433.3333671238802,
+          370.8333305513926,
+          1433.3333671238802
+        ]
+      ],
+      "area": 136562.50219496049,
+      "iscrowd": 0,
+      "text": "THE RUINS OF WHITBY ABBREY BOMBARDED BY GERMANS",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          650.8800048828125,
+          828.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.375,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 40,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9375
+        }
+      },
+      "source_annotation_id": 38384,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_004_0002-verso-38386",
+      "image_id": 30878,
+      "category_id": 1012,
+      "bbox": [
+        329.16668139594805,
+        1266.6666740549692,
+        2137.500095647106,
+        204.16666785754438
+      ],
+      "segmentation": [
+        [
+          329.16668139594805,
+          1266.6666740549692,
+          2466.666777043054,
+          1266.6666740549692,
+          2466.666777043054,
+          1470.8333419125136,
+          329.16668139594805,
+          1470.8333419125136
+        ]
+      ],
+      "area": 436406.272073452,
+      "iscrowd": 0,
+      "text": "THE RUINS OF WHITBY ABBEY AFTER THE GERMAN BOMBARDMENT",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_004_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          654.719970703125,
+          837.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 46,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9333
+        }
+      },
+      "source_annotation_id": 38386,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_004__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_004__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_006_0002-verso-38388",
+      "image_id": 30880,
+      "category_id": 1012,
+      "bbox": [
+        604.1666454250735,
+        804.1666546543228,
+        1833.3332688760852,
+        70.83333227525122
+      ],
+      "segmentation": [
+        [
+          604.1666454250735,
+          804.1666546543228,
+          2437.4999143011587,
+          804.1666546543228,
+          2437.4999143011587,
+          874.999986929574,
+          604.1666454250735,
+          874.999986929574
+        ]
+      ],
+      "area": 129861.10460557224,
+      "iscrowd": 0,
+      "text": "THE RUINS OF WHITBY ABBREY BOMBARDED BY GERMANS",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          833.280029296875,
+          653.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.375,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 40,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9375
+        }
+      },
+      "source_annotation_id": 38388,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_010_0002-verso-38391",
+      "image_id": 30884,
+      "category_id": 1012,
+      "bbox": [
+        1570.833374638874,
+        470.8333444331351,
+        412.50001084681304,
+        1091.6666924024903
+      ],
+      "segmentation": [
+        [
+          1570.833374638874,
+          470.8333444331351,
+          1983.333385485687,
+          470.8333444331351,
+          1983.333385485687,
+          1562.5000368356255,
+          1570.833374638874,
+          1562.5000368356255
+        ]
+      ],
+      "area": 450312.52245713177,
+      "iscrowd": 0,
+      "text": "COPYRIGHT PHOTO BY\nDAILY MIRROR\n28-28, BOURIERIE 81, LONDON, E.A.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          649.9199829101562,
+          828.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.8571,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 44,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 6
+          },
+          "alpha_ratio": 0.7857,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9589
+        }
+      },
+      "source_annotation_id": 38391,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_012_0002-verso-38392",
+      "image_id": 30886,
+      "category_id": 1012,
+      "bbox": [
+        287.499990850224,
+        666.6666768037132,
+        3037.499903330627,
+        233.3333368812996
+      ],
+      "segmentation": [
+        [
+          287.499990850224,
+          666.6666768037132,
+          3324.9998941808512,
+          666.6666768037132,
+          3324.9998941808512,
+          900.0000136850128,
+          287.499990850224,
+          900.0000136850128
+        ]
+      ],
+      "area": 708749.9882207602,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The wrecked buffet pf the Grand Hot Hotel at Scarborough.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          843.8400268554688,
+          642.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 81,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9759,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9387
+        }
+      },
+      "source_annotation_id": 38392,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_014_0002-verso-38394",
+      "image_id": 30888,
+      "category_id": 1012,
+      "bbox": [
+        145.83333290408177,
+        2095.833420710055,
+        2979.16665789767,
+        145.8333394132245
+      ],
+      "segmentation": [
+        [
+          145.83333290408177,
+          2095.833420710055,
+          3124.9999908017517,
+          2095.833420710055,
+          3124.9999908017517,
+          2241.66676012328,
+          145.83333290408177,
+          2241.66676012328
+        ]
+      ],
+      "area": 434461.8223897526,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Grest holes torn in the wall of a house at Hartlepool",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          829.4400024414062,
+          644.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 77,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9872,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9484
+        }
+      },
+      "source_annotation_id": 38394,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_015_0002-verso-38396",
+      "image_id": 30889,
+      "category_id": 1012,
+      "bbox": [
+        191.6666723344987,
+        574.9999805315013,
+        2920.833419706165,
+        133.33332881889885
+      ],
+      "segmentation": [
+        [
+          191.6666723344987,
+          574.9999805315013,
+          3112.5000920406637,
+          574.9999805315013,
+          3112.5000920406637,
+          708.3333093504001,
+          191.6666723344987,
+          708.3333093504001
+        ]
+      ],
+      "area": 389444.4427749109,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Kingscliffe Camp offices showing shell damage.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_015_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          825.5999755859375,
+          648.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 74,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9737,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9217
+        }
+      },
+      "source_annotation_id": 38396,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_015__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_015__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_020_0002-verso-38400",
+      "image_id": 30894,
+      "category_id": 1012,
+      "bbox": [
+        149.9999978076453,
+        499.9999980849913,
+        3129.166620931712,
+        162.49999937762217
+      ],
+      "segmentation": [
+        [
+          149.9999978076453,
+          499.9999980849913,
+          3279.166618739357,
+          499.9999980849913,
+          3279.166618739357,
+          662.4999974626135,
+          149.9999978076453,
+          662.4999974626135
+        ]
+      ],
+      "area": 508489.57395387924,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Damaged roof of a house at Hartlepool",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_020_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          835.2000122070312,
+          637.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 65,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9848,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9314
+        }
+      },
+      "source_annotation_id": 38400,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_020__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_020__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_025_0002-verso-38403",
+      "image_id": 30899,
+      "category_id": 1012,
+      "bbox": [
+        333.333328461434,
+        458.33332989497956,
+        2933.333290460619,
+        387.4999970930282
+      ],
+      "segmentation": [
+        [
+          333.333328461434,
+          458.33332989497956,
+          3266.666618922053,
+          458.33332989497956,
+          3266.666618922053,
+          845.8333269880077,
+          333.333328461434,
+          845.8333269880077
+        ]
+      ],
+      "area": 1136666.6415263726,
+      "iscrowd": 0,
+      "text": "GREAT GALE RAGES OVER ENGLAND ON MONDAY NIGHT: The remains of a marquee of the military force in the UK. The remains of a marquee of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains of the military force in the UK. The remains",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_025_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          835.2000122070312,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14313,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 408
+          },
+          "alpha_ratio": 0.9723,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9965
+        }
+      },
+      "source_annotation_id": 38403,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_025__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_025__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_028_0002-verso-38405",
+      "image_id": 30902,
+      "category_id": 1012,
+      "bbox": [
+        337.49998813400657,
+        800.0000271669844,
+        2858.3332328386236,
+        275.0000093386509
+      ],
+      "segmentation": [
+        [
+          337.49998813400657,
+          800.0000271669844,
+          3195.8332209726304,
+          800.0000271669844,
+          3195.8332209726304,
+          1075.0000365056353,
+          337.49998813400657,
+          1075.0000365056353
+        ]
+      ],
+      "area": 786041.6657235977,
+      "iscrowd": 0,
+      "text": "GREAT GALE RACES OVER ENGLAND ON MONDAY night: A rabbit rescued out of a house that was demolished at Clephant.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_028_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          833.280029296875,
+          647.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 90,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9783,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9139
+        }
+      },
+      "source_annotation_id": 38405,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_028__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_028__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_029_0002-verso-38406",
+      "image_id": 30903,
+      "category_id": 1012,
+      "bbox": [
+        366.666653775217,
+        670.8333561139817,
+        2854.166566318451,
+        220.83334083255298
+      ],
+      "segmentation": [
+        [
+          366.666653775217,
+          670.8333561139817,
+          3220.833220093668,
+          670.8333561139817,
+          3220.833220093668,
+          891.6666969465347,
+          366.666653775217,
+          891.6666969465347
+        ]
+      ],
+      "area": 630295.1381326799,
+      "iscrowd": 0,
+      "text": "GREAT GALE RAGES OVER ENGLAND ON MONDAY NIGHT: A rabbit rescued out of a house that was demolished at Claphan,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          833.280029296875,
+          647.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 89,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.978,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9139
+        }
+      },
+      "source_annotation_id": 38406,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_033_0002-verso-38409",
+      "image_id": 30907,
+      "category_id": 1012,
+      "bbox": [
+        137.5000016095769,
+        749.9999713180667,
+        3008.333368548925,
+        162.49999378558113
+      ],
+      "segmentation": [
+        [
+          137.5000016095769,
+          749.9999713180667,
+          3145.833370158502,
+          749.9999713180667,
+          3145.833370158502,
+          912.4999651036478,
+          137.5000016095769,
+          912.4999651036478
+        ]
+      ],
+      "area": 488854.1536941567,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The wall surrounding the gas works at Hartlepool, shewing part of the damage done by the shells.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_033_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          834.239990234375,
+          638.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 112,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9739,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9717
+        }
+      },
+      "source_annotation_id": 38409,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_033__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_033__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_034_0002-verso-38411",
+      "image_id": 30908,
+      "category_id": 1012,
+      "bbox": [
+        212.50000500964504,
+        2137.4999755504787,
+        2983.3334036648207,
+        149.99999828424413
+      ],
+      "segmentation": [
+        [
+          212.50000500964504,
+          2137.4999755504787,
+          3195.8334086744658,
+          2137.4999755504787,
+          3195.8334086744658,
+          2287.499973834723,
+          212.50000500964504,
+          2287.499973834723
+        ]
+      ],
+      "area": 447500.0054310513,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Great holes torn in the wall of a house at Hartlepool",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_034_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          828.47998046875,
+          640.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 77,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9872,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9484
+        }
+      },
+      "source_annotation_id": 38411,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_034__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_034__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_035_0002-verso-38413",
+      "image_id": 30909,
+      "category_id": 1012,
+      "bbox": [
+        358.3333312575047,
+        1287.500029498035,
+        2745.833317426693,
+        216.66667163073728
+      ],
+      "segmentation": [
+        [
+          358.3333312575047,
+          1287.500029498035,
+          3104.1666486841978,
+          1287.500029498035,
+          3104.1666486841978,
+          1504.1667011287723,
+          358.3333312575047,
+          1504.1667011287723
+        ]
+      ],
+      "area": 594930.5657396273,
+      "iscrowd": 0,
+      "text": "GERMAN AIR ROAD ON YANMOUTZ, House wife kicked by a bomb.Han in the foreground was injured in the head",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          842.8800048828125,
+          639.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 82,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9762,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.947
+        }
+      },
+      "source_annotation_id": 38413,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_036_0002-verso-38414",
+      "image_id": 30910,
+      "category_id": 1012,
+      "bbox": [
+        233.33333744463147,
+        1954.166733027686,
+        2766.666715414916,
+        233.33334125703712
+      ],
+      "segmentation": [
+        [
+          233.33333744463147,
+          1954.166733027686,
+          3000.0000528595474,
+          1954.166733027686,
+          3000.0000528595474,
+          2187.5000742847233,
+          233.33333744463147,
+          2187.5000742847233
+        ]
+      ],
+      "area": 645555.5888523946,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Wrecked houses at Hartlepool",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_036_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          831.3599853515625,
+          647.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2727,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 59,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9833,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9252
+        }
+      },
+      "source_annotation_id": 38414,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_036__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_036__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_038_0002-verso-38415",
+      "image_id": 30912,
+      "category_id": 1012,
+      "bbox": [
+        191.6666700438044,
+        737.499971796099,
+        3129.166721802111,
+        145.83332775629074
+      ],
+      "segmentation": [
+        [
+          191.6666700438044,
+          737.499971796099,
+          3320.8333918459157,
+          737.499971796099,
+          3320.8333918459157,
+          883.3332995523897,
+          191.6666700438044,
+          883.3332995523897
+        ]
+      ],
+      "area": 456336.79614464514,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Damaged roof of a house at Hartlepool",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_038_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          831.3599853515625,
+          638.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 65,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9848,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9314
+        }
+      },
+      "source_annotation_id": 38415,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_038__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_038__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_040_0002-verso-38416",
+      "image_id": 30914,
+      "category_id": 1012,
+      "bbox": [
+        250.00000000000003,
+        708.3333495620258,
+        3000.0,
+        175.00000400944165
+      ],
+      "segmentation": [
+        [
+          250.00000000000003,
+          708.3333495620258,
+          3250.0,
+          708.3333495620258,
+          3250.0,
+          883.3333535714675,
+          250.00000000000003,
+          883.3333535714675
+        ]
+      ],
+      "area": 525000.012028325,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The wall surrounding the gas works at Hartlepool, showing part of the damage done by the shells.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_040_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          840.0,
+          639.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 112,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9739,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9717
+        }
+      },
+      "source_annotation_id": 38416,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_040__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_040__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_041_0002-verso-38417",
+      "image_id": 30915,
+      "category_id": 1012,
+      "bbox": [
+        237.50000070150261,
+        579.1666688949525,
+        3004.1666755400593,
+        175.00000067329503
+      ],
+      "segmentation": [
+        [
+          237.50000070150261,
+          579.1666688949525,
+          3241.666676241562,
+          579.1666688949525,
+          3241.666676241562,
+          754.1666695682476,
+          237.50000070150261,
+          754.1666695682476
+        ]
+      ],
+      "area": 525729.1702422008,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The wall surrounding the gas works at Hartlepool, shewing part of the damage done by shells.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_041_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          826.5599975585938,
+          634.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 109,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9732,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9633
+        }
+      },
+      "source_annotation_id": 38417,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_041__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_041__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_042_0002-verso-38419",
+      "image_id": 30916,
+      "category_id": 1012,
+      "bbox": [
+        291.66667180578935,
+        662.5000025489026,
+        2891.666717617397,
+        187.50000072138752
+      ],
+      "segmentation": [
+        [
+          291.66667180578935,
+          662.5000025489026,
+          3183.3333894231864,
+          662.5000025489026,
+          3183.3333894231864,
+          850.0000032702901,
+          291.66667180578935,
+          850.0000032702901
+        ]
+      ],
+      "area": 542187.5116392742,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: A fragment of a shell exhibited in the window of a shop in Hartlepool",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_042_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          831.3599853515625,
+          634.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 90,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.989,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9653
+        }
+      },
+      "source_annotation_id": 38419,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_042__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_042__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_044_0002-verso-38420",
+      "image_id": 30918,
+      "category_id": 1012,
+      "bbox": [
+        379.16665459957073,
+        420.8333253465088,
+        2899.999907706607,
+        174.99999667874624
+      ],
+      "segmentation": [
+        [
+          379.16665459957073,
+          420.8333253465088,
+          3279.1665623061776,
+          420.8333253465088,
+          3279.1665623061776,
+          595.833322025255,
+          379.16665459957073,
+          595.833322025255
+        ]
+      ],
+      "area": 507499.9742170206,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDIMENT OF THE EAST COAST: The wrecked buffet of the Grand Hotel at Scarborough.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_044_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          843.8400268554688,
+          643.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9753,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9469
+        }
+      },
+      "source_annotation_id": 38420,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_044__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_044__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_045_0002-verso-38421",
+      "image_id": 30919,
+      "category_id": 1012,
+      "bbox": [
+        341.66667561418336,
+        487.4999850178058,
+        3020.8334124424746,
+        208.3333269306862
+      ],
+      "segmentation": [
+        [
+          341.66667561418336,
+          487.4999850178058,
+          3362.500088056658,
+          487.4999850178058,
+          3362.500088056658,
+          695.833311948492,
+          341.66667561418336,
+          695.833311948492
+        ]
+      ],
+      "area": 629340.2749175185,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Damage done by a shell to a bakers shop at Scarborough. The proprietor was killed. Part of the shell can be seen on one of the loaves",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_045_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          839.0399780273438,
+          635.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 139,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9789,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9807
+        }
+      },
+      "source_annotation_id": 38421,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_045__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_045__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_046_0002-verso-38423",
+      "image_id": 30920,
+      "category_id": 1012,
+      "bbox": [
+        187.5000010936632,
+        2054.1666123306923,
+        2991.6666841166707,
+        145.8333294758098
+      ],
+      "segmentation": [
+        [
+          187.5000010936632,
+          2054.1666123306923,
+          3179.166685210334,
+          2054.1666123306923,
+          3179.166685210334,
+          2199.999941806502,
+          187.5000010936632,
+          2199.999941806502
+        ]
+      ],
+      "area": 436284.7132265898,
+      "iscrowd": 0,
+      "text": "THE GERMAN BombARDMENT OF THE EAST COAST: Great holes torn in the well of a house at Hartlepool",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_046_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 77,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9872,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9484
+        }
+      },
+      "source_annotation_id": 38423,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_046__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_046__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_048_0002-verso-38425",
+      "image_id": 30922,
+      "category_id": 1012,
+      "bbox": [
+        220.83333722438334,
+        462.4999877661396,
+        2933.333385018224,
+        224.99999404839224
+      ],
+      "segmentation": [
+        [
+          220.83333722438334,
+          462.4999877661396,
+          3154.166722242607,
+          462.4999877661396,
+          3154.166722242607,
+          687.4999818145318,
+          220.83333722438334,
+          687.4999818145318
+        ]
+      ],
+      "area": 659999.9941710506,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Kingscliffe Camp offices showing shell damage.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_048_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          831.3599853515625,
+          646.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 74,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9737,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9217
+        }
+      },
+      "source_annotation_id": 38425,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_048__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_048__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_049_0002-verso-38428",
+      "image_id": 30923,
+      "category_id": 1012,
+      "bbox": [
+        349.9999876945254,
+        2100.0000481132997,
+        2816.6665676368943,
+        166.66667048518252
+      ],
+      "segmentation": [
+        [
+          349.9999876945254,
+          2100.0000481132997,
+          3166.6665553314197,
+          2100.0000481132997,
+          3166.6665553314197,
+          2266.6667185984825,
+          349.9999876945254,
+          2266.6667185984825
+        ]
+      ],
+      "area": 469444.43869496835,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Where a shell exploded in the station yard at Searborough,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_049_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          833.280029296875,
+          639.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 82,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9762,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9387
+        }
+      },
+      "source_annotation_id": 38428,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_049__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_049__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_050_0002-verso-38429",
+      "image_id": 30924,
+      "category_id": 1012,
+      "bbox": [
+        316.6666638800751,
+        675.0000051089695,
+        2933.333307520695,
+        150.00000113532656
+      ],
+      "segmentation": [
+        [
+          316.6666638800751,
+          675.0000051089695,
+          3249.9999714007704,
+          675.0000051089695,
+          3249.9999714007704,
+          825.0000062442961,
+          316.6666638800751,
+          825.0000062442961
+        ]
+      ],
+      "area": 439999.99945839547,
+      "iscrowd": 0,
+      "text": "GREAT GALE RAGES OVER ENGLAND ON MONDAY NIGHT: The iron roof that was torn off a store at Farnborough.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_050_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          832.3200073242188,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 82,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9762,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9137
+        }
+      },
+      "source_annotation_id": 38429,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_050__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_050__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_051_0002-verso-38430",
+      "image_id": 30925,
+      "category_id": 1012,
+      "bbox": [
+        320.8333417352697,
+        274.99998948329113,
+        2791.666739774425,
+        270.83332297596854
+      ],
+      "segmentation": [
+        [
+          320.8333417352697,
+          274.99998948329113,
+          3112.5000815096946,
+          274.99998948329113,
+          3112.5000815096946,
+          545.8333124592597,
+          320.8333417352697,
+          545.8333124592597
+        ]
+      ],
+      "area": 756076.379774596,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Wrecked houses at Hartlepool.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_051_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          839.0399780273438,
+          638.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2727,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 59,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9672,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9232
+        }
+      },
+      "source_annotation_id": 38430,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_051__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_051__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_063_0002-verso-38431",
+      "image_id": 30937,
+      "category_id": 1012,
+      "bbox": [
+        237.4999930174137,
+        445.8333367077762,
+        2929.166580548102,
+        170.83333462634414
+      ],
+      "segmentation": [
+        [
+          237.4999930174137,
+          445.8333367077762,
+          3166.6665735655156,
+          445.8333367077762,
+          3166.6665735655156,
+          616.6666713341203,
+          237.4999930174137,
+          616.6666713341203
+        ]
+      ],
+      "area": 500399.29463107814,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Kingscliffe Camp offices showing shell damage.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_063_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          830.4000244140625,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 74,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9737,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9217
+        }
+      },
+      "source_annotation_id": 38431,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_063__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_063__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_064_0002-verso-38433",
+      "image_id": 30938,
+      "category_id": 1012,
+      "bbox": [
+        283.33332500323036,
+        420.83333333333337,
+        3049.9999103288915,
+        183.33333333333334
+      ],
+      "segmentation": [
+        [
+          283.33332500323036,
+          420.83333333333337,
+          3333.333235332122,
+          420.83333333333337,
+          3333.333235332122,
+          604.1666666666667,
+          283.33332500323036,
+          604.1666666666667
+        ]
+      ],
+      "area": 559166.6502269635,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Picture palace at Sørberough which was revoked",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_064_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          830.4000244140625,
+          648.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 74,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9867,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9233
+        }
+      },
+      "source_annotation_id": 38433,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_064__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_064__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_065_0002-verso-38435",
+      "image_id": 30939,
+      "category_id": 1012,
+      "bbox": [
+        191.66666103159702,
+        425.00000000000006,
+        3045.833243784726,
+        145.83333333333334
+      ],
+      "segmentation": [
+        [
+          191.66666103159702,
+          425.00000000000006,
+          3237.499904816323,
+          425.00000000000006,
+          3237.499904816323,
+          570.8333333333334,
+          191.66666103159702,
+          570.8333333333334
+        ]
+      ],
+      "area": 444184.0147186059,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Picture palace at S$\\sigma$carborough which was broken.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_065_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          830.4000244140625,
+          648.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9405,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9176
+        }
+      },
+      "source_annotation_id": 38435,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_065__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_065__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_066_0002-verso-38438",
+      "image_id": 30940,
+      "category_id": 1012,
+      "bbox": [
+        245.83332469020235,
+        1287.5000240756021,
+        2937.4998967219094,
+        204.16667048448062
+      ],
+      "segmentation": [
+        [
+          245.83332469020235,
+          1287.5000240756021,
+          3183.333221412112,
+          1287.5000240756021,
+          3183.333221412112,
+          1491.6666945600828,
+          245.83332469020235,
+          1491.6666945600828
+        ]
+      ],
+      "area": 599739.5734622179,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Great holes torn in the wall of house at Hartlepool.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          833.280029296875,
+          652.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 76,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9744,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9468
+        }
+      },
+      "source_annotation_id": 38438,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_066__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_067_0002-verso-38440",
+      "image_id": 30941,
+      "category_id": 1012,
+      "bbox": [
+        241.66667442842498,
+        1537.4999412020368,
+        2983.3334291509013,
+        166.6666602929037
+      ],
+      "segmentation": [
+        [
+          241.66667442842498,
+          1537.4999412020368,
+          3225.000103579326,
+          1537.4999412020368,
+          3225.000103579326,
+          1704.1666014949406,
+          241.66667442842498,
+          1704.1666014949406
+        ]
+      ],
+      "area": 497222.2191767568,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The gasworks at Hartlepool, which",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_067_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          836.1599731445312,
+          638.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 62,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9688,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9294
+        }
+      },
+      "source_annotation_id": 38440,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_067__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_067__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_068_0002-verso-38442",
+      "image_id": 30942,
+      "category_id": 1012,
+      "bbox": [
+        179.16666876399415,
+        1566.6667025607157,
+        2975.0000348253916,
+        145.8333366745347
+      ],
+      "segmentation": [
+        [
+          179.16666876399415,
+          1566.6667025607157,
+          3154.1667035893856,
+          1566.6667025607157,
+          3154.1667035893856,
+          1712.5000392352504,
+          179.16666876399415,
+          1712.5000392352504
+        ]
+      ],
+      "area": 433854.1816854438,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The gasworks at Hartlepool, which was struck by shells.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_068_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          834.239990234375,
+          639.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9634,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9371
+        }
+      },
+      "source_annotation_id": 38442,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_068__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_068__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_071_0002-verso-38443",
+      "image_id": 30945,
+      "category_id": 1012,
+      "bbox": [
+        316.6666565886525,
+        479.1666575727576,
+        3004.1665710581374,
+        208.3333293794598
+      ],
+      "segmentation": [
+        [
+          316.6666565886525,
+          479.1666575727576,
+          3320.83322764679,
+          479.1666575727576,
+          3320.83322764679,
+          687.4999869522173,
+          316.6666565886525,
+          687.4999869522173
+        ]
+      ],
+      "area": 625868.0237590172,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Damage done by a shell to a bakers shop at Searsborough, The proprietor was killed. Part of the shell can be seen on one of the leaves",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_071_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          843.8400268554688,
+          643.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 140,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.979,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9807
+        }
+      },
+      "source_annotation_id": 38443,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_071__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_071__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_077_0002-verso-38446",
+      "image_id": 30951,
+      "category_id": 1012,
+      "bbox": [
+        312.50000634332986,
+        691.6666719017836,
+        2650.0000537914375,
+        158.33333453173358
+      ],
+      "segmentation": [
+        [
+          312.50000634332986,
+          691.6666719017836,
+          2962.5000601347674,
+          691.6666719017836,
+          2962.5000601347674,
+          850.0000064335172,
+          312.50000634332986,
+          850.0000064335172
+        ]
+      ],
+      "area": 419583.34502607165,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Damage done to a house at Scarborough",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_077_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          841.9199829101562,
+          645.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 65,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9848,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9231
+        }
+      },
+      "source_annotation_id": 38446,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_077__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_077__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_079_0002-verso-38449",
+      "image_id": 30953,
+      "category_id": 1012,
+      "bbox": [
+        295.83334108057335,
+        1608.3333701820113,
+        2966.666744357299,
+        191.66667105795992
+      ],
+      "segmentation": [
+        [
+          295.83334108057335,
+          1608.3333701820113,
+          3262.5000854378727,
+          1608.3333701820113,
+          3262.5000854378727,
+          1800.0000412399713,
+          295.83334108057335,
+          1800.0000412399713
+        ]
+      ],
+      "area": 568611.1390293193,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The gasworks at Hartlepool, which was struck by shells.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_079_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          839.0399780273438,
+          639.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9634,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9371
+        }
+      },
+      "source_annotation_id": 38449,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_079__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_079__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_083_0002-verso-38452",
+      "image_id": 30957,
+      "category_id": 1012,
+      "bbox": [
+        320.8333239007167,
+        1733.333293198937,
+        2983.333245622249,
+        233.33332793062613
+      ],
+      "segmentation": [
+        [
+          320.8333239007167,
+          1733.333293198937,
+          3304.1665695229653,
+          1733.333293198937,
+          3304.1665695229653,
+          1966.6666211295633,
+          320.8333239007167,
+          1966.6666211295633
+        ]
+      ],
+      "area": 696111.0745271153,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The gasworks at Hartlepool, which was struck by shells.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_083_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          830.4000244140625,
+          632.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9634,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9371
+        }
+      },
+      "source_annotation_id": 38452,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_083__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_083__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_084_0002-verso-38454",
+      "image_id": 30958,
+      "category_id": 1012,
+      "bbox": [
+        270.8333349130691,
+        1729.1666135246958,
+        2987.5000174257007,
+        237.4999927009823
+      ],
+      "segmentation": [
+        [
+          270.8333349130691,
+          1729.1666135246958,
+          3258.3333523387696,
+          1729.1666135246958,
+          3258.3333523387696,
+          1966.6666062256782,
+          270.8333349130691,
+          1966.6666062256782
+        ]
+      ],
+      "area": 709531.2323327884,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The gasworks at Hartlepool, which was struck by shells.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_084_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          635.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9634,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9371
+        }
+      },
+      "source_annotation_id": 38454,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_084__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_084__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_085_0002-verso-38455",
+      "image_id": 30959,
+      "category_id": 1012,
+      "bbox": [
+        249.99999204367302,
+        662.4999924220782,
+        3008.3332375921987,
+        145.83333166523735
+      ],
+      "segmentation": [
+        [
+          249.99999204367302,
+          662.4999924220782,
+          3258.3332296358717,
+          662.4999924220782,
+          3258.3332296358717,
+          808.3333240873155,
+          249.99999204367302,
+          808.3333240873155
+        ]
+      ],
+      "area": 438715.2587973404,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The wall surrounding the gas works at Hartlepool, showing part of the damage done by the shells.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_085_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          843.8400268554688,
+          640.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 112,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9739,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9717
+        }
+      },
+      "source_annotation_id": 38455,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_085__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_085__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_087_0002-verso-38457",
+      "image_id": 30961,
+      "category_id": 1012,
+      "bbox": [
+        249.9999934679843,
+        1833.333249577509,
+        2966.6665891534135,
+        145.83332667093822
+      ],
+      "segmentation": [
+        [
+          249.9999934679843,
+          1833.333249577509,
+          3216.666582621398,
+          1833.333249577509,
+          3216.666582621398,
+          1979.1665762484472,
+          249.9999934679843,
+          1979.1665762484472
+        ]
+      ],
+      "area": 432638.85781976784,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The g-works at Hartlepool, which was struck by shell.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_087_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          840.9600219726562,
+          641.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 76,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.95,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9354
+        }
+      },
+      "source_annotation_id": 38457,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_087__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_087__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_089_0002-verso-38459",
+      "image_id": 30963,
+      "category_id": 1012,
+      "bbox": [
+        216.66666979741572,
+        562.5000085531331,
+        3012.5000435294533,
+        150.00000228083547
+      ],
+      "segmentation": [
+        [
+          216.66666979741572,
+          562.5000085531331,
+          3229.166713326869,
+          562.5000085531331,
+          3229.166713326869,
+          712.5000108339685,
+          216.66666979741572,
+          712.5000108339685
+        ]
+      ],
+      "area": 451875.013400435,
+      "iscrowd": 0,
+      "text": "THE GERMAN EMBARDMENT OF THE EAST COAST: The wall surrounding the gas works at Hartlepool, shewing part of the damage done by the shells.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_089_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          844.7999877929688,
+          642.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 111,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9737,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9717
+        }
+      },
+      "source_annotation_id": 38459,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_089__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_089__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_091_0002-verso-38462",
+      "image_id": 30965,
+      "category_id": 1012,
+      "bbox": [
+        199.99999941131213,
+        1708.3333399059752,
+        2962.499991280061,
+        150.00000057711003
+      ],
+      "segmentation": [
+        [
+          199.99999941131213,
+          1708.3333399059752,
+          3162.499990691373,
+          1708.3333399059752,
+          3162.499990691373,
+          1858.3333404830853,
+          199.99999941131213,
+          1858.3333404830853
+        ]
+      ],
+      "area": 444375.0004016976,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The gasworks at Hartlepool, which was struck by shells.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_091_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          829.4400024414062,
+          634.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9634,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9371
+        }
+      },
+      "source_annotation_id": 38462,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_091__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_091__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_092_0002-verso-38463",
+      "image_id": 30966,
+      "category_id": 1012,
+      "bbox": [
+        237.5000076279349,
+        712.4999972711126,
+        3000.000096352862,
+        162.49999937762217
+      ],
+      "segmentation": [
+        [
+          237.5000076279349,
+          712.4999972711126,
+          3237.5001039807967,
+          712.4999972711126,
+          3237.5001039807967,
+          874.9999966487349,
+          237.5000076279349,
+          874.9999966487349
+        ]
+      ],
+      "area": 487500.0137902065,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The well surrounding the gas works at Hartlepool, showing part of the damage done by the shells.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_092_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          836.1599731445312,
+          637.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 112,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9739,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9717
+        }
+      },
+      "source_annotation_id": 38463,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_092__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_092__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_099_0002-verso-38469",
+      "image_id": 30973,
+      "category_id": 1012,
+      "bbox": [
+        370.83332029538997,
+        470.83333333333337,
+        2920.8332306412176,
+        245.83333333333334
+      ],
+      "segmentation": [
+        [
+          370.83332029538997,
+          470.83333333333337,
+          3291.6665509366076,
+          470.83333333333337,
+          3291.6665509366076,
+          716.6666666666667,
+          370.83332029538997,
+          716.6666666666667
+        ]
+      ],
+      "area": 718038.1691992993,
+      "iscrowd": 0,
+      "text": "GREAT GALE RACES OVER ENGLAND ON MONGODB NIGHT: The remains of a marquee of great gallo races over England on MONGODB NIGHT. The remains of a marquee of great gallo races over England on MDB. About 2000 soldiers had previously been having supper there, at Aldershot. About 2000 soldiers had previously been having supper there.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_099_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          833.280029296875,
+          648.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 259,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 6
+          },
+          "alpha_ratio": 0.9487,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9686
+        }
+      },
+      "source_annotation_id": 38469,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_099__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_099__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_101_0002-verso-38472",
+      "image_id": 30975,
+      "category_id": 1012,
+      "bbox": [
+        450.00001557019345,
+        1058.333300807886,
+        2787.5000964486985,
+        154.1666619287078
+      ],
+      "segmentation": [
+        [
+          450.00001557019345,
+          1058.333300807886,
+          3237.5001120188917,
+          1058.333300807886,
+          3237.5001120188917,
+          1212.4999627365937,
+          450.00001557019345,
+          1212.4999627365937
+        ]
+      ],
+      "area": 429739.5849954469,
+      "iscrowd": 0,
+      "text": "GERMAN AIR RAID ON YARMOUTH.\nHouse wrecked by a bomb, Man in the foreground was injured in the head",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_101_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          846.719970703125,
+          635.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9753,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9469
+        }
+      },
+      "source_annotation_id": 38472,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_101__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_101__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_102_0002-verso-38473",
+      "image_id": 30976,
+      "category_id": 1012,
+      "bbox": [
+        279.16666097399457,
+        662.5000174206391,
+        2941.6666066811968,
+        241.66667302136523
+      ],
+      "segmentation": [
+        [
+          279.16666097399457,
+          662.5000174206391,
+          3220.8332676551913,
+          662.5000174206391,
+          3220.8332676551913,
+          904.1666904420043,
+          279.16666097399457,
+          904.1666904420043
+        ]
+      ],
+      "area": 710902.7819746938,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Kingscliffe Camp offices showing shell damage.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_102_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          838.0800170898438,
+          649.9199829101562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 74,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9737,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9217
+        }
+      },
+      "source_annotation_id": 38473,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_102__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_102__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_105_0002-verso-38476",
+      "image_id": 30979,
+      "category_id": 1012,
+      "bbox": [
+        199.9999941199273,
+        1487.5000456459516,
+        2966.6665794455885,
+        141.66667101390016
+      ],
+      "segmentation": [
+        [
+          199.9999941199273,
+          1487.5000456459516,
+          3166.6665735655156,
+          1487.5000456459516,
+          3166.6665735655156,
+          1629.1667166598518,
+          199.9999941199273,
+          1629.1667166598518
+        ]
+      ],
+      "area": 420277.77831825067,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The gasworks at Hartlepool, which was struck by shells.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_105_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          830.4000244140625,
+          636.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 79,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9634,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9371
+        }
+      },
+      "source_annotation_id": 38476,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_105__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_105__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_107_0002-verso-38478",
+      "image_id": 30981,
+      "category_id": 1012,
+      "bbox": [
+        258.33334163038535,
+        1624.9999257618829,
+        2979.1667623504113,
+        158.33332609987576
+      ],
+      "segmentation": [
+        [
+          258.33334163038535,
+          1624.9999257618829,
+          3237.5001039807967,
+          1624.9999257618829,
+          3237.5001039807967,
+          1783.3332518617585,
+          258.33334163038535,
+          1783.3332518617585
+        ]
+      ],
+      "area": 471701.38248913875,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The gasworks at Hartlepool, which",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_107_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          836.1599731445312,
+          641.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 62,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9688,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9294
+        }
+      },
+      "source_annotation_id": 38478,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_107__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_107__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_108_0002-verso-38479",
+      "image_id": 30982,
+      "category_id": 1012,
+      "bbox": [
+        312.50000550620285,
+        637.5000096935507,
+        2908.333384577728,
+        158.3333357408819
+      ],
+      "segmentation": [
+        [
+          312.50000550620285,
+          637.5000096935507,
+          3220.8333900839307,
+          637.5000096935507,
+          3220.8333900839307,
+          795.8333454344327,
+          312.50000550620285,
+          795.8333454344327
+        ]
+      ],
+      "area": 460486.12622676074,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: The wrecked buffet of the Grand Hotel Scarborough.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_108_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          831.3599853515625,
+          642.239990234375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 76,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9744,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9468
+        }
+      },
+      "source_annotation_id": 38479,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_108__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_108__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_110_0002-verso-38481",
+      "image_id": 30984,
+      "category_id": 1012,
+      "bbox": [
+        1245.8333483490587,
+        2050.0000411721203,
+        1079.1666796735992,
+        129.16666926084497
+      ],
+      "segmentation": [
+        [
+          1245.8333483490587,
+          2050.0000411721203,
+          2325.0000280226577,
+          2050.0000411721203,
+          2325.0000280226577,
+          2179.1667104329654,
+          1245.8333483490587,
+          2179.1667104329654
+        ]
+      ],
+      "area": 139392.36559072402,
+      "iscrowd": 0,
+      "text": "SCARBOROUGH - THE GRAND HOTEL",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_110_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          810.239990234375,
+          972.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 24,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.96,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.92
+        }
+      },
+      "source_annotation_id": 38481,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_110__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_110__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_111_0002-verso-38483",
+      "image_id": 30985,
+      "category_id": 1012,
+      "bbox": [
+        325.000005726451,
+        2187.5000911983675,
+        3054.1667204806226,
+        150.00000625360235
+      ],
+      "segmentation": [
+        [
+          325.000005726451,
+          2187.5000911983675,
+          3379.1667262070737,
+          2187.5000911983675,
+          3379.1667262070737,
+          2337.50009745197,
+          325.000005726451,
+          2337.50009745197
+        ]
+      ],
+      "area": 458125.0271716376,
+      "iscrowd": 0,
+      "text": "THE GERMAN BOMBARDMENT OF THE EAST COAST: Where a shell exploded in the statin yard at Scarborough.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_111_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          831.3599853515625,
+          644.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 81,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9759,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9387
+        }
+      },
+      "source_annotation_id": 38483,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_111__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_111__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_113_0002-verso-38486",
+      "image_id": 30987,
+      "category_id": 1012,
+      "bbox": [
+        437.4999867545238,
+        1274.9999968022753,
+        2537.4999231762376,
+        74.99999981189855
+      ],
+      "segmentation": [
+        [
+          437.4999867545238,
+          1274.9999968022753,
+          2974.9999099307615,
+          1274.9999968022753,
+          2974.9999099307615,
+          1349.9999966141738,
+          437.4999867545238,
+          1349.9999966141738
+        ]
+      ],
+      "area": 190312.4937609104,
+      "iscrowd": 0,
+      "text": "SCARBOROUGH - THE HOUSE IN WYKEHAM ST WHERE 4 PEOPLE WERE KILLED",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_113_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          806.4000244140625,
+          973.4400024414062
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 51,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 1
+          },
+          "alpha_ratio": 0.9623,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9153
+        }
+      },
+      "source_annotation_id": 38486,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_113__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_113__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_114_0002-verso-38488",
+      "image_id": 30988,
+      "category_id": 1012,
+      "bbox": [
+        1270.833375355627,
+        1241.666641704441,
+        1233.3333741156248,
+        212.49999572794124
+      ],
+      "segmentation": [
+        [
+          1270.833375355627,
+          1241.666641704441,
+          2504.166749471252,
+          1241.666641704441,
+          2504.166749471252,
+          1454.1666374323822,
+          1270.833375355627,
+          1454.1666374323822
+        ]
+      ],
+      "area": 262083.33673069763,
+      "iscrowd": 0,
+      "text": "SCARBOROUGH.\nDamage done at the Royal Hotel.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_114_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          812.1599731445312,
+          971.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 36,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9474,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9077
+        }
+      },
+      "source_annotation_id": 38488,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_114__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_114__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_115_0002-verso-38490",
+      "image_id": 30989,
+      "category_id": 1012,
+      "bbox": [
+        862.4999978368334,
+        1262.499976901414,
+        2512.4999936986014,
+        454.1666583572743
+      ],
+      "segmentation": [
+        [
+          862.4999978368334,
+          1262.499976901414,
+          3374.9999915354347,
+          1262.499976901414,
+          3374.9999915354347,
+          1716.666635258688,
+          862.4999978368334,
+          1716.666635258688
+        ]
+      ],
+      "area": 1141093.7262607666,
+      "iscrowd": 0,
+      "text": "SCARBOROUGH.\nMERRYWEATHER'S SHOP WHERE MRS MERRYWEATHER WAS KILLEDG1 IN BED.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_115_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          973.4400024414062,
+          800.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 63,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 3
+          },
+          "alpha_ratio": 0.9403,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9025
+        }
+      },
+      "source_annotation_id": 38490,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_115__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_115__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_116_0002-verso-38492",
+      "image_id": 30990,
+      "category_id": 1012,
+      "bbox": [
+        700.000006411256,
+        1579.1666349194065,
+        2129.1666861675703,
+        145.83333040152831
+      ],
+      "segmentation": [
+        [
+          700.000006411256,
+          1579.1666349194065,
+          2829.1666925788263,
+          1579.1666349194065,
+          2829.1666925788263,
+          1724.9999653209347,
+          700.000006411256,
+          1724.9999653209347
+        ]
+      ],
+      "area": 310503.4688238024,
+      "iscrowd": 0,
+      "text": "SCARBOROUGH.\nTHE HOUSE IN WYZHAH ST WHERE FOUR PEOPLE VERE FILMED.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_116_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          799.6799926757812,
+          971.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1818,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 54,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9643,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9137
+        }
+      },
+      "source_annotation_id": 38492,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_116__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_116__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_117_0001-recto-38494",
+      "image_id": 30991,
+      "category_id": 1012,
+      "bbox": [
+        895.8333138242969,
+        3495.83330575206,
+        2262.4999507283405,
+        295.8333309992804
+      ],
+      "segmentation": [
+        [
+          895.8333138242969,
+          3495.83330575206,
+          3158.3332645526375,
+          3495.83330575206,
+          3158.3332645526375,
+          3791.6666367513403,
+          895.8333138242969,
+          3791.6666367513403
+        ]
+      ],
+      "area": 669322.8968096728,
+      "iscrowd": 0,
+      "text": "German Zeppelins continue the bomb throwing campaign over Antwerp. Yesterday's bombs were directed towards the Wireless Shation, but failed of their objective. PHOTO shows, HAVOC caused to houses just outside the",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_113_117_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1008.9600219726562,
+          928.3200073242188
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 177,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9725,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9466
+        }
+      },
+      "source_annotation_id": 38494,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_117__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_117__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_118_0002-verso-38496",
+      "image_id": 30992,
+      "category_id": 1012,
+      "bbox": [
+        1112.5000270093926,
+        1908.333361993625,
+        1258.333363883283,
+        145.83333552353028
+      ],
+      "segmentation": [
+        [
+          1112.5000270093926,
+          1908.333361993625,
+          2370.8333908926757,
+          1908.333361993625,
+          2370.8333908926757,
+          2054.166697517155,
+          1112.5000270093926,
+          2054.166697517155
+        ]
+      ],
+      "area": 183506.95165564332,
+      "iscrowd": 0,
+      "text": "SCARBOROUGH.\nDAMAGE DONE AT THE ROYAL HOTEL.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_118_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          804.47998046875,
+          975.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 36,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9474,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9077
+        }
+      },
+      "source_annotation_id": 38496,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_118__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_118__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_113_119_0002-verso-38498",
+      "image_id": 30993,
+      "category_id": 1012,
+      "bbox": [
+        474.99999856020565,
+        1049.9999841211811,
+        2187.499993369368,
+        129.1666647133199
+      ],
+      "segmentation": [
+        [
+          474.99999856020565,
+          1049.9999841211811,
+          2662.4999919295738,
+          1049.9999841211811,
+          2662.4999919295738,
+          1179.166648834501,
+          474.99999856020565,
+          1179.166648834501
+        ]
+      ],
+      "area": 282552.0782039307,
+      "iscrowd": 0,
+      "text": "SCARBOROUGH - A SHELL WENT RIGHT THROUGH THE LIGHTHOUSE",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_113_119_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          805.4400024414062,
+          968.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 46,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9787,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9116
+        }
+      },
+      "source_annotation_id": 38498,
+      "source_file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_119__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_113/SHDGR__GR_2_K_247_113_119__0002.jpg"
+    }
+  ]
 }

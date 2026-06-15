@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_166",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,6 +2903,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2544,6 +2932,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2570,6 +2961,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2596,6 +2990,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2622,6 +3019,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2648,6 +3048,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2674,6 +3077,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2700,6 +3106,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2726,9 +3135,3577 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Nouvelle Zélande",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_003_0002-verso-51942",
+      "image_id": 45214,
+      "category_id": 1012,
+      "bbox": [
+        658.3333557651376,
+        870.8333404543743,
+        2354.166746881663,
+        250.00000204431797
+      ],
+      "segmentation": [
+        [
+          658.3333557651376,
+          870.8333404543743,
+          3012.5001026468008,
+          870.8333404543743,
+          3012.5001026468008,
+          1120.8333424986922,
+          658.3333557651376,
+          1120.8333424986922
+        ]
+      ],
+      "area": 588541.6915330811,
+      "iscrowd": 0,
+      "text": "In the centre of the business area of Hastings, New Zealand, where buildings were shaken to the ground and fire followed the earthquake to add to the destruction.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          788.1599731445312,
+          597.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 132,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9778,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9722
+        }
+      },
+      "source_annotation_id": 51942,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_005_0002-verso-51943",
+      "image_id": 45216,
+      "category_id": 1013,
+      "bbox": [
+        874.9999810732926,
+        966.6666313228275,
+        895.83331395599,
+        83.33333028645065
+      ],
+      "segmentation": [
+        [
+          874.9999810732926,
+          966.6666313228275,
+          1770.8332950292825,
+          966.6666313228275,
+          1770.8332950292825,
+          1049.9999616092782,
+          874.9999810732926,
+          1049.9999616092782
+        ]
+      ],
+      "area": 74652.77343350014,
+      "iscrowd": 0,
+      "text": "NEW ZEALAND EARTHQUAKE",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          600.9600219726562
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 51943,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_005_0002-verso-51944",
+      "image_id": 45216,
+      "category_id": 1012,
+      "bbox": [
+        287.4999937812247,
+        1091.6666267525034,
+        2237.499951601705,
+        212.49999223044915
+      ],
+      "segmentation": [
+        [
+          287.4999937812247,
+          1091.6666267525034,
+          2524.9999453829296,
+          1091.6666267525034,
+          2524.9999453829296,
+          1304.1666189829525,
+          287.4999937812247,
+          1304.1666189829525
+        ]
+      ],
+      "area": 475468.7223309927,
+      "iscrowd": 0,
+      "text": "Photo Shows: A remarkable photograph taken during the earthquake in Napier, New Zealand. The town was completely wrecked.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          600.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 100,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9452
+        }
+      },
+      "source_annotation_id": 51944,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_006_0002-verso-51946",
+      "image_id": 45217,
+      "category_id": 1013,
+      "bbox": [
+        804.1666541965352,
+        766.6666447595419,
+        1158.333315371175,
+        79.16666440451792
+      ],
+      "segmentation": [
+        [
+          804.1666541965352,
+          766.6666447595419,
+          1962.4999695677102,
+          766.6666447595419,
+          1962.4999695677102,
+          845.8333091640598,
+          804.1666541965352,
+          845.8333091640598
+        ]
+      ],
+      "area": 91701.38484656243,
+      "iscrowd": 0,
+      "text": "GREAT NEW ZEALAND EARTHQUAKE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          787.2000122070312,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 25,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8952
+        }
+      },
+      "source_annotation_id": 51946,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_006_0002-verso-51947",
+      "image_id": 45217,
+      "category_id": 1012,
+      "bbox": [
+        449.99999302189536,
+        887.4999746401219,
+        2099.9999674355117,
+        237.49999321355375
+      ],
+      "segmentation": [
+        [
+          449.99999302189536,
+          887.4999746401219,
+          2549.9999604574073,
+          887.4999746401219,
+          2549.9999604574073,
+          1124.9999678536756,
+          449.99999302189536,
+          1124.9999678536756
+        ]
+      ],
+      "area": 498749.97801439714,
+      "iscrowd": 0,
+      "text": "The main street of the town of Hastings, New Zealand, which was weeled by the earthquake. Fire broke out in many of the ruins.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          787.2000122070312,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 99,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9612,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9701
+        }
+      },
+      "source_annotation_id": 51947,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_007_0002-verso-51948",
+      "image_id": 45218,
+      "category_id": 1012,
+      "bbox": [
+        587.500016318942,
+        879.166698914309,
+        2354.166732058172,
+        229.1666750724502
+      ],
+      "segmentation": [
+        [
+          587.500016318942,
+          879.166698914309,
+          2941.666748377114,
+          879.166698914309,
+          2941.666748377114,
+          1108.3333739867592,
+          587.500016318942,
+          1108.3333739867592
+        ]
+      ],
+      "area": 539496.562551947,
+      "iscrowd": 0,
+      "text": "In the centre of the business area of Hastings, New Zealand, where buildings were shaker to the ground and fire followed the earthquake to add to the destruction.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          791.0399780273438,
+          599.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 132,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9778,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9722
+        }
+      },
+      "source_annotation_id": 51948,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_008_0002-verso-51949",
+      "image_id": 45219,
+      "category_id": 1013,
+      "bbox": [
+        945.8333186663912,
+        937.5000422319564,
+        891.6666528396815,
+        79.16667023292077
+      ],
+      "segmentation": [
+        [
+          945.8333186663912,
+          937.5000422319564,
+          1837.4999715060726,
+          937.5000422319564,
+          1837.4999715060726,
+          1016.6667124648772,
+          945.8333186663912,
+          1016.6667124648772
+        ]
+      ],
+      "area": 70590.27986305131,
+      "iscrowd": 0,
+      "text": "NEW ZEALAND EARTHQUAKE",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          787.2000122070312,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 51949,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_008_0002-verso-51950",
+      "image_id": 45219,
+      "category_id": 1012,
+      "bbox": [
+        349.9999945725853,
+        1062.500047862884,
+        2249.9999651094768,
+        212.50000957257677
+      ],
+      "segmentation": [
+        [
+          349.9999945725853,
+          1062.500047862884,
+          2599.999959682062,
+          1062.500047862884,
+          2599.999959682062,
+          1275.0000574354608,
+          349.9999945725853,
+          1275.0000574354608
+        ]
+      ],
+      "area": 478125.0141240612,
+      "iscrowd": 0,
+      "text": "Photo Shows: A remarkable photograph taken during the earthquake in Napier, New Zealand. The town was completely wrecked.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          787.2000122070312,
+          596.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 100,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9452
+        }
+      },
+      "source_annotation_id": 51950,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_009_0002-verso-51951",
+      "image_id": 45220,
+      "category_id": 1013,
+      "bbox": [
+        774.9999832363449,
+        783.3333109499667,
+        1166.6666414310566,
+        87.49999749973033
+      ],
+      "segmentation": [
+        [
+          774.9999832363449,
+          783.3333109499667,
+          1941.6666246674015,
+          783.3333109499667,
+          1941.6666246674015,
+          870.833308449697,
+          774.9999832363449,
+          870.833308449697
+        ]
+      ],
+      "area": 102083.32820823623,
+      "iscrowd": 0,
+      "text": "GREAT NEW ZEALAND EARTHQUAKE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 25,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8952
+        }
+      },
+      "source_annotation_id": 51951,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_009_0002-verso-51952",
+      "image_id": 45220,
+      "category_id": 1012,
+      "bbox": [
+        416.66665765394885,
+        912.4999739257592,
+        2108.3332877289813,
+        212.4999939279165
+      ],
+      "segmentation": [
+        [
+          416.66665765394885,
+          912.4999739257592,
+          2524.99994538293,
+          912.4999739257592,
+          2524.99994538293,
+          1124.9999678536756,
+          416.66665765394885,
+          1124.9999678536756
+        ]
+      ],
+      "area": 448020.81084043276,
+      "iscrowd": 0,
+      "text": "The main street of the town of Hastings, New Zealand, which was wrecked by the earthquake. Fire broke out in many of the ruins.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          598.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 100,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9702
+        }
+      },
+      "source_annotation_id": 51952,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_010_0002-verso-51953",
+      "image_id": 45221,
+      "category_id": 1013,
+      "bbox": [
+        1074.9999812931924,
+        366.6666613075774,
+        1174.999979553024,
+        99.99999853843019
+      ],
+      "segmentation": [
+        [
+          1074.9999812931924,
+          366.6666613075774,
+          2249.9999608462167,
+          366.6666613075774,
+          2249.9999608462167,
+          466.6666598460076,
+          1074.9999812931924,
+          466.6666598460076
+        ]
+      ],
+      "area": 117499.99623795791,
+      "iscrowd": 0,
+      "text": "GREAT NEW ZEALAND EARTHQUAKE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          982.0800170898438,
+          417.6000061035156
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 25,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8952
+        }
+      },
+      "source_annotation_id": 51953,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_010_0002-verso-51954",
+      "image_id": 45221,
+      "category_id": 1012,
+      "bbox": [
+        841.6666520202514,
+        487.49999287484724,
+        154.16666398390743,
+        204.16666368262833
+      ],
+      "segmentation": [
+        [
+          841.6666520202514,
+          487.49999287484724,
+          995.8333160041589,
+          487.49999287484724,
+          995.8333160041589,
+          691.6666565574756,
+          841.6666520202514,
+          691.6666565574756
+        ]
+      ],
+      "area": 31475.693436675196,
+      "iscrowd": 0,
+      "text": "All\nwhere\nthe",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          982.0800170898438,
+          417.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 11,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9333
+        }
+      },
+      "source_annotation_id": 51954,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_010_0002-verso-51955",
+      "image_id": 45221,
+      "category_id": 1012,
+      "bbox": [
+        1004.1666491924782,
+        466.6666598460076,
+        2083.33329707983,
+        262.49999616337925
+      ],
+      "segmentation": [
+        [
+          1004.1666491924782,
+          466.6666598460076,
+          3087.499946272308,
+          466.6666598460076,
+          3087.499946272308,
+          729.1666560093868,
+          1004.1666491924782,
+          729.1666560093868
+        ]
+      ],
+      "area": 546874.9824904957,
+      "iscrowd": 0,
+      "text": "that remains of the Nurses Home, Napier, New Zealand\ne a large number of nurses lost their lives, during\nrecent earthquake which destroyed the town.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          982.0800170898438,
+          417.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 120,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9677,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9293
+        }
+      },
+      "source_annotation_id": 51955,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_011_0002-verso-51956",
+      "image_id": 45222,
+      "category_id": 1013,
+      "bbox": [
+        1195.8333392847255,
+        441.6666758949708,
+        912.5000045413063,
+        83.3333350745228
+      ],
+      "segmentation": [
+        [
+          1195.8333392847255,
+          441.6666758949708,
+          2108.333343826032,
+          441.6666758949708,
+          2108.333343826032,
+          525.0000109694936,
+          1195.8333392847255,
+          525.0000109694936
+        ]
+      ],
+      "area": 76041.66863394425,
+      "iscrowd": 0,
+      "text": "NEW ZEALAND EARTHQUAKE",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          981.1199951171875,
+          408.9599914550781
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 51956,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_011_0002-verso-51957",
+      "image_id": 45222,
+      "category_id": 1012,
+      "bbox": [
+        716.6666702333547,
+        558.3333449993027,
+        2483.3333456923224,
+        216.66667119375924
+      ],
+      "segmentation": [
+        [
+          716.6666702333547,
+          558.3333449993027,
+          3200.000015925677,
+          558.3333449993027,
+          3200.000015925677,
+          775.0000161930619,
+          716.6666702333547,
+          775.0000161930619
+        ]
+      ],
+      "area": 538055.5694756164,
+      "iscrowd": 0,
+      "text": "Photo Shows: One of the many homeless families with all their wordly possessions evacuating Napier, New Zealand, after their terrifying experiences.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          981.1199951171875,
+          408.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 124,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9688,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9378
+        }
+      },
+      "source_annotation_id": 51957,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_012_0002-verso-51958",
+      "image_id": 45223,
+      "category_id": 1013,
+      "bbox": [
+        1129.166691905509,
+        437.5000036760574,
+        1175.0000262632973,
+        112.5000009452719
+      ],
+      "segmentation": [
+        [
+          1129.166691905509,
+          437.5000036760574,
+          2304.1667181688063,
+          437.5000036760574,
+          2304.1667181688063,
+          550.0000046213294,
+          1129.166691905509,
+          550.0000046213294
+        ]
+      ],
+      "area": 132187.50406531547,
+      "iscrowd": 0,
+      "text": "GREAT NEW ZEALAND EARTHQUAKE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          983.0399780273438,
+          435.8399963378906
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 25,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8952
+        }
+      },
+      "source_annotation_id": 51958,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_013_0002-verso-51960",
+      "image_id": 45224,
+      "category_id": 1013,
+      "bbox": [
+        1125.0000112307084,
+        454.1666666666667,
+        904.1666756928287,
+        79.16666666666667
+      ],
+      "segmentation": [
+        [
+          1125.0000112307084,
+          454.1666666666667,
+          2029.166686923537,
+          454.1666666666667,
+          2029.166686923537,
+          533.3333333333334,
+          1125.0000112307084,
+          533.3333333333334
+        ]
+      ],
+      "area": 71579.86182568228,
+      "iscrowd": 0,
+      "text": "NEW ZEALAND EARTHQUAKE",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_013_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          978.239990234375,
+          408.0
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 51960,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_013__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_013__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_013_0002-verso-51961",
+      "image_id": 45224,
+      "category_id": 1012,
+      "bbox": [
+        650.0000064888537,
+        579.1666666666667,
+        2479.1666914158204,
+        204.16666666666669
+      ],
+      "segmentation": [
+        [
+          650.0000064888537,
+          579.1666666666667,
+          3129.166697904674,
+          579.1666666666667,
+          3129.166697904674,
+          783.3333333333335,
+          650.0000064888537,
+          783.3333333333335
+        ]
+      ],
+      "area": 506163.1994973967,
+      "iscrowd": 0,
+      "text": "Photo Shows: One of the many homeless families with all their wordly possessions evacuating Napier, New Zealand, after their territoryfying experiences.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_013_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          978.239990234375,
+          408.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 128,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9697,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9379
+        }
+      },
+      "source_annotation_id": 51961,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_013__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_013__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_014_0002-verso-51962",
+      "image_id": 45225,
+      "category_id": 1012,
+      "bbox": [
+        787.5000232873969,
+        1279.1666312213872,
+        2479.166739978842,
+        158.33332894596975
+      ],
+      "segmentation": [
+        [
+          787.5000232873969,
+          1279.1666312213872,
+          3266.666763266239,
+          1279.1666312213872,
+          3266.666763266239,
+          1437.499960167357,
+          787.5000232873969,
+          1437.499960167357
+        ]
+      ],
+      "area": 392534.72295297746,
+      "iscrowd": 0,
+      "text": "An aerial view of the town pf Napier, New Zealand, after the earthquake, gives a vivid impression of the havoc wrought.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          990.719970703125,
+          792.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 95,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9596,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9366
+        }
+      },
+      "source_annotation_id": 51962,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_015_0002-verso-51963",
+      "image_id": 45226,
+      "category_id": 1012,
+      "bbox": [
+        775.0000229177556,
+        1108.333350313077,
+        2416.6667381306356,
+        366.6666722840255
+      ],
+      "segmentation": [
+        [
+          775.0000229177556,
+          1108.333350313077,
+          3191.666761048391,
+          1108.333350313077,
+          3191.666761048391,
+          1475.0000225971025,
+          775.0000229177556,
+          1475.0000225971025
+        ]
+      ],
+      "area": 886111.1508898506,
+      "iscrowd": 0,
+      "text": "GREAT NEW ZEALAND EARTHQUAKE.\nAn aerial view of the town pf Napier, New Zealand, after\nthe earthquake, gives a vivid impression of the havoc wrought",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_015_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          990.719970703125,
+          796.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 120,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9677,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9376
+        }
+      },
+      "source_annotation_id": 51963,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_015__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_015__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_016_0002-verso-51964",
+      "image_id": 45227,
+      "category_id": 1012,
+      "bbox": [
+        937.4999861652664,
+        1320.833353568592,
+        2124.9999686412702,
+        150.00000229801043
+      ],
+      "segmentation": [
+        [
+          937.4999861652664,
+          1320.833353568592,
+          3062.4999548065366,
+          1320.833353568592,
+          3062.4999548065366,
+          1470.8333558666025,
+          937.4999861652664,
+          1470.8333558666025
+        ]
+      ],
+      "area": 318750.0001794626,
+      "iscrowd": 0,
+      "text": "An aerial view of the town pf Napier, New Zealand, at the earthquake, gives a vivid impression of the havoc",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_016_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          992.6400146484375,
+          796.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 85,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9659,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9374
+        }
+      },
+      "source_annotation_id": 51964,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_016__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_016__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_022_0002-verso-51969",
+      "image_id": 45233,
+      "category_id": 1012,
+      "bbox": [
+        899.9999886411001,
+        395.8333459559823,
+        1291.666650364542,
+        75.0000023916598
+      ],
+      "segmentation": [
+        [
+          899.9999886411001,
+          395.8333459559823,
+          2191.666639005642,
+          395.8333459559823,
+          2191.666639005642,
+          470.8333483476421,
+          899.9999886411001,
+          470.8333483476421
+        ]
+      ],
+      "area": 96875.00186656785,
+      "iscrowd": 0,
+      "text": "New Zealand Government Tourist Dept.'s Photo,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_022_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          773.760009765625,
+          612.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.925,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.924
+        }
+      },
+      "source_annotation_id": 51969,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_022__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_022__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_023_0002-verso-51971",
+      "image_id": 45234,
+      "category_id": 1012,
+      "bbox": [
+        1741.6666184056674,
+        1616.6666129229307,
+        999.9999722903353,
+        295.8333234987837
+      ],
+      "segmentation": [
+        [
+          1741.6666184056674,
+          1616.6666129229307,
+          2741.6665906960025,
+          1616.6666129229307,
+          2741.6665906960025,
+          1912.4999364217144,
+          1741.6666184056674,
+          1912.4999364217144
+        ]
+      ],
+      "area": 295833.3153013415,
+      "iscrowd": 0,
+      "text": "WITH THE COMPLIMENTS OF THE\nZALAND GOVERNMENT DEPART\nOF Tourist AND HEALTH RESOR",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_023_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          792.9600219726562,
+          587.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 68,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.95
+        }
+      },
+      "source_annotation_id": 51971,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_023__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_023__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_025_0001-recto-51973",
+      "image_id": 45236,
+      "category_id": 1012,
+      "bbox": [
+        291.66667028936115,
+        2120.8333333333335,
+        675.0000083839501,
+        170.83333333333334
+      ],
+      "segmentation": [
+        [
+          291.66667028936115,
+          2120.8333333333335,
+          966.6666786733113,
+          2120.8333333333335,
+          966.6666786733113,
+          2291.666666666667,
+          291.66667028936115,
+          2291.666666666667
+        ]
+      ],
+      "area": 115312.50143225816,
+      "iscrowd": 0,
+      "text": "NEW ZEALAND\nTOURIST\nPROTECTED\nNo.9776 7-103",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_166_025_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          786.239990234375,
+          600.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 28,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 2
+          },
+          "alpha_ratio": 0.7368,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8671
+        }
+      },
+      "source_annotation_id": 51973,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_025__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_025__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_029_0002-verso-51979",
+      "image_id": 45240,
+      "category_id": 1012,
+      "bbox": [
+        1583.3333536185974,
+        1395.8333299970668,
+        1300.0000166552695,
+        74.99999982073791
+      ],
+      "segmentation": [
+        [
+          1583.3333536185974,
+          1395.8333299970668,
+          2883.333370273867,
+          1395.8333299970668,
+          2883.333370273867,
+          1470.8333298178047,
+          1583.3333536185974,
+          1470.8333298178047
+        ]
+      ],
+      "area": 97500.00101610449,
+      "iscrowd": 0,
+      "text": "New Zealand Government Tourist Dept.'s Photo",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_029_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          762.239990234375,
+          510.7200012207031
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9487,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9269
+        }
+      },
+      "source_annotation_id": 51979,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_029__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_029__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_030_0002-verso-51981",
+      "image_id": 45241,
+      "category_id": 1012,
+      "bbox": [
+        1066.6666860198675,
+        370.8333493919366,
+        1279.1666898753879,
+        120.83333856591193
+      ],
+      "segmentation": [
+        [
+          1066.6666860198675,
+          370.8333493919366,
+          2345.8333758952554,
+          370.8333493919366,
+          2345.8333758952554,
+          491.6666879578486,
+          1066.6666860198675,
+          491.6666879578486
+        ]
+      ],
+      "area": 154565.9817199496,
+      "iscrowd": 0,
+      "text": "Jew Zealand Government Tourist Dept.'s Photo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_030_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          807.3599853515625,
+          620.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.925,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.924
+        }
+      },
+      "source_annotation_id": 51981,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_030__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_030__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_030_0002-verso-51982",
+      "image_id": 45241,
+      "category_id": 1012,
+      "bbox": [
+        1050.0000190508072,
+        1416.6667280141398,
+        991.6666846590956,
+        125.00000541301235
+      ],
+      "segmentation": [
+        [
+          1050.0000190508072,
+          1416.6667280141398,
+          2041.6667037099028,
+          1416.6667280141398,
+          2041.6667037099028,
+          1541.6667334271522,
+          1050.0000190508072,
+          1541.6667334271522
+        ]
+      ],
+      "area": 123958.34095029096,
+      "iscrowd": 0,
+      "text": "NEW ZEALAND",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_030_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          807.3599853515625,
+          620.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 51982,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_030__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_030__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_037_0002-verso-51989",
+      "image_id": 45248,
+      "category_id": 1012,
+      "bbox": [
+        591.6666550024332,
+        299.99999621370006,
+        1270.8333082798742,
+        66.66666582526668
+      ],
+      "segmentation": [
+        [
+          591.6666550024332,
+          299.99999621370006,
+          1862.4999632823074,
+          299.99999621370006,
+          1862.4999632823074,
+          366.6666620389667,
+          591.6666550024332,
+          366.6666620389667
+        ]
+      ],
+      "area": 84722.21948271248,
+      "iscrowd": 0,
+      "text": "New Zealand Government Tourist Dept.'s Photo",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_037_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          619.2000122070312,
+          773.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9487,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9269
+        }
+      },
+      "source_annotation_id": 51989,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_037__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_037__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_041_0002-verso-51994",
+      "image_id": 45252,
+      "category_id": 1012,
+      "bbox": [
+        2737.4999611071376,
+        854.1666290518083,
+        341.6666618124586,
+        83.33332966359106
+      ],
+      "segmentation": [
+        [
+          2737.4999611071376,
+          854.1666290518083,
+          3079.166622919596,
+          854.1666290518083,
+          3079.166622919596,
+          937.4999587153993,
+          2737.4999611071376,
+          937.4999587153993
+        ]
+      ],
+      "area": 28472.22056387629,
+      "iscrowd": 0,
+      "text": "5-32",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_041_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          859.2000122070312,
+          665.280029296875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 1
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 51994,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_041__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_041__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_043_0002-verso-51997",
+      "image_id": 45254,
+      "category_id": 1012,
+      "bbox": [
+        1500.000056724125,
+        1770.8334009980413,
+        1275.0000482155062,
+        66.6666692140439
+      ],
+      "segmentation": [
+        [
+          1500.000056724125,
+          1770.8334009980413,
+          2775.0001049396315,
+          1770.8334009980413,
+          2775.0001049396315,
+          1837.5000702120851,
+          1500.000056724125,
+          1837.5000702120851
+        ]
+      ],
+      "area": 85000.00646227319,
+      "iscrowd": 0,
+      "text": "New Zealand Government Tourist Dept.'s Photo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_043_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          774.719970703125,
+          575.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.925,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.924
+        }
+      },
+      "source_annotation_id": 51997,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_043__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_043__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_044_0002-verso-51998",
+      "image_id": 45255,
+      "category_id": 1012,
+      "bbox": [
+        1491.666643535542,
+        1370.8333390390771,
+        1283.3333134328127,
+        87.50000036419642
+      ],
+      "segmentation": [
+        [
+          1491.666643535542,
+          1370.8333390390771,
+          2774.999956968355,
+          1370.8333390390771,
+          2774.999956968355,
+          1458.3333394032736,
+          1491.666643535542,
+          1458.3333394032736
+        ]
+      ],
+      "area": 112291.66539275652,
+      "iscrowd": 0,
+      "text": "New Zealand Government Tourist Dept.'s Photo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_044_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          787.2000122070312,
+          586.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.925,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.924
+        }
+      },
+      "source_annotation_id": 51998,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_044__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_044__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_045_0002-verso-51999",
+      "image_id": 45256,
+      "category_id": 1012,
+      "bbox": [
+        1441.6666436078751,
+        1662.5000693107595,
+        1291.6666460070558,
+        95.83333732869039
+      ],
+      "segmentation": [
+        [
+          1441.6666436078751,
+          1662.5000693107595,
+          2733.333289614931,
+          1662.5000693107595,
+          2733.333289614931,
+          1758.33340663945,
+          1441.6666436078751,
+          1758.33340663945
+        ]
+      ],
+      "area": 123784.7254030123,
+      "iscrowd": 0,
+      "text": "New Zealand Government Tourist Dept.'s Photo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_045_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          763.2000122070312,
+          585.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.925,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.924
+        }
+      },
+      "source_annotation_id": 51999,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_045__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_045__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_046_0002-verso-52000",
+      "image_id": 45257,
+      "category_id": 1012,
+      "bbox": [
+        1533.3332895190838,
+        1683.3332911566047,
+        1249.9999642818618,
+        74.99999812083882
+      ],
+      "segmentation": [
+        [
+          1533.3332895190838,
+          1683.3332911566047,
+          2783.3332538009454,
+          1683.3332911566047,
+          2783.3332538009454,
+          1758.3332892774436,
+          1533.3332895190838,
+          1758.3332892774436
+        ]
+      ],
+      "area": 93749.99497218823,
+      "iscrowd": 0,
+      "text": "New Zealand Government Tourist Dept.'s Photo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_046_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          768.9600219726562,
+          584.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.925,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.924
+        }
+      },
+      "source_annotation_id": 52000,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_046__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_046__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_047_0002-verso-52001",
+      "image_id": 45258,
+      "category_id": 1012,
+      "bbox": [
+        1412.4999907656215,
+        1499.999937972405,
+        1274.9999916645434,
+        79.16666339298804
+      ],
+      "segmentation": [
+        [
+          1412.4999907656215,
+          1499.999937972405,
+          2687.499982430165,
+          1499.999937972405,
+          2687.499982430165,
+          1579.166601365393,
+          1412.4999907656215,
+          1579.166601365393
+        ]
+      ],
+      "area": 100937.49516616946,
+      "iscrowd": 0,
+      "text": "New Zealand Government Tourist Dept.'s Photo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_047_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          746.8800048828125,
+          590.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.925,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.924
+        }
+      },
+      "source_annotation_id": 52001,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_047__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_047__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_054_0002-verso-52006",
+      "image_id": 45265,
+      "category_id": 1012,
+      "bbox": [
+        162.49999459792346,
+        133.33333613568217,
+        1545.8332819443488,
+        1195.8333584668994
+      ],
+      "segmentation": [
+        [
+          162.49999459792346,
+          133.33333613568217,
+          1708.3332765422722,
+          133.33333613568217,
+          1708.3332765422722,
+          1329.1666946025816,
+          162.49999459792346,
+          1329.1666946025816
+        ]
+      ],
+      "area": 1848559.00517742,
+      "iscrowd": 0,
+      "text": "Palaise de l'He dans lealand (ravage occidental); dont la habenaine副ie de 275 m à 1000 m.-De moudbreux navigation, o's et sont bruxés.\n\nD'un centaire leant, on a été directif pour qu'à 42 ephéraux de rôche voluant que qui s'avancement dans le man le sont autent de la couplage, de dans.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_054_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          440.6400146484375,
+          580.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 211,
+            "cjk": 1,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 9,
+            "other": 15
+          },
+          "alpha_ratio": 0.8983,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9873
+        }
+      },
+      "source_annotation_id": 52006,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_054__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_054__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_060_0002-verso-52010",
+      "image_id": 45271,
+      "category_id": 1012,
+      "bbox": [
+        587.5000119254602,
+        375.0000011407588,
+        1833.3333705475354,
+        404.1666678961511
+      ],
+      "segmentation": [
+        [
+          587.5000119254602,
+          375.0000011407588,
+          2420.8333824729957,
+          375.0000011407588,
+          2420.8333824729957,
+          779.16666903691,
+          587.5000119254602,
+          779.16666903691
+        ]
+      ],
+      "area": 740972.2395170172,
+      "iscrowd": 0,
+      "text": "The military Cayer, on the grounds of the rotavirus Sanitazin, north island, New Zealand, one of the major islands of the antilobar areas. This area, however, is only one of many areas found to be in turn. (from APUS PUCLE VIEY CO.,)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_060_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          841.9199829101562,
+          802.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 180,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 12
+          },
+          "alpha_ratio": 0.9375,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9839
+        }
+      },
+      "source_annotation_id": 52010,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_060__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_060__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_061_0002-verso-52011",
+      "image_id": 45272,
+      "category_id": 1012,
+      "bbox": [
+        745.8333407788771,
+        1050.0000117289376,
+        2279.16668941925,
+        233.3333359397639
+      ],
+      "segmentation": [
+        [
+          745.8333407788771,
+          1050.0000117289376,
+          3025.000030198127,
+          1050.0000117289376,
+          3025.000030198127,
+          1283.3333476687014,
+          745.8333407788771,
+          1283.3333476687014
+        ]
+      ],
+      "area": 531805.5668049814,
+      "iscrowd": 0,
+      "text": "Where man is dwarfed by the vast snpw fields and mighty peaks -- on the mountain trial in Tongariro National Park, North Island of New Zealand.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_061_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          978.239990234375,
+          655.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 114,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9661,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9541
+        }
+      },
+      "source_annotation_id": 52011,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_061__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_061__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_062_0002-verso-52013",
+      "image_id": 45273,
+      "category_id": 1012,
+      "bbox": [
+        987.4999875367627,
+        283.33334514569333,
+        1291.666650364542,
+        87.5000036479347
+      ],
+      "segmentation": [
+        [
+          987.4999875367627,
+          283.33334514569333,
+          2279.1666379013045,
+          283.33334514569333,
+          2279.1666379013045,
+          370.83334879362803,
+          987.4999875367627,
+          370.83334879362803
+        ]
+      ],
+      "area": 113020.83661881302,
+      "iscrowd": 0,
+      "text": "New Zealand Government Tourist Dept.'s Photo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_062_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          773.760009765625,
+          585.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.925,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.924
+        }
+      },
+      "source_annotation_id": 52013,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_062__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_062__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_063_0001-recto-52015",
+      "image_id": 45274,
+      "category_id": 1012,
+      "bbox": [
+        699.999994874687,
+        3283.3334734070318,
+        933.3333264995827,
+        79.16667004407817
+      ],
+      "segmentation": [
+        [
+          699.999994874687,
+          3283.3334734070318,
+          1633.3333213742696,
+          3283.3334734070318,
+          1633.3333213742696,
+          3362.50014345111,
+          699.999994874687,
+          3362.50014345111
+        ]
+      ],
+      "area": 73888.89150013434,
+      "iscrowd": 0,
+      "text": "Watch your Credit Line.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_166_063_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1000.3200073242188,
+          1030.0799560546875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 19,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.95,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8938
+        }
+      },
+      "source_annotation_id": 52015,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_063__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_063__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_063_0001-recto-52016",
+      "image_id": 45274,
+      "category_id": 1012,
+      "bbox": [
+        737.4999946001167,
+        3704.166824693974,
+        2533.3333147845815,
+        416.6666844425167
+      ],
+      "segmentation": [
+        [
+          737.4999946001167,
+          3704.166824693974,
+          3270.833309384698,
+          3704.166824693974,
+          3270.833309384698,
+          4120.833509136491,
+          737.4999946001167,
+          4120.833509136491
+        ]
+      ],
+      "area": 1055555.5928590621,
+      "iscrowd": 0,
+      "text": "185942 - THE WAIRUA FALLS of New Zealand, remind the traveller somewhat of our own Niagara. The drop is not so great as that achieved by some of the other and better known waterfalls of the world, but in the amount of water that passes over the brink, the Waibas compares most favorably with the world's greatest eateracts.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_166_063_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1000.3200073242188,
+          1030.0799560546875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 253,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 7
+          },
+          "alpha_ratio": 0.9511,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9939
+        }
+      },
+      "source_annotation_id": 52016,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_063__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_063__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_065_0002-verso-52018",
+      "image_id": 45276,
+      "category_id": 1012,
+      "bbox": [
+        349.99999607021624,
+        299.9999975702565,
+        1262.4999858247086,
+        74.99999939256412
+      ],
+      "segmentation": [
+        [
+          349.99999607021624,
+          299.9999975702565,
+          1612.4999818949248,
+          299.9999975702565,
+          1612.4999818949248,
+          374.9999969628206,
+          349.99999607021624,
+          374.9999969628206
+        ]
+      ],
+      "area": 94687.49816996536,
+      "iscrowd": 0,
+      "text": "New Zealand Government Tourist Dept.'s Photo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_065_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          434.8800048828125,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.925,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.924
+        }
+      },
+      "source_annotation_id": 52018,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_065__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_065__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_066_0002-verso-52020",
+      "image_id": 45277,
+      "category_id": 1012,
+      "bbox": [
+        695.8333447685237,
+        283.33333892521534,
+        1258.3333540125398,
+        66.66666798240361
+      ],
+      "segmentation": [
+        [
+          695.8333447685237,
+          283.33333892521534,
+          1954.1666987810636,
+          283.33333892521534,
+          1954.1666987810636,
+          350.00000690761897,
+          695.8333447685237,
+          350.00000690761897
+        ]
+      ],
+      "area": 83888.89192313833,
+      "iscrowd": 0,
+      "text": "new Zealand Government Tourist Dept.'s Photo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          594.239990234375,
+          432.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.925,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.924
+        }
+      },
+      "source_annotation_id": 52020,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_066__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_068_0002-verso-52024",
+      "image_id": 45279,
+      "category_id": 1013,
+      "bbox": [
+        1170.8333405780613,
+        1195.8332801492727,
+        1000.0000061876681,
+        137.49999388475956
+      ],
+      "segmentation": [
+        [
+          1170.8333405780613,
+          1195.8332801492727,
+          2170.8333467657294,
+          1195.8332801492727,
+          2170.8333467657294,
+          1333.3332740340322,
+          1170.8333405780613,
+          1333.3332740340322
+        ]
+      ],
+      "area": 137499.99473556387,
+      "iscrowd": 0,
+      "text": "NEW ZEALAND.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_068_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          789.1199951171875,
+          603.8400268554688
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9091,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8886
+        }
+      },
+      "source_annotation_id": 52024,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_068__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_068__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_075_0002-verso-52034",
+      "image_id": 45286,
+      "category_id": 1012,
+      "bbox": [
+        883.3333594546463,
+        291.6666736096936,
+        1279.166704493285,
+        66.66666825364425
+      ],
+      "segmentation": [
+        [
+          883.3333594546463,
+          291.6666736096936,
+          2162.5000639479313,
+          291.6666736096936,
+          2162.5000639479313,
+          358.33334186333786,
+          883.3333594546463,
+          358.33334186333786
+        ]
+      ],
+      "area": 85277.7823295612,
+      "iscrowd": 0,
+      "text": "Government Tourist Dept.'s Photo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_075_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          743.0399780273438,
+          615.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 27,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9375
+        }
+      },
+      "source_annotation_id": 52034,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_075__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_075__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_075_0002-verso-52035",
+      "image_id": 45286,
+      "category_id": 1012,
+      "bbox": [
+        1066.666698209384,
+        1220.8333623948602,
+        991.6666959915368,
+        133.3333365072885
+      ],
+      "segmentation": [
+        [
+          1066.666698209384,
+          1220.8333623948602,
+          2058.333394200921,
+          1220.8333623948602,
+          2058.333394200921,
+          1354.1666989021487,
+          1066.666698209384,
+          1354.1666989021487
+        ]
+      ],
+      "area": 132222.22927971053,
+      "iscrowd": 0,
+      "text": "NEW ZEALAND.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_075_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          743.0399780273438,
+          615.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9091,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8886
+        }
+      },
+      "source_annotation_id": 52035,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_075__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_075__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_079_0002-verso-52037",
+      "image_id": 45290,
+      "category_id": 1012,
+      "bbox": [
+        1416.6666981122876,
+        1508.3334091664183,
+        1275.0000283010588,
+        212.50001068366666
+      ],
+      "segmentation": [
+        [
+          1416.6666981122876,
+          1508.3334091664183,
+          2691.6667264133466,
+          1508.3334091664183,
+          2691.6667264133466,
+          1720.833419850085,
+          1416.6666981122876,
+          1720.833419850085
+        ]
+      ],
+      "area": 270937.5196356503,
+      "iscrowd": 0,
+      "text": "RICH OF REPRODUCTION RECEIVED.\nNew Zealand Government Tourist Dept.'s Photo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_079_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          769.9199829101562,
+          582.719970703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 63,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9403,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9225
+        }
+      },
+      "source_annotation_id": 52037,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_079__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_079__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_083_0001-recto-52039",
+      "image_id": 45294,
+      "category_id": 1012,
+      "bbox": [
+        162.49999482838746,
+        2245.8333164854,
+        391.6666542017544,
+        166.6666654163562
+      ],
+      "segmentation": [
+        [
+          162.49999482838746,
+          2245.8333164854,
+          554.1666490301418,
+          2245.8333164854,
+          554.1666490301418,
+          2412.499981901756,
+          162.49999482838746,
+          2412.499981901756
+        ]
+      ],
+      "area": 65277.77521058749,
+      "iscrowd": 0,
+      "text": "NEWZEALAND\nTOURIST\nPROTECTED\nNO.15.4.6. 7:1.03",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_166_083_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          843.8400268554688,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 28,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 6
+          },
+          "alpha_ratio": 0.6667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8583
+        }
+      },
+      "source_annotation_id": 52039,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_083__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_083__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_084_0002-verso-52041",
+      "image_id": 45295,
+      "category_id": 1012,
+      "bbox": [
+        437.50001145718596,
+        1637.4999445571016,
+        1795.8333803623539,
+        120.83332924212708
+      ],
+      "segmentation": [
+        [
+          437.50001145718596,
+          1637.4999445571016,
+          2233.33339181954,
+          1637.4999445571016,
+          2233.33339181954,
+          1758.3332737992287,
+          437.50001145718596,
+          1758.3332737992287
+        ]
+      ],
+      "area": 216996.52611332634,
+      "iscrowd": 0,
+      "text": "A magnificent example of New Zealand scenery.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_084_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          839.0399780273438,
+          648.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 38,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9744,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9135
+        }
+      },
+      "source_annotation_id": 52041,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_084__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_084__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_085_0002-verso-52042",
+      "image_id": 45296,
+      "category_id": 1012,
+      "bbox": [
+        741.6666501214402,
+        908.3333503187097,
+        2383.333280165527,
+        279.1666718869429
+      ],
+      "segmentation": [
+        [
+          741.6666501214402,
+          908.3333503187097,
+          3124.9999302869674,
+          908.3333503187097,
+          3124.9999302869674,
+          1187.5000222056526,
+          741.6666501214402,
+          1187.5000222056526
+        ]
+      ],
+      "area": 665347.2198212009,
+      "iscrowd": 0,
+      "text": "Where man is dwarfed by the vast snow fields and mighty peaks --- on the mountain trail in Tongariro National Park, North Island of New Zealand.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_085_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          984.9600219726562,
+          652.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 114,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.958,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9531
+        }
+      },
+      "source_annotation_id": 52042,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_085__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_085__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_086_0002-verso-52043",
+      "image_id": 45297,
+      "category_id": 1012,
+      "bbox": [
+        962.5000071087051,
+        479.1666666666667,
+        2162.5000159715064,
+        225.00000000000003
+      ],
+      "segmentation": [
+        [
+          962.5000071087051,
+          479.1666666666667,
+          3125.0000230802116,
+          479.1666666666667,
+          3125.0000230802116,
+          704.1666666666667,
+          962.5000071087051,
+          704.1666666666667
+        ]
+      ],
+      "area": 486562.503593589,
+      "iscrowd": 0,
+      "text": "Climbers desire a warm lake which cut in the snowfield on the summit of Mount Bospum is one of the curious phenomena of the mountains of New Zealand.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_086_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          991.6799926757812,
+          408.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 121,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9918,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9823
+        }
+      },
+      "source_annotation_id": 52043,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_086__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_086__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_103_0002-verso-52052",
+      "image_id": 45314,
+      "category_id": 1012,
+      "bbox": [
+        491.6666795423614,
+        1083.3333454346182,
+        2566.6667338821576,
+        283.3333364982848
+      ],
+      "segmentation": [
+        [
+          491.6666795423614,
+          1083.3333454346182,
+          3058.3334134245188,
+          1083.3333454346182,
+          3058.3334134245188,
+          1366.666681932903,
+          491.6666795423614,
+          1366.666681932903
+        ]
+      ],
+      "area": 727222.2493899869,
+      "iscrowd": 0,
+      "text": "A New Zealand pool, set in the clean, tall timber of the valbys.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_103_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          839.0399780273438,
+          655.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 49,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9423,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9261
+        }
+      },
+      "source_annotation_id": 52052,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_103__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_103__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_104_0002-verso-52053",
+      "image_id": 45315,
+      "category_id": 1012,
+      "bbox": [
+        337.5000010266829,
+        312.4999923583791,
+        2225.0000067685023,
+        187.49999541502746
+      ],
+      "segmentation": [
+        [
+          337.5000010266829,
+          312.4999923583791,
+          2562.5000077951854,
+          312.4999923583791,
+          2562.5000077951854,
+          499.99998777340653,
+          337.5000010266829,
+          499.99998777340653
+        ]
+      ],
+      "area": 417187.49106753024,
+      "iscrowd": 0,
+      "text": "STAM-CloudS RISING TO A WINSTRY SKY IN THE WONDERLAND OP\nNEW ZEALAND'S THERMAL REGIONS.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_104_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          802.5599975585938,
+          998.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 71,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9595,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9116
+        }
+      },
+      "source_annotation_id": 52053,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_104__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_104__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_104_0002-verso-52054",
+      "image_id": 45315,
+      "category_id": 1012,
+      "bbox": [
+        337.5000010266829,
+        512.4999874677417,
+        2508.333340963742,
+        537.4999868564121
+      ],
+      "segmentation": [
+        [
+          337.5000010266829,
+          512.4999874677417,
+          2845.833341990425,
+          512.4999874677417,
+          2845.833341990425,
+          1049.9999743241538,
+          337.5000010266829,
+          1049.9999743241538
+        ]
+      ],
+      "area": 1348229.1377995117,
+      "iscrowd": 0,
+      "text": "A magnificent camera study secured at Orekoikorako, about 40 miles south of Rotorus, North Island. This district on account of the difficulties of access, is not very well known even to New Zealanders. It is the seat of great thermal activity. The photograph shows boiling pools in the background, while the man is standing on a crust formed by the silica deposits from the thermal springs.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_104_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          802.5599975585938,
+          998.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 315,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 8
+          },
+          "alpha_ratio": 0.9692,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9962
+        }
+      },
+      "source_annotation_id": 52054,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_104__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_104__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_166_104_0002-verso-52055",
+      "image_id": 45315,
+      "category_id": 1012,
+      "bbox": [
+        2212.500006730477,
+        1974.9999517049557,
+        295.83333423326525,
+        583.3333190689743
+      ],
+      "segmentation": [
+        [
+          2212.500006730477,
+          1974.9999517049557,
+          2508.333340963742,
+          1974.9999517049557,
+          2508.333340963742,
+          2558.33327077393,
+          2212.500006730477,
+          2558.33327077393
+        ]
+      ],
+      "area": 172569.44074953184,
+      "iscrowd": 0,
+      "text": "RV. FORBIN\nCLAMART (SEINE)\nTel.: 104",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_166_104_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          802.5599975585938,
+          998.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 23,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 3,
+            "other": 5
+          },
+          "alpha_ratio": 0.7419,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8877
+        }
+      },
+      "source_annotation_id": 52055,
+      "source_file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_104__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_166/SHDGR__GR_2_K_247_166_104__0002.jpg"
+    }
+  ]
 }

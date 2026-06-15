@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_182",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,9 +2207,2323 @@
         "Type": "Géographique",
         "Cluster": 27,
         "ClusterLabel": "VIE MILITAIRE",
+        "Pays / Région": "Tchécoslovaquie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_003_0002-verso-54106",
+      "image_id": 48008,
+      "category_id": 1012,
+      "bbox": [
+        183.33332737770317,
+        220.83333986366156,
+        1904.1666048093261,
+        283.33334171186766
+      ],
+      "segmentation": [
+        [
+          183.33332737770317,
+          220.83333986366156,
+          2087.499932187029,
+          220.83333986366156,
+          2087.499932187029,
+          504.1666815755292,
+          183.33332737770317,
+          504.1666815755292
+        ]
+      ],
+      "area": 539513.8873167677,
+      "iscrowd": 0,
+      "text": "Style vingulier presque particulier de nos carbanes (pageau octégues)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          526.0800170898438,
+          371.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.1111,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 59,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9672,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.907
+        }
+      },
+      "source_annotation_id": 54106,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_005_0002-verso-54108",
+      "image_id": 48010,
+      "category_id": 1012,
+      "bbox": [
+        216.6666707182243,
+        208.33332844770683,
+        1650.0000308541698,
+        241.6666609993399
+      ],
+      "segmentation": [
+        [
+          216.6666707182243,
+          208.33332844770683,
+          1866.6667015723942,
+          208.33332844770683,
+          1866.6667015723942,
+          449.99998944704674,
+          216.6666707182243,
+          449.99998944704674
+        ]
+      ],
+      "area": 398749.99810533505,
+      "iscrowd": 0,
+      "text": "Panorana 'Male' Trany a 'tradecan', pohled\nod paláce Lazanskýe, kde je francoungóký\nvplapectru.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          652.7999877929688,
+          468.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 76,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9157,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8895
+        }
+      },
+      "source_annotation_id": 54108,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_007_0002-verso-54110",
+      "image_id": 48012,
+      "category_id": 1012,
+      "bbox": [
+        220.83332840694567,
+        225.0000011773757,
+        1099.9999754610124,
+        116.66666727715777
+      ],
+      "segmentation": [
+        [
+          220.83332840694567,
+          225.0000011773757,
+          1320.833303867958,
+          225.0000011773757,
+          1320.833303867958,
+          341.66666845453346,
+          220.83332840694567,
+          341.66666845453346
+        ]
+      ],
+      "area": 128333.33114199164,
+      "iscrowd": 0,
+      "text": "náimiestri píčel Hradem pájstkýn",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          656.6400146484375,
+          466.55999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54110,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_018_0001-recto-54117",
+      "image_id": 48023,
+      "category_id": 1012,
+      "bbox": [
+        816.6666488816846,
+        3525.0000950304466,
+        2004.1666230208689,
+        241.66667318175638
+      ],
+      "segmentation": [
+        [
+          816.6666488816846,
+          3525.0000950304466,
+          2820.8332719025534,
+          3525.0000950304466,
+          2820.8332719025534,
+          3766.666768212203,
+          816.6666488816846,
+          3766.666768212203
+        ]
+      ],
+      "area": 484340.2802873687,
+      "iscrowd": 0,
+      "text": "THE Graben, one of the principal streets in Prague, capital of Bahemia. It is reported that this thoroughfare will be called Wilson street in the future.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_018_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1008.9600219726562,
+          1086.719970703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 124,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9688,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9544
+        }
+      },
+      "source_annotation_id": 54117,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_018__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_018__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_018_0001-recto-54118",
+      "image_id": 48023,
+      "category_id": 1012,
+      "bbox": [
+        799.9999825779768,
+        3745.8334343172237,
+        2108.333287419043,
+        270.833340634727
+      ],
+      "segmentation": [
+        [
+          799.9999825779768,
+          3745.8334343172237,
+          2908.3332699970197,
+          3745.8334343172237,
+          2908.3332699970197,
+          4016.6667749519506,
+          799.9999825779768,
+          4016.6667749519506
+        ]
+      ],
+      "area": 571006.9474030954,
+      "iscrowd": 0,
+      "text": "Prague is a city of 545,000, and was founded in 1100. In the Fifteenth Century it was captured and almost destroyed by the Hussites, the religious soot started by John Huss, but was quickly rebuilt.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_018_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1008.9600219726562,
+          1086.719970703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.8333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 148,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 10,
+            "other": 6
+          },
+          "alpha_ratio": 0.9024,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9711
+        }
+      },
+      "source_annotation_id": 54118,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_018__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_018__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_018_0001-recto-54119",
+      "image_id": 48023,
+      "category_id": 1012,
+      "bbox": [
+        791.6666494261228,
+        4008.333441393959,
+        2083.3332879634813,
+        216.66667250778158
+      ],
+      "segmentation": [
+        [
+          791.6666494261228,
+          4008.333441393959,
+          2874.9999373896044,
+          4008.333441393959,
+          2874.9999373896044,
+          4225.00011390174,
+          791.6666494261228,
+          4225.00011390174
+        ]
+      ],
+      "area": 451388.8912277434,
+      "iscrowd": 0,
+      "text": "This city, which probably will be the permanent capital of Czechslovalzia, is one of the most beautiful historic cities in Europe. 11/10/18",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_018_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          1008.9600219726562,
+          1086.719970703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 107,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 5
+          },
+          "alpha_ratio": 0.9068,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.93
+        }
+      },
+      "source_annotation_id": 54119,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_018__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_018__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_020_0002-verso-54122",
+      "image_id": 48025,
+      "category_id": 1012,
+      "bbox": [
+        304.1666719648574,
+        433.33333538934755,
+        2416.6667087618807,
+        295.8333347369584
+      ],
+      "segmentation": [
+        [
+          304.1666719648574,
+          433.33333538934755,
+          2720.833380726738,
+          433.33333538934755,
+          2720.833380726738,
+          729.1666701263059,
+          304.1666719648574,
+          729.1666701263059
+        ]
+      ],
+      "area": 714930.571400817,
+      "iscrowd": 0,
+      "text": "Christians self-rated on the figure: In the street of 'fruGuo' (TsonoguoShouWuKa) on the Attestor Hing, a Blc stretch at street tree has been opened with silver light管局, which are beautiful enjoy night",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_020_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          700.7999877929688,
+          514.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 160,
+            "cjk": 2,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.9529,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9608
+        }
+      },
+      "source_annotation_id": 54122,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_020__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_020__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_025_0001-recto-54127",
+      "image_id": 48030,
+      "category_id": 1012,
+      "bbox": [
+        558.3333333333334,
+        3970.83341347898,
+        2433.3333333333335,
+        766.6666821407475
+      ],
+      "segmentation": [
+        [
+          558.3333333333334,
+          3970.83341347898,
+          2991.666666666667,
+          3970.83341347898,
+          2991.666666666667,
+          4737.500095619727,
+          558.3333333333334,
+          4737.500095619727
+        ]
+      ],
+      "area": 1865555.5932091523,
+      "iscrowd": 0,
+      "text": "270638 COPYRIGHT UNDERWOOD & UNDERWOOD, N.Y.\n\nMONUMENT ERECTED BY AUSTRIA ON SPOT ...ERE BOHEMANS WERE KILLED IN L680.\n\nPHOTO OF--The monument erected by Austria on the same square where in 1620 Bohenians were slain.\n\n11/24/19.\n\nPHOTO VERIFIED AND FOUND CORRECT BY A.PK.\n\nTo avoid mistakes no. on caption must agree with no. on photo.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_025_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          816.0,
+          1209.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 238,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 19,
+            "other": 19
+          },
+          "alpha_ratio": 0.8623,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9828
+        }
+      },
+      "source_annotation_id": 54127,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_025__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_025__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_029_0001-recto-54133",
+      "image_id": 48034,
+      "category_id": 1012,
+      "bbox": [
+        829.1666747459,
+        3420.8334820449472,
+        2508.333357774029,
+        258.33334456368664
+      ],
+      "segmentation": [
+        [
+          829.1666747459,
+          3420.8334820449472,
+          3337.500032519929,
+          3420.8334820449472,
+          3337.500032519929,
+          3679.166826608634,
+          829.1666747459,
+          3679.166826608634
+        ]
+      ],
+      "area": 647986.1455944274,
+      "iscrowd": 0,
+      "text": "CZECHOSLOVAKIA--A WE: NATION BORN OF THE GREAT \"AR\nA striking and beautiful photo of the National Thoater in Prague,\nthe magnificent capital of Bohemia and probably the permanent capital\nof Czechoslovakia, the new Central European republic of the Czechoslovakia.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_029_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1002.239990234375,
+          1123.199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 217,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9688,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9961
+        }
+      },
+      "source_annotation_id": 54133,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_029__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_029__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_029_0001-recto-54134",
+      "image_id": 48034,
+      "category_id": 1012,
+      "bbox": [
+        833.3333414531659,
+        3683.333493456435,
+        2475.0000241159028,
+        395.83335054113275
+      ],
+      "segmentation": [
+        [
+          833.3333414531659,
+          3683.333493456435,
+          3308.3333655690685,
+          3683.333493456435,
+          3308.3333655690685,
+          4079.166843997568,
+          833.3333414531659,
+          4079.166843997568
+        ]
+      ],
+      "area": 979687.5521351821,
+      "iscrowd": 0,
+      "text": "This building is one of the finest theaters in the world, and is operated as a public institution. The stones in the building are said to have been put together with a musilage made of the whites andiazens of eggs contributed by practically all the people of Bohemia. Even the lowliest可能发生 in the remotest rural districts sent eggs to be used insticking together the stones in the theater.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_029_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1002.239990234375,
+          1123.199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 314,
+            "cjk": 4,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9876,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9984
+        }
+      },
+      "source_annotation_id": 54134,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_029__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_029__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_029_0001-recto-54135",
+      "image_id": 48034,
+      "category_id": 1012,
+      "bbox": [
+        833.3333414531659,
+        4083.3335108453693,
+        2575.0000250902826,
+        195.83334184666566
+      ],
+      "segmentation": [
+        [
+          833.3333414531659,
+          4083.3335108453693,
+          3408.3333665434484,
+          4083.3335108453693,
+          3408.3333665434484,
+          4279.166852692035,
+          833.3333414531659,
+          4279.166852692035
+        ]
+      ],
+      "area": 504270.860168678,
+      "iscrowd": 0,
+      "text": "The theater is used for all kinds of theatrical entertainment, especially for opera. In it the masterpieces of most of the great Bohemian composers were given their tryouts.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_029_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          1002.239990234375,
+          1123.199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 143,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9795,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9724
+        }
+      },
+      "source_annotation_id": 54135,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_029__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_029__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_031_0001-recto-54136",
+      "image_id": 48036,
+      "category_id": 1012,
+      "bbox": [
+        491.6666511661755,
+        2299.9999249032517,
+        933.3333039086721,
+        141.66666204114233
+      ],
+      "segmentation": [
+        [
+          491.6666511661755,
+          2299.9999249032517,
+          1424.9999550748475,
+          2299.9999249032517,
+          1424.9999550748475,
+          2441.666586944394,
+          491.6666511661755,
+          2441.666586944394
+        ]
+      ],
+      "area": 132222.21373657262,
+      "iscrowd": 0,
+      "text": "JESUS CHRISTUS.\n(\"Neque dormitet, qui custodit te.\" Psalm.)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_031_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          464.6400146484375,
+          672.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 44,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 8
+          },
+          "alpha_ratio": 0.8462,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8808
+        }
+      },
+      "source_annotation_id": 54136,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_031__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_031__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_031_0001-recto-54137",
+      "image_id": 48036,
+      "category_id": 1012,
+      "bbox": [
+        349.99998896575204,
+        2587.499915516158,
+        1208.3332952389057,
+        54.16666489808383
+      ],
+      "segmentation": [
+        [
+          349.99998896575204,
+          2587.499915516158,
+          1558.3332842046577,
+          2587.499915516158,
+          1558.3332842046577,
+          2641.666580414242,
+          349.99998896575204,
+          2641.666580414242
+        ]
+      ],
+      "area": 65451.3846884032,
+      "iscrowd": 0,
+      "text": "L'Original tableau en possession de Nícolas L'khmannéditeur, Prague.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_031_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          464.6400146484375,
+          672.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.125,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 57,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9344,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9043
+        }
+      },
+      "source_annotation_id": 54137,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_031__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_031__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_032_0002-verso-54138",
+      "image_id": 48037,
+      "category_id": 1012,
+      "bbox": [
+        120.83333333333334,
+        58.33333492604099,
+        1491.6666666666667,
+        529.1666811148004
+      ],
+      "segmentation": [
+        [
+          120.83333333333334,
+          58.33333492604099,
+          1612.5,
+          58.33333492604099,
+          1612.5,
+          587.5000160408414,
+          120.83333333333334,
+          587.5000160408414
+        ]
+      ],
+      "area": 789340.2993295774,
+      "iscrowd": 0,
+      "text": "Les Femes télégues de Moravie en costunnes nationales (à lieu de pèrelorimage) Marchands de petits crutches pointes en contour (à long col et l'étroite embanchure)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_032_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          408.0,
+          312.9599914550781
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 134,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.964,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9372
+        }
+      },
+      "source_annotation_id": 54138,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_032__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_032__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_034_0002-verso-54141",
+      "image_id": 48039,
+      "category_id": 1012,
+      "bbox": [
+        141.66667324706813,
+        245.83333011072259,
+        2179.1667678887247,
+        66.66666579273833
+      ],
+      "segmentation": [
+        [
+          141.66667324706813,
+          245.83333011072259,
+          2320.833441135793,
+          245.83333011072259,
+          2320.833441135793,
+          312.4999959034609,
+          141.66667324706813,
+          312.4999959034609
+        ]
+      ],
+      "area": 145277.7826214794,
+      "iscrowd": 0,
+      "text": "Noon-time scene on City Hall Square in Prag, Bohemia.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_034_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          630.719970703125,
+          465.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 42,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9333,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9117
+        }
+      },
+      "source_annotation_id": 54141,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_034__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_034__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_035_0002-verso-54142",
+      "image_id": 48040,
+      "category_id": 1012,
+      "bbox": [
+        250.00000963307426,
+        241.66666793125538,
+        1766.6667347403913,
+        70.83333370398864
+      ],
+      "segmentation": [
+        [
+          250.00000963307426,
+          241.66666793125538,
+          2016.6667443734657,
+          241.66666793125538,
+          2016.6667443734657,
+          312.500001635244,
+          250.00000963307426,
+          312.500001635244
+        ]
+      ],
+      "area": 125138.89436560213,
+      "iscrowd": 0,
+      "text": "Children going to market, in Prag, Bohemia.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          633.5999755859375,
+          466.55999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1429,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 34,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9189,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9042
+        }
+      },
+      "source_annotation_id": 54142,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_037_0002-verso-54143",
+      "image_id": 48042,
+      "category_id": 1012,
+      "bbox": [
+        304.1666657965476,
+        124.99999539287786,
+        3095.8333244771898,
+        324.9999880214824
+      ],
+      "segmentation": [
+        [
+          304.1666657965476,
+          124.99999539287786,
+          3399.9999902737372,
+          124.99999539287786,
+          3399.9999902737372,
+          449.99998341436026,
+          304.1666657965476,
+          449.99998341436026
+        ]
+      ],
+      "area": 1006145.7933715928,
+      "iscrowd": 0,
+      "text": "Tamee pri shannisi purowamy mild dei u Starelio Hroenheva (Morana)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_037_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          853.4400024414062,
+          662.4000244140625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 55,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9649,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8956
+        }
+      },
+      "source_annotation_id": 54143,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_037__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_037__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_038_0002-verso-54145",
+      "image_id": 48043,
+      "category_id": 1012,
+      "bbox": [
+        350.000001004623,
+        404.16665298228713,
+        2870.8333415736342,
+        283.33332374016004
+      ],
+      "segmentation": [
+        [
+          350.000001004623,
+          404.16665298228713,
+          3220.833342578257,
+          404.16665298228713,
+          3220.833342578257,
+          687.4999767224472,
+          350.000001004623,
+          687.4999767224472
+        ]
+      ],
+      "area": 813402.752572128,
+      "iscrowd": 0,
+      "text": "HANG ALL FOUR, SAY SLAVS.\nA great Slav procession marched through London yesterday April 1. to the hotel where the Crown Prince of Serbia is staying.\nPhoto shows Elav's in National dress.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_038_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          850.5599975585938,
+          648.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 149,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 6
+          },
+          "alpha_ratio": 0.9551,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9444
+        }
+      },
+      "source_annotation_id": 54145,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_038__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_038__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_040_0002-verso-54146",
+      "image_id": 48045,
+      "category_id": 1012,
+      "bbox": [
+        733.3333129512234,
+        270.8333422015497,
+        2716.666591160214,
+        220.83334056434055
+      ],
+      "segmentation": [
+        [
+          733.3333129512234,
+          270.8333422015497,
+          3449.9999041114374,
+          270.8333422015497,
+          3449.9999041114374,
+          491.6666827658903,
+          733.3333129512234,
+          491.6666827658903
+        ]
+      ],
+      "area": 599930.5585254496,
+      "iscrowd": 0,
+      "text": "L'entrezée claux le Sapovillon et la commerce",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_040_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          878.4000244140625,
+          671.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4286,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 38,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9744,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9397
+        }
+      },
+      "source_annotation_id": 54146,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_040__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_040__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_040_0002-verso-54147",
+      "image_id": 48045,
+      "category_id": 1012,
+      "bbox": [
+        1887.4999475392285,
+        870.8333618480598,
+        62.49999826288836,
+        883.3333622573622
+      ],
+      "segmentation": [
+        [
+          1887.4999475392285,
+          870.8333618480598,
+          1949.9999458021168,
+          870.8333618480598,
+          1949.9999458021168,
+          1754.166724105422,
+          1887.4999475392285,
+          1754.166724105422
+        ]
+      ],
+      "area": 55208.33360663647,
+      "iscrowd": 0,
+      "text": "队, PAVIHTS, Pinterha 111-234, Polish zapevèzen 1908.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_040_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          878.4000244140625,
+          671.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 30,
+            "cjk": 1,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 10,
+            "other": 5
+          },
+          "alpha_ratio": 0.6739,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8592
+        }
+      },
+      "source_annotation_id": 54147,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_040__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_040__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_041_0002-verso-54148",
+      "image_id": 48046,
+      "category_id": 1012,
+      "bbox": [
+        1862.4999845040925,
+        945.8333024511561,
+        62.499999480003105,
+        866.6666383693413
+      ],
+      "segmentation": [
+        [
+          1862.4999845040925,
+          945.8333024511561,
+          1924.9999839840955,
+          945.8333024511561,
+          1924.9999839840955,
+          1812.4999408204974,
+          1862.4999845040925,
+          1812.4999408204974
+        ]
+      ],
+      "area": 54166.66444741987,
+      "iscrowd": 0,
+      "text": "En Papillai, Pinahua 111.-234, Patisk zapatovézen 1908.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_041_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          880.3200073242188,
+          672.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 34,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 10,
+            "other": 5
+          },
+          "alpha_ratio": 0.6939,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8617
+        }
+      },
+      "source_annotation_id": 54148,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_041__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_041__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_043_0002-verso-54149",
+      "image_id": 48048,
+      "category_id": 1012,
+      "bbox": [
+        625.0000104112919,
+        216.66667307378114,
+        2570.833376158447,
+        450.0000133070839
+      ],
+      "segmentation": [
+        [
+          625.0000104112919,
+          216.66667307378114,
+          3195.833386569739,
+          216.66667307378114,
+          3195.833386569739,
+          666.666686380865,
+          625.0000104112919,
+          666.666686380865
+        ]
+      ],
+      "area": 1156875.0534815968,
+      "iscrowd": 0,
+      "text": "L'entrez et al. dans le pavillon révée by\nville que Pogue",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_043_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          879.3599853515625,
+          660.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3636,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 45,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9574,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.931
+        }
+      },
+      "source_annotation_id": 54149,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_043__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_043__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_048_0002-verso-54154",
+      "image_id": 48053,
+      "category_id": 1012,
+      "bbox": [
+        299.99999330754883,
+        404.166682911407,
+        3137.499930008115,
+        283.3333447213987
+      ],
+      "segmentation": [
+        [
+          299.99999330754883,
+          404.166682911407,
+          3437.4999233156636,
+          404.166682911407,
+          3437.4999233156636,
+          687.5000276328058,
+          299.99999330754883,
+          687.5000276328058
+        ]
+      ],
+      "area": 888958.3492323535,
+      "iscrowd": 0,
+      "text": "L'Exposition de l'École de sculpture à Horice",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_048_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          875.52001953125,
+          668.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 37,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9487,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9269
+        }
+      },
+      "source_annotation_id": 54154,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_048__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_048__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_055_0002-verso-54162",
+      "image_id": 48060,
+      "category_id": 1012,
+      "bbox": [
+        1295.8333769338806,
+        870.8333656638994,
+        550.0000185056984,
+        141.6666719261846
+      ],
+      "segmentation": [
+        [
+          1295.8333769338806,
+          870.8333656638994,
+          1845.833395439579,
+          870.8333656638994,
+          1845.833395439579,
+          1012.5000375900839,
+          1295.8333769338806,
+          1012.5000375900839
+        ]
+      ],
+      "area": 77916.67218104223,
+      "iscrowd": 0,
+      "text": "textile",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_055_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          870.719970703125,
+          657.5999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 7,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54162,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_055__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_055__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_062_0002-verso-54169",
+      "image_id": 48067,
+      "category_id": 1012,
+      "bbox": [
+        529.1666814550234,
+        316.6666608729619,
+        3012.500084188834,
+        433.33332540510577
+      ],
+      "segmentation": [
+        [
+          529.1666814550234,
+          316.6666608729619,
+          3541.6667656438576,
+          316.6666608729619,
+          3541.6667656438576,
+          749.9999862780677,
+          529.1666814550234,
+          749.9999862780677
+        ]
+      ],
+      "area": 1305416.6792647087,
+      "iscrowd": 0,
+      "text": "Les portie inférieure de l'cospositif, avec le personnel, et lesquels ont été l'auxpositif, (en facteur)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_062_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          873.5999755859375,
+          667.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 83,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9222,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9319
+        }
+      },
+      "source_annotation_id": 54169,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_062__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_062__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_065_0002-verso-54173",
+      "image_id": 48070,
+      "category_id": 1012,
+      "bbox": [
+        566.6666825030171,
+        370.8333454759681,
+        2100.0000586876517,
+        516.6666835844949
+      ],
+      "segmentation": [
+        [
+          566.6666825030171,
+          370.8333454759681,
+          2666.6667411906687,
+          370.8333454759681,
+          2666.6667411906687,
+          887.500029060463,
+          566.6666825030171,
+          887.500029060463
+        ]
+      ],
+      "area": 1085000.0658493936,
+      "iscrowd": 0,
+      "text": "Le poviillon de los封闭\nde Pregue",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_065_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          873.5999755859375,
+          671.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 24,
+            "cjk": 2,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.95
+        }
+      },
+      "source_annotation_id": 54173,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_065__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_065__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_065_0002-verso-54174",
+      "image_id": 48070,
+      "category_id": 1012,
+      "bbox": [
+        1908.3333866645726,
+        912.5000298790675,
+        79.16666887909798,
+        879.1666954542613
+      ],
+      "segmentation": [
+        [
+          1908.3333866645726,
+          912.5000298790675,
+          1987.5000555436704,
+          912.5000298790675,
+          1987.5000555436704,
+          1791.666725333329,
+          1908.3333866645726,
+          1791.666725333329
+        ]
+      ],
+      "area": 69600.69866855828,
+      "iscrowd": 0,
+      "text": "F, Pavlik, Praha III.-234, Patisk Zapovézen 1908.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_065_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          873.5999755859375,
+          671.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 30,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 6
+          },
+          "alpha_ratio": 0.6977,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8622
+        }
+      },
+      "source_annotation_id": 54174,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_065__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_065__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_069_0002-verso-54178",
+      "image_id": 48074,
+      "category_id": 1012,
+      "bbox": [
+        504.1666557612781,
+        974.9999730849047,
+        2629.166609796417,
+        1258.3332985967572
+      ],
+      "segmentation": [
+        [
+          504.1666557612781,
+          974.9999730849047,
+          3133.333265557695,
+          974.9999730849047,
+          3133.333265557695,
+          2233.333271681662,
+          504.1666557612781,
+          2233.333271681662
+        ]
+      ],
+      "area": 3308367.892665579,
+      "iscrowd": 0,
+      "text": "NEWS ITEM -- The battle-searched here who salutes you in the Above photograph is Jan Kovtnik, a Czecho-Slovak Lad of 13,who has to his credit 4 years in battle, where he fought alongside of the men,2 nicks on his gun for two dead Germans, and a badge of honor for the capture of a cannon. He is hers to be educated under the direction of a Professor of the University of Chicago, and a military training school. Jan saw much fighting, having been on five fronts, the Russian,Turkish,Hungarian,Italian and Austrian. He tramped Siberia from Kiev to Vladivostock with the Czecho-Slav army, fighting the Bolsheviki and the Hun every inch of the way, and witnessed much suffering in his own land. He was brought to this country by Professor Neal, to whom he was intrusted at baking by Mr.Brashkovsky,the \"little grandmother of the Russian revolution\". Jan will eventually return to help alleviate the sufferings of his people.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_069_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          790.0800170898438,
+          707.52001953125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 733,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 29
+          },
+          "alpha_ratio": 0.9569,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9946
+        }
+      },
+      "source_annotation_id": 54178,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_069__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_069__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_071_0002-verso-54179",
+      "image_id": 48076,
+      "category_id": 1012,
+      "bbox": [
+        587.4999984501144,
+        120.83332952389058,
+        2829.166659203033,
+        916.6666377674458
+      ],
+      "segmentation": [
+        [
+          587.4999984501144,
+          120.83332952389058,
+          3416.666657653147,
+          120.83332952389058,
+          3416.666657653147,
+          1037.4999672913364,
+          587.4999984501144,
+          1037.4999672913364
+        ]
+      ],
+      "area": 2593402.6891754013,
+      "iscrowd": 0,
+      "text": "Paratidiana, antefoisville hongpoxie qui s'appealais 'presbong', est lepremetre avec tèeco florague en correspondence avec la mer Aeropérant terant le environnement de l'ulperatrice Marie thérèse à l'antidélava",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_071_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          925.4400024414062,
+          696.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 178,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.9622,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9369
+        }
+      },
+      "source_annotation_id": 54179,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_071__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_071__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_071_0002-verso-54180",
+      "image_id": 48076,
+      "category_id": 1012,
+      "bbox": [
+        1254.1666633580455,
+        1183.3332960270664,
+        1454.166662830425,
+        620.8333137606792
+      ],
+      "segmentation": [
+        [
+          1254.1666633580455,
+          1183.3332960270664,
+          2708.3333261884704,
+          1183.3332960270664,
+          2708.3333261884704,
+          1804.1666097877455,
+          1254.1666633580455,
+          1804.1666097877455
+        ]
+      ],
+      "area": 902795.108045321,
+      "iscrowd": 0,
+      "text": "1505.BRATISLAVA, das früher den Ungarn gehörté und Pressburg geheissen hat, ist der erste Donauhafen der Tschechoslo_ vakei, wodurch diese eine Verbindung mit der Meere_erhalten hat. Truppen passieren das Denkmal der Kaiserin Maria The resia in Bratislava.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_071_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          925.4400024414062,
+          696.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 209,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 8
+          },
+          "alpha_ratio": 0.9457,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9099
+        }
+      },
+      "source_annotation_id": 54180,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_071__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_071__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_071_0002-verso-54181",
+      "image_id": 48076,
+      "category_id": 1012,
+      "bbox": [
+        1291.6666632591166,
+        1995.833270411848,
+        1483.3333294201468,
+        241.66665904778117
+      ],
+      "segmentation": [
+        [
+          1291.6666632591166,
+          1995.833270411848,
+          2774.9999926792634,
+          1995.833270411848,
+          2774.9999926792634,
+          2237.499929459629,
+          1291.6666632591166,
+          2237.499929459629
+        ]
+      ],
+      "area": 358472.20997518866,
+      "iscrowd": 0,
+      "text": "Bratiglava (on Freiburg)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_182_071_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          925.4400024414062,
+          696.9600219726562
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9091,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.922
+        }
+      },
+      "source_annotation_id": 54181,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_071__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_071__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_072_0001-recto-54182",
+      "image_id": 48077,
+      "category_id": 1013,
+      "bbox": [
+        1525.0000036553022,
+        3279.1666401082207,
+        895.8333354805736,
+        79.16666602548436
+      ],
+      "segmentation": [
+        [
+          1525.0000036553022,
+          3279.1666401082207,
+          2420.8333391358756,
+          3279.1666401082207,
+          2420.8333391358756,
+          3358.3333061337053,
+          1525.0000036553022,
+          3358.3333061337053
+        ]
+      ],
+      "area": 70920.13848448626,
+      "iscrowd": 0,
+      "text": "COPYRIGHT WARNING OVER",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_072_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1018.5599975585938,
+          1205.760009765625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9333
+        }
+      },
+      "source_annotation_id": 54182,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_072__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_072__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_072_0001-recto-54183",
+      "image_id": 48077,
+      "category_id": 1012,
+      "bbox": [
+        1291.6666697626877,
+        3358.333306133705,
+        1729.1666708113398,
+        212.49999827893168
+      ],
+      "segmentation": [
+        [
+          1291.6666697626877,
+          3358.333306133705,
+          3020.8333405740277,
+          3358.333306133705,
+          3020.8333405740277,
+          3570.8333044126366,
+          1291.6666697626877,
+          3570.8333044126366
+        ]
+      ],
+      "area": 367447.9145713957,
+      "iscrowd": 0,
+      "text": "COPYRIGHT UNDERWOOD & UNDERWOOD NY\n--CZECHO-SLOVAK NATIONAL ARMY\nROOPS TAKING\nCATH OF ALLEGIANCE AT PRAGUE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_072_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          1018.5599975585938,
+          1205.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 88,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9462,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9099
+        }
+      },
+      "source_annotation_id": 54183,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_072__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_072__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_072_0001-recto-54184",
+      "image_id": 48077,
+      "category_id": 1012,
+      "bbox": [
+        866.6666687439969,
+        3629.16663727352,
+        375.0000008988448,
+        79.16666602548436
+      ],
+      "segmentation": [
+        [
+          866.6666687439969,
+          3629.16663727352,
+          1241.6666696428417,
+          3629.16663727352,
+          1241.6666696428417,
+          3708.3333032990045,
+          866.6666687439969,
+          3708.3333032990045
+        ]
+      ],
+      "area": 29687.49983071518,
+      "iscrowd": 0,
+      "text": "NEWS IEL",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_072_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 5,
+        "monkeyocr_page_size": [
+          1018.5599975585938,
+          1205.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 7,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54184,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_072__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_072__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_182_072_0001-recto-54185",
+      "image_id": 48077,
+      "category_id": 1012,
+      "bbox": [
+        1312.5000031459567,
+        3624.9999706405997,
+        2020.833338177108,
+        787.4999936219233
+      ],
+      "segmentation": [
+        [
+          1312.5000031459567,
+          3624.9999706405997,
+          3333.333341323065,
+          3624.9999706405997,
+          3333.333341323065,
+          4412.499964262523,
+          1312.5000031459567,
+          4412.499964262523
+        ]
+      ],
+      "area": 1591406.2409254427,
+      "iscrowd": 0,
+      "text": "The Czechoslovak Republic was last week accorded recognition by the United States, and President Wilson cabled from Pragada Asking that due provision be made for ministers to that country, while trade relations were established by the U.S. War Board. Although most of the wealth in Czechoslovakia is German controlled, the country has been and is entirely Pro-ALLY. This interesting photo shows the troops of the Army National, taking the oath of allegiance and fidelity to the government, at Prague.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_182_072_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 6,
+        "monkeyocr_page_size": [
+          1018.5599975585938,
+          1205.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 411,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 11
+          },
+          "alpha_ratio": 0.9739,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9967
+        }
+      },
+      "source_annotation_id": 54185,
+      "source_file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_072__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_182/SHDGR__GR_2_K_247_182_072__0001.jpg"
+    }
+  ]
 }

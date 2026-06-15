@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_184",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,6 +931,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -776,6 +960,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -802,6 +989,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -828,6 +1018,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -854,6 +1047,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -880,6 +1076,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -906,6 +1105,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -932,6 +1134,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -958,6 +1163,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -984,6 +1192,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1010,6 +1221,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1036,6 +1250,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1062,6 +1279,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1088,6 +1308,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1114,6 +1337,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1140,6 +1366,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1166,6 +1395,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1192,6 +1424,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1218,6 +1453,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1244,6 +1482,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1270,6 +1511,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1296,6 +1540,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1322,6 +1569,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1348,6 +1598,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1374,6 +1627,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1400,6 +1656,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1426,6 +1685,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1452,6 +1714,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1478,6 +1743,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1504,6 +1772,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1530,6 +1801,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1556,6 +1830,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1582,6 +1859,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1608,6 +1888,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1634,6 +1917,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1660,6 +1946,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1686,6 +1975,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1712,6 +2004,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1738,6 +2033,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1764,6 +2062,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1790,6 +2091,9 @@
         "Type": "Géographique",
         "Cluster": 22,
         "ClusterLabel": "Paysages, Architecture",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1816,6 +2120,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1842,6 +2149,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1868,6 +2178,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1894,6 +2207,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1920,6 +2236,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1946,6 +2265,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1972,6 +2294,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -1998,6 +2323,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2024,6 +2352,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2050,6 +2381,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2076,6 +2410,9 @@
         "Type": "Géographique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2102,6 +2439,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2128,6 +2468,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2154,6 +2497,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2180,6 +2526,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2206,6 +2555,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2232,6 +2584,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2258,6 +2613,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2284,6 +2642,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2310,6 +2671,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2336,6 +2700,9 @@
         "Type": "Géographique",
         "Cluster": 18,
         "ClusterLabel": "PERSONNALITÉS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2362,6 +2729,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2388,6 +2758,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2414,6 +2787,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2440,6 +2816,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2466,6 +2845,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2492,6 +2874,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2518,6 +2903,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2544,6 +2932,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2570,6 +2961,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2596,6 +2990,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2622,6 +3019,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2648,6 +3048,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2674,6 +3077,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2700,6 +3106,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2726,6 +3135,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2752,6 +3164,9 @@
         "Type": "Géographique",
         "Cluster": 23,
         "ClusterLabel": "VIE QUOTIDIENNE",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2778,6 +3193,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2804,6 +3222,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2830,6 +3251,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2856,6 +3280,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2882,6 +3309,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2908,6 +3338,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2934,6 +3367,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2960,6 +3396,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -2986,6 +3425,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3012,6 +3454,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3038,6 +3483,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3064,6 +3512,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3090,6 +3541,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3116,6 +3570,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3142,6 +3599,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3168,6 +3628,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3194,6 +3657,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3220,6 +3686,9 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -3246,9 +3715,4303 @@
         "Type": "Géographique",
         "Cluster": 25,
         "ClusterLabel": "DIVERS",
+        "Pays / Région": "Tunisie",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_003_0002-verso-54236",
+      "image_id": 48245,
+      "category_id": 1013,
+      "bbox": [
+        695.8333428472887,
+        158.33333670760007,
+        1033.3333474618419,
+        100.00000213111583
+      ],
+      "segmentation": [
+        [
+          695.8333428472887,
+          158.33333670760007,
+          1729.1666903091304,
+          158.33333670760007,
+          1729.1666903091304,
+          258.3333388387159,
+          695.8333428472887,
+          258.3333388387159
+        ]
+      ],
+      "area": 103333.33694833725,
+      "iscrowd": 0,
+      "text": "CARTE POSTALE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          535.6799926757812,
+          343.67999267578125
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 54236,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_003_0002-verso-54237",
+      "image_id": 48245,
+      "category_id": 1012,
+      "bbox": [
+        387.50000529819073,
+        333.3333404370528,
+        770.833343872745,
+        58.33333457648423
+      ],
+      "segmentation": [
+        [
+          387.50000529819073,
+          333.3333404370528,
+          1158.3333491709357,
+          333.3333404370528,
+          1158.3333491709357,
+          391.66667501353703,
+          387.50000529819073,
+          391.66667501353703
+        ]
+      ],
+      "area": 44965.27935083896,
+      "iscrowd": 0,
+      "text": "Partie réserve à la correspondance.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          535.6799926757812,
+          343.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 30,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9677,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.921
+        }
+      },
+      "source_annotation_id": 54237,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_003_0002-verso-54238",
+      "image_id": 48245,
+      "category_id": 1012,
+      "bbox": [
+        1400.0000191418503,
+        333.3333404370528,
+        495.83334011273865,
+        54.16666782102108
+      ],
+      "segmentation": [
+        [
+          1400.0000191418503,
+          333.3333404370528,
+          1895.833359254589,
+          333.3333404370528,
+          1895.833359254589,
+          387.5000082580739,
+          1400.0000191418503,
+          387.5000082580739
+        ]
+      ],
+      "area": 26857.639828474083,
+      "iscrowd": 0,
+      "text": "Adresse du destinataire.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_003_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          535.6799926757812,
+          343.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9545,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9277
+        }
+      },
+      "source_annotation_id": 54238,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_003__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_003__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_005_0002-verso-54239",
+      "image_id": 48247,
+      "category_id": 1012,
+      "bbox": [
+        354.16667767309156,
+        266.66666854524954,
+        1137.500035350047,
+        141.6666676646638
+      ],
+      "segmentation": [
+        [
+          354.16667767309156,
+          266.66666854524954,
+          1491.6667130231385,
+          266.66666854524954,
+          1491.6667130231385,
+          408.33333620991334,
+          354.16667767309156,
+          408.33333620991334
+        ]
+      ],
+      "area": 161145.83947647843,
+      "iscrowd": 0,
+      "text": "Cathedral site Cartharge - Fagradle.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          471.3599853515625,
+          346.55999755859375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 30,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9375,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8922
+        }
+      },
+      "source_annotation_id": 54239,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_006_0002-verso-54240",
+      "image_id": 48248,
+      "category_id": 1012,
+      "bbox": [
+        262.5000034059797,
+        283.33333937149484,
+        1345.8333507957373,
+        191.66667075130536
+      ],
+      "segmentation": [
+        [
+          262.5000034059797,
+          283.33333937149484,
+          1608.333354201717,
+          283.33333937149484,
+          1608.333354201717,
+          475.0000101228002,
+          262.5000034059797,
+          475.0000101228002
+        ]
+      ],
+      "area": 257951.39773309263,
+      "iscrowd": 0,
+      "text": "(Cathédrale de Péis Blaine, de l'arthrage\n(églitè St.Louis).",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          470.3999938964844,
+          343.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.2222,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 46,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 7
+          },
+          "alpha_ratio": 0.8679,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9057
+        }
+      },
+      "source_annotation_id": 54240,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_007_0002-verso-54241",
+      "image_id": 48249,
+      "category_id": 1012,
+      "bbox": [
+        241.66666980233055,
+        254.1666621779219,
+        1395.8333514444953,
+        333.333327446455
+      ],
+      "segmentation": [
+        [
+          241.66666980233055,
+          254.1666621779219,
+          1637.5000212468258,
+          254.1666621779219,
+          1637.5000212468258,
+          587.4999896243769,
+          241.66666980233055,
+          587.4999896243769
+        ]
+      ],
+      "area": 465277.7755977306,
+      "iscrowd": 0,
+      "text": "Démolition par le arabes du marabout de Zarquona en vue de l'élargissement du opquet du laur de Biferte à laurer.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_007_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          470.3999938964844,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 92,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9787,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.964
+        }
+      },
+      "source_annotation_id": 54241,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_007__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_007__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_008_0002-verso-54242",
+      "image_id": 48250,
+      "category_id": 1012,
+      "bbox": [
+        275.00000356816923,
+        249.99999558484123,
+        1262.5000163811405,
+        216.66666284019573
+      ],
+      "segmentation": [
+        [
+          275.00000356816923,
+          249.99999558484123,
+          1537.5000199493097,
+          249.99999558484123,
+          1537.5000199493097,
+          466.666658425037,
+          275.00000356816923,
+          466.666658425037
+        ]
+      ],
+      "area": 273541.6653849942,
+      "iscrowd": 0,
+      "text": "Le marabout de Zoupouna (androit\ntout pè de Biferté, où je suis ne).",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_008_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          470.3999938964844,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 52,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.9286,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9161
+        }
+      },
+      "source_annotation_id": 54242,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_008__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_008__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_009_0002-verso-54243",
+      "image_id": 48251,
+      "category_id": 1012,
+      "bbox": [
+        349.9999954118762,
+        187.4999920305771,
+        1279.1666498981667,
+        104.1666622392095
+      ],
+      "segmentation": [
+        [
+          349.9999954118762,
+          187.4999920305771,
+          1629.166645310043,
+          187.4999920305771,
+          1629.166645310043,
+          291.6666542697866,
+          349.9999954118762,
+          291.6666542697866
+        ]
+      ],
+      "area": 133246.5203676035,
+      "iscrowd": 0,
+      "text": "Bizerte.Ville arable: Rue du Consulat.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          465.6000061035156,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 31,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9118,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9056
+        }
+      },
+      "source_annotation_id": 54243,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_010_0002-verso-54244",
+      "image_id": 48252,
+      "category_id": 1012,
+      "bbox": [
+        1083.333392688291,
+        1045.8332888816633,
+        775.0000424616236,
+        58.33333085395732
+      ],
+      "segmentation": [
+        [
+          1083.333392688291,
+          1045.8332888816633,
+          1858.3334351499147,
+          1045.8332888816633,
+          1858.3334351499147,
+          1104.1666197356205,
+          1083.333392688291,
+          1104.1666197356205
+        ]
+      ],
+      "area": 45208.33388874486,
+      "iscrowd": 0,
+      "text": "Partie reserve à la conversatione.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          534.719970703125,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9208
+        }
+      },
+      "source_annotation_id": 54244,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_011_0002-verso-54245",
+      "image_id": 48253,
+      "category_id": 1012,
+      "bbox": [
+        325.00000147329365,
+        1049.9999553712316,
+        495.83333558105056,
+        45.83333138525218
+      ],
+      "segmentation": [
+        [
+          325.00000147329365,
+          1049.9999553712316,
+          820.8333370543442,
+          1049.9999553712316,
+          820.8333370543442,
+          1095.8332867564839,
+          325.00000147329365,
+          1095.8332867564839
+        ]
+      ],
+      "area": 22725.69358154124,
+      "iscrowd": 0,
+      "text": "Adresse du destinateur.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          538.5599975585938,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9524,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9274
+        }
+      },
+      "source_annotation_id": 54245,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_011_0002-verso-54246",
+      "image_id": 48253,
+      "category_id": 1012,
+      "bbox": [
+        1062.5000048165368,
+        1045.8332888816633,
+        775.0000035132387,
+        54.166664364388936
+      ],
+      "segmentation": [
+        [
+          1062.5000048165368,
+          1045.8332888816633,
+          1837.5000083297755,
+          1045.8332888816633,
+          1837.5000083297755,
+          1099.9999532460522,
+          1062.5000048165368,
+          1099.9999532460522
+        ]
+      ],
+      "area": 41979.16507270184,
+      "iscrowd": 0,
+      "text": "Partic reserve à la conversatione.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          538.5599975585938,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 29,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9208
+        }
+      },
+      "source_annotation_id": 54246,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_011_0002-verso-54247",
+      "image_id": 48253,
+      "category_id": 1012,
+      "bbox": [
+        491.6666688954955,
+        1174.999950058283,
+        1033.3333380176516,
+        95.83332926007273
+      ],
+      "segmentation": [
+        [
+          491.6666688954955,
+          1174.999950058283,
+          1525.000006913147,
+          1174.999950058283,
+          1525.000006913147,
+          1270.8332793183558,
+          491.6666688954955,
+          1270.8332793183558
+        ]
+      ],
+      "area": 99027.77401765564,
+      "iscrowd": 0,
+      "text": "CARTE POSTALE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          538.5599975585938,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 54247,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_012_0002-verso-54248",
+      "image_id": 48254,
+      "category_id": 1012,
+      "bbox": [
+        495.83333558105056,
+        1179.1666294917597,
+        1033.3333380176516,
+        104.1666633826643
+      ],
+      "segmentation": [
+        [
+          495.83333558105056,
+          1179.1666294917597,
+          1529.1666735987021,
+          1179.1666294917597,
+          1529.1666735987021,
+          1283.333292874424,
+          495.83333558105056,
+          1283.333292874424
+        ]
+      ],
+      "area": 107638.88598336958,
+      "iscrowd": 0,
+      "text": "CARTE POSTALE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          538.5599975585938,
+          348.4800109863281
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 54248,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_013_0002-verso-54249",
+      "image_id": 48255,
+      "category_id": 1012,
+      "bbox": [
+        508.33334028364806,
+        1183.33328303742,
+        1120.8333486582076,
+        116.66666170791464
+      ],
+      "segmentation": [
+        [
+          508.33334028364806,
+          1183.33328303742,
+          1629.1666889418557,
+          1183.33328303742,
+          1629.1666889418557,
+          1299.9999447453347,
+          508.33334028364806,
+          1299.9999447453347
+        ]
+      ],
+      "area": 130763.88511885624,
+      "iscrowd": 0,
+      "text": "C.CARE POSTALE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_013_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          535.6799926757812,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.8571,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8821
+        }
+      },
+      "source_annotation_id": 54249,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_013__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_013__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_014_0002-verso-54250",
+      "image_id": 48256,
+      "category_id": 1012,
+      "bbox": [
+        1416.6666860363962,
+        325.00000692612645,
+        491.6666733891022,
+        54.16666782102108
+      ],
+      "segmentation": [
+        [
+          1416.6666860363962,
+          325.00000692612645,
+          1908.3333594254984,
+          325.00000692612645,
+          1908.3333594254984,
+          379.1666747471475,
+          1416.6666860363962,
+          379.1666747471475
+        ]
+      ],
+      "area": 26631.94537613396,
+      "iscrowd": 0,
+      "text": "'dresse du destinataire.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_014_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          535.6799926757812,
+          343.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9091,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.922
+        }
+      },
+      "source_annotation_id": 54250,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_014__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_014__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_017_0002-verso-54251",
+      "image_id": 48259,
+      "category_id": 1013,
+      "bbox": [
+        683.3333426763793,
+        137.4999945362411,
+        1033.3333474618419,
+        99.99999602635717
+      ],
+      "segmentation": [
+        [
+          683.3333426763793,
+          137.4999945362411,
+          1716.6666901382212,
+          137.4999945362411,
+          1716.6666901382212,
+          237.49999056259827,
+          683.3333426763793,
+          237.49999056259827
+        ]
+      ],
+      "area": 103333.33064008654,
+      "iscrowd": 0,
+      "text": "CARTE POSTALE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_017_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          535.6799926757812,
+          337.9200134277344
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 54251,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_017__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_017__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_017_0002-verso-54252",
+      "image_id": 48259,
+      "category_id": 1012,
+      "bbox": [
+        362.500004956372,
+        308.33332108126797,
+        787.5000107672909,
+        58.333331015375016
+      ],
+      "segmentation": [
+        [
+          362.500004956372,
+          308.33332108126797,
+          1150.0000157236627,
+          308.33332108126797,
+          1150.0000157236627,
+          366.66665209664296,
+          362.500004956372,
+          366.66665209664296
+        ]
+      ],
+      "area": 45937.49880269977,
+      "iscrowd": 0,
+      "text": "Partie réserve à la correspondance.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_017_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          535.6799926757812,
+          337.9200134277344
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 30,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9677,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.921
+        }
+      },
+      "source_annotation_id": 54252,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_017__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_017__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_017_0002-verso-54253",
+      "image_id": 48259,
+      "category_id": 1012,
+      "bbox": [
+        1391.6666856945774,
+        308.33332108126797,
+        487.5000066654658,
+        58.333331015375016
+      ],
+      "segmentation": [
+        [
+          1391.6666856945774,
+          308.33332108126797,
+          1879.1666923600433,
+          308.33332108126797,
+          1879.1666923600433,
+          366.66665209664296,
+          1391.6666856945774,
+          366.66665209664296
+        ]
+      ],
+      "area": 28437.499258814143,
+      "iscrowd": 0,
+      "text": "Adresse du destinataire",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_017_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          535.6799926757812,
+          337.9200134277344
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9333
+        }
+      },
+      "source_annotation_id": 54253,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_017__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_017__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_028_0002-verso-54259",
+      "image_id": 48270,
+      "category_id": 1012,
+      "bbox": [
+        333.33334966400935,
+        862.4999820698838,
+        1066.6667189248299,
+        333.3333264038198
+      ],
+      "segmentation": [
+        [
+          333.33334966400935,
+          862.4999820698838,
+          1400.0000685888392,
+          862.4999820698838,
+          1400.0000685888392,
+          1195.8333084737037,
+          333.33334966400935,
+          1195.8333084737037
+        ]
+      ],
+      "area": 355555.56558346184,
+      "iscrowd": 0,
+      "text": "THE GRAPHIC PHOTO UNION.\nLLIS ST., WHITEFRIARS, LONDON.\nTELEPHONE: 490, 491, Holborn.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_028_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          548.1599731445312,
+          352.32000732421875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.3,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 59,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 9
+          },
+          "alpha_ratio": 0.7973,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9047
+        }
+      },
+      "source_annotation_id": 54259,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_028__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_028__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_030_0002-verso-54260",
+      "image_id": 48272,
+      "category_id": 1012,
+      "bbox": [
+        370.83334204760604,
+        379.1666599703425,
+        712.5000167431532,
+        79.16666526853305
+      ],
+      "segmentation": [
+        [
+          370.83334204760604,
+          379.1666599703425,
+          1083.3333587907591,
+          379.1666599703425,
+          1083.3333587907591,
+          458.33332523887555,
+          370.83334204760604,
+          458.33332523887555
+        ]
+      ],
+      "area": 56406.25032932941,
+      "iscrowd": 0,
+      "text": "Chameany of Tumis.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_030_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          467.5199890136719,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 15,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9375,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9255
+        }
+      },
+      "source_annotation_id": 54260,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_030__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_030__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_031_0002-verso-54261",
+      "image_id": 48273,
+      "category_id": 1012,
+      "bbox": [
+        212.49999501666096,
+        250.00000532778958,
+        1508.3332979613974,
+        208.33333777315798
+      ],
+      "segmentation": [
+        [
+          212.49999501666096,
+          250.00000532778958,
+          1720.8332929780584,
+          250.00000532778958,
+          1720.8332929780584,
+          458.33334310094756,
+          212.49999501666096,
+          458.33334310094756
+        ]
+      ],
+      "area": 314236.11043869314,
+      "iscrowd": 0,
+      "text": "Tunis. Embarcadère du lair de la Opoulette\n(voir plus au boir) Côté de Morpullar-Rodér,",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_031_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          468.4800109863281,
+          343.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 69,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.9324,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9249
+        }
+      },
+      "source_annotation_id": 54261,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_031__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_031__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_034_0002-verso-54262",
+      "image_id": 48276,
+      "category_id": 1013,
+      "bbox": [
+        691.6666416275317,
+        141.66666416474337,
+        1029.1666294096406,
+        104.16666482701717
+      ],
+      "segmentation": [
+        [
+          691.6666416275317,
+          141.66666416474337,
+          1720.8332710371724,
+          141.66666416474337,
+          1720.8332710371724,
+          245.83332899176054,
+          691.6666416275317,
+          245.83332899176054
+        ]
+      ],
+      "area": 107204.85533686502,
+      "iscrowd": 0,
+      "text": "CARTE POSTALE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_034_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          539.52001953125,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 54262,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_034__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_034__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_034_0002-verso-54263",
+      "image_id": 48276,
+      "category_id": 1012,
+      "bbox": [
+        379.16665294039393,
+        316.6666610741322,
+        774.9999719441018,
+        58.333332303129616
+      ],
+      "segmentation": [
+        [
+          379.16665294039393,
+          316.6666610741322,
+          1154.1666248844958,
+          316.6666610741322,
+          1154.1666248844958,
+          374.99999337726183,
+          379.16665294039393,
+          374.99999337726183
+        ]
+      ],
+      "area": 45208.33089833142,
+      "iscrowd": 0,
+      "text": "Partie réserve à la correspondance.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_034_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          539.52001953125,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 30,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9677,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.921
+        }
+      },
+      "source_annotation_id": 54263,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_034__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_034__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_034_0002-verso-54264",
+      "image_id": 48276,
+      "category_id": 1012,
+      "bbox": [
+        1391.6666162867205,
+        308.3333278879708,
+        487.49998235193505,
+        62.49999889621031
+      ],
+      "segmentation": [
+        [
+          1391.6666162867205,
+          308.3333278879708,
+          1879.1665986386556,
+          308.3333278879708,
+          1879.1665986386556,
+          370.8333267841811,
+          1391.6666162867205,
+          370.8333267841811
+        ]
+      ],
+      "area": 30468.748358898483,
+      "iscrowd": 0,
+      "text": "Adresse du destinataire",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_034_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          539.52001953125,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9333
+        }
+      },
+      "source_annotation_id": 54264,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_034__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_034__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_035_0002-verso-54265",
+      "image_id": 48277,
+      "category_id": 1013,
+      "bbox": [
+        675.0000306538187,
+        150.00000474202713,
+        1045.8333808278303,
+        100.00000316135143
+      ],
+      "segmentation": [
+        [
+          675.0000306538187,
+          150.00000474202713,
+          1720.833411481649,
+          150.00000474202713,
+          1720.833411481649,
+          250.00000790337856,
+          675.0000306538187,
+          250.00000790337856
+        ]
+      ],
+      "area": 104583.34138902988,
+      "iscrowd": 0,
+      "text": "CARTE POSTALE.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          537.5999755859375,
+          347.5199890136719
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9231,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8904
+        }
+      },
+      "source_annotation_id": 54265,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_035_0002-verso-54266",
+      "image_id": 48277,
+      "category_id": 1012,
+      "bbox": [
+        375.00001702989925,
+        325.00001027439214,
+        779.166702051013,
+        58.333335177455
+      ],
+      "segmentation": [
+        [
+          375.00001702989925,
+          325.00001027439214,
+          1154.1667190809121,
+          325.00001027439214,
+          1154.1667190809121,
+          383.33334545184715,
+          375.00001702989925,
+          383.33334545184715
+        ]
+      ],
+      "area": 45451.39238985395,
+      "iscrowd": 0,
+      "text": "Partie réservee à la correspondance.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          537.5999755859375,
+          347.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 31,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9688,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9211
+        }
+      },
+      "source_annotation_id": 54266,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_035_0002-verso-54267",
+      "image_id": 48277,
+      "category_id": 1012,
+      "bbox": [
+        1391.6667298665152,
+        320.8333434760025,
+        487.50002213886904,
+        58.333335177455
+      ],
+      "segmentation": [
+        [
+          1391.6667298665152,
+          320.8333434760025,
+          1879.1667520053843,
+          320.8333434760025,
+          1879.1667520053843,
+          379.1666786534575,
+          1391.6667298665152,
+          379.1666786534575
+        ]
+      ],
+      "area": 28437.50219044338,
+      "iscrowd": 0,
+      "text": "Adresse du destinataire",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_035_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          537.5999755859375,
+          347.5199890136719
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.3333,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 21,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9333
+        }
+      },
+      "source_annotation_id": 54267,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_035__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_035__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_039_0002-verso-54269",
+      "image_id": 48281,
+      "category_id": 1012,
+      "bbox": [
+        291.66666514980227,
+        324.9999942602936,
+        1366.6666595590734,
+        124.99999779242061
+      ],
+      "segmentation": [
+        [
+          291.66666514980227,
+          324.9999942602936,
+          1658.3333247088758,
+          324.9999942602936,
+          1658.3333247088758,
+          449.9999920527142,
+          291.66666514980227,
+          449.9999920527142
+        ]
+      ],
+      "area": 170833.32942785905,
+      "iscrowd": 0,
+      "text": "Bingeté, Rue de Rome, Ogrande Morquée.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_039_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          469.44000244140625,
+          345.6000061035156
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 30,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.9091,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9053
+        }
+      },
+      "source_annotation_id": 54269,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_039__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_039__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_044_0002-verso-54273",
+      "image_id": 48286,
+      "category_id": 1013,
+      "bbox": [
+        700.0000031732478,
+        145.8333394132245,
+        816.6666703687891,
+        87.5000036479347
+      ],
+      "segmentation": [
+        [
+          700.0000031732478,
+          145.8333394132245,
+          1516.666673542037,
+          145.8333394132245,
+          1516.666673542037,
+          233.3333430611592,
+          700.0000031732478,
+          233.3333430611592
+        ]
+      ],
+      "area": 71458.33663641574,
+      "iscrowd": 0,
+      "text": "CARTE POSTALE",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_044_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          538.5599975585938,
+          351.3599853515625
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 12,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54273,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_044__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_044__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_044_0002-verso-54274",
+      "image_id": 48286,
+      "category_id": 1012,
+      "bbox": [
+        354.166668272179,
+        262.5000109438041,
+        1512.500006856482,
+        125.00000521133529
+      ],
+      "segmentation": [
+        [
+          354.166668272179,
+          262.5000109438041,
+          1866.6666751286612,
+          262.5000109438041,
+          1866.6666751286612,
+          387.5000161551394,
+          354.166668272179,
+          387.5000161551394
+        ]
+      ],
+      "area": 189062.50873920493,
+      "iscrowd": 0,
+      "text": "Tous les pays étrangers n'acceptent pas la correspondance au recto\n(Se renseigner à la poste)",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_044_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          538.5599975585938,
+          351.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 76,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.962,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9203
+        }
+      },
+      "source_annotation_id": 54274,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_044__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_044__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_044_0002-verso-54275",
+      "image_id": 48286,
+      "category_id": 1012,
+      "bbox": [
+        500.00000226660563,
+        445.8333519204292,
+        304.1666680455184,
+        33.333334723022745
+      ],
+      "segmentation": [
+        [
+          500.00000226660563,
+          445.8333519204292,
+          804.1666703121241,
+          445.8333519204292,
+          804.1666703121241,
+          479.16668664345195,
+          500.00000226660563,
+          479.16668664345195
+        ]
+      ],
+      "area": 10138.88935754781,
+      "iscrowd": 0,
+      "text": "Correspondanec",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_044_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          538.5599975585938,
+          351.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 14,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54275,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_044__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_044__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_044_0002-verso-54276",
+      "image_id": 48286,
+      "category_id": 1012,
+      "bbox": [
+        1487.5000067431517,
+        450.00001876080705,
+        150.00000067998167,
+        33.333334723022745
+      ],
+      "segmentation": [
+        [
+          1487.5000067431517,
+          450.00001876080705,
+          1637.5000074231334,
+          450.00001876080705,
+          1637.5000074231334,
+          483.3333534838298,
+          1487.5000067431517,
+          483.3333534838298
+        ]
+      ],
+      "area": 5000.0002311194685,
+      "iscrowd": 0,
+      "text": "Adresse",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_044_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          538.5599975585938,
+          351.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 7,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54276,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_044__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_044__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_044_0002-verso-54277",
+      "image_id": 48286,
+      "category_id": 1012,
+      "bbox": [
+        1162.500005269858,
+        541.6666892491196,
+        116.66666719554131,
+        79.16666996717902
+      ],
+      "segmentation": [
+        [
+          1162.500005269858,
+          541.6666892491196,
+          1279.1666724653994,
+          541.6666892491196,
+          1279.1666724653994,
+          620.8333592162986,
+          1162.500005269858,
+          620.8333592162986
+        ]
+      ],
+      "area": 9236.11153804013,
+      "iscrowd": 0,
+      "text": "M",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_044_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          538.5599975585938,
+          351.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 1,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54277,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_044__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_044__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_045_0002-verso-54278",
+      "image_id": 48287,
+      "category_id": 1012,
+      "bbox": [
+        579.166687595932,
+        45.833334383425196,
+        1270.833379257261,
+        95.83333552897996
+      ],
+      "segmentation": [
+        [
+          579.166687595932,
+          45.833334383425196,
+          1850.000066853193,
+          45.833334383425196,
+          1850.000066853193,
+          141.66666991240515,
+          579.166687595932,
+          141.66666991240515
+        ]
+      ],
+      "area": 121788.20163578853,
+      "iscrowd": 0,
+      "text": "muffison, à l'aveni-barka",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_045_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          540.47998046875,
+          319.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 3
+          },
+          "alpha_ratio": 0.8696,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8837
+        }
+      },
+      "source_annotation_id": 54278,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_045__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_045__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_059_0002-verso-54279",
+      "image_id": 48301,
+      "category_id": 1012,
+      "bbox": [
+        1258.3333695858357,
+        954.1666733884709,
+        954.166694156147,
+        158.3333344487419
+      ],
+      "segmentation": [
+        [
+          1258.3333695858357,
+          954.1666733884709,
+          2212.5000637419826,
+          954.1666733884709,
+          2212.5000637419826,
+          1112.500007837213,
+          1258.3333695858357,
+          1112.500007837213
+        ]
+      ],
+      "area": 151076.39430567564,
+      "iscrowd": 0,
+      "text": "Reproduction interdite.\nToute contrefaçon sera rigoureusement poursuivie",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_059_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          932.1599731445312,
+          693.1199951171875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 65,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9848,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8981
+        }
+      },
+      "source_annotation_id": 54279,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_059__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_059__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_060_0002-verso-54284",
+      "image_id": 48302,
+      "category_id": 1012,
+      "bbox": [
+        1883.3333630821805,
+        1900.0000000000002,
+        1158.3333516301907,
+        295.83333333333337
+      ],
+      "segmentation": [
+        [
+          1883.3333630821805,
+          1900.0000000000002,
+          3041.6667147123712,
+          1900.0000000000002,
+          3041.6667147123712,
+          2195.8333333333335,
+          1883.3333630821805,
+          2195.8333333333335
+        ]
+      ],
+      "area": 342673.61652393144,
+      "iscrowd": 0,
+      "text": "20.5 x / 2 dith",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_060_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 11,
+        "monkeyocr_page_size": [
+          927.3599853515625,
+          696.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 5,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 2
+          },
+          "alpha_ratio": 0.4545,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8318
+        }
+      },
+      "source_annotation_id": 54284,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_060__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_060__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_062_0002-verso-54285",
+      "image_id": 48304,
+      "category_id": 1014,
+      "bbox": [
+        870.8333608634354,
+        445.83334087771516,
+        1662.5000525574674,
+        179.16666969852105
+      ],
+      "segmentation": [
+        [
+          870.8333608634354,
+          445.83334087771516,
+          2533.3334134209026,
+          445.83334087771516,
+          2533.3334134209026,
+          625.0000105762363,
+          870.8333608634354,
+          625.0000105762363
+        ]
+      ],
+      "area": 297864.59779033763,
+      "iscrowd": 0,
+      "text": "A rabas learning in cantees at G houmrasen",
+      "orientation": "",
+      "text_type": "monkeyocr_interline_equation",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_062_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          695.0399780273438,
+          504.9599914550781
+        ],
+        "monkeyocr_raw_type": "interline_equation",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 35,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9167
+        }
+      },
+      "source_annotation_id": 54285,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_062__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 14,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_062__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_066_0002-verso-54290",
+      "image_id": 48308,
+      "category_id": 1012,
+      "bbox": [
+        1329.1666423483532,
+        1712.5000713952936,
+        954.1666492093194,
+        50.00000208453412
+      ],
+      "segmentation": [
+        [
+          1329.1666423483532,
+          1712.5000713952936,
+          2283.3332915576725,
+          1712.5000713952936,
+          2283.3332915576725,
+          1762.5000734798277,
+          1329.1666423483532,
+          1762.5000734798277
+        ]
+      ],
+      "area": 47708.334449458904,
+      "iscrowd": 0,
+      "text": "= Lehnert & Landrock, phot. Tunis. =",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_066_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 4,
+        "monkeyocr_page_size": [
+          934.0800170898438,
+          702.719970703125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 24,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.8,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.875
+        }
+      },
+      "source_annotation_id": 54290,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_066__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_066__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_069_0002-verso-54291",
+      "image_id": 48311,
+      "category_id": 1012,
+      "bbox": [
+        654.1666804870771,
+        2016.6666170117026,
+        2437.5000514964336,
+        220.83332789590958
+      ],
+      "segmentation": [
+        [
+          654.1666804870771,
+          2016.6666170117026,
+          3091.6667319835105,
+          2016.6666170117026,
+          3091.6667319835105,
+          2237.499944907612,
+          654.1666804870771,
+          2237.499944907612
+        ]
+      ],
+      "area": 538281.2481184084,
+      "iscrowd": 0,
+      "text": "The 1925 Franco American Expedition exploring the ruins of Carthage under the leadership of Count Byron Kuhn de Prorok. A view of the entire excavations taken from the air.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_069_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          924.47998046875,
+          694.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.75,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 138,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 2
+          },
+          "alpha_ratio": 0.9583,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9698
+        }
+      },
+      "source_annotation_id": 54291,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_069__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_069__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_070_0002-verso-54292",
+      "image_id": 48312,
+      "category_id": 1012,
+      "bbox": [
+        620.8333257335221,
+        125.00000118029001,
+        2220.8333061474314,
+        575.000005429334
+      ],
+      "segmentation": [
+        [
+          620.8333257335221,
+          125.00000118029001,
+          2841.6666318809534,
+          125.00000118029001,
+          2841.6666318809534,
+          700.000006609624,
+          620.8333257335221,
+          700.000006609624
+        ]
+      ],
+      "area": 1276979.1630924188,
+      "iscrowd": 0,
+      "text": "COUNT BYPON DE PRONOK, NO HAS RETURNED TO THE U.S. WITH THIS STRANGE CARTRAGIAN FIND, AND UEN WHICH IS OVER 3000 YEARS OLD, DATING BACK TO EARLY PROMICIA. HE HAS RETURNED WITH MANY STRANGE THINGS, CHIEF OF WHICH ARE CLAY PIPES, MIRRORS OF BRONZER, AND POWDER BOXES AND LIP STICKS, SHOWING THAT THE FOLK OF THAT TIME WERE NOT SO FAR BEHIND HE PRESENT DAY.\n(c)Keystone View Co.) KK 5 Exclusive",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_070_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          797.760009765625,
+          775.6799926757812
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 301,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 15
+          },
+          "alpha_ratio": 0.9377,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9839
+        }
+      },
+      "source_annotation_id": 54292,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_070__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_070__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_072_0002-verso-54294",
+      "image_id": 48314,
+      "category_id": 1012,
+      "bbox": [
+        812.4999978565411,
+        504.16665425292564,
+        2591.6666598295824,
+        458.3333220481142
+      ],
+      "segmentation": [
+        [
+          812.4999978565411,
+          504.16665425292564,
+          3404.1666576861235,
+          504.16665425292564,
+          3404.1666576861235,
+          962.4999763010399,
+          812.4999978565411,
+          962.4999763010399
+        ]
+      ],
+      "area": 1187847.1898410325,
+      "iscrowd": 0,
+      "text": "3/26/23 The 1923 Franco American Expedition excavating the ruins of ancient Carthage under the direction of Count Byron Kuhn de Prorok. Feminine assistance in the discovery of a great mosaic floor of the time of Hannibal. Princess Cystria and Mrs. Singer landing their aid whilst the American Flag flies from the top of the excavation.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_072_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          925.4400024414062,
+          694.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 266,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 9,
+            "other": 6
+          },
+          "alpha_ratio": 0.9466,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9933
+        }
+      },
+      "source_annotation_id": 54294,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_072__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_072__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_072_0002-verso-54295",
+      "image_id": 48314,
+      "category_id": 1012,
+      "bbox": [
+        1970.8333281340715,
+        991.6666422495563,
+        899.9999976257071,
+        83.33333128147531
+      ],
+      "segmentation": [
+        [
+          1970.8333281340715,
+          991.6666422495563,
+          2870.8333257597787,
+          991.6666422495563,
+          2870.8333257597787,
+          1074.9999735310316,
+          1970.8333281340715,
+          1074.9999735310316
+        ]
+      ],
+      "area": 74999.99795547004,
+      "iscrowd": 0,
+      "text": "Times Wide World Photos",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_072_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          925.4400024414062,
+          694.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54295,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_072__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_072__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_073_0002-verso-54297",
+      "image_id": 48315,
+      "category_id": 1012,
+      "bbox": [
+        691.6666812793299,
+        724.9999821488352,
+        2562.5000541372765,
+        537.4999867655158
+      ],
+      "segmentation": [
+        [
+          691.6666812793299,
+          724.9999821488352,
+          3254.1667354166066,
+          724.9999821488352,
+          3254.1667354166066,
+          1262.499968914351,
+          691.6666812793299,
+          1262.499968914351
+        ]
+      ],
+      "area": 1377343.7451854197,
+      "iscrowd": 0,
+      "text": "3/26/23 The 1925 Franco American Expedition excavating the ruins of ancient Carthage under the direction of COUNT Byron Kuhn de Prorok. Discovery of the body of a Vandal Warrior, the skull marked x. In these ruins where the Vandals fought and captured Carthage hundreds of ancient weapons were found.\n\nTimes Wide World Photos",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_073_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          924.47998046875,
+          694.0800170898438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 257,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 9,
+            "other": 6
+          },
+          "alpha_ratio": 0.9449,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9931
+        }
+      },
+      "source_annotation_id": 54297,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_073__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_073__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_074_0002-verso-54298",
+      "image_id": 48316,
+      "category_id": 1013,
+      "bbox": [
+        604.1666840726695,
+        533.3333333333334,
+        295.8333418562726,
+        91.66666666666667
+      ],
+      "segmentation": [
+        [
+          604.1666840726695,
+          533.3333333333334,
+          900.000025928942,
+          533.3333333333334,
+          900.000025928942,
+          625.0,
+          604.1666840726695,
+          625.0
+        ]
+      ],
+      "area": 27118.056336824993,
+      "iscrowd": 0,
+      "text": "3/26/23",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_074_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          932.1599731445312,
+          696.0
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "other",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 2
+          },
+          "alpha_ratio": 0.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.775
+        }
+      },
+      "source_annotation_id": 54298,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_074__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_074__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_074_0002-verso-54299",
+      "image_id": 48316,
+      "category_id": 1012,
+      "bbox": [
+        600.0000172859613,
+        595.8333333333334,
+        2562.50007382546,
+        483.33333333333337
+      ],
+      "segmentation": [
+        [
+          600.0000172859613,
+          595.8333333333334,
+          3162.500091111421,
+          595.8333333333334,
+          3162.500091111421,
+          1079.1666666666667,
+          600.0000172859613,
+          1079.1666666666667
+        ]
+      ],
+      "area": 1238541.7023489724,
+      "iscrowd": 0,
+      "text": "The 1923 Franco American Expedition excavating the ruins of ancient Carthage under the direction of Count Byron Kuhn de Prorok. Entrance to Temple of Neptune where a craving took place during the search for the treasure of Hamilcar which is thought to be 80 yards into this hillside. Photo shows Prince Cystria, Count de Prorok and Fred Singer, Attached of the American Embassy in Paris.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_074_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          932.1599731445312,
+          696.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 312,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 6,
+            "other": 5
+          },
+          "alpha_ratio": 0.9659,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9957
+        }
+      },
+      "source_annotation_id": 54299,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_074__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_074__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_074_0002-verso-54300",
+      "image_id": 48316,
+      "category_id": 1012,
+      "bbox": [
+        1670.833381469934,
+        1125.0,
+        916.6666930757743,
+        75.0
+      ],
+      "segmentation": [
+        [
+          1670.833381469934,
+          1125.0,
+          2587.5000745457082,
+          1125.0,
+          2587.5000745457082,
+          1200.0,
+          1670.833381469934,
+          1200.0
+        ]
+      ],
+      "area": 68750.00198068307,
+      "iscrowd": 0,
+      "text": "Times Wide World Photos",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_074_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          932.1599731445312,
+          696.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54300,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_074__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_074__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_075_0002-verso-54302",
+      "image_id": 48317,
+      "category_id": 1012,
+      "bbox": [
+        616.6666504152222,
+        675.0000023323556,
+        2591.666598366677,
+        545.833335219374
+      ],
+      "segmentation": [
+        [
+          616.6666504152222,
+          675.0000023323556,
+          3208.3332487818993,
+          675.0000023323556,
+          3208.3332487818993,
+          1220.8333375517295,
+          616.6666504152222,
+          1220.8333375517295
+        ]
+      ],
+      "area": 1414618.0231631333,
+      "iscrowd": 0,
+      "text": "3/26/23 The 1923 Franco American Expedition excavating the ruins of ancient Carthage under the direction of Count Byron Kuhn de Prorok. Entrance to Temple of Neptune where a caving took place during the search for the treasure of Hamilton which is thought to be 80 yards into this hillside. Photo shows Prince Cystria, Count de Prorok and Fred Singer, Attached of the American Embassy in Paris.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_075_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          926.4000244140625,
+          706.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 311,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 11,
+            "other": 7
+          },
+          "alpha_ratio": 0.9453,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9932
+        }
+      },
+      "source_annotation_id": 54302,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_075__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_075__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_075_0002-verso-54303",
+      "image_id": 48317,
+      "category_id": 1012,
+      "bbox": [
+        1691.6666220850013,
+        1233.3333375949214,
+        933.3333087365525,
+        87.5000003023424
+      ],
+      "segmentation": [
+        [
+          1691.6666220850013,
+          1233.3333375949214,
+          2624.999930821554,
+          1233.3333375949214,
+          2624.999930821554,
+          1320.8333378972638,
+          1691.6666220850013,
+          1320.8333378972638
+        ]
+      ],
+      "area": 81666.66479663458,
+      "iscrowd": 0,
+      "text": "Times Wide World Photos",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_075_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          926.4000244140625,
+          706.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54303,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_075__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_075__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_076_0002-verso-54305",
+      "image_id": 48318,
+      "category_id": 1012,
+      "bbox": [
+        579.1666651387652,
+        762.5000241053046,
+        2541.6666599614878,
+        820.8333592827596
+      ],
+      "segmentation": [
+        [
+          579.1666651387652,
+          762.5000241053046,
+          3120.833325100253,
+          762.5000241053046,
+          3120.833325100253,
+          1583.3333833880642,
+          579.1666651387652,
+          1583.3333833880642
+        ]
+      ],
+      "area": 2086284.7826731794,
+      "iscrowd": 0,
+      "text": "3/26/23 The 1923 Franco American Expedition excavating the ruins of ancient Carthage under the direction of Count Byron Kuhn de Prorok. The Valley of Spirits, the row of tombs of ancient Carthagenian Kings discovered by the 1923 Franco American Carthagenian Kings discovered by the 1923 Franco American Expedition under Count de Prorok and Father Dellette. Left to Expedition under Count de Cadillas, Prince Cystria, Countess de right: Professor de Cadillas, Prince Cystria, Countess de right: Professor de Cadillas, Prince Cystria, Countess de right: Prince Singer, Attached to the United States Embassy in Prorok, Fed Singer, Attached to the United States Embassy in Paris, Count de Prorok and Prince de Waldeck.\n\nParis, Count de Prorok and Prince de Waldeck.\n\nTimes Wide World Photos",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_076_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          925.4400024414062,
+          695.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 625,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 17,
+            "other": 21
+          },
+          "alpha_ratio": 0.9427,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9928
+        }
+      },
+      "source_annotation_id": 54305,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_076__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_076__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_078_0002-verso-54306",
+      "image_id": 48320,
+      "category_id": 1012,
+      "bbox": [
+        654.1666494269587,
+        437.4999922734721,
+        2616.6665977078346,
+        499.99999116968246
+      ],
+      "segmentation": [
+        [
+          654.1666494269587,
+          437.4999922734721,
+          3270.833247134793,
+          437.4999922734721,
+          3270.833247134793,
+          937.4999834431546,
+          654.1666494269587,
+          937.4999834431546
+        ]
+      ],
+      "area": 1308333.2757479204,
+      "iscrowd": 0,
+      "text": "3/26/25 The 1923 Franco American Expedition excavating the ruins of ancient Carthage under the direction of Court Byron Kuhn de Prorok. Feminine assistance in the discovery of a great mosaic floor of the time of Hannibal. Princess Cystria and Mrs. Singor landing their aid whilst the American Flag flies from the top of the excavation.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_078_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          926.4000244140625,
+          691.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 266,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 9,
+            "other": 6
+          },
+          "alpha_ratio": 0.9466,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9933
+        }
+      },
+      "source_annotation_id": 54306,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_078__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_078__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_078_0002-verso-54307",
+      "image_id": 48320,
+      "category_id": 1012,
+      "bbox": [
+        1804.1666191202107,
+        916.6666504777511,
+        929.1666421796929,
+        99.99999823393648
+      ],
+      "segmentation": [
+        [
+          1804.1666191202107,
+          916.6666504777511,
+          2733.333261299904,
+          916.6666504777511,
+          2733.333261299904,
+          1016.6666487116876,
+          1804.1666191202107,
+          1016.6666487116876
+        ]
+      ],
+      "area": 92916.66257700197,
+      "iscrowd": 0,
+      "text": "Times Wide World Photos",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_078_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          926.4000244140625,
+          691.2000122070312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 20,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54307,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_078__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_078__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_079_0002-verso-54309",
+      "image_id": 48321,
+      "category_id": 1012,
+      "bbox": [
+        587.4999814782266,
+        837.4999941487016,
+        2424.9999235484247,
+        595.8333291704693
+      ],
+      "segmentation": [
+        [
+          587.4999814782266,
+          837.4999941487016,
+          3012.4999050266515,
+          837.4999941487016,
+          3012.4999050266515,
+          1433.3333233191709,
+          587.4999814782266,
+          1433.3333233191709
+        ]
+      ],
+      "area": 1444895.7776859913,
+      "iscrowd": 0,
+      "text": "The 1923 French American Expedition excavating the ruins of ancient Carthage under the direction of Count Byron Kuhn de Prorok. Photo shows huge mounds of earth accumulated from the excavation being carried to the sea, the feminine members of the party serving the earth for previous stones, emulets, rings, and other evidences of seven civilizations.\n\nTimes Wide World Photos",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_079_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          929.280029296875,
+          698.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 307,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 6
+          },
+          "alpha_ratio": 0.9685,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9961
+        }
+      },
+      "source_annotation_id": 54309,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_079__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_079__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_082_0001-recto-54310",
+      "image_id": 48324,
+      "category_id": 1012,
+      "bbox": [
+        779.166702051013,
+        37.50000079916844,
+        1429.166731569505,
+        1366.6666957919165
+      ],
+      "segmentation": [
+        [
+          779.166702051013,
+          37.50000079916844,
+          2208.333433620518,
+          37.50000079916844,
+          2208.333433620518,
+          1404.166696591085,
+          779.166702051013,
+          1404.166696591085
+        ]
+      ],
+      "area": 1953194.5747698282,
+      "iscrowd": 0,
+      "text": "Machie Jeanne, Meris de tels bien, le t'offre à mon tour les mites et t'oulénie, la satisfactorie de tourte décès, se borcheur, et laantes. Je desais bien contents d'avoir longuement de tels nouvelles, restree à mares de泼, rée soit, je ne suis plus en courant de rén. Sapas a été tés souffants et nues a attégérinquéré fermente, reconnue il va mieux. Quand paste-voir vous four le Vieux? Téz vous à Sonillée ?, du uvril, ma chier amie, je mullis une gamme et t'oulénie, un ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de ban de",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_184_082_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          537.5999755859375,
+          343.67999267578125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10185,
+            "cjk": 1,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 23
+          },
+          "alpha_ratio": 0.9977,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9997
+        }
+      },
+      "source_annotation_id": 54310,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_082__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_082__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_104_0002-verso-54320",
+      "image_id": 48346,
+      "category_id": 1012,
+      "bbox": [
+        475.0000049865325,
+        683.3333333333334,
+        3100.000032543686,
+        525.0
+      ],
+      "segmentation": [
+        [
+          475.0000049865325,
+          683.3333333333334,
+          3575.0000375302184,
+          683.3333333333334,
+          3575.0000375302184,
+          1208.3333333333335,
+          475.0000049865325,
+          1208.3333333333335
+        ]
+      ],
+      "area": 1627500.017085435,
+      "iscrowd": 0,
+      "text": "OUT IN THE DESERT.\n\nFor the benefit of tourists, specially sleeping camps are now being installed on the campus out in the Oasis. Arabs are supplying the blankets and digging some serb of a hole, which they use as a bedroom.\n\nO.P.S. Here is an Arabian family from Biskra preparing a room in their duty-out XNXXXXXXXXX.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_104_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          930.239990234375,
+          744.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 251,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 10
+          },
+          "alpha_ratio": 0.9617,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9952
+        }
+      },
+      "source_annotation_id": 54320,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_104__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_104__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_105_0002-verso-54321",
+      "image_id": 48347,
+      "category_id": 1012,
+      "bbox": [
+        433.33334351630367,
+        641.6666899484703,
+        720.8333502723128,
+        91.66666999263862
+      ],
+      "segmentation": [
+        [
+          433.33334351630367,
+          641.6666899484703,
+          1154.1666937886166,
+          641.6666899484703,
+          1154.1666937886166,
+          733.3333599411089,
+          433.33334351630367,
+          733.3333599411089
+        ]
+      ],
+      "area": 66076.39283910018,
+      "iscrowd": 0,
+      "text": "OUT IN THE DEERT.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_105_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          935.0399780273438,
+          740.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 13,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9286,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9411
+        }
+      },
+      "source_annotation_id": 54321,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_105__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_105__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_105_0002-verso-54322",
+      "image_id": 48347,
+      "category_id": 1012,
+      "bbox": [
+        429.16667675172386,
+        683.3333581269424,
+        3091.666739318244,
+        479.1666840524291
+      ],
+      "segmentation": [
+        [
+          429.16667675172386,
+          683.3333581269424,
+          3520.833416069968,
+          683.3333581269424,
+          3520.833416069968,
+          1162.5000421793716,
+          429.16667675172386,
+          1162.5000421793716
+        ]
+      ],
+      "area": 1481423.6996743085,
+      "iscrowd": 0,
+      "text": "Our in the business.\n\nFor the benefit of tourists, specially sleeping camps are now being installed in the Oasis. Arabians are supplying the blankets and digging some sort of a hole, which they use as a bedroom.\n\nO.P.S. Here is an Arabian family from Biskra preparing a room in their duty-out.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_105_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          935.0399780273438,
+          740.1599731445312
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.9167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 231,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 10
+          },
+          "alpha_ratio": 0.9585,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9865
+        }
+      },
+      "source_annotation_id": 54322,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_105__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_105__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_108_0002-verso-54324",
+      "image_id": 48350,
+      "category_id": 1012,
+      "bbox": [
+        262.5000034059797,
+        308.33332452285924,
+        1250.000016218951,
+        283.333325237222
+      ],
+      "segmentation": [
+        [
+          262.5000034059797,
+          308.33332452285924,
+          1512.5000196249307,
+          308.33332452285924,
+          1512.5000196249307,
+          591.6666497600813,
+          262.5000034059797,
+          591.6666497600813
+        ]
+      ],
+      "area": 354166.66114189685,
+      "iscrowd": 0,
+      "text": "Morelounds de gâteaux ou l'unité couplage du joint traux bordem de Bizerté (opui n'écente plus).",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_108_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          470.3999938964844,
+          341.760009765625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.25,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 77,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 5
+          },
+          "alpha_ratio": 0.939,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9174
+        }
+      },
+      "source_annotation_id": 54324,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_108__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_108__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_110_0002-verso-54325",
+      "image_id": 48352,
+      "category_id": 1012,
+      "bbox": [
+        199.99999369471544,
+        274.99998831151305,
+        1524.9999519222054,
+        199.99999149928223
+      ],
+      "segmentation": [
+        [
+          199.99999369471544,
+          274.99998831151305,
+          1724.9999456169207,
+          274.99998831151305,
+          1724.9999456169207,
+          474.99997981079525,
+          199.99999369471544,
+          474.99997981079525
+        ]
+      ],
+      "area": 304999.9774208469,
+      "iscrowd": 0,
+      "text": "Ma riche Orabile: Mohammed Ben Kirchine, er ses films en habitos de fette. (où Biferte).",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_110_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          464.6400146484375,
+          344.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "fr",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 68,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 6
+          },
+          "alpha_ratio": 0.9189,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8982
+        }
+      },
+      "source_annotation_id": 54325,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_110__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_110__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_115_0002-verso-54326",
+      "image_id": 48357,
+      "category_id": 1012,
+      "bbox": [
+        541.6666574215019,
+        695.8333134502363,
+        1183.3333131362042,
+        74.9999978569117
+      ],
+      "segmentation": [
+        [
+          541.6666574215019,
+          695.8333134502363,
+          1724.999970557706,
+          695.8333134502363,
+          1724.999970557706,
+          770.833311307148,
+          541.6666574215019,
+          770.833311307148
+        ]
+      ],
+      "area": 88749.99594922754,
+      "iscrowd": 0,
+      "text": "Common scenes of North Africa.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_115_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          715.2000122070312,
+          512.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.2,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 25,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9615,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9152
+        }
+      },
+      "source_annotation_id": 54326,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_115__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_115__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_115_0002-verso-54327",
+      "image_id": 48357,
+      "category_id": 1012,
+      "bbox": [
+        537.499990825952,
+        833.3333095212412,
+        2104.1666307527576,
+        154.16666226142962
+      ],
+      "segmentation": [
+        [
+          537.499990825952,
+          833.3333095212412,
+          2641.6666215787095,
+          833.3333095212412,
+          2641.6666215787095,
+          987.4999717826709,
+          537.499990825952,
+          987.4999717826709
+        ]
+      ],
+      "area": 324392.3463050307,
+      "iscrowd": 0,
+      "text": "Three Jewish women in their characteristic dress at a walk through the streets of the old city of Tunis.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_115_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          715.2000122070312,
+          512.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 85,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9884,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9402
+        }
+      },
+      "source_annotation_id": 54327,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_115__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_115__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_115_0002-verso-54328",
+      "image_id": 48357,
+      "category_id": 1012,
+      "bbox": [
+        162.49999722645057,
+        1362.4999610672294,
+        1195.8333129228542,
+        62.49999821409309
+      ],
+      "segmentation": [
+        [
+          162.49999722645057,
+          1362.4999610672294,
+          1358.333310149305,
+          1362.4999610672294,
+          1358.333310149305,
+          1424.9999592813224,
+          162.49999722645057,
+          1424.9999592813224
+        ]
+      ],
+      "area": 74739.57992203141,
+      "iscrowd": 0,
+      "text": "Alltägliches aus Nordafrika",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_115_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          715.2000122070312,
+          512.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 25,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54328,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_115__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_115__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_115_0002-verso-54329",
+      "image_id": 48357,
+      "category_id": 1012,
+      "bbox": [
+        149.99999743980052,
+        1487.4999574954154,
+        2687.4999541297598,
+        149.9999957138234
+      ],
+      "segmentation": [
+        [
+          149.99999743980052,
+          1487.4999574954154,
+          2837.4999515695604,
+          1487.4999574954154,
+          2837.4999515695604,
+          1637.4999532092388,
+          149.99999743980052,
+          1637.4999532092388
+        ]
+      ],
+      "area": 403124.98160036455,
+      "iscrowd": 0,
+      "text": "U.B.z. Drei jüdische Frauen xxx in ihrer charakteristischen Kleidung beim Spaziergange durch die Strassen der alten Stadt Tunis.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_184_115_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          715.2000122070312,
+          512.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.0833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 107,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 4
+          },
+          "alpha_ratio": 0.964,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9038
+        }
+      },
+      "source_annotation_id": 54329,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_115__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_115__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_123_0001-recto-54331",
+      "image_id": 48365,
+      "category_id": 1012,
+      "bbox": [
+        1058.3333220719073,
+        187.50000709051562,
+        279.166663696133,
+        62.50000236350521
+      ],
+      "segmentation": [
+        [
+          1058.3333220719073,
+          187.50000709051562,
+          1337.4999857680405,
+          187.50000709051562,
+          1337.4999857680405,
+          250.00000945402084,
+          1058.3333220719073,
+          250.00000945402084
+        ]
+      ],
+      "area": 17447.917140820176,
+      "iscrowd": 0,
+      "text": "Tizerovane",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_184_123_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          688.3200073242188,
+          516.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 10,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54331,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_123__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_123__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_123_0001-recto-54332",
+      "image_id": 48365,
+      "category_id": 1012,
+      "bbox": [
+        1483.3333175496025,
+        179.16667344204828,
+        291.6666635631241,
+        83.33333648467361
+      ],
+      "segmentation": [
+        [
+          1483.3333175496025,
+          179.16667344204828,
+          1774.9999811127266,
+          179.16667344204828,
+          1774.9999811127266,
+          262.5000099267219,
+          1483.3333175496025,
+          262.5000099267219
+        ]
+      ],
+      "area": 24305.55621606791,
+      "iscrowd": 0,
+      "text": "Bob el Fedj",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_184_123_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          688.3200073242188,
+          516.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 9,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9
+        }
+      },
+      "source_annotation_id": 54332,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_123__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_123__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_184_123_0001-recto-54333",
+      "image_id": 48365,
+      "category_id": 1012,
+      "bbox": [
+        2408.3333077069387,
+        170.8333397935809,
+        249.99999733982062,
+        79.16666966043994
+      ],
+      "segmentation": [
+        [
+          2408.3333077069387,
+          170.8333397935809,
+          2658.3333050467595,
+          170.8333397935809,
+          2658.3333050467595,
+          250.00000945402084,
+          2408.3333077069387,
+          250.00000945402084
+        ]
+      ],
+      "area": 19791.667204512443,
+      "iscrowd": 0,
+      "text": "Dj. Kheil",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_184_123_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 2,
+        "monkeyocr_page_size": [
+          688.3200073242188,
+          516.47998046875
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 7,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.875,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8844
+        }
+      },
+      "source_annotation_id": 54333,
+      "source_file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_123__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_184/SHDGR__GR_2_K_247_184_123__0001.jpg"
+    }
+  ]
 }

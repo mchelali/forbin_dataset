@@ -2,13 +2,113 @@
   "info": {
     "description": "Streaming manifest for SHDGR__GR_2_K_247_215",
     "source": "data/forbin_infer_all.json",
-    "metadata_source": "forbin_all.json"
+    "metadata_source": "forbin_all.json",
+    "transcription_source": "data/forbin_all_monkeyocr.json",
+    "transcription_overlap_threshold": 0.5
   },
   "licenses": [],
   "categories": [
     {
       "id": 1,
       "name": "tampon"
+    },
+    {
+      "id": 1001,
+      "name": "Titre",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 1
+    },
+    {
+      "id": 1002,
+      "name": "date",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 2
+    },
+    {
+      "id": 1003,
+      "name": "legende",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 3
+    },
+    {
+      "id": 1004,
+      "name": "signature_autre",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 4
+    },
+    {
+      "id": 1005,
+      "name": "signature_forbin",
+      "supercategory": "other",
+      "source": "monkeyocr",
+      "source_category_id": 5
+    },
+    {
+      "id": 1006,
+      "name": "tampon_agence",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 6
+    },
+    {
+      "id": 1007,
+      "name": "tampon_autre",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 7
+    },
+    {
+      "id": 1008,
+      "name": "tampon_censure",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 8
+    },
+    {
+      "id": 1009,
+      "name": "tampon_journal",
+      "supercategory": "tampon",
+      "source": "monkeyocr",
+      "source_category_id": 9
+    },
+    {
+      "id": 1010,
+      "name": "text_line",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 10
+    },
+    {
+      "id": 1011,
+      "name": "text_zone",
+      "supercategory": "text",
+      "source": "monkeyocr",
+      "source_category_id": 11
+    },
+    {
+      "id": 1012,
+      "name": "monkeyocr_text",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 12
+    },
+    {
+      "id": 1013,
+      "name": "monkeyocr_title",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 13
+    },
+    {
+      "id": 1014,
+      "name": "monkeyocr_interline_equation",
+      "supercategory": "monkeyocr",
+      "source": "monkeyocr",
+      "source_category_id": 14
     }
   ],
   "images": [
@@ -48,6 +148,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -74,6 +177,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -100,6 +206,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -126,6 +235,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -152,6 +264,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -178,6 +293,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -204,6 +322,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -230,6 +351,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -256,6 +380,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -282,6 +409,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -308,6 +438,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -334,6 +467,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -360,6 +496,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -386,6 +525,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -412,6 +554,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -438,6 +583,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -464,6 +612,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -490,6 +641,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -516,6 +670,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -542,6 +699,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -568,6 +728,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -594,6 +757,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -620,6 +786,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -646,6 +815,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -672,6 +844,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -698,6 +873,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -724,6 +902,9 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     },
@@ -750,9 +931,1069 @@
         "Type": "Thématique",
         "Cluster": 9999,
         "ClusterLabel": "Autres",
+        "Pays / Région": "",
+        "Sous-region": "",
+        "Commentaires": "",
         "Source": "Huma-Num Sharedocs"
       }
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_002_0002-verso-57878",
+      "image_id": 52882,
+      "category_id": 1012,
+      "bbox": [
+        116.6666649239432,
+        995.8333503874422,
+        2187.499967323935,
+        608.3333437513246
+      ],
+      "segmentation": [
+        [
+          116.6666649239432,
+          995.8333503874422,
+          2304.166632247878,
+          995.8333503874422,
+          2304.166632247878,
+          1604.1666941387668,
+          116.6666649239432,
+          1604.1666941387668
+        ]
+      ],
+      "area": 1330729.1695780826,
+      "iscrowd": 0,
+      "text": "Moran Arnes originator of order of\nfor Galahara of America Knighted by, Swi\nFrancis Vane Grana Scott master",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_002_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          653.760009765625,
+          855.3599853515625
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4167,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 89,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 1
+          },
+          "alpha_ratio": 0.9889,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9403
+        }
+      },
+      "source_annotation_id": 57878,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_002__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_002__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_005_0001-recto-57879",
+      "image_id": 52885,
+      "category_id": 1012,
+      "bbox": [
+        954.1666722321972,
+        1508.3333220180236,
+        1158.3333400897416,
+        670.8333283008337
+      ],
+      "segmentation": [
+        [
+          954.1666722321972,
+          1508.3333220180236,
+          2112.500012321939,
+          1508.3333220180236,
+          2112.500012321939,
+          2179.166650318857,
+          954.1666722321972,
+          2179.166650318857
+        ]
+      ],
+      "area": 777048.6098142229,
+      "iscrowd": 0,
+      "text": "THIS - FOUNDATION -STONE WAS - LAID WITH FULL - MASONIC - HONOURS ON - JUNE - 15th - 1912 BY - THE - RIF WORSHIPFUL - HIS - GRACE THE - DUKE OF - RICHMOND - & - GORDON K.G. - C.B. - CHAMO - A.D.C. - 89 PROVIA - C.M. - OF - SUSSEX",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_215_005_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          837.1199951171875,
+          650.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 133,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 8,
+            "other": 33
+          },
+          "alpha_ratio": 0.7644,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9289
+        }
+      },
+      "source_annotation_id": 57879,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_005__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_005__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_005_0002-verso-57880",
+      "image_id": 52885,
+      "category_id": 1012,
+      "bbox": [
+        250.00000589370006,
+        916.6666838078721,
+        2154.1667174507156,
+        212.5000039736431
+      ],
+      "segmentation": [
+        [
+          250.00000589370006,
+          916.6666838078721,
+          2404.166723344416,
+          916.6666838078721,
+          2404.166723344416,
+          1129.1666877815153,
+          250.00000589370006,
+          1129.1666877815153
+        ]
+      ],
+      "area": 457760.4360181668,
+      "iscrowd": 0,
+      "text": "The Duke performing the ceremony",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_005_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          828.47998046875,
+          652.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.4,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 28,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.94
+        }
+      },
+      "source_annotation_id": 57880,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_005__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_005__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_006_0002-verso-57881",
+      "image_id": 52886,
+      "category_id": 1012,
+      "bbox": [
+        416.6666520172921,
+        316.66665960241266,
+        2599.9999085879026,
+        195.83332896464992
+      ],
+      "segmentation": [
+        [
+          416.6666520172921,
+          316.66665960241266,
+          3016.6665606051947,
+          316.66665960241266,
+          3016.6665606051947,
+          512.4999885670626,
+          416.6666520172921,
+          512.4999885670626
+        ]
+      ],
+      "area": 509166.6374065545,
+      "iscrowd": 0,
+      "text": "MASONIC INSTALLATION: Scone in the Sydney Town Hall on the night of July 25, on the occasion of the installation of the new Grand Master of the United Grand Lodge of New South Wales - Very Wor.Bro.John Coulston.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_006_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          833.280029296875,
+          656.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 166,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 6
+          },
+          "alpha_ratio": 0.954,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9943
+        }
+      },
+      "source_annotation_id": 57881,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_006__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_006__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_009_0002-verso-57882",
+      "image_id": 52889,
+      "category_id": 1012,
+      "bbox": [
+        275.0000064830701,
+        1691.6666982999823,
+        1725.0000406665304,
+        254.16667141945544
+      ],
+      "segmentation": [
+        [
+          275.0000064830701,
+          1691.6666982999823,
+          2000.0000471496005,
+          1691.6666982999823,
+          2000.0000471496005,
+          1945.8333697194378,
+          275.0000064830701,
+          1945.8333697194378
+        ]
+      ],
+      "area": 438437.5185346373,
+      "iscrowd": 0,
+      "text": "The process of making",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_009_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          828.47998046875,
+          652.7999877929688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 18,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 0
+          },
+          "alpha_ratio": 1.0,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.95
+        }
+      },
+      "source_annotation_id": 57882,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_009__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_009__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_010_0002-verso-57883",
+      "image_id": 52890,
+      "category_id": 1012,
+      "bbox": [
+        733.3333059744624,
+        933.3333675677972,
+        2099.9999216541423,
+        233.3333418919493
+      ],
+      "segmentation": [
+        [
+          733.3333059744624,
+          933.3333675677972,
+          2833.3332276286046,
+          933.3333675677972,
+          2833.3332276286046,
+          1166.6667094597465,
+          733.3333059744624,
+          1166.6667094597465
+        ]
+      ],
+      "area": 489999.9996923927,
+      "iscrowd": 0,
+      "text": "The Grand Officers watching the march post of members of the Royal Antidiluvian Order of Buffaloes in the Wobley Stadium yesterday (September 6th).",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_010_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          785.280029296875,
+          599.0399780273438
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 121,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 1,
+            "other": 3
+          },
+          "alpha_ratio": 0.968,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9627
+        }
+      },
+      "source_annotation_id": 57883,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_010__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_010__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_011_0002-verso-57884",
+      "image_id": 52891,
+      "category_id": 1014,
+      "bbox": [
+        654.1666565225702,
+        641.6666614697153,
+        2062.4999680170204,
+        620.8333283051142
+      ],
+      "segmentation": [
+        [
+          654.1666565225702,
+          641.6666614697153,
+          2716.6666245395904,
+          641.6666614697153,
+          2716.6666245395904,
+          1262.4999897748294,
+          654.1666565225702,
+          1262.4999897748294
+        ]
+      ],
+      "area": 1280468.7197731982,
+      "iscrowd": 0,
+      "text": "\\begin{array} { r l } & { \\mathrm { F o r ~ T W E N T Y ~ F O U R ~ L O D G E S } , } \\\\ & { \\mathrm { F r e e m a s o n s ~ e n t e r i n g ~ C h r i s t ~ C h u r c h , ~ G r e y f r i z r s } , } \\\\ & { \\mathrm { N e w g a t e ~ S t r e e t ~ y e s t e r d a y ~ ( M a y ~ 2 9 t h ) } , \\mathrm { f o r ~ t h e ~ s e r v e ~ i s e } } \\\\ & { \\mathrm { a t ~ w h i c h ~ t w e n t y - f o u r ~ l o d g e s ~ w e r e ~ r e s e n e n t e d } , } \\\\ & { \\mathrm { i n ~ c o n n e c t i o n ~ w i t h ~ t h e ~ c e n t e n a r y ~ o f ~ t h e ~ L i c e n s e d } } \\\\ & { \\mathrm { V i c t u a l l e t s ' ~ I n s t i t u t i o n } . } \\end{array}",
+      "orientation": "",
+      "text_type": "monkeyocr_interline_equation",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_011_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          787.2000122070312,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "interline_equation",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 262,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 94
+          },
+          "alpha_ratio": 0.7318,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8665
+        }
+      },
+      "source_annotation_id": 57884,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_011__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 14,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_011__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_012_0002-verso-57885",
+      "image_id": 52892,
+      "category_id": 1013,
+      "bbox": [
+        1083.3332929168193,
+        750.0000029989758,
+        1204.1666217421568,
+        83.33333366655287
+      ],
+      "segmentation": [
+        [
+          1083.3332929168193,
+          750.0000029989758,
+          2287.499914658976,
+          750.0000029989758,
+          2287.499914658976,
+          833.3333366655287,
+          1083.3332929168193,
+          833.3333366655287
+        ]
+      ],
+      "area": 100347.21887976491,
+      "iscrowd": 0,
+      "text": "。望3点5点14点5点2点5点",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          785.280029296875,
+          610.5599975585938
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "cjk",
+          "script_counts": {
+            "latin": 0,
+            "cjk": 7,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 7,
+            "other": 1
+          },
+          "alpha_ratio": 0.4667,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8333
+        }
+      },
+      "source_annotation_id": 57885,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_012_0002-verso-57886",
+      "image_id": 52892,
+      "category_id": 1012,
+      "bbox": [
+        766.6666380642107,
+        879.1666701821327,
+        1954.1665937614935,
+        216.66666753303747
+      ],
+      "segmentation": [
+        [
+          766.6666380642107,
+          879.1666701821327,
+          2720.8332318257044,
+          879.1666701821327,
+          2720.8332318257044,
+          1095.8333377151703,
+          766.6666380642107,
+          1095.8333377151703
+        ]
+      ],
+      "area": 423402.7636746898,
+      "iscrowd": 0,
+      "text": "The template holds with some examples described by known as the English Club at Port field. It has the distillation of being the first Japanese temple.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_012_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          785.280029296875,
+          610.5599975585938
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.5833,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 124,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9841,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9563
+        }
+      },
+      "source_annotation_id": 57886,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_012__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_012__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_020_0002-verso-57891",
+      "image_id": 52900,
+      "category_id": 1012,
+      "bbox": [
+        325.00000699591817,
+        562.499995444231,
+        1029.1666888204074,
+        95.83333255716528
+      ],
+      "segmentation": [
+        [
+          325.00000699591817,
+          562.499995444231,
+          1354.1666958163255,
+          562.499995444231,
+          1354.1666958163255,
+          658.3333280013962,
+          325.00000699591817,
+          658.3333280013962
+        ]
+      ],
+      "area": 98628.47354648274,
+      "iscrowd": 0,
+      "text": "MASONS' CATHEDRAL SERVICE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_020_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 22,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9167,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8896
+        }
+      },
+      "source_annotation_id": 57891,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_020__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_020__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_020_0002-verso-57892",
+      "image_id": 52900,
+      "category_id": 1012,
+      "bbox": [
+        320.83334023956024,
+        695.8333276976783,
+        2595.833389210987,
+        279.16666440565535
+      ],
+      "segmentation": [
+        [
+          320.83334023956024,
+          695.8333276976783,
+          2916.6667294505473,
+          695.8333276976783,
+          2916.6667294505473,
+          974.9999921033336,
+          320.83334023956024,
+          974.9999921033336
+        ]
+      ],
+      "area": 724670.1486188587,
+      "iscrowd": 0,
+      "text": "Lord Lilford (centre) Grand Master of Northampton and Huntingdon, in his place in the procession of Mason's from four provinces to the service held in Peterborough Cathedral yesterday (May 19th).",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_020_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          793.9199829101562,
+          602.8800048828125
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 157,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 7
+          },
+          "alpha_ratio": 0.9458,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9599
+        }
+      },
+      "source_annotation_id": 57892,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_020__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_020__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_023_0002-verso-57893",
+      "image_id": 52903,
+      "category_id": 1012,
+      "bbox": [
+        304.16667511548064,
+        491.666654833484,
+        1029.1666952537496,
+        58.33333192939641
+      ],
+      "segmentation": [
+        [
+          304.16667511548064,
+          491.666654833484,
+          1333.3333703692301,
+          491.666654833484,
+          1333.3333703692301,
+          549.9999867628804,
+          304.16667511548064,
+          549.9999867628804
+        ]
+      ],
+      "area": 60034.72244491694,
+      "iscrowd": 0,
+      "text": "MASON'S CATHEDRAL SERVICE.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_023_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          791.0399780273438,
+          608.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 22,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 0,
+            "other": 2
+          },
+          "alpha_ratio": 0.9167,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.8896
+        }
+      },
+      "source_annotation_id": 57893,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_023__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_023__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_023_0002-verso-57894",
+      "image_id": 52903,
+      "category_id": 1012,
+      "bbox": [
+        304.16667511548064,
+        624.9999849578187,
+        2566.666737960768,
+        199.99999518650196
+      ],
+      "segmentation": [
+        [
+          304.16667511548064,
+          624.9999849578187,
+          2870.8334130762487,
+          624.9999849578187,
+          2870.8334130762487,
+          824.9999801443207,
+          304.16667511548064,
+          824.9999801443207
+        ]
+      ],
+      "area": 513333.3352375083,
+      "iscrowd": 0,
+      "text": "Measone entering the famous old Cathedral at Peterborough, where a haven's service was held yesterday (May 18th) attended by Kaasons' from four provinces.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_023_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          791.0399780273438,
+          608.6400146484375
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.1667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 124,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 2,
+            "other": 6
+          },
+          "alpha_ratio": 0.9394,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9091
+        }
+      },
+      "source_annotation_id": 57894,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_023__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_023__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_026_0001-recto-57895",
+      "image_id": 52906,
+      "category_id": 1012,
+      "bbox": [
+        837.5000081604317,
+        3591.666666666667,
+        2000.000019487598,
+        458.33333333333337
+      ],
+      "segmentation": [
+        [
+          837.5000081604317,
+          3591.666666666667,
+          2837.5000276480296,
+          3591.666666666667,
+          2837.5000276480296,
+          4050.0000000000005,
+          837.5000081604317,
+          4050.0000000000005
+        ]
+      ],
+      "area": 916666.6755984825,
+      "iscrowd": 0,
+      "text": "The unveiling ceremony of Memorial Tablet to Dr; Kane, Arctic Explorer and famous Mason, in Havana,Cuba, ( at the side of door of house in which Dr.Kans died, by a visiting delegation-f Mason. This is the first time in the history of Masonry that a delegation is sent to foreign country to honor a deceased member. The photo shows, the Tablet being unveiled. 2/20/22",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "recto",
+      "source_image": "SHDGR_GR_2_K_247_215_026_0001",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 3,
+        "monkeyocr_page_size": [
+          1002.239990234375,
+          1032.0
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "mixed_fr_en",
+          "language_confidence": 1.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 283,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 5,
+            "other": 15
+          },
+          "alpha_ratio": 0.934,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9917
+        }
+      },
+      "source_annotation_id": 57895,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_026__0001.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "recto",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_026__0001.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_028_0002-verso-57896",
+      "image_id": 52908,
+      "category_id": 1013,
+      "bbox": [
+        558.3333498439745,
+        574.9999805967354,
+        1150.0000340069923,
+        79.16666399520271
+      ],
+      "segmentation": [
+        [
+          558.3333498439745,
+          574.9999805967354,
+          1708.3333838509668,
+          574.9999805967354,
+          1708.3333838509668,
+          654.1666445919382,
+          558.3333498439745,
+          654.1666445919382
+        ]
+      ],
+      "area": 91041.66628670326,
+      "iscrowd": 0,
+      "text": "8,000 FREEMASONS AT OLYMPIA.",
+      "orientation": "",
+      "text_type": "monkeyocr_title",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_028_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 0,
+        "monkeyocr_page_size": [
+          990.719970703125,
+          795.8400268554688
+        ],
+        "monkeyocr_raw_type": "title",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "unknown",
+          "language_confidence": 0.0,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 19,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 4,
+            "other": 2
+          },
+          "alpha_ratio": 0.76,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.87
+        }
+      },
+      "source_annotation_id": 57896,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_028__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 13,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_028__0002.jpg"
+    },
+    {
+      "id": "monkeyocr-shdgr_gr_2_k_247_215_028_0002-verso-57897",
+      "image_id": 52908,
+      "category_id": 1012,
+      "bbox": [
+        558.3333498439745,
+        712.4999759568244,
+        2500.000073928244,
+        337.4999886111274
+      ],
+      "segmentation": [
+        [
+          558.3333498439745,
+          712.4999759568244,
+          3058.3334237722183,
+          712.4999759568244,
+          3058.3334237722183,
+          1049.9999645679518,
+          558.3333498439745,
+          1049.9999645679518
+        ]
+      ],
+      "area": 843749.9964786,
+      "iscrowd": 0,
+      "text": "A striking view of the 87,000 Freemasons who assembled for luncheon yesterday (AUGUST 8th) at Olympia, where the Duke of Connaught presided. There were five miles of tables, and I,300 waitresses were needed to look after this party. It is claimed that it was the world's record banquet.",
+      "orientation": "",
+      "text_type": "monkeyocr_text",
+      "arkindex_elem_id": "",
+      "source_face": "verso",
+      "source_image": "SHDGR_GR_2_K_247_215_028_0002",
+      "source": "monkeyocr",
+      "metadata": {
+        "monkeyocr_score": 1.0,
+        "monkeyocr_block_index": 1,
+        "monkeyocr_page_size": [
+          990.719970703125,
+          795.8400268554688
+        ],
+        "monkeyocr_raw_type": "text",
+        "monkeyocr_quality": "ok",
+        "monkeyocr_semantic": {
+          "content_intent": "transcription",
+          "language": "en",
+          "language_confidence": 0.6667,
+          "dominant_script": "latin",
+          "script_counts": {
+            "latin": 220,
+            "cjk": 0,
+            "cyrillic": 0,
+            "arabic": 0,
+            "digit": 9,
+            "other": 10
+          },
+          "alpha_ratio": 0.9205,
+          "mojibake_ratio": 0.0,
+          "has_repeated_pattern": false,
+          "semantic_confidence": 0.9567
+        }
+      },
+      "source_annotation_id": 57897,
+      "source_file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_028__0002.jpg",
+      "text_source": "monkeyocr",
+      "source_category_id": 12,
+      "side": "verso",
+      "file_name": "SHDGR__GR_2_K_247_215/SHDGR__GR_2_K_247_215_028__0002.jpg"
+    }
+  ]
 }

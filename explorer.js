@@ -27,6 +27,7 @@ const tooltip = document.getElementById("tooltip");
 const galleryEl = document.getElementById("gallery");
 const paginationEl = document.getElementById("pagination");
 const cartonListEl = document.getElementById("carton-list");
+const cartonSearchEl = document.getElementById("carton-search");
 const searchEl = document.getElementById("search");
 const wrapperEl = document.getElementById("img-wrapper");
 const predictionControlsEl = document.getElementById("prediction-controls");
@@ -204,11 +205,32 @@ svgEl.addEventListener("mouseup", () => interactionEnabled && handleMouseUp());
 function renderCartonList() {
     cartonListEl.innerHTML = "";
     const fragment = document.createDocumentFragment();
+    const cartonTerm = cartonSearchEl?.value.toLowerCase().trim() ?? "";
     const cartons = getDatasetMode() === "stream"
-        ? streamCartons.map(entry => ({ name: entry.carton, count: entry.images }))
-        : Object.keys(grouped).sort().map(carton => ({ name: carton, count: grouped[carton].length }));
+        ? streamCartons.map(entry => ({
+            name: entry.carton,
+            count: entry.images,
+            searchText: [
+                entry.carton,
+                ...(entry.countries ?? []).map(([label]) => label),
+                ...(entry.classes ?? []).map(([label]) => label)
+            ].join(" ").toLowerCase()
+        }))
+        : Object.keys(grouped).sort().map(carton => ({
+            name: carton,
+            count: grouped[carton].length,
+            searchText: carton.toLowerCase()
+        }));
+    const visibleCartons = cartonTerm
+        ? cartons.filter(({ searchText }) => searchText.includes(cartonTerm))
+        : cartons;
 
-    for (const { name: carton, count } of cartons) {
+    if (visibleCartons.length === 0) {
+        cartonListEl.innerHTML = `<p class="placeholder-text compact">No boxes found.</p>`;
+        return;
+    }
+
+    for (const { name: carton, count } of visibleCartons) {
         const item = document.createElement("div");
         item.className = "carton-item" + (carton === currentCarton ? " active" : "");
         item.textContent = `${carton} (${count})`;
@@ -251,11 +273,48 @@ async function loadStreamCarton(carton) {
 
     for (const image of images) {
         image.annotations = annotationsByImage[image.id] ?? [];
+        image.detectedInstances = 0;
+        image.detectedInstancesBySide = {};
         image._searchCache = buildSearchCache(image);
     }
 
+    await loadStreamDetectionCounts(carton, images);
     grouped[carton] = images;
     loadedStreamCartons[carton] = true;
+}
+
+async function loadStreamDetectionCounts(carton, images) {
+    const entry = streamCartonEntries[carton];
+    const manifest = entry?.predictions_manifest;
+    if (!manifest) return;
+
+    const imagesById = {};
+    const imagesByFileName = {};
+    for (const image of images) {
+        imagesById[image.id] = image;
+        for (const [side, fileName] of Object.entries(image.file_names ?? {})) {
+            imagesByFileName[fileName] = { image, side };
+        }
+    }
+
+    let payload;
+    try {
+        const response = await fetch(`${CONFIG.streamManifestBaseUrl ?? ""}${manifest}`);
+        payload = await response.json();
+    } catch (error) {
+        console.warn(`Unable to load detection counts for ${carton}:`, error);
+        return;
+    }
+    for (const prediction of payload.predictions ?? []) {
+        const fileMatch = prediction.file_name ? imagesByFileName[prediction.file_name] : null;
+        const image = imagesById[prediction.image_id] ?? fileMatch?.image;
+        if (!image) continue;
+
+        const side = prediction.side ?? prediction.source_face ?? fileMatch?.side ?? "unknown";
+        image.detectedInstances = (image.detectedInstances ?? 0) + 1;
+        image.detectedInstancesBySide ??= {};
+        image.detectedInstancesBySide[side] = (image.detectedInstancesBySide[side] ?? 0) + 1;
+    }
 }
 
 async function loadActiveStreamPredictions(imageData = currentImageData) {
@@ -381,8 +440,9 @@ function renderGallery() {
             <img src="${imgSrc}" alt="Thumbnail" loading="lazy"/>
             <div class="item-info">
                 <b>ID: ${d.id}</b>
-                <span>Country: ${d.metadata.Pays ?? "N/A"}</span>
-                <span>Annotations: ${d.annotations.length}</span>
+                <span>Country: ${d.metadata.Pays ?? "N/A"}</span><br>
+                <span>Annotations: ${d.annotations.length}</span><br>
+                <span>Detected instances: ${d.detectedInstances ?? 0}</span>
             </div>`;
 
         item.addEventListener("click", () => {
@@ -396,16 +456,91 @@ function renderGallery() {
     }
     galleryEl.appendChild(galleryFrag);
 
-    // Pagination
-    const pagFrag = document.createDocumentFragment();
-    for (let i = 1; i <= totalPages; i++) {
-        const btn = document.createElement("button");
-        btn.textContent = i;
-        if (i === currentPage) btn.classList.add("active");
-        btn.addEventListener("click", () => { currentPage = i; renderGallery(); });
-        pagFrag.appendChild(btn);
+    renderPagination(totalPages, filtered.length, start, pageItems.length);
+}
+
+function goToPage(page, totalPages) {
+    currentPage = Math.max(1, Math.min(page, totalPages));
+    renderGallery();
+}
+
+function createPageButton(label, page, totalPages, options = {}) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.textContent = label;
+    btn.className = "page-btn";
+    if (options.active) btn.classList.add("active");
+    if (options.compact) btn.classList.add("compact");
+    btn.disabled = options.disabled ?? false;
+    btn.addEventListener("click", () => goToPage(page, totalPages));
+    return btn;
+}
+
+function appendPageNumber(fragment, page, totalPages) {
+    fragment.appendChild(createPageButton(String(page), page, totalPages, {
+        active: page === currentPage,
+        compact: true
+    }));
+}
+
+function appendEllipsis(fragment) {
+    const ellipsis = document.createElement("span");
+    ellipsis.className = "pagination-ellipsis";
+    ellipsis.textContent = "...";
+    fragment.appendChild(ellipsis);
+}
+
+function getPaginationWindow(totalPages) {
+    const pages = new Set([1, totalPages]);
+    const radius = window.innerWidth < 700 ? 1 : 2;
+    for (let page = currentPage - radius; page <= currentPage + radius; page++) {
+        if (page > 1 && page < totalPages) pages.add(page);
     }
-    paginationEl.appendChild(pagFrag);
+    return [...pages].sort((a, b) => a - b);
+}
+
+function renderPagination(totalPages, totalItems, start, pageItemCount) {
+    paginationEl.innerHTML = "";
+    if (totalPages <= 1) {
+        const summary = document.createElement("div");
+        summary.className = "pagination-summary";
+        summary.textContent = `${totalItems} image${totalItems > 1 ? "s" : ""}`;
+        paginationEl.appendChild(summary);
+        return;
+    }
+
+    const summary = document.createElement("div");
+    summary.className = "pagination-summary";
+    summary.textContent = `${start + 1}-${start + pageItemCount} of ${totalItems} images`;
+
+    const controls = document.createElement("div");
+    controls.className = "pagination-controls";
+    const fragment = document.createDocumentFragment();
+
+    fragment.appendChild(createPageButton("First", 1, totalPages, {
+        disabled: currentPage === 1
+    }));
+    fragment.appendChild(createPageButton("Prev", currentPage - 1, totalPages, {
+        disabled: currentPage === 1
+    }));
+
+    let previousPage = 0;
+    for (const page of getPaginationWindow(totalPages)) {
+        if (previousPage && page - previousPage > 1) appendEllipsis(fragment);
+        appendPageNumber(fragment, page, totalPages);
+        previousPage = page;
+    }
+
+    fragment.appendChild(createPageButton("Next", currentPage + 1, totalPages, {
+        disabled: currentPage === totalPages
+    }));
+    fragment.appendChild(createPageButton("Last", totalPages, totalPages, {
+        disabled: currentPage === totalPages
+    }));
+
+    controls.appendChild(fragment);
+    paginationEl.appendChild(summary);
+    paginationEl.appendChild(controls);
 }
 
 // ─── Visualizer ───────────────────────────────────────────────────────────────
@@ -704,6 +839,10 @@ searchEl.addEventListener("input", debounce(() => {
     currentPage = 1;
     renderGallery();
 }, 200));
+
+cartonSearchEl?.addEventListener("input", debounce(() => {
+    renderCartonList();
+}, 120));
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
 

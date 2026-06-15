@@ -711,6 +711,59 @@ body.map-page .popup-divider {
     margin-top: 10px;
 }
 
+.pagination-summary {
+    color: #6b5439;
+    font-size: 0.82em;
+    line-height: 1.3;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.pagination-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.page-btn {
+    min-width: 42px;
+    height: 30px;
+    padding: 0 8px;
+    border: 1px solid #c9b39a;
+    border-radius: 6px;
+    background: #fff7ef;
+    color: #3e2f1c;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.page-btn.compact {
+    min-width: 30px;
+    width: 30px;
+    padding: 0;
+}
+
+.page-btn:hover:not(:disabled),
+.page-btn.active {
+    background: #a67c52;
+    color: #fff;
+    border-color: #8b6943;
+}
+
+.page-btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.pagination-ellipsis {
+    min-width: 18px;
+    color: #7b6b56;
+    text-align: center;
+    font-weight: bold;
+}
+
 .sidebar .carton-list {
     max-height: 240px;
     overflow-y: auto;
@@ -720,7 +773,8 @@ body.map-page .popup-divider {
     line-height: 1.5;
 }
 
-#search {
+#search,
+#carton-search {
     padding: 10px;
     width: 100%;
     margin: 10px 0 15px 0;
@@ -733,9 +787,14 @@ body.map-page .popup-divider {
     transition: border 0.3s;
 }
 
-#search:focus {
+#search:focus,
+#carton-search:focus {
     outline: none;
     border-color: #a67c52;
+}
+
+#carton-search {
+    margin-bottom: 10px;
 }
 
 .carton-list {
@@ -805,6 +864,12 @@ body.map-page .popup-divider {
     color: #7b6b56;
     margin-top: 40px;
     font-style: italic;
+}
+
+.placeholder-text.compact {
+    margin: 8px 0;
+    width: 100%;
+    font-size: 0.9em;
 }
 
 .face-btn {

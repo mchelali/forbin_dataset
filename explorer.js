@@ -326,6 +326,21 @@ async function loadActiveStreamPredictions(imageData = currentImageData) {
     }
 }
 
+async function loadStreamPredictionTexts(imageData = currentImageData) {
+    if (getDatasetMode() !== "stream" || !imageData) return;
+    const sources = Object.values(predictionSources).filter(source => source.streamByCarton);
+    for (const source of sources) {
+        await loadPredictionCarton(source, getCartonFromImage(imageData));
+    }
+}
+
+async function loadAutomaticPredictionSources() {
+    const sources = Object.values(predictionSources).filter(source => source.active && !source.streamByCarton);
+    for (const source of sources) {
+        await loadPredictionSource(source);
+    }
+}
+
 function getActiveImageBaseUrl() {
     const mode = getDatasetMode();
     return mode === "full" ? CONFIG.fullDataset?.imageBaseUrl : CONFIG.imageBaseUrl;
@@ -565,13 +580,15 @@ async function displayImageInVisualizer(imageData, face) {
     imgEl.alt = getDatasetMode() === "stream" ? "Image loaded from Huma-Num Sharedocs" : "Forbin image";
     try {
         imgEl.src = getImageUrl(imageData.file_names[face], imageData);
+        await loadAutomaticPredictionSources();
         await loadActiveStreamPredictions(imageData);
+        await loadStreamPredictionTexts(imageData);
     } catch (error) {
         document.getElementById("visualizer-details").innerHTML =
             `<b>Loading error</b>: ${error.message}`;
         return;
     }
-    document.getElementById("visualizer-title").textContent = `Image ID: ${imageData.id}`;
+    renderFileHeader(imageData, face);
 
     // Build face-switcher buttons without inline onclick / global lookups
     const faceBtns = ["recto", "verso"]
@@ -590,19 +607,9 @@ async function displayImageInVisualizer(imageData, face) {
 
     // Re-attach click listeners (outerHTML loses them — use a helper instead)
     rebindFaceButtons(imageData, face);
+    renderFileHeader(imageData, face);
 
-    // Metadata panel
-    const metaParts = [`<b>Filename (${face})</b>: ${imageData.file_names[face] ?? "N/A"}`];
-    for (const [k, v] of Object.entries(imageData.metadata ?? {})) {
-        metaParts.push(`<b>${k}</b>: ${v}`);
-    }
-    const allTexts = imageData.annotations
-        .map(a => a.text)
-        .filter(t => t?.trim());
-    if (allTexts.length) {
-        metaParts.push(`<br><b>All Annotated Transcriptions:</b><br>${allTexts.join(" / ")}`);
-    }
-    document.getElementById("meta-content").innerHTML = metaParts.join("<br>");
+    renderMetadataPanel(imageData, face);
 
     // Setup SVG once the image has loaded
     imgEl.onload = () => requestAnimationFrame(() => setupSVG(imageData, face));
@@ -611,12 +618,325 @@ async function displayImageInVisualizer(imageData, face) {
     }
 }
 
+function renderFileHeader(imageData, currentFace) {
+    document.getElementById("visualizer-title").textContent = "Files";
+    const details = document.getElementById("visualizer-details");
+    details.replaceChildren();
+
+    const fragment = document.createDocumentFragment();
+    for (const face of ["recto", "verso"]) {
+        const fileName = imageData.file_names?.[face];
+        if (!fileName) continue;
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "face-btn file-face-btn" + (face === currentFace ? " active" : "");
+        btn.dataset.face = face;
+        btn.textContent = `${face.toUpperCase()} - ${getBaseName(fileName)}`;
+        btn.title = fileName;
+        btn.addEventListener("click", () => displayImageInVisualizer(imageData, face));
+        fragment.appendChild(btn);
+    }
+    details.appendChild(fragment);
+}
+
+function getBaseName(fileName) {
+    return String(fileName ?? "").split("/").pop() || "N/A";
+}
+
 /** Rebind face-button click events (since we used outerHTML to inject them). */
 function rebindFaceButtons(imageData, currentFace) {
     for (const btn of document.querySelectorAll(".face-btn")) {
         const face = btn.textContent.toLowerCase();
         btn.addEventListener("click", () => displayImageInVisualizer(imageData, face));
     }
+}
+
+function renderMetadataPanel(imageData, face) {
+    const metadataContent = document.getElementById("metadata-content");
+    const transcriptionContent = document.getElementById("transcription-content");
+    const metadataFragment = document.createDocumentFragment();
+    const transcriptionFragment = document.createDocumentFragment();
+
+    appendTagSection(metadataFragment, "Size", getSizeTags(imageData.metadata ?? {}));
+    appendMetadataList(metadataFragment, getDublinCoreRows(imageData));
+
+    const forbinAnnotationTexts = getTextItemsForFace(imageData.annotations ?? [], face)
+        .filter(annotation => !isMonkeyOcrItem(annotation))
+        .map(annotation => ({
+            title: getAnnotationTitle(annotation),
+            source: annotation.text_source ?? annotation.source ?? "annotation",
+            text: annotation.text
+        }));
+    appendTextSection(transcriptionFragment, "Annotations", forbinAnnotationTexts);
+
+    const textPredictionItems = getTextItemsForFace(imageData.annotations ?? [], face)
+        .filter(isMonkeyOcrItem)
+        .map(annotation => ({
+            title: getTextPredictionTitle(annotation),
+            source: "text prediction",
+            text: annotation.text
+        }));
+    appendTextSection(transcriptionFragment, "Text predictions", textPredictionItems, "text-prediction");
+
+    const predictionTexts = getPredictionsForFace(imageData, face)
+        .filter(prediction => hasText(prediction.text))
+        .map(prediction => ({
+            title: getPredictionTitle(prediction),
+            source: prediction.text_source ?? prediction.transcription_source ?? "prediction",
+            text: prediction.text,
+            matches: prediction.ocr_matches ?? []
+        }));
+    appendTextSection(transcriptionFragment, "Predicted stamps with text predictions", predictionTexts, "text-prediction");
+
+    metadataContent.replaceChildren(metadataFragment);
+    transcriptionContent.replaceChildren(transcriptionFragment);
+}
+
+function appendMetadataRow(dl, key, value) {
+    const dt = document.createElement("dt");
+    dt.textContent = key;
+    const dd = document.createElement("dd");
+    dd.textContent = value ?? "";
+    dl.appendChild(dt);
+    dl.appendChild(dd);
+}
+
+function appendMetadataList(fragment, rows) {
+    const dl = document.createElement("dl");
+    dl.className = "metadata-list";
+    for (const [key, value] of rows) {
+        appendMetadataRow(dl, key, value);
+    }
+    fragment.appendChild(dl);
+}
+
+function appendTagSection(fragment, title, tags) {
+    if (!tags.length) return;
+    const section = document.createElement("section");
+    section.className = "metadata-tags-section";
+
+    const heading = document.createElement("h4");
+    heading.textContent = title;
+    section.appendChild(heading);
+
+    const tagList = document.createElement("div");
+    tagList.className = "metadata-tags";
+    for (const tag of tags) {
+        const item = document.createElement("span");
+        item.className = "metadata-tag";
+        item.textContent = tag;
+        tagList.appendChild(item);
+    }
+    section.appendChild(tagList);
+    fragment.appendChild(section);
+}
+
+function getSizeTags(metadata) {
+    const tags = [];
+    appendSizeTag(tags, metadata.width_px, metadata.height_px, "px");
+    appendSizeTag(tags, metadata.width_cm, metadata.height_cm, "cm");
+    appendSizeTag(tags, metadata.width_in, metadata.height_in, "in");
+    if (metadata.dpi) tags.push(`${formatMetadataValue(metadata.dpi)} dpi`);
+    return tags;
+}
+
+function appendSizeTag(tags, width, height, unit) {
+    if (width == null || height == null) return;
+    tags.push(`${formatMetadataValue(width)} x ${formatMetadataValue(height)} ${unit}`);
+}
+
+function getDublinCoreRows(imageData) {
+    const metadata = imageData.metadata ?? {};
+    const dc = new Map();
+
+    addDcValue(dc, "dc:identifier", imageData.id);
+    addDcValue(dc, "dc:identifier", metadata.Carton);
+    addDcValue(dc, "dc:title", metadata.Titre ?? metadata.Title);
+    addDcValue(dc, "dc:subject", metadata.Classe);
+    addDcValue(dc, "dc:subject", metadata.ClusterLabel);
+    addDcValue(dc, "dc:description", metadata.Commentaires ?? metadata.Description);
+    addDcValue(dc, "dc:type", metadata.Type);
+    addDcValue(dc, "dc:type", metadata.Conditionnement);
+    addDcValue(dc, "dc:format", getFormatValue(metadata));
+    addDcValue(dc, "dc:coverage", metadata.Pays);
+    addDcValue(dc, "dc:coverage", metadata["Pays / Region"] ?? metadata["Pays / RÃ©gion"]);
+    addDcValue(dc, "dc:coverage", metadata.Continent);
+    addDcValue(dc, "dc:coverage", metadata["Sous-region"] ?? metadata["Sous-rÃ©gion"]);
+    addDcValue(dc, "dc:source", metadata.Source);
+    addDcValue(dc, "dc:relation", metadata["Unique / Similaire"]);
+    addDcValue(dc, "dc:rights", metadata.Rights ?? metadata.License);
+    addDcValue(dc, "dc:date", metadata.Date ?? metadata.date);
+    addDcValue(dc, "dc:contributor", metadata.Contributor ?? metadata.contributor);
+
+    const rows = [...dc.entries()].map(([key, values]) => [key, values.join(" / ")]);
+    for (const [key, value] of Object.entries(metadata)) {
+        if (isKnownMetadataKey(key) || isSizeMetadataKey(key)) continue;
+        addRowIfPresent(rows, `forbin:${key}`, value);
+    }
+    return rows;
+}
+
+function addDcValue(map, key, value) {
+    if (!hasMetadataValue(value)) return;
+    const normalized = formatMetadataValue(value);
+    if (!normalized) return;
+    const values = map.get(key) ?? [];
+    if (!values.includes(normalized)) values.push(normalized);
+    map.set(key, values);
+}
+
+function addRowIfPresent(rows, key, value) {
+    if (!hasMetadataValue(value)) return;
+    rows.push([key, formatMetadataValue(value)]);
+}
+
+function getFormatValue(metadata) {
+    const parts = [];
+    if (metadata.width_px && metadata.height_px) {
+        parts.push(`${formatMetadataValue(metadata.width_px)} x ${formatMetadataValue(metadata.height_px)} px`);
+    }
+    if (metadata.dpi) parts.push(`${formatMetadataValue(metadata.dpi)} dpi`);
+    return parts.join(", ");
+}
+
+function isKnownMetadataKey(key) {
+    return new Set([
+        "Carton", "Titre", "Title", "Classe", "ClusterLabel", "Commentaires", "Description",
+        "Type", "Conditionnement", "Pays", "Pays / Region", "Pays / RÃ©gion",
+        "Continent", "Sous-region", "Sous-rÃ©gion", "Source", "Unique / Similaire",
+        "Rights", "License", "Date", "date", "Contributor", "contributor"
+    ]).has(key);
+}
+
+function isSizeMetadataKey(key) {
+    return new Set(["dpi", "width_px", "height_px", "width_in", "height_in", "width_cm", "height_cm"]).has(key);
+}
+
+function hasMetadataValue(value) {
+    return value != null && String(value).trim() !== "";
+}
+
+function formatMetadataValue(value) {
+    if (typeof value === "number") return Number.isInteger(value) ? String(value) : String(Number(value.toFixed(2)));
+    if (Array.isArray(value)) return value.map(formatMetadataValue).filter(Boolean).join(", ");
+    if (typeof value === "object" && value !== null) return JSON.stringify(value);
+    return String(value ?? "").trim();
+}
+
+function appendTextSection(fragment, title, items, variant = "") {
+    const section = document.createElement("section");
+    section.className = `ocr-section ${variant}`.trim();
+
+    const heading = document.createElement("h4");
+    heading.textContent = `${title} (${items.length})`;
+    section.appendChild(heading);
+
+    if (!items.length) {
+        const empty = document.createElement("p");
+        empty.className = "ocr-empty";
+        empty.textContent = "No text for this side.";
+        section.appendChild(empty);
+        fragment.appendChild(section);
+        return;
+    }
+
+    for (const item of items) {
+        const article = document.createElement("article");
+        article.className = "ocr-item";
+
+        const itemHeader = document.createElement("div");
+        itemHeader.className = "ocr-item-header";
+
+        const itemTitle = document.createElement("strong");
+        itemTitle.textContent = item.title;
+        itemHeader.appendChild(itemTitle);
+
+        if (item.source) {
+            const source = document.createElement("span");
+            source.textContent = item.source;
+            itemHeader.appendChild(source);
+        }
+
+        const text = document.createElement("p");
+        text.className = "ocr-text";
+        text.textContent = normalizeText(item.text);
+
+        article.appendChild(itemHeader);
+        article.appendChild(text);
+
+        if (item.matches?.length > 1) {
+            const details = document.createElement("details");
+            const summary = document.createElement("summary");
+            summary.textContent = `${item.matches.length} OCR zones`;
+            details.appendChild(summary);
+            for (const match of item.matches) {
+                const matchText = document.createElement("p");
+                matchText.className = "ocr-match";
+                matchText.textContent = normalizeText(match.text);
+                details.appendChild(matchText);
+            }
+            article.appendChild(details);
+        }
+
+        section.appendChild(article);
+    }
+    fragment.appendChild(section);
+}
+
+function getTextItemsForFace(items, face) {
+    const faceLower = face.toLowerCase();
+    return items.filter(item => {
+        const itemFace = (item.side ?? item.source_face ?? "").toLowerCase();
+        return itemFace === faceLower && hasText(item.text);
+    });
+}
+
+function getPredictionsForFace(imageData, face) {
+    const faceLower = face.toLowerCase();
+    const faceFileName = imageData.file_names?.[face];
+    const predictions = [];
+    for (const source of Object.values(predictionSources)) {
+        predictions.push(...(predictionsBySource[source.id]?.[imageData.id] ?? []));
+        if (faceFileName) {
+            predictions.push(...(predictionsBySource[source.id]?.[faceFileName] ?? []));
+        }
+    }
+    return predictions.filter(prediction => {
+        const predictionFace = (prediction.side ?? prediction.source_face ?? "").toLowerCase();
+        return !predictionFace || predictionFace === faceLower;
+    });
+}
+
+function getAnnotationTitle(annotation) {
+    return annotation.text_type
+        ?? annotation.category_name
+        ?? "Annotation";
+}
+
+function getTextPredictionTitle(annotation) {
+    return annotation.text_type
+        ?? annotation.category_name
+        ?? "MonkeyOCR text prediction";
+}
+
+function getPredictionTitle(prediction) {
+    const score = Number(prediction.score);
+    const scoreText = Number.isFinite(score) ? `score ${score.toFixed(2)}` : "prediction";
+    return `Stamp ${scoreText}`;
+}
+
+function hasText(value) {
+    return Boolean(String(value ?? "").trim());
+}
+
+function normalizeText(value) {
+    return String(value ?? "").replace(/\s+/g, " ").trim();
+}
+
+function isMonkeyOcrItem(item) {
+    return item.source === "monkeyocr"
+        || item.text_source === "monkeyocr"
+        || item.transcription_source === "monkeyocr";
 }
 
 function setupSVG(imageData, face) {
@@ -648,10 +968,11 @@ function setupSVG(imageData, face) {
 
     const frag = document.createDocumentFragment();
     for (const ann of anns) {
+        const isTextPrediction = isMonkeyOcrItem(ann);
         appendAnnotationPolygons(frag, ann, {
-            stroke: "#d1a25c",
-            fill: "rgba(209,162,92,0.25)",
-            label: ann.text || "(sans transcription)"
+            stroke: isTextPrediction ? "#c83f3f" : "#d1a25c",
+            fill: isTextPrediction ? "rgba(200,63,63,0.20)" : "rgba(209,162,92,0.25)",
+            label: isTextPrediction ? "MonkeyOCR text prediction" : "Annotation"
         });
     }
 
@@ -678,6 +999,15 @@ function setupSVG(imageData, face) {
     imgEl.style.visibility = "visible";
 }
 
+function formatOverlayLabel(prefix, item) {
+    const parts = [prefix];
+    if (Number.isFinite(Number(item.score)) && !String(prefix).toLowerCase().includes("score")) {
+        parts.push(`score ${Number(item.score).toFixed(2)}`);
+    }
+    parts.push(hasText(item.text) ? normalizeText(item.text) : "No transcription");
+    return parts.join(" - ");
+}
+
 function appendAnnotationPolygons(fragment, annotation, style) {
     const segmentations = normalizeSegmentations(annotation.segmentation);
     for (const seg of segmentations) {
@@ -691,7 +1021,7 @@ function appendAnnotationPolygons(fragment, annotation, style) {
         const poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
         poly.setAttribute("points", pts.join(" "));
         poly.style.cssText = `stroke:${style.stroke};stroke-width:2px;fill:${style.fill};`;
-        poly.dataset.text = style.label;
+        poly.dataset.text = formatOverlayLabel(style.label, annotation);
         poly.addEventListener("mouseenter", onPolygonEnter);
         poly.addEventListener("mouseleave", onPolygonLeave);
         fragment.appendChild(poly);
@@ -719,6 +1049,12 @@ function setupPredictionControls() {
     predictionSources = {};
 
     const sources = CONFIG.predictionSources ?? [];
+    for (const source of sources) {
+        predictionSources[source.id] = { ...source, active: true };
+    }
+    predictionControlsEl.hidden = true;
+    return;
+
     if (!sources.length) {
         predictionControlsEl.hidden = true;
         return;
@@ -745,7 +1081,10 @@ function setupPredictionControls() {
                 await loadPredictionSource(source);
                 await loadActiveStreamPredictions();
             }
-            if (currentImageData) setupSVG(currentImageData, currentFace);
+            if (currentImageData) {
+                renderMetadataPanel(currentImageData, currentFace);
+                setupSVG(currentImageData, currentFace);
+            }
         });
         predictionControlsEl.appendChild(label);
     }

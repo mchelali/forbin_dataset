@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Explorer — Forbin Dataset</title>
+  <title>Explorer â€” Forbin Dataset</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=metadata-20260615">
 </head>
 
 <body class="explorer-page">
@@ -22,7 +22,7 @@
 
         <input id="carton-search" placeholder="Filter boxes" />
         <div id="carton-list" class="carton-list"></div>
-        <input id="search" placeholder="🔍 Search metadata" />
+        <input id="search" placeholder="ðŸ” Search metadata" />
 
         <div id="gallery">
           <p class="placeholder-text">Please select a box or search.</p>
@@ -35,7 +35,6 @@
           <h2 id="visualizer-title">Please select an image to display</h2>
           <p id="visualizer-details"></p>
           <div class="explorer-tools">
-            <a id="download-carton" class="small-action" href="#" target="_blank" rel="noopener">Download this box</a>
             <div id="prediction-controls" class="prediction-controls" aria-label="Prediction layers"></div>
           </div>
         </div>
@@ -49,9 +48,15 @@
           </div>
         </div>
 
-        <div id="meta-data" class="meta-panel">
-          <h3>🔖 Metadata and Transcriptions</h3>
-          <div id="meta-content"></div>
+        <div class="info-panels">
+          <div id="metadata-panel" class="meta-panel">
+            <h3>Metadata</h3>
+            <div id="metadata-content"></div>
+          </div>
+          <div id="transcription-panel" class="meta-panel transcription-panel">
+            <h3>Transcriptions</h3>
+            <div id="transcription-content"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -60,13 +65,13 @@
   
   <div id="tooltip"></div>
   <footer>
-    © 2025 — Forbin Project | Archives & Vision Initiative | ANR HIGH VISION (ANR-23-CE38-0001)<br>
+    Â© 2025 â€” Forbin Project | Archives & Vision Initiative | ANR HIGH VISION (ANR-23-CE38-0001)<br>
     Licensed under 
     <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">
         Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
     </a>
   </footer>
   <script src="config.js?v=sharedocs-20260604"></script>
-  <script src="explorer.js?v=sharedocs-20260604"></script>
+  <script src="explorer.js?v=split-panels-20260615"></script>
 </body>
 </html>

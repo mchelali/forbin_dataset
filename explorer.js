@@ -35,6 +35,7 @@ const downloadCartonEl = document.getElementById("download-carton");
 const modeNoteEl = document.getElementById("mode-note");
 const sampleModeLinkEl = document.getElementById("sample-mode-link");
 const streamModeLinkEl = document.getElementById("stream-mode-link");
+const viewerEmptyStateEl = document.getElementById("viewer-empty-state");
 
 // ─── Zoom / Pan state ─────────────────────────────────────────────────────────
 
@@ -67,10 +68,7 @@ function setModeUI() {
     const mode = getDatasetMode();
     sampleModeLinkEl?.classList.toggle("active", mode !== "stream");
     streamModeLinkEl?.classList.toggle("active", mode === "stream");
-    if (!modeNoteEl) return;
-    modeNoteEl.textContent = mode === "stream"
-        ? "Full mode: images are loaded directly from Huma-Num Sharedocs."
-        : "Subset mode: fast browsing of the images included in GitHub.";
+    if (modeNoteEl) modeNoteEl.textContent = "";
 }
 
 async function loadSampleDataset() {
@@ -563,6 +561,7 @@ function renderPagination(totalPages, totalItems, start, pageItemCount) {
 async function displayImageInVisualizer(imageData, face) {
     currentImageData = imageData;
     currentFace = face;
+    viewerEmptyStateEl?.classList.add("hidden");
     updateDownloadLink(imageData);
     // Disable interaction while loading
     interactionEnabled = false;
@@ -590,25 +589,6 @@ async function displayImageInVisualizer(imageData, face) {
     }
     renderFileHeader(imageData, face);
 
-    // Build face-switcher buttons without inline onclick / global lookups
-    const faceBtns = ["recto", "verso"]
-        .filter(f => imageData.file_names[f])
-        .map(f => {
-            const btn = document.createElement("button");
-            btn.className = "face-btn" + (f === face ? " active" : "");
-            btn.textContent = f.charAt(0).toUpperCase() + f.slice(1);
-            btn.addEventListener("click", () => displayImageInVisualizer(imageData, f));
-            return btn.outerHTML;   // we rebuild details innerHTML below
-        })
-        .join(" ");
-
-    document.getElementById("visualizer-details").innerHTML =
-        `Face: <b>${face.toUpperCase()}</b>. ${faceBtns}`;
-
-    // Re-attach click listeners (outerHTML loses them — use a helper instead)
-    rebindFaceButtons(imageData, face);
-    renderFileHeader(imageData, face);
-
     renderMetadataPanel(imageData, face);
 
     // Setup SVG once the image has loaded
@@ -619,7 +599,7 @@ async function displayImageInVisualizer(imageData, face) {
 }
 
 function renderFileHeader(imageData, currentFace) {
-    document.getElementById("visualizer-title").textContent = "Files";
+    document.getElementById("visualizer-title").textContent = "";
     const details = document.getElementById("visualizer-details");
     details.replaceChildren();
 
@@ -641,14 +621,6 @@ function renderFileHeader(imageData, currentFace) {
 
 function getBaseName(fileName) {
     return String(fileName ?? "").split("/").pop() || "N/A";
-}
-
-/** Rebind face-button click events (since we used outerHTML to inject them). */
-function rebindFaceButtons(imageData, currentFace) {
-    for (const btn of document.querySelectorAll(".face-btn")) {
-        const face = btn.textContent.toLowerCase();
-        btn.addEventListener("click", () => displayImageInVisualizer(imageData, face));
-    }
 }
 
 function renderMetadataPanel(imageData, face) {
@@ -696,7 +668,13 @@ function appendMetadataRow(dl, key, value) {
     const dt = document.createElement("dt");
     dt.textContent = key;
     const dd = document.createElement("dd");
-    dd.textContent = value ?? "";
+    dd.className = "metadata-tags";
+    for (const item of asMetadataTags(value)) {
+        const tag = document.createElement("span");
+        tag.className = "metadata-tag";
+        tag.textContent = item;
+        dd.appendChild(tag);
+    }
     dl.appendChild(dt);
     dl.appendChild(dd);
 }
@@ -721,7 +699,7 @@ function appendTagSection(fragment, title, tags) {
 
     const tagList = document.createElement("div");
     tagList.className = "metadata-tags";
-    for (const tag of tags) {
+    for (const tag of dedupeValues(tags)) {
         const item = document.createElement("span");
         item.className = "metadata-tag";
         item.textContent = tag;
@@ -749,29 +727,27 @@ function getDublinCoreRows(imageData) {
     const metadata = imageData.metadata ?? {};
     const dc = new Map();
 
-    addDcValue(dc, "dc:identifier", imageData.id);
-    addDcValue(dc, "dc:identifier", metadata.Carton);
-    addDcValue(dc, "dc:title", metadata.Titre ?? metadata.Title);
-    addDcValue(dc, "dc:subject", metadata.Classe);
-    addDcValue(dc, "dc:subject", metadata.ClusterLabel);
-    addDcValue(dc, "dc:description", metadata.Commentaires ?? metadata.Description);
-    addDcValue(dc, "dc:type", metadata.Type);
-    addDcValue(dc, "dc:type", metadata.Conditionnement);
-    addDcValue(dc, "dc:format", getFormatValue(metadata));
-    addDcValue(dc, "dc:coverage", metadata.Pays);
-    addDcValue(dc, "dc:coverage", metadata["Pays / Region"] ?? metadata["Pays / RÃ©gion"]);
-    addDcValue(dc, "dc:coverage", metadata.Continent);
-    addDcValue(dc, "dc:coverage", metadata["Sous-region"] ?? metadata["Sous-rÃ©gion"]);
-    addDcValue(dc, "dc:source", metadata.Source);
-    addDcValue(dc, "dc:relation", metadata["Unique / Similaire"]);
-    addDcValue(dc, "dc:rights", metadata.Rights ?? metadata.License);
-    addDcValue(dc, "dc:date", metadata.Date ?? metadata.date);
-    addDcValue(dc, "dc:contributor", metadata.Contributor ?? metadata.contributor);
+    addDcValue(dc, "identifier", imageData.id);
+    addDcValue(dc, "identifier", metadata.Carton);
+    addDcValue(dc, "title", metadata.Titre ?? metadata.Title);
+    addDcValue(dc, "subject", metadata.Classe);
+    addDcValue(dc, "description", metadata.Commentaires ?? metadata.Description);
+    addDcValue(dc, "type", metadata.Type);
+    addDcValue(dc, "type", metadata.Conditionnement);
+    addDcValue(dc, "coverage", metadata.Pays);
+    addDcValue(dc, "coverage", metadata["Pays / Region"] ?? metadata["Pays / Région"]);
+    addDcValue(dc, "coverage", metadata.Continent);
+    addDcValue(dc, "coverage", metadata["Sous-region"] ?? metadata["Sous-région"]);
+    addDcValue(dc, "relation", metadata["Unique / Similaire"]);
+    addDcValue(dc, "rights", metadata.Rights ?? metadata.License);
+    addDcValue(dc, "date", metadata.Date ?? metadata.date);
+    addDcValue(dc, "contributor", metadata.Contributor ?? metadata.contributor);
 
-    const rows = [...dc.entries()].map(([key, values]) => [key, values.join(" / ")]);
+    const rows = [...dc.entries()];
+    addRowIfPresent(rows, "Cluster", getClusterValue(metadata));
     for (const [key, value] of Object.entries(metadata)) {
         if (isKnownMetadataKey(key) || isSizeMetadataKey(key)) continue;
-        addRowIfPresent(rows, `forbin:${key}`, value);
+        addRowIfPresent(rows, key, value);
     }
     return rows;
 }
@@ -787,29 +763,37 @@ function addDcValue(map, key, value) {
 
 function addRowIfPresent(rows, key, value) {
     if (!hasMetadataValue(value)) return;
-    rows.push([key, formatMetadataValue(value)]);
+    rows.push([key, asMetadataTags(value)]);
 }
 
-function getFormatValue(metadata) {
-    const parts = [];
-    if (metadata.width_px && metadata.height_px) {
-        parts.push(`${formatMetadataValue(metadata.width_px)} x ${formatMetadataValue(metadata.height_px)} px`);
-    }
-    if (metadata.dpi) parts.push(`${formatMetadataValue(metadata.dpi)} dpi`);
-    return parts.join(", ");
+function getClusterValue(metadata) {
+    if (!hasMetadataValue(metadata.ClusterLabel)) return metadata.Cluster;
+    if (!hasMetadataValue(metadata.Cluster)) return metadata.ClusterLabel;
+    return `${formatMetadataValue(metadata.Cluster)}: ${formatMetadataValue(metadata.ClusterLabel)}`;
 }
 
 function isKnownMetadataKey(key) {
     return new Set([
-        "Carton", "Titre", "Title", "Classe", "ClusterLabel", "Commentaires", "Description",
-        "Type", "Conditionnement", "Pays", "Pays / Region", "Pays / RÃ©gion",
-        "Continent", "Sous-region", "Sous-rÃ©gion", "Source", "Unique / Similaire",
+        "Carton", "Titre", "Title", "Classe", "Cluster", "ClusterLabel", "Commentaires", "Description",
+        "Type", "Conditionnement", "Pays", "Pays / Region", "Pays / Région", "Pays / RÃ©gion",
+        "Continent", "Sous-region", "Sous-région", "Sous-rÃ©gion", "Source", "Unique / Similaire",
         "Rights", "License", "Date", "date", "Contributor", "contributor"
     ]).has(key);
 }
 
 function isSizeMetadataKey(key) {
     return new Set(["dpi", "width_px", "height_px", "width_in", "height_in", "width_cm", "height_cm"]).has(key);
+}
+
+function asMetadataTags(value) {
+    if (Array.isArray(value)) return dedupeValues(value.map(formatMetadataValue).filter(Boolean));
+    if (value instanceof Set) return dedupeValues([...value].map(formatMetadataValue).filter(Boolean));
+    const formatted = formatMetadataValue(value);
+    return formatted ? [formatted] : [];
+}
+
+function dedupeValues(values) {
+    return [...new Set(values.map(value => String(value ?? "").trim()).filter(Boolean))];
 }
 
 function hasMetadataValue(value) {

@@ -913,6 +913,23 @@ body.map-page .popup-divider {
     min-height: 0;
 }
 
+#visualizer-title:empty,
+#visualizer-details:empty {
+    display: none;
+}
+
+#visualizer-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+body.explorer-page .explorer-tools:has(.prediction-controls:empty) {
+    display: none;
+}
+
 .image-viewer {
     flex: 1 1 auto;
     background: #f5f0ea;
@@ -925,6 +942,24 @@ body.map-page .popup-divider {
     position: relative;
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     min-height: 0;
+}
+
+.viewer-empty-state {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    color: #7b6b56;
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0;
+    pointer-events: none;
+}
+
+.viewer-empty-state.hidden {
+    display: none;
 }
 
 #img-wrapper {

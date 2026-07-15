@@ -2,26 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Download Forbin Dataset</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Search and download boxes from the Forbin Dataset.">
+    <title>Download — Forbin Dataset</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/refonte.css?v=download-research-20260713">
 </head>
-<body>
+<body class="download-page research-page">
+    <a class="skip-link" href="#downloads-table">Skip to downloads</a>
+    <header class="site-header" data-site-header></header>
 
+    <main id="main-content" class="download-main">
+        <header class="page-intro">
+            <p class="eyebrow">Research data</p>
+            <h1>Download the Forbin Dataset</h1>
+            <p>Access the full collection or search for a box by region and theme. Archives are distributed in <code>.tar</code> format.</p>
+            <a class="button button-primary" href="https://huggingface.co/datasets/mchelali/forbin_dataset" target="_blank" rel="noopener">Open the full dataset on Hugging Face</a>
+        </header>
 
-
-    <h1>The Forbin Dataset</h1>
-    <h2>A collection of historical photographs enriched with archival metadata and semantic annotations</h2>
-
-    <div class="container">
-        <div class="text-content">
-            <p>Download the whole dataset from Hugging Face: <a href="https://huggingface.co/datasets/mchelali/forbin_dataset" target="_blank">Download</a></p>
-            <p>Download the Forbin Dataset by selecting a subset below:</p>
-        </div>
-        <div class="step">
+        <section class="download-browser" aria-labelledby="download-browser-title">
+            <div class="download-toolbar">
+                <div>
+                    <p class="eyebrow">Download inventory</p>
+                    <h2 id="download-browser-title">Available boxes</h2>
+                    <p id="download-result-count" class="result-count" aria-live="polite">Loading inventory…</p>
+                </div>
+                <div class="download-filters">
+                    <div class="field-group">
+                        <label for="download-search">Search</label>
+                        <input id="download-search" type="search" placeholder="Box, country or theme" autocomplete="off">
+                    </div>
+                    <div class="field-group">
+                        <label for="download-category">Category</label>
+                        <select id="download-category"><option value="">All categories</option></select>
+                    </div>
+                    <div class="view-switcher" role="group" aria-label="Display mode">
+                        <button class="icon-button active" type="button" data-download-view="table" aria-pressed="true">Table</button>
+                        <button class="icon-button" type="button" data-download-view="compact" aria-pressed="false">Compact</button>
+                    </div>
+                </div>
+            </div>
+            <div id="download-empty" class="empty-state" hidden>No box matches these criteria.</div>
+            <div class="download-table-scroll">
             
-            <table class="table-container">
-                <thead><tr><th>Filename</th><th>Region/Theme</th><th>Link</th></tr></thead>
+            <table id="downloads-table" class="table-container download-table">
+                <thead><tr><th>Archive</th><th>Region or theme</th><th>Access</th></tr></thead>
                 <tbody>
                     <tr>
                         <td><code>SHDGR__GR_2_K_247_1.tar</code></td>
@@ -1559,17 +1588,12 @@
                         <td><a href="https://huggingface.co/datasets/mchelali/forbin_dataset/resolve/main/images/SHDGR__GR_2_K_247_99.tar?download=true" target="_blank">Download</a></td>
                     </tr>
                     </tbody>
-            </table>
-        
-        </div>
-    </div>
-<footer>
-    © 2025 — Forbin Project | Archives & Vision Initiative | ANR HIGH VISION (ANR-23-CE38-0001)<br>
-    Licensed under 
-    <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">
-        Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
-    </a>
-</footer>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer" data-site-footer></footer>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/download-filters.js"></script>
 </body>
 </html>
-

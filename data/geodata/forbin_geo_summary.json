@@ -1,0 +1,29 @@
+{
+  "input_json": "data/Forbin/forbin_all_enriched.json",
+  "output_dir": "data/Forbin/geo_outputs",
+  "generated_at": "2026-07-15T19:46:37.779783+00:00",
+  "metadata_key": "named_entities",
+  "geocoder": {
+    "provider": "local_geonames",
+    "index_path": "data/geonames/geonames_index.jsonl",
+    "fuzzy": 0.82,
+    "accept_score": 0.74,
+    "ambiguity_margin": 0.08,
+    "max_rows": 8
+  },
+  "statistics": {
+    "images": 62135,
+    "entities_total": 279757,
+    "entities_geographic": 180389,
+    "entities_unresolved": 76237,
+    "entities_ambiguous": 92691,
+    "entities_resolved": 11461,
+    "entities_non_geographic": 99368
+  },
+  "outputs": {
+    "mentions_geojson": "forbin_place_mentions.geojson",
+    "aggregated_places_geojson": "forbin_places_aggregated.geojson",
+    "place_document_index": "forbin_place_document_index.json",
+    "unresolved_entities": "forbin_unresolved_entities.jsonl"
+  }
+}

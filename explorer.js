@@ -15,8 +15,11 @@ let currentImageId = null;
 let currentImageData = null;
 let currentFace = "recto";
 let currentPage = 1;
-const PER_PAGE = 10;
+const PER_PAGE = 12;
 const CONFIG = window.FORBIN_CONFIG ?? {};
+const MANUAL_ANNOTATION_COLOR = "#238636";
+const MONKEY_OCR_COLOR = "#d97706";
+const PREDICTION_COLOR_PALETTE = ["#2d7dd2", "#8b5cf6", "#d1495b", "#008b8b", "#c2410c", "#7c3aed"];
 
 // ─── DOM refs (resolved once) ─────────────────────────────────────────────────
 
@@ -28,7 +31,16 @@ const galleryEl = document.getElementById("gallery");
 const paginationEl = document.getElementById("pagination");
 const cartonListEl = document.getElementById("carton-list");
 const cartonSearchEl = document.getElementById("carton-search");
+const cartonSortEl = document.getElementById("carton-sort");
 const searchEl = document.getElementById("search");
+const searchFieldEl = document.getElementById("search-field");
+const metadataCountryEl = document.getElementById("metadata-country");
+const metadataSubjectEl = document.getElementById("metadata-subject");
+const filterHasOcrEl = document.getElementById("filter-has-ocr");
+const filterHasAnnotationsEl = document.getElementById("filter-has-annotations");
+const filterHasVersoEl = document.getElementById("filter-has-verso");
+const metadataSearchStatusEl = document.getElementById("metadata-search-status");
+const clearMetadataFiltersEl = document.getElementById("clear-metadata-filters");
 const wrapperEl = document.getElementById("img-wrapper");
 const predictionControlsEl = document.getElementById("prediction-controls");
 const downloadCartonEl = document.getElementById("download-carton");
@@ -36,6 +48,55 @@ const modeNoteEl = document.getElementById("mode-note");
 const sampleModeLinkEl = document.getElementById("sample-mode-link");
 const streamModeLinkEl = document.getElementById("stream-mode-link");
 const viewerEmptyStateEl = document.getElementById("viewer-empty-state");
+const galleryTitleEl = document.getElementById("gallery-title");
+const galleryViewEl = document.getElementById("gallery-view");
+const visualizerEl = document.getElementById("visualizer");
+const documentPanelEl = document.getElementById("document-panel");
+const galleryFilterControls = [
+    searchEl,
+    searchFieldEl,
+    metadataCountryEl,
+    metadataSubjectEl,
+    filterHasOcrEl,
+    filterHasAnnotationsEl,
+    filterHasVersoEl,
+    clearMetadataFiltersEl
+].filter(Boolean);
+
+function setGalleryControlsEnabled(enabled) {
+    galleryFilterControls.forEach(control => {
+        control.disabled = !enabled;
+    });
+}
+
+function updateGalleryHeading() {
+    if (galleryTitleEl) galleryTitleEl.textContent = currentCarton || "Choose a box";
+}
+
+function showGalleryView() {
+    document.body.classList.add("explorer-gallery-mode");
+    document.body.classList.remove("explorer-document-mode");
+    galleryViewEl?.removeAttribute("aria-hidden");
+    visualizerEl?.setAttribute("aria-hidden", "true");
+    documentPanelEl?.setAttribute("aria-hidden", "true");
+    documentPanelEl?.classList.remove("mobile-open");
+    document.getElementById("archive-panel")?.classList.remove("mobile-open");
+    document.getElementById("toggle-archive-panel")?.setAttribute("aria-expanded", "false");
+    document.getElementById("toggle-metadata-panel")?.setAttribute("aria-expanded", "false");
+    updateGalleryHeading();
+    const breadcrumb = document.getElementById("archive-breadcrumb");
+    if (breadcrumb) breadcrumb.textContent = currentCarton ? `Forbin Collection / ${currentCarton}` : "Forbin Collection";
+}
+
+function showDocumentView() {
+    document.body.classList.remove("explorer-gallery-mode");
+    document.body.classList.add("explorer-document-mode");
+    galleryViewEl?.setAttribute("aria-hidden", "true");
+    visualizerEl?.removeAttribute("aria-hidden");
+    documentPanelEl?.removeAttribute("aria-hidden");
+    document.getElementById("archive-panel")?.classList.remove("mobile-open");
+    document.getElementById("toggle-archive-panel")?.setAttribute("aria-expanded", "false");
+}
 
 // ─── Zoom / Pan state ─────────────────────────────────────────────────────────
 
@@ -57,6 +118,7 @@ async function loadData() {
     }
     setupPredictionControls();
     renderCartonList();
+    await openExplorerFromUrlParams();
 }
 
 function getDatasetMode() {
@@ -109,7 +171,7 @@ function prepareCocoDataset(coco) {
     // Attach annotations and build search cache
     for (const d of data) {
         d.annotations = annsByImage[d.id] ?? [];
-        d._searchCache = buildSearchCache(d);   // pre-computed search string
+        prepareSearchIndex(d);
     }
 
     // Group by carton
@@ -120,11 +182,62 @@ function prepareCocoDataset(coco) {
     }
 }
 
-/** Pre-compute a lower-case searchable string per image (called once on load). */
-function buildSearchCache(d) {
-    const metaParts = Object.values(d.metadata ?? {}).join(" ");
-    const textParts = d.annotations.map(a => a.text ?? "").join(" ");
-    return (metaParts + " " + textParts).toLowerCase();
+function normalizeSearchText(value) {
+    return String(value ?? "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/[^\p{L}\p{N}]+/gu, " ")
+        .trim();
+}
+
+function joinSearchValues(...values) {
+    return normalizeSearchText(values.flat(Infinity).filter(value => value !== null && value !== undefined).join(" "));
+}
+
+function prepareSearchIndex(image) {
+    const metadata = image.metadata ?? {};
+    const annotations = image.annotations ?? [];
+    const fields = {
+        identifier: joinSearchValues(
+            image.id,
+            Object.values(image.file_names ?? {}),
+            metadata.Carton,
+            metadata.document_id,
+            metadata.Document,
+            metadata.Identifiant,
+            metadata.Cote
+        ),
+        title: joinSearchValues(metadata.Titre, metadata.Title),
+        country: joinSearchValues(
+            metadata.Pays,
+            metadata["Pays / Région"],
+            metadata["Pays / Region"],
+            metadata.Continent,
+            metadata["Sous-région"],
+            metadata["Sous-region"]
+        ),
+        subject: joinSearchValues(
+            metadata.Classe,
+            metadata.ClusterLabel,
+            metadata.Type,
+            metadata.Conditionnement
+        ),
+        description: joinSearchValues(metadata.Commentaires, metadata.Description),
+        ocr: joinSearchValues(annotations.map(annotation => annotation.text ?? ""))
+    };
+    fields.all = joinSearchValues(Object.values(metadata), Object.values(fields));
+    image._searchFields = fields;
+    image._searchCache = fields.all;
+}
+
+function parseSearchTerms(value) {
+    const matches = String(value ?? "").match(/"[^"]+"|\S+/g) ?? [];
+    return matches.map(term => normalizeSearchText(term.replace(/^"|"$/g, ""))).filter(Boolean);
+}
+
+function matchesAllTerms(haystack, terms) {
+    return terms.every(term => haystack.includes(term));
 }
 
 // ─── Zoom / Pan helpers ───────────────────────────────────────────────────────
@@ -203,54 +316,118 @@ svgEl.addEventListener("mouseup", () => interactionEnabled && handleMouseUp());
 function renderCartonList() {
     cartonListEl.innerHTML = "";
     const fragment = document.createDocumentFragment();
-    const cartonTerm = cartonSearchEl?.value.toLowerCase().trim() ?? "";
+    const cartonTerms = parseSearchTerms(cartonSearchEl?.value);
     const cartons = getDatasetMode() === "stream"
         ? streamCartons.map(entry => ({
             name: entry.carton,
             count: entry.images,
+            summary: [getIndexFacetLabel(entry.countries?.[0]), getIndexFacetLabel(entry.classes?.[0])].filter(Boolean).join(" · "),
             searchText: [
                 entry.carton,
-                ...(entry.countries ?? []).map(([label]) => label),
-                ...(entry.classes ?? []).map(([label]) => label)
-            ].join(" ").toLowerCase()
+                ...(entry.countries ?? []).map(getIndexFacetLabel),
+                ...(entry.classes ?? []).map(getIndexFacetLabel)
+            ].join(" ")
         }))
         : Object.keys(grouped).sort().map(carton => ({
             name: carton,
             count: grouped[carton].length,
-            searchText: carton.toLowerCase()
+            summary: [grouped[carton][0]?.metadata?.Pays, grouped[carton][0]?.metadata?.Classe].filter(Boolean).join(" · "),
+            searchText: [
+                carton,
+                ...grouped[carton].flatMap(image => Object.values(image.metadata ?? {}))
+            ].join(" ")
         }));
-    const visibleCartons = cartonTerm
-        ? cartons.filter(({ searchText }) => searchText.includes(cartonTerm))
+    const matchingCartons = cartonTerms.length
+        ? cartons.filter(({ searchText }) => matchesAllTerms(normalizeSearchText(searchText), cartonTerms))
         : cartons;
+    const visibleCartons = sortCartonEntries(matchingCartons, cartonSortEl?.value);
 
     if (visibleCartons.length === 0) {
-        cartonListEl.innerHTML = `<p class="placeholder-text compact">No boxes found.</p>`;
+        cartonListEl.innerHTML = `<p class="placeholder-text compact">No box found.</p>`;
         return;
     }
 
-    for (const { name: carton, count } of visibleCartons) {
-        const item = document.createElement("div");
+    for (const { name: carton, count, summary } of visibleCartons) {
+        const item = document.createElement("button");
+        item.type = "button";
         item.className = "carton-item" + (carton === currentCarton ? " active" : "");
-        item.textContent = `${carton} (${count})`;
+        item.dataset.carton = carton;
+        renderCartonItemContent(item, carton, count, summary);
 
         item.addEventListener("click", async () => {
             cartonListEl.querySelector(".active")?.classList.remove("active");
             item.classList.add("active");
             searchEl.value = "";
             currentCarton = carton;
+            currentImageId = null;
             currentPage = 1;
+            if (searchFieldEl) searchFieldEl.value = "all";
+            if (metadataCountryEl) metadataCountryEl.value = "";
+            if (metadataSubjectEl) metadataSubjectEl.value = "";
+            if (filterHasOcrEl) filterHasOcrEl.checked = false;
+            if (filterHasAnnotationsEl) filterHasAnnotationsEl.checked = false;
+            if (filterHasVersoEl) filterHasVersoEl.checked = false;
+            setGalleryControlsEnabled(true);
+            showGalleryView();
             updateDownloadLink();
             if (getDatasetMode() === "stream") {
-                item.textContent = `${carton} — chargement…`;
-                await loadStreamCarton(carton);
-                item.textContent = `${carton} (${count})`;
+                item.disabled = true;
+                item.classList.add("loading");
+                if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = `Loading images from box ${carton}…`;
+                try {
+                    await loadStreamCarton(carton);
+                } catch (error) {
+                    if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = `Unable to load the box: ${error.message}`;
+                    return;
+                } finally {
+                    item.disabled = false;
+                    item.classList.remove("loading");
+                }
             }
+            updateMetadataFilterOptions(grouped[carton] ?? []);
             renderGallery();
         });
 
         fragment.appendChild(item);
     }
     cartonListEl.appendChild(fragment);
+}
+
+function sortCartonEntries(cartons, sortMode = "archive-asc") {
+    const naturalCollator = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
+    const sorted = [...cartons];
+
+    sorted.sort((left, right) => {
+        if (sortMode === "archive-desc") return naturalCollator.compare(right.name, left.name);
+        if (sortMode === "images-desc") return (right.count ?? 0) - (left.count ?? 0) || naturalCollator.compare(left.name, right.name);
+        if (sortMode === "images-asc") return (left.count ?? 0) - (right.count ?? 0) || naturalCollator.compare(left.name, right.name);
+        if (sortMode === "description-asc") return naturalCollator.compare(left.summary || left.name, right.summary || right.name);
+        return naturalCollator.compare(left.name, right.name);
+    });
+
+    return sorted;
+}
+
+function getIndexFacetLabel(value) {
+    const label = Array.isArray(value) ? value[0] : value;
+    return String(label ?? "").replace(/\s+\d+$/, "").trim();
+}
+
+function renderCartonItemContent(item, carton, count, summary) {
+    item.replaceChildren();
+    const heading = document.createElement("span");
+    heading.className = "carton-item-heading";
+    heading.textContent = carton;
+    const total = document.createElement("span");
+    total.className = "carton-item-count";
+    total.textContent = `${count} image${count > 1 ? "s" : ""}`;
+    item.append(heading, total);
+    if (summary) {
+        const description = document.createElement("span");
+        description.className = "carton-item-summary";
+        description.textContent = summary;
+        item.appendChild(description);
+    }
 }
 
 async function loadStreamCarton(carton) {
@@ -273,7 +450,7 @@ async function loadStreamCarton(carton) {
         image.annotations = annotationsByImage[image.id] ?? [];
         image.detectedInstances = 0;
         image.detectedInstancesBySide = {};
-        image._searchCache = buildSearchCache(image);
+        prepareSearchIndex(image);
     }
 
     await loadStreamDetectionCounts(carton, images);
@@ -408,17 +585,82 @@ function updateDownloadLink(imageData = currentImageData) {
     }
 }
 
-// ─── Gallery ──────────────────────────────────────────────────────────────────
+// ─── Metadata search and gallery ─────────────────────────────────────────────
+
+function getMetadataFacetValues(images, keys) {
+    const values = new Set();
+    for (const image of images) {
+        for (const key of keys) {
+            const rawValue = image.metadata?.[key];
+            const items = Array.isArray(rawValue) ? rawValue : [rawValue];
+            for (const item of items) {
+                const value = String(item ?? "").trim();
+                if (value) values.add(value);
+            }
+        }
+    }
+    return [...values].sort((a, b) => a.localeCompare(b, "fr", { sensitivity: "base" }));
+}
+
+function populateMetadataSelect(select, values, emptyLabel) {
+    if (!select) return;
+    const previousValue = select.value;
+    select.replaceChildren();
+    const emptyOption = document.createElement("option");
+    emptyOption.value = "";
+    emptyOption.textContent = emptyLabel;
+    select.appendChild(emptyOption);
+    for (const value of values) {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = value;
+        select.appendChild(option);
+    }
+    if (values.includes(previousValue)) select.value = previousValue;
+}
+
+function updateMetadataFilterOptions(images) {
+    populateMetadataSelect(
+        metadataCountryEl,
+        getMetadataFacetValues(images, ["Pays", "Pays / Région", "Pays / Region", "Continent", "Sous-région", "Sous-region"]),
+        "All places"
+    );
+    populateMetadataSelect(
+        metadataSubjectEl,
+        getMetadataFacetValues(images, ["Classe", "ClusterLabel"]),
+        "All subjects"
+    );
+    if (metadataSearchStatusEl) {
+        metadataSearchStatusEl.textContent = `${images.length} image${images.length > 1 ? "s" : ""} in the selected box.`;
+    }
+}
+
+function imageMatchesMetadataFilters(image) {
+    const fields = image._searchFields ?? {};
+    const terms = parseSearchTerms(searchEl.value);
+    const selectedField = searchFieldEl?.value ?? "all";
+    const fieldText = fields[selectedField] ?? fields.all ?? "";
+    if (terms.length && !matchesAllTerms(fieldText, terms)) return false;
+
+    const country = normalizeSearchText(metadataCountryEl?.value);
+    if (country && !fields.country?.includes(country)) return false;
+
+    const subject = normalizeSearchText(metadataSubjectEl?.value);
+    if (subject && !fields.subject?.includes(subject)) return false;
+
+    if (filterHasOcrEl?.checked && !fields.ocr) return false;
+    if (filterHasAnnotationsEl?.checked && !(image.annotations?.length > 0)) return false;
+    if (filterHasVersoEl?.checked && !image.file_names?.verso) return false;
+    return true;
+}
 
 function getFilteredImages() {
-    const term = searchEl.value.toLowerCase().trim();
-    if (term === "") {
-        return currentCarton ? grouped[currentCarton] : null;
-    }
-    if (getDatasetMode() === "stream") {
-        return currentCarton ? (grouped[currentCarton] ?? []).filter(d => d._searchCache.includes(term)) : null;
-    }
-    return data.filter(d => d._searchCache.includes(term));
+    const source = currentCarton
+        ? grouped[currentCarton]
+        : getDatasetMode() === "stream"
+            ? null
+            : data;
+    return source ? source.filter(imageMatchesMetadataFilters) : null;
 }
 
 function renderGallery() {
@@ -428,12 +670,19 @@ function renderGallery() {
     const filtered = getFilteredImages();
 
     if (!filtered) {
-        galleryEl.innerHTML = `<p class="placeholder-text">Select a box or search for an image.</p>`;
+        if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = "Select a box on the left to browse its images.";
+        galleryEl.innerHTML = `<p class="placeholder-text">Select a box to display its image gallery.</p>`;
         return;
     }
     if (filtered.length === 0) {
-        galleryEl.innerHTML = `<p class="placeholder-text">No result found for your search.</p>`;
+        if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = "No image matches the active filters.";
+        galleryEl.innerHTML = `<p class="placeholder-text">No results found.</p>`;
         return;
+    }
+
+    if (metadataSearchStatusEl) {
+        const total = currentCarton ? (grouped[currentCarton]?.length ?? filtered.length) : data.length;
+        metadataSearchStatusEl.textContent = `${filtered.length} result${filtered.length > 1 ? "s" : ""} out of ${total} images.`;
     }
 
     const totalPages = Math.ceil(filtered.length / PER_PAGE);
@@ -447,15 +696,21 @@ function renderGallery() {
         const defaultFileName = d.file_names[defaultFace];
         const imgSrc = getThumbnailUrl(defaultFileName, d);
 
-        const item = document.createElement("div");
+        const item = document.createElement("button");
+        item.type = "button";
         item.className = "gallery-item" + (d.id === currentImageId ? " active" : "");
+        const title = d.metadata?.Titre ?? d.metadata?.Title ?? d.metadata?.Classe ?? "Untitled document";
+        const country = d.metadata?.Pays ?? "Not specified";
         item.innerHTML = `
-            <img src="${imgSrc}" alt="Thumbnail" loading="lazy"/>
+            <img src="${imgSrc}" alt="Document ${d.id} thumbnail" loading="lazy"/>
             <div class="item-info">
-                <b>ID: ${d.id}</b>
-                <span>Country: ${d.metadata.Pays ?? "N/A"}</span><br>
-                <span>Annotations: ${d.annotations.length}</span><br>
-                <span>Detected instances: ${d.detectedInstances ?? 0}</span>
+                <b>${title}</b>
+                <span class="gallery-card-id">ID ${d.id}</span>
+                <span class="gallery-card-place">${country}</span>
+                <span class="gallery-card-stats">
+                    <span>${d.annotations?.length ?? 0} annotations</span>
+                    <span>${d.detectedInstances ?? 0} detections</span>
+                </span>
             </div>`;
 
         item.addEventListener("click", () => {
@@ -524,7 +779,7 @@ function renderPagination(totalPages, totalItems, start, pageItemCount) {
 
     const summary = document.createElement("div");
     summary.className = "pagination-summary";
-    summary.textContent = `${start + 1}-${start + pageItemCount} of ${totalItems} images`;
+    summary.textContent = `${start + 1}–${start + pageItemCount} of ${totalItems} images`;
 
     const controls = document.createElement("div");
     controls.className = "pagination-controls";
@@ -533,7 +788,7 @@ function renderPagination(totalPages, totalItems, start, pageItemCount) {
     fragment.appendChild(createPageButton("First", 1, totalPages, {
         disabled: currentPage === 1
     }));
-    fragment.appendChild(createPageButton("Prev", currentPage - 1, totalPages, {
+    fragment.appendChild(createPageButton("Prev.", currentPage - 1, totalPages, {
         disabled: currentPage === 1
     }));
 
@@ -558,7 +813,127 @@ function renderPagination(totalPages, totalItems, start, pageItemCount) {
 
 // ─── Visualizer ───────────────────────────────────────────────────────────────
 
+async function openExplorerFromUrlParams() {
+    const params = new URLSearchParams(window.location.search);
+    const selection = {
+        imageId: params.get("image_id"),
+        documentId: params.get("document_id"),
+        face: params.get("face"),
+        file: params.get("file")
+    };
+
+    if (!selection.imageId && !selection.documentId && !selection.file) return;
+
+    const imageData = await findImageFromExplorerSelection(selection);
+    if (!imageData) {
+        galleryEl.innerHTML = `<p class="placeholder-text">Image referenced by the map could not be found.</p>`;
+        return;
+    }
+
+    const carton = getCartonFromImage(imageData);
+    if (carton && carton !== "Unknown") {
+        currentCarton = carton;
+        markActiveCarton(carton);
+        setGalleryControlsEnabled(true);
+        updateGalleryHeading();
+        updateMetadataFilterOptions(grouped[carton] ?? []);
+    }
+
+    const filtered = getFilteredImages() ?? [];
+    const index = filtered.findIndex((image) => image === imageData || image.id === imageData.id);
+    if (index >= 0) {
+        currentPage = Math.floor(index / PER_PAGE) + 1;
+    }
+
+    currentImageId = imageData.id;
+    renderGallery();
+    galleryEl.querySelector(".gallery-item.active")?.scrollIntoView({ block: "nearest" });
+    await displayImageInVisualizer(imageData, getSelectionFace(imageData, selection));
+}
+
+async function findImageFromExplorerSelection(selection) {
+    if (getDatasetMode() === "stream") {
+        const carton = getCartonFromSelection(selection);
+        if (!carton) return null;
+        await loadStreamCarton(carton);
+        currentCarton = carton;
+        return findImageInList(grouped[carton] ?? [], selection);
+    }
+
+    return findImageInList(data, selection);
+}
+
+function getCartonFromSelection(selection) {
+    if (selection.file) {
+        const firstSegment = String(selection.file).split("/")[0];
+        if (firstSegment) return firstSegment;
+    }
+
+    if (selection.documentId) {
+        const parts = String(selection.documentId).split("_");
+        if (parts.length > 2) {
+            return `${parts[0]}__${parts.slice(1, -1).join("_")}`;
+        }
+    }
+
+    return "";
+}
+
+function findImageInList(images, selection) {
+    if (!Array.isArray(images)) return null;
+
+    return images.find((image) => {
+        if (selection.file && imageHasFile(image, selection.file)) return true;
+        if (selection.documentId && imageMatchesDocumentId(image, selection.documentId)) return true;
+        if (selection.imageId && String(image.id) === String(selection.imageId)) return true;
+        return false;
+    }) ?? null;
+}
+
+function imageHasFile(image, filePath) {
+    const target = normalizeIdentifier(filePath);
+    return Object.values(image?.file_names ?? {}).some((fileName) => normalizeIdentifier(fileName) === target);
+}
+
+function imageMatchesDocumentId(image, documentId) {
+    const target = normalizeIdentifier(documentId);
+    const values = [
+        image?.id,
+        image?.metadata?.document_id,
+        image?.metadata?.Document,
+        image?.metadata?.Identifiant,
+        image?.metadata?.Cote,
+        ...Object.values(image?.file_names ?? {})
+    ];
+
+    return values.some((value) => normalizeIdentifier(value).includes(target));
+}
+
+function getSelectionFace(imageData, selection) {
+    if (selection.face && imageData?.file_names?.[selection.face]) return selection.face;
+
+    if (selection.file) {
+        const target = normalizeIdentifier(selection.file);
+        const match = Object.entries(imageData?.file_names ?? {})
+            .find(([, fileName]) => normalizeIdentifier(fileName) === target);
+        if (match) return match[0];
+    }
+
+    return getDefaultFace(imageData);
+}
+
+function markActiveCarton(carton) {
+    cartonListEl?.querySelectorAll(".carton-item").forEach((item) => {
+        item.classList.toggle("active", item.dataset.carton === carton);
+    });
+}
+
+function normalizeIdentifier(value) {
+    return String(value ?? "").toLowerCase().replace(/[^a-z0-9]/g, "");
+}
+
 async function displayImageInVisualizer(imageData, face) {
+    showDocumentView();
     currentImageData = imageData;
     currentFace = face;
     viewerEmptyStateEl?.classList.add("hidden");
@@ -629,7 +1004,7 @@ function renderMetadataPanel(imageData, face) {
     const metadataFragment = document.createDocumentFragment();
     const transcriptionFragment = document.createDocumentFragment();
 
-    appendTagSection(metadataFragment, "Size", getSizeTags(imageData.metadata ?? {}));
+    appendTagSection(metadataFragment, "Dimensions", getSizeTags(imageData.metadata ?? {}));
     appendMetadataList(metadataFragment, getDublinCoreRows(imageData));
 
     const forbinAnnotationTexts = getTextItemsForFace(imageData.annotations ?? [], face)
@@ -658,7 +1033,7 @@ function renderMetadataPanel(imageData, face) {
             text: prediction.text,
             matches: prediction.ocr_matches ?? []
         }));
-    appendTextSection(transcriptionFragment, "Predicted stamps with text predictions", predictionTexts, "text-prediction");
+    appendTextSection(transcriptionFragment, "Detected and transcribed stamps", predictionTexts, "text-prediction");
 
     metadataContent.replaceChildren(metadataFragment);
     transcriptionContent.replaceChildren(transcriptionFragment);
@@ -666,7 +1041,7 @@ function renderMetadataPanel(imageData, face) {
 
 function appendMetadataRow(dl, key, value) {
     const dt = document.createElement("dt");
-    dt.textContent = key;
+    dt.textContent = formatMetadataLabel(key);
     const dd = document.createElement("dd");
     dd.className = "metadata-tags";
     for (const item of asMetadataTags(value)) {
@@ -677,6 +1052,23 @@ function appendMetadataRow(dl, key, value) {
     }
     dl.appendChild(dt);
     dl.appendChild(dd);
+}
+
+function formatMetadataLabel(key) {
+    const labels = {
+        identifier: "Identifier",
+        title: "Title",
+        subject: "Subject",
+        description: "Description",
+        type: "Type",
+        coverage: "Place",
+        relation: "Relation",
+        rights: "Rights",
+        date: "Date",
+        contributor: "Contributor",
+        Cluster: "Document group"
+    };
+    return labels[key] ?? String(key).replace(/_/g, " ");
 }
 
 function appendMetadataList(fragment, rows) {
@@ -905,8 +1297,8 @@ function getTextPredictionTitle(annotation) {
 
 function getPredictionTitle(prediction) {
     const score = Number(prediction.score);
-    const scoreText = Number.isFinite(score) ? `score ${score.toFixed(2)}` : "prediction";
-    return `Stamp ${scoreText}`;
+    const scoreText = Number.isFinite(score) ? `confidence ${score.toFixed(2)}` : "prediction";
+    return `Stamp — ${scoreText}`;
 }
 
 function hasText(value) {
@@ -944,7 +1336,7 @@ function setupSVG(imageData, face) {
 
     applyTransform();
 
-    // Draw annotations and selected model predictions for this face
+    // Manual annotations are always green; every prediction model has its own color.
     const faceLower = face.toLowerCase();
     const anns = (imageData.annotations ?? []).filter(
         a => (a.source_face ?? "").toLowerCase() === faceLower
@@ -954,9 +1346,9 @@ function setupSVG(imageData, face) {
     for (const ann of anns) {
         const isTextPrediction = isMonkeyOcrItem(ann);
         appendAnnotationPolygons(frag, ann, {
-            stroke: isTextPrediction ? "#c83f3f" : "#d1a25c",
-            fill: isTextPrediction ? "rgba(200,63,63,0.20)" : "rgba(209,162,92,0.25)",
-            label: isTextPrediction ? "MonkeyOCR text prediction" : "Annotation"
+            stroke: isTextPrediction ? MONKEY_OCR_COLOR : MANUAL_ANNOTATION_COLOR,
+            fill: hexToRgba(isTextPrediction ? MONKEY_OCR_COLOR : MANUAL_ANNOTATION_COLOR, 0.22),
+            label: isTextPrediction ? "MonkeyOCR prediction" : "Manual annotation"
         });
     }
 
@@ -1004,6 +1396,9 @@ function appendAnnotationPolygons(fragment, annotation, style) {
 
         const poly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
         poly.setAttribute("points", pts.join(" "));
+        poly.setAttribute("tabindex", "0");
+        poly.setAttribute("role", "img");
+        poly.setAttribute("aria-label", formatOverlayLabel(style.label, annotation));
         poly.style.cssText = `stroke:${style.stroke};stroke-width:2px;fill:${style.fill};`;
         poly.dataset.text = formatOverlayLabel(style.label, annotation);
         poly.addEventListener("mouseenter", onPolygonEnter);
@@ -1033,45 +1428,41 @@ function setupPredictionControls() {
     predictionSources = {};
 
     const sources = CONFIG.predictionSources ?? [];
-    for (const source of sources) {
-        predictionSources[source.id] = { ...source, active: true };
-    }
-    predictionControlsEl.hidden = true;
-    return;
-
-    if (!sources.length) {
-        predictionControlsEl.hidden = true;
-        return;
-    }
-
     predictionControlsEl.hidden = false;
     const title = document.createElement("span");
     title.className = "prediction-title";
-    title.textContent = "Calques modèles";
+    title.textContent = "Color key";
     predictionControlsEl.appendChild(title);
 
-    for (const source of sources) {
-        predictionSources[source.id] = { ...source, active: Boolean(source.enabledByDefault) };
-        const label = document.createElement("label");
-        label.className = "prediction-toggle";
-        label.innerHTML = `
-            <input type="checkbox" ${source.enabledByDefault ? "checked" : ""}>
-            <span style="--layer-color:${source.color}">${source.label}</span>
-        `;
-        const checkbox = label.querySelector("input");
-        checkbox.addEventListener("change", async () => {
-            predictionSources[source.id].active = checkbox.checked;
-            if (checkbox.checked) {
-                await loadPredictionSource(source);
-                await loadActiveStreamPredictions();
-            }
-            if (currentImageData) {
-                renderMetadataPanel(currentImageData, currentFace);
-                setupSVG(currentImageData, currentFace);
-            }
-        });
-        predictionControlsEl.appendChild(label);
-    }
+    appendOverlayLegendItem("Manual annotations", MANUAL_ANNOTATION_COLOR, "manual");
+    appendOverlayLegendItem("MonkeyOCR predictions", MONKEY_OCR_COLOR, "prediction");
+
+    const usedColors = new Set([MANUAL_ANNOTATION_COLOR.toLowerCase(), MONKEY_OCR_COLOR.toLowerCase()]);
+    sources.forEach((source, index) => {
+        const requestedColor = String(source.color || "").toLowerCase();
+        const fallbackColor = PREDICTION_COLOR_PALETTE.find(color => !usedColors.has(color.toLowerCase()))
+            || PREDICTION_COLOR_PALETTE[index % PREDICTION_COLOR_PALETTE.length];
+        const color = requestedColor && !usedColors.has(requestedColor) ? source.color : fallbackColor;
+        usedColors.add(color.toLowerCase());
+        predictionSources[source.id] = { ...source, color, active: true };
+        appendOverlayLegendItem(source.label, color, "prediction");
+    });
+}
+
+function appendOverlayLegendItem(label, color, kind) {
+    const item = document.createElement("span");
+    item.className = "overlay-legend-item";
+    item.dataset.overlayKind = kind;
+
+    const swatch = document.createElement("span");
+    swatch.className = "overlay-legend-swatch";
+    swatch.style.setProperty("--layer-color", color);
+    swatch.setAttribute("aria-hidden", "true");
+
+    const text = document.createElement("span");
+    text.textContent = label;
+    item.append(swatch, text);
+    predictionControlsEl.appendChild(item);
 }
 
 async function loadPredictionSource(source) {
@@ -1158,15 +1549,49 @@ function debounce(fn, delay) {
     return (...args) => { clearTimeout(timer); timer = setTimeout(() => fn(...args), delay); };
 }
 
-searchEl.addEventListener("input", debounce(() => {
+const refreshMetadataResults = debounce(() => {
     currentPage = 1;
     renderGallery();
-}, 200));
+}, 180);
+
+searchEl.addEventListener("input", refreshMetadataResults);
+
+[searchFieldEl, metadataCountryEl, metadataSubjectEl, filterHasOcrEl, filterHasAnnotationsEl, filterHasVersoEl]
+    .filter(Boolean)
+    .forEach(element => element.addEventListener("change", () => {
+        currentPage = 1;
+        renderGallery();
+    }));
+
+clearMetadataFiltersEl?.addEventListener("click", () => {
+    searchEl.value = "";
+    if (searchFieldEl) searchFieldEl.value = "all";
+    if (metadataCountryEl) metadataCountryEl.value = "";
+    if (metadataSubjectEl) metadataSubjectEl.value = "";
+    if (filterHasOcrEl) filterHasOcrEl.checked = false;
+    if (filterHasAnnotationsEl) filterHasAnnotationsEl.checked = false;
+    if (filterHasVersoEl) filterHasVersoEl.checked = false;
+    currentPage = 1;
+    renderGallery();
+    searchEl.focus();
+});
+
+document.getElementById("back-to-gallery")?.addEventListener("click", () => {
+    showGalleryView();
+    galleryEl.querySelector(".gallery-item.active")?.focus({ preventScroll: true });
+});
 
 cartonSearchEl?.addEventListener("input", debounce(() => {
     renderCartonList();
 }, 120));
 
+cartonSortEl?.addEventListener("change", () => {
+    renderCartonList();
+    cartonListEl.querySelector(".carton-item.active")?.scrollIntoView({ block: "nearest" });
+});
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 
+setGalleryControlsEnabled(false);
+showGalleryView();
 loadData();

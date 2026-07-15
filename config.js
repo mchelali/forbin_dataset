@@ -16,9 +16,8 @@ window.FORBIN_CONFIG = {
     predictionSources: [
         {
             id: "stamp-detector",
-            label: "Model Predictions",
+            label: "Stamp detector predictions",
             color: "#2d7dd2",
-            enabledByDefault: false,
             url: "data/forbin_detections.json",
             imagesUrl: "data/forbin_infer_all.json",
             matchBy: "file_name",

@@ -1,77 +1,200 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Explore Forbin Dataset</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore the boxes, images, metadata and annotations of the Forbin Dataset.">
+  <title>Explorer — Forbin Dataset</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=viewer-empty-20260616">
+  <link rel="stylesheet" href="styles/refonte.css?v=box-sorting-20260715">
 </head>
+<body class="explorer-page research-page explorer-gallery-mode">
+  <a class="skip-link" href="#explorer-main-stage">Skip to the workspace</a>
+  <header class="site-header" data-site-header></header>
 
-<body class="explorer-page">
-  <div class="container">
-    <div class="main-layout">
-      <div class="sidebar">
-        <p>
-          List of boxes containing <strong id="total-count">0</strong> images.
-        </p>
-        <div class="mode-switcher" aria-label="Browsing mode selection">
-          <a id="sample-mode-link" href="explorer.html?mode=sample">Local Subset</a>
-          <a id="stream-mode-link" href="explorer.html?mode=stream">Full Dataset</a>
-        </div>
-
-        <input id="carton-search" placeholder="Filter boxes" />
-        <div id="carton-list" class="carton-list"></div>
-        <input id="search" placeholder="Search metadata" />
-
-        <div id="gallery">
-          <p class="placeholder-text">Please select a box or search.</p>
-        </div>
-        <div id="pagination"></div>
-      </div>
-
-      <div class="visualizer" id="visualizer">
-        <div class="visualizer-header">
-          <h2 id="visualizer-title"></h2>
-          <div id="visualizer-details"></div>
-          <div class="explorer-tools">
-            <div id="prediction-controls" class="prediction-controls" aria-label="Prediction layers"></div>
-          </div>
-        </div>
-
-        <div class="image-viewer">
-          <div id="viewer-empty-state" class="viewer-empty-state">Please select an image to display</div>
-          <div id="img-wrapper">
-            <img id="main-img" alt="Please select an image to display" />
-            <svg id="main-svg">
-              <g id="svg-g-group"></g>
-            </svg>
-          </div>
-        </div>
-
-        <div class="info-panels">
-          <div id="metadata-panel" class="meta-panel">
-            <h3>Metadata</h3>
-            <div id="metadata-content"></div>
-          </div>
-          <div id="transcription-panel" class="meta-panel transcription-panel">
-            <h3>Transcriptions</h3>
-            <div id="transcription-content"></div>
-          </div>
-        </div>
+  <main class="explorer-shell">
+    <div class="workspace-topbar">
+      <button id="toggle-archive-panel" class="icon-button mobile-panel-toggle" type="button" aria-controls="archive-panel" aria-expanded="false">Collection</button>
+      <nav id="archive-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">Forbin Collection</nav>
+      <div class="document-navigation" aria-label="Document navigation">
+        <button id="previous-document" class="icon-button" type="button" disabled aria-label="Previous document">←</button>
+        <button id="next-document" class="icon-button" type="button" disabled aria-label="Next document">→</button>
+        <button id="toggle-metadata-panel" class="icon-button mobile-panel-toggle" type="button" aria-controls="document-panel" aria-expanded="false">Information</button>
       </div>
     </div>
-  </div>
 
-  
-  <div id="tooltip"></div>
-  <footer>
-    © 2025 Forbin Project | Archives & Vision Initiative | ANR HIGH VISION (ANR-23-CE38-0001)<br>
-    Licensed under 
-    <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">
-        Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
-    </a>
-  </footer>
+    <div class="research-workspace">
+      <aside id="archive-panel" class="archive-panel" aria-label="Collection navigation">
+        <div class="panel-heading">
+          <p class="eyebrow">Forbin Collection</p>
+          <p><strong id="total-count">0</strong> indexed images</p>
+        </div>
+
+        <div class="browse-modes" aria-label="Exploration mode">
+          <a id="sample-mode-link" href="explorer.html?mode=sample">Local subset</a>
+          <a id="stream-mode-link" href="explorer.html?mode=stream">Full collection</a>
+        </div>
+
+        <div class="field-group">
+          <label for="carton-search">Search the box inventory</label>
+          <input id="carton-search" type="search" placeholder="Box, country or subject" autocomplete="off">
+        </div>
+
+        <div class="field-group box-sort-field">
+          <label for="carton-sort">Sort boxes</label>
+          <select id="carton-sort">
+            <option value="archive-asc">Archive number: ascending</option>
+            <option value="archive-desc">Archive number: descending</option>
+            <option value="images-desc">Image count: highest first</option>
+            <option value="images-asc">Image count: lowest first</option>
+            <option value="description-asc">Country or subject: A–Z</option>
+          </select>
+        </div>
+
+        <section class="archive-section" aria-labelledby="cartons-heading">
+          <div class="section-label-row">
+            <h2 id="cartons-heading">Boxes</h2>
+            <span class="section-hint">Archival structure</span>
+          </div>
+          <div id="carton-list" class="carton-list"></div>
+        </section>
+      </aside>
+
+      <div id="explorer-main-stage" class="explorer-main-stage">
+        <section id="gallery-view" class="collection-gallery-view" aria-labelledby="gallery-title">
+          <header class="gallery-view-header">
+            <div>
+              <p class="eyebrow">Selected box</p>
+              <h1 id="gallery-title">Choose a box</h1>
+              <p id="metadata-search-status" class="filter-status" aria-live="polite">Select a box on the left to browse its images.</p>
+            </div>
+          </header>
+
+          <section class="gallery-search-panel" aria-labelledby="metadata-search-heading">
+            <div class="gallery-primary-search">
+              <div class="field-group global-search-field">
+                <label for="search" id="metadata-search-heading">Search images in this box</label>
+                <input id="search" type="search" placeholder="Title, place, subject, OCR…" autocomplete="off" disabled>
+              </div>
+              <div class="field-group">
+                <label for="search-field">Search field</label>
+                <select id="search-field" disabled>
+                  <option value="all">All metadata</option>
+                  <option value="identifier">Identifier and filename</option>
+                  <option value="title">Title</option>
+                  <option value="country">Place</option>
+                  <option value="subject">Subject and class</option>
+                  <option value="description">Description</option>
+                  <option value="ocr">OCR and transcriptions</option>
+                </select>
+              </div>
+              <button id="clear-metadata-filters" class="icon-button" type="button" disabled>Clear filters</button>
+            </div>
+
+            <details class="gallery-advanced-filters">
+              <summary>More filters</summary>
+              <div class="metadata-filter-grid">
+                <div class="field-group">
+                  <label for="metadata-country">Country or region</label>
+                  <select id="metadata-country" disabled><option value="">All places</option></select>
+                </div>
+                <div class="field-group">
+                  <label for="metadata-subject">Subject</label>
+                  <select id="metadata-subject" disabled><option value="">All subjects</option></select>
+                </div>
+              </div>
+              <div class="availability-filters" role="group" aria-label="Enrichment availability">
+                <label><input id="filter-has-ocr" type="checkbox" disabled> OCR or transcription</label>
+                <label><input id="filter-has-annotations" type="checkbox" disabled> Annotations</label>
+                <label><input id="filter-has-verso" type="checkbox" disabled> Reverse side</label>
+              </div>
+            </details>
+          </section>
+
+          <section class="gallery-results" aria-labelledby="documents-heading">
+            <div class="section-label-row">
+              <h2 id="documents-heading">Images</h2>
+              <span class="section-hint">Select an image to open the document</span>
+            </div>
+            <div id="gallery" class="image-gallery-grid">
+              <p class="placeholder-text">Select a box to display its image gallery.</p>
+            </div>
+            <div id="pagination"></div>
+          </section>
+        </section>
+
+        <section class="visualizer" id="visualizer" aria-label="Document viewer">
+          <div class="visualizer-header">
+            <div class="visualizer-heading">
+              <button id="back-to-gallery" class="text-button back-to-gallery" type="button">← Back to gallery</button>
+              <h1 id="visualizer-title"></h1>
+              <div id="visualizer-details" aria-label="Document sides"></div>
+            </div>
+            <div class="viewer-actions" aria-label="Viewer controls">
+              <button id="reset-view" class="icon-button" type="button" title="Fit the image to the screen">Fit</button>
+              <button id="fullscreen-view" class="icon-button" type="button" title="Display the viewer in full screen">Full screen</button>
+            </div>
+            <div class="explorer-tools">
+              <div id="prediction-controls" class="prediction-controls" aria-label="Annotation and prediction color key"></div>
+            </div>
+          </div>
+
+          <div class="image-viewer">
+            <div id="viewer-empty-state" class="viewer-empty-state">
+              <span>Select a document to display its image</span>
+              <small>Full-collection images are loaded on demand from Sharedocs.</small>
+            </div>
+            <div id="img-wrapper">
+              <img id="main-img" alt="Selected archival document">
+              <svg id="main-svg" aria-label="Annotation layer">
+                <g id="svg-g-group"></g>
+              </svg>
+            </div>
+          </div>
+          <p class="viewer-help">Scroll to zoom · Drag to pan · Hover over an area to view its annotation</p>
+        </section>
+      </div>
+
+      <aside id="document-panel" class="document-panel" aria-label="Document information">
+        <div class="document-panel-header">
+          <div>
+            <p class="eyebrow">Selected document</p>
+            <h2>Information</h2>
+          </div>
+          <div class="document-quick-actions">
+            <button id="copy-document-id" class="icon-button" type="button" disabled>Copy identifier</button>
+            <a id="open-document-map" class="icon-button is-disabled" href="map.html" aria-disabled="true">View on map</a>
+          </div>
+        </div>
+
+        <div class="document-sections">
+          <details class="metadata-disclosure" open>
+            <summary>Archival metadata</summary>
+            <div id="metadata-panel" class="meta-panel">
+              <div id="metadata-content"><p class="empty-inline">No document selected.</p></div>
+            </div>
+          </details>
+          <details class="metadata-disclosure" open>
+            <summary>OCR, transcriptions and predictions</summary>
+            <div id="transcription-panel" class="meta-panel transcription-panel">
+              <div id="transcription-content"><p class="empty-inline">Related text will appear here.</p></div>
+            </div>
+          </details>
+        </div>
+        <p id="document-action-status" class="status-message" role="status" aria-live="polite"></p>
+      </aside>
+    </div>
+  </main>
+
+  <div id="tooltip" role="tooltip"></div>
+  <footer class="site-footer compact-footer" data-site-footer></footer>
+  <script src="scripts/navigation.js"></script>
   <script src="config.js?v=sharedocs-20260604"></script>
-  <script src="explorer.js?v=viewer-empty-20260616"></script>
+  <script src="explorer.js?v=box-sorting-20260715"></script>
+  <script src="scripts/explorer-ui.js?v=central-gallery-20260715"></script>
 </body>
 </html>

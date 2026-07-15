@@ -1,89 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Image Circulation in Forbin Dataset</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
-    <!-- <script src="https://unpkg.com/@mapbox/mapbox-gl-rtl-text@0.2.3/mapbox-gl-rtl-text.js"></script> -->
-    <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
-    <script src="https://unpkg.com/@openhistoricalmap/maplibre-gl-dates@1.3.0/index.js"></script>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore places, image circulation and geographic conflicts in the Forbin Dataset.">
+  <title>Historical Map — Forbin Dataset</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet">
+  <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+  <script src="https://unpkg.com/@openhistoricalmap/maplibre-gl-dates@1.3.0/index.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/refonte.css?v=research-map-20260713">
 </head>
-<body class="map-page">
+<body class="map-page research-page">
+  <a class="skip-link" href="#map">Skip to the map</a>
+  <header class="site-header" data-site-header></header>
 
-  <div class="container">
-    <!-- <header class="page-heading">
-      <h1>Historical Mapping</h1>
-      <p>View Open Historical Map and explore travelers' routes.</p>
-    </header> -->
-
+  <main class="map-workspace">
+    <button id="toggle-map-panel" class="icon-button map-panel-toggle" type="button" aria-controls="map-sidebar" aria-expanded="false">Filters and legend</button>
     <div class="main-layout">
-      <aside class="sidebar">
-        <div id="leftPanel" class="left-panel hidden">
-          <div class="left-header">
-            <span id="leftTitle">Traveler</span>
-            <div class="ornament">✦ ✦ ✦</div>
-            <button id="closeLeftPanel">✕</button>
+      <aside id="map-sidebar" class="sidebar map-sidebar" aria-label="Map controls">
+        <div id="mapControls" class="map-controls">
+          <div class="panel-heading">
+            <p class="eyebrow">Collection geography</p>
+            <h1>Historical map</h1>
+            <p>Explore archival places, OCR-extracted places and their discrepancies.</p>
           </div>
 
-          <div id="leftContent">
-            <p>Select a traveler to display details.</p>
+          <div class="control-section layer-controls" role="group" aria-labelledby="layers-title">
+            <h2 id="layers-title">Layers</h2>
+            <label><input type="checkbox" id="toggleMetadataCircles" checked> <span class="legend-dot metadata"></span>Archival metadata</label>
+            <label><input type="checkbox" id="toggleOcrOverlay"> <span class="legend-dot ocr"></span>OCR-detected places</label>
+            <label><input type="checkbox" id="toggleConflicts" checked> <span class="legend-dot conflict"></span>Metadata / OCR conflicts</label>
           </div>
+
+          <div class="control-section field-group">
+            <label for="searchPlace">Search</label>
+            <input type="search" id="searchPlace" placeholder="Place, document or image" autocomplete="off">
+          </div>
+
+          <details class="control-section filters metadata-disclosure" open>
+            <summary>Advanced filters</summary>
+            <div class="filter-item">
+              <label for="minGeoNamesScore">GeoNames confidence <span id="minGeoNamesScoreVal">0.00</span></label>
+              <input type="range" id="minGeoNamesScore" min="0" max="1" step="0.05" value="0">
+              <span class="filter-desc">Hide places below this confidence score.</span>
+            </div>
+            <div class="filter-item">
+              <label for="minImageCount">Minimum image count <span id="minImageCountVal">1</span></label>
+              <input type="range" id="minImageCount" min="1" max="500" step="5" value="1">
+            </div>
+            <div class="filter-item">
+              <label for="filterMetadataKind">Place type</label>
+              <select id="filterMetadataKind"><option value="">All types</option></select>
+            </div>
+          </details>
+
+          <div class="control-section conflicts-explorer">
+            <button type="button" id="toggleConflictsPanel" class="section-toggle-btn" aria-expanded="false">
+              <span>Conflicts to review</span>
+              <span id="conflictBadgeCount" class="badge">0</span>
+            </button>
+            <div id="conflictsListContainer" class="conflicts-list-container hidden">
+              <div id="conflictsList" class="conflicts-list"></div>
+            </div>
+          </div>
+
+          <div class="control-section map-stats" id="mapStats" role="status" aria-live="polite">Loading data…</div>
+
+          <div class="control-section legend" aria-label="Legend">
+            <h2>Legend</h2>
+            <div><span class="legend-dot metadata"></span> Metadata</div>
+            <div><span class="legend-dot ocr"></span> OCR</div>
+            <div><span class="legend-dot conflict"></span> Possible conflict</div>
+            <div><span class="legend-dot validation"></span> Validated data</div>
+          </div>
+        </div>
+
+        <div id="leftPanel" class="left-panel hidden" aria-label="Place details">
+          <div class="left-header">
+            <span id="leftTitle">Place details</span>
+            <div class="ornament" aria-hidden="true">· · ·</div>
+            <button id="closeLeftPanel" class="icon-button" type="button" aria-label="Close panel">Close</button>
+          </div>
+          <div id="leftContent"><p>Select a place to display its details.</p></div>
         </div>
       </aside>
 
-      <main class="visualizer map-panel">
-        <!-- <div class="visualizer-header map-header">
-          <h2>Carte Open Historical Map</h2>
-          <p>Style historique ouvert avec les trajets des voyageurs.</p>
-        </div> -->
-
+      <section class="visualizer map-panel" aria-label="OpenHistoricalMap map">
         <div id="map" class="map-canvas">
-          <svg id="compass" width="120" height="120" viewBox="0 0 70 70">
-
-            <!-- Shorter arrows -->
+          <svg id="compass" width="88" height="88" viewBox="0 0 70 70" aria-label="Compass rose">
             <polygon points="36,10 39,28 36,25 33,28" fill="#3d2010"/>
-            <polygon points="36,62 39,44 36,47 33,44" fill="#3d2010" opacity="0.45"/>
-            <polygon points="10,36 28,39 25,36 28,33" fill="#3d2010" opacity="0.45"/>
-            <polygon points="62,36 44,39 47,36 44,33" fill="#3d2010" opacity="0.45"/>
-
-            <!-- Adjusted axes -->
-            <line x1="36" y1="10" x2="36" y2="62" stroke="#3d2010" stroke-width="0.5" opacity="0.3"/>
-            <line x1="10" y1="36" x2="62" y2="36" stroke="#3d2010" stroke-width="0.5" opacity="0.3"/>
-
-            <!-- Center -->
-            <circle cx="36" cy="36" r="7" fill="none" stroke="#3d2010" stroke-width="1.5"/>
+            <polygon points="36,62 39,44 36,47 33,44" fill="#3d2010" opacity="0.35"/>
+            <polygon points="10,36 28,39 25,36 28,33" fill="#3d2010" opacity="0.35"/>
+            <polygon points="62,36 44,39 47,36 44,33" fill="#3d2010" opacity="0.35"/>
+            <circle cx="36" cy="36" r="7" fill="none" stroke="#3d2010" stroke-width="1.2"/>
             <circle cx="36" cy="36" r="2.5" fill="#3d2010"/>
-
-            <!-- Better-positioned letters -->
-            <text x="36" y="6" text-anchor="middle" font-size="10" fill="#3d2010" font-family="serif" font-weight="bold">N</text>
-            <text x="36" y="70" text-anchor="middle" font-size="9" fill="#3d2010" font-family="serif" opacity="0.7">S</text>
-            <text x="6"  y="39" text-anchor="middle" font-size="9" fill="#3d2010" font-family="serif" opacity="0.7">W</text>
-            <text x="66" y="39" text-anchor="middle" font-size="9" fill="#3d2010" font-family="serif" opacity="0.7">E</text>
-
+            <text x="36" y="7" text-anchor="middle" font-size="10" fill="#3d2010" font-family="serif" font-weight="bold">N</text>
           </svg>
         </div>
-        <div id="map-loading"><span>Loading map style...</span></div>
-
-        <div id="timeline" class="timeline">
+        <div id="map-loading"><span>Loading the historical basemap…</span></div>
+        <div id="timeline" class="timeline" aria-label="Historical map period">
           <span id="dateLabel"></span>
-          <input type="range" id="dateSlider" min="-500" max="2026" step="5" value="1900">
+          <input type="range" id="dateSlider" min="-500" max="2026" step="5" value="1900" aria-label="Historical map year">
+          <button type="button" id="btnEraForbin" class="small-action" title="Show the Victor Forbin period, 1868–1947">Forbin era</button>
+          <span class="timeline-help-icon" title="This slider changes the OpenHistoricalMap background period." aria-label="Timeline help">i</span>
         </div>
-      </main>
+      </section>
     </div>
-  </div>
+  </main>
 
-
-
-  <footer>
-    © 2025 — Forbin Project | Archives & Vision Initiative | ANR HIGH VISION (ANR-23-CE38-0001)<br>
-    Licensed under 
-    <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">
-        Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
-    </a>
-</footer>
+  <footer class="site-footer compact-footer" data-site-footer></footer>
+  <script src="scripts/navigation.js"></script>
   <script src="map.js"></script>
-  <script src="stamps.js"></script> 
+  <script src="scripts/map-ui.js"></script>
 </body>
 </html>

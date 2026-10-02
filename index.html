@@ -3,125 +3,390 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="The Forbin Dataset: photographic archives, metadata and annotations for research.">
-  <title>Forbin Dataset — Photographic Archives</title>
+  <!-- Title, description and keywords exist in English and French (i18n/translations.js, keys meta.home.*);
+       the text below is the English fallback used when scripts are not run. -->
+  <title data-i18n="meta.home.title">Forbin Dataset — Historical Photographs and Stamp Detection</title>
+  <meta name="description" data-i18n-attr="content:meta.home.description" content="Forbin Dataset: 62,135 historical photographs with archival metadata, OCR and stamp detection annotations for historical document analysis and computer vision.">
+  <meta name="keywords" data-i18n-attr="content:meta.home.keywords" content="Forbin, Victor Forbin, Forbin Dataset, historical photographs, historical documents, stamp detection, stamp recognition, OCR, handwritten text recognition, archival metadata, COCO annotations, document analysis, document layout analysis, computer vision, visual heritage, cultural heritage, digital humanities, news photo agency, press photography, recto verso, image dataset, Service historique de la Défense, HIGH VISION, photographies historiques, documents historiques, détection de tampons, reconnaissance de tampons, reconnaissance d'écriture manuscrite, métadonnées d'archives, annotations COCO, analyse de documents, vision par ordinateur, patrimoine visuel, humanités numériques, agence de photographie de presse, photographie de presse, jeu de données d'images">
+  <meta name="author" content="Mohamed Chelali, Sylvain-Karl Gosselet, Florence Cloppet, Camille Kurtz, Isabelle Bloch, Daniel Foliard">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="theme-color" content="#f7f3ec">
+  <link rel="alternate" hreflang="en" href="https://mchelali.github.io/forbin_dataset/">
+  <link rel="alternate" hreflang="fr" href="https://mchelali.github.io/forbin_dataset/?lang=fr">
+  <link rel="alternate" hreflang="x-default" href="https://mchelali.github.io/forbin_dataset/">
+  <link rel="sitemap" type="application/xml" href="sitemap.xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Forbin Dataset">
+  <meta property="og:title" data-i18n-attr="content:meta.home.title" content="Forbin Dataset — Historical Photographs and Stamp Detection">
+  <meta property="og:description" data-i18n-attr="content:meta.home.description" content="Forbin Dataset: 62,135 historical photographs with archival metadata, OCR and stamp detection annotations for historical document analysis and computer vision.">
+  <meta property="og:url" content="https://mchelali.github.io/forbin_dataset/">
+  <meta property="og:image" content="https://mchelali.github.io/forbin_dataset/assets/forbin-portrait.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="900">
+  <meta property="og:image:height" content="1271">
+  <meta property="og:image:alt" data-i18n-attr="content:meta.image.alt" content="Recolorized portrait of Victor Forbin, explorer and photographer">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" data-i18n-attr="content:meta.home.title" content="Forbin Dataset — Historical Photographs and Stamp Detection">
+  <meta name="twitter:description" data-i18n-attr="content:meta.home.description" content="Forbin Dataset: 62,135 historical photographs with archival metadata, OCR and stamp detection annotations for historical document analysis and computer vision.">
+  <meta name="twitter:image" content="https://mchelali.github.io/forbin_dataset/assets/forbin-portrait.jpg">
+  <meta name="twitter:image:alt" data-i18n-attr="content:meta.image.alt" content="Recolorized portrait of Victor Forbin, explorer and photographer">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preload" as="image" href="assets/forbin-portrait.webp" type="image/webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="styles/refonte.css">
+  <link rel="stylesheet" href="styles/refonte.css?v=home-20261002">
+  <script src="i18n/translations.js?v=i18n-20260930"></script>
+  <script src="scripts/i18n.js?v=i18n-20260930"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Forbin Dataset",
+    "alternateName": [
+      "FORBIN Dataset",
+      "The FORBIN Dataset: A Collection of Historical Photographs With Archival Metadata",
+      "Forbin Dataset : une collection de photographies historiques avec métadonnées d'archives"
+    ],
+    "description": "The Forbin Dataset is a collection of 62,135 historical photographs (120,106 recto and verso images) from the personal archives of Victor Forbin (1868–1947), explorer, photographer and writer, held by the Service historique de la Défense (reference GR 2 K 247). Each photograph pairs its recto and verso with archival metadata (places, subjects, box), OCR transcriptions of captions, annotated press-agency stamps, dates and signatures, and automatic stamp detection predictions. Annotations follow the COCO format for historical document analysis, text recognition, stamp detection and computer vision research. Le Forbin Dataset réunit 62 135 photographies historiques du fonds Victor Forbin (Service historique de la Défense) avec métadonnées d'archives, transcriptions OCR, tampons annotés et détection automatique de tampons.",
+    "url": "https://mchelali.github.io/forbin_dataset/",
+    "identifier": "https://doi.org/10.57967/hf/7189",
+    "sameAs": ["https://doi.org/10.57967/hf/7189", "https://huggingface.co/datasets/mchelali/forbin_dataset"],
+    "datePublished": "2025-12-09",
+    "keywords": [
+      "Forbin", "Victor Forbin", "historical photographs", "historical documents", "stamp detection", "stamp recognition",
+      "OCR", "handwritten text recognition", "archival metadata", "COCO annotations", "document analysis",
+      "document layout analysis", "computer vision", "visual heritage", "cultural heritage", "digital humanities",
+      "news photo agency", "press photography", "recto verso", "image dataset", "First World War", "colonial photography",
+      "photographies historiques", "documents historiques", "détection de tampons", "reconnaissance de tampons",
+      "reconnaissance d'écriture manuscrite", "métadonnées d'archives", "annotations COCO", "analyse de documents",
+      "vision par ordinateur", "patrimoine visuel", "patrimoine culturel", "humanités numériques",
+      "agence de photographie de presse", "photographie de presse", "jeu de données d'images"
+    ],
+    "inLanguage": ["en", "fr"],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "isAccessibleForFree": true,
+    "image": "https://mchelali.github.io/forbin_dataset/assets/forbin-portrait.jpg",
+    "creator": [
+      { "@type": "Person", "name": "Mohamed Chelali", "sameAs": "https://orcid.org/0000-0002-0173-7368", "affiliation": { "@type": "Organization", "name": "Université Paris Cité, CNRS, ECHELLES" } },
+      { "@type": "Person", "name": "Sylvain-Karl Gosselet", "sameAs": "https://orcid.org/0009-0008-3545-229X", "affiliation": { "@type": "Organization", "name": "Université Paris Cité, CNRS, ECHELLES" } },
+      { "@type": "Person", "name": "Florence Cloppet", "sameAs": "https://orcid.org/0000-0002-4807-299X", "affiliation": { "@type": "Organization", "name": "Université Paris Cité, LIPADE" } },
+      { "@type": "Person", "name": "Camille Kurtz", "sameAs": "https://orcid.org/0000-0001-9254-7537", "affiliation": { "@type": "Organization", "name": "Université Paris Cité, LIPADE" } },
+      { "@type": "Person", "name": "Isabelle Bloch", "sameAs": "https://orcid.org/0000-0002-6984-1532", "affiliation": { "@type": "Organization", "name": "Sorbonne Université, CNRS, LIP6" } },
+      { "@type": "Person", "name": "Daniel Foliard", "sameAs": "https://orcid.org/0000-0001-6400-1801", "affiliation": { "@type": "Organization", "name": "Université Paris Cité, CNRS, ECHELLES" } }
+    ],
+    "funder": {
+      "@type": "Organization",
+      "name": "Agence nationale de la recherche (ANR)",
+      "url": "https://anr.fr/"
+    },
+    "funding": {
+      "@type": "Grant",
+      "identifier": "ANR-24-CE38-4079",
+      "name": "HIGH VISION — Histoire des agences d'images et vision par ordinateur",
+      "url": "https://anr.fr/Projet-ANR-24-CE38-4079",
+      "funder": { "@type": "Organization", "name": "Agence nationale de la recherche (ANR)" }
+    },
+    "about": {
+      "@type": "Person",
+      "name": "Victor Forbin",
+      "birthDate": "1868",
+      "deathDate": "1947",
+      "description": "French explorer, photographer and writer"
+    },
+    "isBasedOn": {
+      "@type": "ArchiveComponent",
+      "name": "Victor Forbin photographs (GR 2 K 247)",
+      "holdingArchive": {
+        "@type": "ArchiveOrganization",
+        "name": "Service historique de la Défense",
+        "url": "https://www.servicehistorique.sga.defense.gouv.fr/"
+      }
+    },
+    "citation": {
+      "@type": "ScholarlyArticle",
+      "name": "The FORBIN Dataset: A Collection of Historical Photographs With Archival Metadata",
+      "datePublished": "2026",
+      "isPartOf": { "@type": "Periodical", "name": "Journal of Open Humanities Data" },
+      "sameAs": "https://doi.org/10.5334/johd.487"
+    },
+    "distribution": [
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "application/x-tar",
+        "contentUrl": "https://huggingface.co/datasets/mchelali/forbin_dataset"
+      },
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://huggingface.co/datasets/mchelali/forbin_dataset/resolve/main/annotations/forbin_annotations.json"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Forbin Dataset",
+    "alternateName": ["Forbin", "FORBIN Dataset", "Forbin Dataset — photographies historiques"],
+    "url": "https://mchelali.github.io/forbin_dataset/",
+    "inLanguage": ["en", "fr"],
+    "publisher": {
+      "@type": "Organization",
+      "name": "HIGH VISION (ANR-24-CE38-4079)",
+      "url": "https://highvision.hypotheses.org"
+    }
+  }
+  </script>
 </head>
 <body class="home-page">
-  <a class="skip-link" href="#main-content">Skip to content</a>
+  <a class="skip-link" href="#main-content" data-i18n="skip.content">Skip to content</a>
   <header class="site-header" data-site-header></header>
 
   <main id="main-content">
     <section class="home-hero" aria-labelledby="home-title">
       <div class="home-hero-copy">
-        <p class="eyebrow">Photographic archives · Digital humanities</p>
-        <h1 id="home-title">The Forbin Dataset</h1>
-        <p class="home-lead">A collection of historical photographs enriched with archival metadata, transcriptions and semantic annotations.</p>
+        <p class="eyebrow" data-i18n="home.eyebrow">Historical photographs · Document analysis · Digital humanities</p>
+        <h1 id="home-title" data-i18n="home.title">The Forbin Dataset</h1>
+        <p class="home-lead" data-i18n="home.lead">More than 62,000 historical photographs from the archives of Victor Forbin, enriched with archival metadata, transcriptions, annotated stamps and automatic stamp detection.</p>
         <div class="action-row">
-          <a class="button button-primary" href="explorer.html?mode=stream">Explore the collection</a>
+          <a class="button button-primary" href="explorer.html?mode=stream" data-i18n="home.explore">Explore the collection</a>
           <!-- <a class="button button-secondary" href="map.html">Browse the map</a> -->
-          <a class="text-link" href="download.html">Download the data</a>
+          <a class="text-link" href="download.html" data-i18n="home.download">Download the data</a>
         </div>
+        <a class="hero-archive-holder" href="#archive-holder">
+          <img src="assets/logos/shd.png" alt="" width="331" height="360">
+          <span><small data-i18n="home.holder.small">Original archives held by</small>Service historique de la Défense</span>
+        </a>
       </div>
       <figure class="home-portrait">
-        <div class="portrait-frame"><img src="forbin_recolorized.png" alt="Recolorized portrait of Victor Forbin"></div>
-        <figcaption>Victor Forbin (1868–1947), explorer, photographer and writer.</figcaption>
+        <!-- Cut-out portrait (transparent WebP): the hat rises above the frame drawn in CSS. -->
+        <div class="portrait-frame">
+          <img src="assets/forbin-portrait.webp" width="900" height="1271" fetchpriority="high" data-i18n-attr="alt:meta.image.alt" alt="Recolorized portrait of Victor Forbin, explorer and photographer">
+        </div>
+        <figcaption data-i18n="home.portrait.caption">Victor Forbin (1868–1947), explorer, photographer and writer.</figcaption>
       </figure>
     </section>
 
-    <section class="home-metrics" aria-label="Key figures">
-      <div><strong>256</strong><span>archive boxes</span></div>
-      <div><strong>2</strong><span>document sides, recto and verso</span></div>
-      <div><strong>COCO</strong><span>computer-vision-ready annotations</span></div>
-      <div><strong>CC BY-NC 4.0</strong><span>distribution license</span></div>
+    <section class="home-metrics" data-i18n-attr="aria-label:home.metrics.label" aria-label="Key figures">
+      <div><strong data-i18n="home.facts.photosValue">62,135</strong><span data-i18n="home.metrics.photos">historical photographs</span></div>
+      <div><strong data-i18n="home.facts.imagesValue">120,106</strong><span data-i18n="home.facts.images">images, recto and verso</span></div>
+      <div><strong>256</strong><span data-i18n="home.metrics.boxes">archive boxes</span></div>
+      <div><strong>CC BY-NC 4.0</strong><span data-i18n="home.metrics.license">distribution license</span></div>
+    </section>
+
+    <section class="research-section collection-story" aria-labelledby="forbin-title">
+      <div>
+        <p class="eyebrow" data-i18n="home.facts.story.eyebrow">The collection</p>
+        <h2 id="forbin-title" data-i18n="home.facts.story.title">Victor Forbin and his news picture agency</h2>
+      </div>
+      <div class="research-columns">
+        <p data-i18n-html="home.facts.story.text">Victor Forbin began as a journalist in the 1880s, writing for <em>Excelsior</em>, the <em>Journal des Voyages</em>, the <em>Revue des deux mondes</em> and <em>L’Illustration</em>. In the early twentieth century he set up his own news picture agency: he bought prints in London, Berlin, Rome and New York and sold them to the main French newspapers. Its activity peaked in the 1910s and 1920s.</p>
+        <ol class="archive-structure" data-i18n-attr="aria-label:home.facts.structure.label" aria-label="How the archive is organized">
+          <li><strong data-i18n="home.facts.structure.box">Boxes</strong><span data-i18n="home.facts.structure.boxText">256 digitized, sorted by geographical area, about 240 photographs each</span></li>
+          <li><strong data-i18n="home.facts.structure.envelope">Envelopes</strong><span data-i18n="home.facts.structure.envelopeText">Photographs grouped by theme</span></li>
+          <li><strong data-i18n="home.facts.structure.photo">Photographs</strong><span data-i18n="home.facts.structure.photoText">Each one digitized on both sides, recto and verso</span></li>
+        </ol>
+      </div>
     </section>
 
     <section class="editorial-section" aria-labelledby="three-dimensions">
       <div class="section-heading">
-        <p class="eyebrow">One collection, three perspectives</p>
-        <h2 id="three-dimensions">From historical documents to research data</h2>
+        <p class="eyebrow" data-i18n="home.perspectives.eyebrow">One collection, three perspectives</p>
+        <h2 id="three-dimensions" data-i18n="home.perspectives.title">From historical documents to research data</h2>
       </div>
       <div class="dimension-grid">
         <article>
           <span class="dimension-number">01</span>
-          <h3>Heritage</h3>
-          <p>Digitized facsimiles from Victor Forbin’s personal archives, preserved within their archival organization.</p>
+          <h3 data-i18n="home.heritage.title">Heritage</h3>
+          <p data-i18n="home.heritage.text">Digitized photographic prints from Victor Forbin's personal archives, preserved by the Service historique de la Défense within their original archival organization.</p>
         </article>
         <article>
           <span class="dimension-number">02</span>
-          <h3>Research</h3>
-          <p>Searchable metadata, places, subjects and transcriptions for history, photography and digital humanities.</p>
+          <h3 data-i18n="home.research.title">Research</h3>
+          <p data-i18n="home.research.text">Searchable metadata, places, subjects, captions and press-agency stamps for history, the history of photography and digital humanities.</p>
         </article>
         <article>
           <span class="dimension-number">03</span>
-          <h3>Computational data</h3>
-          <p>COCO polygons, OCR output and model predictions for document analysis and computer vision.</p>
+          <h3 data-i18n="home.computational.title">Computational data</h3>
+          <p data-i18n="home.computational.text">COCO polygons, OCR output and stamp detection predictions for historical document analysis and computer vision.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="editorial-section tasks-section" aria-labelledby="tasks-title">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.tasks.eyebrow">Research tasks</p>
+        <h2 id="tasks-title" data-i18n="home.tasks.title">A benchmark for historical document analysis</h2>
+      </div>
+      <div class="dimension-grid tasks-grid is-six">
+        <article>
+          <h3 data-i18n="home.tasks.stamps.title">Stamp detection</h3>
+          <p data-i18n="home.tasks.stamps.text">Photo agency and archive stamps are annotated on the verso of the prints, with model predictions for stamp detection and recognition.</p>
+        </article>
+        <article>
+          <h3 data-i18n="home.tasks.ocr.title">OCR and handwriting</h3>
+          <p data-i18n="home.tasks.ocr.text">Typed and handwritten captions, titles, dates and signatures are located and transcribed for text recognition on historical documents.</p>
+        </article>
+        <article>
+          <h3 data-i18n="home.tasks.recto.title">Recto–verso linking</h3>
+          <p data-i18n="home.tasks.recto.text">Each photograph pairs the image side with its annotated back, linking visual content with its archival and editorial history.</p>
+        </article>
+        <article>
+          <h3 data-i18n="home.facts.tasks.caption.title">Captioning and similarity search</h3>
+          <p data-i18n="home.facts.tasks.caption.text">Paired images, texts and metadata support caption generation, image similarity search and metadata enrichment.</p>
+        </article>
+        <article>
+          <h3 data-i18n="home.facts.tasks.circulation.title">Circulation in the press</h3>
+          <p data-i18n="home.facts.tasks.circulation.text">Visual similarity and archival metadata help trace how photographs were reused and republished.</p>
+        </article>
+        <article>
+          <h3 data-i18n="home.facts.tasks.degradation.title">Degradation analysis</h3>
+          <p data-i18n="home.facts.tasks.degradation.text">Faded ink, stains and bleed-through offer a realistic test of robustness for recognition models.</p>
         </article>
       </div>
     </section>
 
     <section class="research-section" aria-labelledby="research-title">
       <div>
-        <p class="eyebrow">Digital research desk</p>
-        <h2 id="research-title">Study images, their context and their circulation</h2>
+        <p class="eyebrow" data-i18n="home.desk.eyebrow">Digital research desk</p>
+        <h2 id="research-title" data-i18n="home.desk.title">Study images, their context and their circulation</h2>
       </div>
       <div class="research-columns">
-        <p>The explorer preserves each document’s archival path, from its box to its recto or verso. Full-collection images are loaded on demand from Sharedocs using JSON manifests.</p>
+        <p data-i18n="home.desk.text">The explorer preserves each document's archival path, from its box to its recto or verso. Full-collection images are loaded on demand from Huma-Num Sharedocs using JSON manifests.</p>
         <ul>
-          <li>Search metadata and transcriptions</li>
-          <li>Compare annotations and predictions</li>
-          <li>Analyze places and geographic conflicts</li>
-          <li>Reuse structured data for research</li>
+          <li data-i18n="home.desk.item1">Search metadata and transcriptions</li>
+          <li data-i18n="home.desk.item2">Compare annotations and predictions</li>
+          <li data-i18n="home.desk.item3">Zoom into recto and verso details</li>
+          <li data-i18n="home.desk.item4">Reuse structured data for research</li>
         </ul>
       </div>
     </section>
 
-    <section id="documentation" class="citation-section" aria-labelledby="citation-title">
+    <section id="documentation" class="editorial-section dataset-card" aria-labelledby="dataset-title">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.facts.card.eyebrow">Documentation</p>
+        <h2 id="dataset-title" data-i18n="home.facts.card.title">The dataset at a glance</h2>
+      </div>
+      <dl class="fact-grid">
+        <div><dt data-i18n="home.facts.card.holder">Archive holder</dt><dd data-i18n-html="home.facts.card.holderValue">Service historique de la Défense, series <span class="archive-reference">GR 2 K 247</span></dd></div>
+        <div><dt data-i18n="home.facts.card.content">Content</dt><dd data-i18n="home.facts.card.contentValue">62,135 photographs, 120,106 images (recto and verso)</dd></div>
+        <div><dt data-i18n="home.facts.card.digitization">Digitization</dt><dd data-i18n="home.facts.card.digitizationValue">By Azentis, at 300 dpi, with Canon 5DSR and Fujifilm GFX 100 S cameras</dd></div>
+        <div><dt data-i18n="home.facts.card.metadata">Metadata</dt><dd data-i18n="home.facts.card.metadataValue">Class, continent, subject or country and sizes; 674 original labels grouped into 30 themes (in French)</dd></div>
+        <div><dt data-i18n="home.facts.card.formats">Formats</dt><dd data-i18n="home.facts.card.formatsValue">JPEG images and COCO-style JSON</dd></div>
+        <div><dt data-i18n="home.facts.card.files">File names</dt><dd data-i18n-html="home.facts.card.filesValue"><code>SHDGR__GR_2_K_247_157_010__0001.jpg</code>: box 157, photograph 010, <code>0001</code> recto, <code>0002</code> verso</dd></div>
+        <div><dt data-i18n="home.facts.card.languages">Languages</dt><dd data-i18n="home.facts.card.languagesValue">French and English</dd></div>
+        <div><dt data-i18n="home.facts.card.license">License</dt><dd>CC BY-NC 4.0</dd></div>
+        <div><dt data-i18n="home.facts.card.published">Published</dt><dd data-i18n="home.facts.card.publishedValue">9 December 2025</dd></div>
+        <div><dt data-i18n="home.facts.card.doi">Dataset DOI</dt><dd><a class="text-link" href="https://doi.org/10.57967/hf/7189" target="_blank" rel="noopener">10.57967/hf/7189</a></dd></div>
+      </dl>
+    </section>
+
+    <section id="citation" class="citation-section" aria-labelledby="citation-title">
       <div>
-        <p class="eyebrow">Documentation and citation</p>
-        <h2 id="citation-title">Cite the dataset</h2>
-        <p>The collection combines images, archival metadata and annotations designed for reproducible research.</p>
+        <p class="eyebrow" data-i18n="home.facts.citation.eyebrow">Citation</p>
+        <h2 id="citation-title" data-i18n="home.facts.citation.title">Cite the article or the dataset</h2>
+        <p data-i18n="home.citation.text">The collection combines images, archival metadata and annotations designed for reproducible research.</p>
       </div>
       <div class="citation-block">
-        <div class="citation-actions">
-          <button id="copy-citation" class="icon-button" type="button" aria-label="Copy the BibTeX reference">Copy BibTeX</button>
-          <a class="button button-doi" href="https://doi.org/10.5334/johd.487" target="_blank" rel="noopener">Read the publication · DOI</a>
-        </div>
-        <pre><code id="bibtex">@article{Chelali2026_forbin,
+        <div class="citation-item">
+          <div class="citation-actions">
+            <span class="citation-label" data-i18n="home.facts.citation.article">Article</span>
+            <button class="icon-button" type="button" data-copy-target="bibtex" data-i18n="home.citation.copy" data-i18n-attr="aria-label:home.citation.copyLabel" aria-label="Copy the BibTeX reference">Copy BibTeX</button>
+            <a class="button button-doi" href="https://doi.org/10.5334/johd.487" target="_blank" rel="noopener" data-i18n="home.citation.doi">Read the publication · DOI</a>
+          </div>
+          <pre><code id="bibtex">@article{Chelali2026_forbin,
   author = {Chelali, Mohamed and Gosselet, Sylvain-Karl and Cloppet, Florence and Kurtz, Camille and Bloch, Isabelle and Foliard, Daniel},
   doi = {10.5334/johd.487},
   journal = {Journal of Open Humanities Data},
   title = {The FORBIN Dataset: A Collection of Historical Photographs With Archival Metadata},
   year = {2026}
 }</code></pre>
+        </div>
+        <div class="citation-item">
+          <div class="citation-actions">
+            <span class="citation-label" data-i18n="home.facts.citation.dataset">Dataset</span>
+            <button class="icon-button" type="button" data-copy-target="bibtex-dataset" data-i18n="home.citation.copy" data-i18n-attr="aria-label:home.citation.copyLabel" aria-label="Copy the BibTeX reference">Copy BibTeX</button>
+            <a class="button button-doi" href="https://doi.org/10.57967/hf/7189" target="_blank" rel="noopener" data-i18n="home.facts.citation.datasetDoi">Open the dataset · DOI</a>
+          </div>
+          <pre><code id="bibtex-dataset">@misc{Chelali2025_forbin_dataset,
+  author = {Chelali, Mohamed and Gosselet, Sylvain-Karl and Cloppet, Florence and Kurtz, Camille and Bloch, Isabelle and Foliard, Daniel},
+  title = {Forbin Dataset},
+  year = {2025},
+  publisher = {Hugging Face},
+  doi = {10.57967/hf/7189},
+  url = {https://doi.org/10.57967/hf/7189}
+}</code></pre>
+        </div>
         <p id="copy-status" class="status-message" role="status" aria-live="polite"></p>
       </div>
     </section>
 
     <section id="about" class="about-section" aria-labelledby="about-title">
-      <p class="eyebrow">About</p>
-      <h2 id="about-title">Archives &amp; Vision Initiative</h2>
-      <p>The Forbin Dataset is developed within the ANR HIGH VISION project (ANR-23-CE38-0001), at the intersection of cultural heritage and computational document analysis.</p>
+      <p class="eyebrow" data-i18n="home.about.eyebrow">About</p>
+      <h2 id="about-title" data-i18n="home.about.title">HIGH VISION — Computer vision for a history of early news photo agencies</h2>
+      <p data-i18n-html="home.about.text">The Forbin Dataset is produced within the <a class="text-link" href="https://highvision.hypotheses.org" target="_blank" rel="noopener">ANR HIGH VISION project</a> (ANR-24-CE38-4079), which brings together historians and computer vision researchers to study the birth of an international visual culture through the archives of early news photo agencies: Forbin, Rol, Bain News and Black Star.</p>
+      <p class="credits" data-i18n="home.facts.credits">Dataset created by Mohamed Chelali, Sylvain-Karl Gosselet and Daniel Foliard (ECHELLES), Florence Cloppet and Camille Kurtz (LIPADE), and Isabelle Bloch (LIP6). With thanks to everyone who contributed to annotation and to identifying the circulation of photographs, in particular Sihem Yousfi and Marie-Louise Kitoko.</p>
+    </section>
+
+    <section class="partners-section" data-i18n-attr="aria-label:home.partners.label" aria-label="Archive holder and partners">
+      <article id="archive-holder" class="archive-holder" aria-labelledby="archive-holder-title">
+        <a class="archive-holder-logo" href="https://www.servicehistorique.sga.defense.gouv.fr/" target="_blank" rel="noopener">
+          <img src="assets/logos/shd.png" alt="Service historique de la Défense (SHD)" width="331" height="360" loading="lazy">
+        </a>
+        <div>
+          <p class="eyebrow" data-i18n="home.holder.eyebrow">Archive holder</p>
+          <h2 id="archive-holder-title">Service historique de la Défense</h2>
+          <p data-i18n-html="home.holder.text">The original photographs of Victor Forbin are preserved by the Service historique de la Défense (SHD), under the reference <span class="archive-reference">GR 2 K 247</span>. The SHD holds these archives; the images published here are digitized reproductions made available for research.</p>
+          <a class="text-link" href="https://www.servicehistorique.sga.defense.gouv.fr/" target="_blank" rel="noopener" data-i18n="home.holder.link">Visit the SHD website</a>
+        </div>
+      </article>
+
+      <div class="consortium" aria-labelledby="consortium-title">
+        <div class="consortium-heading">
+          <a href="https://highvision.hypotheses.org" target="_blank" rel="noopener"><img src="assets/logos/highvision.jpg" data-i18n-attr="alt:home.consortium.logoAlt" alt="HIGH VISION project website" width="228" height="320" loading="lazy"></a>
+          <div>
+            <p class="eyebrow" data-i18n="home.consortium.eyebrow">Research consortium</p>
+            <h3 id="consortium-title">ANR HIGH VISION</h3>
+            <p data-i18n="home.consortium.text">The dataset is produced by the HIGH VISION consortium, which brings together computer science laboratories, historians and heritage institutions.</p>
+            <a class="text-link" href="https://highvision.hypotheses.org" target="_blank" rel="noopener" data-i18n="home.consortium.link">Visit the HIGH VISION website</a>
+          </div>
+        </div>
+        <ul class="partner-logos" data-i18n-attr="aria-label:home.consortium.partners" aria-label="Consortium partners">
+          <li><img src="assets/logos/echelles.png" alt="Échelles — UMR 8264" width="375" height="160" loading="lazy"></li>
+          <li><img src="assets/logos/lipade.png" alt="LIPADE — Université Paris Cité" width="335" height="79" loading="lazy"></li>
+          <li><img src="assets/logos/lip6.png" alt="LIP6" width="177" height="160" loading="lazy"></li>
+          <li><img src="assets/logos/cnrs.png" alt="CNRS" width="160" height="160" loading="lazy"></li>
+          <li><img src="assets/logos/archives-nationales.png" alt="Archives nationales" width="551" height="141" loading="lazy"></li>
+          <li><img src="assets/logos/bhvp.png" alt="Bibliothèque historique de la Ville de Paris" width="593" height="160" loading="lazy"></li>
+        </ul>
+        <p class="funding">
+          <a href="https://anr.fr/Projet-ANR-24-CE38-4079" target="_blank" rel="noopener"><img src="assets/logos/anr.png" alt="Agence nationale de la recherche (ANR)" width="454" height="160" loading="lazy"></a>
+          <span data-i18n="home.funding">Funded by the French National Research Agency under grant ANR-24-CE38-4079.</span>
+        </p>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer" data-site-footer></footer>
-  <script src="scripts/navigation.js"></script>
+  <script src="scripts/navigation.js?v=i18n-20260930"></script>
   <script>
-    document.getElementById('copy-citation').addEventListener('click', async () => {
-      const citation = document.getElementById('bibtex').textContent;
-      const status = document.getElementById('copy-status');
-      try {
-        await navigator.clipboard.writeText(citation);
-        status.textContent = 'Reference copied to the clipboard.';
-      } catch (error) {
-        status.textContent = 'Automatic copying is unavailable. Select the reference manually.';
-      }
+    document.querySelectorAll('[data-copy-target]').forEach(button => {
+      button.addEventListener('click', async () => {
+        const citation = document.getElementById(bureplaced 1
+tton.dataset.copyTarget).textContent;
+        const status = document.getElementById('copy-status');
+        try {
+          await navigator.clipboard.writeText(citation);
+          status.textContent = t('home.citation.copied');
+        } catch (error) {
+          status.textContent = t('home.citation.copyFailed');
+        }
+      });
     });
   </script>
 </body>

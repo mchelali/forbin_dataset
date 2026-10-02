@@ -116,6 +116,13 @@ code, pre, .metadata-list dd, .item-info b { font-family: var(--font-mono); }
 .site-navigation a:hover, .site-navigation a.active { color: var(--text-primary); }
 .site-navigation a.active::after { position: absolute; right: 18%; bottom: 0; left: 18%; height: 2px; background: var(--accent-archive); content: ""; }
 .nav-toggle { display: none; border: 0; background: transparent; color: var(--text-primary); font-weight: 600; }
+.site-navigation { margin-left: auto; }
+.language-switcher { display: flex; flex: none; padding: 2px; border: 1px solid var(--border-soft); border-radius: 999px; }
+.language-switcher button { min-width: 34px; min-height: 28px; padding: 2px 8px; border: 0; border-radius: 999px; background: transparent; color: var(--text-secondary); font: 600 0.7rem/1 var(--font-interface); letter-spacing: 0.06em; cursor: pointer; }
+.language-switcher button:hover { color: var(--text-primary); }
+.language-switcher button.active { background: var(--accent-archive); color: #fff; }
+/* Set by scripts/i18n.js until a non-English page is translated. */
+html.i18n-pending body { visibility: hidden; }
 
 .site-footer { width: 100%; margin-top: auto; padding: 0; background: var(--text-primary); color: #eee7dc; opacity: 1; }
 .site-footer-inner { display: flex; width: min(1400px, 100%); margin: auto; padding: 25px 30px; justify-content: space-between; gap: 30px; font-size: 0.78rem; }
@@ -454,7 +461,8 @@ body.download-page .table-container a:hover { background: var(--accent-archive);
 
 @media (max-width: 900px) {
   .site-header-inner { padding: 0 18px; }
-  .nav-toggle { display: block; min-height: 44px; }
+  .nav-toggle { display: block; min-height: 44px; margin-left: auto; }
+  .site-header-inner { gap: 14px; }
   .site-navigation { position: absolute; top: 100%; right: 0; left: 0; display: none; height: auto; padding: 10px 18px 18px; align-items: stretch; flex-direction: column; gap: 0; border-bottom: 1px solid var(--border-soft); background: var(--background-surface); }
   .site-navigation.open { display: flex; }
   .site-navigation a { min-height: 44px; }

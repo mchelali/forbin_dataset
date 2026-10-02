@@ -70,7 +70,7 @@ function setGalleryControlsEnabled(enabled) {
 }
 
 function updateGalleryHeading() {
-    if (galleryTitleEl) galleryTitleEl.textContent = currentCarton || "Choose a box";
+    if (galleryTitleEl) galleryTitleEl.textContent = currentCarton || t("explorer.chooseBox");
 }
 
 function showGalleryView() {
@@ -85,7 +85,7 @@ function showGalleryView() {
     document.getElementById("toggle-metadata-panel")?.setAttribute("aria-expanded", "false");
     updateGalleryHeading();
     const breadcrumb = document.getElementById("archive-breadcrumb");
-    if (breadcrumb) breadcrumb.textContent = currentCarton ? `Forbin Collection / ${currentCarton}` : "Forbin Collection";
+    if (breadcrumb) breadcrumb.textContent = currentCarton ? `${t("explorer.forbinCollection")} / ${currentCarton}` : t("explorer.forbinCollection");
 }
 
 function showDocumentView() {
@@ -431,7 +431,7 @@ function renderCartonList() {
     const visibleCartons = sortCartonEntries(matchingCartons, cartonSortEl?.value);
 
     if (visibleCartons.length === 0) {
-        cartonListEl.innerHTML = `<p class="placeholder-text compact">No box found.</p>`;
+        cartonListEl.innerHTML = `<p class="placeholder-text compact">${escapeHtml(t("explorer.noBox"))}</p>`;
         return;
     }
 
@@ -461,11 +461,11 @@ function renderCartonList() {
             if (getDatasetMode() === "stream") {
                 item.disabled = true;
                 item.classList.add("loading");
-                if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = `Loading images from box ${carton}…`;
+                if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = t("explorer.loadingBox", { carton });
                 try {
                     await loadStreamCarton(carton);
                 } catch (error) {
-                    if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = `Unable to load the box: ${error.message}`;
+                    if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = t("explorer.boxError", { error: error.message });
                     return;
                 } finally {
                     item.disabled = false;
@@ -522,7 +522,7 @@ function renderCartonItemContent(item, carton, count, summary) {
     heading.textContent = carton;
     const total = document.createElement("span");
     total.className = "carton-item-count";
-    total.textContent = `${count} image${count > 1 ? "s" : ""}`;
+    total.textContent = t("explorer.imageCount", { count });
     item.append(heading, total);
     if (summary) {
         const description = document.createElement("span");
@@ -686,7 +686,7 @@ function updateDownloadLink(imageData = currentImageData) {
             mode: "grid"
         });
         downloadCartonEl.href = `${CONFIG.sharedocs.baseUrl}?${params.toString()}`;
-        downloadCartonEl.textContent = `Open ${carton} on Sharedocs`;
+        downloadCartonEl.textContent = t("explorer.openOnSharedocs", { carton });
     } else {
         downloadCartonEl.href = "#";
         downloadCartonEl.textContent = carton;
@@ -731,15 +731,15 @@ function updateMetadataFilterOptions(images) {
     populateMetadataSelect(
         metadataCountryEl,
         getMetadataFacetValues(images, ["Pays", "Pays / Région", "Pays / Region", "Continent", "Sous-région", "Sous-region"]),
-        "All places"
+        t("explorer.allPlaces")
     );
     populateMetadataSelect(
         metadataSubjectEl,
         getMetadataFacetValues(images, ["Classe", "ClusterLabel"]),
-        "All subjects"
+        t("explorer.allSubjects")
     );
     if (metadataSearchStatusEl) {
-        metadataSearchStatusEl.textContent = `${images.length} image${images.length > 1 ? "s" : ""} in the selected box.`;
+        metadataSearchStatusEl.textContent = t("explorer.imagesInBox", { count: images.length });
     }
 }
 
@@ -778,19 +778,19 @@ function renderGallery() {
     const filtered = getFilteredImages();
 
     if (!filtered) {
-        if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = "Select a box on the left to browse its images.";
-        galleryEl.innerHTML = `<p class="placeholder-text">Select a box to display its image gallery.</p>`;
+        if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = t("explorer.selectBoxHint");
+        galleryEl.innerHTML = `<p class="placeholder-text">${escapeHtml(t("explorer.selectBoxGallery"))}</p>`;
         return;
     }
     if (filtered.length === 0) {
-        if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = "No image matches the active filters.";
-        galleryEl.innerHTML = `<p class="placeholder-text">No results found.</p>`;
+        if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = t("explorer.noMatch");
+        galleryEl.innerHTML = `<p class="placeholder-text">${escapeHtml(t("explorer.noResults"))}</p>`;
         return;
     }
 
     if (metadataSearchStatusEl) {
         const total = currentCarton ? (grouped[currentCarton]?.length ?? filtered.length) : data.length;
-        metadataSearchStatusEl.textContent = `${filtered.length} result${filtered.length > 1 ? "s" : ""} out of ${total} images.`;
+        metadataSearchStatusEl.textContent = t("explorer.resultsSummary", { count: filtered.length, total });
     }
 
     const totalPages = Math.ceil(filtered.length / PER_PAGE);
@@ -807,17 +807,17 @@ function renderGallery() {
         const item = document.createElement("button");
         item.type = "button";
         item.className = "gallery-item" + (d.id === currentImageId ? " active" : "");
-        const title = d.metadata?.Titre ?? d.metadata?.Title ?? d.metadata?.Classe ?? "Untitled document";
-        const country = d.metadata?.Pays ?? "Not specified";
+        const title = d.metadata?.Titre ?? d.metadata?.Title ?? d.metadata?.Classe ?? t("explorer.untitled");
+        const country = d.metadata?.Pays ?? t("explorer.notSpecified");
         item.innerHTML = `
-            <img src="${escapeHtml(imgSrc)}" alt="Document ${escapeHtml(d.id)} thumbnail" loading="lazy" decoding="async"/>
+            <img src="${escapeHtml(imgSrc)}" alt="${escapeHtml(t("explorer.thumbnailAlt", { id: d.id }))}" loading="lazy" decoding="async"/>
             <div class="item-info">
                 <b>${escapeHtml(title)}</b>
                 <span class="gallery-card-id">ID ${escapeHtml(d.id)}</span>
                 <span class="gallery-card-place">${escapeHtml(country)}</span>
                 <span class="gallery-card-stats">
-                    <span>${d.annotations?.length ?? 0} annotations</span>
-                    <span>${d.detectedInstances ?? 0} detections</span>
+                    <span>${escapeHtml(t("explorer.annotationsCount", { count: d.annotations?.length ?? 0 }))}</span>
+                    <span>${escapeHtml(t("explorer.detectionsCount", { count: d.detectedInstances ?? 0 }))}</span>
                 </span>
             </div>`;
         const thumbnail = item.querySelector("img");
@@ -891,23 +891,23 @@ function renderPagination(totalPages, totalItems, start, pageItemCount) {
     if (totalPages <= 1) {
         const summary = document.createElement("div");
         summary.className = "pagination-summary";
-        summary.textContent = `${totalItems} image${totalItems > 1 ? "s" : ""}`;
+        summary.textContent = t("explorer.imageCount", { count: totalItems });
         paginationEl.appendChild(summary);
         return;
     }
 
     const summary = document.createElement("div");
     summary.className = "pagination-summary";
-    summary.textContent = `${start + 1}–${start + pageItemCount} of ${totalItems} images`;
+    summary.textContent = t("explorer.page.range", { start: start + 1, end: start + pageItemCount, total: totalItems });
 
     const controls = document.createElement("div");
     controls.className = "pagination-controls";
     const fragment = document.createDocumentFragment();
 
-    fragment.appendChild(createPageButton("First", 1, totalPages, {
+    fragment.appendChild(createPageButton(t("explorer.page.first"), 1, totalPages, {
         disabled: currentPage === 1
     }));
-    fragment.appendChild(createPageButton("Prev.", currentPage - 1, totalPages, {
+    fragment.appendChild(createPageButton(t("explorer.page.prev"), currentPage - 1, totalPages, {
         disabled: currentPage === 1
     }));
 
@@ -918,10 +918,10 @@ function renderPagination(totalPages, totalItems, start, pageItemCount) {
         previousPage = page;
     }
 
-    fragment.appendChild(createPageButton("Next", currentPage + 1, totalPages, {
+    fragment.appendChild(createPageButton(t("explorer.page.next"), currentPage + 1, totalPages, {
         disabled: currentPage === totalPages
     }));
-    fragment.appendChild(createPageButton("Last", totalPages, totalPages, {
+    fragment.appendChild(createPageButton(t("explorer.page.last"), totalPages, totalPages, {
         disabled: currentPage === totalPages
     }));
 
@@ -945,7 +945,7 @@ async function openExplorerFromUrlParams() {
 
     const imageData = await findImageFromExplorerSelection(selection);
     if (!imageData) {
-        galleryEl.innerHTML = `<p class="placeholder-text">Image referenced by the map could not be found.</p>`;
+        galleryEl.innerHTML = `<p class="placeholder-text">${escapeHtml(t("explorer.mapImageNotFound"))}</p>`;
         return;
     }
 
@@ -1058,12 +1058,10 @@ function setViewerState(state) {
     viewerEmptyStateEl.classList.toggle("is-loading", state === "loading");
     viewerEmptyStateEl.classList.toggle("is-error", state === "error");
     if (state === "loading") {
-        viewerEmptyStateEl.innerHTML = "<span>Loading image…</span>";
+        viewerEmptyStateEl.innerHTML = `<span>${escapeHtml(t("explorer.loadingImage"))}</span>`;
     } else if (state === "error") {
-        const origin = shouldUseSharedocs(currentImageData)
-            ? "its file could not be loaded from Huma-Num Sharedocs"
-            : "its image file could not be loaded";
-        viewerEmptyStateEl.innerHTML = `<span>Image unavailable</span><small>The document is indexed, but ${origin}.</small>`;
+        const detail = t(shouldUseSharedocs(currentImageData) ? "explorer.imageErrorSharedocs" : "explorer.imageErrorLocal");
+        viewerEmptyStateEl.innerHTML = `<span>${escapeHtml(t("explorer.imageUnavailable"))}</span><small>${escapeHtml(detail)}</small>`;
     }
 }
 
@@ -1111,7 +1109,7 @@ async function displayImageInVisualizer(imageData, face) {
     tooltip.style.display = "none";
     setViewerState("loading");
 
-    imgEl.alt = `Document ${imageData.id} — ${face}`;
+    imgEl.alt = t("explorer.imageAlt", { id: imageData.id, face: t(`explorer.face.${face}`) });
     renderFileHeader(imageData, face);
     renderMetadataPanel(imageData, face);
 
@@ -1167,36 +1165,36 @@ function renderMetadataPanel(imageData, face, imageSize = null) {
     const metadataFragment = document.createDocumentFragment();
     const transcriptionFragment = document.createDocumentFragment();
 
-    appendTagSection(metadataFragment, `Dimensions (${face})`, getSizeTags(imageData.metadata ?? {}, imageSize));
+    appendTagSection(metadataFragment, t("explorer.dimensions", { face: t(`explorer.face.${face}`) }), getSizeTags(imageData.metadata ?? {}, imageSize));
     appendMetadataList(metadataFragment, getDublinCoreRows(imageData));
 
     const forbinAnnotationTexts = getTextItemsForFace(imageData.annotations ?? [], face)
         .filter(annotation => !isMonkeyOcrItem(annotation))
         .map(annotation => ({
             title: getAnnotationTitle(annotation),
-            source: annotation.text_source ?? annotation.source ?? "annotation",
+            source: annotation.text_source ?? annotation.source ?? t("explorer.source.annotation"),
             text: annotation.text
         }));
-    appendTextSection(transcriptionFragment, "Annotations", forbinAnnotationTexts);
+    appendTextSection(transcriptionFragment, t("explorer.texts.annotations"), forbinAnnotationTexts);
 
     const textPredictionItems = getTextItemsForFace(imageData.annotations ?? [], face)
         .filter(isMonkeyOcrItem)
         .map(annotation => ({
             title: getTextPredictionTitle(annotation),
-            source: "text prediction",
+            source: t("explorer.source.textPrediction"),
             text: annotation.text
         }));
-    appendTextSection(transcriptionFragment, "Text predictions", textPredictionItems, "text-prediction");
+    appendTextSection(transcriptionFragment, t("explorer.texts.predictions"), textPredictionItems, "text-prediction");
 
     const predictionTexts = getPredictionsForFace(imageData, face)
         .filter(prediction => hasText(prediction.text))
         .map(prediction => ({
             title: getPredictionTitle(prediction),
-            source: prediction.text_source ?? prediction.transcription_source ?? "prediction",
+            source: prediction.text_source ?? prediction.transcription_source ?? t("explorer.source.prediction"),
             text: prediction.text,
             matches: prediction.ocr_matches ?? []
         }));
-    appendTextSection(transcriptionFragment, "Detected and transcribed stamps", predictionTexts, "text-prediction");
+    appendTextSection(transcriptionFragment, t("explorer.texts.stamps"), predictionTexts, "text-prediction");
 
     metadataContent.replaceChildren(metadataFragment);
     transcriptionContent.replaceChildren(transcriptionFragment);
@@ -1218,20 +1216,9 @@ function appendMetadataRow(dl, key, value) {
 }
 
 function formatMetadataLabel(key) {
-    const labels = {
-        identifier: "Identifier",
-        title: "Title",
-        subject: "Subject",
-        description: "Description",
-        type: "Type",
-        coverage: "Place",
-        relation: "Relation",
-        rights: "Rights",
-        date: "Date",
-        contributor: "Contributor",
-        Cluster: "Document group"
-    };
-    return labels[key] ?? String(key).replace(/_/g, " ");
+    // Dublin Core labels are translated; raw archival field names are shown as-is.
+    const translationKey = `explorer.dc.${key}`;
+    return I18N.has(translationKey) ? t(translationKey) : String(key).replace(/_/g, " ");
 }
 
 function appendMetadataList(fragment, rows) {
@@ -1373,13 +1360,13 @@ function appendTextSection(fragment, title, items, variant = "") {
     section.className = `ocr-section ${variant}`.trim();
 
     const heading = document.createElement("h4");
-    heading.textContent = `${title} (${items.length})`;
+    heading.textContent = t("explorer.texts.sectionCount", { title, count: items.length });
     section.appendChild(heading);
 
     if (!items.length) {
         const empty = document.createElement("p");
         empty.className = "ocr-empty";
-        empty.textContent = "No text for this side.";
+        empty.textContent = t("explorer.texts.empty");
         section.appendChild(empty);
         fragment.appendChild(section);
         return;
@@ -1412,7 +1399,7 @@ function appendTextSection(fragment, title, items, variant = "") {
         if (item.matches?.length > 1) {
             const details = document.createElement("details");
             const summary = document.createElement("summary");
-            summary.textContent = `${item.matches.length} OCR zones`;
+            summary.textContent = t("explorer.texts.ocrZones", { count: item.matches.length });
             details.appendChild(summary);
             for (const match of item.matches) {
                 const matchText = document.createElement("p");
@@ -1455,19 +1442,20 @@ function getPredictionsForFace(imageData, face, sources = Object.values(predicti
 function getAnnotationTitle(annotation) {
     return annotation.text_type
         ?? annotation.category_name
-        ?? "Annotation";
+        ?? t("explorer.annotationTitle");
 }
 
 function getTextPredictionTitle(annotation) {
     return annotation.text_type
         ?? annotation.category_name
-        ?? "MonkeyOCR text prediction";
+        ?? t("explorer.monkeyTitle");
 }
 
 function getPredictionTitle(prediction) {
     const score = Number(prediction.score);
-    const scoreText = Number.isFinite(score) ? `confidence ${score.toFixed(2)}` : "prediction";
-    return `Stamp — ${scoreText}`;
+    return Number.isFinite(score)
+        ? t("explorer.stampTitle", { score: score.toFixed(2) })
+        : t("explorer.stampTitleNoScore");
 }
 
 function hasText(value) {
@@ -1510,7 +1498,7 @@ function drawOverlays(imageData, face) {
         appendAnnotationPolygons(frag, ann, {
             stroke: isTextPrediction ? MONKEY_OCR_COLOR : MANUAL_ANNOTATION_COLOR,
             fill: hexToRgba(isTextPrediction ? MONKEY_OCR_COLOR : MANUAL_ANNOTATION_COLOR, 0.22),
-            label: isTextPrediction ? "MonkeyOCR prediction" : "Manual annotation"
+            label: t(isTextPrediction ? "explorer.overlay.monkey" : "explorer.overlay.manual")
         });
     }
 
@@ -1521,7 +1509,7 @@ function drawOverlays(imageData, face) {
             appendAnnotationPolygons(frag, prediction, {
                 stroke: source.color,
                 fill: hexToRgba(source.color, 0.18),
-                label: `${source.label} — score ${(Number.isFinite(score) ? score : 0).toFixed(2)}`
+                label: `${getSourceLabel(source)} — ${t("explorer.overlay.score", { score: (Number.isFinite(score) ? score : 0).toFixed(2) })}`
             });
         }
     }
@@ -1530,10 +1518,10 @@ function drawOverlays(imageData, face) {
 
 function formatOverlayLabel(prefix, item) {
     const parts = [prefix];
-    if (Number.isFinite(Number(item.score)) && !String(prefix).toLowerCase().includes("score")) {
-        parts.push(`score ${Number(item.score).toFixed(2)}`);
+    if (Number.isFinite(Number(item.score)) && !String(prefix).includes(" — ")) {
+        parts.push(t("explorer.overlay.score", { score: Number(item.score).toFixed(2) }));
     }
-    parts.push(hasText(item.text) ? normalizeText(item.text) : "No transcription");
+    parts.push(hasText(item.text) ? normalizeText(item.text) : t("explorer.overlay.noText"));
     return parts.join(" - ");
 }
 
@@ -1576,6 +1564,11 @@ function hexToRgba(hex, alpha) {
     return `rgba(${r},${g},${b},${alpha})`;
 }
 
+function getSourceLabel(source) {
+    const key = `prediction.${source.id}`;
+    return I18N.has(key) ? t(key) : source.label;
+}
+
 function setupPredictionControls() {
     if (!predictionControlsEl) return;
     predictionControlsEl.innerHTML = "";
@@ -1585,11 +1578,11 @@ function setupPredictionControls() {
     predictionControlsEl.hidden = false;
     const title = document.createElement("span");
     title.className = "prediction-title";
-    title.textContent = "Color key";
+    title.textContent = t("explorer.legend.title");
     predictionControlsEl.appendChild(title);
 
-    appendOverlayLegendItem("Manual annotations", MANUAL_ANNOTATION_COLOR, "manual");
-    appendOverlayLegendItem("MonkeyOCR predictions", MONKEY_OCR_COLOR, "prediction");
+    appendOverlayLegendItem(t("explorer.legend.manual"), MANUAL_ANNOTATION_COLOR, "manual");
+    appendOverlayLegendItem(t("explorer.legend.monkey"), MONKEY_OCR_COLOR, "prediction");
 
     const usedColors = new Set([MANUAL_ANNOTATION_COLOR.toLowerCase(), MONKEY_OCR_COLOR.toLowerCase()]);
     sources.forEach((source, index) => {
@@ -1599,7 +1592,7 @@ function setupPredictionControls() {
         const color = requestedColor && !usedColors.has(requestedColor) ? source.color : fallbackColor;
         usedColors.add(color.toLowerCase());
         predictionSources[source.id] = { ...source, color, active: true };
-        appendOverlayLegendItem(source.label, color, "prediction");
+        appendOverlayLegendItem(getSourceLabel(source), color, "prediction");
     });
 }
 
@@ -1736,6 +1729,47 @@ cartonSortEl?.addEventListener("change", () => {
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
 
+// Re-render every string built in JavaScript when the language changes.
+function refreshLanguage() {
+    updateGalleryHeading();
+    if (document.body.classList.contains("explorer-gallery-mode")) showGalleryView();
+    setupPredictionControls();
+    renderCartonList();
+    if (currentCarton) updateMetadataFilterOptions(grouped[currentCarton] ?? []);
+    if (currentCarton) renderGallery();
+    else renderGalleryPlaceholder();
+    updateDownloadLink();
+    if (currentImageData) {
+        const loaded = imgEl.complete && imgEl.naturalWidth > 0;
+        const imageSize = loaded ? { width: imgEl.naturalWidth, height: imgEl.naturalHeight } : null;
+        imgEl.alt = t("explorer.imageAlt", { id: currentImageData.id, face: t(`explorer.face.${currentFace}`) });
+        renderFileHeader(currentImageData, currentFace);
+        renderMetadataPanel(currentImageData, currentFace, imageSize);
+        if (loaded) drawOverlays(currentImageData, currentFace);
+        else if (!viewerEmptyStateEl?.classList.contains("hidden")) setViewerState(viewerEmptyStateEl.classList.contains("is-error") ? "error" : "loading");
+    } else {
+        renderEmptyDocumentState();
+    }
+}
+
+function renderGalleryPlaceholder() {
+    if (metadataSearchStatusEl) metadataSearchStatusEl.textContent = t("explorer.selectBoxHint");
+    galleryEl.innerHTML = `<p class="placeholder-text">${escapeHtml(t("explorer.selectBoxGallery"))}</p>`;
+    paginationEl.innerHTML = "";
+}
+
+function renderEmptyDocumentState() {
+    document.getElementById("metadata-content").innerHTML = `<p class="empty-inline">${escapeHtml(t("explorer.noDocument"))}</p>`;
+    document.getElementById("transcription-content").innerHTML = `<p class="empty-inline">${escapeHtml(t("explorer.textsPlaceholder"))}</p>`;
+    if (viewerEmptyStateEl) {
+        viewerEmptyStateEl.innerHTML = `<span>${escapeHtml(t("explorer.emptyViewer"))}</span><small>${escapeHtml(t("explorer.emptyViewerHint"))}</small>`;
+    }
+}
+
+window.addEventListener("forbin:languagechange", refreshLanguage);
+
 setGalleryControlsEnabled(false);
 showGalleryView();
+renderEmptyDocumentState();
+renderGalleryPlaceholder();
 loadData();

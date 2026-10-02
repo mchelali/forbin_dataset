@@ -57,7 +57,7 @@ async function loadJson(url) {
 }
 
 async function loadInitialData() {
-    setLoadingMessage("Loading aggregated Forbin places…");
+    setLoadingMessage(t("map.loadingPlaces"));
     const [places, documentIndex, summary] = await Promise.all([
         loadJson(DATA_URLS.places),
         loadJson(DATA_URLS.documentIndex),
@@ -102,7 +102,7 @@ function initMap() {
             mapReady = true;
             setLoadingVisible(false);
         } catch (error) {
-            setLoadingMessage(`Unable to load Forbin geographic data: ${error.message}`);
+            setLoadingMessage(t("map.loadError", { error: error.message }));
         }
     });
 
@@ -202,7 +202,7 @@ function addMapInteractions() {
 function renderPlacePopup(properties) {
     return `
         <div class="forbin-place-popup">
-            <strong>${escapeHtml(properties.canonical_name || "Place")}</strong>
+            <strong>${escapeHtml(properties.canonical_name || t("map.place"))}</strong>
             <span>${escapeHtml([properties.admin_name_1, properties.country_name].filter(Boolean).join(", "))}</span>
             <span>${formatNumber(properties.document_count)} documents · ${formatNumber(properties.mention_count)} mentions</span>
             <small>${escapeHtml(formatSourceLabel(getPlaceSourceType(properties)))}</small>
@@ -292,14 +292,16 @@ function populateCountryFilter() {
         const properties = feature.properties || {};
         if (properties.country_code) countries.set(properties.country_code, properties.country_name || properties.country_code);
     }
-    const options = [...countries.entries()].sort((left, right) => left[1].localeCompare(right[1], "en", { sensitivity: "base" }));
-    select.innerHTML = '<option value="">All countries</option>';
+    const options = [...countries.entries()].sort((left, right) => left[1].localeCompare(right[1], I18N.locale, { sensitivity: "base" }));
+    const selected = select.value;
+    select.innerHTML = `<option value="">${escapeHtml(t("map.allCountries"))}</option>`;
     for (const [code, name] of options) {
         const option = document.createElement("option");
         option.value = code;
         option.textContent = name;
         select.appendChild(option);
     }
+    select.value = selected;
 }
 
 function updateMapStats() {
@@ -307,11 +309,11 @@ function updateMapStats() {
     const globalStats = state.summary?.statistics || {};
     const visibleCount = getFeatures(state.filteredPlaces).length;
     dom.stats.innerHTML = `
-        <strong>Forbin geographic extraction</strong><br>
-        Visible places: ${formatNumber(visibleCount)} / ${formatNumber(getFeatures(state.places).length)}<br>
-        Resolved mentions: ${formatNumber(globalStats.entities_resolved)}<br>
-        Ambiguous entities: ${formatNumber(globalStats.entities_ambiguous)}<br>
-        Unresolved entities: ${formatNumber(globalStats.entities_unresolved)}
+        <strong>${escapeHtml(t("map.stats.title"))}</strong><br>
+        ${escapeHtml(t("map.stats.visible", { visible: formatNumber(visibleCount), total: formatNumber(getFeatures(state.places).length) }))}<br>
+        ${escapeHtml(t("map.stats.resolved", { count: formatNumber(globalStats.entities_resolved) }))}<br>
+        ${escapeHtml(t("map.stats.ambiguous", { count: formatNumber(globalStats.entities_ambiguous) }))}<br>
+        ${escapeHtml(t("map.stats.unresolved", { count: formatNumber(globalStats.entities_unresolved) }))}
     `;
 }
 
@@ -319,7 +321,7 @@ function openPlaceDetails(placeId) {
     const feature = state.placeById.get(String(placeId));
     if (!feature) return;
     state.selectedPlaceId = String(placeId);
-    openRightPanel(feature.properties?.canonical_name || "Place details");
+    openRightPanel(feature.properties?.canonical_name || t("map.placeDetails"));
     renderSelectedPlace();
     loadMentionsForSelectedPlace(placeId);
 }
@@ -356,7 +358,7 @@ function renderSelectedPlace() {
     const properties = feature.properties || {};
     const documents = getDocumentsForPlace(state.selectedPlaceId, properties);
     const mentions = state.mentionsByPlace?.get(state.selectedPlaceId) || null;
-    dom.rightTitle.textContent = properties.canonical_name || "Place details";
+    dom.rightTitle.textContent = properties.canonical_name || t("map.placeDetails");
     dom.rightContent.innerHTML = renderPlaceDetails(properties, feature, documents, mentions);
 }
 
@@ -377,34 +379,34 @@ function renderPlaceDetails(properties, feature, documents, mentions) {
 
             ${validationStatus === "automatic" ? `
                 <div class="automatic-warning">
-                    <strong>Automatic result — verification required</strong>
-                    <p>This geocoding may be ambiguous and has not been contributed to OpenHistoricalMap.</p>
+                    <strong>${escapeHtml(t("map.automaticWarning.title"))}</strong>
+                    <p>${escapeHtml(t("map.automaticWarning.text"))}</p>
                 </div>
             ` : ""}
 
-            <section class="place-metrics" aria-label="Place statistics">
-                ${metricCard(properties.document_count, "Documents")}
-                ${metricCard(properties.mention_count, "Mentions")}
-                ${metricCard(properties.metadata_count, "Metadata")}
-                ${metricCard(properties.ocr_count, "OCR/NER")}
+            <section class="place-metrics" aria-label="${escapeHtml(t("map.placeStats"))}">
+                ${metricCard(properties.document_count, t("map.metric.documents"))}
+                ${metricCard(properties.mention_count, t("map.metric.mentions"))}
+                ${metricCard(properties.metadata_count, t("map.metric.metadata"))}
+                ${metricCard(properties.ocr_count, t("map.metric.ocr"))}
             </section>
 
             <section class="map-detail-section">
-                <h3>Resolved place</h3>
+                <h3>${escapeHtml(t("map.resolvedPlace"))}</h3>
                 <dl class="map-detail-grid">
-                    ${detailRow("Canonical name", properties.canonical_name)}
-                    ${detailRow("Country", [properties.country_name, properties.country_code].filter(Boolean).join(" · "))}
-                    ${detailRow("Administrative area", properties.admin_name_1)}
-                    ${detailRow("GeoNames ID", properties.geoname_id)}
-                    ${detailRow("Feature", [properties.feature_class, properties.feature_code].filter(Boolean).join(" / "))}
-                    ${detailRow("Geometry precision", formatMachineLabel(properties.geometry_precision))}
-                    ${detailRow("Coordinates", coordinates ? `${coordinates[1].toFixed(5)}, ${coordinates[0].toFixed(5)}` : "")}
+                    ${detailRow(t("map.row.canonical"), properties.canonical_name)}
+                    ${detailRow(t("map.row.country"), [properties.country_name, properties.country_code].filter(Boolean).join(" · "))}
+                    ${detailRow(t("map.row.admin"), properties.admin_name_1)}
+                    ${detailRow(t("map.row.geonames"), properties.geoname_id)}
+                    ${detailRow(t("map.row.feature"), [properties.feature_class, properties.feature_code].filter(Boolean).join(" / "))}
+                    ${detailRow(t("map.row.precision"), formatMachineLabel(properties.geometry_precision))}
+                    ${detailRow(t("map.row.coordinates"), coordinates ? `${coordinates[1].toFixed(5)}, ${coordinates[0].toFixed(5)}` : "")}
                 </dl>
-                ${geonamesUrl ? `<a class="btn-geo-link" href="${geonamesUrl}" target="_blank" rel="noopener">Open in GeoNames</a>` : ""}
+                ${geonamesUrl ? `<a class="btn-geo-link" href="${geonamesUrl}" target="_blank" rel="noopener">${escapeHtml(t("map.openGeonames"))}</a>` : ""}
             </section>
 
-            ${renderPairList("Source labels", labels)}
-            ${renderPairList("Main archive boxes", cartons)}
+            ${renderPairList(t("map.sourceLabels"), labels)}
+            ${renderPairList(t("map.mainBoxes"), cartons)}
             ${renderDocumentList(documents)}
             ${renderMentionSection(mentions)}
         </div>
@@ -415,17 +417,17 @@ function renderDocumentList(documents) {
     const visibleDocuments = documents.slice(0, MAX_DOCUMENTS_IN_PANEL);
     return `
         <section class="map-detail-section">
-            <h3>Related documents <span>${formatNumber(documents.length)}</span></h3>
+            <h3>${escapeHtml(t("map.relatedDocuments"))} <span>${formatNumber(documents.length)}</span></h3>
             ${visibleDocuments.length ? `
                 <div class="linked-document-list">
                     ${visibleDocuments.map(documentId => `
                         <a href="${getExplorerUrl(documentId)}" target="_blank" rel="noopener">
-                            <span>${escapeHtml(documentId)}</span><small>Open image and metadata</small>
+                            <span>${escapeHtml(documentId)}</span><small>${escapeHtml(t("map.openImage"))}</small>
                         </a>
                     `).join("")}
                 </div>
-                ${documents.length > visibleDocuments.length ? `<p class="detail-note">Showing the first ${visibleDocuments.length} documents.</p>` : ""}
-            ` : '<p class="detail-note">No linked document is available in the index.</p>'}
+                ${documents.length > visibleDocuments.length ? `<p class="detail-note">${escapeHtml(t("map.firstDocuments", { count: visibleDocuments.length }))}</p>` : ""}
+            ` : `<p class="detail-note">${escapeHtml(t("map.noDocument"))}</p>`}
         </section>
     `;
 }
@@ -434,8 +436,8 @@ function renderMentionSection(mentions) {
     if (!mentions) {
         return `
             <section class="map-detail-section" id="place-mentions-section">
-                <h3>Detailed mentions</h3>
-                <p class="detail-note loading-note">Loading the detailed mention layer on demand…</p>
+                <h3>${escapeHtml(t("map.detailedMentions"))}</h3>
+                <p class="detail-note loading-note">${escapeHtml(t("map.loadingMentions"))}</p>
             </section>
         `;
     }
@@ -451,10 +453,10 @@ function renderMentionSection(mentions) {
 
     return `
         <section class="map-detail-section" id="place-mentions-section">
-            <h3>Detailed mentions <span>${formatNumber(filtered.length)}</span></h3>
-            <p class="detail-note">Minimum geocoding score: ${state.minGeocodingScore.toFixed(2)}</p>
-            ${visible.length ? `<div class="mention-list">${visible.map(renderMention).join("")}</div>` : '<p class="detail-note">No mention matches the active source and score filters.</p>'}
-            ${filtered.length > visible.length ? `<p class="detail-note">Showing the first ${visible.length} mentions.</p>` : ""}
+            <h3>${escapeHtml(t("map.detailedMentions"))} <span>${formatNumber(filtered.length)}</span></h3>
+            <p class="detail-note">${escapeHtml(t("map.minScoreNote", { score: state.minGeocodingScore.toFixed(2) }))}</p>
+            ${visible.length ? `<div class="mention-list">${visible.map(renderMention).join("")}</div>` : `<p class="detail-note">${escapeHtml(t("map.noMention"))}</p>`}
+            ${filtered.length > visible.length ? `<p class="detail-note">${escapeHtml(t("map.firstMentions", { count: visible.length }))}</p>` : ""}
         </section>
     `;
 }
@@ -466,19 +468,19 @@ function renderMention(feature) {
     return `
         <article class="mention-card">
             <div class="mention-card-heading">
-                <strong>${escapeHtml(properties.raw_label || "Unlabelled mention")}</strong>
-                <span>${escapeHtml(properties.source_type === "metadata" ? "Metadata" : "OCR/NER")}</span>
+                <strong>${escapeHtml(properties.raw_label || t("map.unlabelled"))}</strong>
+                <span>${escapeHtml(properties.source_type === "metadata" ? t("map.metric.metadata") : t("map.metric.ocr"))}</span>
             </div>
-            <p>${escapeHtml(properties.canonical_name || "Unresolved")} · ${escapeHtml(properties.country_name || "")}</p>
+            <p>${escapeHtml(properties.canonical_name || t("map.unresolved"))} · ${escapeHtml(properties.country_name || "")}</p>
             <dl>
-                ${detailRow("Document", properties.document_id)}
-                ${detailRow("Spatial role", formatMachineLabel(properties.spatial_role))}
-                ${detailRow("NER score", formatScore(properties.ner_score))}
-                ${detailRow("Geocoding score", formatScore(properties.geocoding_score))}
-                ${detailRow("Source face", faces)}
-                ${detailRow("Files", files)}
+                ${detailRow(t("map.row.document"), properties.document_id)}
+                ${detailRow(t("map.row.role"), formatMachineLabel(properties.spatial_role))}
+                ${detailRow(t("map.row.ner"), formatScore(properties.ner_score))}
+                ${detailRow(t("map.row.geocoding"), formatScore(properties.geocoding_score))}
+                ${detailRow(t("map.row.face"), faces)}
+                ${detailRow(t("map.row.files"), files)}
             </dl>
-            <a href="${getExplorerUrl(properties.document_id)}" target="_blank" rel="noopener">Open document</a>
+            <a href="${getExplorerUrl(properties.document_id)}" target="_blank" rel="noopener">${escapeHtml(t("map.openDocument"))}</a>
         </article>
     `;
 }
@@ -490,7 +492,7 @@ async function loadMentionsForSelectedPlace(placeId) {
     } catch (error) {
         if (state.selectedPlaceId !== String(placeId) || !dom.rightContent) return;
         const section = dom.rightContent.querySelector("#place-mentions-section");
-        if (section) section.innerHTML = `<h3>Detailed mentions</h3><p class="detail-note">Unable to load mentions: ${escapeHtml(error.message)}</p>`;
+        if (section) section.innerHTML = `<h3>${escapeHtml(t("map.detailedMentions"))}</h3><p class="detail-note">${escapeHtml(t("map.mentionsError", { error: error.message }))}</p>`;
     }
 }
 
@@ -541,20 +543,20 @@ function searchPlaces(rawQuery) {
 }
 
 function openSearchResults(query, results) {
-    openRightPanel("Search results");
+    openRightPanel(t("map.searchResults"));
     state.selectedPlaceId = "";
     dom.rightContent.innerHTML = `
         <div class="place-detail-view">
             <section class="map-detail-section">
-                <h3>${formatNumber(results.length)} results for “${escapeHtml(query)}”</h3>
+                <h3>${escapeHtml(t("map.resultsFor", { count: results.length, query }))}</h3>
                 ${results.length ? `
                     <div class="map-search-results">
                         ${results.map(feature => {
                             const properties = feature.properties || {};
-                            return `<button type="button" data-place-id="${escapeHtml(getPlaceId(feature))}"><strong>${escapeHtml(properties.canonical_name || "Place")}</strong><span>${escapeHtml([properties.admin_name_1, properties.country_name].filter(Boolean).join(", "))}</span><small>${formatNumber(properties.document_count)} documents</small></button>`;
+                            return `<button type="button" data-place-id="${escapeHtml(getPlaceId(feature))}"><strong>${escapeHtml(properties.canonical_name || "Place")}</strong><span>${escapeHtml([properties.admin_name_1, properties.country_name].filter(Boolean).join(", "))}</span><small>${escapeHtml(t("map.documentsCount", { count: Number(properties.document_count) || 0 }))}</small></button>`;
                         }).join("")}
                     </div>
-                ` : '<p class="detail-note">No place or linked document matches this search.</p>'}
+                ` : `<p class="detail-note">${escapeHtml(t("map.noSearchResult"))}</p>`}
             </section>
         </div>
     `;
@@ -632,13 +634,14 @@ function getPlaceSourceType(properties) {
 }
 
 function formatSourceLabel(type) {
-    if (type === "mixed") return "Metadata + OCR/NER";
-    if (type === "ocr") return "OCR/NER only";
-    return "Metadata only";
+    if (type === "mixed") return t("map.source.mixedShort");
+    if (type === "ocr") return t("map.source.ocr");
+    return t("map.source.metadata");
 }
 
 function formatValidationStatus(status) {
-    return formatMachineLabel(status || "automatic");
+    const key = `map.validation.${status || "automatic"}`;
+    return I18N.has(key) ? t(key) : formatMachineLabel(status);
 }
 
 function getPlaceId(feature) {
@@ -702,7 +705,7 @@ function detailRow(label, value) {
 }
 
 function getExplorerUrl(documentId) {
-    return `explorer.html?mode=stream&document_id=${encodeURIComponent(documentId || "")}`;
+    return I18N.localizeUrl(`explorer.html?mode=stream&document_id=${encodeURIComponent(documentId || "")}`);
 }
 
 function getBaseName(path) {
@@ -730,7 +733,7 @@ function normalizeSearchText(value) {
 
 function formatNumber(value) {
     const number = Number(value);
-    return Number.isFinite(number) ? new Intl.NumberFormat("en-US").format(number) : "0";
+    return Number.isFinite(number) ? new Intl.NumberFormat(I18N.locale).format(number) : "0";
 }
 
 function getSliderYear() {
@@ -739,7 +742,7 @@ function getSliderYear() {
 }
 
 function getYearLabel(year) {
-    return year < 0 ? `${Math.abs(year)} BCE` : String(year);
+    return year < 0 ? t("map.bce", { year: Math.abs(year) }) : String(year);
 }
 
 function setLoadingMessage(message) {
@@ -760,3 +763,15 @@ function escapeHtml(value) {
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
 }
+
+// Re-render every string built in JavaScript when the language changes.
+window.addEventListener("forbin:languagechange", () => {
+    if (state.places) {
+        populateCountryFilter();
+        updateMapStats();
+    }
+    const label = document.getElementById("dateLabel");
+    if (label) label.textContent = getYearLabel(getSliderYear());
+    if (state.selectedPlaceId) renderSelectedPlace();
+    else if (dom.rightTitle && dom.rightPanel?.classList.contains("active")) dom.rightTitle.textContent = t("map.searchResults");
+});

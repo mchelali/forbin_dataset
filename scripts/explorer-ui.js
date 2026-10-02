@@ -54,7 +54,7 @@
       if (!document.fullscreenElement) await visualizer.requestFullscreen();
       else await document.exitFullscreen();
     } catch (error) {
-      status.textContent = "Full-screen mode is not available in this browser.";
+      status.textContent = t("explorer.fullscreenUnavailable");
     }
   });
 
@@ -63,22 +63,22 @@
     if (!identifier) return;
     try {
       await navigator.clipboard.writeText(identifier);
-      status.textContent = `Identifier copied: ${identifier}`;
+      status.textContent = t("explorer.idCopied", { id: identifier });
     } catch (error) {
-      status.textContent = `Identifier: ${identifier}`;
+      status.textContent = t("explorer.idShown", { id: identifier });
     }
   });
 
   function archivePath(identifier) {
     const parts = String(identifier || "").split("_").filter(Boolean);
-    const carton = currentCarton && currentCarton !== "Unknown" ? currentCarton : "Box not specified";
+    const carton = currentCarton && currentCarton !== "Unknown" ? currentCarton : t("explorer.boxNotSpecified");
     const documentLabel = parts.length ? parts[parts.length - 1] : identifier;
-    return ["Forbin Collection", carton, documentLabel ? `Document ${documentLabel}` : "Document"];
+    return [t("explorer.forbinCollection"), carton, documentLabel ? t("explorer.documentLabel", { id: documentLabel }) : t("explorer.document")];
   }
 
   function updateContext() {
     if (document.body.classList.contains("explorer-gallery-mode")) {
-      breadcrumb.textContent = currentCarton ? `Forbin Collection / ${currentCarton}` : "Forbin Collection";
+      breadcrumb.textContent = currentCarton ? `${t("explorer.forbinCollection")} / ${currentCarton}` : t("explorer.forbinCollection");
       previousButton.disabled = true;
       nextButton.disabled = true;
       return;
@@ -93,11 +93,13 @@
     copyButton.disabled = !identifier;
     if (identifier) {
       const params = new URLSearchParams({ document_id: String(identifier) });
-      mapLink.href = `map.html?${params.toString()}`;
+      mapLink.href = I18N.localizeUrl(`map.html?${params.toString()}`);
       mapLink.classList.remove("is-disabled");
       mapLink.removeAttribute("aria-disabled");
     }
   }
+
+  window.addEventListener("forbin:languagechange", updateContext);
 
   const contextObserver = new MutationObserver(updateContext);
   const metadataContent = document.getElementById("metadata-content");
@@ -108,7 +110,7 @@
 
   window.addEventListener("unhandledrejection", (event) => {
     const message = String(event.reason?.message || event.reason || "Network error");
-    status.textContent = `Some data could not be loaded: ${message}`;
+    status.textContent = t("explorer.dataError", { error: message });
   });
 
   // Viewer shortcuts: +/- zoom, 0 fit, ←/→ previous/next document.

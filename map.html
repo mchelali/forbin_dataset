@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explore places, image circulation and geographic conflicts in the Forbin Dataset.">
-  <title>Historical Map — Forbin Dataset</title>
+  <title data-i18n="meta.map.title">Historical map — Forbin Dataset</title>
+  <meta name="description" data-i18n-attr="content:meta.map.description" content="Explore the places mentioned in the Forbin historical photographs, geocoded from archival metadata and OCR.">
+  <!-- The map is not linked from the navigation yet: keep it out of search results. -->
+  <meta name="robots" content="noindex, follow">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,89 +15,92 @@
   <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
   <script src="https://unpkg.com/@openhistoricalmap/maplibre-gl-dates@1.3.0/index.js"></script>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="styles/refonte.css?v=fixed-map-panels-20260715">
+  <link rel="stylesheet" href="styles/refonte.css?v=i18n-20260930">
+  <script src="i18n/translations.js?v=i18n-20260930"></script>
+  <script src="scripts/i18n.js?v=i18n-20260930"></script>
 </head>
 <body class="map-page research-page">
-  <a class="skip-link" href="#map">Skip to the map</a>
+  <a class="skip-link" href="#map" data-i18n="skip.map">Skip to the map</a>
   <header class="site-header" data-site-header></header>
 
   <main class="map-workspace">
-    <button id="toggle-map-panel" class="icon-button map-panel-toggle" type="button" aria-controls="map-sidebar" aria-expanded="false">Filters and legend</button>
+    <button id="toggle-map-panel" class="icon-button map-panel-toggle" type="button" aria-controls="map-sidebar" aria-expanded="false" data-i18n="map.toggle">Filters and legend</button>
     <div class="main-layout">
-      <aside id="map-sidebar" class="sidebar map-sidebar" aria-label="Map controls">
+      <aside id="map-sidebar" class="sidebar map-sidebar" data-i18n-attr="aria-label:map.controls" aria-label="Map controls">
         <div id="mapControls" class="map-controls">
           <div class="panel-heading">
-            <p class="eyebrow">Collection geography</p>
-            <h1>Historical map</h1>
-            <p>Explore automatically geocoded places from archival metadata and OCR/NER.</p>
+            <p class="eyebrow" data-i18n="map.eyebrow">Collection geography</p>
+            <h1 data-i18n="map.title">Historical map</h1>
+            <p data-i18n="map.intro">Explore automatically geocoded places from archival metadata and OCR/NER.</p>
           </div>
 
           <div class="control-section layer-controls" role="group" aria-labelledby="layers-title">
-            <h2 id="layers-title">Layers</h2>
-            <label><input type="checkbox" id="toggleForbinPlaces" checked> <span class="legend-dot metadata"></span>Aggregated Forbin places</label>
-            <label><input type="checkbox" id="showDefaultOnly" checked> Hide generic or low-quality labels</label>
+            <h2 id="layers-title" data-i18n="map.layers">Layers</h2>
+            <label><input type="checkbox" id="toggleForbinPlaces" checked> <span class="legend-dot metadata"></span><span data-i18n="map.layer.places">Aggregated Forbin places</span></label>
+            <label><input type="checkbox" id="showDefaultOnly" checked> <span data-i18n="map.layer.defaultOnly">Hide generic or low-quality labels</span></label>
           </div>
 
           <div class="control-section field-group">
-            <label for="searchPlace">Search</label>
-            <input type="search" id="searchPlace" placeholder="Place, country or document ID" autocomplete="off">
+            <label for="searchPlace" data-i18n="map.search">Search</label>
+            <input type="search" id="searchPlace" data-i18n-attr="placeholder:map.searchPlaceholder" placeholder="Place, country or document ID" autocomplete="off">
           </div>
 
           <details class="control-section filters metadata-disclosure" open>
-            <summary>Advanced filters</summary>
+            <summary data-i18n="map.advancedFilters">Advanced filters</summary>
             <div class="filter-item">
-              <label for="minGeocodingScore">Mention geocoding score <span id="minGeocodingScoreVal">0.74</span></label>
+              <label for="minGeocodingScore"><span data-i18n="map.minScore">Mention geocoding score</span> <span id="minGeocodingScoreVal">0.74</span></label>
               <input type="range" id="minGeocodingScore" min="0" max="1" step="0.01" value="0.74">
-              <span class="filter-desc">Applied to detailed OCR/NER mentions after selecting a place.</span>
+              <span class="filter-desc" data-i18n="map.minScoreHelp">Applied to detailed OCR/NER mentions after selecting a place.</span>
             </div>
             <div class="filter-item">
-              <label for="minDocumentCount">Minimum documents <span id="minDocumentCountVal">1</span></label>
+              <label for="minDocumentCount"><span data-i18n="map.minDocuments">Minimum documents</span> <span id="minDocumentCountVal">1</span></label>
               <input type="range" id="minDocumentCount" min="1" max="1500" step="10" value="1">
             </div>
             <div class="filter-item">
-              <label for="filterSourceType">Source</label>
+              <label for="filterSourceType" data-i18n="map.source">Source</label>
               <select id="filterSourceType">
-                <option value="">All sources</option>
-                <option value="metadata">Metadata only</option>
-                <option value="mixed">Metadata and OCR/NER</option>
-                <option value="ocr">OCR/NER only</option>
+                <option value="" data-i18n="map.source.all">All sources</option>
+                <option value="metadata" data-i18n="map.source.metadata">Metadata only</option>
+                <option value="mixed" data-i18n="map.source.mixed">Metadata and OCR/NER</option>
+                <option value="ocr" data-i18n="map.source.ocr">OCR/NER only</option>
               </select>
             </div>
             <div class="filter-item">
-              <label for="filterCountry">Country</label>
+              <label for="filterCountry" data-i18n="map.country">Country</label>
               <select id="filterCountry"><option value="">All countries</option></select>
             </div>
             <div class="filter-item">
-              <label for="filterValidation">Validation</label>
+              <label for="filterValidation" data-i18n="map.validation">Validation</label>
               <select id="filterValidation">
-                <option value="">All statuses</option>
-                <option value="automatic">Automatic</option>
-                <option value="accepted">Accepted</option>
-                <option value="needs_review">Needs review</option>
-                <option value="rejected">Rejected</option>
+                <option value="" data-i18n="map.validation.all">All statuses</option>
+                <option value="automatic" data-i18n="map.validation.automatic">Automatic</option>
+                <option value="accepted" data-i18n="map.validation.accepted">Accepted</option>
+                <option value="needs_review" data-i18n="map.validation.needs_review">Needs review</option>
+                <option value="rejected" data-i18n="map.validation.rejected">Rejected</option>
               </select>
             </div>
           </details>
 
           <div class="control-section map-quality-note">
-            <strong>Automatic geocoding</strong>
-            <p>These project layers are not written to OpenHistoricalMap. Verify ambiguous places before reuse.</p>
+            <strong data-i18n="map.quality.title">Automatic geocoding</strong>
+            <p data-i18n="map.quality.text">These project layers are not written to OpenHistoricalMap. Verify ambiguous places before reuse.</p>
           </div>
 
-          <div class="control-section map-stats" id="mapStats" role="status" aria-live="polite">Loading data…</div>
+          <!-- Filled by map.js. -->
+          <div class="control-section map-stats" id="mapStats" role="status" aria-live="polite" data-i18n="map.loadingData">Loading data…</div>
 
-          <div class="control-section legend" aria-label="Legend">
-            <h2>Legend</h2>
-            <div><span class="legend-dot metadata"></span> Metadata only</div>
-            <div><span class="legend-dot mixed"></span> Metadata + OCR/NER</div>
-            <div><span class="legend-dot ocr"></span> OCR/NER only</div>
+          <div class="control-section legend" data-i18n-attr="aria-label:map.legend" aria-label="Legend">
+            <h2 data-i18n="map.legend">Legend</h2>
+            <div><span class="legend-dot metadata"></span> <span data-i18n="map.source.metadata">Metadata only</span></div>
+            <div><span class="legend-dot mixed"></span> <span data-i18n="map.source.mixedShort">Metadata + OCR/NER</span></div>
+            <div><span class="legend-dot ocr"></span> <span data-i18n="map.source.ocr">OCR/NER only</span></div>
           </div>
         </div>
       </aside>
 
-      <section class="visualizer map-panel" aria-label="OpenHistoricalMap map">
+      <section class="visualizer map-panel" data-i18n-attr="aria-label:map.mapLabel" aria-label="OpenHistoricalMap map">
         <div id="map" class="map-canvas">
-          <svg id="compass" width="88" height="88" viewBox="0 0 70 70" aria-label="Compass rose">
+          <svg id="compass" width="88" height="88" viewBox="0 0 70 70" data-i18n-attr="aria-label:map.compass" aria-label="Compass rose">
             <polygon points="36,10 39,28 36,25 33,28" fill="#3d2010"/>
             <polygon points="36,62 39,44 36,47 33,44" fill="#3d2010" opacity="0.35"/>
             <polygon points="10,36 28,39 25,36 28,33" fill="#3d2010" opacity="0.35"/>
@@ -105,31 +110,33 @@
             <text x="36" y="7" text-anchor="middle" font-size="10" fill="#3d2010" font-family="serif" font-weight="bold">N</text>
           </svg>
         </div>
-        <div id="map-loading"><span>Loading the historical basemap…</span></div>
-        <div id="timeline" class="timeline" aria-label="Historical map period">
+        <!-- Filled by map.js. -->
+        <div id="map-loading"><span data-i18n="map.loadingBasemap">Loading the historical basemap…</span></div>
+        <div id="timeline" class="timeline" data-i18n-attr="aria-label:map.period" aria-label="Historical map period">
           <span id="dateLabel"></span>
-          <input type="range" id="dateSlider" min="-500" max="2026" step="5" value="1900" aria-label="Historical map year">
-          <button type="button" id="btnEraForbin" class="small-action" title="Show the Victor Forbin period, 1868–1947">Forbin era</button>
-          <span class="timeline-help-icon" title="This slider changes the OpenHistoricalMap background period." aria-label="Timeline help">i</span>
+          <input type="range" id="dateSlider" min="-500" max="2026" step="5" value="1900" data-i18n-attr="aria-label:map.year" aria-label="Historical map year">
+          <button type="button" id="btnEraForbin" class="small-action" data-i18n="map.era" data-i18n-attr="title:map.eraTitle" title="Show the Victor Forbin period, 1868–1947">Forbin era</button>
+          <span class="timeline-help-icon" data-i18n-attr="title:map.timelineHelpText; aria-label:map.timelineHelp" title="This slider changes the OpenHistoricalMap background period." aria-label="Timeline help">i</span>
         </div>
       </section>
 
-      <aside id="rightPanel" class="map-detail-panel hidden" aria-label="Place details" aria-hidden="true">
+      <aside id="rightPanel" class="map-detail-panel hidden" data-i18n-attr="aria-label:map.placeDetails" aria-label="Place details" aria-hidden="true">
         <div class="map-detail-header">
           <div>
-            <p class="eyebrow">Forbin place</p>
+            <p class="eyebrow" data-i18n="map.forbinPlace">Forbin place</p>
+            <!-- Filled by map.js. -->
             <h2 id="rightTitle">Place details</h2>
           </div>
-          <button id="closeRightPanel" class="icon-button" type="button" aria-label="Close details">Close</button>
+          <button id="closeRightPanel" class="icon-button" type="button" data-i18n="map.close" data-i18n-attr="aria-label:map.closeDetails" aria-label="Close details">Close</button>
         </div>
-        <div id="rightContent" class="map-detail-content"><p>Select a point to display its information.</p></div>
+        <div id="rightContent" class="map-detail-content"><p data-i18n="map.selectPoint">Select a point to display its information.</p></div>
       </aside>
     </div>
   </main>
 
   <footer class="site-footer compact-footer" data-site-footer></footer>
-  <script src="scripts/navigation.js"></script>
-  <script src="map.js?v=forbin-places-20260715"></script>
-  <script src="scripts/map-ui.js?v=forbin-places-20260715"></script>
+  <script src="scripts/navigation.js?v=i18n-20260930"></script>
+  <script src="map.js?v=i18n-20260930"></script>
+  <script src="scripts/map-ui.js?v=i18n-20260930"></script>
 </body>
 </html>

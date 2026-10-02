@@ -10,6 +10,7 @@
   const counter = document.getElementById("download-result-count");
   const empty = document.getElementById("download-empty");
 
+  // Categories are keyed by their English name; labels come from i18n/translations.js.
   const categoryRules = [
     ["France", /france|french|versailles|quai d'orçay|monaco/i],
     ["Africa", /africa|afrique|alger|morocco|tunisia|libya|egypt|sahara|sudan|ethiopia|somalia|mauritania/i],
@@ -26,36 +27,61 @@
   ];
 
   function classify(theme) {
+    if (!theme) return "Not specified";
     return categoryRules.find(([, pattern]) => pattern.test(theme))?.[0] || "Society and everyday life";
   }
 
-  const categories = new Set();
   const normalizeSearchText = (value) => String(value ?? "")
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[̀-ͯ]/g, "")
     .toLowerCase()
     .replace(/[^\p{L}\p{N}]+/gu, " ")
     .trim();
 
+  // The table is generated in English; keep the original theme on each row.
+  const categories = new Set();
   rows.forEach((row) => {
-    const theme = row.cells[1]?.textContent.trim() || "Not specified";
-    const group = classify(theme);
-    row.dataset.search = normalizeSearchText(row.textContent);
-    row.dataset.category = group;
-    categories.add(group);
-    const link = row.querySelector("a");
-    if (link) {
-      link.textContent = "Download";
-      link.setAttribute("rel", "noopener");
-    }
+    const theme = row.cells[1]?.textContent.trim() || "";
+    row.dataset.theme = theme;
+    row.dataset.category = classify(theme);
+    row.dataset.archive = row.cells[0]?.textContent.trim() || "";
+    categories.add(row.dataset.category);
+    row.querySelector("a")?.setAttribute("rel", "noopener");
   });
 
-  Array.from(categories).sort((a, b) => a.localeCompare(b, "en")).forEach((value) => {
-    const option = document.createElement("option");
-    option.value = value;
-    option.textContent = value;
-    category.appendChild(option);
-  });
+  // Translate row labels and rebuild the search index (both languages are searchable).
+  function renderRows() {
+    rows.forEach((row) => {
+      const theme = row.dataset.theme;
+      const localizedTheme = theme ? I18N.translateValue("theme", theme) : t("category:Not specified");
+      if (row.cells[1]) row.cells[1].textContent = localizedTheme;
+      const link = row.querySelector("a");
+      if (link) link.textContent = t("download.link");
+      const categoryLabel = I18N.translateValue("category", row.dataset.category);
+      row.dataset.search = normalizeSearchText([
+        row.dataset.archive, theme, localizedTheme, row.dataset.category, categoryLabel
+      ].join(" "));
+    });
+  }
+
+  function renderCategoryOptions() {
+    const selected = category.value;
+    category.replaceChildren();
+    const all = document.createElement("option");
+    all.value = "";
+    all.textContent = t("download.allCategories");
+    category.appendChild(all);
+    Array.from(categories)
+      .map(value => ({ value, label: I18N.translateValue("category", value) }))
+      .sort((a, b) => a.label.localeCompare(b.label, I18N.locale))
+      .forEach(({ value, label }) => {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = label;
+        category.appendChild(option);
+      });
+    category.value = selected;
+  }
 
   function applyFilters() {
     const terms = normalizeSearchText(search.value).split(" ").filter(Boolean);
@@ -67,13 +93,20 @@
       row.hidden = !matches;
       if (matches) visible += 1;
     });
-    counter.textContent = `${visible} box${visible > 1 ? "es" : ""} out of ${rows.length}`;
+    counter.textContent = t("download.count", { count: visible, total: rows.length });
     empty.hidden = visible !== 0;
     table.hidden = visible === 0;
   }
 
+  function render() {
+    renderRows();
+    renderCategoryOptions();
+    applyFilters();
+  }
+
   search.addEventListener("input", applyFilters);
   category.addEventListener("change", applyFilters);
+  window.addEventListener("forbin:languagechange", render);
 
   document.querySelectorAll("[data-download-view]").forEach((button) => {
     button.addEventListener("click", () => {
@@ -87,5 +120,5 @@
     });
   });
 
-  applyFilters();
+  render();
 }());

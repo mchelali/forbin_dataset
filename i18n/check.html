@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Translation check — Forbin Dataset</title>
+  <style>
+    :root { color-scheme: light; --ok: #2f6b45; --warn: #9a4a16; --muted: #6f665b; }
+    body { margin: 0; padding: 24px 16px 48px; background: #f7f3ec; color: #332b22; font: 15px/1.5 system-ui, sans-serif; }
+    main { max-width: 960px; margin: 0 auto; }
+    h1 { margin: 0 0 4px; font-size: 1.4rem; }
+    p.lead { margin: 0 0 24px; color: var(--muted); }
+    section { margin-bottom: 24px; padding: 16px 18px; border: 1px solid rgba(70, 55, 40, 0.15); border-radius: 6px; background: #fbfaf7; }
+    h2 { margin: 0 0 8px; font-size: 1rem; }
+    .ok { color: var(--ok); }
+    .warn { color: var(--warn); }
+    ul { margin: 8px 0 0; padding-left: 20px; }
+    code { font: 0.85rem/1.4 ui-monospace, Consolas, monospace; overflow-wrap: anywhere; }
+    .source { color: var(--muted); font-size: 0.8rem; }
+  </style>
+  <script src="translations.js"></script>
+</head>
+<body>
+  <main>
+    <h1>Translation check</h1>
+    <p class="lead">Open this page from a local web server (for example the site root) to scan the pages and scripts. It lists keys without a translation, keys used but not defined, and keys defined but never used.</p>
+    <div id="report"><p>Scanning…</p></div>
+  </main>
+  <script>
+    (async () => {
+      const LANGS = ["en", "fr"];
+      // Keys prefixed with these are translations of data values, looked up dynamically.
+      const DATA_PREFIXES = ["theme:", "category:", "prediction.", "explorer.dc.", "explorer.face.", "map.validation."];
+      const FILES = [
+        "../index.html", "../explorer.html", "../download.html", "../map.html",
+        "../explorer.js", "../map.js", "../scripts/navigation.js", "../scripts/explorer-ui.js",
+        "../scripts/download-filters.js"
+      ];
+      const dictionary = window.FORBIN_I18N || {};
+      const keys = Object.keys(dictionary);
+      const report = document.getElementById("report");
+
+      const missing = {};
+      LANGS.forEach(lang => {
+        missing[lang] = keys.filter(key => {
+          const entry = dictionary[key];
+          if (key.startsWith("theme:") && lang === "en") return false;
+          const value = entry[lang];
+          if (value === undefined || value === "") return true;
+          if (typeof value === "object") return !value.one || !value.other;
+          return false;
+        });
+      });
+
+      const used = new Map();
+      const unreadable = [];
+      const patterns = [
+        /data-i18n(?:-html)?="([^"]+)"/g,
+        /data-i18n-attr="([^"]+)"/g,
+        /\bt\(\s*"([^"$`]+)"/g,
+        /\bt\(\s*'([^'$`]+)'/g
+      ];
+      for (const file of FILES) {
+        let text;
+        try {
+          const response = await fetch(file);
+          if (!response.ok) throw new Error(response.status);
+          text = await response.text();
+        } catch (error) {
+          unreadable.push(file);
+          continue;
+        }
+        patterns.forEach((pattern, index) => {
+          for (const match of text.matchAll(pattern)) {
+            const found = index === 1
+              ? match[1].split(";").map(pair => pair.split(":").slice(1).join(":").trim())
+              : [match[1]];
+            found.filter(Boolean).forEach(key => {
+              if (!used.has(key)) used.set(key, new Set());
+              used.get(key).add(file.replace("../", ""));
+            });
+          }
+        });
+        // Keys passed as plain string literals (e.g. t(condition ? "a" : "b") or lookup tables).
+        keys.forEach(key => {
+          if (text.includes(`"${key}"`) || text.includes(`'${key}'`)) {
+            if (!used.has(key)) used.set(key, new Set());
+            used.get(key).add(file.replace("../", ""));
+          }
+        });
+      }
+
+      const undefinedKeys = [...used.keys()].filter(key => !key.includes("$") && !(key in dictionary));
+      const unusedKeys = keys.filter(key => !used.has(key) && !DATA_PREFIXES.some(prefix => key.startsWith(prefix)));
+
+      const list = (items, render = item => `<code>${item}</code>`) => items.length
+        ? `<ul>${items.map(item => `<li>${render(item)}</li>`).join("")}</ul>`
+        : "";
+      const status = (count, okText) => count
+        ? `<strong class="warn">${count} to fix</strong>`
+        : `<strong class="ok">${okText}</strong>`;
+
+      report.innerHTML = `
+        <section>
+          <h2>Summary</h2>
+          <p>${keys.length} keys defined · ${used.size} keys referenced in ${FILES.length - unreadable.length} files.</p>
+          ${unreadable.length ? `<p class="warn">Could not read: ${unreadable.join(", ")}. Serve the site over HTTP rather than opening the file directly.</p>` : ""}
+        </section>
+        ${LANGS.map(lang => `
+          <section>
+            <h2>Missing ${lang.toUpperCase()} translations — ${status(missing[lang].length, "complete")}</h2>
+            ${list(missing[lang])}
+          </section>`).join("")}
+        <section>
+          <h2>Keys used in the code but not defined — ${status(undefinedKeys.length, "none")}</h2>
+          ${list(undefinedKeys, key => `<code>${key}</code> <span class="source">${[...used.get(key)].join(", ")}</span>`)}
+        </section>
+        <section>
+          <h2>Keys defined but never used — ${status(unusedKeys.length, "none")}</h2>
+          <p class="source">Keys built dynamically (${DATA_PREFIXES.join(", ")}) are not listed.</p>
+          ${list(unusedKeys)}
+        </section>`;
+    })();
+  </script>
+</body>
+</html>

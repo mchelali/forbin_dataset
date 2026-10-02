@@ -3,62 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explore the boxes, images, metadata and annotations of the Forbin Dataset.">
-  <title>Explorer — Forbin Dataset</title>
+  <title data-i18n="meta.explorer.title">Explorer — Forbin Dataset historical photographs and annotations</title>
+  <meta name="description" data-i18n-attr="content:meta.explorer.description" content="Browse the Forbin historical photographs box by box: recto and verso images, archival metadata, OCR transcriptions, annotated stamps and stamp detection predictions.">
+  <link rel="alternate" hreflang="en" href="https://mchelali.github.io/forbin_dataset/explorer.html">
+  <link rel="alternate" hreflang="fr" href="https://mchelali.github.io/forbin_dataset/explorer.html?lang=fr">
+  <link rel="alternate" hreflang="x-default" href="https://mchelali.github.io/forbin_dataset/explorer.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Forbin Dataset">
+  <meta property="og:title" data-i18n-attr="content:meta.explorer.title" content="Explorer — Forbin Dataset historical photographs and annotations">
+  <meta property="og:description" data-i18n-attr="content:meta.explorer.description" content="Browse the Forbin historical photographs box by box: recto and verso images, archival metadata, OCR transcriptions, annotated stamps and stamp detection predictions.">
+  <meta property="og:url" content="https://mchelali.github.io/forbin_dataset/explorer.html">
+  <meta property="og:image" content="https://mchelali.github.io/forbin_dataset/assets/forbin-portrait.jpg">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="fr_FR">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=viewer-empty-20260616">
-  <link rel="stylesheet" href="styles/refonte.css?v=viewer-fixes-20260930">
+  <link rel="stylesheet" href="styles/refonte.css?v=checkbox-20261001">
+  <script src="i18n/translations.js?v=i18n-20260930"></script>
+  <script src="scripts/i18n.js?v=i18n-20260930"></script>
 </head>
 <body class="explorer-page research-page explorer-gallery-mode">
-  <a class="skip-link" href="#explorer-main-stage">Skip to the workspace</a>
+  <a class="skip-link" href="#explorer-main-stage" data-i18n="skip.workspace">Skip to the workspace</a>
   <header class="site-header" data-site-header></header>
 
   <main class="explorer-shell">
     <div class="workspace-topbar">
-      <button id="toggle-archive-panel" class="icon-button mobile-panel-toggle" type="button" aria-controls="archive-panel" aria-expanded="false">Collection</button>
-      <nav id="archive-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">Forbin Collection</nav>
-      <div class="document-navigation" aria-label="Document navigation">
-        <button id="previous-document" class="icon-button" type="button" disabled aria-label="Previous document">←</button>
-        <button id="next-document" class="icon-button" type="button" disabled aria-label="Next document">→</button>
-        <button id="toggle-metadata-panel" class="icon-button mobile-panel-toggle" type="button" aria-controls="document-panel" aria-expanded="false">Information</button>
+      <button id="toggle-archive-panel" class="icon-button mobile-panel-toggle" type="button" aria-controls="archive-panel" aria-expanded="false" data-i18n="explorer.collection">Collection</button>
+      <nav id="archive-breadcrumb" class="breadcrumb" data-i18n-attr="aria-label:explorer.breadcrumb" aria-label="Breadcrumb">Forbin Collection</nav>
+      <div class="document-navigation" data-i18n-attr="aria-label:explorer.docNav" aria-label="Document navigation">
+        <button id="previous-document" class="icon-button" type="button" disabled data-i18n-attr="aria-label:explorer.previousDoc" aria-label="Previous document">←</button>
+        <button id="next-document" class="icon-button" type="button" disabled data-i18n-attr="aria-label:explorer.nextDoc" aria-label="Next document">→</button>
+        <button id="toggle-metadata-panel" class="icon-button mobile-panel-toggle" type="button" aria-controls="document-panel" aria-expanded="false" data-i18n="explorer.information">Information</button>
       </div>
     </div>
 
     <div class="research-workspace">
-      <aside id="archive-panel" class="archive-panel" aria-label="Collection navigation">
+      <aside id="archive-panel" class="archive-panel" data-i18n-attr="aria-label:explorer.collectionNav" aria-label="Collection navigation">
         <div class="panel-heading">
-          <p class="eyebrow">Forbin Collection</p>
-          <p><strong id="total-count">0</strong> indexed images</p>
+          <p class="eyebrow" data-i18n="explorer.forbinCollection">Forbin Collection</p>
+          <p><strong id="total-count">0</strong> <span data-i18n="explorer.indexedImages">indexed images</span></p>
         </div>
 
-        <div class="browse-modes" aria-label="Exploration mode">
-          <a id="sample-mode-link" href="explorer.html?mode=sample">Local subset</a>
-          <a id="stream-mode-link" href="explorer.html?mode=stream">Full collection</a>
+        <div class="browse-modes" data-i18n-attr="aria-label:explorer.modes" aria-label="Exploration mode">
+          <a id="sample-mode-link" href="explorer.html?mode=sample" data-i18n="explorer.mode.sample">Local subset</a>
+          <a id="stream-mode-link" href="explorer.html?mode=stream" data-i18n="explorer.mode.stream">Full collection</a>
         </div>
 
         <div class="field-group">
-          <label for="carton-search">Search the box inventory</label>
-          <input id="carton-search" type="search" placeholder="Box, country or subject" autocomplete="off">
+          <label for="carton-search" data-i18n="explorer.boxSearch">Search the box inventory</label>
+          <input id="carton-search" type="search" data-i18n-attr="placeholder:explorer.boxSearchPlaceholder" placeholder="Box, country or subject" autocomplete="off">
         </div>
 
         <div class="field-group box-sort-field">
-          <label for="carton-sort">Sort boxes</label>
+          <label for="carton-sort" data-i18n="explorer.sortBoxes">Sort boxes</label>
           <select id="carton-sort">
-            <option value="archive-asc">Archive number: ascending</option>
-            <option value="archive-desc">Archive number: descending</option>
-            <option value="images-desc">Image count: highest first</option>
-            <option value="images-asc">Image count: lowest first</option>
-            <option value="description-asc">Country or subject: A–Z</option>
+            <option value="archive-asc" data-i18n="explorer.sort.archiveAsc">Archive number: ascending</option>
+            <option value="archive-desc" data-i18n="explorer.sort.archiveDesc">Archive number: descending</option>
+            <option value="images-desc" data-i18n="explorer.sort.imagesDesc">Image count: highest first</option>
+            <option value="images-asc" data-i18n="explorer.sort.imagesAsc">Image count: lowest first</option>
+            <option value="description-asc" data-i18n="explorer.sort.description">Country or subject: A–Z</option>
           </select>
         </div>
 
         <section class="archive-section" aria-labelledby="cartons-heading">
           <div class="section-label-row">
-            <h2 id="cartons-heading">Boxes</h2>
-            <span class="section-hint">Archival structure</span>
+            <h2 id="cartons-heading" data-i18n="explorer.boxes">Boxes</h2>
+            <span class="section-hint" data-i18n="explorer.archivalStructure">Archival structure</span>
           </div>
           <div id="carton-list" class="carton-list"></div>
         </section>
@@ -68,7 +81,8 @@
         <section id="gallery-view" class="collection-gallery-view" aria-labelledby="gallery-title">
           <header class="gallery-view-header">
             <div>
-              <p class="eyebrow">Selected box</p>
+              <p class="eyebrow" data-i18n="explorer.selectedBox">Selected box</p>
+              <!-- Filled by explorer.js (depends on the selected box). -->
               <h1 id="gallery-title">Choose a box</h1>
               <p id="metadata-search-status" class="filter-status" aria-live="polite">Select a box on the left to browse its images.</p>
             </div>
@@ -77,48 +91,48 @@
           <section class="gallery-search-panel" aria-labelledby="metadata-search-heading">
             <div class="gallery-primary-search">
               <div class="field-group global-search-field">
-                <label for="search" id="metadata-search-heading">Search images in this box</label>
-                <input id="search" type="search" placeholder="Title, place, subject, OCR…" autocomplete="off" disabled>
+                <label for="search" id="metadata-search-heading" data-i18n="explorer.searchImages">Search images in this box</label>
+                <input id="search" type="search" data-i18n-attr="placeholder:explorer.searchPlaceholder" placeholder="Title, place, subject, OCR…" autocomplete="off" disabled>
               </div>
               <div class="field-group">
-                <label for="search-field">Search field</label>
+                <label for="search-field" data-i18n="explorer.searchField">Search field</label>
                 <select id="search-field" disabled>
-                  <option value="all">All metadata</option>
-                  <option value="identifier">Identifier and filename</option>
-                  <option value="title">Title</option>
-                  <option value="country">Place</option>
-                  <option value="subject">Subject and class</option>
-                  <option value="description">Description</option>
-                  <option value="ocr">OCR and transcriptions</option>
+                  <option value="all" data-i18n="explorer.field.all">All metadata</option>
+                  <option value="identifier" data-i18n="explorer.field.identifier">Identifier and filename</option>
+                  <option value="title" data-i18n="explorer.field.title">Title</option>
+                  <option value="country" data-i18n="explorer.field.country">Place</option>
+                  <option value="subject" data-i18n="explorer.field.subject">Subject and class</option>
+                  <option value="description" data-i18n="explorer.field.description">Description</option>
+                  <option value="ocr" data-i18n="explorer.field.ocr">OCR and transcriptions</option>
                 </select>
               </div>
-              <button id="clear-metadata-filters" class="icon-button" type="button" disabled>Clear filters</button>
+              <button id="clear-metadata-filters" class="icon-button" type="button" disabled data-i18n="explorer.clearFilters">Clear filters</button>
             </div>
 
             <details class="gallery-advanced-filters">
-              <summary>More filters</summary>
+              <summary data-i18n="explorer.moreFilters">More filters</summary>
               <div class="metadata-filter-grid">
                 <div class="field-group">
-                  <label for="metadata-country">Country or region</label>
-                  <select id="metadata-country" disabled><option value="">All places</option></select>
+                  <label for="metadata-country" data-i18n="explorer.countryRegion">Country or region</label>
+                  <select id="metadata-country" disabled><option value="" data-i18n="explorer.allPlaces">All places</option></select>
                 </div>
                 <div class="field-group">
-                  <label for="metadata-subject">Subject</label>
-                  <select id="metadata-subject" disabled><option value="">All subjects</option></select>
+                  <label for="metadata-subject" data-i18n="explorer.subject">Subject</label>
+                  <select id="metadata-subject" disabled><option value="" data-i18n="explorer.allSubjects">All subjects</option></select>
                 </div>
               </div>
-              <div class="availability-filters" role="group" aria-label="Enrichment availability">
-                <label><input id="filter-has-ocr" type="checkbox" disabled> OCR or transcription</label>
-                <label><input id="filter-has-annotations" type="checkbox" disabled> Annotations</label>
-                <label><input id="filter-has-verso" type="checkbox" disabled> Reverse side</label>
+              <div class="availability-filters" role="group" data-i18n-attr="aria-label:explorer.availability" aria-label="Enrichment availability">
+                <label><input id="filter-has-ocr" type="checkbox" disabled> <span data-i18n="explorer.filter.ocr">OCR or transcription</span></label>
+                <label><input id="filter-has-annotations" type="checkbox" disabled> <span data-i18n="explorer.filter.annotations">Annotations</span></label>
+                <label><input id="filter-has-verso" type="checkbox" disabled> <span data-i18n="explorer.filter.verso">Reverse side</span></label>
               </div>
             </details>
           </section>
 
           <section class="gallery-results" aria-labelledby="documents-heading">
             <div class="section-label-row">
-              <h2 id="documents-heading">Images</h2>
-              <span class="section-hint">Select an image to open the document</span>
+              <h2 id="documents-heading" data-i18n="explorer.images">Images</h2>
+              <span class="section-hint" data-i18n="explorer.selectImageHint">Select an image to open the document</span>
             </div>
             <div id="gallery" class="image-gallery-grid">
               <p class="placeholder-text">Select a box to display its image gallery.</p>
@@ -127,61 +141,62 @@
           </section>
         </section>
 
-        <section class="visualizer" id="visualizer" aria-label="Document viewer">
+        <section class="visualizer" id="visualizer" data-i18n-attr="aria-label:explorer.viewer" aria-label="Document viewer">
           <div class="visualizer-header">
             <div class="visualizer-heading">
-              <button id="back-to-gallery" class="text-button back-to-gallery" type="button">← Back to gallery</button>
+              <button id="back-to-gallery" class="text-button back-to-gallery" type="button" data-i18n="explorer.backToGallery">← Back to gallery</button>
               <h1 id="visualizer-title"></h1>
-              <div id="visualizer-details" aria-label="Document sides"></div>
+              <div id="visualizer-details" data-i18n-attr="aria-label:explorer.sides" aria-label="Document sides"></div>
             </div>
-            <div class="viewer-actions" aria-label="Viewer controls">
-              <button id="zoom-out" class="icon-button" type="button" title="Zoom out (-)" aria-label="Zoom out">−</button>
-              <button id="zoom-in" class="icon-button" type="button" title="Zoom in (+)" aria-label="Zoom in">+</button>
-              <button id="reset-view" class="icon-button" type="button" title="Fit the image to the screen (0)">Fit</button>
-              <button id="fullscreen-view" class="icon-button" type="button" title="Display the viewer in full screen">Full screen</button>
+            <div class="viewer-actions" data-i18n-attr="aria-label:explorer.viewerControls" aria-label="Viewer controls">
+              <button id="zoom-out" class="icon-button" type="button" data-i18n-attr="title:explorer.zoomOut; aria-label:explorer.zoomOut" title="Zoom out (-)" aria-label="Zoom out (-)">−</button>
+              <button id="zoom-in" class="icon-button" type="button" data-i18n-attr="title:explorer.zoomIn; aria-label:explorer.zoomIn" title="Zoom in (+)" aria-label="Zoom in (+)">+</button>
+              <button id="reset-view" class="icon-button" type="button" data-i18n="explorer.fit" data-i18n-attr="title:explorer.fitTitle" title="Fit the image to the screen (0)">Fit</button>
+              <button id="fullscreen-view" class="icon-button" type="button" data-i18n="explorer.fullscreen" data-i18n-attr="title:explorer.fullscreenTitle" title="Display the viewer in full screen">Full screen</button>
             </div>
             <div class="explorer-tools">
-              <div id="prediction-controls" class="prediction-controls" aria-label="Annotation and prediction color key"></div>
+              <div id="prediction-controls" class="prediction-controls" data-i18n-attr="aria-label:explorer.colorKeyLabel" aria-label="Annotation and prediction color key"></div>
             </div>
           </div>
 
           <div class="image-viewer">
+            <!-- Content managed by explorer.js (empty, loading and error states). -->
             <div id="viewer-empty-state" class="viewer-empty-state">
               <span>Select a document to display its image</span>
               <small>Full-collection images are loaded on demand from Sharedocs.</small>
             </div>
             <div id="img-wrapper">
-              <img id="main-img" alt="Selected archival document">
-              <svg id="main-svg" aria-label="Annotation layer">
+              <img id="main-img" data-i18n-attr="alt:explorer.mainImageAlt" alt="Selected archival document">
+              <svg id="main-svg" data-i18n-attr="aria-label:explorer.annotationLayer" aria-label="Annotation layer">
                 <g id="svg-g-group"></g>
               </svg>
             </div>
           </div>
-          <p class="viewer-help">Scroll, pinch or +/− to zoom · Drag to pan · ←/→ to change document · Hover over an area to view its annotation</p>
+          <p class="viewer-help" data-i18n="explorer.viewerHelp">Scroll, pinch or +/− to zoom · Drag to pan · ←/→ to change document · Hover over an area to view its annotation</p>
         </section>
       </div>
 
-      <aside id="document-panel" class="document-panel" aria-label="Document information">
+      <aside id="document-panel" class="document-panel" data-i18n-attr="aria-label:explorer.docInfo" aria-label="Document information">
         <div class="document-panel-header">
           <div>
-            <p class="eyebrow">Selected document</p>
-            <h2>Information</h2>
+            <p class="eyebrow" data-i18n="explorer.selectedDoc">Selected document</p>
+            <h2 data-i18n="explorer.information">Information</h2>
           </div>
           <div class="document-quick-actions">
-            <button id="copy-document-id" class="icon-button" type="button" disabled>Copy identifier</button>
-            <a id="open-document-map" class="icon-button is-disabled" href="map.html" aria-disabled="true">View on map</a>
+            <button id="copy-document-id" class="icon-button" type="button" disabled data-i18n="explorer.copyId">Copy identifier</button>
+            <a id="open-document-map" class="icon-button is-disabled" href="map.html" aria-disabled="true" data-i18n="explorer.viewOnMap">View on map</a>
           </div>
         </div>
 
         <div class="document-sections">
           <details class="metadata-disclosure" open>
-            <summary>Archival metadata</summary>
+            <summary data-i18n="explorer.archivalMetadata">Archival metadata</summary>
             <div id="metadata-panel" class="meta-panel">
               <div id="metadata-content"><p class="empty-inline">No document selected.</p></div>
             </div>
           </details>
           <details class="metadata-disclosure" open>
-            <summary>OCR, transcriptions and predictions</summary>
+            <summary data-i18n="explorer.textsSection">OCR, transcriptions and predictions</summary>
             <div id="transcription-panel" class="meta-panel transcription-panel">
               <div id="transcription-content"><p class="empty-inline">Related text will appear here.</p></div>
             </div>
@@ -194,9 +209,9 @@
 
   <div id="tooltip" role="tooltip"></div>
   <footer class="site-footer compact-footer" data-site-footer></footer>
-  <script src="scripts/navigation.js"></script>
+  <script src="scripts/navigation.js?v=i18n-20260930"></script>
   <script src="config.js?v=viewer-fixes-20260930"></script>
-  <script src="explorer.js?v=viewer-fixes-20260930"></script>
-  <script src="scripts/explorer-ui.js?v=viewer-fixes-20260930"></script>
+  <script src="explorer.js?v=i18n-20260930"></script>
+  <script src="scripts/explorer-ui.js?v=i18n-20260930"></script>
 </body>
 </html>

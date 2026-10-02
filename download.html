@@ -1,56 +1,70 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Search and download boxes from the Forbin Dataset.">
-    <title>Download — Forbin Dataset</title>
+    <title data-i18n="meta.download.title">Download the Forbin Dataset — historical photographs and annotations</title>
+    <meta name="description" data-i18n-attr="content:meta.download.description" content="Download the Forbin Dataset of historical photographs: 256 archive boxes with COCO annotations, OCR and stamp detection data, searchable by region and theme.">
+    <link rel="alternate" hreflang="en" href="https://mchelali.github.io/forbin_dataset/download.html">
+    <link rel="alternate" hreflang="fr" href="https://mchelali.github.io/forbin_dataset/download.html?lang=fr">
+    <link rel="alternate" hreflang="x-default" href="https://mchelali.github.io/forbin_dataset/download.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Forbin Dataset">
+    <meta property="og:title" data-i18n-attr="content:meta.download.title" content="Download the Forbin Dataset — historical photographs and annotations">
+    <meta property="og:description" data-i18n-attr="content:meta.download.description" content="Download the Forbin Dataset of historical photographs: 256 archive boxes with COCO annotations, OCR and stamp detection data, searchable by region and theme.">
+    <meta property="og:url" content="https://mchelali.github.io/forbin_dataset/download.html">
+    <meta property="og:image" content="https://mchelali.github.io/forbin_dataset/assets/forbin-portrait.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles/refonte.css?v=download-research-20260713">
+    <link rel="stylesheet" href="styles/refonte.css?v=i18n-20260930">
+    <script src="i18n/translations.js?v=i18n-20260930"></script>
+    <script src="scripts/i18n.js?v=i18n-20260930"></script>
 </head>
 <body class="download-page research-page">
-    <a class="skip-link" href="#downloads-table">Skip to downloads</a>
+    <a class="skip-link" href="#downloads-table" data-i18n="skip.downloads">Skip to downloads</a>
     <header class="site-header" data-site-header></header>
 
     <main id="main-content" class="download-main">
         <header class="page-intro">
-            <p class="eyebrow">Research data</p>
-            <h1>Download the Forbin Dataset</h1>
-            <p>Access the full collection or search for a box by region and theme. Archives are distributed in <code>.tar</code> format.</p>
-            <a class="button button-primary" href="https://huggingface.co/datasets/mchelali/forbin_dataset" target="_blank" rel="noopener">Open the full dataset on Hugging Face</a>
+            <p class="eyebrow" data-i18n="download.eyebrow">Research data</p>
+            <h1 data-i18n="download.title">Download the Forbin Dataset</h1>
+            <p data-i18n-html="download.intro">Access the full collection of historical photographs or search for a box by region and theme. Archives are distributed in <code>.tar</code> format.</p>
+            <a class="button button-primary" href="https://huggingface.co/datasets/mchelali/forbin_dataset" target="_blank" rel="noopener" data-i18n="download.openHF">Open the full dataset on Hugging Face</a>
         </header>
 
         <section class="download-browser" aria-labelledby="download-browser-title">
             <div class="download-toolbar">
                 <div>
-                    <p class="eyebrow">Download inventory</p>
-                    <h2 id="download-browser-title">Available boxes</h2>
+                    <p class="eyebrow" data-i18n="download.inventory">Download inventory</p>
+                    <h2 id="download-browser-title" data-i18n="download.available">Available boxes</h2>
+                    <!-- Filled by scripts/download-filters.js. -->
                     <p id="download-result-count" class="result-count" aria-live="polite">Loading inventory…</p>
                 </div>
                 <div class="download-filters">
                     <div class="field-group">
-                        <label for="download-search">Search</label>
-                        <input id="download-search" type="search" placeholder="Box, country or theme" autocomplete="off">
+                        <label for="download-search" data-i18n="download.search">Search</label>
+                        <input id="download-search" type="search" data-i18n-attr="placeholder:download.searchPlaceholder" placeholder="Box, country or theme" autocomplete="off">
                     </div>
                     <div class="field-group">
-                        <label for="download-category">Category</label>
-                        <select id="download-category"><option value="">All categories</option></select>
+                        <label for="download-category" data-i18n="download.category">Category</label>
+                        <select id="download-category"><option value="" data-i18n="download.allCategories">All categories</option></select>
                     </div>
-                    <div class="view-switcher" role="group" aria-label="Display mode">
-                        <button class="icon-button active" type="button" data-download-view="table" aria-pressed="true">Table</button>
-                        <button class="icon-button" type="button" data-download-view="compact" aria-pressed="false">Compact</button>
+                    <div class="view-switcher" role="group" data-i18n-attr="aria-label:download.displayMode" aria-label="Display mode">
+                        <button class="icon-button active" type="button" data-download-view="table" aria-pressed="true" data-i18n="download.table">Table</button>
+                        <button class="icon-button" type="button" data-download-view="compact" aria-pressed="false" data-i18n="download.compact">Compact</button>
                     </div>
                 </div>
             </div>
-            <div id="download-empty" class="empty-state" hidden>No box matches these criteria.</div>
+            <div id="download-empty" class="empty-state" hidden data-i18n="download.empty">No box matches these criteria.</div>
             <div class="download-table-scroll">
-            
+
             <table id="downloads-table" class="table-container download-table">
-                <thead><tr><th>Archive</th><th>Region or theme</th><th>Access</th></tr></thead>
+                <thead><tr><th data-i18n="download.col.archive">Archive</th><th data-i18n="download.col.theme">Region or theme</th><th data-i18n="download.col.access">Access</th></tr></thead>
                 <tbody>
                     <tr>
                         <td><code>SHDGR__GR_2_K_247_1.tar</code></td>
@@ -1593,7 +1607,7 @@
         </section>
     </main>
     <footer class="site-footer" data-site-footer></footer>
-    <script src="scripts/navigation.js"></script>
-    <script src="scripts/download-filters.js"></script>
+    <script src="scripts/navigation.js?v=i18n-20260930"></script>
+    <script src="scripts/download-filters.js?v=i18n-20260930"></script>
 </body>
 </html>

@@ -54,6 +54,25 @@ model predictions are split into carton-level files under `data/stream/predictio
 so the browser only loads predictions for the selected carton.
 
 
+## 🌐 Translations (English / French)
+
+The portal is bilingual. English is served at the bare URL and French at `?lang=fr`
+(e.g. `explorer.html?lang=fr`); both versions are declared to search engines with
+`hreflang` links and listed in `sitemap.xml`.
+
+- All interface texts live in [`i18n/translations.js`](i18n/translations.js), one key per
+  text with every language side by side: `"home.title": { en: "...", fr: "..." }`.
+- In HTML, mark an element with `data-i18n="key"` (text), `data-i18n-html="key"` (text with
+  markup) or `data-i18n-attr="placeholder:key; aria-label:key2"` (attributes).
+- In JavaScript, use `t("key", { count: 3 })`; plural entries use `{ one, other }`.
+- Open `i18n/check.html` through a local web server to list missing or unused keys.
+- The engine is [`scripts/i18n.js`](scripts/i18n.js); add a language there (`SUPPORTED`)
+  and as a new field in each entry.
+
+After deploying, submit `https://mchelali.github.io/forbin_dataset/sitemap.xml` in
+Google Search Console so both languages are indexed.
+
+
 ## 📜 Dataset Description
 
 The Forbin Dataset contains digitized historical photographs from the personal archives of Victor Forbin, a French explorer, photographer, and writer.  
@@ -101,5 +120,5 @@ Once published, the explorer will be available at: [https://mchelali.github.io/f
 
 ## 🤝 Acknowledgment of Authors
 
-This dataset originates from the personal archives of **Victor Forbin**, digitized and curated by the *High Vision Project – Archives & Vision Initiative*.  
+This dataset originates from the personal archives of **Victor Forbin**, digitized and curated within the ANR project *HIGH VISION — Computer vision for a history of early news photo agencies* (ANR-24-CE38-4079).  
 All annotation and data processing work was performed by the project contributors.

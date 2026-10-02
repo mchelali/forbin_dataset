@@ -172,8 +172,6 @@ def build_stream_metadata(image: dict, metadata_lookup: dict, transcription_meta
     return {
         **metadata,
         "Carton": carton,
-        "Pays": metadata.get("Pays", "Non renseigné"),
-        "Classe": metadata.get("Classe", "Streaming Hugging Face"),
         "Source": "Huma-Num Sharedocs",
     }
 
@@ -267,6 +265,9 @@ def build_annotation_lookup(payload: dict, image_lookup: dict) -> dict:
         item["file_name"] = image_info["file_name"]
         item["side"] = image_info["side"]
         item.setdefault("source_face", image_info["side"])
+        if not str(item.get("text") or "").strip() and item.get("texts"):
+            texts = item["texts"]
+            item["text"] = " / ".join(map(str, texts)) if isinstance(texts, list) else str(texts)
         annotations_by_image[item["image_id"]].append(item)
     return annotations_by_image
 

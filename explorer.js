@@ -102,10 +102,21 @@ function showDocumentView() {
 
 let zoomScale = 1;
 let panX = 0, panY = 0;
-let isPanning = false;
-let startPanX = 0, startPanY = 0;
-let minZoom = 0.1;
-const MAX_ZOOM = 5;
+let minZoom = 1;
+const MAX_ZOOM = 8;
+const ZOOM_STEP = 1.4;
+
+// Active pointers (mouse, pen or fingers) used for panning and pinch-zooming.
+const activePointers = new Map();
+let panStart = null;
+let pinchStart = null;
+
+// Incremented on every display request so that stale async work is ignored.
+let displayRequestId = 0;
+
+// Carton-level prediction payloads, shared by detection counts and overlays.
+const cartonPredictionsCache = {};
+const detectionCountsLoaded = {};
 
 // ─── Data loading ─────────────────────────────────────────────────────────────
 
@@ -121,9 +132,12 @@ async function loadData() {
     await openExplorerFromUrlParams();
 }
 
+// Two modes only: the local sample subset, or the full collection streamed
+// from Huma-Num Sharedocs. Any other value falls back to the sample.
 function getDatasetMode() {
     const params = new URLSearchParams(window.location.search);
-    return params.get("mode") ?? CONFIG.mode ?? "sample";
+    const mode = params.get("mode") ?? CONFIG.mode;
+    return mode === "stream" ? "stream" : "sample";
 }
 
 function setModeUI() {
@@ -134,15 +148,13 @@ function setModeUI() {
 }
 
 async function loadSampleDataset() {
-    const response = await fetch(CONFIG.datasetUrl ?? "samples/subset.json");
-    const coco = await response.json();
+    const coco = await fetchJson(CONFIG.datasetUrl ?? "samples/subset.json");
     prepareCocoDataset(coco);
     document.getElementById("total-count").textContent = data.length;
 }
 
 async function loadStreamIndex() {
-    const response = await fetch(CONFIG.streamIndexUrl);
-    const index = await response.json();
+    const index = await fetchJson(CONFIG.streamIndexUrl);
     streamCartons = index.cartons ?? [];
     streamCartonEntries = {};
     loadedStreamCartons = {};
@@ -158,6 +170,26 @@ async function loadStreamIndex() {
     document.getElementById("total-count").textContent = totalImages;
 }
 
+// Values injected by older manifest builds when a field was missing.
+const PLACEHOLDER_CLASS = "Streaming Hugging Face";
+const PLACEHOLDER_COUNTRY = "Non renseigné";
+
+function normalizeImageRecord(image) {
+    const metadata = image.metadata;
+    if (metadata?.Classe === PLACEHOLDER_CLASS) {
+        delete metadata.Classe;
+        if (metadata.Pays === PLACEHOLDER_COUNTRY) delete metadata.Pays;
+    }
+}
+
+// Manual annotations may store their transcription in `texts` instead of `text`.
+function normalizeAnnotationRecord(annotation) {
+    if (hasText(annotation.text) || annotation.texts == null) return;
+    annotation.text = Array.isArray(annotation.texts)
+        ? annotation.texts.filter(hasText).join(" / ")
+        : String(annotation.texts);
+}
+
 function prepareCocoDataset(coco) {
     data = coco.images ?? [];
     const anns = coco.annotations ?? [];
@@ -165,11 +197,13 @@ function prepareCocoDataset(coco) {
     // Index annotations by image_id once
     annsByImage = {};
     for (const a of anns) {
+        normalizeAnnotationRecord(a);
         (annsByImage[a.image_id] ??= []).push(a);
     }
 
     // Attach annotations and build search cache
     for (const d of data) {
+        normalizeImageRecord(d);
         d.annotations = annsByImage[d.id] ?? [];
         prepareSearchIndex(d);
     }
@@ -242,37 +276,41 @@ function matchesAllTerms(haystack, terms) {
 
 // ─── Zoom / Pan helpers ───────────────────────────────────────────────────────
 
-function applyTransform() {
-    wrapperEl.style.transformOrigin = "center center";
-    wrapperEl.style.transform = `translate(${panX}px, ${panY}px) scale(${zoomScale})`;
-
-    const strokeW = (2 / zoomScale) + "px";
-    for (const poly of gGroup.querySelectorAll("polygon")) {
-        poly.style.strokeWidth = strokeW;
-    }
+// The viewer box is never transformed, so its rect is a stable reference for
+// the wrapper's transform origin (the wrapper fills it exactly).
+function getViewerRect() {
+    return wrapperEl.parentElement.getBoundingClientRect();
 }
 
-function handleWheel(e) {
-    e.preventDefault();
+// Keep the zoomed image covering the viewer: no panning at "fit" scale, and
+// never further than the extra size gained by zooming.
+function clampPan() {
+    const rect = getViewerRect();
+    const maxX = Math.max(0, (rect.width * zoomScale - rect.width) / 2);
+    const maxY = Math.max(0, (rect.height * zoomScale - rect.height) / 2);
+    panX = Math.max(-maxX, Math.min(maxX, panX));
+    panY = Math.max(-maxY, Math.min(maxY, panY));
+}
 
-    const delta = e.deltaY * -0.001;
-    const newZoom = Math.max(minZoom, Math.min(MAX_ZOOM, zoomScale + delta * zoomScale));
+function applyTransform() {
+    clampPan();
+    wrapperEl.style.transformOrigin = "center center";
+    wrapperEl.style.transform = `translate(${panX}px, ${panY}px) scale(${zoomScale})`;
+    // Polygons use vector-effect: non-scaling-stroke, which ignores the CSS
+    // scale of the wrapper; compensate it so outlines stay ~2px on screen.
+    gGroup.style.strokeWidth = `${2 / zoomScale}px`;
+}
+
+// Zoom to `newZoom` keeping the image point under (clientX, clientY) fixed.
+function zoomAt(clientX, clientY, newZoom) {
+    newZoom = Math.max(minZoom, Math.min(MAX_ZOOM, newZoom));
     if (newZoom === zoomScale) return;
 
-    // With transformOrigin "center center" the wrapper's natural anchor is the
-    // container center. We express the pointer offset FROM that center so the
-    // math is consistent with how CSS applies the transform.
-    const rect = svgEl.getBoundingClientRect();
-    const centerX = rect.left + rect.width / 2;
-    const centerY = rect.top + rect.height / 2;
+    const rect = getViewerRect();
+    const ptrX = clientX - (rect.left + rect.width / 2);
+    const ptrY = clientY - (rect.top + rect.height / 2);
 
-    // Pointer relative to container center
-    const ptrX = e.clientX - centerX;
-    const ptrY = e.clientY - centerY;
-
-    // The image-space point under the pointer must stay fixed:
-    //   imagePoint = (ptr - pan) / oldZoom
-    //   newPan = ptr - imagePoint * newZoom
+    // imagePoint = (ptr - pan) / oldZoom ; newPan = ptr - imagePoint * newZoom
     const ix = (ptrX - panX) / zoomScale;
     const iy = (ptrY - panY) / zoomScale;
     panX = ptrX - ix * newZoom;
@@ -282,34 +320,84 @@ function handleWheel(e) {
     applyTransform();
 }
 
-function handleMouseDown(e) {
-    if (e.button !== 0) return;
-    isPanning = true;
-    svgEl.style.cursor = "grabbing";
-    startPanX = e.clientX - panX;
-    startPanY = e.clientY - panY;
+function zoomBy(factor) {
+    if (!interactionEnabled) return;
+    const rect = getViewerRect();
+    zoomAt(rect.left + rect.width / 2, rect.top + rect.height / 2, zoomScale * factor);
 }
 
-function handleMouseMove(e) {
-    if (!isPanning) return;
-    panX = e.clientX - startPanX;
-    panY = e.clientY - startPanY;
+function resetView() {
+    zoomScale = 1;
+    panX = 0;
+    panY = 0;
     applyTransform();
 }
 
-function handleMouseUp() {
-    isPanning = false;
-    svgEl.style.cursor = "grab";
+function handleWheel(e) {
+    e.preventDefault();
+    zoomAt(e.clientX, e.clientY, zoomScale * Math.exp(-e.deltaY * 0.001));
+}
+
+function getPinchState() {
+    const [a, b] = [...activePointers.values()];
+    return {
+        distance: Math.hypot(a.x - b.x, a.y - b.y),
+        x: (a.x + b.x) / 2,
+        y: (a.y + b.y) / 2
+    };
+}
+
+function handlePointerDown(e) {
+    if (e.pointerType === "mouse" && e.button !== 0) return;
+    svgEl.setPointerCapture(e.pointerId);
+    activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (activePointers.size === 1) {
+        panStart = { x: e.clientX - panX, y: e.clientY - panY };
+        svgEl.style.cursor = "grabbing";
+    } else if (activePointers.size === 2) {
+        panStart = null;
+        pinchStart = { ...getPinchState(), zoom: zoomScale };
+    }
+}
+
+function handlePointerMove(e) {
+    if (!activePointers.has(e.pointerId)) return;
+    activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pinchStart && activePointers.size >= 2) {
+        const pinch = getPinchState();
+        zoomAt(pinch.x, pinch.y, pinchStart.zoom * pinch.distance / pinchStart.distance);
+    } else if (panStart) {
+        panX = e.clientX - panStart.x;
+        panY = e.clientY - panStart.y;
+        applyTransform();
+    }
+}
+
+function handlePointerUp(e) {
+    if (!activePointers.delete(e.pointerId)) return;
+    if (activePointers.size < 2) pinchStart = null;
+    if (activePointers.size === 1) {
+        // Continue panning with the remaining finger.
+        const [remaining] = activePointers.values();
+        panStart = { x: remaining.x - panX, y: remaining.y - panY };
+    } else if (activePointers.size === 0) {
+        panStart = null;
+        svgEl.style.cursor = interactionEnabled ? "grab" : "default";
+    }
 }
 
 // Single set of listeners attached permanently to svgEl.
 // We gate them with a flag instead of add/remove on every image load.
+// Pointer capture keeps the drag alive when the pointer leaves the image.
 let interactionEnabled = false;
 
 svgEl.addEventListener("wheel", e => interactionEnabled && handleWheel(e), { passive: false });
-svgEl.addEventListener("mousedown", e => interactionEnabled && handleMouseDown(e));
-svgEl.addEventListener("mousemove", e => interactionEnabled && handleMouseMove(e));
-svgEl.addEventListener("mouseup", () => interactionEnabled && handleMouseUp());
+svgEl.addEventListener("pointerdown", e => interactionEnabled && handlePointerDown(e));
+svgEl.addEventListener("pointermove", handlePointerMove);
+svgEl.addEventListener("pointerup", handlePointerUp);
+svgEl.addEventListener("pointercancel", handlePointerUp);
+window.addEventListener("resize", () => interactionEnabled && applyTransform());
+document.addEventListener("fullscreenchange", () => interactionEnabled && applyTransform());
 
 // ─── Carton list ──────────────────────────────────────────────────────────────
 
@@ -321,11 +409,11 @@ function renderCartonList() {
         ? streamCartons.map(entry => ({
             name: entry.carton,
             count: entry.images,
-            summary: [getIndexFacetLabel(entry.countries?.[0]), getIndexFacetLabel(entry.classes?.[0])].filter(Boolean).join(" · "),
+            summary: [getMainFacetLabel(entry.countries), getMainFacetLabel(entry.classes)].filter(Boolean).join(" · "),
             searchText: [
                 entry.carton,
-                ...(entry.countries ?? []).map(getIndexFacetLabel),
-                ...(entry.classes ?? []).map(getIndexFacetLabel)
+                ...getFacetLabels(entry.countries),
+                ...getFacetLabels(entry.classes)
             ].join(" ")
         }))
         : Object.keys(grouped).sort().map(carton => ({
@@ -386,6 +474,10 @@ function renderCartonList() {
             }
             updateMetadataFilterOptions(grouped[carton] ?? []);
             renderGallery();
+            if (getDatasetMode() !== "stream" && !detectionCountsLoaded[carton]) {
+                await loadDetectionCounts(carton);
+                if (currentCarton === carton && !document.body.classList.contains("explorer-document-mode")) renderGallery();
+            }
         });
 
         fragment.appendChild(item);
@@ -413,6 +505,16 @@ function getIndexFacetLabel(value) {
     return String(label ?? "").replace(/\s+\d+$/, "").trim();
 }
 
+function getFacetLabels(facets) {
+    return (facets ?? [])
+        .map(getIndexFacetLabel)
+        .filter(label => label && label !== PLACEHOLDER_CLASS && label !== PLACEHOLDER_COUNTRY);
+}
+
+function getMainFacetLabel(facets) {
+    return getFacetLabels(facets)[0] ?? "";
+}
+
 function renderCartonItemContent(item, carton, count, summary) {
     item.replaceChildren();
     const heading = document.createElement("span");
@@ -435,54 +537,72 @@ async function loadStreamCarton(carton) {
     const entry = streamCartonEntries[carton];
     if (!entry) return;
 
-    const manifestUrl = `${CONFIG.streamManifestBaseUrl ?? ""}${entry.manifest}`;
-    const response = await fetch(manifestUrl);
-    const coco = await response.json();
+    const coco = await fetchJson(`${CONFIG.streamManifestBaseUrl ?? ""}${entry.manifest}`);
     const images = coco.images ?? [];
     const annotations = coco.annotations ?? [];
 
     const annotationsByImage = {};
     for (const annotation of annotations) {
+        normalizeAnnotationRecord(annotation);
         (annotationsByImage[annotation.image_id] ??= []).push(annotation);
     }
 
     for (const image of images) {
+        normalizeImageRecord(image);
         image.annotations = annotationsByImage[image.id] ?? [];
-        image.detectedInstances = 0;
-        image.detectedInstancesBySide = {};
         prepareSearchIndex(image);
     }
 
-    await loadStreamDetectionCounts(carton, images);
     grouped[carton] = images;
     loadedStreamCartons[carton] = true;
+    await loadDetectionCounts(carton);
 }
 
-async function loadStreamDetectionCounts(carton, images) {
-    const entry = streamCartonEntries[carton];
-    const manifest = entry?.predictions_manifest;
-    if (!manifest) return;
+async function fetchJson(url) {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`HTTP ${response.status} for ${url}`);
+    return response.json();
+}
+
+// Predictions are stored per carton under data/stream/predictions/. The same
+// files serve the sample subset, whose images belong to streamed cartons.
+function getCartonPredictions(carton) {
+    if (!carton || carton === "Unknown") return Promise.resolve([]);
+    cartonPredictionsCache[carton] ??= (async () => {
+        const entry = streamCartonEntries[carton];
+        const manifest = entry ? entry.predictions_manifest : `predictions/${carton}.json`;
+        if (!manifest) return [];
+        try {
+            const payload = await fetchJson(`${CONFIG.streamManifestBaseUrl ?? ""}${manifest}`);
+            return payload.predictions ?? [];
+        } catch (error) {
+            console.warn(`Unable to load predictions for ${carton}:`, error);
+            return [];
+        }
+    })();
+    return cartonPredictionsCache[carton];
+}
+
+async function loadDetectionCounts(carton) {
+    if (detectionCountsLoaded[carton]) return;
+    detectionCountsLoaded[carton] = true;
+    const images = grouped[carton] ?? [];
 
     const imagesById = {};
     const imagesByFileName = {};
     for (const image of images) {
+        image.detectedInstances = 0;
+        image.detectedInstancesBySide = {};
         imagesById[image.id] = image;
         for (const [side, fileName] of Object.entries(image.file_names ?? {})) {
             imagesByFileName[fileName] = { image, side };
         }
     }
 
-    let payload;
-    try {
-        const response = await fetch(`${CONFIG.streamManifestBaseUrl ?? ""}${manifest}`);
-        payload = await response.json();
-    } catch (error) {
-        console.warn(`Unable to load detection counts for ${carton}:`, error);
-        return;
-    }
-    for (const prediction of payload.predictions ?? []) {
+    for (const prediction of await getCartonPredictions(carton)) {
         const fileMatch = prediction.file_name ? imagesByFileName[prediction.file_name] : null;
-        const image = imagesById[prediction.image_id] ?? fileMatch?.image;
+        // Prefer file names: sample image ids differ from streamed ids.
+        const image = fileMatch?.image ?? (getDatasetMode() === "stream" ? imagesById[prediction.image_id] : null);
         if (!image) continue;
 
         const side = prediction.side ?? prediction.source_face ?? fileMatch?.side ?? "unknown";
@@ -492,33 +612,18 @@ async function loadStreamDetectionCounts(carton, images) {
     }
 }
 
-async function loadActiveStreamPredictions(imageData = currentImageData) {
-    if (getDatasetMode() !== "stream" || !imageData) return;
-    const activeSources = Object.values(predictionSources).filter(source => source.active);
-    for (const source of activeSources) {
-        if (!source.streamByCarton) continue;
-        await loadPredictionCarton(source, getCartonFromImage(imageData));
-    }
-}
-
-async function loadStreamPredictionTexts(imageData = currentImageData) {
-    if (getDatasetMode() !== "stream" || !imageData) return;
-    const sources = Object.values(predictionSources).filter(source => source.streamByCarton);
-    for (const source of sources) {
-        await loadPredictionCarton(source, getCartonFromImage(imageData));
-    }
-}
-
-async function loadAutomaticPredictionSources() {
-    const sources = Object.values(predictionSources).filter(source => source.active && !source.streamByCarton);
-    for (const source of sources) {
-        await loadPredictionSource(source);
-    }
-}
-
-function getActiveImageBaseUrl() {
-    const mode = getDatasetMode();
-    return mode === "full" ? CONFIG.fullDataset?.imageBaseUrl : CONFIG.imageBaseUrl;
+// Load every prediction source needed by an image. Never throws: predictions
+// are an optional layer and must not prevent the image from being displayed.
+async function loadPredictionsForImage(imageData) {
+    const carton = getCartonFromImage(imageData);
+    await Promise.all(Object.values(predictionSources).map(async source => {
+        try {
+            if (source.streamByCarton) await loadPredictionCarton(source, carton);
+            else await loadPredictionSource(source);
+        } catch (error) {
+            console.warn(`Unable to load predictions from ${source.label}:`, error);
+        }
+    }));
 }
 
 function shouldUseSharedocs(imageData = null) {
@@ -532,13 +637,16 @@ function getImageUrl(fileName, imageData = null) {
     if (shouldUseSharedocs(imageData)) {
         return getSharedocsUrl(fileName, "download");
     }
-    return `${getActiveImageBaseUrl() ?? "samples/images/"}${fileName}`;
+    return `${CONFIG.imageBaseUrl ?? "samples/images/"}${fileName}`;
 }
 
 function getThumbnailUrl(fileName, imageData = null) {
     if (!fileName) return "";
     if (shouldUseSharedocs(imageData)) {
         return getSharedocsUrl(fileName, "thumbnail");
+    }
+    if (CONFIG.thumbnailBaseUrl && !/^https?:\/\//i.test(fileName)) {
+        return `${CONFIG.thumbnailBaseUrl}${fileName}`;
     }
     return getImageUrl(fileName, imageData);
 }
@@ -702,16 +810,21 @@ function renderGallery() {
         const title = d.metadata?.Titre ?? d.metadata?.Title ?? d.metadata?.Classe ?? "Untitled document";
         const country = d.metadata?.Pays ?? "Not specified";
         item.innerHTML = `
-            <img src="${imgSrc}" alt="Document ${d.id} thumbnail" loading="lazy"/>
+            <img src="${escapeHtml(imgSrc)}" alt="Document ${escapeHtml(d.id)} thumbnail" loading="lazy" decoding="async"/>
             <div class="item-info">
-                <b>${title}</b>
-                <span class="gallery-card-id">ID ${d.id}</span>
-                <span class="gallery-card-place">${country}</span>
+                <b>${escapeHtml(title)}</b>
+                <span class="gallery-card-id">ID ${escapeHtml(d.id)}</span>
+                <span class="gallery-card-place">${escapeHtml(country)}</span>
                 <span class="gallery-card-stats">
                     <span>${d.annotations?.length ?? 0} annotations</span>
                     <span>${d.detectedInstances ?? 0} detections</span>
                 </span>
             </div>`;
+        const thumbnail = item.querySelector("img");
+        const fullImageSrc = getImageUrl(defaultFileName, d);
+        thumbnail.addEventListener("error", () => {
+            if (thumbnail.src !== new URL(fullImageSrc, document.baseURI).href) thumbnail.src = fullImageSrc;
+        }, { once: true });
 
         item.addEventListener("click", () => {
             galleryEl.querySelector(".gallery-item.active")?.classList.remove("active");
@@ -725,6 +838,12 @@ function renderGallery() {
     galleryEl.appendChild(galleryFrag);
 
     renderPagination(totalPages, filtered.length, start, pageItems.length);
+}
+
+function escapeHtml(value) {
+    return String(value ?? "").replace(/[&<>"']/g, char => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    })[char]);
 }
 
 function goToPage(page, totalPages) {
@@ -837,6 +956,7 @@ async function openExplorerFromUrlParams() {
         setGalleryControlsEnabled(true);
         updateGalleryHeading();
         updateMetadataFilterOptions(grouped[carton] ?? []);
+        await loadDetectionCounts(carton);
     }
 
     const filtered = getFilteredImages() ?? [];
@@ -932,45 +1052,88 @@ function normalizeIdentifier(value) {
     return String(value ?? "").toLowerCase().replace(/[^a-z0-9]/g, "");
 }
 
+function setViewerState(state) {
+    if (!viewerEmptyStateEl) return;
+    viewerEmptyStateEl.classList.toggle("hidden", state === "ready");
+    viewerEmptyStateEl.classList.toggle("is-loading", state === "loading");
+    viewerEmptyStateEl.classList.toggle("is-error", state === "error");
+    if (state === "loading") {
+        viewerEmptyStateEl.innerHTML = "<span>Loading image…</span>";
+    } else if (state === "error") {
+        const origin = shouldUseSharedocs(currentImageData)
+            ? "its file could not be loaded from Huma-Num Sharedocs"
+            : "its image file could not be loaded";
+        viewerEmptyStateEl.innerHTML = `<span>Image unavailable</span><small>The document is indexed, but ${origin}.</small>`;
+    }
+}
+
+// Resolve with true once `imgEl` has loaded `url`, false if it failed.
+function loadMainImage(url) {
+    return new Promise(resolve => {
+        const done = ok => {
+            imgEl.removeEventListener("load", onLoad);
+            imgEl.removeEventListener("error", onError);
+            resolve(ok);
+        };
+        const onLoad = () => done(true);
+        const onError = () => done(false);
+        imgEl.addEventListener("load", onLoad);
+        imgEl.addEventListener("error", onError);
+        if (!url) {
+            done(false);
+            return;
+        }
+        imgEl.src = url;
+        // Same URL as before (no new load event) or synchronously cached image.
+        if (imgEl.complete) done(imgEl.naturalWidth > 0);
+    });
+}
+
 async function displayImageInVisualizer(imageData, face) {
+    const requestId = ++displayRequestId;
+    const isStale = () => requestId !== displayRequestId;
+
     showDocumentView();
     currentImageData = imageData;
     currentFace = face;
-    viewerEmptyStateEl?.classList.add("hidden");
     updateDownloadLink(imageData);
-    // Disable interaction while loading
+
+    // Disable interaction and reset the view while loading
     interactionEnabled = false;
+    activePointers.clear();
+    panStart = pinchStart = null;
     svgEl.style.cursor = "default";
-
-    // Reset transform and prevent any transition during image loading
-    zoomScale = 1; panX = 0; panY = 0;
     wrapperEl.style.transition = "none";
-    wrapperEl.style.transform = `translate(0px, 0px) scale(1)`;
+    zoomScale = 1; panX = 0; panY = 0;
+    applyTransform();
     imgEl.style.visibility = "hidden";
+    gGroup.replaceChildren();
+    tooltip.style.display = "none";
+    setViewerState("loading");
 
-    gGroup.innerHTML = "";
-    imgEl.onload = null;
-
-    imgEl.alt = getDatasetMode() === "stream" ? "Image loaded from Huma-Num Sharedocs" : "Forbin image";
-    try {
-        imgEl.src = getImageUrl(imageData.file_names[face], imageData);
-        await loadAutomaticPredictionSources();
-        await loadActiveStreamPredictions(imageData);
-        await loadStreamPredictionTexts(imageData);
-    } catch (error) {
-        document.getElementById("visualizer-details").innerHTML =
-            `<b>Loading error</b>: ${error.message}`;
-        return;
-    }
+    imgEl.alt = `Document ${imageData.id} — ${face}`;
     renderFileHeader(imageData, face);
-
     renderMetadataPanel(imageData, face);
 
-    // Setup SVG once the image has loaded
-    imgEl.onload = () => requestAnimationFrame(() => setupSVG(imageData, face));
-    if (imgEl.complete && imgEl.naturalWidth !== 0) {
-        requestAnimationFrame(() => setupSVG(imageData, face));
+    // Image and predictions load in parallel; predictions never block the image.
+    const predictionsReady = loadPredictionsForImage(imageData);
+    const loaded = await loadMainImage(getImageUrl(imageData.file_names?.[face], imageData));
+    if (isStale()) return;
+    if (!loaded) {
+        setViewerState("error");
+        return;
     }
+
+    const imageSize = { width: imgEl.naturalWidth, height: imgEl.naturalHeight };
+    setupViewer();
+    drawOverlays(imageData, face);
+    renderMetadataPanel(imageData, face, imageSize);
+    setViewerState("ready");
+
+    await predictionsReady;
+    if (isStale()) return;
+    drawOverlays(imageData, face);
+    renderMetadataPanel(imageData, face, imageSize);
 }
 
 function renderFileHeader(imageData, currentFace) {
@@ -998,13 +1161,13 @@ function getBaseName(fileName) {
     return String(fileName ?? "").split("/").pop() || "N/A";
 }
 
-function renderMetadataPanel(imageData, face) {
+function renderMetadataPanel(imageData, face, imageSize = null) {
     const metadataContent = document.getElementById("metadata-content");
     const transcriptionContent = document.getElementById("transcription-content");
     const metadataFragment = document.createDocumentFragment();
     const transcriptionFragment = document.createDocumentFragment();
 
-    appendTagSection(metadataFragment, "Dimensions", getSizeTags(imageData.metadata ?? {}));
+    appendTagSection(metadataFragment, `Dimensions (${face})`, getSizeTags(imageData.metadata ?? {}, imageSize));
     appendMetadataList(metadataFragment, getDublinCoreRows(imageData));
 
     const forbinAnnotationTexts = getTextItemsForFace(imageData.annotations ?? [], face)
@@ -1101,12 +1264,18 @@ function appendTagSection(fragment, title, tags) {
     fragment.appendChild(section);
 }
 
-function getSizeTags(metadata) {
+// The metadata sizes describe a single side (usually the verso), so the sizes
+// are computed from the displayed file once it is loaded.
+function getSizeTags(metadata, imageSize) {
+    if (!imageSize?.width || !imageSize?.height) return [];
     const tags = [];
-    appendSizeTag(tags, metadata.width_px, metadata.height_px, "px");
-    appendSizeTag(tags, metadata.width_cm, metadata.height_cm, "cm");
-    appendSizeTag(tags, metadata.width_in, metadata.height_in, "in");
-    if (metadata.dpi) tags.push(`${formatMetadataValue(metadata.dpi)} dpi`);
+    const dpi = Number(metadata.dpi);
+    appendSizeTag(tags, imageSize.width, imageSize.height, "px");
+    if (dpi > 0) {
+        appendSizeTag(tags, imageSize.width / dpi * 2.54, imageSize.height / dpi * 2.54, "cm");
+        appendSizeTag(tags, imageSize.width / dpi, imageSize.height / dpi, "in");
+        tags.push(`${formatMetadataValue(dpi)} dpi`);
+    }
     return tags;
 }
 
@@ -1267,11 +1436,11 @@ function getTextItemsForFace(items, face) {
     });
 }
 
-function getPredictionsForFace(imageData, face) {
+function getPredictionsForFace(imageData, face, sources = Object.values(predictionSources)) {
     const faceLower = face.toLowerCase();
     const faceFileName = imageData.file_names?.[face];
     const predictions = [];
-    for (const source of Object.values(predictionSources)) {
+    for (const source of sources) {
         predictions.push(...(predictionsBySource[source.id]?.[imageData.id] ?? []));
         if (faceFileName) {
             predictions.push(...(predictionsBySource[source.id]?.[faceFileName] ?? []));
@@ -1315,31 +1484,24 @@ function isMonkeyOcrItem(item) {
         || item.transcription_source === "monkeyocr";
 }
 
-function setupSVG(imageData, face) {
-    gGroup.innerHTML = "";
+// Start with a fit-to-container view. The image (object-fit: contain) and the
+// SVG (viewBox + xMidYMid meet) both fill the wrapper at 100%, so they stay
+// aligned whatever the container size (resize, full screen, side panels).
+function setupViewer() {
+    svgEl.setAttribute("viewBox", `0 0 ${imgEl.naturalWidth} ${imgEl.naturalHeight}`);
+    svgEl.setAttribute("preserveAspectRatio", "xMidYMid meet");
+    resetView();
+    interactionEnabled = true;
+    svgEl.style.cursor = "grab";
+    wrapperEl.style.visibility = "visible";
+    imgEl.style.visibility = "visible";
+}
 
-    const natW = imgEl.naturalWidth;
-    const natH = imgEl.naturalHeight;
-    const containerW = wrapperEl.clientWidth;
-    const containerH = wrapperEl.clientHeight;
-
-    // Start with a fit-to-container view. The image and overlay already fill the
-    // wrapper, so the initial scale should be 1 to avoid an undesired zoom-out.
-    zoomScale = 1;
-    minZoom = 1;
-    panX = 0;
-    panY = 0;
-
-    svgEl.setAttribute("viewBox", `0 0 ${natW} ${natH}`);
-    svgEl.style.width = containerW + "px";
-    svgEl.style.height = containerH + "px";
-
-    applyTransform();
-
+function drawOverlays(imageData, face) {
     // Manual annotations are always green; every prediction model has its own color.
     const faceLower = face.toLowerCase();
     const anns = (imageData.annotations ?? []).filter(
-        a => (a.source_face ?? "").toLowerCase() === faceLower
+        a => (a.source_face ?? a.side ?? "").toLowerCase() === faceLower
     );
 
     const frag = document.createDocumentFragment();
@@ -1354,25 +1516,16 @@ function setupSVG(imageData, face) {
 
     for (const source of Object.values(predictionSources)) {
         if (!source.active) continue;
-        const predictions = predictionsBySource[source.id]?.[imageData.id] ?? [];
-        const faceFileName = imageData.file_names?.[face];
-        const filePredictions = faceFileName ? predictionsBySource[source.id]?.[faceFileName] ?? [] : [];
-        const allPredictions = predictions.concat(filePredictions);
-        for (const prediction of allPredictions) {
+        for (const prediction of getPredictionsForFace(imageData, face, [source])) {
+            const score = Number(prediction.score);
             appendAnnotationPolygons(frag, prediction, {
                 stroke: source.color,
                 fill: hexToRgba(source.color, 0.18),
-                label: `${source.label} — score ${(prediction.score ?? 0).toFixed(2)}`
+                label: `${source.label} — score ${(Number.isFinite(score) ? score : 0).toFixed(2)}`
             });
         }
     }
-    gGroup.appendChild(frag);
-    applyTransform();  // sync stroke widths
-
-    interactionEnabled = true;
-    svgEl.style.cursor = "grab";
-    wrapperEl.style.visibility = "visible";
-    imgEl.style.visibility = "visible";
+    gGroup.replaceChildren(frag);
 }
 
 function formatOverlayLabel(prefix, item) {
@@ -1399,7 +1552,8 @@ function appendAnnotationPolygons(fragment, annotation, style) {
         poly.setAttribute("tabindex", "0");
         poly.setAttribute("role", "img");
         poly.setAttribute("aria-label", formatOverlayLabel(style.label, annotation));
-        poly.style.cssText = `stroke:${style.stroke};stroke-width:2px;fill:${style.fill};`;
+        // stroke-width is inherited from gGroup (see applyTransform).
+        poly.style.cssText = `stroke:${style.stroke};stroke-width:inherit;fill:${style.fill};`;
         poly.dataset.text = formatOverlayLabel(style.label, annotation);
         poly.addEventListener("mouseenter", onPolygonEnter);
         poly.addEventListener("mouseleave", onPolygonLeave);
@@ -1472,11 +1626,8 @@ async function loadPredictionSource(source) {
     loadedPredictionCartonsBySource[source.id] = {};
     if (!source.url) return;
 
-    if (source.streamByCarton && getDatasetMode() === "stream") return;
-
     if (source.imagesUrl) {
-        const imagesResponse = await fetch(source.imagesUrl);
-        const imagesPayload = await imagesResponse.json();
+        const imagesPayload = await fetchJson(source.imagesUrl);
         const images = imagesPayload.images ?? [];
         for (const image of images) {
             if (image.id == null || !image.file_name) continue;
@@ -1484,8 +1635,7 @@ async function loadPredictionSource(source) {
         }
     }
 
-    const response = await fetch(source.url);
-    const predictions = await response.json();
+    const predictions = await fetchJson(source.url);
     const items = Array.isArray(predictions) ? predictions : predictions.annotations ?? predictions.predictions ?? [];
     for (const item of items) {
         if (item.image_id == null) continue;
@@ -1501,16 +1651,9 @@ async function loadPredictionCarton(source, carton) {
     loadedPredictionCartonsBySource[source.id] ??= {};
     if (loadedPredictionCartonsBySource[source.id][carton]) return;
 
-    const entry = streamCartonEntries[carton];
-    const manifest = entry?.predictions_manifest;
-    if (!manifest) {
-        loadedPredictionCartonsBySource[source.id][carton] = true;
-        return;
-    }
-
-    const response = await fetch(`${CONFIG.streamManifestBaseUrl ?? ""}${manifest}`);
-    const payload = await response.json();
-    for (const item of payload.predictions ?? []) {
+    const predictions = await getCartonPredictions(carton);
+    if (loadedPredictionCartonsBySource[source.id][carton]) return;  // loaded concurrently
+    for (const item of predictions) {
         const key = item.file_name ?? item.image_id;
         (predictionsBySource[source.id][key] ??= []).push(item);
     }
@@ -1533,11 +1676,12 @@ function onPolygonLeave(e) {
 
 function positionTooltip(e) {
     const pad = 12;
-    let left = e.pageX + pad;
-    let top = e.pageY + pad;
+    // The tooltip is position: fixed, so use viewport coordinates.
+    let left = e.clientX + pad;
+    let top = e.clientY + pad;
     const rect = tooltip.getBoundingClientRect();
-    if (left + rect.width > window.innerWidth - pad) left = e.pageX - rect.width - pad;
-    if (top + rect.height > window.innerHeight - pad) top = e.pageY - rect.height - pad;
+    if (left + rect.width > window.innerWidth - pad) left = e.clientX - rect.width - pad;
+    if (top + rect.height > window.innerHeight - pad) top = e.clientY - rect.height - pad;
     tooltip.style.left = Math.max(pad, left) + "px";
     tooltip.style.top = Math.max(pad, top) + "px";
 }

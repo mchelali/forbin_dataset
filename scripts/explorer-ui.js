@@ -13,7 +13,6 @@
   const status = document.getElementById("document-action-status");
   const visualizer = document.getElementById("visualizer");
   const image = document.getElementById("main-img");
-  const emptyState = document.getElementById("viewer-empty-state");
 
   function togglePanel(panel, button) {
     const open = panel.classList.toggle("mobile-open");
@@ -45,11 +44,10 @@
   nextButton?.addEventListener("click", () => openAt(1));
 
   document.getElementById("reset-view")?.addEventListener("click", () => {
-    zoomScale = 1;
-    panX = 0;
-    panY = 0;
-    if (typeof applyTransform === "function") applyTransform();
+    if (typeof resetView === "function") resetView();
   });
+  document.getElementById("zoom-in")?.addEventListener("click", () => zoomBy(ZOOM_STEP));
+  document.getElementById("zoom-out")?.addEventListener("click", () => zoomBy(1 / ZOOM_STEP));
 
   document.getElementById("fullscreen-view")?.addEventListener("click", async () => {
     try {
@@ -105,19 +103,31 @@
   const metadataContent = document.getElementById("metadata-content");
   if (metadataContent) contextObserver.observe(metadataContent, { childList: true, subtree: true });
 
-  image?.addEventListener("error", () => {
-    emptyState?.classList.remove("hidden");
-    emptyState.innerHTML = "<span>Image unavailable</span><small>The document is indexed, but its Sharedocs file could not be loaded.</small>";
-  });
-
-  image?.addEventListener("load", () => {
-    emptyState?.classList.add("hidden");
-    updateContext();
-  });
+  // Loading and error states of the viewer are handled by explorer.js.
+  image?.addEventListener("load", updateContext);
 
   window.addEventListener("unhandledrejection", (event) => {
     const message = String(event.reason?.message || event.reason || "Network error");
     status.textContent = `Some data could not be loaded: ${message}`;
+  });
+
+  // Viewer shortcuts: +/- zoom, 0 fit, ←/→ previous/next document.
+  document.addEventListener("keydown", (event) => {
+    if (!document.body.classList.contains("explorer-document-mode")) return;
+    if (event.ctrlKey || event.metaKey || event.altKey) return;
+    if (event.target.closest?.("input, select, textarea, [contenteditable='true']")) return;
+    const actions = {
+      "+": () => zoomBy(ZOOM_STEP),
+      "=": () => zoomBy(ZOOM_STEP),
+      "-": () => zoomBy(1 / ZOOM_STEP),
+      "0": () => resetView(),
+      ArrowLeft: () => openAt(-1),
+      ArrowRight: () => openAt(1)
+    };
+    const action = actions[event.key];
+    if (!action) return;
+    event.preventDefault();
+    action();
   });
 
   document.addEventListener("keydown", (event) => {

@@ -2,6 +2,7 @@ window.FORBIN_CONFIG = {
     mode: "sample",
     datasetUrl: "samples/subset.json",
     imageBaseUrl: "samples/images/",
+    thumbnailBaseUrl: "samples/thumbnails/",
     streamIndexUrl: "data/stream/cartons_index.json",
     streamManifestBaseUrl: "data/stream/",
     sharedocs: {
@@ -9,17 +10,13 @@ window.FORBIN_CONFIG = {
         baseUrl: "https://sharedocs.huma-num.fr/wl/",
         publicId: "XOJp1buzC6FcbIL2K2qeIbj52WtPEaq4"
     },
-    fullDataset: {
-        datasetUrl: "https://huggingface.co/datasets/mchelali/forbin_dataset/resolve/main/annotations/forbin_annotations.json",
-        imageBaseUrl: "https://huggingface.co/datasets/mchelali/forbin_dataset/resolve/main/images/"
-    },
     predictionSources: [
         {
+            // Loaded carton by carton from data/stream/predictions/ in both
+            // sample and stream modes, matched by file name.
             id: "stamp-detector",
             label: "Stamp detector predictions",
             color: "#2d7dd2",
-            url: "data/forbin_detections.json",
-            imagesUrl: "data/forbin_infer_all.json",
             matchBy: "file_name",
             streamByCarton: true
         }

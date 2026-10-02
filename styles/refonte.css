@@ -248,7 +248,7 @@ body.explorer-page .carton-item:hover, body.explorer-page .carton-item.active { 
 .metadata-search select { min-height: 36px; padding: 6px 8px; border: 1px solid var(--border-soft); border-radius: 4px; background: var(--background-surface); color: var(--text-primary); font-size: 0.7rem; }
 .availability-filters { display: flex; margin-top: 13px; flex-wrap: wrap; gap: 7px 12px; }
 .availability-filters label { display: inline-flex; align-items: center; gap: 5px; color: var(--text-secondary); font-size: 0.67rem; cursor: pointer; }
-.availability-filters input { accent-color: var(--accent-archive); }
+.availability-filters input[type="checkbox"] { flex: none; width: 16px; height: 16px; min-height: 0; margin: 0; padding: 0; accent-color: var(--accent-archive); }
 .filter-status { margin: 12px 0 0; color: var(--text-muted); font-size: 0.65rem; line-height: 1.4; }
 .text-button { min-height: 28px; padding: 2px 0; border: 0; background: transparent; color: var(--accent-archive-dark); font-size: 0.65rem; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
 .metadata-search:focus-within { border-top-color: rgba(138, 101, 71, 0.35); border-bottom-color: rgba(138, 101, 71, 0.35); }
@@ -305,7 +305,7 @@ body.explorer-page .ocr-section.text-prediction .ocr-item { background: transpar
 .gallery-search-panel { max-width: 1500px; margin: 0 auto; padding: 18px; border: 1px solid var(--border-soft); border-radius: 7px; background: var(--background-surface); }
 .gallery-primary-search { display: grid; grid-template-columns: minmax(260px, 1fr) minmax(170px, 240px) auto; align-items: end; gap: 12px; }
 .gallery-primary-search .icon-button { min-height: 42px; }
-.gallery-search-panel input, .gallery-search-panel select { width: 100%; min-height: 42px; padding: 8px 10px; border: 1px solid var(--border-soft); border-radius: 5px; background: var(--background-surface); color: var(--text-primary); }
+.gallery-search-panel input:not([type="checkbox"]), .gallery-search-panel select { width: 100%; min-height: 42px; padding: 8px 10px; border: 1px solid var(--border-soft); border-radius: 5px; background: var(--background-surface); color: var(--text-primary); }
 .gallery-search-panel :disabled { opacity: 0.55; cursor: not-allowed; }
 .gallery-advanced-filters { margin-top: 12px; border-top: 1px solid var(--border-soft); }
 .gallery-advanced-filters summary { padding-top: 12px; color: var(--text-secondary); font-size: 0.72rem; font-weight: 600; cursor: pointer; }
